@@ -1,0 +1,2 @@
+Using interface 'wlan0'
+*** command 'wpa_cli IFNAME=wlan0 list_networks' failed: Invalid argument

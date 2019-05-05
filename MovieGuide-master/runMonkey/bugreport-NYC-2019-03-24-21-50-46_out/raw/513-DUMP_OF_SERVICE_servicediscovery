@@ -1,0 +1,4 @@
+NsdService:
+ total records=0
+curState=EnabledState
+--------- 0.001s was the duration of dumpsys servicediscovery

@@ -1,0 +1,52 @@
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+     256        8        0        0        8        0        0        0    2 /dev/__properties__/properties_serial
+     128       12        0        0       12        0        0        0    1 /dev/__properties__/u:object_r:default_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:log_tag_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:logd_prop:s0
+    1016        4        4        0        0        4        0        0    1 /dev/binder
+      44       40       40        0        0       32        8        0    2 /system/bin/fingerprintd
+     832      272       20      256        0        0       16        0    3 /system/bin/linker
+      28       24       24        0        0       16        8        0    3 /system/lib/hw/fingerprint.ranchu.so
+      76       24        8       16        0        0        8        0    3 /system/lib/libbacktrace.so
+      52       24        8       16        0        0        8        0    3 /system/lib/libbase.so
+     528      352       57      312        0        0       40        0    4 /system/lib/libbinder.so
+     964      264       26      244        0        0       20        0    4 /system/lib/libc++.so
+     876      464       27      444        0        0       20        0    4 /system/lib/libc.so
+    1104      200       57      152        0        0       48        0    3 /system/lib/libcrypto.so
+     128       44        8       36        0        0        8        0    4 /system/lib/libcutils.so
+      16       12        8        4        0        0        8        0    4 /system/lib/libhardware.so
+     204       80       24       68        0        0       12        0    3 /system/lib/libkeymaster1.so
+      72       40       12       32        0        0        8        0    4 /system/lib/libkeymaster_messages.so
+     128       64       20       52        0        0       12        0    4 /system/lib/libkeystore_binder.so
+      68       52       11       44        0        0        8        0    3 /system/lib/liblog.so
+     168       20        8       12        0        0        8        0    3 /system/lib/liblzma.so
+     220       24        8       16        0        0        8        0    3 /system/lib/libm.so
+      16       16        8        8        0        0        8        0    3 /system/lib/libnetd_client.so
+     148       72       17       64        0        0        8        0    3 /system/lib/libprotobuf-cpp-lite.so
+     160       68       18       60        0        0        8        0    4 /system/lib/libsoftkeymasterdevice.so
+      20       12        8        4        0        0        8        0    3 /system/lib/libstdc++.so
+     116       16        8        8        0        0        8        0    3 /system/lib/libunwind.so
+     148       92       10       84        0        0        8        0    4 /system/lib/libutils.so
+     120       32       32        0        0        0       32        0    6 [anon:.bss]
+       4        4        4        0        0        0        4        0    1 [anon:arc4random _rs structure]
+       4        4        4        0        0        0        4        0    1 [anon:arc4random _rsx structure]
+       8        8        8        0        0        0        8        0    2 [anon:atexit handlers]
+    1024       92       92        0        0        0       92        0    1 [anon:libc_malloc]
+      28       28       28        0        0        0       28        0    6 [anon:linker_alloc]
+       4        4        4        0        0        0        4        0    1 [anon:linker_alloc_lob]
+      16       16       16        0        0        0       16        0    4 [anon:linker_alloc_small_objects]
+      24       24       24        0        0        0       24        0    6 [anon:linker_alloc_vector]
+       8        0        0        0        0        0        0        0    2 [anon:thread signal stack guard page]
+      16        0        0        0        0        0        0        0    2 [anon:thread signal stack]
+       4        0        0        0        0        0        0        0    1 [anon:thread stack guard page]
+      24       20       20        0        0        0       20        0    4 [anon]
+    1016        8        8        0        0        0        8        0    1 [stack:1813]
+     136       28       28        0        0        0       28        0    1 [stack]
+       4        4        0        4        0        0        0        0    1 [vdso]
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+   10212     2580      707     1936       28       52      564        0  123 TOTAL

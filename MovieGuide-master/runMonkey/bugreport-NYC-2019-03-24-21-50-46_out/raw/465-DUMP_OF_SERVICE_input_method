@@ -1,0 +1,281 @@
+Current Input Method Manager state:
+  Input Methods:
+  InputMethod #0:
+    mId=com.android.inputmethod.latin/.LatinIME mSettingsActivityName=com.android.inputmethod.latin.settings.SettingsActivity mSupportsSwitchingToNextInputMethod=true
+    mIsDefaultResId=0x7f070000
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=com.android.inputmethod.latin.LatinIME
+        packageName=com.android.inputmethod.latin
+        labelRes=0x7f0a0037 nonLocalizedLabel=null icon=0x0 banner=0x0
+        enabled=true exported=true directBootAware=true
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x3
+        ApplicationInfo:
+          packageName=com.android.inputmethod.latin
+          labelRes=0x7f0a0037 nonLocalizedLabel=null icon=0x7f020098 banner=0x0
+          processName=com.android.inputmethod.latin
+          taskAffinity=com.android.inputmethod.latin
+          uid=10053 flags=0x3 privateFlags=0x60 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/app/LatinIME/LatinIME.apk
+          seinfo=default
+          dataDir=/data/user_de/0/com.android.inputmethod.latin
+          deviceProtectedDataDir=/data/user_de/0/com.android.inputmethod.latin
+          credentialProtectedDataDir=/data/user/0/com.android.inputmethod.latin
+          enabled=true minSdkVersion=14 targetSdkVersion=23 versionCode=25
+          supportsRtl=true
+          fullBackupContent=true
+  InputMethod #1:
+    mId=com.google.android.googlequicksearchbox/com.google.android.voicesearch.ime.VoiceInputMethodService mSettingsActivityName=com.google.android.apps.gsa.velvet.ui.settings.VoiceSearchPreferences mSupportsSwitchingToNextInputMethod=false
+    mIsDefaultResId=0x0
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=com.google.android.voicesearch.ime.VoiceInputMethodService
+        packageName=com.google.android.googlequicksearchbox
+        labelRes=0x7f12048b nonLocalizedLabel=null icon=0x0 banner=0x0
+        processName=com.google.android.googlequicksearchbox:search
+        enabled=true exported=true directBootAware=false
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x3
+        ApplicationInfo:
+          name=com.google.android.apps.gsa.velvet.VelvetApplication
+          packageName=com.google.android.googlequicksearchbox
+          labelRes=0x7f1200fb nonLocalizedLabel=null icon=0x7f030007 banner=0x0
+          className=com.google.android.apps.gsa.velvet.VelvetApplication
+          processName=com.google.android.googlequicksearchbox
+          taskAffinity=com.google.android.googlequicksearchbox
+          uid=10029 flags=0x3 privateFlags=0x808 theme=0x7f130238
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/Velvet/Velvet.apk
+          seinfo=default:privapp
+          dataDir=/data/user/0/com.google.android.googlequicksearchbox
+          deviceProtectedDataDir=/data/user_de/0/com.google.android.googlequicksearchbox
+          credentialProtectedDataDir=/data/user/0/com.google.android.googlequicksearchbox
+          enabled=true minSdkVersion=21 targetSdkVersion=24 versionCode=300720776
+          manageSpaceActivityName=com.google.android.apps.gsa.managespace.VelvetManageSpaceActivity
+          supportsRtl=true
+          fullBackupContent=true
+  InputMethod #2:
+    mId=jp.co.omronsoft.openwnn/.OpenWnnJAJP mSettingsActivityName=jp.co.omronsoft.openwnn.OpenWnnControlPanelJAJP mSupportsSwitchingToNextInputMethod=false
+    mIsDefaultResId=0x0
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=jp.co.omronsoft.openwnn.OpenWnnJAJP
+        packageName=jp.co.omronsoft.openwnn
+        labelRes=0x0 nonLocalizedLabel=Japanese IME icon=0x0 banner=0x0
+        enabled=true exported=true directBootAware=false
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x3
+        ApplicationInfo:
+          packageName=jp.co.omronsoft.openwnn
+          labelRes=0x0 nonLocalizedLabel=OpenWnn icon=0x0 banner=0x0
+          processName=jp.co.omronsoft.openwnn
+          taskAffinity=jp.co.omronsoft.openwnn
+          uid=10062 flags=0x3 privateFlags=0x800 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/app/OpenWnn/OpenWnn.apk
+          seinfo=default
+          dataDir=/data/user/0/jp.co.omronsoft.openwnn
+          deviceProtectedDataDir=/data/user_de/0/jp.co.omronsoft.openwnn
+          credentialProtectedDataDir=/data/user/0/jp.co.omronsoft.openwnn
+          enabled=true minSdkVersion=25 targetSdkVersion=25 versionCode=25
+          supportsRtl=false
+          fullBackupContent=true
+  InputMethod #3:
+    mId=com.example.android.softkeyboard/.SoftKeyboard mSettingsActivityName=com.example.android.softkeyboard.ImePreferences mSupportsSwitchingToNextInputMethod=true
+    mIsDefaultResId=0x0
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=com.example.android.softkeyboard.SoftKeyboard
+        packageName=com.example.android.softkeyboard
+        enabled=true exported=true directBootAware=false
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x3
+        ApplicationInfo:
+          packageName=com.example.android.softkeyboard
+          labelRes=0x7f070000 nonLocalizedLabel=null icon=0x0 banner=0x0
+          processName=com.example.android.softkeyboard
+          taskAffinity=com.example.android.softkeyboard
+          uid=10082 flags=0x3 privateFlags=0x800 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/data/app/SoftKeyboard/SoftKeyboard.apk
+          seinfo=default
+          dataDir=/data/user/0/com.example.android.softkeyboard
+          deviceProtectedDataDir=/data/user_de/0/com.example.android.softkeyboard
+          credentialProtectedDataDir=/data/user/0/com.example.android.softkeyboard
+          enabled=true minSdkVersion=25 targetSdkVersion=25 versionCode=25
+          supportsRtl=false
+          fullBackupContent=true
+  Clients:
+  Client ClientState{1d901a7 uid 10028 pid 5295}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@610c654
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@a8a39fd
+    sessionRequested=false
+    curSession=null
+  Client ClientState{87c4762 uid 10084 pid 5026}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@133f6f2
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@98a1143
+    sessionRequested=false
+    curSession=SessionState{uid 10084 pid 5026 method dddf3c0 session e4578f9 channel ClientState{87c4762 uid 10084 pid 5026} (server)}
+  Client ClientState{806903e uid 10053 pid 1822}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@8b27e9f
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@48e8bec
+    sessionRequested=false
+    curSession=null
+  Client ClientState{8aa28fe uid 10029 pid 2428}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@4061f34
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@3dbabb5
+    sessionRequested=false
+    curSession=SessionState{uid 10029 pid 2428 method dddf3c0 session 5d7724a channel ClientState{8aa28fe uid 10029 pid 2428} (server)}
+  Client ClientState{bf01cdc uid 1000 pid 1700}:
+    client=android.view.inputmethod.InputMethodManager$1@db20e02
+    inputContext=ControlledInputConnectionWrapper{connection=android.view.inputmethod.BaseInputConnection@ca65bb finished=false mParentInputMethodManager.mActive=false mInputMethodId=null}
+    sessionRequested=false
+    curSession=SessionState{uid 1000 pid 1700 method dddf3c0 session ace7ad8 channel ClientState{bf01cdc uid 1000 pid 1700} (server)}
+  Client ClientState{a4f5752 uid 10028 pid 1850}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@e684e31
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@5226916
+    sessionRequested=false
+    curSession=SessionState{uid 10028 pid 1850 method dddf3c0 session 8afa297 channel ClientState{a4f5752 uid 10028 pid 1850} (server)}
+  Client ClientState{73959ac uid 10022 pid 2522}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@889eb6c
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@e1c6c84
+    sessionRequested=false
+    curSession=SessionState{uid 10022 pid 2522 method dddf3c0 session d429c6d channel ClientState{73959ac uid 10022 pid 2522} (server)}
+  mCurMethodId=com.android.inputmethod.latin/.LatinIME
+  mCurClient=ClientState{87c4762 uid 10084 pid 5026} mCurSeq=460
+  mCurFocusedWindow=android.os.BinderProxy@614221b
+  mCurFocusedWindowClient=ClientState{87c4762 uid 10084 pid 5026}
+  mCurId=com.android.inputmethod.latin/.LatinIME mHaveConnect=true mBoundToMethod=true
+  mCurToken=android.os.Binder@71e4ded
+  mCurIntent=Intent { act=android.view.InputMethod cmp=com.android.inputmethod.latin/.LatinIME (has extras) }
+  mCurMethod=com.android.internal.view.IInputMethod$Stub$Proxy@dddf3c0
+  mEnabledSession=SessionState{uid 10084 pid 5026 method dddf3c0 session e4578f9 channel ClientState{87c4762 uid 10084 pid 5026} (server)}
+  mImeWindowVis=
+  mShowRequested=false mShowExplicitlyRequested=false mShowForced=false mInputShown=false
+  mCurUserActionNotificationSequenceNumber=5
+  mSystemReady=true mInteractive=true
+  mSettingsObserver=SettingsObserver{mUserId=0 mRegistered=true mLastEnabled=com.android.inputmethod.latin/.LatinIME:com.google.android.googlequicksearchbox/com.google.android.voicesearch.ime.VoiceInputMethodService}
+  mSwitchingController:
+    mSwitchingAwareRotationList:
+      rank=0 item=ImeSubtypeListItem{mImeName=Android Keyboard (AOSP) mSubtypeName=English (US) mSubtypeId=0 mIsSystemLocale=true mIsSystemLanguage=true}
+    mSwitchingUnawareRotationList:
+  mSettings:
+    mCurrentUserId=0
+    mCurrentProfileIds=[0]
+    mCopyOnWrite=false
+    mEnabledInputMethodsStrCache=com.android.inputmethod.latin/.LatinIME:com.google.android.googlequicksearchbox/com.google.android.voicesearch.ime.VoiceInputMethodService
+ 
+Input method client state for android.view.inputmethod.InputMethodManager@2923a73:
+  mService=com.android.internal.view.IInputMethodManager$Stub$Proxy@e041d30
+  mMainLooper=Looper (main, tid 1) {bc53da9}
+  mIInputContext=ControlledInputConnectionWrapper{connection=android.view.inputmethod.BaseInputConnection@57aef2e finished=false mParentInputMethodManager.mActive=true mInputMethodId=null}
+  mActive=true mHasBeenInactive=false mBindSequence=460 mCurId=com.android.inputmethod.latin/.LatinIME
+  mCurMethod=com.android.internal.view.IInputMethodSession$Stub$Proxy@5cc0acf
+  mCurRootView=DecorView@e45dc5c[MovieDetailsActivity]
+  mServedView=android.support.v4.widget.NestedScrollView{7324e15 VFED..... .F...... 0,735-1080,2319 #7f080090 app:id/scrolling_container}
+  mNextServedView=android.support.v4.widget.NestedScrollView{7324e15 VFED..... .F...... 0,735-1080,2319 #7f080090 app:id/scrolling_container}
+  mServedConnecting=false
+  mCurrentTextBoxAttribute:
+    inputType=0x0 imeOptions=0x0 privateImeOptions=null
+    actionLabel=null actionId=0
+    initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0
+    hintText=null label=null
+    packageName=com.esoxjem.movieguide fieldId=2131230864 fieldName=null
+    extras=null
+    hintLocales=null
+    contentMimeTypes=null
+  mServedInputConnectionWrapper=null
+  mCompletions=null
+  mCursorRect=Rect(0, 0 - 0, 0)
+  mCursorSelStart=2 mCursorSelEnd=2 mCursorCandStart=-1 mCursorCandEnd=-1
+  mNextUserActionNotificationSequenceNumber=5 mLastSentUserActionNotificationSequenceNumber=5
+ 
+Input method service state for com.android.inputmethod.latin.LatinIME@4246dd:
+  mWindowCreated=true mWindowAdded=true
+  mWindowVisible=false mWindowWasVisible=false mInShowWindow=false
+  Configuration={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port finger qwerty/v/v -nav/h s.6}
+  mToken=android.os.BinderProxy@658c6d3
+  mInputBinding=InputBinding{android.os.BinderProxy@a932210 / uid 10084 / pid 5026}
+  mInputConnection=InputConnectionWrapper{idHash=#d669109 mMissingMethods=}
+  mStartedInputConnection=null
+  mInputStarted=true mInputViewStarted=false mCandidatesViewStarted=false
+  mInputEditorInfo:
+    inputType=0x0 imeOptions=0x0 privateImeOptions=null
+    actionLabel=null actionId=0
+    initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0
+    hintText=null label=null
+    packageName=com.esoxjem.movieguide fieldId=2131230864 fieldName=null
+    extras=null
+    hintLocales=null
+    contentMimeTypes=null
+  mShowInputRequested=false mLastShowInputRequested=false mShowInputFlags=0x0
+  mCandidatesVisibility=4 mFullscreenApplied=true mIsFullscreen=false mExtractViewHidden=false
+  mExtractedText: null
+  mExtractedToken=0
+  mIsInputViewShown=true mStatusIcon=0
+Last computed insets:
+  contentTopInsets=956 visibleTopInsets=956 touchableInsets=2 touchableRegion=SkRegion()
+ mShouldClearInsetOfPreviousIme=false
+ mSettingsObserver=SettingsObserver{mShowImeWithHardKeyboard=2}
+LatinIME state :
+  VersionCode = 25
+  VersionName = 7.1.1
+  Keyboard mode = 0
+Current settings :
+   mSpacingAndPunctuations = mSortedSymbolsPrecededBySpace = [38, 40, 91, 123]
+   mSortedSymbolsFollowedBySpace = [33, 38, 41, 44, 46, 58, 59, 63, 93, 125]
+   mSortedWordConnectors = [39, 45]
+   mSortedWordSeparators = [9, 10, 32, 33, 34, 38, 40, 41, 42, 43, 44, 46, 47, 58, 59, 60, 61, 62, 63, 91, 93, 95, 123, 124, 125, 160]
+   mSuggestPuncList = PunctuationSuggestions:  words=[!, ?, \,, :, ;, ", (, ), ', -, /, @, _]
+   mSentenceSeparator = 46
+   mSentenceSeparatorAndSpace = . 
+   mCurrentLanguageHasSpaces = true
+   mUsesAmericanTypography = true
+   mUsesGermanRules = false
+   mDelayInMillisecondsToUpdateOldSuggestions = 300
+   mAutoCap = true
+   mVibrateOn = false
+   mSoundOn = false
+   mKeyPreviewPopupOn = true
+   mShowsVoiceInputKey = true
+   mIncludesOtherImesInLanguageSwitchList = true
+   mShowsLanguageSwitchKey = true
+   mUseContactsDict = true
+   mUsePersonalizedDicts = true
+   mUseDoubleSpacePeriod = true
+   mBlockPotentiallyOffensive = true
+   mBigramPredictionEnabled = true
+   mGestureInputEnabled = false
+   mGestureTrailEnabled = true
+   mGestureFloatingPreviewTextEnabled = true
+   mSlidingKeyInputPreviewEnabled = true
+   mKeyLongpressTimeout = 300
+   mLocale = en_US
+   mInputAttributes = InputAttributes: inputType=0x00090001 noAutoCorrect insertSpaces targetApp=com.esoxjem.movieguide
+
+   mKeypressVibrationDuration = -1
+   mKeypressSoundVolume = -1.0
+   mKeyPreviewPopupDismissDelay = 70
+   mAutoCorrectEnabled = true
+   mAutoCorrectionThreshold = 0.185
+   mAutoCorrectionEnabledPerUserSettings = false
+   mSuggestionsEnabledPerUserSettings = true
+   mDisplayOrientation = 1
+   mAppWorkarounds = Target application : com.esoxjem.movieguide.BaseApplication
+Package : com.esoxjem.movieguide
+Target app sdk version : 26
+   mIsInternal = false
+   mKeyPreviewShowUpDuration = 17
+   mKeyPreviewDismissDuration = 53
+   mKeyPreviewShowUpStartScaleX = 0.98
+   mKeyPreviewShowUpStartScaleY = 0.98
+   mKeyPreviewDismissEndScaleX = 0.94000006
+   mKeyPreviewDismissEndScaleY = 0.94000006
+
+--------- 0.006s was the duration of dumpsys input_method

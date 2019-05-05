@@ -1,0 +1,13 @@
+  Granted Uri Permissions:
+  * UID 10005 holds:
+    UriPermission{c6223b3 0 @ content://downloads/all_downloads/1}
+      targetUserId=0 sourcePkg=com.android.providers.downloads targetPkg=com.google.android.configupdater
+      mode=0x3 owned=0x0 global=0x3 persistable=0x0 persisted=0x0
+    UriPermission{c1bed70 0 @ content://downloads/all_downloads/2}
+      targetUserId=0 sourcePkg=com.android.providers.downloads targetPkg=com.google.android.configupdater
+      mode=0x3 owned=0x0 global=0x3 persistable=0x0 persisted=0x0
+  * UID 10029 holds:
+    UriPermission{edc68e9 0 @ content://downloads/all_downloads/5}
+      targetUserId=0 sourcePkg=com.android.providers.downloads targetPkg=com.google.android.googlequicksearchbox
+      mode=0x3 owned=0x0 global=0x3 persistable=0x0 persisted=0x0
+

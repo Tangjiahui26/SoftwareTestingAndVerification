@@ -1,0 +1,6 @@
+Trust manager state:
+ User "Owner" (id=0, flags=0x13) (current): trusted=0, trustManaged=0, deviceLocked=0, strongAuthRequired=0x0
+   Enabled agents:
+   Events:
+
+--------- 0.002s was the duration of dumpsys trust

@@ -1,0 +1,37 @@
+ResourceManagerService: 0xa939b3c0
+  Policies:
+    SupportsMultipleSecureCodecs: 1
+    SupportsSecureWithNonSecureCodec: 1
+  Processes:
+  Events logs (most recent at top):
+    03-24 21:50:41 removeResource(pid 5295, clientId 2981356064)
+    03-24 21:50:41 removeResource(pid 5295, clientId 2981356064)
+    03-24 21:50:41 removeResource(pid 5295, clientId 2981356064)
+    03-25 04:48:13 removeResource(pid 1700, clientId 2505556704)
+    03-25 04:48:13 removeResource(pid 1700, clientId 2505556704)
+    03-25 04:48:13 removeResource(pid 1700, clientId 2505556704)
+    03-25 04:48:13 removeResource(pid 1700, clientId 2505559744)
+    03-25 04:48:13 removeResource(pid 1700, clientId 2505559744)
+    03-25 04:48:13 removeResource(pid 1700, clientId 2505559744)
+    03-25 04:48:13 removeResource(pid 1700, clientId 2505559744)
+    03-25 04:48:13 removeResource(pid 1700, clientId 2505559744)
+    03-25 04:48:13 removeResource(pid 1700, clientId 2505559744)
+    03-25 04:48:13 removeResource(pid 1700, clientId 2505559904)
+    03-25 04:48:13 removeResource(pid 1700, clientId 2505559904)
+    03-25 04:48:13 removeResource(pid 1700, clientId 2505559904)
+    03-25 04:48:13 removeResource(pid 1700, clientId 2505559648)
+    03-25 04:48:13 removeResource(pid 1700, clientId 2505559648)
+    03-25 04:48:13 removeResource(pid 1700, clientId 2505559648)
+    03-25 04:48:12 removeResource(pid 1850, clientId 2981355648)
+    03-25 04:48:12 removeResource(pid 1850, clientId 2981355648)
+    03-25 04:48:12 removeResource(pid 1850, clientId 2981355648)
+    03-25 04:48:12 removeResource(pid 1850, clientId 2981356064)
+    03-25 04:48:12 removeResource(pid 1850, clientId 2981356064)
+    03-25 04:48:12 removeResource(pid 1850, clientId 2981356064)
+    03-25 04:48:12 removeResource(pid 1850, clientId 2981356704)
+    03-25 04:48:12 removeResource(pid 1850, clientId 2981356704)
+    03-25 04:48:12 removeResource(pid 1850, clientId 2981356704)
+    03-25 04:48:12 removeResource(pid 1700, clientId 2528826016)
+    03-25 04:48:12 removeResource(pid 1700, clientId 2528826016)
+    03-25 04:48:12 removeResource(pid 1700, clientId 2528826016)
+--------- 0.001s was the duration of dumpsys media.resource_manager

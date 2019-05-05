@@ -1,0 +1,21 @@
+Active interfaces:
+Active UID interfaces:
+Dev stats:
+  Pending bytes: 204305
+  History since boot:
+  ident=[{type=MOBILE, subType=COMBINED, subscriberId=310260..., metered=true}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1553486400 rb=5354 rp=30 tb=3206 tp=34 op=0
+  ident=[{type=WIFI, subType=COMBINED, networkId="AndroidWifi", metered=false}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1553486400 rb=19853955 rp=14129 tb=821020 tp=8313 op=0
+Xt stats:
+  Pending bytes: 197629
+  History since boot:
+  ident=[{type=MOBILE, subType=COMBINED, subscriberId=310260..., metered=true}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1553486400 rb=5501 rp=35 tb=3297 tp=39 op=0
+  ident=[{type=WIFI, subType=COMBINED, networkId="AndroidWifi", metered=false}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1553486400 rb=19656520 rp=14127 tb=538749 tp=8311 op=0
+--------- 0.001s was the duration of dumpsys netstats

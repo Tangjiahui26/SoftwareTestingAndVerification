@@ -1,0 +1,460 @@
+AudioPolicyManager: 0xa79cc000
+Command Thread: 0xa79a8ba0
+Tones Thread: 0xa79a8b40
+AudioCommandThread 0xa79a8ba0 Dump
+- Commands:
+   Command Time        Wait pParam
+  Last Command
+   02      000175.007  0    0xa7053580
+AudioCommandThread 0xa79a8b40 Dump
+- Commands:
+   Command Time        Wait pParam
+  Last Command
+     none
+
+AudioPolicyManager Dump: 0xa79cc000
+ Primary Output: 13
+ Phone state: 0
+ Force use for communications 0
+ Force use for media 0
+ Force use for record 0
+ Force use for dock 8
+ Force use for system 0
+ Force use for hdmi system audio 0
+ Force use for encoded surround output 0
+ TTS output not available
+ Master mono: off
+- Available output devices:
+  Device 1:
+  - id:  1
+  - type: AUDIO_DEVICE_OUT_SPEAKER                        
+  - Profiles:
+- Available input devices:
+  Device 1:
+  - id:  3
+  - type: AUDIO_DEVICE_IN_BUILTIN_MIC                     
+  - Profiles:
+      Profile 0:
+          - format: AUDIO_FORMAT_PCM_16_BIT
+          - sampling rates:8000, 11025, 16000, 22050, 44100, 48000
+          - channel masks:0x000c, 0x0010
+  Device 2:
+  - id:  4
+  - type: AUDIO_DEVICE_IN_REMOTE_SUBMIX                   
+  - address: 0                               
+  - Profiles:
+      Profile 0:
+          - format: AUDIO_FORMAT_PCM_16_BIT
+          - sampling rates:48000
+          - channel masks:0x000c
+
+HW Modules dump:
+- HW Module 1:
+  - name: primary
+  - handle: 10
+  - version: 2.0
+  - outputs:
+    output 0:
+    - name: primary
+    - Profiles:
+        Profile 0:
+            - format: AUDIO_FORMAT_PCM_16_BIT
+            - sampling rates:8000, 11025, 16000, 22050, 24000, 44100, 48000
+            - channel masks:0x0001, 0x0003
+    - flags: 0x0002
+    - Supported devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_SPEAKER                        
+      Device 2:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADPHONE                
+      Device 3:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADSET                  
+  - inputs:
+    input 0:
+    - name: primary
+    - Profiles:
+        Profile 0:
+            - format: AUDIO_FORMAT_PCM_16_BIT
+            - sampling rates:8000, 11025, 16000, 22050, 44100, 48000
+            - channel masks:0x000c, 0x0010
+    - flags: 0x0000
+    - Supported devices:
+      Device 1:
+      - type: AUDIO_DEVICE_IN_BUILTIN_MIC                     
+      Device 2:
+      - type: AUDIO_DEVICE_IN_WIRED_HEADSET                   
+- HW Module 2:
+  - name: r_submix
+  - handle: 18
+  - version: 2.0
+  - outputs:
+    output 0:
+    - name: submix
+    - Profiles:
+        Profile 0:
+            - format: AUDIO_FORMAT_PCM_16_BIT
+            - sampling rates:48000
+            - channel masks:0x0003
+    - flags: 0x0000
+    - Supported devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_REMOTE_SUBMIX                  
+      - address: 0                               
+  - inputs:
+    input 0:
+    - name: submix
+    - Profiles:
+        Profile 0:
+            - format: AUDIO_FORMAT_PCM_16_BIT
+            - sampling rates:48000
+            - channel masks:0x000c
+    - flags: 0x0000
+    - Supported devices:
+      Device 1:
+      - type: AUDIO_DEVICE_IN_REMOTE_SUBMIX                   
+      - address: 0                               
+
+Outputs dump:
+- Output 13 dump:
+ Latency: 63
+ Flags 00000002
+ ID: 2
+ Sampling rate: 48000
+ Format: 00000001
+ Channels: 00000003
+ Devices 00000002
+ Stream volume refCount muteCount
+ 00     0.000     00       00
+ 01     -18.938     00       00
+ 02     0.000     00       00
+ 03     0.000     00       00
+ 04     0.000     00       00
+ 05     0.000     00       00
+ 06     -1.000     00       00
+ 07     -21.562     00       00
+ 08     -6.000     00       00
+ 09     0.000     00       01
+ 10     0.000     00       00
+ 11     0.000     00       00
+ 12     -1.000     00       00
+
+Inputs dump:
+- Input 30 dump:
+ ID: 5
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 57
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+- Input 38 dump:
+ ID: 6
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 65
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+- Input 46 dump:
+ ID: 7
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 73
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+- Input 54 dump:
+ ID: 8
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 81
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+- Input 62 dump:
+ ID: 9
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 89
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+- Input 70 dump:
+ ID: 10
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 97
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+- Input 78 dump:
+ ID: 11
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 113
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+- Input 86 dump:
+ ID: 12
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 121
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+- Input 94 dump:
+ ID: 13
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 129
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+- Input 102 dump:
+ ID: 14
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 137
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+- Input 110 dump:
+ ID: 15
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 145
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+- Input 118 dump:
+ ID: 16
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 153
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+- Input 126 dump:
+ ID: 17
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 161
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+- Input 134 dump:
+ ID: 18
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 201
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+- Input 142 dump:
+ ID: 19
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 209
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+- Input 150 dump:
+ ID: 20
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 217
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+- Input 158 dump:
+ ID: 21
+ Sampling rate: 16000
+ Format: 1
+ Channels: 00000010
+ Devices 80000004
+ Audio Sessions:
+   Audio session 1:
+   - session: 233
+   - owner uid: 10029
+   - input source: 1999
+   - format: 00000001
+   - sample: 16000
+   - channel mask: 00000010
+   - is soundtrigger: false
+   - open count: 1
+   - active count: 0
+
+Streams dump:
+ Stream  Can be muted  Index Min  Index Max  Index Cur [device : index]...
+ 00      true          01         05         40000000 : 04, 
+ 01      true          00         07         0002 : 02, 40000000 : 05, 
+ 02      true          00         07         0002 : 02, 40000000 : 05, 
+ 03      true          00         15         40000000 : 11, 
+ 04      true          00         07         40000000 : 06, 
+ 05      true          00         07         0002 : 02, 40000000 : 05, 
+ 06      true          00         15         40000000 : 07, 
+ 07      true          00         07         0002 : 02, 40000000 : 05, 
+ 08      true          00         15         0002 : 04, 40000000 : 11, 
+ 09      true          00         15         40000000 : 11, 
+ 10      true          00         15         40000000 : 11, 
+ 11      true          00         01         40000000 : 01, 
+ 12      true          00         01         40000000 : 01, 
+
+Total Effects CPU: 0.000000 MIPS, Total Effects memory: 0 KB, Max memory used: 0 KB
+Registered effects:
+
+Audio Patches:
+  Audio patch 1:
+  - handle:  1
+  - audio flinger handle: 12
+  - owner uid: 1041
+  - 1 sources:
+    - Mix ID 2 I/O handle 13
+  - 1 sinks:
+    - Device ID 1 AUDIO_DEVICE_OUT_SPEAKER
+--------- 0.002s was the duration of dumpsys media.audio_policy

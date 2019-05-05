@@ -1,0 +1,1969 @@
+PROVIDER ContentProviderRecord{2599d46 u0 com.android.providers.settings/.SettingsProvider} pid=1700
+    Client:
+      GLOBAL SETTINGS (user 0)
+      _id:41 name:low_battery_sound_timeout value:0
+      _id:32 name:car_undock_sound value:/system/media/audio/ui/Undock.ogg
+      _id:93 name:enable_cellular_on_boot value:1
+      _id:74 name:Phenotype_boot_count value:1
+      _id:45 name:volte_vt_enabled value:1
+      _id:71 name:Phenotype_flags value:device_idle_constants:phenotype_test_setting
+      _id:75 name:_boot_Phenotype_flags value:
+      _id:59 name:multi_sim_data_call value:1
+      _id:67 name:verifier_timeout value:15000
+      _id:72 name:device_idle_constants value:light_after_inactive_to=180000,light_pre_idle_to=180000,
+      _id:106 name:mode_ringer value:2
+      _id:36 name:default_install_location value:0
+      _id:22 name:wifi_display_on value:0
+      _id:44 name:device_name value:Android SDK built for x86
+      _id:13 name:wifi_networks_available_notification_on value:1
+      _id:14 name:bluetooth_on value:1
+      _id:81 name:mobile_data value:0
+      _id:37 name:emergency_tone value:0
+      _id:69 name:cert_pin_content_url value:https://www.gstatic.com/android/config_update/08202014-pins.txt
+      _id:46 name:add_users_when_locked value:0
+      _id:34 name:dock_audio_media_enabled value:1
+      _id:64 name:verifier_verify_adb_installs value:0
+      _id:25 name:trusted_sound value:/system/media/audio/ui/Trusted.ogg
+      _id:24 name:unlock_sound value:/system/media/audio/ui/Unlock.ogg
+      _id:3 name:airplane_mode_radios value:cell,bluetooth,wifi,nfc,wimax
+      _id:21 name:wifi_max_dhcp_retry_count value:9
+      _id:4 name:airplane_mode_toggleable_radios value:bluetooth,wifi,nfc
+      _id:50 name:network_scoring_provisioned value:1
+      _id:43 name:heads_up_notifications_enabled value:1
+      _id:65 name:sms_short_codes_metadata_url value:http://www.gstatic.com/android/config_update/11052018-sms-metadata.txt
+      _id:100 name:zen_mode_ringer_level value:2
+      _id:39 name:preferred_network_mode value:0
+      _id:47 name:bluetooth_disabled_profiles value:0
+      _id:68 name:send_action_app_error value:1
+      _id:30 name:desk_undock_sound value:/system/media/audio/ui/Undock.ogg
+      _id:49 name:webview_provider value:com.android.chrome
+      _id:9 name:wifi_sleep_policy value:2
+      _id:28 name:dock_sounds_enabled value:0
+      _id:42 name:wifi_scan_always_enabled value:0
+      _id:62 name:preferred_network_mode1 value:0
+      _id:31 name:car_dock_sound value:/system/media/audio/ui/Dock.ogg
+      _id:26 name:power_sounds_enabled value:1
+      _id:8 name:stay_on_while_plugged_in value:1
+      _id:104 name:zen_mode_config_etag value:-154134749
+      _id:35 name:set_install_location value:0
+      _id:105 name:zen_mode value:0
+      _id:92 name:cell_on value:1
+      _id:16 name:data_roaming value:0
+      _id:11 name:package_verifier_enable value:1
+      _id:2 name:theater_mode_on value:0
+      _id:15 name:cdma_cell_broadcast_sms value:1
+      _id:91 name:airplane_mode_on value:0
+      _id:27 name:low_battery_sound value:/system/media/audio/ui/LowBattery.ogg
+      _id:73 name:phenotype_test_setting value:V15AboveInEnglish
+      _id:19 name:netstats_enabled value:1
+      _id:66 name:cert_pin_metadata_url value:https://www.gstatic.com/android/config_update/08202014-metadata.txt
+      _id:40 name:subscription_mode value:0
+      _id:70 name:sms_short_codes_content_url value:http://www.gstatic.com/android/config_update/11052018-sms-blacklist.txt
+      _id:5 name:assisted_gps_enabled value:1
+      _id:23 name:lock_sound value:/system/media/audio/ui/Lock.ogg
+      _id:7 name:auto_time_zone value:1
+      _id:103 name:wifi_on value:0
+      _id:33 name:wireless_charging_started_sound value:/system/media/audio/ui/WirelessChargingStarted.ogg
+      _id:63 name:device_provisioned value:1
+      _id:52 name:emergency_affordance_needed value:0
+      _id:6 name:auto_time value:1
+      _id:20 name:usb_mass_storage_enabled value:1
+      _id:60 name:multi_sim_sms value:1
+      _id:61 name:multi_sim_voice_call value:1
+      _id:38 name:call_auto_retry value:0
+      _id:58 name:audio_safe_volume_state value:1
+      _id:51 name:boot_count value:1
+      _id:29 name:desk_dock_sound value:/system/media/audio/ui/Dock.ogg
+
+      Historical operations
+      1970-01-01 00:02:47 persist
+      1970-01-01 00:02:47 update  Setting{name=2 from android}
+      1970-01-01 00:02:47 persist
+      1970-01-01 00:02:47 persist
+      1970-01-01 00:02:47 update  Setting{name=0 from android}
+      1970-01-01 00:02:47 update  Setting{name=-154134749 from android}
+      1970-01-01 00:02:46 update  Setting{name=0 from android}
+      1970-01-01 00:02:38 persist
+      1970-01-01 00:02:38 update  Setting{name=1178259341 from android}
+      1970-01-01 00:02:38 persist
+      1970-01-01 00:02:38 update  Setting{name=-1577478186 from android}
+      1970-01-01 00:02:38 update  Setting{name=2 from android}
+      1970-01-01 00:02:38 update  Setting{name=3 from android}
+      1970-01-01 00:02:38 update  Setting{name=1178259341 from android}
+      1970-01-01 00:02:38 update  Setting{name=null from android}
+      1970-01-01 00:02:38 update  Setting{name=0 from android}
+      1970-01-01 00:02:38 update  Setting{name=-154134749 from android}
+      1970-01-01 00:02:34 persist
+      1970-01-01 00:02:34 update  Setting{name=1 from android}
+      1970-01-01 00:02:34 persist
+
+
+      SECURE SETTINGS (user 0)
+      _id:28 name:lock_screen_show_notifications value:1
+      _id:9 name:accessibility_script_injection value:0
+      _id:14 name:accessibility_script_injection_url value:https://ssl.gstatic.com/accessibility/javascript/android/AndroidVox_v1.js
+      _id:55 name:allowed_geolocation_origins value:http://www.google.com http://www.google.co.uk
+      _id:25 name:immersive_mode_confirmations value:
+      _id:54 name:default_input_method value:com.android.inputmethod.latin/.LatinIME
+      _id:63 name:config_update_certificate value:MIID4TCCAsmgAwIBAgIJAMsyDT+FwMuvMA0GCSqGSIb3DQEBBQUAMIGGMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNTW91bnRhaW4gVmlldzETMBEGA1UECgwKR29vZ2xlIEluYzEQMA4GA1UECwwHQW5kcm9pZDEjMCEGCSqGSIb3DQEJARYUc2VjdXJpdHlAYW5kcm9pZC5jb20wHhcNMTIwOTEwMjA0NDQxWhcNMTIxMDEwMjA0NDQxWjCBhjELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDU1vdW50YWluIFZpZXcxEzARBgNVBAoMCkdvb2dsZSBJbmMxEDAOBgNVBAsMB0FuZHJvaWQxIzAhBgkqhkiG9w0BCQEWFHNlY3VyaXR5QGFuZHJvaWQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwuFNNPal1QpUSH8MU5T+BSSbCv/jTU8pbRKwYfq4ZmsjG1BxX8GJS/itdHr5IgG5YGSRpB9JkWJTAne54Qv2xX3ck8yMySjOKbsCuF3Qnrv1HiM1w0PmMvPC5GvDJz9alrrsq6uj40Hd5ina8pTKieYO1PNIf1MByBnrq/615cPOwb4UAYUwx4ChFG8aUNoChgYk0Ain7YoX4Pw7/tXIiVArsPWRbtzXVaMNWONRUM3SGVT5NO67LEEk0vIkDVjmGnJaDkkF+yqAr24ekl2qdMQb9cEnc1wNCMtVdyxUelZoVxFnot3m4ZhYIPzGI2E88TJ6c30Qs1ocHuPXW8KfGQIDAQABo1AwTjAdBgNVHQ4EFgQUXlT7Zj4V/hHVbyL54kmRYizK/powHwYDVR0jBBgwFoAUXlT7Zj4V/hHVbyL54kmRYizK/powDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOCAQEAE5D6pMFMJMwVTtrzZXExgn6r2q7LugmdIpaoFjiU/Iv/bk3VvhDU5jjE54G/fqi/g415yowkFQ02/ZkrTm/q3anvWsppN3NEns2YDi4moEhwLZcCVBzhjkppHGgkLHadzlJZdUFLnzZbDuiZrDNPEkjldVejF1qGt6LbW6d8xNmscerUdKJSUqryOi3U8SXjlTWu5d/hmajQLEe7VJ3y8q5rEsCfsb15EyYxNLfTZuf4PXVU/+kSciTyJxkPZAaz2J1zXQegzC+k3gzNnovlHYlDc5EaVnprsBgOCkaWQfjr6/5YyJysM96WMjndIjyFZSHnj9yF4j7JDwB9qEfxvA==
+      _id:73 name:masterLocationPackagePrefixBlacklist value:com.google.,com.semaphoremobile.zagat.android
+      _id:30 name:sleep_timeout value:-1
+      _id:1 name:location_providers_allowed value:gps
+      _id:29 name:lock_screen_allow_private_notifications value:1
+      _id:32 name:double_tap_to_wake value:1
+      _id:13 name:speak_password value:0
+      _id:27 name:wake_gesture_enabled value:1
+      _id:18 name:screensaver_activate_on_sleep value:0
+      _id:10 name:accessibility_web_content_key_bindings value:0x13=0x01000100; 0x14=0x01010100; 0x15=0x02000001; 0x16=0x02010001; 0x200000013=0x02000601; 0x200000014=0x02010601; 0x200000015=0x03020101; 0x200000016=0x03010201; 0x200000023=0x02000301; 0x200000024=0x02010301; 0x200000037=0x03070201; 0x200000038=0x03000701:0x03010701:0x03020701;
+      _id:52 name:backup_enabled value:{null}
+      _id:57 name:user_setup_complete value:1
+      _id:62 name:facelock_liveliness_recognition_threshold value:2.2
+      _id:43 name:trust_agents_initialized value:1
+      _id:23 name:accessibility_display_magnification_auto_update value:1
+      _id:15 name:lockscreen.disabled value:1
+      _id:35 name:lock_screen_owner_info_enabled value:0
+      _id:61 name:serial_blacklist value:
+      _id:45 name:selected_spell_checker_subtype value:0
+      _id:11 name:long_press_timeout value:400
+      _id:39 name:sysui_tuner_version value:1
+      _id:74 name:masterLocationPackagePrefixWhitelist value:com.google.android.gms
+      _id:67 name:send_action_app_error value:1
+      _id:37 name:voice_recognition_service value:com.google.android.googlequicksearchbox/com.google.android.voicesearch.serviceapi.GoogleRecognitionService
+      _id:19 name:screensaver_components value:com.google.android.deskclock/com.android.deskclock.Screensaver
+      _id:36 name:voice_interaction_service value:com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService
+      _id:22 name:accessibility_display_magnification_scale value:2.0
+      _id:17 name:screensaver_activate_on_dock value:1
+      _id:4 name:backup_transport value:com.google.android.gms/.backup.BackupTransportService
+      _id:41 name:volume_controller_service_component value:{null}
+      _id:60 name:lockscreen.options value:enable_facelock
+      _id:51 name:input_methods_subtype_history value:com.android.inputmethod.latin/.LatinIME;-1
+      _id:2 name:mock_location value:0
+      _id:16 name:screensaver_enabled value:1
+      _id:40 name:snoozed_schedule_condition_provider value:
+      _id:5 name:mount_play_not_snd value:1
+      _id:8 name:mount_ums_notify_enabled value:1
+      _id:70 name:web_autofill_query_url value:http://android.clients.google.com/proxy/webautofill
+      _id:72 name:print_service_search_uri value:https://play.google.com/store/apps/collection/promotion_3000abc_print_services
+      _id:31 name:android_id value:b1fb4b7c3b6b86a5
+      _id:12 name:touch_exploration_enabled value:0
+      _id:66 name:facelock_max_center_movement value:10.0
+      _id:68 name:facelock_detection_threshold value:0.0
+      _id:34 name:enabled_notification_policy_access_packages value:com.android.camera2
+      _id:53 name:selected_input_method_subtype value:-921088104
+      _id:65 name:pubkey_blacklist value:410f36363258f30b347d12ce4863e433437806a8,c4f9663716cd5e71d6950b5f33ce041c95b435d1,e23b8d105f87710a68d9248050ebefc627be4ca6,7b2e16bc39bcd72b456e9f055d1de615b74945db,e8f91200c65cee16e039b9f883841661635f81c5,0129bcd5b448ae8d2496d1c3e19723919088e152,d33c5b41e45cc4b3be9ad6952c4ecc2528032981,e12d89f56d2276f830e6ceafa66c725c0b41a932,d9f5c6ce57ffaa39cc7ed172bd53e0d307834bd1,3ecf4bbbe46096d514bb539bb913d77aa4ef31bf,685eec0a39f668ae8fd8964f987476b4504fd2be,0e502d4dd1e160368a31f06a810431ba6f72c041,93d1532229cc2abd21dff597ee320fe4246f3d0c,f57179faea10c5438cb0c6e1cc277b6e0db2ff54,077ac7de8da558643a06c5369e554faeb3dfa166,e58e315baaeeaac6e72ec9573670ca2f254ec347,384d0c1dc477a7b3f86786d018519f589f1e9e25,c1f9f2894f2e8521507c089f362d5cd9feff7e21,11f75f354126c2c849f53f29cf929604233cf869,e0e90e95afab970b897bfb503f72cb4c06cfb4f3
+      _id:7 name:mount_ums_prompt value:1
+      _id:44 name:selected_spell_checker value:com.android.inputmethod.latin/.spellcheck.AndroidSpellCheckerService
+      _id:56 name:last_setup_shown value:eclair_1
+      _id:71 name:ssl_session_cache value:file
+      _id:20 name:screensaver_default_component value:com.google.android.deskclock/com.android.deskclock.Screensaver
+      _id:6 name:mount_ums_autostart value:0
+      _id:42 name:show_note_about_notification_hiding value:0
+      _id:59 name:sms_default_application value:com.google.android.apps.messaging
+      _id:58 name:install_non_market_apps value:1
+      _id:33 name:show_ime_with_hard_keyboard value:1
+      _id:38 name:accessibility_enabled value:0
+      _id:21 name:accessibility_display_magnification_enabled value:0
+      _id:69 name:dropbox:data_app_anr value:disabled
+      _id:75 name:dropbox:data_app_wtf value:disabled
+      _id:64 name:dropbox:data_app_crash value:disabled
+      _id:50 name:enabled_input_methods value:com.android.inputmethod.latin/.LatinIME:com.google.android.googlequicksearchbox/com.google.android.voicesearch.ime.VoiceInputMethodService
+
+      Historical operations
+      1970-01-01 00:00:32 persist
+      1970-01-01 00:00:32 persist
+      1970-01-01 00:00:32 update  Setting{name=disabled from com.google.android.gsf}
+      1970-01-01 00:00:32 update  Setting{name=com.google.android.gms from com.google.android.gsf}
+      1970-01-01 00:00:32 update  Setting{name=com.google.,com.semaphoremobile.zagat.android from com.google.android.gsf}
+      1970-01-01 00:00:32 update  Setting{name=https://play.google.com/store/apps/collection/promotion_3000abc_print_services from com.google.android.gsf}
+      1970-01-01 00:00:32 update  Setting{name=file from com.google.android.gsf}
+      1970-01-01 00:00:32 update  Setting{name=http://android.clients.google.com/proxy/webautofill from com.google.android.gsf}
+      1970-01-01 00:00:32 update  Setting{name=disabled from com.google.android.gsf}
+      1970-01-01 00:00:32 update  Setting{name=0.0 from com.google.android.gsf}
+      1970-01-01 00:00:32 update  Setting{name=1 from com.google.android.gsf}
+      1970-01-01 00:00:32 update  Setting{name=10.0 from com.google.android.gsf}
+      1970-01-01 00:00:32 update  Setting{name=410f36363258f30b347d12ce4863e433437806a8,c4f9663716cd5e71d6950b5f33ce041c95b435d1,e23b8d105f87710a68d9248050ebefc627be4ca6,7b2e16bc39bcd72b456e9f055d1de615b74945db,e8f91200c65cee16e039b9f883841661635f81c5,0129bcd5b448ae8d2496d1c3e19723919088e152,d33c5b41e45cc4b3be9ad6952c4ecc2528032981,e12d89f56d2276f830e6ceafa66c725c0b41a932,d9f5c6ce57ffaa39cc7ed172bd53e0d307834bd1,3ecf4bbbe46096d514bb539bb913d77aa4ef31bf,685eec0a39f668ae8fd8964f987476b4504fd2be,0e502d4dd1e160368a31f06a810431ba6f72c041,93d1532229cc2abd21dff597ee320fe4246f3d0c,f57179faea10c5438cb0c6e1cc277b6e0db2ff54,077ac7de8da558643a06c5369e554faeb3dfa166,e58e315baaeeaac6e72ec9573670ca2f254ec347,384d0c1dc477a7b3f86786d018519f589f1e9e25,c1f9f2894f2e8521507c089f362d5cd9feff7e21,11f75f354126c2c849f53f29cf929604233cf869,e0e90e95afab970b897bfb503f72cb4c06cfb4f3 from com.google.android.gsf}
+      1970-01-01 00:00:32 update  Setting{name=disabled from com.google.android.gsf}
+      1970-01-01 00:00:32 update  Setting{name=MIID4TCCAsmgAwIBAgIJAMsyDT+FwMuvMA0GCSqGSIb3DQEBBQUAMIGGMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNTW91bnRhaW4gVmlldzETMBEGA1UECgwKR29vZ2xlIEluYzEQMA4GA1UECwwHQW5kcm9pZDEjMCEGCSqGSIb3DQEJARYUc2VjdXJpdHlAYW5kcm9pZC5jb20wHhcNMTIwOTEwMjA0NDQxWhcNMTIxMDEwMjA0NDQxWjCBhjELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDU1vdW50YWluIFZpZXcxEzARBgNVBAoMCkdvb2dsZSBJbmMxEDAOBgNVBAsMB0FuZHJvaWQxIzAhBgkqhkiG9w0BCQEWFHNlY3VyaXR5QGFuZHJvaWQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwuFNNPal1QpUSH8MU5T+BSSbCv/jTU8pbRKwYfq4ZmsjG1BxX8GJS/itdHr5IgG5YGSRpB9JkWJTAne54Qv2xX3ck8yMySjOKbsCuF3Qnrv1HiM1w0PmMvPC5GvDJz9alrrsq6uj40Hd5ina8pTKieYO1PNIf1MByBnrq/615cPOwb4UAYUwx4ChFG8aUNoChgYk0Ain7YoX4Pw7/tXIiVArsPWRbtzXVaMNWONRUM3SGVT5NO67LEEk0vIkDVjmGnJaDkkF+yqAr24ekl2qdMQb9cEnc1wNCMtVdyxUelZoVxFnot3m4ZhYIPzGI2E88TJ6c30Qs1ocHuPXW8KfGQIDAQABo1AwTjAdBgNVHQ4EFgQUXlT7Zj4V/hHVbyL54kmRYizK/powHwYDVR0jBBgwFoAUXlT7Zj4V/hHVbyL54kmRYizK/powDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOCAQEAE5D6pMFMJMwVTtrzZXExgn6r2q7LugmdIpaoFjiU/Iv/bk3VvhDU5jjE54G/fqi/g415yowkFQ02/ZkrTm/q3anvWsppN3NEns2YDi4moEhwLZcCVBzhjkppHGgkLHadzlJZdUFLnzZbDuiZrDNPEkjldVejF1qGt6LbW6d8xNmscerUdKJSUqryOi3U8SXjlTWu5d/hmajQLEe7VJ3y8q5rEsCfsb15EyYxNLfTZuf4PXVU/+kSciTyJxkPZAaz2J1zXQegzC+k3gzNnovlHYlDc5EaVnprsBgOCkaWQfjr6/5YyJysM96WMjndIjyFZSHnj9yF4j7JDwB9qEfxvA== from com.google.android.gsf}
+      1970-01-01 00:00:32 update  Setting{name=2.2 from com.google.android.gsf}
+      1970-01-01 00:00:32 update  Setting{name= from com.google.android.gsf}
+      1970-01-01 00:00:32 update  Setting{name=enable_facelock from com.google.android.gsf}
+      1970-01-01 00:00:26 persist
+      1970-01-01 00:00:24 persist
+
+
+      SYSTEM SETTINGS (user 0)
+      _id:18 name:window_animation_scale value:1.0
+      _id:22 name:notification_light_pulse value:1
+      _id:30 name:notification_sound value:content://media/internal/audio/media/70
+      _id:5 name:volume_alarm value:6
+      _id:1 name:volume_music value:11
+      _id:4 name:volume_voice value:4
+      _id:32 name:ringtone value:content://media/internal/audio/media/105
+      _id:14 name:hearing_aid value:0
+      _id:2 name:volume_ring value:5
+      _id:17 name:screen_brightness_mode value:0
+      _id:29 name:alarm_alert_set value:1
+      _id:9 name:mute_streams_affected value:46
+      _id:15 name:tty_mode value:0
+      _id:33 name:ringtone_set value:1
+      _id:11 name:dim_screen value:1
+      _id:31 name:notification_sound_set value:1
+      _id:7 name:volume_bluetooth_sco value:7
+      _id:25 name:lockscreen_sounds_enabled value:1
+      _id:47 name:user_rotation value:0
+      _id:49 name:accelerometer_rotation value:1
+      _id:12 name:screen_off_timeout value:60000
+      _id:10 name:vibrate_when_ringing value:0
+      _id:28 name:alarm_alert value:content://media/internal/audio/media/9
+      _id:26 name:pointer_speed value:0
+      _id:19 name:transition_animation_scale value:1.0
+      _id:27 name:mode_ringer_streams_affected value:422
+      _id:6 name:volume_notification value:5
+      _id:13 name:dtmf_tone_type value:0
+      _id:23 name:dtmf_tone value:1
+      _id:50 name:volume_ring_speaker value:2
+      _id:3 name:volume_system value:7
+      _id:24 name:sound_effects_enabled value:1
+      _id:45 name:screen_brightness value:52
+      _id:21 name:haptic_feedback_enabled value:1
+
+      Historical operations
+      1970-01-01 00:02:55 persist
+      1970-01-01 00:02:55 update  Setting{name=2 from android}
+      1970-01-01 00:02:55 update  Setting{name=1 from android}
+      1970-01-01 00:02:55 update  Setting{name=0 from android}
+      1970-01-01 00:02:55 update  Setting{name=0 from android}
+      1970-01-01 00:02:53 persist
+      1970-01-01 00:02:53 update  Setting{name=3 from android}
+      1970-01-01 00:02:50 persist
+      1970-01-01 00:02:49 update  Setting{name=52 from android}
+      1970-01-01 00:02:47 persist
+      1970-01-01 00:02:47 update  Setting{name=1 from android}
+      1970-01-01 00:02:47 update  Setting{name=2 from android}
+      1970-01-01 00:02:38 persist
+      1970-01-01 00:02:38 update  Setting{name=1 from android}
+      1970-01-01 00:02:38 update  Setting{name=2 from android}
+      1970-01-01 00:02:33 persist
+      1970-01-01 00:02:33 update  Setting{name=0 from android}
+      1970-01-01 00:02:32 persist
+      1970-01-01 00:02:32 update  Setting{name=4 from android}
+      1970-01-01 00:02:31 persist
+
+
+
+PROVIDER ContentProviderRecord{8377b07 u0 com.android.providers.telephony/.HbpcdLookupProvider} pid=1989
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{b0dc25d u0 com.android.providers.telephony/.TelephonyProvider} pid=1989
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{c46c0a3 u0 com.android.providers.telephony/.SmsProvider} pid=1989
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9e92759 u0 android/com.android.server.am.DumpHeapProvider} pid=1700
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{a190f1e u0 com.android.providers.telephony/.MmsSmsProvider} pid=1989
+    Client:
+      Default SMS app: com.google.android.apps.messaging
+
+PROVIDER ContentProviderRecord{83755cc u0 com.android.providers.telephony/.MmsProvider} pid=1989
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f42ff2a u0 com.android.chrome/org.chromium.chrome.browser.provider.ChromeBrowserProvider} pid=4924
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{c476891 u0 com.google.android.talk/com.google.android.apps.hangouts.directshare.impl.DirectShareProvider} pid=3912
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{fcf33f7 u0 com.google.android.gsf/.subscribedfeeds.SubscribedFeedsProvider} pid=2338
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e484982 u0 com.google.android.gms/.fonts.provider.FontsProvider} pid=2563
+    Client:
+
+PROVIDER ContentProviderRecord{3fe70d0 u0 com.android.chrome/org.chromium.chrome.browser.superviseduser.SupervisedUserContentProvider} pid=4924
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{ab57bce u0 com.google.android.apps.photos/com.google.android.apps.consumerphotoeditor.renderedimageprovider.RenderedImageContentProvider} pid=3402
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{921c9fc u0 com.google.android.gms/.trustagent.framework.model.be.ModelContentProvider} pid=2259
+    Client:
+
+PROVIDER ContentProviderRecord{fb186da u0 com.google.android.music/.search.IcingContentProvider} pid=4272
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{8bf89e8 u0 com.google.android.gsf/.settings.GoogleSettingsProvider} pid=2338
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{83136a6 u0 com.google.android.apps.messaging/.shared.datamodel.BugleContentProvider} pid=5108
+    Client:
+      Default SMS app: com.google.android.apps.messaging
+
+PROVIDER ContentProviderRecord{bf75c94 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.projection.CarAudioProvider} pid=2428
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{7aa1732 u0 com.google.android.talk/com.google.android.apps.hangouts.mergedcontacts.impl.MergedContactProviderImpl} pid=3912
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{c37ae00 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.voiceinteraction.hotword.HotwordAudioProvider} pid=2281
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{15e747e u0 com.google.android.gm/.provider.MailProvider} pid=3945
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{969aa2c u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.speech.audio.AudioProvider} pid=2428
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{8695a8a u0 com.google.android.gms/.people.service.PeopleGalProvider} pid=2563
+    Client:
+
+PROVIDER ContentProviderRecord{6dd3d18 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.icingsync.InternalIcingCorporaProvider} pid=2428
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{48a9556 u0 com.google.android.gms/.subscribedfeeds.GmsSubscribedFeedsProvider} pid=2563
+    Client:
+
+PROVIDER ContentProviderRecord{af512c4 u0 com.google.android.talk/com.google.android.libraries.matchstick.debug.DumpProvider} pid=4367
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9c65c73 u0 com.google.android.gm/.provider.GmailProvider} pid=3945
+    Client:
+      nothing to dump
+        Gmail account states:
+PROVIDER ContentProviderRecord{9b2fa9 u0 com.google.android.gms/com.google.android.location.reporting.service.utils.ReportingContentProvider} pid=2259
+    Client:
+
+PROVIDER ContentProviderRecord{9204ccf u0 com.google.android.talk/android.support.v4.content.FileProvider} pid=3912
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{94e1d65 u0 com.google.android.gms/.fitness.sync.FitnessContentProvider} pid=2259
+    Client:
+
+PROVIDER ContentProviderRecord{67ee6eb u0 com.android.providers.downloads/.DownloadProvider} pid=2671
+    Client:
+      Downloads updated in last hour:
+        Download #1:
+          _id=1 uri=https://www.gstatic.com/android/config_update/08202014-metadata.txt method=0 entity=null 
+          no_integrity=null hint=null otaupdate=null 
+          _data=/data/user/0/com.android.providers.downloads/cache/08202014-metadata.txt mimetype=text/plain destination=2 
+          no_system=null visibility=2 control=null status=200 numfailed=0 lastmod=1553489306914 
+          notificationpackage=com.google.android.configupdater notificationclass=null notificationextras=null useragent=null 
+          referer=null total_bytes=384 current_bytes=384 etag=null uid=10005 otheruid=null title=08202014-metadata.txt 
+          description= scanned=null is_public_api=1 allow_roaming=1 allowed_network_types=-1 is_visible_in_downloads_ui=0 
+          bypass_recommended_size_limit=0 mediaprovider_uri=null deleted=0 errorMsg=null allow_metered=1 allow_write=0 
+          flags=0 
+        Download #2:
+          _id=2 uri=http://www.gstatic.com/android/config_update/11052018-sms-metadata.txt method=0 entity=null 
+          no_integrity=null hint=null otaupdate=null 
+          _data=/data/user/0/com.android.providers.downloads/cache/11052018-sms-metadata.txt mimetype=text/plain 
+          destination=2 no_system=null visibility=2 control=null status=200 numfailed=0 lastmod=1553489307009 
+          notificationpackage=com.google.android.configupdater notificationclass=null notificationextras=null useragent=null 
+          referer=null total_bytes=385 current_bytes=385 etag=null uid=10005 otheruid=null title=11052018-sms-metadata.txt 
+          description= scanned=null is_public_api=1 allow_roaming=1 allowed_network_types=-1 is_visible_in_downloads_ui=0 
+          bypass_recommended_size_limit=0 mediaprovider_uri=null deleted=0 errorMsg=null allow_metered=1 allow_write=0 
+          flags=0 
+        Download #5:
+          _id=5 uri=https://www.gstatic.com/gsa_dynamic_updates/prod/main_apk.gz.jar method=0 entity=null no_integrity=null 
+          hint=file:///storage/emulated/0/Android/data/com.google.android.googlequicksearchbox/files/pending_blobs/main_apk 
+          otaupdate=null _data=null mimetype=null destination=4 no_system=null visibility=2 control=null status=404 
+          numfailed=0 lastmod=1553489333678 notificationpackage=com.google.android.googlequicksearchbox 
+          notificationclass=null notificationextras=null useragent=null referer=null total_bytes=-1 current_bytes=0 
+          etag=null uid=10029 otheruid=null title= description= scanned=null is_public_api=1 allow_roaming=0 
+          allowed_network_types=-1 is_visible_in_downloads_ui=0 bypass_recommended_size_limit=0 mediaprovider_uri=null 
+          deleted=0 errorMsg=Unhandled HTTP response: 404 Not Found allow_metered=0 allow_write=0 flags=0 
+
+PROVIDER ContentProviderRecord{b882ae1 u0 com.android.providers.contacts/.CallLogProvider} pid=2678
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{da4b4f4 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.imageloader.NetworkImageLoaderContentProvider} pid=2428
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{bad1692 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.ondevicewebsuggest.OnDeviceWebSuggestHostProvider} pid=2428
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9d22c60 u0 com.google.android.gms/.games.chimera.GamesContentProviderProxy} pid=2563
+    Client:
+
+PROVIDER ContentProviderRecord{e8209de u0 com.google.android.gms/com.google.android.location.internal.server.HistorianFileProvider} pid=2563
+    Client:
+
+PROVIDER ContentProviderRecord{b9dae8c u0 com.google.android.apps.photos/.photoeditor.contentprovider.EditMediaContentProvider} pid=3402
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f20e5ea u0 com.android.chrome/com.android.webview.chromium.LicenseContentProvider} pid=4924
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{4bd2778 u0 com.android.providers.contacts/.ContactMetadataProvider} pid=2678
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{91f76b6 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.velvet.util.StateDumpProvider} pid=2428
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{a594324 u0 com.android.cellbroadcastreceiver/.CellBroadcastSearchIndexableProvider} pid=5060
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e031053 u0 com.android.phone/.PhoneSearchIndexablesProvider} pid=1989
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{575b689 u0 com.google.android.gms/.wallet.setupwizard.PaymentsSetupWizardSuggestionStateProvider} pid=2563
+    Client:
+
+PROVIDER ContentProviderRecord{5a45eaf u0 com.google.android.gms/.wallet.provider.WalletFileProvider} pid=2563
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{dfa3245 u0 com.google.android.gms/.phenotype.provider.ConfigurationProvider} pid=2259
+    Client:
+      Phenotype committed experiment tokens; config-package v=version u=user: base64-token
+      alt.com.google.android.gms.devicedoctor v=208 u=: CAMSAA
+      com.google.android.dialer v=407250 u=: CAMSGRUQ_oMJZEknAgUzBRsF_QYENQQGBBkECQM
+      com.google.android.gms v=208 u=: CAMSERUIvZTuD6cMjAYF_gQEogkG
+      com.google.android.gms.accountsettings v=214 u=: CAMSCRUAsOiFCgUhBQ
+      com.google.android.gms.audit v=111 u=: CAMSAA
+      com.google.android.gms.auth.api.credentials v=20000 u=: CAMSBxUCxKTvDQU
+      com.google.android.gms.auth.easyunlock v=220 u=: CAMSAA
+      com.google.android.gms.auth.proximity v=220 u=: CAMSAA
+      com.google.android.gms.auth_account v=227 u=: CAMSAA
+      com.google.android.gms.auth_api_early_update v=3 u=: CAMSAA
+      com.google.android.gms.auth_api_phone v=208 u=: CAMSAA
+      com.google.android.gms.auth_authzen v=20000 u=: CAMSAA
+      com.google.android.gms.auth_cryptauth v=206 u=: CAMSAA
+      com.google.android.gms.auth_managed v=228 u=: CAMSAA
+      com.google.android.gms.autofill v=20000 u=: CAMSBxUCiMroDQU
+      com.google.android.gms.backup v=900 u=: CAMSBxUCqLf6CwU
+      com.google.android.gms.beacon v=232 u=: CAMSAA
+      com.google.android.gms.car#car v=230 u=: CAMSAA
+      com.google.android.gms.car#car_setup v=212 u=: CAMSAA
+      com.google.android.gms.cast v=218 u=: CAMSEBUJq_aQDAUTBRYFAgWiBgQ
+      com.google.android.gms.checkin v=231 u=: CAMSAA
+      com.google.android.gms.chromesync v=20000 u=: CAMSAA
+      com.google.android.gms.clearcut.public v=219 u=: CAMSAA
+      com.google.android.gms.constellation v=316 u=: CAMSAA
+      com.google.android.gms.contextmanager v=20022 u=: CAMSAA
+      com.google.android.gms.devicedoctor v=208 u=: CAMSAA
+      com.google.android.gms.droidguard v=222 u=: CAMSAA
+      com.google.android.gms.easysignin v=1 u=: CAMSAA
+      com.google.android.gms.family v=218 u=: CAMSBxUCqcuZFQQ
+      com.google.android.gms.feedback v=221 u=: CAMSAA
+      com.google.android.gms.firebase.auth v=213 u=: CAMSAA
+      com.google.android.gms.fitness v=214 u=: CAMSAA
+      com.google.android.gms.fonts v=226 u=: CAMSBxUCq8KvCwQ
+      com.google.android.gms.gcm v=624 u=: CAMSAA
+      com.google.android.gms.gconnect v=1 u=: CAMSBxUCjfjJCwU
+      com.google.android.gms.googlehelp v=221 u=: CAMSBhUD1ePlDQ
+      com.google.android.gms.growth v=240 u=: CAMSAA
+      com.google.android.gms.herrevad v=20000 u=: CAMSAA
+      com.google.android.gms.icing v=20007 u=: CAMSGRUQ-ILlDgUWBM4FBKwGBCAEAQQWBBYEIAQ
+      com.google.android.gms.icing.mdd v=20007 u=: CAMSAA
+      com.google.android.gms.instantapps v=224 u=: CAMSAA
+      com.google.android.gms.ipa v=205 u=: CAMSFRUUhv3HCwUCBS4FJQUCBSAFSwUYBQ
+      com.google.android.gms.languageprofile v=201 u=: CAMSAA
+      com.google.android.gms.locationsharing v=212 u=: CAMSAA
+      com.google.android.gms.magictether v=220 u=: CAMSAA
+      com.google.android.gms.matchstick v=20000 u=: CAMSDRUM3feSDQAMBQ4bDTk
+      com.google.android.gms.measurement v=231 u=: CAMSAA
+      com.google.android.gms.mobile_data_plan v=247 u=: CAMSAA
+      com.google.android.gms.nearby v=20000 u=: CAMSCRUA473hDXsERg
+      com.google.android.gms.netrec v=216 u=: CAMSBxUCi8OjDQU
+      com.google.android.gms.notifications v=209 u=: CAMSAA
+      com.google.android.gms.ocr v=337 u=: CAMSEBUJp_HCDiUFCAUCBScFJwU
+      com.google.android.gms.octarine v=208 u=: CAMSAA
+      com.google.android.gms.people v=13280022 u=: CAMSGRUQw4z0DihSE3YR-QZhBFEFWQQVBC4EAQQ
+      com.google.android.gms.people.ui v=13280022 u=: CAMSCBUB1N70DgIl
+      com.google.android.gms.phenotype v=219 u=: CAMSAA
+      com.google.android.gms.places v=19000 u=: CAMSBxUCg5-IDQQ
+      com.google.android.gms.playlog.uploader v=219 u=: CAMSAA
+      com.google.android.gms.reachability v=219 u=: CAMSBxUCsI6qDRI
+      com.google.android.gms.romanesco v=211 u=: CAMSDhULpvCfDRMEATwACigE
+      com.google.android.gms.security v=218 u=: CAMSGxUe59T1DQROBQ8FAAUABQAFAAUABQAFAAUABQ
+      com.google.android.gms.settings.platform v=219 u=: CAMSCBUBnbmmDaUA
+      com.google.android.gms.signin v=20000 u=: CAMSAA
+      com.google.android.gms.smart_profile v=250 u=: CAMSAA
+      com.google.android.gms.smartdevice v=226 u=: CAMSBxUCkLH7DQQ
+      com.google.android.gms.subscribedfeeds v=624 u=: CAMSAA
+      com.google.android.gms.subscriptions v=205 u=: CAMSAA
+      com.google.android.gms.tapandpay v=13280022 u=: CAMSCBUB-erKDhcP
+      com.google.android.gms.telephonyspam v=210 u=: CAMSAA
+      com.google.android.gms.thunderbird v=211 u=: CAMSBxUCtMLwDQE
+      com.google.android.gms.tron.metrics v=223 u=: CAMSAA
+      com.google.android.gms.trustagent v=212 u=: CAMSAA
+      com.google.android.gms.trustlet_onbody v=203 u=: CAMSAA
+      com.google.android.gms.trustlet_place v=205 u=: CAMSAA
+      com.google.android.gms.udc v=253 u=: CAMSBxUCwpriDQQ
+      com.google.android.gms.ulr v=221 u=: CAMSBxUC7buPDQU
+      com.google.android.gms.update v=20000 u=: CAMSAA
+      com.google.android.gms.usagereporting v=206 u=: CAMSAA
+      com.google.android.gms.vision v=1800 u=: CAMSAA
+      com.google.android.gms.vision.sdk v=1800 u=: CAMSAA
+      com.google.android.gms.wallet v=239 u=: CAMSCRUAiImeDAVDBA
+      com.google.android.gms.walletp2p#config v=230 u=: CAMSBhUD6_vwDg
+      com.google.android.gms.wearable v=300 u=: CAMSAA
+      com.google.android.location v=221 u=: CAMSChUPjfDhDtUGnwQ
+      com.google.android.metrics v=216 u=: CAMSDxUKhuPnDrEFBScHF0YEHA
+
+PROVIDER ContentProviderRecord{b6236cb u0 com.google.android.talk/com.google.android.libraries.matchstick.provider.AppDataProvider} pid=4367
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{690adc1 u0 com.google.android.gms/.security.provider.SecurityProvider} pid=2259
+    Client:
+
+PROVIDER ContentProviderRecord{3db74a7 u0 com.google.android.gms/.people.service.PeopleContentProvider} pid=2563
+    Client:
+      CP2 sync enabled=false
+
+      FSA2 sync enabled=true
+
+
+      People log:
+      2019-03-24 21:48:25,2563,2703,PeopleSync,null,null,"First sync"
+      2019-03-24 21:48:25,2563,2703,PeopleSync,null,null,"requestAllFullSyncForDbUpgrade"
+      2019-03-24 21:48:26,2563,2939,PeopleSearchIndexManage,null,null,"ICU version changed from unknown to 56.1"
+      2019-03-24 21:48:26,2563,2939,PeopleSearchIndexManage,null,null,"Rebuilding index..."
+      2019-03-24 21:48:26,2563,2939,PeopleSearchIndexManage,null,null,"Rebuilding index done."
+      2019-03-24 21:48:46,2563,4265,PeopleContactsSync,null,null,"Hangout changed: installed=true"
+
+PROVIDER ContentProviderRecord{cb964fd u0 com.google.android.gms/.plus.provider.PlusProvider} pid=2563
+    Client:
+
+PROVIDER ContentProviderRecord{4c0b443 u0 com.google.android.gms/.icing.proxy.AppsContentProvider} pid=2563
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{bbc53f9 u0 com.google.android.gms/.thunderbird.config.EmergencyConfigContentProvider} pid=2563
+    Client:
+
+PROVIDER ContentProviderRecord{430519f u0 com.google.android.gms/com.google.android.libraries.social.autobackup.AutoBackupProvider} pid=2563
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{16536b5 u0 com.google.android.gm/com.android.email.provider.AttachmentProvider} pid=3945
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{1d268bb u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.velvet.extradex.ExtraDexHostProvider} pid=2428
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{27f8931 u0 com.google.android.gm/com.android.mail.browse.GmailConversationProvider} pid=3945
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{5b4d597 u0 com.google.android.gms/.icing.indexapi.IndexApiContentProvider} pid=2563
+    Client:
+      Icing on the Cake with module_version 20007
+      Apk version code: 13280022
+      Apk version name: 13.2.80 (040700-211705629)
+      Version: 63
+      Storage state: ok
+      Disk usage 17.25MB budget 307.28MB free frac 94.385% index free frac 82.025%
+      Created "Mar 24, 2019 9:48:21 PM"
+      Committed "Mar 24, 2019 9:50:44 PM"
+      Maintained "Mar 24, 2019 9:48:21 PM"
+      Flushed "Mar 24, 2019 9:50:44 PM" num docs 100108
+      Compacted "Mar 24, 2019 9:48:20 PM" num docs 0 err 0
+      App params: false lu: Mar 24, 2019 9:50:32 PM ttl: 14400
+      App history upl p: false ls: 0/0
+      Current:
+          Expts: 
+          Flags:
+
+      Pending:
+          Expts: 
+          Flags:
+              308: [{"p":"com.google.android.googlequicksearchbox","c":"suggest_query","s":[{"u":1}]}]
+
+
+      Corpora:
+      com.google.android.apps.messaging-messagesCorpus:
+        id:15
+        name:messagesCorpus
+        version:"71"
+        package:com.google.android.apps.messaging
+        uri:content://com.google.android.apps.messaging.shared.datamodel.BugleContentProvider/appdatasearch/messagesCorpus
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:35 PM
+        usageReportId:7674916649350465838
+        content incarnation:[b79e1d14f492275d]
+        type:
+        sections:
+          0 textSection
+          1 conversationIdSection
+          2 messageIdSection(noindex)
+          3 messageTimestampSection(noindex)
+      Global Search Sections: 0
+        counters:
+
+      com.google.android.apps.messaging-participantsCorpus:
+        id:14
+        name:participantsCorpus
+        version:"71"
+        package:com.google.android.apps.messaging
+        uri:content://com.google.android.apps.messaging.shared.datamodel.BugleContentProvider/appdatasearch/participantsCorpus
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:35 PM
+        usageReportId:8740086813296651729
+        content incarnation:[e70c44eaca7b9128]
+        type:
+        sections:
+          0 participantNameSection
+          1 conversationIdSection(noindex)
+      Global Search Sections: 0
+        counters:
+
+      com.google.android.apps.messaging-partsCorpus:
+        id:13
+        name:partsCorpus
+        version:"71"
+        package:com.google.android.apps.messaging
+        uri:content://com.google.android.apps.messaging.shared.datamodel.BugleContentProvider/appdatasearch/partsCorpus
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:35 PM
+        usageReportId:4503993447257986189
+        content incarnation:[d7e65d0d087fd5c9]
+        type:
+        sections:
+          0 textSection
+          1 conversationIdSection
+          2 messageIdSection(noindex)
+          3 messageTimestampSection(noindex)
+      Global Search Sections: 0
+        counters:
+
+      com.google.android.deskclock-.implicit::
+        id:12
+        name:.implicit:
+        version:""
+        package:com.google.android.deskclock
+        uri:(push)
+        trimmable:true
+        state:active
+        last indexed/committed:0/0
+        source:set from runtime API
+        sourcedTime:3/24/19 9:48 PM
+        usageReportId:4270433025676603135
+        content incarnation:[]
+        type:
+        sections:
+          0 title p:name
+          1 web_url(noindex) p:url
+          2 intent_action(noindex)
+          3 intent_data(noindex)
+          4 .private:action(noindex)(none) p:.private:action
+      Global Search Sections: 3
+          text1: 0x0 (template literal) parts: "$title"
+          intent_action: 0x0 (template literal) parts: "$intent_action"
+          intent_data: 0x0 (template literal) parts: "$intent_data"
+        counters:
+          push index ok: 1
+          usage report: 1
+
+      com.google.android.gms-apps:
+        id:1
+        name:apps
+        version:"2"
+        package:com.google.android.gms
+        uri:content://com.google.android.gms.icing.proxy.apps
+        trimmable:false
+        state:active
+        last indexed/committed:59/59
+        source:set from resources
+        sourcedTime:10/15/18 10:41 PM
+        usageReportId:8055052223715348846
+        content incarnation:[-dummy-incarnation-]
+        type:CreativeWork/SoftwareApplication
+        sections:
+          0 name w:63 p:name
+          1 icon_uri(noindex)
+          2 package_name(noindex)
+          3 class_name(noindex)
+          4 last_update_millis(noindex)
+          5 additional_names
+      Global Search Sections: 4
+          text1: 0x7f130850 parts: "$name"
+          icon: 0x7f13084d parts: "$icon_uri"
+          intent_action: 0x7f13084e parts: "android.intent.action.MAIN"
+          intent_data: 0x7f13084f parts: "content://applications/applications/$package_name/$class_name"
+        counters:
+          index ok: 52
+          usage report: 7
+
+      com.google.android.gms-contacts_contact_id:
+        id:2
+        name:contacts_contact_id
+        version:"1"
+        package:com.google.android.gms
+        uri:content://com.google.android.gms.icing.proxy/appdatasearch/contacts_contact_id
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:41 PM
+        usageReportId:5125908943585220394
+        content incarnation:[1553489300174-f474c7890e86e80c]
+        type:Person
+        sections:
+          0 lookup_key
+          1 icon_uri(noindex)
+          2 name w:5
+          3 givennames w:20 (variants nick)
+          4 email(noindex)(rfc822) w:2
+          5 nickname w:15 (variants nick)
+          6 number(noindex)
+          7 address(noindex)
+          8 phoneticname w:10
+      Global Search Sections: 5
+          text1: 0x7f130854 parts: "$name"
+          text2: 0x7f130855 parts: "%$bestMatch"
+          icon: 0x7f130851 parts: "$icon_uri"
+          intent_action: 0x7f130859 parts: "android.intent.action.VIEW"
+          intent_data: 0x7f130853 parts: "content://com.android.contacts/contacts/lookup/$lookup_key/%$uri"
+        counters:
+
+      com.google.android.gms-emails_data_id:
+        id:3
+        name:emails_data_id
+        version:"1"
+        package:com.google.android.gms
+        uri:content://com.google.android.gms.icing.proxy/appdatasearch/emails_data_id
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:41 PM
+        usageReportId:1177830350043404679
+        content incarnation:[1553489300174-a646a3b535539b6f]
+        type:ContactPoint
+        sections:
+          0 contact_id
+          1 type
+          2 label
+          3 data
+      Global Search Sections: 1
+          text1: 0x7f130852 parts: "$contact_id"
+        counters:
+
+      com.google.android.gms-internal.3p:MobileApplication:
+        id:18
+        name:internal.3p:MobileApplication
+        version:"7"
+        package:com.google.android.gms
+        uri:content://com.google.android.gms.icing.indexapi/?type=MobileApplication&client=com.google.android.gms
+        trimmable:true
+        state:active
+        last indexed/committed:28/28
+        source:set from runtime API
+        sourcedTime:3/24/19 9:48 PM
+        usageReportId:1852081676898992943
+        content incarnation:[642d8a4d67f9fa0d]
+        type:
+        sections:
+          0 thing_proto(noindex)(none)
+          1 name w:63
+          2 keywords w:63
+          3 alternateName
+      Global Search Sections: 4
+          text1: 0x0 (template literal) parts: "$name"
+          intent_action: 0x0 (template literal) parts: "android.intent.action.VIEW"
+          intent_data: 0x0 (template literal) parts: "%$uri"
+          thing_proto: 0x0 (template literal) parts: "$thing_proto"
+        counters:
+          index ok: 28
+          index-thing ok: 28
+
+      com.google.android.gms-phones_data_id:
+        id:4
+        name:phones_data_id
+        version:"1"
+        package:com.google.android.gms
+        uri:content://com.google.android.gms.icing.proxy/appdatasearch/phones_data_id
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:41 PM
+        usageReportId:4186877957383675065
+        content incarnation:[1553489300175-5ebb3057a6bda275]
+        type:ContactPoint
+        sections:
+          0 contact_id
+          1 type
+          2 label
+          3 data
+      Global Search Sections: 1
+          text1: 0x7f130852 parts: "$contact_id"
+        counters:
+
+      com.google.android.gms-postals_data_id:
+        id:5
+        name:postals_data_id
+        version:"1"
+        package:com.google.android.gms
+        uri:content://com.google.android.gms.icing.proxy/appdatasearch/postals_data_id
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:41 PM
+        usageReportId:5008786890624671766
+        content incarnation:[1553489300182-839d4a389731c077]
+        type:ContactPoint
+        sections:
+          0 contact_id
+          1 type
+          2 label
+          3 data
+      Global Search Sections: 1
+          text1: 0x7f130852 parts: "$contact_id"
+        counters:
+
+      com.google.android.gms-sms:
+        id:0
+        name:sms
+        version:"3"
+        package:com.google.android.gms
+        uri:content://com.google.android.gms.icing.proxy.sms/appdatasearch/sms
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:41 PM
+        usageReportId:5610701360139644622
+        content incarnation:[1553489299247-57cd6616a487b3c1]
+        type:CreativeWork/ShortMessage
+        ime-enabled
+        sections:
+          0 _id(noindex) p:id
+          1 type p:type
+          2 thread_id p:threadId
+          3 address p:otherPartyAddress
+          4 date p:receivedTime
+          5 subject (ime) p:subject
+          6 body (variants annotation) (ime) p:body
+          7 read p:readStatus
+          8 content_type p:contentType
+          9 media_uri(noindex) p:mediaUri
+      Global Search Sections: 4
+          text1: 0x7f13085b parts: "$date"
+          text2: 0x7f13085c parts: "$body"
+          intent_action: 0x7f130859 parts: "android.intent.action.VIEW"
+          intent_data: 0x7f13085a parts: "$address"
+        counters:
+
+      com.google.android.googlequicksearchbox-.implicit::
+        id:26
+        name:.implicit:
+        version:""
+        package:com.google.android.googlequicksearchbox
+        uri:(push)
+        trimmable:true
+        state:active
+        last indexed/committed:0/0
+        source:set from runtime API
+        sourcedTime:3/24/19 9:50 PM
+        usageReportId:2655026572636268097
+        content incarnation:[]
+        type:
+        sections:
+          0 searchhistoryquery
+          1 intent_action(noindex)
+      Global Search Sections: 2
+          text1: 0x0 (template literal) parts: "$searchhistoryquery"
+          intent_action: 0x0 (template literal) parts: "$intent_action"
+        counters:
+          push index ok: 1
+          usage report: 1
+
+      com.google.android.googlequicksearchbox-applications_uri:
+        id:6
+        name:applications_uri
+        version:"3"
+        package:com.google.android.googlequicksearchbox
+        uri:content://com.google.android.googlequicksearchbox.icing/appdatasearch/applications_uri
+        trimmable:false
+        state:active
+        last indexed/committed:27/27
+        source:set from resources
+        sourcedTime:10/15/18 10:40 PM
+        usageReportId:5335813499201789916
+        content incarnation:[49bc1fa6f57305c4]
+        type:
+        sections:
+          0 name
+          1 icon_uri(noindex)
+          2 package_name(noindex)
+          3 class_name(noindex)
+          4 last_update_millis(noindex)
+      Global Search Sections: 4
+          text1: 0x7f120476 parts: "$name"
+          icon: 0x7f120473 parts: "$icon_uri"
+          intent_action: 0x7f120474 parts: "android.intent.action.MAIN"
+          intent_data: 0x7f120475 parts: "content://applications/applications/$package_name/$class_name"
+        counters:
+    index ok: 27
+
+      com.google.android.googlequicksearchbox-contacts_contact_id:
+        id:7
+        name:contacts_contact_id
+        version:"2"
+        package:com.google.android.googlequicksearchbox
+        uri:content://com.google.android.googlequicksearchbox.icing/appdatasearch/contacts_contact_id
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:40 PM
+        usageReportId:3697937392633512653
+        content incarnation:[6580daaf1dc2540a]
+        type:
+        sections:
+          0 lookup_key
+          1 icon_uri(noindex)
+          2 name w:5
+          3 givennames w:20 (variants nick)
+          4 email(noindex)(rfc822) w:2
+          5 nickname w:15 (variants nick)
+          6 number(noindex)
+          7 address(noindex)
+          8 phoneticname w:10
+      Global Search Sections: 5
+          text1: 0x7f12047a parts: "$name"
+          text2: 0x7f12047b parts: "%$bestMatch"
+          icon: 0x7f120477 parts: "$icon_uri"
+          intent_action: 0x7f120478 parts: "android.intent.action.VIEW"
+          intent_data: 0x7f120479 parts: "content://com.android.contacts/contacts/lookup/$lookup_key/%$uri"
+        counters:
+
+      com.google.android.googlequicksearchbox-emails_data_id:
+        id:8
+        name:emails_data_id
+        version:"1"
+        package:com.google.android.googlequicksearchbox
+        uri:content://com.google.android.googlequicksearchbox.icing/appdatasearch/emails_data_id
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:40 PM
+        usageReportId:6545679571412321146
+        content incarnation:[5e7caead3396a0ab]
+        type:
+        sections:
+          0 contact_id
+          1 type
+          2 label
+          3 data
+      Global Search Sections: 0
+        counters:
+
+      com.google.android.googlequicksearchbox-phones_data_id:
+        id:9
+        name:phones_data_id
+        version:"1"
+        package:com.google.android.googlequicksearchbox
+        uri:content://com.google.android.googlequicksearchbox.icing/appdatasearch/phones_data_id
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:40 PM
+        usageReportId:681375550787242725
+        content incarnation:[31cdbb4a6428caf8]
+        type:
+        sections:
+          0 contact_id
+          1 type
+          2 label
+          3 data
+      Global Search Sections: 0
+        counters:
+
+      com.google.android.googlequicksearchbox-postals_data_id:
+        id:10
+        name:postals_data_id
+        version:"1"
+        package:com.google.android.googlequicksearchbox
+        uri:content://com.google.android.googlequicksearchbox.icing/appdatasearch/postals_data_id
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:40 PM
+        usageReportId:9051060503979144308
+        content incarnation:[7e8ec6c8392e43fc]
+        type:
+        sections:
+          0 contact_id
+          1 type
+          2 label
+          3 data
+      Global Search Sections: 0
+        counters:
+
+      com.google.android.googlequicksearchbox-suggest_query:
+        id:11
+        name:suggest_query
+        version:"0"
+        package:com.google.android.googlequicksearchbox
+        uri:content://com.google.android.googlequicksearchbox.OnDeviceWebSuggestHostProvider/suggest_query
+        trimmable:true
+        state:active
+        last indexed/committed:100000/100000
+        source:set from resources
+        sourcedTime:10/15/18 10:40 PM
+        usageReportId:8507124978295332987
+        content incarnation:[odws1_en:us_2019-03-06_238149050_release_signed]
+        type:
+        sections:
+          0 query
+      Global Search Sections: 1
+          text1: 0x7f12047c parts: "$query"
+        counters:
+          index ok: 100000
+
+      com.google.android.music-albums:
+        id:20
+        name:albums
+        version:"2"
+        package:com.google.android.music
+        uri:content://com.google.android.music.icing/appdatasearch/albums
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:35 PM
+        usageReportId:3048792704897662243
+        content incarnation:[b812d10ec7303fb0]
+        type:MusicAlbum
+        sections:
+          0 album p:name
+          1 artist(noindex) p:byArtist
+          2 local_copy_type(noindex)
+      Global Search Sections: 4
+          text1: 0x7f0904d5 parts: "$album"
+          text2: 0x7f09007c parts: "Album by $artist"
+          icon: 0x7f0904d4 parts: "content://com.google.android.music.MusicContent/albumorfauxart/%$uri"
+          intent_data: 0x7f0904d3 parts: "content://com.google.android.music.MusicContent/album/%$uri"
+        counters:
+
+      com.google.android.music-artists:
+        id:21
+        name:artists
+        version:"2"
+        package:com.google.android.music
+        uri:content://com.google.android.music.icing/appdatasearch/artists
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:35 PM
+        usageReportId:2811609939670438525
+        content incarnation:[8f0850e69852bb62]
+        type:MusicGroup
+        sections:
+          0 artist p:name
+          1 local_copy_type(noindex)
+      Global Search Sections: 4
+          text1: 0x7f0904df parts: "$artist"
+          text2: 0x7f09008f parts: "Artist"
+          icon: 0x7f0904de parts: "content://com.google.android.music.MusicContent/artistfauxart/%$uri"
+          intent_data: 0x7f0904dd parts: "content://com.google.android.music.MusicContent/albumartist/%$uri"
+        counters:
+
+      com.google.android.music-playlists:
+        id:22
+        name:playlists
+        version:"1"
+        package:com.google.android.music
+        uri:content://com.google.android.music.icing/appdatasearch/playlists
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:35 PM
+        usageReportId:2700773180047071275
+        content incarnation:[91c3691e8b652d38]
+        type:MusicPlaylist
+        sections:
+          0 playlist p:name
+      Global Search Sections: 3
+          text1: 0x7f09053a parts: "$playlist"
+          icon: 0x7f090539 parts: "content://com.google.android.music.MusicContent/playlistfauxart/%$uri"
+          intent_data: 0x7f090538 parts: "content://com.google.android.music.MusicContent/playlist/%$uri"
+        counters:
+
+      com.google.android.music-songs:
+        id:19
+        name:songs
+        version:"2"
+        package:com.google.android.music
+        uri:content://com.google.android.music.icing/appdatasearch/songs
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:35 PM
+        usageReportId:5917490167883506934
+        content incarnation:[664b461795d56328]
+        type:MusicRecording
+        sections:
+          0 song p:name
+          1 artist(noindex) p:byArtist
+          2 album_id(noindex)
+          3 music_id(noindex)
+          4 song_id(noindex)
+          5 album(noindex)
+          6 local_copy_type(noindex)
+      Global Search Sections: 4
+          text1: 0x7f090548 parts: "$song"
+          text2: 0x7f090368 parts: "Song by $artist"
+          icon: 0x7f090547 parts: "content://com.google.android.music.MusicContent/albumorfauxart/$album_id"
+          intent_data: 0x7f090546 parts: "content://com.google.android.music.MusicContent/track/$music_id/$song_id"
+        counters:
+
+      com.google.android.music-top_albums:
+        id:23
+        name:top_albums
+        version:"1"
+        package:com.google.android.music
+        uri:content://com.google.android.music.icing/appdatasearch/top_albums
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:35 PM
+        usageReportId:3406592574378147718
+        content incarnation:[3b15ffd69b84994c]
+        type:
+        sections:
+          0 album p:name
+          1 album_id(noindex)
+          2 album_url(noindex)
+          3 artist(noindex) p:byArtist
+      Global Search Sections: 5
+          text1: 0x7f090556 parts: "$album"
+          text2: 0x7f0903e2 parts: "Album by $artist"
+          icon: 0x7f090554 parts: "android.resource://com.google.android.music/drawable/splash_play_music_color_144"
+          intent_data: 0x7f090553 parts: "$album_url"
+          intent_activity: 0x7f090555 parts: ".ui.TopChartsIcingActivity"
+        counters:
+
+      com.google.android.music-top_artists:
+        id:24
+        name:top_artists
+        version:"1"
+        package:com.google.android.music
+        uri:content://com.google.android.music.icing/appdatasearch/top_artists
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:35 PM
+        usageReportId:2118070066088898628
+        content incarnation:[5797aa45f2d3062d]
+        type:
+        sections:
+          0 artist p:name
+          1 artist_id(noindex)
+          2 artist_url(noindex)
+      Global Search Sections: 5
+          text1: 0x7f09055a parts: "$artist"
+          text2: 0x7f0903e3 parts: "Artist"
+          icon: 0x7f090558 parts: "android.resource://com.google.android.music/drawable/splash_play_music_color_144"
+          intent_data: 0x7f090557 parts: "$artist_url"
+          intent_activity: 0x7f090559 parts: ".ui.TopChartsIcingActivity"
+        counters:
+
+      com.google.android.music-top_tracks:
+        id:25
+        name:top_tracks
+        version:"1"
+        package:com.google.android.music
+        uri:content://com.google.android.music.icing/appdatasearch/top_tracks
+        trimmable:false
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:35 PM
+        usageReportId:7536482790122688069
+        content incarnation:[fd8077d428945f50]
+        type:
+        sections:
+          0 track p:name
+          1 track_id(noindex)
+          2 track_url(noindex)
+          3 artist(noindex)
+      Global Search Sections: 5
+          text1: 0x7f09055f parts: "$track"
+          text2: 0x7f0903f6 parts: "Song by $artist"
+          icon: 0x7f09055d parts: "android.resource://com.google.android.music/drawable/splash_play_music_color_144"
+          intent_data: 0x7f09055c parts: "$track_url"
+          intent_activity: 0x7f09055e parts: ".ui.TopChartsIcingActivity"
+        counters:
+
+      com.google.android.videos-movies:
+        id:16
+        name:movies
+        version:"0"
+        package:com.google.android.videos
+        uri:content://com.google.android.videos.icing/appdatasearch/movies
+        trimmable:true
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:35 PM
+        usageReportId:6362115361826337781
+        content incarnation:[]
+        type:
+        sections:
+          0 title
+          1 account(noindex)
+      Global Search Sections: 4
+          text1: 0x7f0c0305 parts: "$title"
+          icon: 0x7f0c0302 parts: "content://com.google.android.videos/thumbnail/%$uri"
+          intent_data: 0x7f0c0303 parts: "https://play.google.com/movies/movies?ref=icing&v=%$uri"
+          intent_extra_data: 0x7f0c0304 parts: "$account"
+        counters:
+
+      com.google.android.videos-shows:
+        id:17
+        name:shows
+        version:"0"
+        package:com.google.android.videos
+        uri:content://com.google.android.videos.icing/appdatasearch/shows
+        trimmable:true
+        state:active
+        last indexed/committed:0/0
+        source:set from resources
+        sourcedTime:10/15/18 10:35 PM
+        usageReportId:8442763357872788574
+        content incarnation:[]
+        type:
+        sections:
+          0 title
+          1 account(noindex)
+      Global Search Sections: 4
+          text1: 0x7f0c0309 parts: "$title"
+          icon: 0x7f0c0306 parts: "content://com.google.android.videos/thumbnail/show/%$uri"
+          intent_data: 0x7f0c0307 parts: "https://play.google.com/movies/shows?ref=icing&sh=%$uri"
+          intent_extra_data: 0x7f0c0308 parts: "$account"
+        counters:
+
+
+      Internal Corpora:
+      Gservices flags:
+        disableSMS: false disableApps: false disableContacts: false clearInternalCorporaOnContentIncarnationMismatch: true
+        Min AGSA version: 300562316
+      SMS:
+        Db version: 4
+        total: 0 Unread SMS: 0 (lastDate: -1)
+        SMS CP stats: total: 0 unread: 0 lastId: -1
+        total: 0 Unread MMS: 0 (lastDate: -1)
+        MMS CP stats: total: 0 unread: 0 lastId: -1
+      Apps:
+        File version: 4
+        Last seqno: 59
+        Size of journal: 285 bytes
+        Number of component names: 32
+
+      ClientInfo:
+
+      Registered client info:
+      Info for package com.google.android.videos
+        version code: 31814003 cert: 4BA713DFECE93D47572DC5E845A7A82C4A891F2F
+        version name: 3.18.14
+        fingerprint: install-time-1539668148000
+        resource fingerprint: last-update-1539668148000-version-3
+        blocked: false
+        global search info:
+          sourced at 1539668148000 set from resources
+          GlobalSearchApplicationInfo{com.google.android.videos;sourceName=null;labelId=7f0c003a;settingsDescriptionId=7f0c0143;iconId=7f030001;defaultIntentAction=null;defaultIntentData=null;defaultIntentActivity=null} (0)
+      Info for package com.google.android.apps.messaging
+        version code: 19519170 cert: B28C3EDB665DF32686224DF800F603E9959BBE4E
+        version name: 1.9.519 (3276278-70.phone)
+        fingerprint: install-time-1539668150000
+        resource fingerprint: last-update-1539668150000-version-3
+        blocked: false
+        global search info:
+          sourced at 0 unset
+          null (0)
+      Info for package com.google.android.backuptransport
+        version code: 0 cert: 
+        version name: 7.1.1
+        fingerprint: null
+        resource fingerprint: null
+        blocked: false
+        global search info:
+          sourced at 0 unset
+          null (0)
+      Info for package com.google.android.gms
+        version code: 13280022 cert: 58E1C4133F7441EC3D2C270270A14802DA47BA0E
+        version name: 13.2.80 (040700-211705629)
+        fingerprint: install-time-1539668498000
+        resource fingerprint: last-update-1539668498000-version-3
+        blocked: false
+        global search info:
+          sourced at 1553489321541 set from runtime API
+          GlobalSearchApplicationInfo{com.google.android.gms;sourceName=apps;labelId=7f13083d;settingsDescriptionId=7f13083c;iconId=7f020565;defaultIntentAction=android.intent.action.MAIN;defaultIntentData=null;defaultIntentActivity=null} (0)
+          GlobalSearchApplicationInfo{com.google.android.gms;sourceName=internal.3p:Photograph;labelId=7f13084b;settingsDescriptionId=7f13084a;iconId=7f0204fc;defaultIntentAction=android.intent.action.MAIN;defaultIntentData=null;defaultIntentActivity=null} (0)
+          GlobalSearchApplicationInfo{com.google.android.gms;sourceName=internal.3p:MusicRecording;labelId=7f130849;settingsDescriptionId=7f130848;iconId=7f02053f;defaultIntentAction=android.intent.action.MAIN;defaultIntentData=null;defaultIntentActivity=null} (0)
+          GlobalSearchApplicationInfo{com.google.android.gms;sourceName=internal.3p:MobileApplication;labelId=7f13083d;settingsDescriptionId=7f13083c;iconId=7f020565;defaultIntentAction=android.intent.action.MAIN;defaultIntentData=null;defaultIntentActivity=null} (0)
+          GlobalSearchApplicationInfo{com.google.android.gms;sourceName=sms;labelId=7f13085e;settingsDescriptionId=7f13085d;iconId=7f0205a0;defaultIntentAction=android.intent.action.MAIN;defaultIntentData=null;defaultIntentActivity=null} (0)
+          GlobalSearchApplicationInfo{com.google.android.gms;sourceName=internal.3p:Contact;labelId=7f130845;settingsDescriptionId=7f130844;iconId=7f02048f;defaultIntentAction=android.intent.action.MAIN;defaultIntentData=null;defaultIntentActivity=null} (0)
+          GlobalSearchApplicationInfo{com.google.android.gms;sourceName=contacts_contact_id;labelId=7f130845;settingsDescriptionId=7f130844;iconId=7f02048f;defaultIntentAction=android.intent.action.MAIN;defaultIntentData=null;defaultIntentActivity=null} (0)
+          GlobalSearchApplicationInfo{com.google.android.gms;sourceName=internal.3p:Message;labelId=7f13085e;settingsDescriptionId=7f13085d;iconId=7f0205a0;defaultIntentAction=android.intent.action.MAIN;defaultIntentData=null;defaultIntentActivity=null} (0)
+          GlobalSearchApplicationInfo{com.google.android.gms;sourceName=internal.3p:DigitalDocument;labelId=7f130847;settingsDescriptionId=7f130846;iconId=7f0204b3;defaultIntentAction=android.intent.action.MAIN;defaultIntentData=null;defaultIntentActivity=null} (0)
+          GlobalSearchApplicationInfo{com.google.android.gms;sourceName=internal.3p:Event;labelId=7f13083f;settingsDescriptionId=7f13083e;iconId=7f0204d1;defaultIntentAction=android.intent.action.MAIN;defaultIntentData=null;defaultIntentActivity=null} (0)
+      Info for package com.google.android.music
+        version code: 33210 cert: 58E1C4133F7441EC3D2C270270A14802DA47BA0E
+        version name: 6.13.3321-0.F.3241253
+        fingerprint: install-time-1539668148000
+        resource fingerprint: last-update-1539668148000-version-3
+        blocked: false
+        global search info:
+          sourced at 1539668148000 set from resources
+          GlobalSearchApplicationInfo{com.google.android.music;sourceName=null;labelId=7f0901d2;settingsDescriptionId=7f090330;iconId=7f030002;defaultIntentAction=android.intent.action.SEARCH_RESULT;defaultIntentData=null;defaultIntentActivity=.ui.search.ClusteredSearchActivity} (0)
+      Info for package com.google.android.deskclock
+        version code: 0 cert: 
+        version name: 4.6.1 (3299599)
+        fingerprint: install-time-1539668147000
+        resource fingerprint: null
+        blocked: false
+        global search info:
+          sourced at 1553489311443 set from runtime API
+          GlobalSearchApplicationInfo{com.google.android.deskclock;sourceName=null;labelId=7f0c0183;settingsDescriptionId=0;iconId=7f030000;defaultIntentAction=null;defaultIntentData=null;defaultIntentActivity=null} (0)
+      Info for package com.google.android.gsf
+        version code: 0 cert: 
+        version name: 7.1.1
+        fingerprint: null
+        resource fingerprint: null
+        blocked: false
+        global search info:
+          sourced at 0 unset
+          null (0)
+      Info for package com.google.android.gsf.login
+        version code: 0 cert: 
+        version name: 7.1.1
+        fingerprint: null
+        resource fingerprint: null
+        blocked: false
+        global search info:
+          sourced at 0 unset
+          null (0)
+      Info for package com.google.android.googlequicksearchbox
+        version code: 300720776 cert: 58E1C4133F7441EC3D2C270270A14802DA47BA0E
+        version name: 6.5.36.21.x86
+        fingerprint: install-time-1539668443000
+        resource fingerprint: last-update-1539668443000-version-3
+        blocked: false
+        global search info:
+          sourced at 1539668443000 set from resources
+          GlobalSearchApplicationInfo{com.google.android.googlequicksearchbox;sourceName=null;labelId=7f12046d;settingsDescriptionId=7f12046c;iconId=7f030007;defaultIntentAction=android.intent.action.MAIN;defaultIntentData=null;defaultIntentActivity=null} (0)
+      Corpus Usage Stats:
+      id: 1
+      docs: 29
+      size: 15.75KB
+      deleted docs: 0
+      deleted size: 0
+
+      id: 11
+      docs: 100000
+      size: 6.11MB
+      deleted docs: 0
+      deleted size: 0
+
+      id: 12
+      docs: 1
+      size: 846 Bytes
+      deleted docs: 0
+      deleted size: 0
+
+      id: 18
+      docs: 28
+      size: 14.12KB
+      deleted docs: 0
+      deleted size: 0
+
+      id: 26
+      docs: 1
+      size: 134 Bytes
+      deleted docs: 0
+      deleted size: 0
+
+      id: 6
+      docs: 27
+      size: 7.88KB
+      deleted docs: 0
+      deleted size: 0
+
+      QueryRecorder recording mode: false
+      Records file path /data/user/0/com.google.android.gms/files/AppDataSearch/main/query-record-log.tmp
+
+      Tables in /data/user/0/com.google.android.gms/databases/icing-indexapi.db:
+         1 row(s) | type_indexapi
+         1 row(s) | sqlite_sequence
+        28 row(s) | MobileApplication_com.google.android.gms_seq_table
+         1 row(s) | android_metadata
+         1 row(s) | incarnation_indexapi
+
+
+      Features:
+      Enabled: [B, D, E, I, K, M, O, P, R, S, T, U, V, W, a, aa, b, d, e, f, g, i, j, k, l, m, n, p, q, r, s, t, u, w, x, y, z]
+
+      Disabled: [A, C, F, G, H, J, L, N, Q, X, Y, Z, c, h, o, v]
+
+
+PROVIDER ContentProviderRecord{b12876d u0 com.android.settings/.search.SettingsSearchIndexablesProvider} pid=5087
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6caf3f0 u0 com.google.android.gm/.provider.PublicContentProvider} pid=3945
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{1b883ee u0 com.google.android.gm/.provider.SearchQuery$Provider} pid=3945
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{835f1c u0 com.google.android.gm/com.android.exchange.provider.ExchangeDirectoryProvider} pid=3945
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{8acf0fa u0 com.google.android.gms/.auth.api.credentials.sync.CredentialContentProvider} pid=2563
+    Client:
+
+PROVIDER ContentProviderRecord{df55108 u0 com.android.providers.userdictionary/.UserDictionaryProvider} pid=2678
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{74922c6 u0 com.google.android.gms/android.support.v4.content.FileProvider} pid=2563
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d1275b4 u0 com.google.android.gms/.matchstick.data.AppDataProvider} pid=2563
+    Client:
+
+PROVIDER ContentProviderRecord{f24a552 u0 com.google.android.gms/.chromesync.sync.SyncContentProvider} pid=2563
+    Client:
+
+PROVIDER ContentProviderRecord{73b3920 u0 com.google.android.partnersetup/.RlzProvider} pid=5217
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6770b7f u0 com.android.chrome/com.google.android.apps.chrome.icing.IcingProvider} pid=4924
+    Client:
+      nothing to dump
+
+      IcingProvider [ jni initialized: false, processing request: false]
+      IcingController [indexing requested: false, indexing request delay: 30000, usage reporting enabled: false, reporting usage: false, completed tasks: 0, scheduled tasks: 0]
+      HistoryReportJniBridge [started: false, initialized: false]
+PROVIDER ContentProviderRecord{bf83395 u0 com.google.android.gms/.auth.account.be.legacy.AccountContentProvider} pid=2259
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9fae09b u0 com.android.inputmethod.latin/com.android.inputmethod.dictionarypack.DictionaryProvider} pid=1822
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e05c976 u0 com.android.phone/.IccProvider} pid=1989
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{818b3e4 u0 com.google.android.gms/com.google.android.libraries.matchstick.provider.MatchstickFileProvider} pid=2563
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{7d0702 u0 com.google.android.music/.store.ConfigContentProvider} pid=4272
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9f2a50 u0 com.android.providers.media/.MediaProvider} pid=2671
+    Client:
+      internal.db: version 800, 224 rows, 237 inserts, 0 updates, 0 deletes, 357 queries, scan started Mar 24, 9:48 PM (00:14)
+      2019-03-25 04:48:31.242 : Database upgraded from version 63 to 800 in 0 seconds
+      2019-03-25 04:48:45.280 : internal.db: version 800, 224 rows, 237 inserts, 0 updates, 0 deletes, 357 queries, scan started Mar 24, 9:48 PM (00:14)
+      external.db: version 800, 54 rows, 55 inserts, 12 updates, 2 deletes, 161 queries, scan started Mar 24, 9:48 PM (00:00)
+      2019-03-25 04:48:18.955 : Database upgraded from version 63 to 800 in 0 seconds
+      2019-03-25 04:48:20.889 : external.db: version 800, 20 rows, 20 inserts, 6 updates, 0 deletes, 26 queries, scan started Mar 24, 9:48 PM (00:01)
+      2019-03-25 04:48:22.089 : external.db: version 800, 28 rows, 28 inserts, 8 updates, 0 deletes, 59 queries, scan started Mar 24, 9:48 PM (00:00)
+      2019-03-25 04:48:45.572 : external.db: version 800, 49 rows, 49 inserts, 12 updates, 0 deletes, 126 queries, scan started Mar 24, 9:48 PM (00:00)
+
+PROVIDER ContentProviderRecord{b38914e u0 com.google.android.gms/.chimera.container.GmsModuleProvider} pid=2259
+    Client:
+      Module Sets:
+        Module Set ID: container, Module Set Variant: 1328004
+
+      Modules:
+        com.google.android.gms [13280022] [13.2.80 (040700-211705629)] [Container]
+             [v0]
+            com.google.android.gms.accountsettings [v214]
+            com.google.android.gms.admob [v310]
+            com.google.android.gms.ads [v310]
+            com.google.android.gms.analytics [v8]
+            com.google.android.gms.app [v1]
+            com.google.android.gms.appinvite [v108]
+            com.google.android.gms.appstate [v1]
+            com.google.android.gms.audit [v111]
+            com.google.android.gms.auth.api.signin [v20000]
+            com.google.android.gms.auth_account_base [v227]
+            com.google.android.gms.auth_api__phone [v208]
+            com.google.android.gms.auth_api_account_transfer [v219]
+            com.google.android.gms.auth_api_credentials [v20000]
+            com.google.android.gms.auth_api_early_update [v3]
+            com.google.android.gms.auth_api_proxy [v16]
+            com.google.android.gms.auth_authzen__phone [v20000]
+            com.google.android.gms.auth_cryptauth [v206]
+            com.google.android.gms.auth_easyunlock [v220]
+            com.google.android.gms.auth_magictether [v220]
+            com.google.android.gms.auth_managed [v228]
+            com.google.android.gms.auth_proximity [v220]
+            com.google.android.gms.autofill [v20000]
+            com.google.android.gms.backup [v900]
+            com.google.android.gms.backup_base [v900]
+            com.google.android.gms.backup_cloudrestore [v900]
+            com.google.android.gms.backup_d2d [v900]
+            com.google.android.gms.backup_g1 [v900]
+            com.google.android.gms.backup_lmp [v900]
+            com.google.android.gms.backup_settings [v900]
+            com.google.android.gms.backup_transport [v900]
+            com.google.android.gms.beacon [v232]
+            com.google.android.gms.car [v230]
+            com.google.android.gms.car_setup [v212]
+            com.google.android.gms.cast [v218]
+            com.google.android.gms.checkinbase [v231]
+            com.google.android.gms.chromesync [v20000]
+            com.google.android.gms.clearcut [v219]
+            com.google.android.gms.common_account [v20000]
+            com.google.android.gms.config [v11]
+            com.google.android.gms.constellation [v316]
+            com.google.android.gms.container.core [v1]
+            com.google.android.gms.contextmanager [v20022]
+            com.google.android.gms.core [v208]
+            com.google.android.gms.core_download [v208]
+            com.google.android.gms.core_phone [v108]
+            com.google.android.gms.deviceconnection [v1]
+            com.google.android.gms.drive [v212]
+            com.google.android.gms.droidguard [v222]
+            com.google.android.gms.easysignin [v1]
+            com.google.android.gms.family [v218]
+            com.google.android.gms.feedback [v221]
+            com.google.android.gms.fido [v221]
+            com.google.android.gms.firebase_auth [v213]
+            com.google.android.gms.firebase_dynamic_links [v3]
+            com.google.android.gms.fitness [v214]
+            com.google.android.gms.flags.pkg [v1]
+            com.google.android.gms.fonts [v226]
+            com.google.android.gms.freighter [v2]
+            com.google.android.gms.games [v53999999]
+            com.google.android.gms.games_upgrade [v202]
+            com.google.android.gms.gass [v310]
+            com.google.android.gms.gcm [v624]
+            com.google.android.gms.gconnect [v1]
+            com.google.android.gms.googlehelp [v221]
+            com.google.android.gms.growth [v240]
+            com.google.android.gms.herrevad [v20000]
+            com.google.android.gms.icing [v20007]
+            com.google.android.gms.identity [v1]
+            com.google.android.gms.instantapps [v224]
+            com.google.android.gms.ipa [v205]
+            com.google.android.gms.languageprofile [v201]
+            com.google.android.gms.location__nonwearable [v221]
+            com.google.android.gms.location_base [v221]
+            com.google.android.gms.locationsharing [v212]
+            com.google.android.gms.lockbox [v216]
+            com.google.android.gms.maps [v220]
+            com.google.android.gms.matchstick [v20000]
+            com.google.android.gms.mdns [v206]
+            com.google.android.gms.measurement [v231]
+            com.google.android.gms.mobiledataplan [v247]
+            com.google.android.gms.mobileid [v6]
+            com.google.android.gms.nearby [v20000]
+            com.google.android.gms.netrec [v216]
+      com.google.android.gms.notifications [v209]
+            com.google.android.gms.ocr [v337]
+            com.google.android.gms.octarine [v208]
+            com.google.android.gms.ota__phone [v20000]
+            com.google.android.gms.ota_base [v20000]
+            com.google.android.gms.package_common [v1]
+            com.google.android.gms.panorama [v1]
+            com.google.android.gms.people [v219]
+            com.google.android.gms.perfprofile [v1]
+            com.google.android.gms.phenotype [v219]
+            com.google.android.gms.photos [v1]
+            com.google.android.gms.places [v19000]
+            com.google.android.gms.plus [v1]
+            com.google.android.gms.predictondevice [v204]
+            com.google.android.gms.pseudonymous [v219]
+            com.google.android.gms.reachability [v219]
+            com.google.android.gms.reminders [v12]
+            com.google.android.gms.romanesco [v211]
+            com.google.android.gms.security__nonwearable [v218]
+            com.google.android.gms.semanticlocation [v105]
+            com.google.android.gms.sesame [v2]
+            com.google.android.gms.setupservices [v103]
+            com.google.android.gms.signin [v20000]
+            com.google.android.gms.smart_profile [v250]
+            com.google.android.gms.smartdevice [v226]
+            com.google.android.gms.statementservice [v1]
+            com.google.android.gms.stats [v216]
+            com.google.android.gms.subscribedfeeds [v624]
+            com.google.android.gms.subscriptions [v205]
+            com.google.android.gms.tapandpay [v245]
+            com.google.android.gms.telephonyspam [v210]
+            com.google.android.gms.thunderbird [v211]
+            com.google.android.gms.tron [v223]
+            com.google.android.gms.trustagent [v212]
+            com.google.android.gms.trustlet_face [v202]
+            com.google.android.gms.trustlet_onbody [v203]
+            com.google.android.gms.trustlet_place [v205]
+            com.google.android.gms.trustlet_voiceunlock [v204]
+            com.google.android.gms.udc [v253]
+            com.google.android.gms.usagereporting [v206]
+            com.google.android.gms.vision [v1800]
+            com.google.android.gms.wallet [v239]
+            com.google.android.gms.walletp2p [v230]
+            com.google.android.gms.wearable [v300]
+        com.google.android.gms.dynamite_adsdynamite [13280052] [13.2.80 (040700-211705629)] [Container:00000000/AdsDynamite.apk]
+            com.google.android.gms.ads.dynamite [v310]
+        com.google.android.gms.dynamite_cronetdynamite [13280052] [13.2.80 (040700-211705629)] [Container:00000001/CronetDynamite.apk]
+            com.google.android.gms.cronet_dynamite [v1104]
+        com.google.android.gms.dynamite_dynamiteloader [13280052] [13.2.80 (040700-211705629)] [Container:00000002/DynamiteLoader.apk]
+            com.google.android.gms.dynamiteloader [v1]
+        com.google.android.gms.dynamite_dynamitemodulesa [13280052] [13.2.80 (040700-211705629)] [Container:00000003/DynamiteModulesA.apk]
+            com.google.android.gms.signinbutton_dynamite [v2]
+            com.google.android.gms.vision.dynamite [v1800]
+        com.google.android.gms.dynamite_dynamitemodulesc [13280052] [13.2.80 (040700-211705629)] [Container:00000004/DynamiteModulesC.apk]
+            com.google.android.gms.cast.framework.dynamite [v218]
+            com.google.android.gms.crash [v215]
+            com.google.android.gms.firebase_database [v6]
+            com.google.android.gms.firebasestorage [v6]
+            com.google.android.gms.flags [v3]
+            com.google.android.gms.tagmanager [v213]
+            com.google.android.gms.wallet_dynamite [v229]
+        com.google.android.gms.dynamite_googlecertificates [13280052] [13.2.80 (040700-211705629)] [Container:00000005/GoogleCertificates.apk]
+            com.google.android.gms.googlecertificates [v4]
+        com.google.android.gms.dynamite_mapsdynamite [13280052] [13.2.80 (040700-211705629)] [Container:00000006/MapsDynamite.apk]
+            com.google.android.gms.maps_dynamite [v220]
+
+      Features:
+        ads.dynamite [v310]
+        appinvite [v6]
+        auth_suw [v5]
+        bulk_lookup_api [v1]
+        cast.framework.dynamite [v218]
+        crash [v215]
+        cronet_dynamite [v1104]
+        device_enabled_api [v1]
+        dynamiteloader [v1]
+        firebase_auth [v11]
+        firebase_database [v6]
+        firebasestorage [v6]
+        flags [v3]
+        g1_backup [v1]
+        g1_mms_backup_now [v1]
+        g1_restore [v1]
+        g1_restore_now [v1]
+        googlecertificates [v4]
+        lookup_spam [v1]
+        maps_dynamite [v220]
+        mdd_download_right_now [v1]
+        mdh_broadcast_listeners [v1]
+        mdh_read_sync_status [v1]
+        mdh_time_series_write [v1]
+        new_send_silent_feedback [v1]
+        ocr [v1]
+        panorama [v1]
+        predictondevice [v2]
+        set_dimensions_api [v1]
+        signinbutton_dynamite [v2]
+        tagmanager [v213]
+        tapandpay [v1]
+        tapandpay_issuer_api [v1]
+        tapandpay_secureelement [v1]
+        vision.dynamite [v1800]
+        wallet_dynamite [v229]
+
+      Module Set Journal Entries:
+        container:1328004
+            Accepted | Attempted
+        kids:15402
+            Offered
+
+PROVIDER ContentProviderRecord{4d49b7c u0 com.google.android.partnersetup/.RlzAppProvider} pid=5217
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{110745a u0 com.google.android.gms/.appstate.provider.AppStateContentProvider} pid=2563
+    Client:
+
+PROVIDER ContentProviderRecord{e8df368 u0 com.android.cellbroadcastreceiver/.CellBroadcastContentProvider} pid=5060
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{8517c26 u0 com.google.android.gms/.common.download.provider.DownloadsProvider} pid=2563
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e02de14 u0 com.google.android.gms/.auth.account.be.accountstate.CredentialStateContentProvider} pid=2259
+    Client:
+
+PROVIDER ContentProviderRecord{d4934b2 u0 com.android.providers.blockednumber/.BlockedNumberProvider} pid=2678
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d39c780 u0 com.google.android.gm/com.android.mail.providers.EmlAttachmentProvider} pid=3945
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{191e9fe u0 com.google.android.gms/.icing.proxy.InternalIcingCorporaProvider} pid=2563
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e33dbac u0 com.google.android.talk/com.google.android.apps.hangouts.sms.MmsFileProvider} pid=3912
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{41ea80a u0 com.google.android.apps.messaging/.shared.datamodel.MmsFileProvider} pid=5108
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{fd90698 u0 com.google.android.gms/.auth.account.be.accountstate.AccountStateContentProvider} pid=2259
+    Client:
+
+PROVIDER ContentProviderRecord{e073ad6 u0 com.google.android.apps.messaging/.shared.datamodel.MediaScratchFileProvider} pid=5108
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{5a3f444 u0 com.google.android.gms/com.google.android.location.internal.LocationContentProvider} pid=2259
+    Client:
+
+PROVIDER ContentProviderRecord{142e62 u0 com.google.android.gms/.drive.metadata.sync.syncadapter.StubContentProvider} pid=2563
+    Client:
+
+PROVIDER ContentProviderRecord{e0e10b0 u0 com.google.android.gms/android.arch.lifecycle.ProcessLifecycleOwnerInitializer} pid=2563
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d0aceae u0 com.google.android.gm/com.android.mail.providers.GmailAccountCacheProvider} pid=3945
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{3bb87dc u0 com.android.providers.calendar/.CalendarProvider2} pid=3298
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{8ccc66b u0 com.google.android.gm/.provider.CombinedAccountsProvider} pid=3945
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{4ebd661 u0 com.android.providers.contacts/.ShadowCallLogProvider} pid=2678
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2ef5e47 u0 com.android.providers.contacts/.ContactsProvider2} pid=2678
+    Client:
+
+      Contact aggregator type: class com.android.providers.contacts.aggregation.ContactAggregator2
+
+      FastScrollingIndex stats:
+        request=0  miss=0 (0%)  avg time=0ms
+
+
+      Database: Contacts
+        Uptime: 2 minutes
+
+        Client activities:
+          UID        Query  Insert Update Delete   Batch Insert Update Delete:
+          10013          5       0      0      0       0      0      0      0
+          10029          3       0      0      0       0      0      0      0
+          10066          6       0      0      0       0      0      0      0
+
+        Accounts:
+
+        Contacts:
+          # of visible: 0
+          # of invisible: 0
+          Max # of raw contacts: 0
+          Avg # of raw contacts: 0.0
+
+        Raw contacts (per account):
+
+        Data (per account):
+
+      Database: Profile
+        Uptime: 2 minutes
+
+        Client activities:
+          UID        Query  Insert Update Delete   Batch Insert Update Delete:
+          10066          6       0      0      0       0      0      0      0
+
+        Accounts:
+
+        Contacts:
+          # of visible: 0
+          # of invisible: 0
+          Max # of raw contacts: 0
+          Avg # of raw contacts: 0.0
+
+        Raw contacts (per account):
+
+        Data (per account):
+
+PROVIDER ContentProviderRecord{dae779d u0 com.android.providers.downloads/.DownloadStorageProvider} pid=2671
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{fb997e3 u0 com.google.android.gm/.provider.DisableNotificationsProvider} pid=3945
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{ffff099 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.velvet.extradex.StaticPluginHostProvider} pid=2428
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d63cf3f u0 com.google.android.gms/.people.profile.AvatarFileProvider} pid=2563
+    Client:
+
+PROVIDER ContentProviderRecord{55fd55 u0 com.android.settings/android.support.v4.content.FileProvider} pid=5087
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{b50205b u0 com.google.android.gms/.instantapps.routing.InstantAppsContentProvider} pid=2259
+    Client:
+      Instant Apps enabled: true
+      Accounts: []
+      Opt-in account: null
+      Opt-in state: 3
+      Event Log:
+      DomainFilter: LastUpdateTime 0: 
+
+      Plugins:
+
+      Printing 0 entries in [package: domains...]:
+
+      === AppOverrides dump ===
+      === End of AppOverrides dump ===
+
+PROVIDER ContentProviderRecord{ac619d1 u0 com.android.providers.contacts/.VoicemailContentProvider} pid=2678
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2e66737 u0 com.google.android.gsf/.gservices.GservicesProvider} pid=2338
+    Client:
+      AndroidId: 3d68eba807242319
+      Gservices overrides:
+
+PROVIDER ContentProviderRecord{d41820d u0 com.google.android.talk/com.google.android.apps.hangouts.content.EsProvider} pid=3912
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2303fd3 u0 com.android.chrome/com.google.android.apps.chrome.autofill.AutofillDataProvider} pid=4924
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9913209 u0 com.google.android.googlequicksearchbox/com.google.android.search.core.google.GoogleSuggestionProvider} pid=2428
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{435062f u0 com.google.android.gms/.icing.proxy.SmsContentProvider} pid=2563
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{b11e5c5 u0 com.android.chrome/org.chromium.chrome.browser.util.ChromeFileProvider} pid=4924
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{315d64b u0 com.android.providers.media/.MediaDocumentsProvider} pid=2671
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{c301941 u0 com.google.android.gms/.common.stats.net.contentprovider.NetworkUsageContentProvider} pid=2563
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{fe98c27 u0 com.google.android.music/.store.MusicContentProvider} pid=4272
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{7a4087d u0 com.google.android.gm/com.android.email.provider.EmailProvider} pid=3945
+    Client:
+      Installed services:
+        Protocol=gPop3 Local(cls=class com.android.email.service.Pop3Service), accountType=com.google.android.gm.pop3
+        Protocol=gLegacyImap Local(cls=class com.android.email.service.ImapService), accountType=com.google.android.gm.legacyimap
+        Protocol=gEas Remote(pkg=com.google.android.gm.exchange act=com.google.android.gm.email.EXCHANGE_INTENT), accountType=com.google.android.gm.exchange
+        Protocol=gmail Remote(pkg=null act=null), accountType=null
+
+      Accounts: 
+        None
+      Email account states:
+PROVIDER ContentProviderRecord{c58c3c3 u0 com.google.android.gms/.reminders.provider.RemindersProvider} pid=2563
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{16daf79 u0 com.android.providers.contacts/.debug.DumpFileProvider} pid=2678
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{1f9d91f u0 com.google.android.apps.photos/.contentprovider.MediaContentProvider} pid=3402
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{390ca35 u0 com.google.android.apps.nexuslauncher/com.android.launcher3.LauncherProvider} pid=2522
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{36ce83b u0 com.google.android.music/.api.MusicPublicContentProvider} pid=4272
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{a90d4b1 u0 com.google.android.apps.photos/com.google.android.apps.consumerphotoeditor.cachedfileprovider.impl.CachedFileProvider} pid=3402
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{337cd17 u0 com.google.android.gm/com.android.mail.browse.EmailConversationProvider} pid=3945
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{dad0aed u0 com.google.android.gms/.matchstick.data.DatabaseProvider} pid=2563
+    Client:
+      nothing to dump

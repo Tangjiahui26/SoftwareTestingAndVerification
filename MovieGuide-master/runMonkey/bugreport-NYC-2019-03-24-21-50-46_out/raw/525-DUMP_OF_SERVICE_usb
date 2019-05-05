@@ -1,0 +1,9 @@
+USB Manager State:
+  USB Audio Devices:
+  USB MIDI Devices:
+  Settings for user 0:
+    Device permissions:
+    Accessory permissions:
+    Device preferences:
+    Accessory preferences:
+--------- 0.002s was the duration of dumpsys usb

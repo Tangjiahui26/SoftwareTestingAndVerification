@@ -1,0 +1,26 @@
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/properties_serial
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:debug_prop:s0
+     128       20        0        0       20        0        0        0    1 /dev/__properties__/u:object_r:default_prop:s0
+     128        4        1        0        4        0        0        0    1 /dev/__properties__/u:object_r:device_logging_prop:s0
+     128        4        2        0        4        0        0        0    1 /dev/__properties__/u:object_r:shell_prop:s0
+    1332      568      568        0        0        0      568        0    3 /sbin/adbd
+       4        4        4        0        0        0        4        0    1 [anon:atexit handlers]
+  147456      244      244        0        0        0      244        0    6 [anon:libc_malloc]
+      20        0        0        0        0        0        0        0    5 [anon:thread signal stack guard page]
+      40        0        0        0        0        0        0        0    5 [anon:thread signal stack]
+      16        0        0        0        0        0        0        0    4 [anon:thread stack guard page]
+      24       24       24        0        0        0       24        0    3 [anon]
+    1016        8        8        0        0        0        8        0    1 [stack:1321]
+    1016        8        8        0        0        0        8        0    1 [stack:1325]
+    1016        8        8        0        0        0        8        0    1 [stack:1326]
+    1016        8        8        0        0        0        8        0    1 [stack:5346]
+     136       20       20        0        0        0       20        0    1 [stack]
+       4        4        0        4        0        0        0        0    1 [vdso]
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+  153736      932      895        4       36        0      892        0   38 TOTAL

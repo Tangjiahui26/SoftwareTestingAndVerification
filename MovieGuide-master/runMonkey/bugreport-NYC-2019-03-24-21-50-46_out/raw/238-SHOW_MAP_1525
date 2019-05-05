@@ -1,0 +1,30 @@
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+     256        8        0        0        8        0        0        0    2 /dev/__properties__/properties_serial
+     128       12        0        0       12        0        0        0    1 /dev/__properties__/u:object_r:default_prop:s0
+     832      272       20      256        0        0       16        0    3 /system/bin/linker
+     288      204      108      192        0        4        8        0    3 /system/bin/sh
+     964      264       26      244        0        0       20        0    4 /system/lib/libc++.so
+     876      416       26      396        0        0       20        0    4 /system/lib/libc.so
+     220       24        8       16        0        0        8        0    3 /system/lib/libm.so
+      16       16        8        8        0        0        8        0    3 /system/lib/libnetd_client.so
+      36       32       32        0        0        0       32        0    4 [anon:.bss]
+       4        4        4        0        0        0        4        0    1 [anon:arc4random _rs structure]
+       4        4        4        0        0        0        4        0    1 [anon:arc4random _rsx structure]
+       8        8        8        0        0        0        8        0    2 [anon:atexit handlers]
+    1024      108      108        0        0        0      108        0    1 [anon:libc_malloc]
+      16       16       16        0        0        0       16        0    3 [anon:linker_alloc]
+       4        4        4        0        0        0        4        0    1 [anon:linker_alloc_lob]
+      12       12       12        0        0        0       12        0    3 [anon:linker_alloc_small_objects]
+      20       20       20        0        0        0       20        0    5 [anon:linker_alloc_vector]
+       4        0        0        0        0        0        0        0    1 [anon:thread signal stack guard page]
+       8        0        0        0        0        0        0        0    1 [anon:thread signal stack]
+      24       20       20        0        0        0       20        0    4 [anon]
+     136       28       28        0        0        0       28        0    1 [stack]
+       4        4        0        4        0        0        0        0    1 [vdso]
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+    4884     1476      452     1116       20        4      336        0   52 TOTAL

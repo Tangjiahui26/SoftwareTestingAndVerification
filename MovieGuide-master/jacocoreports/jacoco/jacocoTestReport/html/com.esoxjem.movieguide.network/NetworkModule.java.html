@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>NetworkModule.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">app</a> &gt; <a href="index.source.html" class="el_package">com.esoxjem.movieguide.network</a> &gt; <span class="el_source">NetworkModule.java</span></div><h1>NetworkModule.java</h1><pre class="source lang-java linenums">package com.esoxjem.movieguide.network;
+
+
+import com.esoxjem.movieguide.BuildConfig;
+
+import java.util.concurrent.TimeUnit;
+
+import javax.inject.Singleton;
+
+import dagger.Module;
+import dagger.Provides;
+import okhttp3.Interceptor;
+import okhttp3.OkHttpClient;
+import okhttp3.logging.HttpLoggingInterceptor;
+import retrofit2.Retrofit;
+import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
+import retrofit2.converter.moshi.MoshiConverterFactory;
+
+/**
+ * @author arunsasidharan
+ * @author pulkitkumar
+ */
+@Module
+<span class="fc" id="L24">public class NetworkModule {</span>
+    public static final int CONNECT_TIMEOUT_IN_MS = 30000;
+
+    @Provides
+    @Singleton
+    Interceptor requestInterceptor(RequestInterceptor interceptor) {
+<span class="nc" id="L30">        return interceptor;</span>
+    }
+
+    @Provides
+    @Singleton
+    OkHttpClient provideOkHttpClient(RequestInterceptor requestInterceptor) {
+<span class="fc" id="L36">        OkHttpClient.Builder builder = new OkHttpClient.Builder();</span>
+<span class="fc" id="L37">        builder.connectTimeout(CONNECT_TIMEOUT_IN_MS, TimeUnit.MILLISECONDS)</span>
+<span class="fc" id="L38">                .addInterceptor(requestInterceptor);</span>
+
+<span class="pc bpc" id="L40" title="1 of 2 branches missed.">        if (BuildConfig.DEBUG) {</span>
+<span class="fc" id="L41">            HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor();</span>
+<span class="fc" id="L42">            loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);</span>
+<span class="fc" id="L43">            builder.addInterceptor(loggingInterceptor);</span>
+        }
+
+<span class="fc" id="L46">        return builder.build();</span>
+    }
+
+    @Singleton
+    @Provides
+    Retrofit retrofit(OkHttpClient okHttpClient) {
+<span class="fc" id="L52">        return new Retrofit</span>
+                .Builder()
+<span class="fc" id="L54">                .baseUrl(BuildConfig.TMDB_BASE_URL)</span>
+<span class="fc" id="L55">                .addConverterFactory(MoshiConverterFactory.create())</span>
+<span class="fc" id="L56">                .addCallAdapterFactory(RxJava2CallAdapterFactory.create())</span>
+<span class="fc" id="L57">                .client(okHttpClient)</span>
+<span class="fc" id="L58">                .build();</span>
+    }
+
+    @Singleton
+    @Provides
+    TmdbWebService tmdbWebService(Retrofit retrofit) {
+<span class="fc" id="L64">        return retrofit.create(TmdbWebService.class);</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.4.201502262128</span></div></body></html>

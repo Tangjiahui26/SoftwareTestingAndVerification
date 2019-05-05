@@ -1,0 +1,47 @@
+System ready: true
+Restrict background: false
+Restrict power: false
+Device idle: false
+Network policies:
+  NetworkPolicy[NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=310260..., matchSubscriberIds=[310260...]]: cycleDay=24, cycleTimezone=America/Vancouver, warningBytes=2147483648, limitBytes=-1, lastWarningSnooze=-1, lastLimitSnooze=-1, metered=true, inferred=true
+Metered ifaces: {}
+Policy for UIDs:
+Power save whitelist (except idle) app ids:
+  UID=10010: true
+  UID=10013: true
+  UID=10055: true
+Power save whitelist app ids:
+  UID=10010: true
+  UID=10013: true
+Restrict background whitelist uids:
+  UID=10010
+  UID=10013
+Default restrict background whitelist uids:
+  UID=10010
+  UID=10013
+Status for all known UIDs:
+  UID=1001 state=0 (fg) rules=0 (NONE)
+  UID=10001 state=16 (bg) rules=0 (NONE)
+  UID=10002 state=16 (bg) rules=0 (NONE)
+  UID=10004 state=16 (bg) rules=0 (NONE)
+  UID=10008 state=16 (bg) rules=0 (NONE)
+  UID=10010 state=13 (bg) rules=0 (NONE)
+  UID=10013 state=3 (fg svc) rules=1 (ALLOW_METERED)
+  UID=10015 state=3 (fg svc) rules=0 (NONE)
+  UID=10019 state=13 (bg) rules=0 (NONE)
+  UID=10022 state=12 (bg) rules=0 (NONE)
+  UID=10028 state=0 (fg) rules=0 (NONE)
+  UID=10029 state=3 (fg svc) rules=0 (NONE)
+  UID=10037 state=16 (bg) rules=0 (NONE)
+  UID=10052 state=16 (bg) rules=0 (NONE)
+  UID=10053 state=7 (bg) rules=0 (NONE)
+  UID=10058 state=10 (bg) rules=0 (NONE)
+  UID=10065 state=16 (bg) rules=0 (NONE)
+  UID=10066 state=16 (bg) rules=0 (NONE)
+  UID=10068 state=16 (bg) rules=0 (NONE)
+  UID=10069 state=16 (bg) rules=0 (NONE)
+  UID=10072 state=16 (bg) rules=0 (NONE)
+  UID=10084 state=2 (fg) rules=0 (NONE)
+Status for just UIDs with rules:
+  UID=10013 rules=1 (ALLOW_METERED)
+--------- 0.001s was the duration of dumpsys netpolicy

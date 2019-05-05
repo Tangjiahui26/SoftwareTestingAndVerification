@@ -1,0 +1,166 @@
+size/num main               radio              events             system             crash              security           kernel
+Total    1476593/10806      231895/2849        173582/2814        672682/3755        6763/4             0/0                58766/1127
+Now      258801/3069        231895/2849        173582/2814        238456/1451        6763/4                                58766/1127
+
+Chattiest UIDs in main log buffer:                           Size   +/-  Pruned
+UID   PACKAGE                                               BYTES           NUM
+10084 com.esoxjem.movieguide                                36878  -72%    2221
+10028 com.android.systemui                                  36062  +1.4%    394
+10053 com.android.inputmethod.latin                         33742  2.1X      40
+10029 com.google.android.googlequicksearchbox               33590  +84%      91
+10058 com.google.android.music                              30089  2.5X        
+10013 com.google.android.gms                                25009  2.5X        
+1000  system                                                23292  +39%     136
+  PID/UID   COMMAND LINE                                       "             " 
+ 1700/1000  system_server                                   20218           136
+ 1316/1000  /system/bin/surfaceflinger                       2368
+ 5087/1000  com.android.settings                              496
+1001  radio                                                 13081  2.5X        
+0     root                                                   5552  2.6X        
+10066 com.google.android.apps.messaging                      3453  2.6X        
+1010  wifi                                                   2670  2.5X        
+10022 com.google.android.apps.nexuslauncher                  2159  2.6X        
+1041  audioserver                                            1790  3.0X        
+10037 com.android.chrome                                     1579  3.0X        
+10052 com.google.android.talk                                1532  2.5X        
+2000  shell                                                  1274  4.0X        
+10065 com.google.android.apps.photos                          977  3.0X        
+10004 com.android.cellbroadcastreceiver                       971  3.0X        
+1013  media                                                   775  2.0X        
+10041 com.google.android.apps.docs                            546  3.0X        
+10072 com.google.android.apps.wallpaper                       512  2.0X        
+10019 com.google.android.partnersetup                         505  2.0X        
+
+
+Chattiest UIDs in radio log buffer:                          Size   +/-  Pruned
+UID   PACKAGE                                               BYTES           NUM
+1001  radio                                                229353
+1000  system                                                 2298
+
+
+Chattiest UIDs in events log buffer:                         Size
+UID   PACKAGE                                               BYTES
+1000  system                                               118408
+  PID/UID   COMMAND LINE                                       " 
+ 1700/1000  system_server                                  107605
+ 1316/1000  /system/bin/surfaceflinger                      10172
+10084 com.esoxjem.movieguide                                26892
+10013 com.google.android.gms                                 9169
+10028 com.android.systemui                                   8805
+10029 com.google.android.googlequicksearchbox                3959
+10022 com.google.android.apps.nexuslauncher                  2065
+0     root                                                   1396
+
+
+Chattiest UIDs in system log buffer:                         Size   +/-  Pruned
+UID   PACKAGE                                               BYTES           NUM
+10084 com.esoxjem.movieguide                                91826  -10%    1108
+1000  system                                                85460  -24%    1303
+10028 com.android.systemui                                  25380  2.8X        
+10029 com.google.android.googlequicksearchbox               15834  2.8X        
+0     root                                                   7840  2.9X        
+10022 com.google.android.apps.nexuslauncher                  6335  2.8X        
+1001  radio                                                  2857  2.7X        
+10068 com.google.android.gm                                  1631  3.0X        
+10010 com.android.providers.media                            1228  5.0X        
+
+
+Chattiest UIDs in crash log buffer:                          Size
+UID   PACKAGE                                               BYTES
+10084 com.esoxjem.movieguide                                 6763
+
+
+Chattiest PIDs:                                              Size        Pruned
+  PID/UID   COMMAND LINE                                    BYTES           NUM
+ 1989/1001  com.android.phone                              217859
+ 1700/1000  system_server                                  215581          1439
+ 5026/10084 com.esoxjem.movieguide                         127135            75
+ 1850/10028 com.android.systemui                            68829           394
+ 2428/10029 com.google.android.googlequicksearchbox:search  52933            91
+ 1822/10053 com.android.inputmethod.latin                   33807            40
+ 4865/10084 com.esoxjem.movieguide                          31283          2995
+ 4272/10058 com.google.android.music:main                   30089
+ 1406/1001  /system/bin/rild                                27610
+ 2259/10013 com.google.android.gms.persistent               14854
+ 2563/10013 com.google.android.gms                          13268
+ 1316/1000  /system/bin/surfaceflinger                      12540
+ 2522/10022 com.google.android.apps.nexuslauncher           10559
+ 1271/0     /system/bin/vold                                 7758
+ 5108/10066 com.google.android.apps.messaging                3453
+ 4798/10013 com.google.android.gms.unstable                  2586
+ 3050/10013 com.google.android.gms.unstable                  2438
+ 5347/2000  /system/bin/dumpstate                            2236
+ 1405/0     /system/bin/netd                                 2198
+
+
+Chattiest TIDs:                                              Size        Pruned
+  TID/UID   COMM                                            BYTES           NUM
+ 1989/1001  com.android.phone                              130806
+ 5026/10084 xjem.movieguid                                  97451            23
+ 1850/10028 ndroid.systemu                                  36982            43
+ 2135/1001  DcHandlerThread                                 31410
+ 4865/10084 xjem.movieguid                                  31283          1398
+ 1822/10053 putmethod.lati                                  30575            29
+ 2111/10028 RenderThread                                    26740           316
+ 2114/1001  RILReceiver0                                    24524
+ 2428/10029 com.google.android.googlequicksearchbox:search  23318            29
+ 4304/10058 BGAsyncWorker                                   23029
+ 1653/1001  /system/bin/rild                                18783
+ 5048/10084 RenderThread                                    14678             8
+ 1700/1000  system_server                                   13596           600
+ 1316/1000  /system/bin/surfaceflinger                      10639
+ 1714/1000  ActivityManager                                  8584            41
+ 2522/10022 re-initialized>                                  8400
+ 1655/1001  /system/bin/rild                                 8258
+ 1799/1000  ConnectivitySer                                  7865            27
+ 1711/1000  Binder:1700_1                                    7360            27
+ 2014/1000  Binder:1700_4                                    6888            24
+ 1721/1000  android.display                                  6810            41
+ 2246/1000  Binder:1700_6                                    6744            18
+ 2248/1000  Binder:1700_7                                    6688            23
+ 4272/10058 com.google.android.music:main                    6655
+ 3986/1000  Binder:1700_1A                                   6447             5
+ 1757/1000  InputDispatcher                                  6373            31
+ 3970/1000  Binder:1700_E                                    6014             5
+ 5046/10084 RxCachedThreadS                                  5811            29
+ 3991/1000  Binder:1700_1C                                   5771            10
+ 3974/1000  Binder:1700_10                                   5594             7
+ 3977/1000  Binder:1700_13                                   5546             4
+ 3985/1000  Binder:1700_19                                   5531            13
+
+
+Chattiest events log buffer TAGs:                            Size
+    TAG/UID   TAGNAME                                       BYTES
+  20003       dvm_lock_sample                               16144
+  30022       am_on_resume_called                           11984
+  30021       am_on_paused_called                           11976
+  60100/1000  sf_frame_dur                                  10159
+  30014/1000  am_proc_start                                  9477
+  30043/1000  am_focused_activity                            9465
+  30003/1000  am_new_intent                                  8872
+ 524288       sysui_action                                   8448
+  30013/1000  am_pause_activity                              6854
+  30005/1000  am_create_activity                             5864
+   1003       auditd                                         5758
+  30049       am_on_stop_called                              4887
+  31002/1000  wm_task_moved                                  4642
+  30001/1000  am_finish_activity                             4417
+  30009/1000  am_activity_launch_time                        4130
+  30018/1000  am_destroy_activity                            4107
+  30006/1000  am_restart_activity                            4071
+  30047/1000  am_pss                                         3561
+  30007/1000  am_resume_activity                             3482
+  30010/1000  am_proc_bound                                  3457
+ 524287/10028 sysui_view_visibility                          3247
+   2741       force_gc                                       2736
+  30023/1000  am_kill                                        2692
+ 524291       sysui_histogram                                2431
+ 524290       sysui_count                                    2367
+   2750/1000  notification_enqueue                           2211
+  51100/1000  netstats_mobile_sample                         1984
+  51101/1000  netstats_wifi_sample                           1984
+  36021/10028 sysui_lockscreen_gesture                       1628
+  30011/1000  am_proc_died                                   1612
+  30048/1000  am_stop_activity                               1541
+  30044/1000  am_focused_stack                                846
+

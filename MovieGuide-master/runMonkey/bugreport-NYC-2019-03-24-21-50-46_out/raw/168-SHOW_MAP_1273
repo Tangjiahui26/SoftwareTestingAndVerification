@@ -1,0 +1,41 @@
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+     256        0        0        0        0        0        0        0    2 /dev/__properties__/properties_serial
+     128        0        0        0        0        0        0        0    1 /dev/__properties__/u:object_r:default_prop:s0
+      56       20       14        8        4        4        4        0    3 /system/bin/debuggerd
+     832       32        8       16       16        0        0        0    3 /system/bin/linker
+      76        8        4        0        8        0        0        0    3 /system/lib/libbacktrace.so
+      52        8        4        0        8        0        0        0    3 /system/lib/libbase.so
+     964       20       10        0       20        0        0        0    4 /system/lib/libc++.so
+     876      116       13       96       16        0        4        0    4 /system/lib/libc.so
+    1104       48       24        0       48        0        0        0    3 /system/lib/libcrypto.so
+     128        8        6        0        4        0        4        0    4 /system/lib/libcutils.so
+      68        8        4        0        8        0        0        0    3 /system/lib/liblog.so
+     168        8        4        0        8        0        0        0    3 /system/lib/liblzma.so
+     220        8        4        0        8        0        0        0    3 /system/lib/libm.so
+      16        8        4        0        8        0        0        0    3 /system/lib/libnetd_client.so
+      16        8        4        0        8        0        0        0    3 /system/lib/libpackagelistparser.so
+     128        8        4        0        8        0        0        0    3 /system/lib/libpcre.so
+      96        8        6        0        4        0        4        0    4 /system/lib/libselinux.so
+      20        8        4        0        8        0        0        0    3 /system/lib/libstdc++.so
+     116        8        4        0        8        0        0        0    3 /system/lib/libunwind.so
+     120       32       20        0       24        0        8        0    6 [anon:.bss]
+       4        4        2        0        4        0        0        0    1 [anon:arc4random _rs structure]
+       4        4        2        0        4        0        0        0    1 [anon:arc4random _rsx structure]
+       8        8        4        0        8        0        0        0    2 [anon:atexit handlers]
+    1024       56       52        0        8        0       48        0    1 [anon:libc_malloc]
+      20       20       10        0       20        0        0        0    4 [anon:linker_alloc]
+       4        4        2        0        4        0        0        0    1 [anon:linker_alloc_lob]
+      16       16        8        0       16        0        0        0    4 [anon:linker_alloc_small_objects]
+      20       20       10        0       20        0        0        0    5 [anon:linker_alloc_vector]
+       4        0        0        0        0        0        0        0    1 [anon:thread signal stack guard page]
+       8        0        0        0        0        0        0        0    1 [anon:thread signal stack]
+      20       16       10        0       12        0        4        0    3 [anon]
+     136       24       20        0        8        0       16        0    1 [stack]
+       4        4        0        4        0        0        0        0    1 [vdso]
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+    6712      540      261      124      320        4       92        0   90 TOTAL

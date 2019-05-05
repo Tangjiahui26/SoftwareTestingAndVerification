@@ -1,0 +1,31 @@
+Users:
+  UserInfo{0:null:13} serialNo=0
+    Created: <unknown>
+    Last logged in: +2m24s489ms ago
+    Last logged in fingerprint: google/sdk_google_phone_x86/generic_x86:7.1.1/NYC/5071160:userdebug/test-keys
+    Has profile owner: false
+    Restrictions:
+      none
+    Device policy local restrictions:
+      null
+    Effective restrictions:
+      none
+
+  Device policy global restrictions:
+    null
+
+  Global restrictions owner id:-10000
+
+  Guest restrictions:
+    no_sms
+    no_install_unknown_sources
+    no_config_wifi
+    no_outgoing_calls
+
+  Device managed: false
+  Started users state: {0=3}
+
+  Max users: 4
+  Supports switchable users: true
+  All guests ephemeral: false
+--------- 0.003s was the duration of dumpsys user

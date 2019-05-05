@@ -1,0 +1,120 @@
+  Display: mDisplayId=0
+    init=1080x1920 420dpi cur=1080x1920 app=1080x1794 rng=1080x1017-1794x1731
+    deferred=false layoutNeeded=false
+
+  Application tokens in top down Z order:
+    mStackId=1
+    mDeferDetach=false
+    mFullscreen=true
+    mBounds=[0,0][1080,1920]
+      taskId=12
+        mFullscreen=true
+        mBounds=[0,0][1080,1920]
+        mdr=false
+        appTokens=[AppWindowToken{ab738ca token=Token{1b37a7d ActivityRecord{40cb8d4 u0 com.esoxjem.movieguide/.listing.MoviesListingActivity t12}}}, AppWindowToken{d3ae42a token=Token{2803915 ActivityRecord{3a172cc u0 com.esoxjem.movieguide/.details.MovieDetailsActivity t12}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #1 AppWindowToken{d3ae42a token=Token{2803915 ActivityRecord{3a172cc u0 com.esoxjem.movieguide/.details.MovieDetailsActivity t12}}}
+          windows=[Window{4d8efb8 u0 com.esoxjem.movieguide/com.esoxjem.movieguide.details.MovieDetailsActivity}]
+          windowType=2 hidden=false hasVisible=true
+          app=true voiceInteraction=false
+          allAppWindows=[Window{4d8efb8 u0 com.esoxjem.movieguide/com.esoxjem.movieguide.details.MovieDetailsActivity}]
+          task={taskId=12 appTokens=[AppWindowToken{ab738ca token=Token{1b37a7d ActivityRecord{40cb8d4 u0 com.esoxjem.movieguide/.listing.MoviesListingActivity t12}}}, AppWindowToken{d3ae42a token=Token{2803915 ActivityRecord{3a172cc u0 com.esoxjem.movieguide/.details.MovieDetailsActivity t12}}}] mdr=false}
+           appFullscreen=true requestedOrientation=-1
+          hiddenRequested=false clientHidden=false reportedDrawn=true reportedVisible=true
+          numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+          Activity #0 AppWindowToken{ab738ca token=Token{1b37a7d ActivityRecord{40cb8d4 u0 com.esoxjem.movieguide/.listing.MoviesListingActivity t12}}}
+          windows=[Window{4ffe558 u0 com.esoxjem.movieguide/com.esoxjem.movieguide.listing.MoviesListingActivity}]
+          windowType=2 hidden=true hasVisible=true
+          app=true voiceInteraction=false
+          allAppWindows=[Window{4ffe558 u0 com.esoxjem.movieguide/com.esoxjem.movieguide.listing.MoviesListingActivity}]
+          task={taskId=12 appTokens=[AppWindowToken{ab738ca token=Token{1b37a7d ActivityRecord{40cb8d4 u0 com.esoxjem.movieguide/.listing.MoviesListingActivity t12}}}, AppWindowToken{d3ae42a token=Token{2803915 ActivityRecord{3a172cc u0 com.esoxjem.movieguide/.details.MovieDetailsActivity t12}}}] mdr=false}
+           appFullscreen=true requestedOrientation=-1
+          hiddenRequested=true clientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+    mStackId=0
+    mDeferDetach=false
+    mFullscreen=true
+    mBounds=[0,0][1080,1920]
+      taskId=5
+        mFullscreen=true
+        mBounds=[0,0][1080,1920]
+        mdr=false
+        appTokens=[AppWindowToken{23f8615 token=Token{9f079ff ActivityRecord{39bdd1e u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t5}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{23f8615 token=Token{9f079ff ActivityRecord{39bdd1e u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t5}}}
+          windows=[Window{ee7d995 u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}, Window{59b2e18 u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}]
+          windowType=2 hidden=true hasVisible=true
+          app=true voiceInteraction=false
+          allAppWindows=[Window{ee7d995 u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}, Window{59b2e18 u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}]
+          task={taskId=5 appTokens=[AppWindowToken{23f8615 token=Token{9f079ff ActivityRecord{39bdd1e u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t5}}}] mdr=false}
+           appFullscreen=true requestedOrientation=5
+          hiddenRequested=true clientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          numInterestingWindows=2 numDrawnWindows=2 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+      taskId=7
+        mFullscreen=true
+        mBounds=[0,0][1080,1920]
+        mdr=false
+        appTokens=[AppWindowToken{4c4ca8f token=Token{93a8769 ActivityRecord{3bd75f0 u0 com.android.systemui/.recents.RecentsActivity t7}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{4c4ca8f token=Token{93a8769 ActivityRecord{3bd75f0 u0 com.android.systemui/.recents.RecentsActivity t7}}}
+          windows=[Window{92f5fdd u0 com.android.systemui/com.android.systemui.recents.RecentsActivity}]
+          windowType=2 hidden=true hasVisible=true
+          app=true voiceInteraction=false
+          allAppWindows=[Window{92f5fdd u0 com.android.systemui/com.android.systemui.recents.RecentsActivity}]
+          task={taskId=7 appTokens=[AppWindowToken{4c4ca8f token=Token{93a8769 ActivityRecord{3bd75f0 u0 com.android.systemui/.recents.RecentsActivity t7}}}] mdr=false}
+           appFullscreen=true requestedOrientation=3
+          hiddenRequested=true clientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+
+
+    DimLayerController
+      Task=12
+        dimLayer=shared, animator=null, continueDimming=false
+        mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21024 mAlpha=0.0
+        mLastBounds=[-270,-480][1350,2400] mBounds=[-270,-480][1350,2400]
+        Last animation:  mDuration=200 mStartTime=172287 curTime=183266
+         mStartAlpha=0.6 mTargetAlpha=0.0
+      Task=10
+        dimLayer=shared, animator=null, continueDimming=false
+        mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21024 mAlpha=0.0
+        mLastBounds=[-270,-480][1350,2400] mBounds=[-270,-480][1350,2400]
+        Last animation:  mDuration=200 mStartTime=172287 curTime=183266
+         mStartAlpha=0.6 mTargetAlpha=0.0
+      Task=8
+        dimLayer=shared, animator=null, continueDimming=false
+        mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21024 mAlpha=0.0
+        mLastBounds=[-270,-480][1350,2400] mBounds=[-270,-480][1350,2400]
+        Last animation:  mDuration=200 mStartTime=172287 curTime=183266
+         mStartAlpha=0.6 mTargetAlpha=0.0
+      Stack=0
+        dimLayer=shared, animator=null, continueDimming=false
+        mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21024 mAlpha=0.0
+        mLastBounds=[-270,-480][1350,2400] mBounds=[-270,-480][1350,2400]
+        Last animation:  mDuration=200 mStartTime=172287 curTime=183266
+         mStartAlpha=0.6 mTargetAlpha=0.0
+      Task=7
+        dimLayer=shared, animator=null, continueDimming=false
+        mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21024 mAlpha=0.0
+        mLastBounds=[-270,-480][1350,2400] mBounds=[-270,-480][1350,2400]
+        Last animation:  mDuration=200 mStartTime=172287 curTime=183266
+         mStartAlpha=0.6 mTargetAlpha=0.0
+      Task=5
+        dimLayer=shared, animator=null, continueDimming=false
+        mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21024 mAlpha=0.0
+        mLastBounds=[-270,-480][1350,2400] mBounds=[-270,-480][1350,2400]
+        Last animation:  mDuration=200 mStartTime=172287 curTime=183266
+         mStartAlpha=0.6 mTargetAlpha=0.0
+
+    DockedStackDividerController
+      mLastVisibility=false
+      mMinimizedDock=false
+      mAdjustedForIme=false
+      mAdjustedForDivider=false
+

@@ -1,0 +1,227 @@
+Build configuration: [sf] [libui] [libgui]
+Sync configuration: [using: EGL_ANDROID_native_fence_sync EGL_KHR_wait_sync]
+DispSync configuration: app phase 1000000 ns, sf phase 1000000 ns, present offset 0 ns (refresh 16666666 ns)
+
+Static screen stats:
+  < 1 frames: 34.977 s (19.6%)
+  < 2 frames: 42.438 s (23.8%)
+  < 3 frames: 1.710 s (1.0%)
+  < 4 frames: 0.864 s (0.5%)
+  < 5 frames: 8.558 s (4.8%)
+  < 6 frames: 9.194 s (5.2%)
+  < 7 frames: 1.221 s (0.7%)
+  7+ frames: 79.161 s (44.4%)
+
+Buffering stats:
+  [Layer name] <Active time> <Two buffer> <Double buffered> <Triple buffered>
+  [com.esoxjem.movieguide/com.esoxjem.movieguide.listing.MoviesListingActivity] 38.50 0.112 0.840 0.160
+  [StatusBar] 26.19 0.047 0.644 0.356
+  [BootAnimation] 19.56 1.000 1.000 0.000
+  [com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity] 13.54 0.148 0.466 0.534
+  [VolumeDialog] 12.74 0.041 0.801 0.199
+  [com.esoxjem.movieguide/com.esoxjem.movieguide.details.MovieDetailsActivity] 10.66 0.256 0.907 0.093
+  [InputMethod] 4.03 0.406 1.000 0.000
+  [Sort By] 3.54 0.342 0.958 0.042
+  [NavigationBar] 2.76 0.417 0.761 0.239
+  [ScreenshotAnimation] 0.86 0.000 0.485 0.515
+  [com.android.systemui/com.android.systemui.recents.RecentsActivity] 0.86 0.830 0.830 0.170
+  [AssistDisclosure] 0.73 0.000 1.000 0.000
+  [Application Error: com.esoxjem.movieguide] 0.26 0.000 0.000 1.000
+  [Starting com.google.android.sdksetup] 0.19 1.000 1.000 0.000
+
+Visible layers (count = 7)
++ LayerDim 0xae492400 (animation background stackId=0)
+  Region transparentRegion (this=0xae49262c, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xae492408, count=1)
+    [  0,   0,   0,   0]
+  Region surfaceDamageRegion (this=0xae492444, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    20999, pos=(-270,-480), size=(1620,2880), crop=(   0,   0,  -1,  -1), finalCrop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x00, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0xae21c080
+      format= 0, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=10 mCurrentTexture=-1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mMaxDequeuedBufferCount=2, mDequeueBufferCannotBlock=0 mAsyncMode=0, default-size=[1620x2880], default-format=1, transform-hint=00, FIFO(0)={}
+             [00:0x0] state=FREE    
+             [01:0x0] state=FREE    
+             [02:0x0] state=FREE    
++ Layer 0xad521c00 (com.android.systemui.ImageWallpaper)
+  Region transparentRegion (this=0xad521e2c, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xad521c08, count=1)
+    [  0,   0,   0,   0]
+  Region surfaceDamageRegion (this=0xad521c44, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21000, pos=(0,0), size=(1243,1920), crop=(   0,   0,1243,1920), finalCrop=(   0,   0,  -1,  -1), isOpaque=1, invalidate=0, alpha=0xff, flags=0x00000003, tr=[1.00, 0.00][0.00, 1.00]
+      client=0xae21c300
+      format= 2, activeBuffer=[1243x1920:1243,  2], queued-frames=0, mRefreshPending=0
+            mTexName=6 mCurrentTexture=1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mMaxDequeuedBufferCount=2, mDequeueBufferCannotBlock=0 mAsyncMode=0, default-size=[1243x1920], default-format=2, transform-hint=00, FIFO(0)={}
+            >[01:0xad516aa0] state=ACQUIRED, 0xae499900 [1243x1920:1243,  2]
+             [00:0xae21d0a0] state=FREE    , 0xae222080 [1080x1920:1080,  2]
+             [02:0x0] state=FREE    
++ LayerDim 0xad54e400 (animation background stackId=1)
+  Region transparentRegion (this=0xad54e62c, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xad54e408, count=1)
+    [  0,   0,   0,   0]
+  Region surfaceDamageRegion (this=0xad54e444, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21019, pos=(-270,-480), size=(1620,2880), crop=(   0,   0,  -1,  -1), finalCrop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x00, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0xae21c080
+      format= 0, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=167 mCurrentTexture=-1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mMaxDequeuedBufferCount=2, mDequeueBufferCannotBlock=0 mAsyncMode=0, default-size=[1620x2880], default-format=1, transform-hint=00, FIFO(0)={}
+             [00:0x0] state=FREE    
+             [01:0x0] state=FREE    
+             [02:0x0] state=FREE    
++ LayerDim 0xad520800 (DimLayerController/Stack=0)
+  Region transparentRegion (this=0xad520a2c, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xad520808, count=1)
+    [  0,   0,   0,   0]
+  Region surfaceDamageRegion (this=0xad520844, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21024, pos=(-270,-480), size=(1620,2880), crop=(   0,   0,  -1,  -1), finalCrop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x00, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0xae21c080
+      format= 0, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=19 mCurrentTexture=-1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mMaxDequeuedBufferCount=2, mDequeueBufferCannotBlock=0 mAsyncMode=0, default-size=[1620x2880], default-format=1, transform-hint=00, FIFO(0)={}
+             [00:0x0] state=FREE    
+             [01:0x0] state=FREE    
+             [02:0x0] state=FREE    
++ Layer 0xae494c00 (com.esoxjem.movieguide/com.esoxjem.movieguide.details.MovieDetailsActivity)
+  Region transparentRegion (this=0xae494e2c, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xae494c08, count=1)
+    [  0,   0, 1080, 1920]
+  Region surfaceDamageRegion (this=0xae494c44, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21025, pos=(0,0), size=(1080,1920), crop=(   0,   0,1080,1920), finalCrop=(   0,   0,   0,   0), isOpaque=1, invalidate=0, alpha=0xff, flags=0x00000002, tr=[1.00, 0.00][0.00, 1.00]
+      client=0xae4b61c0
+      format= 1, activeBuffer=[1080x1920:1080,  1], queued-frames=0, mRefreshPending=0
+            mTexName=166 mCurrentTexture=2
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mMaxDequeuedBufferCount=2, mDequeueBufferCannotBlock=0 mAsyncMode=0, default-size=[1080x1920], default-format=1, transform-hint=00, FIFO(0)={}
+             [01:0xad517400] state=DEQUEUED, 0xad535200 [1080x1920:1080,  1]
+            >[02:0xad516fa0] state=ACQUIRED, 0xad535400 [1080x1920:1080,  1]
+             [00:0xad516f00] state=FREE    , 0xad535080 [1080x1920:1080,  1]
++ Layer 0xad51f400 (StatusBar)
+  Region transparentRegion (this=0xad51f62c, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xad51f408, count=1)
+    [  0,   0, 1080,  63]
+  Region surfaceDamageRegion (this=0xad51f444, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=   161000, pos=(0,0), size=(1080,  63), crop=(   0,   0,1080,  63), finalCrop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0xff, flags=0x00000000, tr=[1.00, 0.00][0.00, 1.00]
+      client=0xae21c300
+      format= 1, activeBuffer=[1080x  63:1080,  1], queued-frames=0, mRefreshPending=0
+            mTexName=7 mCurrentTexture=0
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mMaxDequeuedBufferCount=2, mDequeueBufferCannotBlock=0 mAsyncMode=0, default-size=[1080x63], default-format=1, transform-hint=00, FIFO(0)={}
+            >[00:0xae21d3c0] state=ACQUIRED, 0xae222480 [1080x  63:1080,  1]
+             [01:0xad516960] state=DEQUEUED, 0xad535780 [1080x  63:1080,  1]
+             [02:0xad5177c0] state=FREE    , 0xad535a80 [1080x  63:1080,  1]
++ Layer 0xae491000 (NavigationBar)
+  Region transparentRegion (this=0xae49122c, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xae491008, count=1)
+    [  0, 1794, 1080, 1920]
+  Region surfaceDamageRegion (this=0xae491044, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=   211000, pos=(0,1794), size=(1080, 126), crop=(   0,   0,1080, 126), finalCrop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0xff, flags=0x00000000, tr=[1.00, 0.00][0.00, 1.00]
+      client=0xae21c300
+      format= 1, activeBuffer=[1080x 126:1080,  1], queued-frames=0, mRefreshPending=0
+            mTexName=8 mCurrentTexture=2
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mMaxDequeuedBufferCount=2, mDequeueBufferCannotBlock=0 mAsyncMode=0, default-size=[1080x126], default-format=1, transform-hint=00, FIFO(0)={}
+             [01:0xae21d820] state=DEQUEUED, 0xae222680 [1080x 126:1080,  1]
+            >[02:0xae21d8c0] state=ACQUIRED, 0xae222700 [1080x 126:1080,  1]
+             [00:0xae21d780] state=FREE    , 0xae222600 [1080x 126:1080,  1]
+Displays (1 entries)
++ DisplayDevice: Built-in Screen
+   type=0, hwcId=0, layerStack=0, (1080x1920), ANativeWindow=0xae4ff808, orient= 0 (type=00000000), flips=4935, isSecure=1, powerMode=2, activeConfig=0, numLayers=3
+   v:[0,0,1080,1920], f:[0,0,1080,1920], s:[0,0,1080,1920],transform:[[1.000,0.000,-0.000][0.000,1.000,-0.000][0.000,0.000,1.000]]
+mAbandoned=0
+-BufferQueue mMaxAcquiredBufferCount=1, mMaxDequeuedBufferCount=1, mDequeueBufferCannotBlock=0 mAsyncMode=0, default-size=[1080x1920], default-format=1, transform-hint=00, FIFO(0)={}
+>[00:0xad516000] state=ACQUIRED, 0xae499380 [1080x1920:1080,  1]
+ [01:0xad516140] state=DEQUEUED, 0xae499580 [1080x1920:1080,  1]
+SurfaceFlinger global state:
+EGL implementation : 1.4
+EGL_ANDROID_image_native_buffer EGL_KHR_fence_sync EGL_KHR_image_base EGL_KHR_gl_texture_2d_image EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_ANDROID_recordable EGL_KHR_create_context EGL_ANDROID_native_fence_sync EGL_KHR_wait_sync 
+GLES: Google (Intel Inc.), Android Emulator OpenGL ES Translator (Intel(R) Iris(TM) Plus Graphics 640), OpenGL ES 3.0 (4.1 INTEL-12.4.7)
+GL_EXT_debug_marker GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_dma_v1 GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+  Region undefinedRegion (this=0xae4d23ec, count=1)
+    [  0,   0,   0,   0]
+  orientation=0, isDisplayOn=1
+  last eglSwapBuffers() time: 4.734000 us
+  last transaction time     : 10.885000 us
+  transaction-flags         : 00000000
+  refresh-rate              : 60.000002 fps
+  x-dpi                     : 72.000000
+  y-dpi                     : 72.000000
+  gpu_to_cpu_unsupported    : 0
+  eglSwapBuffers time: 0.000000 us
+  transaction time: 0.000000 us
+VSYNC state: disabled
+  soft-vsync: disabled
+  numListeners=29,
+  events-delivered: 5681
+    0xae208030: count=-1
+    0xae208060: count=-1
+    0xae2080c0: count=-1
+    0xae208120: count=-1
+    0xae208210: count=-1
+    0xae2082a0: count=-1
+    0xae49f320: count=-1
+    0xae49f470: count=-1
+    0xae49f4a0: count=-1
+    0xae49f5c0: count=-1
+    0xae49f5f0: count=-1
+    0xae49f620: count=-1
+    0xae49f7a0: count=-1
+    0xae49f890: count=-1
+    0xae49f8f0: count=-1
+    0xae49f920: count=-1
+    0xae49fa10: count=-1
+    0xae49fb30: count=-1
+    0xae49fb90: count=-1
+    0xae49fe30: count=-1
+    0xae49fec0: count=-1
+    0xae49ff80: count=-1
+    0xae49ffb0: count=-1
+    0xae4a0130: count=-1
+    0xae4a0280: count=-1
+    0xae4a04c0: count=-1
+    0xae4a0640: count=-1
+    0xae4a0880: count=-1
+    0xae4a08b0: count=-1
+h/w composer state:
+  h/w composer not present and enabled
+Allocated buffers:
+0xad535080: 8100.00 KiB | 1080 (1080) x 1920 |        1 | 0x00000900 | 
+0xad535200: 8100.00 KiB | 1080 (1080) x 1920 |        1 | 0x00000900 | 
+0xad535400: 8100.00 KiB | 1080 (1080) x 1920 |        1 | 0x00000900 | com.esoxjem.movieguide/com.esoxjem.movieguide.details.MovieDetailsActivity
+0xad535780:  265.78 KiB | 1080 (1080) x   63 |        1 | 0x00000900 | StatusBar
+0xad535a80:  265.78 KiB | 1080 (1080) x   63 |        1 | 0x00000900 | StatusBar
+0xae222080: 8100.00 KiB | 1080 (1080) x 1920 |        2 | 0x00000933 | com.android.systemui.ImageWallpaper
+0xae222480:  265.78 KiB | 1080 (1080) x   63 |        1 | 0x00000900 | StatusBar
+0xae222600:  531.56 KiB | 1080 (1080) x  126 |        1 | 0x00000900 | 
+0xae222680:  531.56 KiB | 1080 (1080) x  126 |        1 | 0x00000900 | NavigationBar
+0xae222700:  531.56 KiB | 1080 (1080) x  126 |        1 | 0x00000900 | NavigationBar
+0xae499380: 8100.00 KiB | 1080 (1080) x 1920 |        1 | 0x00001a00 | FramebufferSurface
+0xae499580: 8100.00 KiB | 1080 (1080) x 1920 |        1 | 0x00001a00 | FramebufferSurface
+0xae499900: 9322.50 KiB | 1243 (1243) x 1920 |        2 | 0x00000933 | com.android.systemui.ImageWallpaper
+Total allocated (estimate): 60314.53 KB
+--------- 0.004s was the duration of dumpsys SurfaceFlinger

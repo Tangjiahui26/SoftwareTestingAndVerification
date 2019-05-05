@@ -1,0 +1,29 @@
+Chain PREROUTING (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 natctrl_mangle_FORWARD  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain POSTROUTING (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+    8276   536103 bw_mangle_POSTROUTING  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+    8276   536103 idletimer_mangle_POSTROUTING  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain bw_mangle_POSTROUTING (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+    8276   536103            all  --  *      *       0.0.0.0/0            0.0.0.0/0            owner socket exists
+
+Chain idletimer_mangle_POSTROUTING (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+      37     3147 IDLETIMER  all  --  *      radio0  0.0.0.0/0            0.0.0.0/0            timeout:10 label:0 send_nl_msg:1
+
+Chain natctrl_mangle_FORWARD (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 TCPMSS     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp flags:0x02/0x02 TCPMSS clamp to PMTU

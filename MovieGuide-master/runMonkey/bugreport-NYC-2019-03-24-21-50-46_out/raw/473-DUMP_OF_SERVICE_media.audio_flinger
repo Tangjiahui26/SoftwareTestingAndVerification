@@ -1,0 +1,629 @@
+Library loudness_enhancer
+  Loudness Enhancer / The Android Open Source Project
+    UUID: fa415329-2034-4bea-b5dc-5b381c8d1e2c
+    TYPE: fe3199be-aed0-413f-87bb-11260eb63cf1
+    apiVersion: 00020000
+    flags: 00000008
+Library downmix
+  Multichannel Downmix To Stereo / The Android Open Source Project
+    UUID: 93f04452-e4fe-41cc-91f9-e475b6d1d69f
+    TYPE: 381e49cc-a858-4aa2-87f6-e8388e7601b2
+    apiVersion: 00020000
+    flags: 00000008
+Library visualizer
+  Visualizer / The Android Open Source Project
+    UUID: d069d9e0-8329-11df-9168-0002a5d5c51b
+    TYPE: e46b26a0-dddd-11db-8afd-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000008
+Library reverb
+  Insert Preset Reverb / NXP Software Ltd.
+    UUID: 172cdf00-a3bc-11df-a72f-0002a5d5c51b
+    TYPE: 47382d60-ddd8-11db-bf3a-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000048
+  Auxiliary Preset Reverb / NXP Software Ltd.
+    UUID: f29a1400-a3bb-11df-8ddc-0002a5d5c51b
+    TYPE: 47382d60-ddd8-11db-bf3a-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000001
+  Insert Environmental Reverb / NXP Software Ltd.
+    UUID: c7a511a0-a3bb-11df-860e-0002a5d5c51b
+    TYPE: c2e5d5f0-94bd-4763-9cac-4e234d06839e
+    apiVersion: 00020000
+    flags: 00000048
+  Auxiliary Environmental Reverb / NXP Software Ltd.
+    UUID: 4a387fc0-8ab3-11df-8bad-0002a5d5c51b
+    TYPE: c2e5d5f0-94bd-4763-9cac-4e234d06839e
+    apiVersion: 00020000
+    flags: 00000001
+Library bundle
+  Volume / NXP Software Ltd.
+    UUID: 119341a0-8469-11df-81f9-0002a5d5c51b
+    TYPE: 09e8ede0-ddde-11db-b4f6-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000050
+  Equalizer / NXP Software Ltd.
+    UUID: ce772f20-847d-11df-bb17-0002a5d5c51b
+    TYPE: 0bed4300-ddd6-11db-8f34-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000048
+  Virtualizer / NXP Software Ltd.
+    UUID: 1d4033c0-8557-11df-9f2d-0002a5d5c51b
+    TYPE: 37cc2c00-dddd-11db-8577-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000250
+  Dynamic Bass Boost / NXP Software Ltd.
+    UUID: 8631f300-72e2-11df-b57e-0002a5d5c51b
+    TYPE: 0634f220-ddd4-11db-a0fc-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000248
+Clients:
+  pid: 1700
+  pid: 2428
+  pid: 5295
+Notification Clients:
+  pid: 1396
+  pid: 1397
+  pid: 1700
+  pid: 2428
+  pid: 4272
+  pid: 5295
+Global session refs:
+  session   pid count
+       57  2428     1
+       65  2428     1
+       73  2428     1
+       81  2428     1
+       89  2428     1
+       97  2428     1
+      105  1700     1
+      113  2428     1
+      121  2428     1
+      129  2428     1
+      137  2428     1
+      145  2428     1
+      153  2428     1
+      161  2428     1
+      169  1700     1
+      177  1700     1
+      185  1700     1
+      201  2428     1
+      209  2428     1
+      217  2428     1
+      225  5295     1
+      233  2428     1
+Hardware status: 0
+Standby Time mSec: 3000
+
+Output thread 0xa7403140 type 0 (MIXER):
+  Thread name: AudioOut_D
+  I/O handle: 13
+  TID: 1422
+  Standby: yes
+  Sample rate: 48000 Hz
+  HAL frame count: 720
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 2880 bytes
+  Channel count: 2
+  Channel mask: 0x00000003 (front-left, front-right)
+  Processing format: 0x5 (pcmfloat)
+  Processing frame size: 8 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0 (NONE)
+  Audio source: 0 (default)
+  Normal frame count: 1152
+  Last write occurred (msecs): 4602
+  Total writes: 4065
+  Delayed writes: 0
+  Blocked in write: no
+  Suspend count: 0
+  Sink buffer : 0xa7465800
+  Mixer buffer: 0xa7463000
+  Effect buffer: 0xa7455400
+  Fast track availMask=0xe0
+  Standby delay ns=3000000000
+  AudioStreamOut: 0xa799b480 flags 0x2 (PRIMARY)
+  Frames written: 4682880
+  Suspended frames: 0
+  PipeSink frames written: 4682880
+  Hal stream dump:
+	out_dump:
+		sample rate: 48000
+		buffer size: 2880
+		channel mask: 00000003
+		format: 1
+		device: 00000002
+		audio dev: 0xa79c80c0
+
+  Thread throttle time (msecs): 0
+  AudioMixer tracks: 0x0000001f
+  Master mono: off
+  FastMixer command=COLD_IDLE writeSequence=13064 framesWritten=4703040
+            numTracks=1 writeErrors=0 underruns=1 overruns=0
+            sampleRate=48000 frameCount=720 measuredWarmup=35 ms, warmupCycles=5
+            mixPeriod=15.00 ms
+  Simple moving statistics over last 56.1 seconds:
+    wall clock time in ms per mix cycle:
+      mean=15.00 min=0.01 max=41.81 stddev=0.76
+    raw CPU load in us per mix cycle:
+      mean=103 min=0 max=2607 stddev=104
+  Distribution of mix cycle times in ms for the tails (> ~3 stddev outliers):
+    left tail: mean=7.08 min=0.01 max=12.27 stddev=6.34
+    right tail: mean=27.25 min=18.25 max=41.81 stddev=12.73
+  Fast tracks: sMaxFastTracks=8 activeMask=0x1
+  Index Active Full Partial Empty  Recent Ready    Written
+      0    yes  347      16     0    full  2304    4680576
+      1     no   11     155   408   empty     0     774960
+      2     no  975     139   370   empty     0     728688
+      3     no  923     131   315   empty     0     689712
+      4     no  924     133   358   empty     0     690816
+      5     no    0       0     0    full     0          0
+      6     no    0       0     0    full     0          0
+      7     no    0       0     0    full     0          0
+  Stream volumes in dB: 0:0, 1:-19, 2:0, 3:0, 4:0, 5:0, 6:0, 7:-22, 8:-6, 9:0, 10:0, 11:0, 12:0
+  Normal mixer raw underrun counters: partial=16 empty=0
+  5 Tracks of which 0 are active
+    Name Active Client Type      Fmt Chn mask Session fCount S F SRate  L dB  R dB    Server Main buf  Aux Buf Flags UndFrmCnt
+    F  2     no   1700    1 00000001 00000003     169   4512 S 1 48000  -inf  -inf  000B1E70 0xa7465800 0x0 0x600         0 
+    F  3     no   1700    1 00000001 00000003     177   4512 S 1 48000  -inf  -inf  000A8630 0xa7465800 0x0 0x600         0 
+       4     no   5295    7 00000001 00000001     225   6154 S 1 44100  -inf  -inf  0000180A 0xa7465800 0x0 0x600         0 
+    F  1     no   1700    1 00000001 00000003     105   4512 S 1 48000  -inf  -inf  000BD330 0xa7465800 0x0 0x600         0 
+    F  4     no   1700    1 00000001 00000003     185   4512 S 1 48000  -inf  -inf  000A8A80 0xa7465800 0x0 0x600         0 
+  0 Effect Chains
+
+Input thread 0xa6a83540:
+  Thread name: AudioIn_1E
+  I/O handle: 30
+  TID: 2887
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010      57 0 00000000  64000 16000
+  0 Effect Chains
+
+Input thread 0xa6403c80:
+  Thread name: AudioIn_26
+  I/O handle: 38
+  TID: 3383
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010      65 0 00000000  64000 16000
+  0 Effect Chains
+
+Input thread 0xa6183a40:
+  Thread name: AudioIn_2E
+  I/O handle: 46
+  TID: 3675
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010      73 0 00000000  64000 16000
+  0 Effect Chains
+
+Input thread 0xa5f03e40:
+  Thread name: AudioIn_36
+  I/O handle: 54
+  TID: 4005
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010      81 0 00000000  64000 16000
+  0 Effect Chains
+
+Input thread 0xa5c839c0:
+  Thread name: AudioIn_3E
+  I/O handle: 62
+  TID: 4336
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010      89 0 00000000  64000 16000
+  0 Effect Chains
+
+Input thread 0xa5a03f80:
+  Thread name: AudioIn_46
+  I/O handle: 70
+  TID: 4508
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010      97 0 00000000  64000 16000
+  0 Effect Chains
+
+Input thread 0xa5283640:
+  Thread name: AudioIn_4E
+  I/O handle: 78
+  TID: 4651
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010     113 0 00000000  64000 16000
+  0 Effect Chains
+
+Input thread 0xa5003440:
+  Thread name: AudioIn_56
+  I/O handle: 86
+  TID: 4667
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010     121 0 00000000  64000 16000
+  0 Effect Chains
+
+Input thread 0xa4c83dc0:
+  Thread name: AudioIn_5E
+  I/O handle: 94
+  TID: 4715
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010     129 0 00000000  64000 16000
+  0 Effect Chains
+
+Input thread 0xa6f83580:
+  Thread name: AudioIn_66
+  I/O handle: 102
+  TID: 4752
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010     137 0 00000000  64000 16000
+  0 Effect Chains
+
+Input thread 0xa4803e00:
+  Thread name: AudioIn_6E
+  I/O handle: 110
+  TID: 4778
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010     145 0 00000000  64000 16000
+  0 Effect Chains
+
+Input thread 0xa4583a40:
+  Thread name: AudioIn_76
+  I/O handle: 118
+  TID: 4785
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010     153 0 00000000  64000 16000
+  0 Effect Chains
+
+Input thread 0xa4303400:
+  Thread name: AudioIn_7E
+  I/O handle: 126
+  TID: 4793
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010     161 0 00000000  64000 16000
+  0 Effect Chains
+
+Input thread 0xa3f03540:
+  Thread name: AudioIn_86
+  I/O handle: 134
+  TID: 5172
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010     201 0 00000000  64000 16000
+  0 Effect Chains
+
+Input thread 0xa3c83380:
+  Thread name: AudioIn_8E
+  I/O handle: 142
+  TID: 5189
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010     209 0 00000000  64000 16000
+  0 Effect Chains
+
+Input thread 0xa41124c0:
+  Thread name: AudioIn_96
+  I/O handle: 150
+  TID: 5253
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010     217 0 00000000  64000 16000
+  0 Effect Chains
+
+Input thread 0xa3283ec0:
+  Thread name: AudioIn_9E
+  I/O handle: 158
+  TID: 5332
+  Standby: yes
+  Sample rate: 16000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 480 bytes
+  Channel count: 1
+  Channel mask: 0x00000010 (front)
+  Processing format: 0x1 (pcm16)
+  Processing frame size: 2 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0x80000004 (BUILTIN_MIC)
+  Audio source: 0 (default)
+  No active record clients
+  Fast capture thread: no
+  Fast track available: no
+  FastCapture not initialized
+  1 Tracks of which 0 are active
+    Active Client Fmt Chn mask Session S   Server fCount SRate
+        no   2428   1 00000010     233 0 00000000  64000 16000
+  0 Effect Chains
+
+Reroute submix audio module:
+ route[0] rate in=0 out=0, addr=[]
+ route[1] rate in=0 out=0, addr=[]
+ route[2] rate in=0 out=0, addr=[]
+ route[3] rate in=0 out=0, addr=[]
+ route[4] rate in=0 out=0, addr=[]
+ route[5] rate in=0 out=0, addr=[]
+ route[6] rate in=0 out=0, addr=[]
+ route[7] rate in=0 out=0, addr=[]
+ route[8] rate in=0 out=0, addr=[]
+ route[9] rate in=48000 out=48000, addr=[]
+--------- 0.013s was the duration of dumpsys media.audio_flinger

@@ -1,0 +1,250 @@
+TASK com.esoxjem.movieguide id=12
+  ACTIVITY com.esoxjem.movieguide/.details.MovieDetailsActivity 3a172cc pid=5026
+    Local Activity 607bb28 State:
+      mResumed=true mStopped=false mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port finger qwerty/v/v -nav/h s.6}
+      mLoadersStarted=true
+      Active Fragments in 80b0b65:
+        #0: ReportFragment{f4ad03a #0 android.arch.lifecycle.LifecycleDispatcher.report_fragment_tag}
+          mFragmentId=#0 mContainerId=#0 mTag=android.arch.lifecycle.LifecycleDispatcher.report_fragment_tag
+          mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{80b0b65 in HostCallbacks{52884eb}}
+          mHost=android.app.Activity$HostCallbacks@52884eb
+          Child FragmentManager{3826248 in ReportFragment{f4ad03a}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@52884eb
+              mContainer=android.app.Fragment$1@425f8e1
+              mParent=ReportFragment{f4ad03a #0 android.arch.lifecycle.LifecycleDispatcher.report_fragment_tag}
+              mCurState=5 mStateSaved=false mDestroyed=false
+      Added Fragments:
+        #0: ReportFragment{f4ad03a #0 android.arch.lifecycle.LifecycleDispatcher.report_fragment_tag}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@52884eb
+        mContainer=android.app.Activity$HostCallbacks@52884eb
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false      mIsAmbientMode=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=175183 (9351 ms ago)
+    View Hierarchy:
+      DecorView@e45dc5c[MovieDetailsActivity]
+        android.widget.LinearLayout{505b606 V.E...... ........ 0,0-1080,1794}
+          android.view.ViewStub{f8884c7 G.E...... ......I. 0,0-0,0 #10203ef android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{e7f5af4 V.E...... ........ 0,63-1080,1794}
+            android.support.v7.widget.FitWindowsLinearLayout{6a8421d V.E...... ........ 0,0-1080,1731 #7f08000a app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{9372c92 G.E...... ......I. 0,0-0,0 #7f080015 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{6fea663 V.E...... ........ 0,0-1080,1731 #1020002 android:id/content}
+                android.widget.LinearLayout{4b13260 V.E...... ........ 0,0-1080,1731}
+                  android.widget.FrameLayout{30be319 V.E...... ........ 0,0-1080,1731 #7f080069 app:id/movie_details_container}
+                    android.support.design.widget.CoordinatorLayout{9977fde V.E...... ........ 0,0-1080,1731 #7f080060 app:id/main_content}
+                      android.support.design.widget.AppBarLayout{42abbcc V.E...... ........ 0,0-1080,735 #7f080020 app:id/appbar}
+                        android.support.design.widget.CollapsingToolbarLayout{22b45bf V.ED..... ........ 0,0-1080,735 #7f080030 app:id/collapsing_toolbar}
+                          android.support.v7.widget.AppCompatImageView{c67148c V.ED..... ........ 0,0-1080,735 #7f08006b app:id/movie_poster}
+                          android.support.v7.widget.Toolbar{6e97d5 V.E...... ........ 0,0-1080,147 #7f0800bc app:id/toolbar}
+                            android.support.v7.widget.AppCompatTextView{517bbea V.ED..... ........ 189,38-189,109}
+                            android.support.v7.widget.AppCompatImageButton{7587edb VFED..C.. ........ 0,0-147,147}
+                            android.view.View{fb6ed78 V.ED..... ........ 189,0-1080,147}
+                            android.support.v7.widget.ActionMenuView{ddc51 V.E...... ........ 1080,0-1080,147}
+                      android.support.v4.widget.NestedScrollView{7324e15 VFED..... .F...... 0,735-1080,2319 #7f080090 app:id/scrolling_container}
+                        android.widget.LinearLayout{6adacb6 V.E...... ........ 0,0-1080,902}
+                          android.support.v7.widget.AppCompatTextView{d562db7 V.ED..... ........ 42,42-603,154 #7f08006a app:id/movie_name}
+                          android.support.v7.widget.AppCompatTextView{2296924 V.ED..... ........ 42,165-461,216 #7f08006d app:id/movie_year}
+                          android.support.v7.widget.AppCompatTextView{f82ec8d V.ED..... ........ 42,216-150,267 #7f08006c app:id/movie_rating}
+                          android.support.v7.widget.AppCompatTextView{dfde42 V.ED..... ........ 42,351-270,422}
+                          android.support.v7.widget.AppCompatTextView{e15ee53 V.ED..... ........ 42,464-1038,776 #7f080068 app:id/movie_description}
+                          android.widget.LinearLayout{525f390 V.E...... ......ID 42,860-1038,860}
+                            android.support.v7.widget.AppCompatTextView{2bec489 G.ED..... ......I. 0,0-0,0 #7f0800c2 app:id/trailers_label}
+                            android.widget.HorizontalScrollView{6119c8e GFEDH.... ......I. 0,0-0,0 #7f0800c1 app:id/trailers_container}
+                              android.widget.LinearLayout{7071caf V.E...... ......I. 0,0-0,0 #7f0800c0 app:id/trailers}
+                            android.support.v7.widget.AppCompatTextView{71eb8bc G.ED..... ......I. 0,0-0,0 #7f080083 app:id/reviews_label}
+                            android.widget.LinearLayout{1c62045 G.E...... ......I. 0,0-0,0 #7f080082 app:id/reviews}
+                      android.support.design.widget.FloatingActionButton{d73d52a VFED..C.. ........ 891,1542-1038,1689 #7f080046 app:id/favorite}
+        android.view.View{98ef39a V.ED..... ........ 0,1794-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{332d4cb V.ED..... ........ 0,0-1080,63 #102002f android:id/statusBarBackground}
+    Looper (main, tid 1) {bc53da9}
+      (Total messages: 0, polling=false, quitting=false)
+    Local FragmentActivity 607bb28 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    Active Fragments in 7865dd2:
+      #0: MovieDetailsFragment{97ca4a8 #0 id=0x7f080069}
+        mFragmentId=#7f080069 mContainerId=#7f080069 mTag=null
+        mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=true mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{7865dd2 in HostCallbacks{62d7bc1}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@62d7bc1
+        mArguments=Bundle[{movie=com.esoxjem.movieguide.Movie@558af66}]
+        mContainer=android.widget.FrameLayout{30be319 V.E...... ........ 0,0-1080,1731 #7f080069 app:id/movie_details_container}
+        mView=android.support.design.widget.CoordinatorLayout{9977fde V.E...... ........ 0,0-1080,1731 #7f080060 app:id/main_content}
+        mInnerView=android.support.design.widget.CoordinatorLayout{9977fde V.E...... ........ 0,0-1080,1731 #7f080060 app:id/main_content}
+        Child FragmentManager{b17f2a7 in MovieDetailsFragment{97ca4a8}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@62d7bc1
+            mContainer=android.support.v4.app.Fragment$2@94b6354
+            mParent=MovieDetailsFragment{97ca4a8 #0 id=0x7f080069}
+            mCurState=5 mStateSaved=false mDestroyed=false
+      #1: SupportRequestManagerFragment{45512fd #1 com.bumptech.glide.manager}{parent=null}
+        mFragmentId=#0 mContainerId=#0 mTag=com.bumptech.glide.manager
+        mState=5 mIndex=1 mWho=android:fragment:1 mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{7865dd2 in HostCallbacks{62d7bc1}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@62d7bc1
+        Child FragmentManager{b05bf2 in SupportRequestManagerFragment{45512fd}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@62d7bc1
+            mContainer=android.support.v4.app.Fragment$2@6471243
+            mParent=SupportRequestManagerFragment{45512fd #1 com.bumptech.glide.manager}{parent=null}
+            mCurState=5 mStateSaved=false mDestroyed=false
+    Added Fragments:
+      #0: MovieDetailsFragment{97ca4a8 #0 id=0x7f080069}
+      #1: SupportRequestManagerFragment{45512fd #1 com.bumptech.glide.manager}{parent=null}
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@62d7bc1
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@62d7bc1
+      mCurState=5 mStateSaved=false mDestroyed=false
+
+  ACTIVITY com.esoxjem.movieguide/.listing.MoviesListingActivity 40cb8d4 pid=5026
+    Local Activity 23b3bcf State:
+      mResumed=false mStopped=true mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port finger qwerty/v/v -nav/h s.6}
+      mLoadersStarted=true
+      Active Fragments in 6a560c0:
+        #0: ReportFragment{c64e1f9 #0 android.arch.lifecycle.LifecycleDispatcher.report_fragment_tag}
+          mFragmentId=#0 mContainerId=#0 mTag=android.arch.lifecycle.LifecycleDispatcher.report_fragment_tag
+          mState=3 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{6a560c0 in HostCallbacks{364453e}}
+          mHost=android.app.Activity$HostCallbacks@364453e
+          Child FragmentManager{abe8f9f in ReportFragment{c64e1f9}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@364453e
+              mContainer=android.app.Fragment$1@6dfc8ec
+              mParent=ReportFragment{c64e1f9 #0 android.arch.lifecycle.LifecycleDispatcher.report_fragment_tag}
+              mCurState=3 mStateSaved=true mDestroyed=false
+      Added Fragments:
+        #0: ReportFragment{c64e1f9 #0 android.arch.lifecycle.LifecycleDispatcher.report_fragment_tag}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@364453e
+        mContainer=android.app.Activity$HostCallbacks@364453e
+        mCurState=3 mStateSaved=true mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false      mIsAmbientMode=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=175183 (9353 ms ago)
+    View Hierarchy:
+      DecorView@f08a4b5[MoviesListingActivity]
+        android.widget.LinearLayout{1db774a V.E...... ......ID 0,0-1080,1794}
+          android.view.ViewStub{60686bb G.E...... ......I. 0,0-0,0 #10203ef android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{d7687d8 V.E...... ......ID 0,63-1080,1019}
+            android.support.v7.widget.FitWindowsLinearLayout{1ebd731 V.E...... ......ID 0,0-1080,956 #7f08000a app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{de1be16 G.E...... ......I. 0,0-0,0 #7f080015 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{c0cd397 V.E...... ......ID 0,0-1080,956 #1020002 android:id/content}
+                android.widget.LinearLayout{7b84984 V.E...... .......D 0,0-1080,956}
+                  android.support.v7.widget.Toolbar{ff5b56d V.E...... ......ID 0,0-1080,147 #7f0800bc app:id/toolbar}
+                    android.support.v7.widget.ActionMenuView{833a5a2 V.E...... .......D 954,0-1080,147}
+                      android.support.v7.view.menu.ActionMenuItemView{7c11233 GFED..CL. ......ID 0,10-126,136 #7f080017 app:id/action_search}
+                      android.support.v7.view.menu.ActionMenuItemView{73279f0 VFED..CL. ......ID 0,10-126,136 #7f080018 app:id/action_sort}
+                    android.support.v7.widget.AppCompatImageButton{1453b69 VFED..C.. ......ID 0,0-147,147}
+                    android.support.v7.widget.SearchView{eca79ee VFE...... .......D 147,10-954,136 #7f080017 app:id/action_search}
+                      android.widget.LinearLayout{9709e8f V.E...... .......D 0,0-807,126 #7f080092 app:id/search_bar}
+                        android.support.v7.widget.AppCompatTextView{6dd451c G.ED..... ......I. 0,0-0,0 #7f080091 app:id/search_badge}
+                        android.support.v7.widget.AppCompatImageView{6ed2525 GFED..CL. ......I. 0,0-0,0 #7f080093 app:id/search_button}
+                        android.widget.LinearLayout{3e846fa V.E...... .......D 21,0-786,126 #7f080095 app:id/search_edit_frame}
+                          android.support.v7.widget.AppCompatImageView{ee294ab G.ED..... ......I. 0,0-0,0 #7f080097 app:id/search_mag_icon}
+                          android.widget.LinearLayout{7079708 V.E...... ......ID 0,0-765,126 #7f080098 app:id/search_plate}
+                            android.support.v7.widget.SearchView$SearchAutoComplete{66feea1 VFED..CL. .F...... 0,14-660,109 #7f080099 app:id/search_src_text}
+                            android.support.v7.widget.AppCompatImageView{9e3d8c6 VFED..C.. ......ID 660,0-765,123 #7f080094 app:id/search_close_btn}
+                          android.widget.LinearLayout{133d087 G.E...... ......I. 0,0-0,0 #7f0800ad app:id/submit_area}
+                            android.support.v7.widget.AppCompatImageView{c031bb4 GFED..C.. ......I. 0,0-0,0 #7f080096 app:id/search_go_btn}
+                            android.support.v7.widget.AppCompatImageView{fbd3dd GFED..C.. ......I. 0,0-0,0 #7f08009a app:id/search_voice_btn}
+                  android.widget.FrameLayout{fb4bb52 V.E...... .......D 0,147-1080,956 #7f08004d app:id/fragment_listing}
+                    android.support.v7.widget.RecyclerView{472ee23 VFED.V... ......ID 0,0-1080,809 #7f08006e app:id/movies_listing}
+                      android.widget.FrameLayout{b903f20 V.E...C.. ......ID 3,3-537,843 #7f080067 app:id/movie_container}
+                        android.support.v7.widget.AppCompatImageView{266d0d9 V.ED..... ......ID 0,0-534,840 #7f08006b app:id/movie_poster}
+                        android.view.View{a3f3a9e V.ED..... ......ID 0,714-534,840 #7f0800ba app:id/title_background}
+                        android.support.v7.widget.AppCompatTextView{4fc497f V.ED..... ........ 0,714-534,840 #7f08006a app:id/movie_name}
+                      android.widget.FrameLayout{50a2d4c V.E...C.. ......ID 543,3-1077,843 #7f080067 app:id/movie_container}
+                        android.support.v7.widget.AppCompatImageView{3eaa195 V.ED..... ......ID 0,0-534,840 #7f08006b app:id/movie_poster}
+                        android.view.View{66062aa V.ED..... ......ID 0,714-534,840 #7f0800ba app:id/title_background}
+                        android.support.v7.widget.AppCompatTextView{e95fe9b V.ED..... ........ 0,714-534,840 #7f08006a app:id/movie_name}
+                android.support.design.widget.Snackbar$SnackbarLayout{52d238 V.E...C.. ......ID 0,0-0,0}
+                  android.support.design.internal.SnackbarContentLayout{ea0c211 V.E...... ......I. 0,0-0,0}
+                    android.support.v7.widget.AppCompatTextView{fb9ff76 V.ED..... ......I. 0,0-0,0 #7f0800a2 app:id/snackbar_text}
+                    android.support.v7.widget.AppCompatButton{94be977 GFED..C.. ......I. 0,0-0,0 #7f0800a1 app:id/snackbar_action}
+        android.view.View{f7ed9e4 V.ED..... ......ID 0,1794-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{9be6e4d V.ED..... ......ID 0,0-1080,63 #102002f android:id/statusBarBackground}
+    Looper (main, tid 1) {bc53da9}
+      (Total messages: 0, polling=false, quitting=false)
+    Local FragmentActivity 23b3bcf State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=true
+    Active Fragments in 517c551:
+      #0: MoviesListingFragment{83e9d02 #0 id=0x7f08004d}
+        mFragmentId=#7f08004d mContainerId=#ffffffff mTag=null
+        mState=2 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=true mInLayout=true
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=true
+        mRetainInstance=true mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{517c551 in HostCallbacks{80ba613}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@80ba613
+        mSavedViewState={2131230797=android.view.AbsSavedState$1@f41b050, 2131230830=android.support.v7.widget.RecyclerView$SavedState@90a249}
+        mView=android.widget.FrameLayout{fb4bb52 V.E...... .......D 0,147-1080,956 #7f08004d app:id/fragment_listing}
+        mInnerView=android.widget.FrameLayout{fb4bb52 V.E...... .......D 0,147-1080,956 #7f08004d app:id/fragment_listing}
+        Child FragmentManager{c7d874e in MoviesListingFragment{83e9d02}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@80ba613
+            mContainer=android.support.v4.app.Fragment$2@500906f
+            mParent=MoviesListingFragment{83e9d02 #0 id=0x7f08004d}
+            mCurState=2 mStateSaved=true mDestroyed=false
+      #1: SupportRequestManagerFragment{219817c #1 com.bumptech.glide.manager}{parent=null}
+        mFragmentId=#0 mContainerId=#0 mTag=com.bumptech.glide.manager
+        mState=2 mIndex=1 mWho=android:fragment:1 mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{517c551 in HostCallbacks{80ba613}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@80ba613
+        Child FragmentManager{c381a05 in SupportRequestManagerFragment{219817c}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@80ba613
+            mContainer=android.support.v4.app.Fragment$2@aeca5a
+            mParent=SupportRequestManagerFragment{219817c #1 com.bumptech.glide.manager}{parent=null}
+            mCurState=2 mStateSaved=true mDestroyed=false
+    Added Fragments:
+      #0: MoviesListingFragment{83e9d02 #0 id=0x7f08004d}
+      #1: SupportRequestManagerFragment{219817c #1 com.bumptech.glide.manager}{parent=null}
+    Fragments Created Menus:
+      #0: MoviesListingFragment{83e9d02 #0 id=0x7f08004d}
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@80ba613
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@80ba613
+      mCurState=2 mStateSaved=true mDestroyed=false

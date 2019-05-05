@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>BaseApplication.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">app</a> &gt; <a href="index.source.html" class="el_package">com.esoxjem.movieguide</a> &gt; <span class="el_source">BaseApplication.java</span></div><h1>BaseApplication.java</h1><pre class="source lang-java linenums">package com.esoxjem.movieguide;
+
+import android.app.Application;
+import android.os.StrictMode;
+
+import com.esoxjem.movieguide.details.DetailsComponent;
+import com.esoxjem.movieguide.details.DetailsModule;
+import com.esoxjem.movieguide.favorites.FavoritesModule;
+import com.esoxjem.movieguide.listing.ListingComponent;
+import com.esoxjem.movieguide.listing.ListingModule;
+import com.esoxjem.movieguide.network.NetworkModule;
+import com.esoxjem.movieguide.listing.sorting.SortingModule;
+
+import io.realm.Realm;
+
+/**
+ * @author arun
+ */
+<span class="fc" id="L19">public class BaseApplication extends Application</span>
+{
+    private AppComponent appComponent;
+    private DetailsComponent detailsComponent;
+    private ListingComponent listingComponent;
+
+    @Override
+    public void onCreate()
+    {
+<span class="fc" id="L28">        super.onCreate();</span>
+<span class="fc" id="L29">        StrictMode.enableDefaults();</span>
+<span class="fc" id="L30">        initRealm();</span>
+<span class="fc" id="L31">        appComponent = createAppComponent();</span>
+<span class="fc" id="L32">    }</span>
+
+    private AppComponent createAppComponent()
+    {
+<span class="fc" id="L36">        return DaggerAppComponent.builder()</span>
+<span class="fc" id="L37">                .appModule(new AppModule(this))</span>
+<span class="fc" id="L38">                .networkModule(new NetworkModule())</span>
+<span class="fc" id="L39">                .favoritesModule(new FavoritesModule())</span>
+<span class="fc" id="L40">                .build();</span>
+    }
+
+    private void initRealm(){
+<span class="fc" id="L44">        Realm.init(this);</span>
+<span class="fc" id="L45">    }</span>
+
+    public DetailsComponent createDetailsComponent()
+    {
+<span class="fc" id="L49">        detailsComponent = appComponent.plus(new DetailsModule());</span>
+<span class="fc" id="L50">        return detailsComponent;</span>
+    }
+
+    public void releaseDetailsComponent()
+    {
+<span class="fc" id="L55">        detailsComponent = null;</span>
+<span class="fc" id="L56">    }</span>
+
+    public ListingComponent createListingComponent()
+    {
+<span class="fc" id="L60">        listingComponent = appComponent.plus(new ListingModule());</span>
+<span class="fc" id="L61">        return listingComponent;</span>
+    }
+
+    public void releaseListingComponent()
+    {
+<span class="nc" id="L66">        listingComponent = null;</span>
+<span class="nc" id="L67">    }</span>
+
+    public ListingComponent getListingComponent()
+    {
+<span class="fc" id="L71">        return listingComponent;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.4.201502262128</span></div></body></html>

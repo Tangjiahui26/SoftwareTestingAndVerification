@@ -1,0 +1,9 @@
+Current DeviceStorageMonitor state:
+  mFreeMem=631 MB mTotalMemory=775 MB
+  mFreeMemAfterLastCacheClear=631 MB
+  mLastReportedFreeMem=631 MB mLastReportedFreeMemTime=-2m41s778ms
+  mLowMemFlag=false mMemFullFlag=false
+ mIsBootImageOnDisk=true  mClearSucceeded=false mClearingCache=false
+  mMemLowThreshold=77.49 MB mMemFullThreshold=1.00 MB
+  mMemCacheStartTrimThreshold=58.37 MB mMemCacheTrimToThreshold=116 MB
+--------- 0.001s was the duration of dumpsys devicestoragemonitor

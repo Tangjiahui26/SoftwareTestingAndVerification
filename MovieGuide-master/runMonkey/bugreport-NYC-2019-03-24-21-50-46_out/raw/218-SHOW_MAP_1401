@@ -1,0 +1,70 @@
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+     256        8        0        0        8        0        0        0    2 /dev/__properties__/properties_serial
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:debug_prop:s0
+     128       12        0        0       12        0        0        0    1 /dev/__properties__/u:object_r:default_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:log_tag_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:logd_prop:s0
+    1016        4        4        0        0        4        0        0    1 /dev/binder
+     832      272       20      256        0        0       16        0    3 /system/bin/linker
+      12       12       12        0        0        8        4        0    2 /system/bin/mediacodec
+     140       44       13       32        0        0       12        0    4 /system/lib/libEGL.so
+      80       40       10       32        0        0        8        0    3 /system/lib/libGLESv2.so
+      40       16        8        8        0        0        8        0    3 /system/lib/libaudioutils.so
+      76       24        8       16        0        0        8        0    3 /system/lib/libbacktrace.so
+      52       24        8       16        0        0        8        0    3 /system/lib/libbase.so
+     528      380       56      340        0        0       40        0    4 /system/lib/libbinder.so
+     964      264       26      244        0        0       20        0    4 /system/lib/libc++.so
+     876      508       29      488        0        0       20        0    4 /system/lib/libc.so
+     360      204       58      164        0        0       40        0    3 /system/lib/libcamera_client.so
+      36       16        8        8        0        0        8        0    3 /system/lib/libcamera_metadata.so
+      24       12       10        4        0        0        8        0    3 /system/lib/libcap.so
+     128       48        8       40        0        0        8        0    4 /system/lib/libcutils.so
+     156       20       12        8        0        0       12        0    3 /system/lib/libexpat.so
+     600      268       76      212        0        0       56        0    3 /system/lib/libgui.so
+      16       12        8        4        0        0        8        0    4 /system/lib/libhardware.so
+    2392      472       98      424        0        0       48        0    3 /system/lib/libicui18n.so
+    1572      244       70      196        0        0       48        0    3 /system/lib/libicuuc.so
+      68       52       11       44        0        0        8        0    3 /system/lib/liblog.so
+     168       20        8       12        0        0        8        0    3 /system/lib/liblzma.so
+     220       24        8       16        0        0        8        0    3 /system/lib/libm.so
+    1308      644      200      504        0        4      136        0    4 /system/lib/libmedia.so
+      28       24       24        0        0       16        8        0    4 /system/lib/libmediacodecservice.so
+      72       24       18       12        0        0       12        0    4 /system/lib/libminijail.so
+      48       24        9       16        0        0        8        0    3 /system/lib/libnbaio.so
+      16       16        8        8        0        0        8        0    3 /system/lib/libnetd_client.so
+      28       24        9       16        0        0        8        0    4 /system/lib/libpowermanager.so
+     360       24        9       16        0        0        8        0    3 /system/lib/libsonivox.so
+      24       12        8        4        0        0        8        0    3 /system/lib/libspeexresampler.so
+     192      116       21      108        0        0        8        0    4 /system/lib/libstagefright_foundation.so
+     268      224      145      108        0      100       16        0    3 /system/lib/libstagefright_omx.so
+      20       12        8        4        0        0        8        0    3 /system/lib/libstdc++.so
+      12       12        8        4        0        0        8        0    3 /system/lib/libsync.so
+     120       60       11       52        0        0        8        0    3 /system/lib/libui.so
+     116       16        8        8        0        0        8        0    3 /system/lib/libunwind.so
+     148      112       11      104        0        0        8        0    4 /system/lib/libutils.so
+     160       40       40        0        0        0       40        0    9 [anon:.bss]
+       4        4        4        0        0        0        4        0    1 [anon:arc4random _rs structure]
+       4        4        4        0        0        0        4        0    1 [anon:arc4random _rsx structure]
+      16       16       16        0        0        0       16        0    4 [anon:atexit handlers]
+    8192     1460     1460        0        0        0     1460        0    5 [anon:libc_malloc]
+      52       52       52        0        0        0       52        0   12 [anon:linker_alloc]
+       4        4        4        0        0        0        4        0    1 [anon:linker_alloc_lob]
+      20       20       20        0        0        0       20        0    5 [anon:linker_alloc_small_objects]
+      28       28       28        0        0        0       28        0    7 [anon:linker_alloc_vector]
+      20        0        0        0        0        0        0        0    5 [anon:thread signal stack guard page]
+      40        0        0        0        0        0        0        0    5 [anon:thread signal stack]
+      16        0        0        0        0        0        0        0    4 [anon:thread stack guard page]
+      24       16       16        0        0        0       16        0    4 [anon]
+    1016        8        8        0        0        0        8        0    1 [stack:1411]
+    1016        8        8        0        0        0        8        0    1 [stack:1878]
+    1016        8        8        0        0        0        8        0    1 [stack:2008]
+    1016        8        8        0        0        0        8        0    1 [stack:2015]
+     136       24       24        0        0        0       24        0    1 [stack]
+       4        4        0        4        0        0        0        0    1 [vdso]
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+   26668     6060     2766     3532       32      132     2364        0  198 TOTAL

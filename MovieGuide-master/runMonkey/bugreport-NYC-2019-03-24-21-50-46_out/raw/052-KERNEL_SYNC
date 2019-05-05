@@ -1,0 +1,109 @@
+objs:
+--------------
+goldfish_sync:gensym:0 sw_sync: 11032
+  pt signaled@25.051628: 615
+  pt signaled@174.837336: 10894
+  pt signaled@175.636902: 11029
+  pt signaled@176.951158: 11031
+  pt signaled@176.958194: 11032
+
+goldfish_sync:gensym:755 sw_sync: 2335
+  pt signaled@174.828164: 2287
+  pt signaled@174.836580: 2262
+  pt signaled@175.327308: 2318
+  pt signaled@175.521349: 2329
+  pt signaled@175.537503: 2330
+  pt signaled@175.545677: 2331
+  pt signaled@175.563152: 2332
+  pt signaled@175.581168: 2333
+  pt signaled@175.631092: 2334
+  pt signaled@176.937187: 2335
+  pt signaled@176.950881: 2318
+
+goldfish_sync:gensym:898 sw_sync: 633
+
+goldfish_sync:gensym:1033 sw_sync: 123
+
+goldfish_sync:gensym:4776 sw_sync: 156
+
+goldfish_sync:gensym:11337 sw_sync: 792
+  pt signaled@175.508633: 786
+  pt signaled@175.526144: 787
+  pt signaled@175.542104: 788
+  pt signaled@175.559525: 789
+  pt signaled@175.575947: 790
+  pt signaled@175.591682: 791
+  pt signaled@175.609100: 792
+  pt signaled@175.636481: 791
+
+goldfish_sync:gensym:16024 sw_sync: 50
+
+fences:
+--------------
+[c01a2f60] com.android.systemui.ImageWa:0: signaled
+  goldfish_sync:gensym:0_pt signaled@25.051628: 615 / 11032
+
+[da367060] goldfish_sync:gensym:17140: signaled
+  goldfish_sync:gensym:755_pt signaled@174.828164: 2287 / 2335
+
+[e0ae75a0] NavigationBar:0: signaled
+  goldfish_sync:gensym:0_pt signaled@174.837336: 10894 / 11032
+  goldfish_sync:gensym:755_pt signaled@174.836580: 2262 / 2335
+
+[e147c5a0] goldfish_sync:gensym:17281: signaled
+  goldfish_sync:gensym:755_pt signaled@175.327308: 2318 / 2335
+
+[da190180] goldfish_sync:gensym:17333: signaled
+  goldfish_sync:gensym:11337_pt signaled@175.508633: 786 / 792
+
+[e147c360] goldfish_sync:gensym:17335: signaled
+  goldfish_sync:gensym:755_pt signaled@175.521349: 2329 / 2335
+
+[da190660] goldfish_sync:gensym:17338: signaled
+  goldfish_sync:gensym:11337_pt signaled@175.526144: 787 / 792
+
+[e0966480] goldfish_sync:gensym:17340: signaled
+  goldfish_sync:gensym:755_pt signaled@175.537503: 2330 / 2335
+
+[da190300] goldfish_sync:gensym:17343: signaled
+  goldfish_sync:gensym:11337_pt signaled@175.542104: 788 / 792
+
+[e0966180] goldfish_sync:gensym:17345: signaled
+  goldfish_sync:gensym:755_pt signaled@175.545677: 2331 / 2335
+
+[da190ea0] goldfish_sync:gensym:17348: signaled
+  goldfish_sync:gensym:11337_pt signaled@175.559525: 789 / 792
+
+[da190060] goldfish_sync:gensym:17350: signaled
+  goldfish_sync:gensym:755_pt signaled@175.563152: 2332 / 2335
+
+[e0966ea0] goldfish_sync:gensym:17353: signaled
+  goldfish_sync:gensym:11337_pt signaled@175.575947: 790 / 792
+
+[e0966ae0] goldfish_sync:gensym:17355: signaled
+  goldfish_sync:gensym:755_pt signaled@175.581168: 2333 / 2335
+
+[da190900] goldfish_sync:gensym:17358: signaled
+  goldfish_sync:gensym:11337_pt signaled@175.591682: 791 / 792
+
+[da1900c0] goldfish_sync:gensym:17362: signaled
+  goldfish_sync:gensym:11337_pt signaled@175.609100: 792 / 792
+
+[d77fe960] goldfish_sync:gensym:17365: signaled
+  goldfish_sync:gensym:755_pt signaled@175.631092: 2334 / 2335
+
+[d77feea0] com.esoxjem.movieguide/com.e:0: signaled
+  goldfish_sync:gensym:0_pt signaled@175.636902: 11029 / 11032
+  goldfish_sync:gensym:11337_pt signaled@175.636481: 791 / 792
+
+[db7e4e40] goldfish_sync:gensym:17369: signaled
+  goldfish_sync:gensym:755_pt signaled@176.937187: 2335 / 2335
+
+[d77feae0] StatusBar:2: signaled
+  goldfish_sync:gensym:0_pt signaled@176.951158: 11031 / 11032
+  goldfish_sync:gensym:755_pt signaled@176.950881: 2318 / 2335
+
+[d77fe540] goldfish_sync:gensym:17371: signaled
+  goldfish_sync:gensym:0_pt signaled@176.958194: 11032 / 11032
+
+

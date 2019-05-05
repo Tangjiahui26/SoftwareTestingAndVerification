@@ -1,0 +1,690 @@
+<html>
+<head>
+  <title>f00122.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00122.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><h1>systemlog_01850.html</h1>
+<div class="log-toolbar">RegExp:<input id="regexp"></input><button onClick="javascript:ltbProcessLines(function(l){l.hide();})">Hide</button><button onClick="javascript:ltbProcessLines(function(l){l.show();})">Show</button><button onClick="javascript:ltbProcessLines(function(l){l.addClass('log-mark');})">Mark</button><button onClick="javascript:ltbProcessLines(function(l){l.removeClass('log-mark');})">Unmark</button>Note: changes are not saved!</div><div class="log"><div class="log-info">03-24 21:48:14.107  <a href="f00065.html#ch0">1850</a>  1850 I StatusBar: isKeyguardShowing() called before startKeyguard(), returning true</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: isKeyguardSecure() called before startKeyguard(), returning false</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: java.lang.Throwable</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.BaseStatusBar.isKeyguardSecure(BaseStatusBar.java:2647)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.BaseStatusBar.isCameraAllowedByAdmin(BaseStatusBar.java:2670)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.phone.KeyguardBottomAreaView.updateCameraVisibility(KeyguardBottomAreaView.java:309)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.phone.KeyguardBottomAreaView.setPhoneStatusBar(KeyguardBottomAreaView.java:272)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.phone.PhoneStatusBar.makeStatusBarView(PhoneStatusBar.java:904)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.phone.PhoneStatusBar.addStatusBarWindow(PhoneStatusBar.java:3432)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.phone.PhoneStatusBar.createAndAddWindows(PhoneStatusBar.java:3428)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.BaseStatusBar.start(BaseStatusBar.java:765)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.phone.PhoneStatusBar.start(PhoneStatusBar.java:686)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.SystemBars.createStatusBarFromConfig(SystemBars.java:106)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.SystemBars.onNoService(SystemBars.java:58)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.ServiceMonitor.startService(ServiceMonitor.java:230)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.ServiceMonitor.-wrap5(ServiceMonitor.java)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.ServiceMonitor$1.handleMessage(ServiceMonitor.java:73)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at android.os.Handler.dispatchMessage(Handler.java:102)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at android.os.Looper.loop(Looper.java:154)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at android.app.ActivityThread.main(ActivityThread.java:6119)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at java.lang.reflect.Method.invoke(Native Method)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776)</div>
+<div class="log-info">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 I StatusBar: isKeyguardShowing() called before startKeyguard(), returning true</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: isKeyguardSecure() called before startKeyguard(), returning false</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: java.lang.Throwable</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.BaseStatusBar.isKeyguardSecure(BaseStatusBar.java:2647)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.BaseStatusBar.isCameraAllowedByAdmin(BaseStatusBar.java:2670)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.phone.KeyguardBottomAreaView.updateCameraVisibility(KeyguardBottomAreaView.java:309)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.phone.KeyguardBottomAreaView.setUserSetupComplete(KeyguardBottomAreaView.java:281)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.phone.PhoneStatusBar.makeStatusBarView(PhoneStatusBar.java:905)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.phone.PhoneStatusBar.addStatusBarWindow(PhoneStatusBar.java:3432)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.phone.PhoneStatusBar.createAndAddWindows(PhoneStatusBar.java:3428)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.BaseStatusBar.start(BaseStatusBar.java:765)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.phone.PhoneStatusBar.start(PhoneStatusBar.java:686)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.SystemBars.createStatusBarFromConfig(SystemBars.java:106)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.SystemBars.onNoService(SystemBars.java:58)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.ServiceMonitor.startService(ServiceMonitor.java:230)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.ServiceMonitor.-wrap5(ServiceMonitor.java)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.systemui.statusbar.ServiceMonitor$1.handleMessage(ServiceMonitor.java:73)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at android.os.Handler.dispatchMessage(Handler.java:102)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at android.os.Looper.loop(Looper.java:154)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at android.app.ActivityThread.main(ActivityThread.java:6119)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at java.lang.reflect.Method.invoke(Native Method)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886)</div>
+<div class="log-warning">03-24 21:48:14.108  <a href="f00065.html#ch0">1850</a>  1850 W StatusBar: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776)</div>
+<div class="log-error">03-24 21:48:14.434  <a href="f00065.html#ch0">1850</a>  2181 E ActivityThread: Failed to find provider info for com.android.contacts</div>
+<div class="log-info">03-24 21:49:05.161  <a href="f00065.html#ch0">1850</a>  2111 I chatty  : uid=10028(com.android.systemui) RenderThread expire 10 lines</div>
+<div class="log-info">03-24 21:49:16.423  <a href="f00065.html#ch0">1850</a>  2111 I chatty  : uid=10028(com.android.systemui) RenderThread expire 10 lines</div>
+<div class="log-info">03-24 21:49:35.456  <a href="f00065.html#ch0">1850</a>  2111 I chatty  : uid=10028(com.android.systemui) RenderThread expire 17 lines</div>
+<div class="log-info">03-24 21:49:53.312  <a href="f00065.html#ch0">1850</a>  2074 I chatty  : uid=10028(com.android.systemui) VolumeDialogCon expire 13 lines</div>
+<div class="log-info">03-24 21:49:53.317  <a href="f00065.html#ch0">1850</a>  1850 I chatty  : uid=10028(com.android.systemui) expire 20 lines</div>
+<div class="log-info">03-24 21:49:55.370  <a href="f00065.html#ch0">1850</a>  2111 I chatty  : uid=10028(com.android.systemui) RenderThread expire 121 lines</div>
+<div class="log-info">03-24 21:49:59.986  <a href="f00065.html#ch0">1850</a>  2021 I chatty  : uid=10028(com.android.systemui) Binder:1850_3 expire 1 line</div>
+<div class="log-info">03-24 21:50:00.177  <a href="f00065.html#ch0">1850</a>  4910 I chatty  : uid=10028(com.android.systemui) Binder:1850_4 expire 2 lines</div>
+<div class="log-warning">03-24 21:50:01.093  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=129812, downTime=129812, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.097  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129840, downTime=129840, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.097  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129840, downTime=129840, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.097  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129840, downTime=129840, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.097  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129840, downTime=129840, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.097  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129840, downTime=129840, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.097  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129840, downTime=129840, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.097  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129840, downTime=129840, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.097  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129840, downTime=129840, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.097  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129840, downTime=129840, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.097  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=129859, downTime=129859, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.098  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129862, downTime=129862, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.098  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129862, downTime=129862, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.098  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129862, downTime=129862, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.098  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129862, downTime=129862, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.098  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129862, downTime=129862, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.098  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129862, downTime=129862, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.098  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129862, downTime=129862, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.098  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129862, downTime=129862, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.098  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=129862, downTime=129862, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:01.167  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=129863, downTime=129863, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:03.657  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALCULATOR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=132266, downTime=132266, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:03.657  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALCULATOR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=132266, downTime=132266, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:03.657  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALCULATOR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=132266, downTime=132266, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:03.657  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALCULATOR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=132266, downTime=132266, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:03.658  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALCULATOR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=132266, downTime=132266, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:03.660  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALCULATOR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=132266, downTime=132266, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:03.661  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALCULATOR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=132266, downTime=132266, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:03.661  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALCULATOR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=132266, downTime=132266, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:03.661  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALCULATOR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=132266, downTime=132266, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:03.667  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=132416, downTime=132416, deviceId=-1, source=0x101 }</div>
+<div class="log-info">03-24 21:50:05.730  <a href="f00065.html#ch0">1850</a>  2074 I chatty  : uid=10028(com.android.systemui) VolumeDialogCon expire 11 lines</div>
+<div class="log-info">03-24 21:50:05.781  <a href="f00065.html#ch0">1850</a>  1850 I chatty  : uid=10028(com.android.systemui) expire 19 lines</div>
+<div class="log-info">03-24 21:50:05.842  <a href="f00065.html#ch0">1850</a>  2111 I chatty  : uid=10028(com.android.systemui) RenderThread expire 87 lines</div>
+<div class="log-info">03-24 21:50:06.378  <a href="f00065.html#ch0">1850</a>  1873 I chatty  : uid=10028(com.android.systemui) Binder:1850_2 expire 2 lines</div>
+<div class="log-info">03-24 21:50:09.397  <a href="f00065.html#ch0">1850</a>  1871 I chatty  : uid=10028(com.android.systemui) Binder:1850_1 expire 1 line</div>
+<div class="log-warning">03-24 21:50:10.690  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=139441, downTime=139441, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:11.153  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-4.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=139900, downTime=-1, deviceId=0, source=0x10004 }</div>
+<div class="log-warning">03-24 21:50:15.420  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144167, downTime=144167, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.420  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144167, downTime=144167, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.420  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144167, downTime=144167, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.420  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144167, downTime=144167, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.420  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144167, downTime=144167, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.420  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144167, downTime=144167, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.420  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144167, downTime=144167, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.420  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144167, downTime=144167, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.420  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144167, downTime=144167, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.420  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=144182, downTime=144182, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.428  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144185, downTime=144185, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.428  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144185, downTime=144185, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.428  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144185, downTime=144185, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.428  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144185, downTime=144185, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.428  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144185, downTime=144185, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.428  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144185, downTime=144185, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.428  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144185, downTime=144185, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.428  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144185, downTime=144185, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:15.428  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=144185, downTime=144185, deviceId=-1, source=0x101 }</div>
+<div class="log-info">03-24 21:50:16.792  <a href="f00065.html#ch0">1850</a>  2111 I chatty  : uid=10028(com.android.systemui) RenderThread expire 11 lines</div>
+<div class="log-info">03-24 21:50:16.892  <a href="f00065.html#ch0">1850</a>  1850 I chatty  : uid=10028(com.android.systemui) expire 1 line</div>
+<div class="log-info">03-24 21:50:16.900  <a href="f00065.html#ch0">1850</a>  2074 I chatty  : uid=10028(com.android.systemui) VolumeDialogCon expire 2 lines</div>
+<div class="log-info">03-24 21:50:16.903  <a href="f00065.html#ch0">1850</a>  1850 I chatty  : uid=10028(com.android.systemui) expire 1 line</div>
+<div class="log-info">03-24 21:50:16.921  <a href="f00065.html#ch0">1850</a>  2111 I chatty  : uid=10028(com.android.systemui) RenderThread expire 11 lines</div>
+<div class="log-info">03-24 21:50:17.064  <a href="f00065.html#ch0">1850</a>  1850 I chatty  : uid=10028(com.android.systemui) expire 1 line</div>
+<div class="log-info">03-24 21:50:17.065  <a href="f00065.html#ch0">1850</a>  2074 I chatty  : uid=10028(com.android.systemui) VolumeDialogCon expire 1 line</div>
+<div class="log-info">03-24 21:50:17.073  <a href="f00065.html#ch0">1850</a>  2111 I chatty  : uid=10028(com.android.systemui) RenderThread expire 28 lines</div>
+<div class="log-info">03-24 21:50:17.379  <a href="f00065.html#ch0">1850</a>  2074 I chatty  : uid=10028(com.android.systemui) VolumeDialogCon expire 2 lines</div>
+<div class="log-info">03-24 21:50:17.404  <a href="f00065.html#ch0">1850</a>  1850 I chatty  : uid=10028(com.android.systemui) expire 1 line</div>
+<div class="log-info">03-24 21:50:17.472  <a href="f00065.html#ch0">1850</a>  2111 I chatty  : uid=10028(com.android.systemui) RenderThread expire 21 lines</div>
+<div class="log-debug">03-24 21:50:17.643  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:17.653  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:17.753  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:17.760  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:17.897  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent dismiss_dialog touch_outside</div>
+<div class="log-info">03-24 21:50:17.898  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1</div>
+<div class="log-debug">03-24 21:50:17.942  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:17.960  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:17.971  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:17.976  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:17.990  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:17.999  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.006  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.020  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.029  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.040  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.047  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.057  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.089  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.107  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.122  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.127  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.139  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.148  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.156  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.164  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.173  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.179  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.191  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.440  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand icons* alerts system_info* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:18.503  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:18.511  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:20.088  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:20.298  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand ICONS* alerts SYSTEM_INFO* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:20.329  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:20.361  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand icons* alerts system_info* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:20.403  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:20.405  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:20.640  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:20.645  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:20.887  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:22.598  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed STREAM_RING</div>
+<div class="log-info">03-24 21:50:22.598  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent key STREAM_RING 5</div>
+<div class="log-info">03-24 21:50:22.608  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent show_dialog volume_changed keyguard=false</div>
+<div class="log-verbose">03-24 21:50:22.667  <a href="f00065.html#ch0">1850</a>  4910 V AssistManager: Voice open</div>
+<div class="log-verbose">03-24 21:50:22.673  <a href="f00065.html#ch0">1850</a>  1873 V AssistManager: Voice closed</div>
+<div class="log-debug">03-24 21:50:22.677  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.696  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.727  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.737  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.741  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.749  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.761  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.774  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.782  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.790  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.799  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.822  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.827  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.839  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.854  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.861  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.872  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.888  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.896  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.903  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.909  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.914  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.923  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.930  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.937  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.946  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.958  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.975  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.978  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.992  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:22.998  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:23.010  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:23.014  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:23.025  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:23.031  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:23.042  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:23.054  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:23.072  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:23.076  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:23.120  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent dismiss_dialog touch_outside</div>
+<div class="log-info">03-24 21:50:23.124  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1</div>
+<div class="log-info">03-24 21:50:23.129  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent touch_level_changed STREAM_RING 4</div>
+<div class="log-info">03-24 21:50:23.129  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed STREAM_RING</div>
+<div class="log-info">03-24 21:50:23.130  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent touch_level_done STREAM_RING 4</div>
+<div class="log-info">03-24 21:50:23.133  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent level_changed STREAM_SYSTEM 4</div>
+<div class="log-info">03-24 21:50:23.133  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent level_changed STREAM_RING 4</div>
+<div class="log-debug">03-24 21:50:23.223  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:23.227  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:23.426  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:23.659  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:23.804  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:23.945  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent show_dialog volume_changed keyguard=false</div>
+<div class="log-debug">03-24 21:50:23.989  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:24.186  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:24.191  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:24.200  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent touch_level_changed STREAM_RING 0</div>
+<div class="log-info">03-24 21:50:24.216  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent level_changed STREAM_SYSTEM 0</div>
+<div class="log-info">03-24 21:50:24.216  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent level_changed STREAM_RING 0</div>
+<div class="log-info">03-24 21:50:24.216  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent internal_ringer_mode_changed silent</div>
+<div class="log-info">03-24 21:50:24.216  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent mute_changed STREAM_RING true</div>
+<div class="log-info">03-24 21:50:24.217  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent mute_changed STREAM_SYSTEM true</div>
+<div class="log-info">03-24 21:50:24.217  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent external_ringer_mode_changed silent</div>
+<div class="log-info">03-24 21:50:24.231  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent touch_level_done STREAM_RING 0</div>
+<div class="log-info">03-24 21:50:24.233  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent zen_mode_changed alarms</div>
+<div class="log-debug">03-24 21:50:24.277  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:24.296  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:24.305  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:24.309  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:24.342  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:24.348  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:24.410  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent dismiss_dialog touch_outside</div>
+<div class="log-info">03-24 21:50:24.411  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1</div>
+<div class="log-debug">03-24 21:50:24.473  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:24.478  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:24.520  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:24.526  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:24.621  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:24.625  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:24.721  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:25.199  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand ICONS* alerts SYSTEM_INFO* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:25.222  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:25.230  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-warning">03-24 21:50:25.263  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=153997, downTime=153997, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:25.263  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=153997, downTime=153997, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:25.263  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=153997, downTime=153997, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:25.263  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=153997, downTime=153997, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:25.263  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=153997, downTime=153997, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:25.263  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=153997, downTime=153997, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:25.263  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=153997, downTime=153997, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:25.263  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=153997, downTime=153997, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:25.263  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=153997, downTime=153997, deviceId=-1, source=0x101 }</div>
+<div class="log-info">03-24 21:50:25.934  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed STREAM_RING</div>
+<div class="log-info">03-24 21:50:25.936  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent key STREAM_RING 0</div>
+<div class="log-info">03-24 21:50:25.972  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent show_dialog volume_changed keyguard=false</div>
+<div class="log-debug">03-24 21:50:26.037  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.043  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.056  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.090  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.105  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.120  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.127  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.159  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.162  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.176  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.181  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.188  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.196  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.204  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.211  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.221  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.227  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.242  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.246  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.255  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.263  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.271  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.280  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.287  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.295  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.307  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.314  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.321  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.326  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.340  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.345  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.355  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.360  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.371  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.376  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.387  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.392  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.404  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.409  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.421  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.430  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:26.430  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent dismiss_dialog touch_outside</div>
+<div class="log-info">03-24 21:50:26.433  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent show_dialog volume_changed keyguard=false</div>
+<div class="log-info">03-24 21:50:26.433  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1</div>
+<div class="log-debug">03-24 21:50:26.447  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.464  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.475  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.480  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.491  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.498  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.507  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.519  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.537  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.567  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.586  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.602  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.613  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.618  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.636  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.643  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.648  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.656  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.662  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.671  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.678  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.688  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.697  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.707  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.714  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.721  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.728  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.739  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.745  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.755  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.761  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.774  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.786  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.791  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.796  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.808  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.815  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.822  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.830  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.840  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.853  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.858  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.864  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.905  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:26.908  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent dismiss_dialog touch_outside</div>
+<div class="log-debug">03-24 21:50:26.912  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand icons* alerts system_info* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:26.971  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:26.985  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.004  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.012  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.037  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.061  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.080  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.096  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.123  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.144  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.155  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.184  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.196  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.207  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.219  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.225  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.831  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand ICONS* alerts SYSTEM_INFO* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:27.870  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.879  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.943  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand icons* alerts system_info* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:27.976  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:27.993  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:28.194  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand ICONS* alerts SYSTEM_INFO* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:28.244  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:28.258  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:28.274  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand icons* alerts system_info* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:28.309  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:28.337  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:28.362  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand ICONS* alerts SYSTEM_INFO* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:28.416  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:28.426  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-warning">03-24 21:50:28.466  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_STAR, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=157213, downTime=157213, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:28.477  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_STAR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=157229, downTime=157229, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:28.477  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_STAR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=157229, downTime=157229, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:28.477  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_STAR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=157229, downTime=157229, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:28.477  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_STAR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=157229, downTime=157229, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:28.477  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_STAR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=157229, downTime=157229, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:28.477  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_STAR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=157229, downTime=157229, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:28.477  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_STAR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=157229, downTime=157229, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:28.477  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_STAR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=157229, downTime=157229, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:28.477  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_STAR, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=157229, downTime=157229, deviceId=-1, source=0x101 }</div>
+<div class="log-info">03-24 21:50:29.484  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent level_changed STREAM_SYSTEM 1</div>
+<div class="log-info">03-24 21:50:29.484  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent level_changed STREAM_RING 1</div>
+<div class="log-info">03-24 21:50:29.485  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent mute_changed STREAM_RING false</div>
+<div class="log-info">03-24 21:50:29.486  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent mute_changed STREAM_SYSTEM false</div>
+<div class="log-info">03-24 21:50:29.487  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent internal_ringer_mode_changed normal</div>
+<div class="log-info">03-24 21:50:29.498  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent external_ringer_mode_changed normal</div>
+<div class="log-info">03-24 21:50:29.514  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent zen_mode_changed off</div>
+<div class="log-info">03-24 21:50:29.594  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent internal_ringer_mode_changed silent</div>
+<div class="log-info">03-24 21:50:29.594  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent mute_changed STREAM_RING true</div>
+<div class="log-info">03-24 21:50:29.594  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent mute_changed STREAM_SYSTEM true</div>
+<div class="log-info">03-24 21:50:29.594  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent external_ringer_mode_changed silent</div>
+<div class="log-info">03-24 21:50:29.601  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent zen_mode_changed alarms</div>
+<div class="log-debug">03-24 21:50:30.623  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand icons* alerts system_info* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:30.659  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:30.662  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-verbose">03-24 21:50:30.666  <a href="f00065.html#ch0">1850</a>  2021 V AssistManager: Voice open</div>
+<div class="log-verbose">03-24 21:50:30.677  <a href="f00065.html#ch0">1850</a>  1873 V AssistManager: Voice closed</div>
+<div class="log-debug">03-24 21:50:31.105  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand ICONS* alerts SYSTEM_INFO* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:31.129  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:31.147  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-warning">03-24 21:50:31.211  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=159945, downTime=159945, deviceId=-1, source=0x101 }</div>
+<div class="log-debug">03-24 21:50:31.413  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand icons* alerts system_info* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:31.453  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:31.459  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:31.481  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand ICONS* alerts SYSTEM_INFO* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:31.524  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:31.543  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:31.571  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand icons* alerts system_info* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:31.639  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:31.644  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:31.858  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed STREAM_RING</div>
+<div class="log-info">03-24 21:50:31.861  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent key STREAM_RING 1</div>
+<div class="log-info">03-24 21:50:31.880  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent show_dialog volume_changed keyguard=false</div>
+<div class="log-debug">03-24 21:50:31.964  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:31.994  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:31.998  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:32.276  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:32.290  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:32.306  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:32.320  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:32.531  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent dismiss_dialog touch_outside</div>
+<div class="log-info">03-24 21:50:32.532  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1</div>
+<div class="log-debug">03-24 21:50:32.553  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:32.556  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:32.732  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent expand true</div>
+<div class="log-debug">03-24 21:50:32.794  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:33.071  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:33.334  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:34.149  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:34.170  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand ICONS* alerts SYSTEM_INFO* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:34.195  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:34.206  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-warning">03-24 21:50:34.294  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_3, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=163044, downTime=163044, deviceId=-1, source=0x101 }</div>
+<div class="log-debug">03-24 21:50:35.649  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand icons* alerts system_info* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:35.687  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:35.696  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:35.837  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:35.849  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:35.887  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:35.899  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:36.662  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:36.875  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:37.109  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:37.249  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand ICONS* alerts SYSTEM_INFO* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:37.283  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-warning">03-24 21:50:37.315  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=166027, downTime=166027, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:37.315  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=166027, downTime=166027, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:37.315  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=166027, downTime=166027, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:37.315  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=166027, downTime=166027, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:37.315  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=166027, downTime=166027, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:37.315  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=166027, downTime=166027, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:37.315  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=166027, downTime=166027, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:37.315  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=166027, downTime=166027, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:37.315  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=166027, downTime=166027, deviceId=-1, source=0x101 }</div>
+<div class="log-debug">03-24 21:50:37.378  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:37.386  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:37.866  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed STREAM_RING</div>
+<div class="log-info">03-24 21:50:37.868  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent key STREAM_RING 1</div>
+<div class="log-info">03-24 21:50:37.881  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent show_dialog volume_changed keyguard=false</div>
+<div class="log-debug">03-24 21:50:37.955  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:37.963  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.015  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.026  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.066  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.083  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.094  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.122  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.138  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.146  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.156  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.159  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.164  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.173  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.179  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.189  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.195  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.210  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.213  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.238  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.246  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.249  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.259  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.270  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.281  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.288  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.299  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.305  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:38.313  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent mute_changed STREAM_RING false</div>
+<div class="log-info">03-24 21:50:38.314  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent mute_changed STREAM_SYSTEM false</div>
+<div class="log-info">03-24 21:50:38.319  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent internal_ringer_mode_changed normal</div>
+<div class="log-debug">03-24 21:50:38.325  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:38.335  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent external_ringer_mode_changed normal</div>
+<div class="log-debug">03-24 21:50:38.335  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.350  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:38.351  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent zen_mode_changed off</div>
+<div class="log-debug">03-24 21:50:38.358  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.363  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.373  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.378  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.390  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.408  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.418  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.427  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.475  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.501  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.509  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.517  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.523  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.532  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.547  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.556  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.562  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.571  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.576  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.594  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:38.595  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent dismiss_dialog touch_outside</div>
+<div class="log-info">03-24 21:50:38.595  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1</div>
+<div class="log-debug">03-24 21:50:38.606  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.610  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.629  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.641  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.649  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.655  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.665  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.707  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.739  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.745  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.761  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.771  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.779  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.792  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.800  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.806  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.814  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.827  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.832  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.845  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.860  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.867  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.875  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.883  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.989  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:38.993  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:39.308  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand icons* alerts system_info* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:39.356  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:39.371  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:39.687  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:39.696  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:40.120  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:40.605  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand ICONS* alerts SYSTEM_INFO* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:40.639  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-warning">03-24 21:50:40.680  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=169402, downTime=169402, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:40.680  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=169402, downTime=169402, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:40.680  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=169402, downTime=169402, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:40.681  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=169402, downTime=169402, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:40.681  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=169402, downTime=169402, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:40.681  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=169402, downTime=169402, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:40.681  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=169402, downTime=169402, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:40.681  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=169402, downTime=169402, deviceId=-1, source=0x101 }</div>
+<div class="log-warning">03-24 21:50:40.681  <a href="f00065.html#ch0">1850</a>  1850 W ViewRootImpl[StatusBar]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=169402, downTime=169402, deviceId=-1, source=0x101 }</div>
+<div class="log-debug">03-24 21:50:40.857  <a href="f00065.html#ch0">1850</a>  1850 D PhoneStatusBar: disable: &lt; expand icons* alerts system_info* back home recent clock search quick_settings &gt;</div>
+<div class="log-debug">03-24 21:50:40.908  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:40.922  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:41.537  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:41.868  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed STREAM_RING</div>
+<div class="log-info">03-24 21:50:41.872  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent key STREAM_RING 1</div>
+<div class="log-info">03-24 21:50:41.879  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent show_dialog volume_changed keyguard=false</div>
+<div class="log-debug">03-24 21:50:41.938  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:42.123  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:42.136  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:42.255  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:42.259  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:42.459  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:43.034  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent dismiss_dialog volume_controller</div>
+<div class="log-info">03-24 21:50:43.034  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1</div>
+<div class="log-debug">03-24 21:50:43.038  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:43.045  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:43.144  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:43.153  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:43.208  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:43.214  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:43.351  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:43.461  <a href="f00065.html#ch0">1850</a>  1870 I art     : Background partial concurrent mark sweep GC freed 52407(2MB) AllocSpace objects, 2(132KB) LOS objects, 30% free, 9MB/13MB, paused 2.861ms total 111.926ms</div>
+<div class="log-info">03-24 21:50:43.500  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed STREAM_RING</div>
+<div class="log-info">03-24 21:50:43.504  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent key STREAM_RING 1</div>
+<div class="log-debug">03-24 21:50:43.513  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:43.531  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent show_dialog volume_changed keyguard=false</div>
+<div class="log-debug">03-24 21:50:43.603  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:43.637  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:43.643  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:43.831  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:43.844  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:43.956  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:43.961  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:44.016  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent dismiss_dialog touch_outside</div>
+<div class="log-info">03-24 21:50:44.018  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1</div>
+<div class="log-info">03-24 21:50:44.180  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent touch_level_changed STREAM_RING 3</div>
+<div class="log-info">03-24 21:50:44.180  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed STREAM_RING</div>
+<div class="log-info">03-24 21:50:44.183  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent touch_level_done STREAM_RING 3</div>
+<div class="log-info">03-24 21:50:44.261  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent level_changed STREAM_SYSTEM 3</div>
+<div class="log-info">03-24 21:50:44.262  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent level_changed STREAM_RING 3</div>
+<div class="log-debug">03-24 21:50:44.349  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:44.420  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:44.595  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-verbose">03-24 21:50:44.755  <a href="f00065.html#ch0">1850</a>  1873 V AssistManager: Voice open</div>
+<div class="log-verbose">03-24 21:50:44.766  <a href="f00065.html#ch0">1850</a>  4960 V AssistManager: Voice closed</div>
+<div class="log-debug">03-24 21:50:44.777  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:44.971  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:45.463  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent show_dialog volume_changed keyguard=false</div>
+<div class="log-debug">03-24 21:50:45.525  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:45.561  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:45.573  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:46.014  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent touch_level_changed STREAM_RING 4</div>
+<div class="log-info">03-24 21:50:46.014  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent touch_level_done STREAM_RING 4</div>
+<div class="log-info">03-24 21:50:46.021  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent level_changed STREAM_SYSTEM 4</div>
+<div class="log-info">03-24 21:50:46.021  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent level_changed STREAM_RING 4</div>
+<div class="log-debug">03-24 21:50:46.056  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:46.062  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:46.063  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent dismiss_dialog touch_outside</div>
+<div class="log-info">03-24 21:50:46.065  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1</div>
+<div class="log-info">03-24 21:50:46.117  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent expand true</div>
+<div class="log-info">03-24 21:50:46.132  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed STREAM_RING</div>
+<div class="log-info">03-24 21:50:46.135  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent touch_level_changed STREAM_RING 2</div>
+<div class="log-info">03-24 21:50:46.139  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent touch_level_done STREAM_RING 2</div>
+<div class="log-info">03-24 21:50:46.145  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent level_changed STREAM_SYSTEM 2</div>
+<div class="log-info">03-24 21:50:46.145  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent level_changed STREAM_RING 2</div>
+<div class="log-debug">03-24 21:50:46.177  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:46.190  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:46.309  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent show_dialog volume_changed keyguard=false</div>
+<div class="log-debug">03-24 21:50:46.394  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:46.404  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:46.422  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:46.436  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:46.444  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:46.454  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:46.472  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:46.481  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:46.540  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:46.545  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:46.558  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:46.569  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:46.844  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:46.861  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:48.170  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-info">03-24 21:50:49.163  <a href="f00065.html#ch0">1850</a>  1871 I art     : Starting a blocking GC Explicit</div>
+<div class="log-info">03-24 21:50:49.173  <a href="f00065.html#ch0">1850</a>  1871 I art     : Explicit concurrent mark sweep GC freed 13291(520KB) AllocSpace objects, 3(60KB) LOS objects, 30% free, 9MB/13MB, paused 86us total 9.157ms</div>
+<div class="log-info">03-24 21:50:49.573  <a href="f00065.html#ch0">1850</a>  1865 I art     : Thread[3,tid=1865,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x12c00820,"Signal Catcher"]: reacting to signal 3</div>
+<div class="log-info">03-24 21:50:49.573  <a href="f00065.html#ch0">1850</a>  1865 I art     : </div>
+<div class="log-info">03-24 21:50:49.598  <a href="f00065.html#ch0">1850</a>  1865 I art     : Wrote stack traces to '/data/anr/traces.txt'</div>
+<div class="log-info">03-24 21:50:51.451  <a href="f00065.html#ch0">1850</a>  1850 I vol.Events: writeEvent dismiss_dialog timeout</div>
+<div class="log-info">03-24 21:50:51.452  <a href="f00065.html#ch0">1850</a>  2074 I vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1</div>
+<div class="log-debug">03-24 21:50:51.454  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+<div class="log-debug">03-24 21:50:51.758  <a href="f00065.html#ch0">1850</a>  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)</div>
+</div></body>
+</html>

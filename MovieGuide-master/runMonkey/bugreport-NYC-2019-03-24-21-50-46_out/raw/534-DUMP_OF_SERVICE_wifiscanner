@@ -1,0 +1,52 @@
+WifiScanningService - Log Begin ----
+03-24 21:48:14.225 - client connected: ClientInfo[uid=1000,android.os.Messenger@b65555]
+03-24 21:48:14.228 - registerScanListener: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=1
+03-24 21:48:16.939 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=2,WorkSource{1010}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+03-24 21:48:18.101 - client connected: ClientInfo[uid=10013,android.os.Messenger@4396e9c]
+03-24 21:48:18.856 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=2,results=1
+03-24 21:48:18.856 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=1,results=1
+03-24 21:48:22.404 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=3,WorkSource{10013}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+03-24 21:48:24.199 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=3,results=1
+03-24 21:48:24.199 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=1,results=1
+03-24 21:48:38.617 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=4,WorkSource{1010}, ScanSettings {  band:0 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[ 2447  ]  } 
+03-24 21:48:39.269 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=4,results=1
+03-24 21:48:39.269 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=1,results=1
+03-24 21:48:58.379 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=5,WorkSource{1010}, ScanSettings {  band:0 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[ 2447  ]  } 
+03-24 21:48:58.407 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=5,results=1
+03-24 21:48:58.408 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=1,results=1
+03-24 21:49:38.380 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=6,WorkSource{1010}, ScanSettings {  band:0 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[ 2447  ]  } 
+03-24 21:49:38.406 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=6,results=1
+03-24 21:49:38.406 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=1,results=1
+03-24 21:50:15.833 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=7,WorkSource{1010}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+03-24 21:50:15.983 - singleScanFailed: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=7,reason=-1, Scan was interrupted
+03-24 21:50:25.479 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=8,WorkSource{1010}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+03-24 21:50:25.524 - singleScanFailed: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=8,reason=-1, Scan was interrupted
+03-24 21:50:31.617 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=11,WorkSource{1010}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+03-24 21:50:31.621 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=12,WorkSource{1010}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+03-24 21:50:33.430 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=11,results=1
+03-24 21:50:33.459 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=12,results=1
+03-24 21:50:33.460 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@b65555],Id=1,results=1
+WifiScanningService - Log End ----
+
+clients:
+  ClientInfo[uid=1000,android.os.Messenger@b65555]
+  ClientInfo[uid=10013,android.os.Messenger@4396e9c]
+listeners:
+schedule:
+  base period: 30000
+  max ap per scan: 32
+  batched scans: 10
+  buckets:
+WifiPnoScanStateMachine:
+ total records=9
+ rec[0]: time=03-24 21:48:12.894 processed=DefaultState org=DefaultState dest=DefaultState what=160007(0x27107)
+ rec[1]: time=03-24 21:48:14.238 processed=DefaultState org=DefaultState dest=StartedState what=160006(0x27106)
+ rec[2]: time=03-24 21:50:10.988 processed=DefaultState org=StartedState dest=DefaultState what=160007(0x27107)
+ rec[3]: time=03-24 21:50:15.833 processed=DefaultState org=DefaultState dest=StartedState what=160006(0x27106)
+ rec[4]: time=03-24 21:50:15.983 processed=DefaultState org=StartedState dest=DefaultState what=160007(0x27107)
+ rec[5]: time=03-24 21:50:25.479 processed=DefaultState org=DefaultState dest=StartedState what=160006(0x27106)
+ rec[6]: time=03-24 21:50:25.524 processed=DefaultState org=StartedState dest=DefaultState what=160007(0x27107)
+ rec[7]: time=03-24 21:50:29.601 processed=DefaultState org=DefaultState dest=StartedState what=160006(0x27106)
+ rec[8]: time=03-24 21:50:37.566 processed=DefaultState org=StartedState dest=DefaultState what=160007(0x27107)
+curState=DefaultState
+--------- 0.002s was the duration of dumpsys wifiscanner

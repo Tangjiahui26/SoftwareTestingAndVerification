@@ -1,0 +1,72 @@
+NetworkFactories for: WIFI_UT TelephonyNetworkFactory[0] WIFI PhoneSwitcherNetworkRequstListener
+
+Active default network: none
+
+Current Networks:
+
+Metered Interfaces:
+
+Restrict background: false
+
+Status for known UIDs:
+  UID=10013 rules=1 (ALLOW_METERED)
+  
+Network Requests:
+  uid/pid:1000/1700 NetworkRequest [ LISTEN id=4, [ Transports: CELLULAR|WIFI Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  uid/pid:1000/1700 NetworkRequest [ LISTEN id=3, [] ]
+  uid/pid:10029/2428 NetworkRequest [ LISTEN id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  uid/pid:1000/1700 NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  uid/pid:10028/1850 NetworkRequest [ LISTEN id=5, [] ]
+  uid/pid:10029/2428 NetworkRequest [ LISTEN id=9, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  
+mLegacyTypeTracker:
+  Supported types: 0 1 2 3 5 10 11 12 13 14 15 17
+  Current state:
+
+mNetTransitionWakeLock: currently held, last requested for NetworkAgentInfo [WIFI () - 103]
+
+Tethering:
+  mUpstreamIfaceTypes: MOBILE WIFI MOBILE_HIPRI BLUETOOTH ETHERNET
+  Tether state:
+
+Packet keepalives:
+
+Bad Wi-Fi avoidance: unrestricted
+
+
+mValidationLogs (most recent first):
+103 - "AndroidWifi"
+  03-24 21:50:34.488 - PROBE_DNS OK 76ms, connectivitycheck.gstatic.com=172.217.14.195
+  03-24 21:50:34.566 - PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=32ms ret=204 headers={null=[HTTP/1.1 204 No Content], Content-Length=[0], Date=[Mon, 25 Mar 2019 04:50:35 GMT], X-Android-Received-Millis=[1553489434565], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1553489434551]}
+  03-24 21:50:34.632 - PROBE_HTTPS https://www.google.com/generate_204 time=82ms ret=204 headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[quic=":443"; ma=2592000; v="46,44,43,39"], Content-Length=[0], Date=[Mon, 25 Mar 2019 04:50:35 GMT], X-Android-Received-Millis=[1553489434630], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1553489434617]}
+102 - epc.tmobile.com
+  03-24 21:50:16.531 - PROBE_DNS FAIL 16ms, connectivitycheck.gstatic.com
+  03-24 21:50:16.633 - Probably not a portal: exception java.net.UnknownHostException: Unable to resolve host "connectivitycheck.gstatic.com": No address associated with hostname
+  03-24 21:50:16.642 - Probably not a portal: exception java.net.UnknownHostException: Unable to resolve host "www.google.com": No address associated with hostname
+  03-24 21:50:16.643 - Probably not a portal: exception java.net.UnknownHostException: Unable to resolve host "www.google.com": No address associated with hostname
+101 - "AndroidWifi"
+  03-24 21:48:19.296 - PROBE_DNS OK 31ms, connectivitycheck.gstatic.com=172.217.14.195
+  03-24 21:48:19.336 - PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=26ms ret=204 headers={null=[HTTP/1.1 204 No Content], Content-Length=[0], Date=[Mon, 25 Mar 2019 04:48:19 GMT], X-Android-Received-Millis=[1553489299336], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1553489299321]}
+  03-24 21:48:19.363 - PROBE_HTTPS https://www.google.com/generate_204 time=54ms ret=204 headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[quic=":443"; ma=2592000; v="46,44,43,39"], Content-Length=[0], Date=[Mon, 25 Mar 2019 04:48:19 GMT], X-Android-Received-Millis=[1553489299363], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1553489299353]}
+  03-24 21:48:24.035 - PROBE_DNS OK 17ms, connectivitycheck.gstatic.com=172.217.14.195,2607:f8b0:400a:803::2003
+  03-24 21:48:24.048 - PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=10ms ret=204 headers={null=[HTTP/1.1 204 No Content], Content-Length=[0], Date=[Mon, 25 Mar 2019 04:48:24 GMT], X-Android-Received-Millis=[1553489304048], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1553489304038]}
+  03-24 21:48:24.052 - PROBE_HTTPS https://www.google.com/generate_204 time=12ms ret=204 headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[quic=":443"; ma=2592000; v="46,44,43,39"], Content-Length=[0], Date=[Mon, 25 Mar 2019 04:48:24 GMT], X-Android-Received-Millis=[1553489304051], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1553489304041]}
+100 - epc.tmobile.com
+  03-24 21:48:14.895 - PROBE_DNS OK 48ms, connectivitycheck.gstatic.com=172.217.14.195,2607:f8b0:400a:808::2003
+  03-24 21:48:15.532 - PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=469ms ret=204 headers={null=[HTTP/1.1 204 No Content], Content-Length=[0], Date=[Mon, 25 Mar 2019 04:48:15 GMT], X-Android-Received-Millis=[1553489295531], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1553489295492]}
+  03-24 21:48:15.672 - PROBE_HTTPS https://www.google.com/generate_204 time=609ms ret=204 headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[quic=":443"; ma=2592000; v="46,44,43,39"], Content-Length=[0], Date=[Mon, 25 Mar 2019 04:48:15 GMT], X-Android-Received-Millis=[1553489295670], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1553489295658]}
+
+mNetworkRequestInfoLogs (most recent first):
+  03-24 21:50:48.162 - RELEASE uid/pid:10029/2428 NetworkRequest [ LISTEN id=8, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  03-24 21:50:36.631 - REGISTER uid/pid:10029/2428 NetworkRequest [ LISTEN id=9, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  03-24 21:50:36.514 - REGISTER uid/pid:10029/2428 NetworkRequest [ LISTEN id=8, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  03-24 21:49:02.509 - RELEASE uid/pid:10076/4135 NetworkRequest [ LISTEN id=7, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  03-24 21:48:42.902 - REGISTER uid/pid:10076/4135 NetworkRequest [ LISTEN id=7, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  03-24 21:48:21.481 - REGISTER uid/pid:10029/2428 NetworkRequest [ LISTEN id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  03-24 21:48:14.092 - REGISTER uid/pid:10028/1850 NetworkRequest [ LISTEN id=5, [] ]
+  03-25 04:48:12.822 - REGISTER uid/pid:1000/1700 NetworkRequest [ LISTEN id=4, [ Transports: CELLULAR|WIFI Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  03-25 04:48:12.146 - REGISTER uid/pid:1000/1700 NetworkRequest [ LISTEN id=3, [] ]
+  03-25 04:48:11.900 - REGISTER uid/pid:1000/1700 NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+
+mNetworkInfoBlockingLogs (most recent first):
+--------- 0.001s was the duration of dumpsys connectivity

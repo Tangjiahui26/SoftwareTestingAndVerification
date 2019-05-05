@@ -1,0 +1,1091 @@
+Wi-Fi is disabled
+Stay-awake conditions: 1
+mMulticastEnabled 2
+mMulticastDisabled 2
+mInIdleMode false
+mScanPending false
+WifiController:
+ total records=21
+ rec[0]: time=03-24 21:48:12.149 processed=ApStaDisabledState org=ApStaDisabledState dest=<null> what=155656(0x26008)
+ rec[1]: time=03-24 21:48:12.655 processed=ApStaDisabledState org=ApStaDisabledState dest=<null> what=155659(0x2600b)
+ rec[2]: time=03-24 21:48:12.655 processed=ApStaDisabledState org=ApStaDisabledState dest=DeviceActiveState what=155656(0x26008)
+ rec[3]: time=03-24 21:48:13.209 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[4]: time=03-24 21:48:13.237 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[5]: time=03-24 21:48:13.373 processed=DeviceActiveState org=DeviceActiveState dest=<null> what=155660(0x2600c)
+ rec[6]: time=03-24 21:48:15.724 processed=DeviceActiveState org=DeviceActiveState dest=<null> what=155660(0x2600c)
+ rec[7]: time=03-24 21:48:30.185 processed=DeviceActiveState org=DeviceActiveState dest=<null> what=155660(0x2600c)
+ rec[8]: time=03-24 21:50:10.950 processed=StaEnabledState org=DeviceActiveState dest=ApStaDisabledState what=155656(0x26008)
+ rec[9]: time=03-24 21:50:15.621 processed=ApStaDisabledState org=ApStaDisabledState dest=DeviceActiveState what=155656(0x26008)
+ rec[10]: time=03-24 21:50:15.982 processed=StaEnabledState org=DeviceActiveState dest=ApStaDisabledState what=155656(0x26008)
+ rec[11]: time=03-24 21:50:25.311 processed=ApStaDisabledState org=ApStaDisabledState dest=DeviceActiveState what=155656(0x26008)
+ rec[12]: time=03-24 21:50:25.499 processed=StaEnabledState org=DeviceActiveState dest=ApStaDisabledState what=155657(0x26009)
+ rec[13]: time=03-24 21:50:25.502 processed=ApStaDisabledState org=ApStaDisabledState dest=<null> what=155657(0x26009)
+ rec[14]: time=03-24 21:50:25.582 processed=ApStaDisabledState org=ApStaDisabledState dest=<null> what=155657(0x26009)
+ rec[15]: time=03-24 21:50:25.767 processed=ApStaDisabledState org=ApStaDisabledState dest=<null> what=155656(0x26008)
+ rec[16]: time=03-24 21:50:26.005 processed=ApStaDisabledState org=ApStaDisabledState dest=<null> what=155659(0x2600b)
+ rec[17]: time=03-24 21:50:26.005 processed=ApStaDisabledState org=ApStaDisabledState dest=<null> what=155659(0x2600b)
+ rec[18]: time=03-24 21:50:28.533 processed=ApStaDisabledState org=ApStaDisabledState dest=DeviceActiveState what=155656(0x26008)
+ rec[19]: time=03-24 21:50:29.640 processed=StaEnabledState org=DeviceActiveState dest=<null> what=155656(0x26008)
+ rec[20]: time=03-24 21:50:37.533 processed=StaEnabledState org=DeviceActiveState dest=ApStaDisabledState what=155656(0x26008)
+curState=ApStaDisabledState
+mScreenOff false
+mDeviceIdle false
+mPluggedType 1
+mIdleMillis 900000
+mSleepPolicy 2
+mPersistWifiState 0
+mAirplaneModeOn false
+mNotificationEnabled true
+mNotificationRepeatTime 0
+mNotificationShown false
+mNumScansSinceNetworkStateChange 0
+mEnableTrafficStatsPoll false
+mTrafficStatsPollToken 31
+mTxPkts 8315
+mRxPkts 14131
+mDataActivity 3
+Latest scan results:
+
+Locks held:
+Locks acquired: 0 full, 0 full high perf, 0 scan
+Locks released: 0 full, 0 full high perf, 0 scan
+
+Locks held:
+
+Multicast Locks held:
+
+WifiStateMachine:
+ total records=184
+ rec[0]: time=03-24 21:49:53.409 processed=L2ConnectedState org=ConnectedState dest=<null> what=131155(0x20053) !CMD_RSSI_POLL  rt=122174/122174 1 0 "AndroidWifi" 02:00:00:00:01:00 rssi=-50 f=2447 sc=60 link=65 tx=34.3, 0.0, 0.0  rx=32.8 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:-1288767743] gl rssi=-50 ag=0 hr ticks 0,0,0 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+ rec[1]: time=03-24 21:49:56.412 processed=L2ConnectedState org=ConnectedState dest=<null> what=131155(0x20053) !CMD_RSSI_POLL  rt=125177/125177 1 0 "AndroidWifi" 02:00:00:00:01:00 rssi=-50 f=2447 sc=60 link=65 tx=89.2, 0.0, 0.0  rx=109.9 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:-1288764740] gl rssi=-50 ag=0 hr ticks 0,0,0 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+ rec[2]: time=03-24 21:49:59.418 processed=L2ConnectedState org=ConnectedState dest=<null> what=131155(0x20053) !CMD_RSSI_POLL  rt=128182/128182 1 0 "AndroidWifi" 02:00:00:00:01:00 rssi=-50 f=2447 sc=60 link=65 tx=117.1, 0.0, 0.0  rx=144.0 bcn=0 [on:0 tx:0 rx:0 period:3006] from screen [on:0 period:-1288761734] gl rssi=-50 ag=0 hr ticks 0,0,0 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+ rec[3]: time=03-24 21:50:02.423 processed=L2ConnectedState org=ConnectedState dest=<null> what=131155(0x20053) !CMD_RSSI_POLL  rt=131187/131187 1 0 "AndroidWifi" 02:00:00:00:01:00 rssi=-50 f=2447 sc=60 link=65 tx=74.5, 0.0, 0.0  rx=89.5 bcn=0 [on:0 tx:0 rx:0 period:3005] from screen [on:0 period:-1288758729] gl rssi=-50 ag=0 hr ticks 0,0,0 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+ rec[4]: time=03-24 21:50:05.428 processed=L2ConnectedState org=ConnectedState dest=<null> what=131155(0x20053) !CMD_RSSI_POLL  rt=134192/134192 1 0 "AndroidWifi" 02:00:00:00:01:00 rssi=-50 f=2447 sc=60 link=65 tx=59.3, 0.0, 0.0  rx=66.2 bcn=0 [on:0 tx:0 rx:0 period:3005] from screen [on:0 period:-1288755724] gl rssi=-50 ag=0 hr ticks 0,0,0 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+ rec[5]: time=03-24 21:50:08.432 processed=L2ConnectedState org=ConnectedState dest=<null> what=131155(0x20053) !CMD_RSSI_POLL  rt=137197/137197 1 0 "AndroidWifi" 02:00:00:00:01:00 rssi=-50 f=2447 sc=60 link=65 tx=98.6, 0.0, 0.0  rx=130.1 bcn=0 [on:0 tx:0 rx:0 period:3004] from screen [on:0 period:-1288752720] gl rssi=-50 ag=0 hr ticks 0,0,0 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+ rec[6]: time=03-24 21:50:10.951 processed=SupplicantStartedState org=ConnectedState dest=SupplicantStoppingState what=131084(0x2000c) !CMD_STOP_SUPPLICANT  rt=139715/139715 0 0
+ rec[7]: time=03-24 21:50:11.002 processed=DefaultState org=SupplicantStoppingState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000  rt=139767/139767 0 0
+ rec[8]: time=03-24 21:50:11.020 processed=DefaultState org=SupplicantStoppingState dest=<null> what=147460(0x24004) !(-5)NETWORK_DISCONNECTION_EVENT  rt=139785/139785 02:00:00:00:01:00 nid=1 reason=3
+ rec[9]: time=03-24 21:50:11.029 processed=DefaultState org=SupplicantStoppingState dest=<null> what=147462(0x24006) !(-5)SUPPLICANT_STATE_CHANGE_EVENT  rt=139793/139793 24 0 SSID: AndroidWifi BSSID: 02:00:00:00:01:00 nid: 0 state: DISCONNECTED
+ rec[10]: time=03-24 21:50:11.299 processed=SupplicantStoppingState org=SupplicantStoppingState dest=InitialState what=147458(0x24002) !SUP_DISCONNECTION_EVENT  rt=140063/140063 26 0
+ rec[11]: time=03-24 21:50:11.501 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000  rt=140266/140266 0 0
+ rec[12]: time=03-24 21:50:11.501 processed=DefaultState org=InitialState dest=<null> what=131155(0x20053) !(-5)CMD_RSSI_POLL  rt=140266/140266 1 0 <unknown ssid> rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 bcn=0 [on:0 tx:0 rx:0 period:3069] from screen [on:0 period:-1288749651] offload-stopped
+ rec[13]: time=03-24 21:50:15.782 processed=InitialState org=InitialState dest=SupplicantStartingState what=131083(0x2000b) !CMD_START_SUPPLICANT  rt=144547/144547 0 0
+ rec[14]: time=03-24 21:50:15.782 processed=SupplicantStartingState org=SupplicantStartingState dest=<null> what=131144(0x20048) !(-4)CMD_SET_OPERATIONAL_MODE  rt=144547/144547 1 0
+ rec[15]: time=03-24 21:50:15.782 processed=SupplicantStartingState org=SupplicantStartingState dest=<null> what=131085(0x2000d) !(-4)CMD_START_DRIVER  rt=144547/144547 0 0
+ rec[16]: time=03-24 21:50:15.782 processed=DefaultState org=SupplicantStartingState dest=<null> what=131149(0x2004d) !CMD_SET_HIGH_PERF_MODE  rt=144547/144547 0 0
+ rec[17]: time=03-24 21:50:15.830 processed=SupplicantStartingState org=SupplicantStartingState dest=DriverStartedState what=147457(0x24001) !SUP_CONNECTION_EVENT  rt=144594/144594 0 0
+ rec[18]: time=03-24 21:50:15.834 processed=DisconnectedState org=DisconnectedState dest=<null> what=131144(0x20048) !CMD_SET_OPERATIONAL_MODE  rt=144599/144599 1 0
+ rec[19]: time=03-24 21:50:15.834 processed=DriverStartedState org=DisconnectedState dest=<null> what=131085(0x2000d) !CMD_START_DRIVER  rt=144599/144599 0 0
+ rec[20]: time=03-24 21:50:15.834 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000  rt=144599/144599 0 0
+ rec[21]: time=03-24 21:50:15.834 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT  rt=144599/144599 26 0 SSID:  BSSID: 00:00:00:00:00:00 nid: -1 state: DISCONNECTED
+ rec[22]: time=03-24 21:50:15.835 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT  rt=144600/144600 27 0 SSID:  BSSID: 00:00:00:00:00:00 nid: -1 state: SCANNING
+ rec[23]: time=03-24 21:50:15.847 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000  rt=144612/144612 0 0
+ rec[24]: time=03-24 21:50:15.982 processed=SupplicantStartedState org=DisconnectedState dest=SupplicantStoppingState what=131084(0x2000c) !CMD_STOP_SUPPLICANT  rt=144747/144747 0 0
+ rec[25]: time=03-24 21:50:15.991 processed=DefaultState org=SupplicantStoppingState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000  rt=144756/144756 0 0
+ rec[26]: time=03-24 21:50:16.002 processed=DefaultState org=SupplicantStoppingState dest=<null> what=147462(0x24006) !(-5)SUPPLICANT_STATE_CHANGE_EVENT  rt=144767/144767 29 0 SSID:  BSSID: 00:00:00:00:00:00 nid: -1 state: DISCONNECTED
+ rec[27]: time=03-24 21:50:16.003 processed=SupplicantStoppingState org=SupplicantStoppingState dest=<null> what=131089(0x20011) !CMD_STOP_SUPPLICANT_FAILED  rt=144767/144767 1 0
+ rec[28]: time=03-24 21:50:16.298 processed=SupplicantStoppingState org=SupplicantStoppingState dest=InitialState what=147458(0x24002) !SUP_DISCONNECTION_EVENT  rt=145063/145063 30 0
+ rec[29]: time=03-24 21:50:16.500 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000  rt=145265/145265 0 0
+ rec[30]: time=03-24 21:50:20.993 processed=DefaultState org=InitialState dest=<null> what=131089(0x20011) !(-5)CMD_STOP_SUPPLICANT_FAILED  rt=149758/149758 2 0
+ rec[31]: time=03-24 21:50:25.461 processed=InitialState org=InitialState dest=SupplicantStartingState what=131083(0x2000b) !CMD_START_SUPPLICANT  rt=154225/154225 0 0
+ rec[32]: time=03-24 21:50:25.461 processed=SupplicantStartingState org=SupplicantStartingState dest=<null> what=131144(0x20048) !(-4)CMD_SET_OPERATIONAL_MODE  rt=154225/154225 1 0
+ rec[33]: time=03-24 21:50:25.461 processed=SupplicantStartingState org=SupplicantStartingState dest=<null> what=131085(0x2000d) !(-4)CMD_START_DRIVER  rt=154225/154225 0 0
+ rec[34]: time=03-24 21:50:25.461 processed=DefaultState org=SupplicantStartingState dest=<null> what=131149(0x2004d) !CMD_SET_HIGH_PERF_MODE  rt=154225/154225 0 0
+ rec[35]: time=03-24 21:50:25.468 processed=SupplicantStartingState org=SupplicantStartingState dest=DriverStartedState what=147457(0x24001) !SUP_CONNECTION_EVENT  rt=154233/154233 0 0
+ rec[36]: time=03-24 21:50:25.480 processed=DisconnectedState org=DisconnectedState dest=<null> what=131144(0x20048) !CMD_SET_OPERATIONAL_MODE  rt=154245/154245 1 0
+ rec[37]: time=03-24 21:50:25.480 processed=DriverStartedState org=DisconnectedState dest=<null> what=131085(0x2000d) !CMD_START_DRIVER  rt=154245/154245 0 0
+ rec[38]: time=03-24 21:50:25.480 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000  rt=154245/154245 0 0
+ rec[39]: time=03-24 21:50:25.508 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT  rt=154266/154273 30 0 SSID:  BSSID: 00:00:00:00:00:00 nid: -1 state: DISCONNECTED
+ rec[40]: time=03-24 21:50:25.514 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT  rt=154279/154279 31 0 SSID:  BSSID: 00:00:00:00:00:00 nid: -1 state: SCANNING
+ rec[41]: time=03-24 21:50:25.514 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000  rt=154279/154279 0 0
+ rec[42]: time=03-24 21:50:25.514 processed=SupplicantStartedState org=DisconnectedState dest=SupplicantStoppingState what=131084(0x2000c) !CMD_STOP_SUPPLICANT  rt=154279/154279 0 0
+ rec[43]: time=03-24 21:50:25.529 processed=DefaultState org=SupplicantStoppingState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000  rt=154294/154294 0 0
+ rec[44]: time=03-24 21:50:25.529 processed=DefaultState org=SupplicantStoppingState dest=<null> what=147462(0x24006) !(-5)SUPPLICANT_STATE_CHANGE_EVENT  rt=154294/154294 33 0 SSID:  BSSID: 00:00:00:00:00:00 nid: -1 state: DISCONNECTED
+ rec[45]: time=03-24 21:50:25.534 processed=DefaultState org=SupplicantStoppingState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=10028  rt=154298/154298 0 0
+ rec[46]: time=03-24 21:50:25.781 processed=SupplicantStoppingState org=SupplicantStoppingState dest=InitialState what=147458(0x24002) !SUP_DISCONNECTION_EVENT  rt=154546/154546 34 0
+ rec[47]: time=03-24 21:50:25.982 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000  rt=154747/154747 0 0
+ rec[48]: time=03-24 21:50:26.156 processed=DefaultState org=InitialState dest=<null> what=131173(0x20065) !(-4)CMD_RESET_SIM_NETWORKS  rt=154920/154921 1 0
+ rec[49]: time=03-24 21:50:29.576 processed=InitialState org=InitialState dest=SupplicantStartingState what=131083(0x2000b) !CMD_START_SUPPLICANT  rt=158341/158341 0 0
+ rec[50]: time=03-24 21:50:29.576 processed=DefaultState org=SupplicantStartingState dest=<null> what=131173(0x20065) !(-4)CMD_RESET_SIM_NETWORKS  rt=158341/158341 1 0
+ rec[51]: time=03-24 21:50:29.576 processed=SupplicantStartingState org=SupplicantStartingState dest=<null> what=131144(0x20048) !(-4)CMD_SET_OPERATIONAL_MODE  rt=158341/158341 1 0
+ rec[52]: time=03-24 21:50:29.576 processed=SupplicantStartingState org=SupplicantStartingState dest=<null> what=131085(0x2000d) !(-4)CMD_START_DRIVER  rt=158341/158341 0 0
+ rec[53]: time=03-24 21:50:29.576 processed=DefaultState org=SupplicantStartingState dest=<null> what=131149(0x2004d) !CMD_SET_HIGH_PERF_MODE  rt=158341/158341 0 0
+ rec[54]: time=03-24 21:50:29.576 processed=DefaultState org=SupplicantStartingState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=10028  rt=158341/158341 0 0
+ rec[55]: time=03-24 21:50:29.585 processed=SupplicantStartingState org=SupplicantStartingState dest=DriverStartedState what=147457(0x24001) !SUP_CONNECTION_EVENT  rt=158350/158350 0 0
+ rec[56]: time=03-24 21:50:29.596 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131173(0x20065) !CMD_RESET_SIM_NETWORKS  rt=158361/158361 1 0
+ rec[57]: time=03-24 21:50:29.596 processed=DisconnectedState org=DisconnectedState dest=<null> what=131144(0x20048) !CMD_SET_OPERATIONAL_MODE  rt=158361/158361 1 0
+ rec[58]: time=03-24 21:50:29.596 processed=DriverStartedState org=DisconnectedState dest=<null> what=131085(0x2000d) !CMD_START_DRIVER  rt=158361/158361 0 0
+ rec[59]: time=03-24 21:50:29.596 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000  rt=158361/158361 0 0
+ rec[60]: time=03-24 21:50:29.597 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000  rt=158362/158362 0 0
+ rec[61]: time=03-24 21:50:29.597 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT  rt=158362/158362 34 0 SSID:  BSSID: 00:00:00:00:00:00 nid: -1 state: DISCONNECTED
+ rec[62]: time=03-24 21:50:30.528 processed=DefaultState org=DisconnectedState dest=<null> what=131089(0x20011) !(-5)CMD_STOP_SUPPLICANT_FAILED  rt=159293/159293 3 0
+ rec[63]: time=03-24 21:50:31.621 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT  rt=160385/160385 35 0 SSID:  BSSID: 00:00:00:00:00:00 nid: -1 state: SCANNING
+ rec[64]: time=03-24 21:50:33.427 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT  rt=162192/162192 0 0 found=1 known=0 got=1 bcn=0 con=1 untrustedcn=0
+ rec[65]: time=03-24 21:50:33.466 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT  rt=162231/162231 39 0 SSID:  BSSID: 00:00:00:00:00:00 nid: -1 state: DISCONNECTED
+ rec[66]: time=03-24 21:50:33.668 processed=ConnectModeState org=DisconnectedState dest=<null> what=131215(0x2008f) !CMD_AUTO_CONNECT  rt=162433/162433 0 0 "AndroidWifi"NONE 02:00:00:00:01:00 roam=false
+ rec[67]: time=03-24 21:50:33.679 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT  rt=162444/162444 41 0 SSID: AndroidWifi BSSID: 00:00:00:00:00:00 nid: 0 state: AUTHENTICATING
+ rec[68]: time=03-24 21:50:33.679 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131213(0x2008d) !CMD_TARGET_BSSID  rt=162444/162444 42 0 BSSID=02:00:00:00:01:00 Target=02:00:00:00:01:00 roam=false
+ rec[69]: time=03-24 21:50:33.682 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT  rt=162446/162447 43 0 SSID: AndroidWifi BSSID: 00:00:00:00:00:00 nid: 0 state: ASSOCIATING
+ rec[70]: time=03-24 21:50:33.730 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT  rt=162495/162495 44 0 SSID: AndroidWifi BSSID: 00:00:00:00:00:00 nid: 0 state: ASSOCIATED
+ rec[71]: time=03-24 21:50:33.751 processed=DefaultState org=DisconnectedState dest=<null> what=131219(0x20093) !(-5)CMD_ASSOCIATED_BSSID  rt=162516/162516 45 0 BSSID=02:00:00:00:01:00 Target=02:00:00:00:01:00 roam=false
+ rec[72]: time=03-24 21:50:33.795 processed=ConnectModeState org=DisconnectedState dest=ObtainingIpState what=147459(0x24003) !NETWORK_CONNECTION_EVENT  rt=162560/162560 0 0 02:00:00:00:01:00 nid=0 "AndroidWifi"NONE
+ rec[73]: time=03-24 21:50:33.843 processed=ConnectModeState org=ObtainingIpState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT  rt=162607/162607 47 0 SSID: AndroidWifi BSSID: 02:00:00:00:01:00 nid: 0 state: COMPLETED
+ rec[74]: time=03-24 21:50:33.898 processed=L2ConnectedState org=ObtainingIpState dest=<null> what=131155(0x20053) !CMD_RSSI_POLL  rt=162631/162631 2 0 "AndroidWifi" 02:00:00:00:01:00 rssi=-50 f=2447 sc=60 link=65 tx=2048.8, 0.0, 0.0  rx=3487.8 bcn=0 [on:0 tx:0 rx:0 period:22397] from screen [on:0 period:-1288727254] gl u24 rssi=-50 ag=0 hr ticks 0,0,0 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+ rec[75]: time=03-24 21:50:33.899 processed=DriverStartedState org=ObtainingIpState dest=<null> what=131276(0x200cc) !CMD_CONFIG_ND_OFFLOAD  rt=162663/162663 1 0
+ rec[76]: time=03-24 21:50:33.900 processed=DefaultState org=ObtainingIpState dest=<null> what=131275(0x200cb) !CMD_SET_FALLBACK_PACKET_FILTERING  rt=162664/162664 enabled=true
+ rec[77]: time=03-24 21:50:33.900 processed=DefaultState org=ObtainingIpState dest=<null> what=131212(0x2008c) !CMD_UPDATE_LINKPROPERTIES  rt=162665/162665 0 0 
+ rec[78]: time=03-24 21:50:33.927 processed=L2ConnectedState org=ObtainingIpState dest=<null> what=196611(0x30003) !CMD_PRE_DHCP_ACTION  rt=162692/162692 0 0 txpkts=8195,0,0
+ rec[79]: time=03-24 21:50:33.928 processed=L2ConnectedState org=ObtainingIpState dest=<null> what=196614(0x30006) !CMD_PRE_DHCP_ACTION_COMPLETE  rt=162692/162692 0 0
+ rec[80]: time=03-24 21:50:33.962 processed=L2ConnectedState org=ObtainingIpState dest=<null> what=196612(0x30004) !CMD_POST_DHCP_ACTION  rt=162727/162727 0 0 
+ rec[81]: time=03-24 21:50:33.963 processed=L2ConnectedState org=ObtainingIpState dest=<null> what=131272(0x200c8) !CMD_IPV4_PROVISIONING_SUCCESS  rt=162728/162728 0
+ rec[82]: time=03-24 21:50:33.963 processed=DefaultState org=ObtainingIpState dest=<null> what=131212(0x2008c) !CMD_UPDATE_LINKPROPERTIES  rt=162728/162728 0 0 v4r
+ rec[83]: time=03-24 21:50:34.000 processed=DefaultState org=ObtainingIpState dest=<null> what=131212(0x2008c) !CMD_UPDATE_LINKPROPERTIES  rt=162765/162765 0 0 v4 v4r v4dns
+ rec[84]: time=03-24 21:50:34.048 processed=L2ConnectedState org=ObtainingIpState dest=ConnectedState what=131210(0x2008a) !CMD_IP_CONFIGURATION_SUCCESSFUL  rt=162812/162812 0 0
+ rec[85]: time=03-24 21:50:34.402 processed=L2ConnectedState org=ConnectedState dest=<null> what=131235(0x200a3) !CMD_STOP_RSSI_MONITORING_OFFLOAD  rt=163166/163166 rssi=-50 thresholds=null
+ rec[86]: time=03-24 21:50:34.665 processed=DefaultState org=ConnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=10028  rt=163430/163430 0 0
+ rec[87]: time=03-24 21:50:34.867 processed=DefaultState org=ConnectedState dest=<null> what=131212(0x2008c) !CMD_UPDATE_LINKPROPERTIES  rt=163632/163632 0 0 v4 v4r v4dns v6r
+ rec[88]: time=03-24 21:50:34.868 processed=DefaultState org=ConnectedState dest=<null> what=131212(0x2008c) !CMD_UPDATE_LINKPROPERTIES  rt=163633/163633 0 0 v4 v4r v4dns v6r v6dns
+ rec[89]: time=03-24 21:50:34.980 processed=ConnectedState org=ConnectedState dest=<null> what=131220(0x20094) !CMD_NETWORK_STATUS  rt=163745/163745 1 0
+ rec[90]: time=03-24 21:50:36.875 processed=L2ConnectedState org=ConnectedState dest=<null> what=131155(0x20053) !CMD_RSSI_POLL  rt=165639/165639 2 0 "AndroidWifi" 02:00:00:00:01:00 rssi=-50 f=2447 sc=60 link=65 tx=572.4, 0.0, 0.0  rx=961.9 bcn=0 [on:0 tx:0 rx:0 period:2977] from screen [on:0 period:-1288724277] gl u24 rssi=-50 ag=0 hr ticks 0,0,0 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+ rec[91]: time=03-24 21:50:37.533 processed=SupplicantStartedState org=ConnectedState dest=SupplicantStoppingState what=131084(0x2000c) !CMD_STOP_SUPPLICANT  rt=166298/166298 0 0
+ rec[92]: time=03-24 21:50:37.584 processed=DefaultState org=SupplicantStoppingState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000  rt=166349/166349 0 0
+ rec[93]: time=03-24 21:50:37.598 processed=DefaultState org=SupplicantStoppingState dest=<null> what=147460(0x24004) !(-5)NETWORK_DISCONNECTION_EVENT  rt=166363/166363 02:00:00:00:01:00 nid=1 reason=3
+ rec[94]: time=03-24 21:50:37.633 processed=DefaultState org=SupplicantStoppingState dest=<null> what=147462(0x24006) !(-5)SUPPLICANT_STATE_CHANGE_EVENT  rt=166398/166398 50 0 SSID: AndroidWifi BSSID: 02:00:00:00:01:00 nid: 0 state: DISCONNECTED
+ rec[95]: time=03-24 21:50:38.002 processed=SupplicantStoppingState org=SupplicantStoppingState dest=InitialState what=147458(0x24002) !SUP_DISCONNECTION_EVENT  rt=166767/166767 52 0
+ rec[96]: time=03-24 21:50:38.204 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000  rt=166969/166969 0 0
+ rec[97]: time=03-24 21:50:39.876 processed=DefaultState org=InitialState dest=<null> what=131155(0x20053) !(-5)CMD_RSSI_POLL  rt=168640/168640 2 0 <unknown ssid> rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:-1288721276] offload-stopped
+ rec[98]: time=03-24 21:50:42.585 processed=DefaultState org=InitialState dest=<null> what=131089(0x20011) !(-5)CMD_STOP_SUPPLICANT_FAILED  rt=171350/171350 4 0
+ rec[99]: time=03-24 21:50:53.616 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000  rt=182381/182381 0 0
+curState=InitialState
+SupplicantStateTracker:
+ total records=22
+ rec[0]: time=03-24 21:48:14.239 processed=DefaultState org=UninitializedState dest=UninitializedState what=131183(0x2006f)
+ rec[1]: time=03-24 21:48:14.242 processed=DefaultState org=UninitializedState dest=DisconnectedState what=147462(0x24006)
+ rec[2]: time=03-24 21:48:16.942 processed=DefaultState org=DisconnectedState dest=ScanState what=147462(0x24006)
+ rec[3]: time=03-24 21:48:18.887 processed=DefaultState org=ScanState dest=DisconnectedState what=147462(0x24006)
+ rec[4]: time=03-24 21:48:19.000 processed=DefaultState org=DisconnectedState dest=HandshakeState what=147462(0x24006)
+ rec[5]: time=03-24 21:48:19.119 processed=DefaultState org=HandshakeState dest=CompletedState what=147462(0x24006)
+ rec[6]: time=03-24 21:50:11.020 processed=CompletedState org=CompletedState dest=UninitializedState what=131183(0x2006f)
+ rec[7]: time=03-24 21:50:15.834 processed=DefaultState org=UninitializedState dest=UninitializedState what=131183(0x2006f)
+ rec[8]: time=03-24 21:50:15.848 processed=DefaultState org=UninitializedState dest=DisconnectedState what=147462(0x24006)
+ rec[9]: time=03-24 21:50:15.848 processed=DefaultState org=DisconnectedState dest=ScanState what=147462(0x24006)
+ rec[10]: time=03-24 21:50:16.001 processed=DefaultState org=ScanState dest=UninitializedState what=131183(0x2006f)
+ rec[11]: time=03-24 21:50:25.502 processed=DefaultState org=UninitializedState dest=UninitializedState what=131183(0x2006f)
+ rec[12]: time=03-24 21:50:25.528 processed=DefaultState org=UninitializedState dest=DisconnectedState what=147462(0x24006)
+ rec[13]: time=03-24 21:50:25.528 processed=DefaultState org=DisconnectedState dest=ScanState what=147462(0x24006)
+ rec[14]: time=03-24 21:50:25.529 processed=DefaultState org=ScanState dest=UninitializedState what=131183(0x2006f)
+ rec[15]: time=03-24 21:50:29.596 processed=DefaultState org=UninitializedState dest=UninitializedState what=131183(0x2006f)
+ rec[16]: time=03-24 21:50:29.597 processed=DefaultState org=UninitializedState dest=DisconnectedState what=147462(0x24006)
+ rec[17]: time=03-24 21:50:31.621 processed=DefaultState org=DisconnectedState dest=ScanState what=147462(0x24006)
+ rec[18]: time=03-24 21:50:33.507 processed=DefaultState org=ScanState dest=DisconnectedState what=147462(0x24006)
+ rec[19]: time=03-24 21:50:33.683 processed=DefaultState org=DisconnectedState dest=HandshakeState what=147462(0x24006)
+ rec[20]: time=03-24 21:50:33.900 processed=DefaultState org=HandshakeState dest=CompletedState what=147462(0x24006)
+ rec[21]: time=03-24 21:50:37.584 processed=CompletedState org=CompletedState dest=UninitializedState what=131183(0x2006f)
+curState=UninitializedState
+mAuthFailureInSupplicantBroadcast false
+mNetworksDisabledDuringConnect false
+
+mLinkProperties {LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null MTU: 0}
+mWifiInfo SSID: <unknown ssid>, BSSID: <none>, MAC: 02:00:00:44:55:66, Supplicant state: COMPLETED, RSSI: -127, Link speed: -1Mbps, Frequency: -1MHz, Net ID: -1, Metered hint: false, score: 0
+mDhcpResults IP address Gateway  DNS servers: [ ] Domains  DHCP server /192.168.232.1 Vendor info null lease 0 seconds
+mNetworkInfo [type: WIFI[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: <unknown ssid>, failover: false, available: false, roaming: false, metered: false]
+mLastSignalLevel 4
+mLastBssid null
+mLastNetworkId -1
+mOperationalMode 1
+mUserWantsSuspendOpt true
+mSuspendOptNeedsDisabled 4
+Supplicant status null
+CountryCode sent to driver US
+mConnectedModeGScanOffloadStarted false
+mGScanPeriodMilli 0
+mConnectionReqCount 1
+mUntrustedReqCount 0
+Wlan Wake Reasons:null
+
+WifiMetrics:
+mConnectionEvents:
+startTime=03-24 21:48:18.969, SSID="AndroidWifi", BSSID=02:00:00:00:01:00, durationMillis=205, roamType=ROAM_NONE, connectionResult=1, level2FailureCode=NONE, connectivityLevelFailureCode=NONE, signalStrength=-50, wifiState=WIFI_DISCONNECTED, screenOn=true. mRouterFingerprint: mConnectionEvent.roamType=0, mChannelInfo=2447, mDtim=0, mAuthentication=1, mHidden=false, mRouterTechnology=4, mSupportsIpv6=false
+startTime=03-24 21:50:33.641, SSID="AndroidWifi", BSSID=02:00:00:00:01:00, durationMillis=360, roamType=ROAM_NONE, connectionResult=1, level2FailureCode=NONE, connectivityLevelFailureCode=NONE, signalStrength=-50, wifiState=WIFI_DISCONNECTED, screenOn=true. mRouterFingerprint: mConnectionEvent.roamType=0, mChannelInfo=2447, mDtim=0, mAuthentication=1, mHidden=false, mRouterTechnology=4, mSupportsIpv6=false
+mWifiLogProto.numSavedNetworks=1
+mWifiLogProto.numOpenNetworks=1
+mWifiLogProto.numPersonalNetworks=0
+mWifiLogProto.numEnterpriseNetworks=0
+mWifiLogProto.numHiddenNetworks=0
+mWifiLogProto.numPasspointNetworks=0
+mWifiLogProto.isLocationEnabled=false
+mWifiLogProto.isScanningAlwaysEnabled=false
+mWifiLogProto.numNetworksAddedByUser=0
+mWifiLogProto.numNetworksAddedByApps=1
+mWifiLogProto.numNonEmptyScanResults=6
+mWifiLogProto.numEmptyScanResults=0
+mWifiLogProto.numOneshotScans=9
+mWifiLogProto.numBackgroundScans=0
+mScanReturnEntries:
+  SCAN_UNKNOWN: 2
+  SCAN_SUCCESS: 7
+  SCAN_FAILURE_INTERRUPTED: 0
+  SCAN_FAILURE_INVALID_CONFIGURATION: 0
+  FAILURE_WIFI_DISABLED: 0
+mSystemStateEntries: <state><screenOn> : <scansInitiated>
+  WIFI_UNKNOWN       ON: 0
+  WIFI_DISABLED      ON: 0
+  WIFI_DISCONNECTED  ON: 5
+  WIFI_ASSOCIATED    ON: 4
+  WIFI_UNKNOWN      OFF: 0
+  WIFI_DISABLED     OFF: 0
+  WIFI_DISCONNECTED OFF: 0
+  WIFI_ASSOCIATED   OFF: 0
+mWifiLogProto.numConnectivityWatchdogPnoGood=0
+mWifiLogProto.numConnectivityWatchdogPnoBad=0
+mWifiLogProto.numConnectivityWatchdogBackgroundGood=0
+mWifiLogProto.numConnectivityWatchdogBackgroundBad=0
+mWifiLogProto.numLastResortWatchdogTriggers=0
+mWifiLogProto.numLastResortWatchdogBadAssociationNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadAuthenticationNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadDhcpNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadOtherNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogAvailableNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadAssociation=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadAuthentication=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadDhcp=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadOther=0
+mWifiLogProto.numLastResortWatchdogSuccesses=0
+mWifiLogProto.recordDurationSec=163
+mWifiLogProto.rssiPollRssiCount: Printing counts for [-127, 0]
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 42 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+mWifiLogProto.alertReasonCounts=()
+mWifiLogProto.numTotalScanResults=6
+mWifiLogProto.numOpenNetworkScanResults=6
+mWifiLogProto.numPersonalNetworkScanResults=0
+mWifiLogProto.numEnterpriseNetworkScanResults=0
+mWifiLogProto.numHiddenNetworkScanResults=0
+mWifiLogProto.numHotspot2R1NetworkScanResults=0
+mWifiLogProto.numHotspot2R2NetworkScanResults=0
+mWifiLogProto.numScans=6
+mWifiLogProto.WifiScoreCount: [0, 60]
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38 
+
+Dump of WifiConfigManager
+mLastPriority 0
+Configured networks
+ID: 0 SSID: "AndroidWifi" PROVIDER-NAME: null BSSID: null FQDN: null PRIO: 0 HIDDEN: false
+ NetworkSelectionStatus NETWORK_SELECTION_ENABLED
+ hasEverConnected: true
+ numAssociation 2
+update time=03-24 21:50:33.567
+ validatedInternetAccess
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: TKIP CCMP
+ PSK: 
+Enterprise config:
+altsubject_match NULL
+password <removed>
+ca_path NULL
+subject_match NULL
+engine 0
+client_cert NULL
+ca_cert NULL
+anonymous_identity NULL
+identity NULL
+key_id NULL
+domain_suffix_match NULL
+engine_id NULL
+IP config:
+IP assignment: DHCP
+Proxy settings: NONE
+ networkSelectionBSSID=any cuid=-1 cname=null luid=-1 lname=null lcuid=-1 userApproved=USER_APPROVED noInternetAccessExpected=false 
+lastConnected: 20sec roamingFailureBlackListTimeMilli: 1000
+triggeredLow: 0 triggeredBad: 0 triggeredNotHigh: 0
+ticksLow: 0 ticksBad: 0 ticksNotHigh: 0
+triggeredJoin: 0
+
+
+
+Chipset information :-----------------------------------------------
+FW Version is: 
+Driver Version is: 
+Supported Feature set: 0
+--------------------------------------------------------------------
+Bug dump 0
+system time = 03-24 21:50:54.478
+kernel time = 183.242
+reason = 7
+kernel log: 
+<7>[  154.331222] ieee80211 phy0: hw scan 2427 MHz
+<7>[  154.360947] ieee80211 phy0: hw scan 2432 MHz
+<7>[  154.391069] ieee80211 phy0: hw scan 2437 MHz
+<7>[  154.420348] ieee80211 phy0: hw scan 2442 MHz
+<7>[  154.450262] ieee80211 phy0: hw scan 2447 MHz
+<6>[  154.465035] binder: 1700:3985 transaction failed 29189, size 136-0
+<7>[  154.471234] ieee80211 phy0: mac80211_hwsim_configure_filter
+<7>[  154.475557] ieee80211 phy0: hwsim cancel_hw_scan
+<7>[  154.540162] ieee80211 phy0: mac80211_hwsim_remove_interface (type=2 mac_addr=02:00:00:44:55:66)
+<7>[  154.540166] ieee80211 phy0: mac80211_hwsim_stop
+<13>[  154.541591] init: Service 'wpa_supplicant' (pid 5058) exited with status 0
+<36>[  156.111641] type=1400 audit(1553489427.343:27): avc: denied { search } for pid=4798 comm="Binder:4798_2" name="run" dev="dm-0" ino=29322 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:varrun_file:s0 tclass=dir permissive=0
+<36>[  156.148506] type=1400 audit(1553489427.373:28): avc: denied { read } for pid=4798 comm="Binder:4798_2" name="/" dev="tmpfs" ino=3952 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=dir permissive=0
+<13>[  157.315893] init: Starting service 'wpa_supplicant'...
+<7>[  157.379788] ieee80211 phy0: mac80211_hwsim_start
+<7>[  157.379795] ieee80211 phy0: mac80211_hwsim_add_interface (type=2 mac_addr=02:00:00:44:55:66)
+<7>[  157.379798] ieee80211 phy0: mac80211_hwsim_bss_info_changed(changed=0xe)
+<7>[  157.379799] ieee80211 phy0:   ERP_CTS_PROT: 0
+<7>[  157.379801] ieee80211 phy0:   ERP_PREAMBLE: 0
+<7>[  157.379802] ieee80211 phy0:   ERP_SLOT: 0
+<7>[  157.379805] ieee80211 phy0: mac80211_hwsim_conf_tx (queue=0 txop=0 cw_min=15 cw_max=1023 aifs=2)
+<7>[  157.379807] ieee80211 phy0: mac80211_hwsim_conf_tx (queue=1 txop=0 cw_min=15 cw_max=1023 aifs=2)
+<7>[  157.379809] ieee80211 phy0: mac80211_hwsim_conf_tx (queue=2 txop=0 cw_min=15 cw_max=1023 aifs=2)
+<7>[  157.379811] ieee80211 phy0: mac80211_hwsim_conf_tx (queue=3 txop=0 cw_min=15 cw_max=1023 aifs=2)
+<7>[  157.379813] ieee80211 phy0: mac80211_hwsim_bss_info_changed(changed=0x2000)
+<7>[  157.379816] ieee80211 phy0: mac80211_hwsim_config (freq=0 idle=1 ps=0 smps=auto)
+<7>[  157.379831] ieee80211 phy0: mac80211_hwsim_configure_filter
+<7>[  157.379922] ieee80211 phy0: mac80211_hwsim_configure_filter
+<7>[  157.381686] ieee80211 phy0: mac80211_hwsim_configure_filter
+<6>[  157.381694] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+<7>[  160.382565] ieee80211 phy0: hwsim hw_scan request
+<7>[  160.382795] ieee80211 phy0: hw scan 2412 MHz
+<7>[  160.411435] ieee80211 phy0: hw scan 2417 MHz
+<7>[  160.440322] ieee80211 phy0: hw scan 2422 MHz
+<7>[  160.471841] ieee80211 phy0: hw scan 2427 MHz
+<7>[  160.500256] ieee80211 phy0: hw scan 2432 MHz
+<7>[  160.530204] ieee80211 phy0: hw scan 2437 MHz
+<7>[  160.560411] ieee80211 phy0: hw scan 2442 MHz
+<7>[  160.590293] ieee80211 phy0: hw scan 2447 MHz
+<7>[  160.620750] ieee80211 phy0: hw scan 2452 MHz
+<7>[  160.650303] ieee80211 phy0: hw scan 2457 MHz
+<7>[  160.680122] ieee80211 phy0: hw scan 2462 MHz
+<7>[  160.711019] ieee80211 phy0: hw scan 2467 MHz
+<7>[  160.830580] ieee80211 phy0: hw scan 2472 MHz
+<7>[  160.950257] ieee80211 phy0: hw scan 2484 MHz
+<7>[  161.070359] ieee80211 phy0: hw scan complete
+<7>[  161.070365] ieee80211 phy0: hwsim hw_scan request
+<7>[  161.070367] ieee80211 phy0: hw scan 5180 MHz
+<7>[  161.200599] ieee80211 phy0: hw scan 5200 MHz
+<7>[  161.331069] ieee80211 phy0: hw scan 5220 MHz
+<7>[  161.450225] ieee80211 phy0: hw scan 5240 MHz
+<7>[  161.574061] ieee80211 phy0: hw scan 5745 MHz
+<7>[  161.691068] ieee80211 phy0: hw scan 5765 MHz
+<7>[  161.810451] ieee80211 phy0: hw scan 5785 MHz
+<7>[  161.930982] ieee80211 phy0: hw scan 5805 MHz
+<7>[  162.060964] ieee80211 phy0: hw scan 5825 MHz
+<7>[  162.180818] ieee80211 phy0: hw scan complete
+<7>[  162.181359] ieee80211 phy0: mac80211_hwsim_get_survey (idx=0)
+<6>[  162.410445] wlan0: authenticate with 02:00:00:00:01:00
+<7>[  162.412412] ieee80211 phy0: mac80211_hwsim_config (freq=0 idle=0 ps=0 smps=auto)
+<7>[  162.412417] ieee80211 phy0: add channel context control: 2447 MHz/width: 2/cfreqs:2437/0 MHz
+<7>[  162.412420] ieee80211 phy0: mac80211_hwsim_bss_info_changed(changed=0x4000)
+<7>[  162.412423] ieee80211 phy0: mac80211_hwsim_bss_info_changed(changed=0xe0)
+<7>[  162.412435] ieee80211 phy0: mac80211_hwsim_bss_info_changed: BSSID changed: 02:00:00:00:01:00
+<7>[  162.412437] ieee80211 phy0:   BCNINT: 100
+<7>[  162.412439] ieee80211 phy0:   BASIC_RATES: 0xf
+<6>[  162.412447] wlan0: send auth to 02:00:00:00:01:00 (try 1/3)
+<6>[  162.431943] wlan0: authenticated
+<6>[  162.460456] wlan0: associate with 02:00:00:00:01:00 (try 1/3)
+<6>[  162.462597] wlan0: RX AssocResp from 02:00:00:00:01:00 (capab=0x401 status=0 aid=1)
+<7>[  162.480919] ieee80211 phy0: mac80211_hwsim_conf_tx (queue=2 txop=0 cw_min=15 cw_max=1023 aifs=3)
+<7>[  162.480943] ieee80211 phy0: mac80211_hwsim_conf_tx (queue=3 txop=0 cw_min=15 cw_max=1023 aifs=7)
+<7>[  162.481250] ieee80211 phy0: mac80211_hwsim_conf_tx (queue=1 txop=94 cw_min=7 cw_max=15 aifs=2)
+<7>[  162.481253] ieee80211 phy0: mac80211_hwsim_conf_tx (queue=0 txop=47 cw_min=3 cw_max=7 aifs=2)
+<7>[  162.481256] ieee80211 phy0: mac80211_hwsim_bss_info_changed(changed=0x102009)
+<7>[  162.481258] ieee80211 phy0:   ASSOC: assoc=1 aid=1
+<7>[  162.481260] ieee80211 phy0:   ERP_SLOT: 1
+<7>[  162.481263] ieee80211 phy0: change channel context control: 2447 MHz/width: 2/cfreqs:2437/0 MHz
+<6>[  162.481581] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+<6>[  162.489683] wlan0: associated
+<7>[  162.505815] ieee80211 phy0: mac80211_hwsim_configure_filter
+<7>[  162.598765] ieee80211 phy0: mac80211_hwsim_configure_filter
+<7>[  162.608768] ieee80211 phy0: mac80211_hwsim_get_survey (idx=0)
+<7>[  162.749086] ieee80211 phy0: mac80211_hwsim_bss_info_changed(changed=0x1000)
+<7>[  162.768762] ieee80211 phy0: mac80211_hwsim_get_survey (idx=0)
+<7>[  162.794051] ieee80211 phy0: mac80211_hwsim_get_survey (idx=0)
+<7>[  163.615417] ieee80211 phy0: mac80211_hwsim_configure_filter
+<7>[  165.637953] ieee80211 phy0: mac80211_hwsim_get_survey (idx=0)
+<7>[  166.308236] ieee80211 phy0: mac80211_hwsim_bss_info_changed(changed=0x1000)
+<7>[  166.314216] ieee80211 phy0: mac80211_hwsim_configure_filter
+<6>[  166.345492] wlan0: deauthenticating from 02:00:00:00:01:00 by local choice (reason=3)
+<7>[  166.350564] ieee80211 phy0: mac80211_hwsim_bss_info_changed(changed=0x209f)
+<7>[  166.350567] ieee80211 phy0: mac80211_hwsim_bss_info_changed: BSSID changed: 00:00:00:00:00:00
+<7>[  166.350569] ieee80211 phy0:   ASSOC: assoc=0 aid=1
+<7>[  166.350570] ieee80211 phy0:   ERP_CTS_PROT: 0
+<7>[  166.350572] ieee80211 phy0:   ERP_PREAMBLE: 0
+<7>[  166.350573] ieee80211 phy0:   ERP_SLOT: 0
+<7>[  166.350575] ieee80211 phy0:   HT: op_mode=0x0
+<7>[  166.350577] ieee80211 phy0: mac80211_hwsim_conf_tx (queue=0 txop=0 cw_min=15 cw_max=1023 aifs=2)
+<7>[  166.350579] ieee80211 phy0: mac80211_hwsim_conf_tx (queue=1 txop=0 cw_min=15 cw_max=1023 aifs=2)
+<7>[  166.350581] ieee80211 phy0: mac80211_hwsim_conf_tx (queue=2 txop=0 cw_min=15 cw_max=1023 aifs=2)
+<7>[  166.350583] ieee80211 phy0: mac80211_hwsim_conf_tx (queue=3 txop=0 cw_min=15 cw_max=1023 aifs=2)
+<7>[  166.350585] ieee80211 phy0: mac80211_hwsim_bss_info_changed(changed=0x4000)
+<7>[  166.350587] ieee80211 phy0: remove channel context control: 2447 MHz/width: 2/cfreqs:2437/0 MHz
+<7>[  166.350594] ieee80211 phy0: mac80211_hwsim_config (freq=0 idle=1 ps=0 smps=auto)
+<6>[  166.350705] cfg80211: Calling CRDA to update world regulatory domain
+<7>[  166.510732] ieee80211 phy0: mac80211_hwsim_configure_filter
+<7>[  166.600371] ieee80211 phy0: mac80211_hwsim_remove_interface (type=2 mac_addr=02:00:00:44:55:66)
+<7>[  166.600377] ieee80211 phy0: mac80211_hwsim_stop
+<13>[  166.614498] init: Service 'wpa_supplicant' (pid 5153) exited with status 0
+<13>[  175.183608] init: Starting service 'dumpstatez'...
+<11>[  176.491960] init: avc:  denied  { set } for property=debug.atrace.tags.enableflags pid=5349 uid=0 gid=0 scontext=u:r:dumpstate:s0 tcontext=u:object_r:debug_prop:s0 tclass=property_service permissive=0
+<11>[  176.496700] init: sys_prop: permission denied uid:0  name:debug.atrace.tags.enableflags
+<11>[  176.498698] init: avc:  denied  { set } for property=debug.atrace.app_0 pid=5349 uid=0 gid=0 scontext=u:r:dumpstate:s0 tcontext=u:object_r:debug_prop:s0 tclass=property_service permissive=0
+<11>[  176.502520] init: sys_prop: permission denied uid:0  name:debug.atrace.app_0
+<11>[  176.504015] init: avc:  denied  { set } for property=debug.atrace.app_number pid=5349 uid=0 gid=0 scontext=u:r:dumpstate:s0 tcontext=u:object_r:debug_prop:s0 tclass=property_service permissive=0
+<11>[  176.507245] init: sys_prop: permission denied uid:0  name:debug.atrace.app_number
+<6>[  176.574102] binder: 5349:5349 transaction failed 29201, size 0-0
+<36>[  176.574338] type=1400 audit(1553489447.803:29): avc: denied { call } for pid=5349 comm="atrace" scontext=u:r:dumpstate:s0 tcontext=u:r:fingerprintd:s0 tclass=binder permissive=0
+<36>[  179.029135] type=1400 audit(1553489450.253:30): avc: denied { create } for pid=5374 comm="ip" scontext=u:r:dumpstate:s0 tcontext=u:r:dumpstate:s0 tclass=netlink_xfrm_socket permissive=0
+<36>[  182.218297] type=1400 audit(1553489453.443:31): avc: denied { search } for pid=5541 comm="df" name="run" dev="dm-0" ino=29322 scontext=u:r:dumpstate:s0 tcontext=u:object_r:varrun_file:s0 tclass=dir permissive=0
+<36>[  182.221673] type=1400 audit(1553489453.443:32): avc: denied { search } for pid=5541 comm="df" name="run" dev="dm-0" ino=29322 scontext=u:r:dumpstate:s0 tcontext=u:object_r:varrun_file:s0 tclass=dir permissive=0
+<36>[  182.226713] type=1400 audit(1553489453.453:33): avc: denied { getattr } for pid=5541 comm="df" path="/dev/block/vda" dev="tmpfs" ino=217 scontext=u:r:dumpstate:s0 tcontext=u:object_r:system_block_device:s0 tclass=blk_file permissive=0
+<36>[  182.231788] type=1400 audit(1553489453.453:34): avc: denied { getattr } for pid=5541 comm="df" path="/dev/block/vda" dev="tmpfs" ino=217 scontext=u:r:dumpstate:s0 tcontext=u:object_r:system_block_device:s0 tclass=blk_file permissive=0
+<6>[  182.354959] binder: 5544:5551 transaction failed 29201, size 32-4
+<36>[  182.355014] type=1400 audit(1553489453.583:35): avc: denied { call } for pid=5544 comm="dumpsys" scontext=u:r:dumpstate:s0 tcontext=u:r:fingerprintd:s0 tclass=binder permissive=0
+<12>[  183.200325] healthd: battery l=100 v=0 t=0.0 h=2 st=2 chg=a
+
+system log: 
+--------- beginning of main
+03-24 21:50:49.781  2493  2499 I art     : Thread[3,tid=2499,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x12c050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:49.781  2493  2499 I art     : 
+03-24 21:50:49.793  2493  2499 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:49.793  2522  2528 I art     : Thread[3,tid=2528,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:49.793  2522  2528 I art     : 
+03-24 21:50:49.808  2522  2528 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:49.809  2563  2577 I art     : Thread[3,tid=2577,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x12c338b0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:49.809  2563  2577 I art     : 
+03-24 21:50:49.840  2563  2577 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:49.840  2671  2677 I art     : Thread[3,tid=2677,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:49.841  2671  2677 I art     : 
+03-24 21:50:49.856  2671  2677 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:49.857  2678  2684 I art     : Thread[3,tid=2684,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x12c050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:49.857  2678  2684 I art     : 
+03-24 21:50:49.870  2678  2684 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:49.871  3298  3305 I art     : Thread[3,tid=3305,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x12c050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:49.871  3298  3305 I art     : 
+03-24 21:50:49.884  3298  3305 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:49.884  3402  3405 I art     : Thread[3,tid=3405,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:49.884  3402  3405 I art     : 
+03-24 21:50:49.913  3402  3405 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:49.914  3912  3919 I art     : Thread[3,tid=3919,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac0b0d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:49.914  3912  3919 I art     : 
+03-24 21:50:49.931  3912  3919 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:49.931  3945  3951 I art     : Thread[3,tid=3951,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac0b0d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:49.931  3945  3951 I art     : 
+03-24 21:50:49.951  3945  3951 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:49.952  4014  4020 I art     : Thread[3,tid=4020,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:49.952  4014  4020 I art     : 
+03-24 21:50:49.964  4272  4278 I art     : Thread[3,tid=4278,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x12c050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:49.964  4272  4278 I art     : 
+03-24 21:50:49.971  4014  4020 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:50.000  4272  4278 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:50.000  4367  4373 I art     : Thread[3,tid=4373,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:50.000  4367  4373 I art     : 
+03-24 21:50:50.013  4367  4373 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:50.013  4620  4626 I art     : Thread[3,tid=4626,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:50.013  4620  4626 I art     : 
+03-24 21:50:50.026  4620  4626 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:50.026  4754  4761 I art     : Thread[3,tid=4761,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:50.026  4754  4761 I art     : 
+03-24 21:50:50.034  2259  5365 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+03-24 21:50:50.040  4754  4761 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:50.040  4798  4804 I art     : Thread[3,tid=4804,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x12c050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:50.040  4798  4804 I art     : 
+03-24 21:50:50.056  4798  4804 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:50.056  4924  4930 I art     : Thread[3,tid=4930,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:50.056  4924  4930 I art     : 
+03-24 21:50:50.068  4924  4930 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:50.068  5026  5032 I art     : Thread[3,tid=5032,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:50.068  5026  5032 I art     : 
+03-24 21:50:50.084  5026  5032 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:50.084  5060  5070 I art     : Thread[3,tid=5070,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:50.084  5060  5070 I art     : 
+03-24 21:50:50.103  5060  5070 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:50.103  5087  5093 I art     : Thread[3,tid=5093,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:50.103  5087  5093 I art     : 
+03-24 21:50:50.115  5087  5093 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:50.116  5108  5114 I art     : Thread[3,tid=5114,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:50.116  5108  5114 I art     : 
+03-24 21:50:50.132  5108  5114 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:50.132  5217  5223 I art     : Thread[3,tid=5223,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:50.132  5217  5223 I art     : 
+03-24 21:50:50.145  5217  5223 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:50.145  5295  5301 I art     : Thread[3,tid=5301,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac050d0,"Signal Catcher"]: reacting to signal 3
+03-24 21:50:50.145  5295  5301 I art     : 
+03-24 21:50:50.159  5295  5301 I art     : Wrote stack traces to '/data/anr/traces.txt'
+03-24 21:50:50.159  5347  5347 D dumpstate: Duration of 'DUMP TRACES': 0.816s
+03-24 21:50:50.160  5347  5347 D dumpstate: Adding dir /cache/recovery (recursive: 1)
+03-24 21:50:50.160  5347  5347 D dumpstate: Duration of '/cache/recovery': 0.000s
+03-24 21:50:50.160  5347  5347 D dumpstate: Adding dir /data/misc/recovery (recursive: 1)
+03-24 21:50:50.160  5347  5347 E dumpstate: /data/misc/recovery: No such file or directory
+03-24 21:50:50.160  5347  5347 D dumpstate: Duration of '/data/misc/recovery': 0.000s
+03-24 21:50:50.160  5347  5347 D dumpstate: Adding dir /data/misc/logd (recursive: 0)
+03-24 21:50:50.160  5347  5347 E dumpstate: /data/misc/logd: No such file or directory
+03-24 21:50:50.160  5347  5347 D dumpstate: Duration of '/data/misc/logd': 0.000s
+03-24 21:50:50.160  5347  5347 D dumpstate: Adding dir /data/misc/profiles/cur (recursive: 1)
+03-24 21:50:50.209  5347  5347 D dumpstate: Duration of '/data/misc/profiles/cur': 0.049s
+03-24 21:50:50.209  5347  5347 D dumpstate: Adding dir /data/misc/profiles/ref (recursive: 1)
+03-24 21:50:50.229  5347  5347 D dumpstate: Duration of '/data/misc/profiles/ref': 0.020s
+03-24 21:50:50.236  5347  5347 D dumpstate: MOUNT INFO: 33 entries added to zip file
+03-24 21:50:50.236  5347  5347 D dumpstate: Duration of 'MOUNT INFO': 0.008s
+03-24 21:50:50.253  5374  5374 W ip      : type=1400 audit(0.0:30): avc: denied { create } for scontext=u:r:dumpstate:s0 tcontext=u:r:dumpstate:s0 tclass=netlink_xfrm_socket permissive=0
+03-24 21:50:50.264  5347  5347 E dumpstate: command 'ip xfrm policy' failed: Invalid argument
+03-24 21:50:50.292  5347  5347 E dumpstate: /sys/block/mmcblk0/: No such file or directory
+03-24 21:50:50.920  5347  5347 D dumpstate: Setting progress (dumpstate.5347.progress): 300/6500
+03-24 21:50:51.451  1850  1850 I vol.Events: writeEvent dismiss_dialog timeout
+03-24 21:50:51.452  1850  2074 I vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1
+03-24 21:50:51.454  1850  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)
+03-24 21:50:51.664  5347  5347 E dumpstate: command 'lsmod ' failed: Invalid argument
+03-24 21:50:51.758  1850  2111 D EGL_emulation: eglMakeCurrent: 0xb1b057e0: ver 3 0 (tinfo 0x9580e030)
+03-24 21:50:53.362  5347  5347 E dumpstate: command 'logcat -L -b all -v threadtime -v printable -d *:v' failed: No such file or directory
+03-24 21:50:53.381  5347  5347 D dumpstate: Setting progress (dumpstate.5347.progress): 1800/6500
+03-24 21:50:53.412  5347  5347 D dumpstate: Setting progress (dumpstate.5347.progress): 1900/6500
+03-24 21:50:53.425  5347  5347 E dumpstate: command 'wpa_cli IFNAME=wlan0 list_networks' failed: Invalid argument
+03-24 21:50:53.443  5541  5541 W df      : type=1400 audit(0.0:31): avc: denied { search } for name="run" dev="dm-0" ino=29322 scontext=u:r:dumpstate:s0 tcontext=u:object_r:varrun_file:s0 tclass=dir permissive=0
+03-24 21:50:53.443  5541  5541 W df      : type=1400 audit(0.0:32): avc: denied { search } for name="run" dev="dm-0" ino=29322 scontext=u:r:dumpstate:s0 tcontext=u:object_r:varrun_file:s0 tclass=dir permissive=0
+03-24 21:50:53.453  5541  5541 W df      : type=1400 audit(0.0:33): avc: denied { getattr } for path="/dev/block/vda" dev="tmpfs" ino=217 scontext=u:r:dumpstate:s0 tcontext=u:object_r:system_block_device:s0 tclass=blk_file permissive=0
+03-24 21:50:53.453  5541  5541 W df      : type=1400 audit(0.0:34): avc: denied { getattr } for path="/dev/block/vda" dev="tmpfs" ino=217 scontext=u:r:dumpstate:s0 tcontext=u:object_r:system_block_device:s0 tclass=blk_file permissive=0
+03-24 21:50:53.463  5542  5542 D dumpstate: execvp on command 'parse_radio_log' failed (error: Permission denied)
+03-24 21:50:53.463  5347  5347 E dumpstate: command 'parse_radio_log /proc/last_radio_log' failed: Invalid argument
+03-24 21:50:53.477  5347  5347 E dumpstate: command '/system/xbin/su root vril-dump' failed: Invalid argument
+03-24 21:50:53.497  1315  1315 E SELinux : avc:  denied  { find } for service=android.service.gatekeeper.IGateKeeperService pid=5544 uid=2000 scontext=u:r:dumpstate:s0 tcontext=u:object_r:gatekeeper_service:s0 tclass=service_manager permissive=0
+03-24 21:50:53.583  5544  5544 W dumpsys : type=1400 audit(0.0:35): avc: denied { call } for scontext=u:r:dumpstate:s0 tcontext=u:r:fingerprintd:s0 tclass=binder permissive=0
+03-24 21:50:53.595  1315  1315 E SELinux : avc:  denied  { find } for service=android.service.gatekeeper.IGateKeeperService pid=5544 uid=2000 scontext=u:r:dumpstate:s0 tcontext=u:object_r:gatekeeper_service:s0 tclass=service_manager permissive=0
+03-24 21:50:53.605  2259  3500 I Backup  : [GmsBackupAccountManager] Backup account not found in gmscore.
+03-24 21:50:53.606  2259  3500 V Backup  : [GmsBackupTransport] currentDestinationString: null
+03-24 21:50:53.608  2259  2259 W ChimeraUtils: Non Chimera context
+03-24 21:50:53.609  2259  5558 V Backup  : [BackupAccountNotifier] Handling new intent. Show notification: true
+03-24 21:50:53.616  1700  1795 D WifiNative-HAL: Failing getSupportedFeatureset because HAL isn't started
+03-24 21:50:53.617  1700  3995 E BluetoothAdapter: Bluetooth binder is null
+--------- beginning of system
+03-24 21:50:53.617  1700  3995 E BatteryStatsService: no controller energy info supplied
+03-24 21:50:53.619  1700  3995 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state (No such file or directory)
+03-24 21:50:53.619  1700  3995 E KernelUidCpuTimeReader: Failed to read uid_cputime: /proc/uid_cputime/show_uid_stat (No such file or directory)
+03-24 21:50:53.619  1700  3995 E BatteryStatsService: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+03-24 21:50:53.743  2563  5576 I iu.UploadsManager: End new media; added: 0, uploading: 0, time: 36 ms
+03-24 21:50:53.935  1700  3985 D CryptdConnector: SND -> {6 cryptfs getpwtype}
+03-24 21:50:53.935  1271  1307 D VoldCryptCmdListener: cryptfs getpwtype
+03-24 21:50:53.943  1700  1761 D CryptdConnector: RCV <- {213 6 default}
+03-24 21:50:54.074  1396  4668 D PermissionCache: checking android.permission.DUMP for uid=2000 => granted (244 us)
+03-24 21:50:54.090  1397  1397 V EmulatedCamera_Camera: getCameraInfo
+03-24 21:50:54.091  1397  1397 V EmulatedCamera_BaseCamera: getCameraInfo
+03-24 21:50:54.091  1397  1397 V EmulatedCamera_Camera: getCameraInfo
+03-24 21:50:54.091  1397  1397 V EmulatedCamera_BaseCamera: getCameraInfo
+03-24 21:50:54.367  1700  2537 D PermissionCache: checking android.permission.DUMP for uid=2000 => granted (219 us)
+03-24 21:50:54.390  1700  2246 I Telecom : PhoneAccountRegistrar: SimCallManager queried, returning: null
+03-24 21:50:54.476  1700  3985 D WifiNative-HAL: getWlanWakeReasonCount -1
+
+--------------------------------------------------------------------
+No fates fetched for "Last failed connection fates"
+HAL provided zero fates for "Latest fates"
+--------------------------------------------------------------------
+WifiNative - Log Begin ----
+03-25 04:48:12.709 - startHal stack:  - startHal - processMessage - processMsg - handleMessage - dispatchMessage - loop
+03-25 04:48:12.718 - wlan0: IFNAME=wlan0 connectToSupplicant
+03-24 21:48:14.195 - wlan0: IFNAME=wlan0 connectToSupplicant
+03-24 21:48:14.209 - wlan0: IFNAME=wlan0 DRIVER MACADDR -> Macaddr = 02:00:00:44:55:66
+03-24 21:48:14.215 - wlan0: IFNAME=wlan0 SET SETBAND AUTO -> true
+03-24 21:48:14.218 - wlan0: IFNAME=wlan0 SET update_config 1 -> true
+03-24 21:48:14.218 - wlan0: IFNAME=wlan0 LIST_NETWORKS LAST_ID=-1 -> network id / ssid / bssid / flags
+0	AndroidWifi	any	
+03-24 21:48:14.221 - wlan0: IFNAME=wlan0 SET_NETWORK 0 id_str "%7B%22creatorUid%22%3A%22-1%22%2C%22configKey%22%3A%22%5C%22AndroidWifi%5C%22NONE%22%7D" -> true
+03-24 21:48:14.222 - wlan0: IFNAME=wlan0 LIST_NETWORKS LAST_ID=0 -> network id / ssid / bssid / flags
+03-24 21:48:14.222 - wlan0: IFNAME=wlan0 SET device_name sdk_google_phone_x86 -> true
+03-24 21:48:14.222 - wlan0: IFNAME=wlan0 SET manufacturer Google -> true
+03-24 21:48:14.223 - wlan0: IFNAME=wlan0 SET model_name Android SDK built for x86 -> true
+03-24 21:48:14.223 - wlan0: IFNAME=wlan0 SET model_number Android SDK built for x86 -> true
+03-24 21:48:14.223 - wlan0: IFNAME=wlan0 SET serial_number EMULATOR28X0X23X0 -> true
+03-24 21:48:14.223 - wlan0: IFNAME=wlan0 SET config_methods physical_display virtual_push_button -> true
+03-24 21:48:14.223 - wlan0: IFNAME=wlan0 SET device_type 10-0050F204-5 -> true
+03-24 21:48:14.223 - wlan0: IFNAME=wlan0 SCAN_INTERVAL 15 -> true
+03-24 21:48:14.223 - wlan0: IFNAME=wlan0 SET external_sim 1 -> true
+03-24 21:48:14.224 - wlan0: IFNAME=wlan0 STA_AUTOCONNECT 0 -> true
+03-24 21:48:14.224 - wlan0: IFNAME=wlan0 DRIVER COUNTRY US -> true
+03-24 21:48:14.230 - wlan0: IFNAME=wlan0 DRIVER BTCOEXSCAN-STOP -> true
+03-24 21:48:14.232 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-STOP -> true
+03-24 21:48:14.233 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-ADD 2 -> true
+03-24 21:48:14.233 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-START -> true
+03-24 21:48:14.234 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-STOP -> true
+03-24 21:48:14.234 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-ADD 3 -> true
+03-24 21:48:14.234 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-START -> true
+03-24 21:48:14.234 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=-1 state=0 BSSID=00:00:00:00:00:00 SSID=]
+03-24 21:48:14.234 - wlan0: IFNAME=wlan0 STATUS -> wpa_state=DISCONNECTED
+address=02:00:00:44:55:66
+uuid=f1d5adac-7699-5ea5-a1be-6bd69a33a96b
+03-24 21:48:14.234 - wlan0: IFNAME=wlan0 SET ps 1 -> false
+03-24 21:48:14.241 - wlan0: IFNAME=wlan0 DRIVER SETSUSPENDMODE 0 -> true
+03-24 21:48:16.940 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=-1 state=3 BSSID=00:00:00:00:00:00 SSID=]
+03-24 21:48:16.940 - Event [IFNAME=wlan0 CTRL-EVENT-SCAN-STARTED ]
+03-24 21:48:16.941 - wlan0: IFNAME=wlan0 SCAN TYPE=ONLY -> true
+03-24 21:48:18.767 - Event [IFNAME=wlan0 CTRL-EVENT-SCAN-RESULTS ]
+03-24 21:48:18.767 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=-1 state=0 BSSID=00:00:00:00:00:00 SSID=]
+03-24 21:48:18.888 - wlan0: IFNAME=wlan0 SET_NETWORK 0 bssid 02:00:00:00:01:00 -> true
+03-24 21:48:18.891 - wlan0: IFNAME=wlan0 SET_NETWORK 0 ssid 416e64726f696457696669 -> true
+03-24 21:48:18.892 - wlan0: IFNAME=wlan0 SET_NETWORK 0 id_str "%7B%22creatorUid%22%3A%22-1%22%2C%22configKey%22%3A%22%5C%22AndroidWifi%5C%22NONE%22%7D" -> true
+03-24 21:48:18.898 - wlan0: IFNAME=wlan0 SET_NETWORK 0 bssid 02:00:00:00:01:00 -> true
+03-24 21:48:18.898 - wlan0: IFNAME=wlan0 SET_NETWORK 0 key_mgmt NONE -> true
+03-24 21:48:18.899 - wlan0: IFNAME=wlan0 SET_NETWORK 0 proto WPA RSN -> true
+03-24 21:48:18.917 - wlan0: IFNAME=wlan0 SET_NETWORK 0 pairwise TKIP CCMP -> true
+03-24 21:48:18.917 - wlan0: IFNAME=wlan0 SET_NETWORK 0 group TKIP CCMP -> true
+03-24 21:48:18.917 - wlan0: IFNAME=wlan0 SET_NETWORK 0 priority 0 -> true
+03-24 21:48:18.921 - wlan0: IFNAME=wlan0 SAVE_CONFIG -> true
+03-24 21:48:18.928 - wlan0: IFNAME=wlan0 SAVE_CONFIG -> true
+03-24 21:48:18.971 - wlan0: IFNAME=wlan0 SET HS20 0 -> false
+03-24 21:48:18.996 - wlan0: IFNAME=wlan0 SELECT_NETWORK 0 -> true
+03-24 21:48:18.999 - Event [IFNAME=wlan0 SME: Trying to authenticate with 02:00:00:00:01:00 (SSID='AndroidWifi' freq=2447 MHz)]
+03-24 21:48:18.999 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=0 state=4 BSSID=00:00:00:00:00:00 SSID=AndroidWifi]
+03-24 21:48:18.999 - wlan0: IFNAME=wlan0 RECONNECT -> true
+03-24 21:48:19.008 - Event [IFNAME=wlan0 Trying to associate with 02:00:00:00:01:00 (SSID='AndroidWifi' freq=2447 MHz)]
+03-24 21:48:19.009 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00:00:00:00:00:00 SSID=AndroidWifi]
+03-24 21:48:19.064 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=0 state=6 BSSID=00:00:00:00:00:00 SSID=AndroidWifi]
+03-24 21:48:19.064 - Event [IFNAME=wlan0 Associated with 02:00:00:00:01:00]
+03-24 21:48:19.064 - Event [IFNAME=wlan0 CTRL-EVENT-CONNECTED - Connection to 02:00:00:00:01:00 completed [id=0 id_str=%7B%22creatorUid%22%3A%22-1%22%2C%22configKey%22%3A%22%5C%22AndroidWifi%5C%22NONE%22%7D]]
+03-24 21:48:19.067 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=0 state=9 BSSID=02:00:00:00:01:00 SSID=AndroidWifi]
+03-24 21:48:19.067 - Event [IFNAME=wlan0 CTRL-EVENT-SUBNET-STATUS-UPDATE status=0]
+03-24 21:48:19.091 - wlan0: IFNAME=wlan0 SET_NETWORK 0 bssid any -> true
+03-24 21:48:19.099 - wlan0: IFNAME=wlan0 SET_NETWORK 0 bssid any -> true
+03-24 21:48:19.099 - wlan0: IFNAME=wlan0 SET ps 1 -> false
+03-24 21:48:19.099 - wlan0: IFNAME=wlan0 DRIVER BTCOEXMODE 2 -> true
+03-24 21:48:19.118 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-STOP -> true
+03-24 21:48:19.118 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-REMOVE 2 -> true
+03-24 21:48:19.118 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-START -> true
+03-24 21:48:19.157 - wlan0: IFNAME=wlan0 DRIVER BTCOEXMODE 1 -> true
+03-24 21:48:19.157 - wlan0: IFNAME=wlan0 DRIVER SETSUSPENDMODE 0 -> true
+03-24 21:48:19.157 - wlan0: IFNAME=wlan0 SET ps 0 -> true
+03-24 21:48:19.173 - wlan0: IFNAME=wlan0 SET ps 1 -> false
+03-24 21:48:19.173 - wlan0: IFNAME=wlan0 DRIVER BTCOEXMODE 2 -> true
+03-24 21:48:19.175 - wlan0: IFNAME=wlan0 BLACKLIST clear -> true
+03-24 21:48:22.404 - Event [IFNAME=wlan0 CTRL-EVENT-SCAN-STARTED ]
+03-24 21:48:22.404 - wlan0: IFNAME=wlan0 SCAN TYPE=ONLY -> true
+03-24 21:48:23.600 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-STOP -> true
+03-24 21:48:23.600 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-ADD 2 -> true
+03-24 21:48:23.600 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-START -> true
+03-24 21:48:24.197 - Event [IFNAME=wlan0 CTRL-EVENT-SCAN-RESULTS ]
+03-24 21:48:26.984 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-STOP -> true
+03-24 21:48:26.984 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-REMOVE 2 -> true
+03-24 21:48:26.984 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-START -> true
+03-24 21:48:38.631 - Event [IFNAME=wlan0 CTRL-EVENT-SCAN-STARTED ]
+03-24 21:48:38.631 - wlan0: IFNAME=wlan0 SCAN TYPE=ONLY freq=2447 -> true
+03-24 21:48:38.656 - Event [IFNAME=wlan0 CTRL-EVENT-SCAN-RESULTS ]
+03-24 21:48:43.062 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-STOP -> true
+03-24 21:48:43.062 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-ADD 2 -> true
+03-24 21:48:43.063 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-START -> true
+03-24 21:48:58.380 - wlan0: IFNAME=wlan0 SCAN TYPE=ONLY freq=2447 -> true
+03-24 21:48:58.380 - Event [IFNAME=wlan0 CTRL-EVENT-SCAN-STARTED ]
+03-24 21:48:58.405 - Event [IFNAME=wlan0 CTRL-EVENT-SCAN-RESULTS ]
+03-24 21:49:02.522 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-STOP -> true
+03-24 21:49:02.522 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-REMOVE 2 -> true
+03-24 21:49:02.522 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-START -> true
+03-24 21:49:38.381 - Event [IFNAME=wlan0 CTRL-EVENT-SCAN-STARTED ]
+03-24 21:49:38.382 - wlan0: IFNAME=wlan0 SCAN TYPE=ONLY freq=2447 -> true
+03-24 21:49:38.405 - Event [IFNAME=wlan0 CTRL-EVENT-SCAN-RESULTS ]
+03-24 21:50:10.963 - wlan0: IFNAME=wlan0 SET_NETWORK 0 bssid any -> true
+03-24 21:50:10.963 - wlan0: IFNAME=wlan0 SET ps 1 -> false
+03-24 21:50:10.963 - wlan0: IFNAME=wlan0 DRIVER BTCOEXMODE 2 -> true
+03-24 21:50:10.980 - wlan0: IFNAME=wlan0 SET_NETWORK 0 bssid any -> true
+03-24 21:50:10.980 - wlan0: IFNAME=wlan0 DRIVER COUNTRY US -> true
+03-24 21:50:10.982 - wlan0: IFNAME=wlan0 SET ps 1 -> false
+03-24 21:50:10.982 - wlan0: IFNAME=wlan0 DRIVER BTCOEXMODE 2 -> true
+03-24 21:50:10.984 - wlan0: IFNAME=wlan0 TERMINATE -> true
+03-24 21:50:11.015 - Event [IFNAME=wlan0 CTRL-EVENT-DISCONNECTED bssid=02:00:00:00:01:00 reason=3 locally_generated=1]
+03-24 21:50:11.028 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=0 state=0 BSSID=02:00:00:00:01:00 SSID=AndroidWifi]
+03-24 21:50:11.187 - Event [IFNAME=wlan0 CTRL-EVENT-TERMINATING ]
+03-24 21:50:11.187 - wlan0: IFNAME=wlan0 closeSupplicantConnection
+03-24 21:50:15.630 - startHal stack:  - startHal - processMessage - processMsg - handleMessage - dispatchMessage - loop
+03-24 21:50:15.731 - wlan0: IFNAME=wlan0 connectToSupplicant
+03-24 21:50:15.784 - wlan0: IFNAME=wlan0 DRIVER MACADDR -> Macaddr = 02:00:00:44:55:66
+03-24 21:50:15.784 - wlan0: IFNAME=wlan0 SET SETBAND AUTO -> true
+03-24 21:50:15.785 - wlan0: IFNAME=wlan0 SET update_config 1 -> true
+03-24 21:50:15.785 - wlan0: IFNAME=wlan0 LIST_NETWORKS LAST_ID=-1 -> network id / ssid / bssid / flags
+0	AndroidWifi	02:00:00:00:01:00	
+03-24 21:50:15.816 - wlan0: IFNAME=wlan0 LIST_NETWORKS LAST_ID=0 -> network id / ssid / bssid / flags
+03-24 21:50:15.819 - wlan0: IFNAME=wlan0 SET device_name sdk_google_phone_x86 -> true
+03-24 21:50:15.819 - wlan0: IFNAME=wlan0 SET manufacturer Google -> true
+03-24 21:50:15.819 - wlan0: IFNAME=wlan0 SET model_name Android SDK built for x86 -> true
+03-24 21:50:15.819 - wlan0: IFNAME=wlan0 SET model_number Android SDK built for x86 -> true
+03-24 21:50:15.819 - wlan0: IFNAME=wlan0 SET serial_number EMULATOR28X0X23X0 -> true
+03-24 21:50:15.819 - wlan0: IFNAME=wlan0 SET config_methods physical_display virtual_push_button -> true
+03-24 21:50:15.819 - wlan0: IFNAME=wlan0 SET device_type 10-0050F204-5 -> true
+03-24 21:50:15.830 - wlan0: IFNAME=wlan0 SCAN_INTERVAL 15 -> true
+03-24 21:50:15.831 - wlan0: IFNAME=wlan0 SET external_sim 1 -> true
+03-24 21:50:15.831 - wlan0: IFNAME=wlan0 STA_AUTOCONNECT 0 -> true
+03-24 21:50:15.832 - wlan0: IFNAME=wlan0 DRIVER COUNTRY US -> true
+03-24 21:50:15.832 - wlan0: IFNAME=wlan0 DRIVER BTCOEXSCAN-STOP -> true
+03-24 21:50:15.832 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-STOP -> true
+03-24 21:50:15.832 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-ADD 2 -> true
+03-24 21:50:15.832 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-START -> true
+03-24 21:50:15.832 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-STOP -> true
+03-24 21:50:15.832 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-ADD 3 -> true
+03-24 21:50:15.832 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-START -> true
+03-24 21:50:15.832 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=-1 state=0 BSSID=00:00:00:00:00:00 SSID=]
+03-24 21:50:15.832 - wlan0: IFNAME=wlan0 STATUS -> wpa_state=DISCONNECTED
+address=02:00:00:44:55:66
+uuid=f1d5adac-7699-5ea5-a1be-6bd69a33a96b
+03-24 21:50:15.832 - wlan0: IFNAME=wlan0 DRIVER SETSUSPENDMODE 0 -> true
+03-24 21:50:15.832 - wlan0: IFNAME=wlan0 SET ps 1 -> false
+03-24 21:50:15.833 - wlan0: IFNAME=wlan0 SCAN TYPE=ONLY -> true
+03-24 21:50:15.834 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=-1 state=3 BSSID=00:00:00:00:00:00 SSID=]
+03-24 21:50:15.834 - Event [IFNAME=wlan0 CTRL-EVENT-SCAN-STARTED ]
+03-24 21:50:15.983 - wlan0: IFNAME=wlan0 SET ps 1 -> false
+03-24 21:50:15.984 - wlan0: IFNAME=wlan0 DRIVER BTCOEXMODE 2 -> true
+03-24 21:50:15.989 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=-1 state=0 BSSID=00:00:00:00:00:00 SSID=]
+03-24 21:50:15.989 - wlan0: IFNAME=wlan0 TERMINATE -> true
+03-24 21:50:16.197 - Event [IFNAME=wlan0 CTRL-EVENT-TERMINATING ]
+03-24 21:50:16.197 - wlan0: IFNAME=wlan0 closeSupplicantConnection
+03-24 21:50:25.317 - startHal stack:  - startHal - processMessage - processMsg - handleMessage - dispatchMessage - loop
+03-24 21:50:25.425 - wlan0: IFNAME=wlan0 connectToSupplicant
+03-24 21:50:25.462 - wlan0: IFNAME=wlan0 DRIVER MACADDR -> Macaddr = 02:00:00:44:55:66
+03-24 21:50:25.463 - wlan0: IFNAME=wlan0 SET SETBAND AUTO -> true
+03-24 21:50:25.463 - wlan0: IFNAME=wlan0 SET update_config 1 -> true
+03-24 21:50:25.463 - wlan0: IFNAME=wlan0 LIST_NETWORKS LAST_ID=-1 -> network id / ssid / bssid / flags
+0	AndroidWifi	02:00:00:00:01:00	
+03-24 21:50:25.465 - wlan0: IFNAME=wlan0 LIST_NETWORKS LAST_ID=0 -> network id / ssid / bssid / flags
+03-24 21:50:25.466 - wlan0: IFNAME=wlan0 SET device_name sdk_google_phone_x86 -> true
+03-24 21:50:25.466 - wlan0: IFNAME=wlan0 SET manufacturer Google -> true
+03-24 21:50:25.466 - wlan0: IFNAME=wlan0 SET model_name Android SDK built for x86 -> true
+03-24 21:50:25.467 - wlan0: IFNAME=wlan0 SET model_number Android SDK built for x86 -> true
+03-24 21:50:25.467 - wlan0: IFNAME=wlan0 SET serial_number EMULATOR28X0X23X0 -> true
+03-24 21:50:25.467 - wlan0: IFNAME=wlan0 SET config_methods physical_display virtual_push_button -> true
+03-24 21:50:25.468 - wlan0: IFNAME=wlan0 SET device_type 10-0050F204-5 -> true
+03-24 21:50:25.468 - wlan0: IFNAME=wlan0 SCAN_INTERVAL 15 -> true
+03-24 21:50:25.468 - wlan0: IFNAME=wlan0 SET external_sim 1 -> true
+03-24 21:50:25.468 - wlan0: IFNAME=wlan0 STA_AUTOCONNECT 0 -> true
+03-24 21:50:25.468 - wlan0: IFNAME=wlan0 DRIVER COUNTRY US -> true
+03-24 21:50:25.472 - wlan0: IFNAME=wlan0 DRIVER BTCOEXSCAN-STOP -> true
+03-24 21:50:25.475 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-STOP -> true
+03-24 21:50:25.475 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-ADD 2 -> true
+03-24 21:50:25.475 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-START -> true
+03-24 21:50:25.476 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-STOP -> true
+03-24 21:50:25.476 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-ADD 3 -> true
+03-24 21:50:25.476 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-START -> true
+03-24 21:50:25.477 - wlan0: IFNAME=wlan0 STATUS -> wpa_state=DISCONNECTED
+address=02:00:00:44:55:66
+uuid=f1d5adac-7699-5ea5-a1be-6bd69a33a96b
+03-24 21:50:25.478 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=-1 state=0 BSSID=00:00:00:00:00:00 SSID=]
+03-24 21:50:25.478 - wlan0: IFNAME=wlan0 DRIVER SETSUSPENDMODE 0 -> true
+03-24 21:50:25.478 - wlan0: IFNAME=wlan0 SET ps 1 -> false
+03-24 21:50:25.479 - wlan0: IFNAME=wlan0 SCAN TYPE=ONLY -> true
+03-24 21:50:25.480 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=-1 state=3 BSSID=00:00:00:00:00:00 SSID=]
+03-24 21:50:25.480 - Event [IFNAME=wlan0 CTRL-EVENT-SCAN-STARTED ]
+03-24 21:50:25.524 - wlan0: IFNAME=wlan0 SET ps 1 -> false
+03-24 21:50:25.524 - wlan0: IFNAME=wlan0 DRIVER BTCOEXMODE 2 -> true
+03-24 21:50:25.527 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=-1 state=0 BSSID=00:00:00:00:00:00 SSID=]
+03-24 21:50:25.527 - wlan0: IFNAME=wlan0 TERMINATE -> true
+03-24 21:50:25.776 - Event [IFNAME=wlan0 CTRL-EVENT-TERMINATING ]
+03-24 21:50:25.780 - wlan0: IFNAME=wlan0 closeSupplicantConnection
+03-24 21:50:28.550 - startHal stack:  - startHal - processMessage - processMsg - handleMessage - dispatchMessage - loop
+03-24 21:50:28.561 - wlan0: IFNAME=wlan0 connectToSupplicant
+03-24 21:50:29.576 - wlan0: IFNAME=wlan0 connectToSupplicant
+03-24 21:50:29.581 - wlan0: IFNAME=wlan0 DRIVER MACADDR -> Macaddr = 02:00:00:44:55:66
+03-24 21:50:29.582 - wlan0: IFNAME=wlan0 SET SETBAND AUTO -> true
+03-24 21:50:29.582 - wlan0: IFNAME=wlan0 SET update_config 1 -> true
+03-24 21:50:29.582 - wlan0: IFNAME=wlan0 LIST_NETWORKS LAST_ID=-1 -> network id / ssid / bssid / flags
+0	AndroidWifi	02:00:00:00:01:00	
+03-24 21:50:29.583 - wlan0: IFNAME=wlan0 LIST_NETWORKS LAST_ID=0 -> network id / ssid / bssid / flags
+03-24 21:50:29.584 - wlan0: IFNAME=wlan0 SET device_name sdk_google_phone_x86 -> true
+03-24 21:50:29.584 - wlan0: IFNAME=wlan0 SET manufacturer Google -> true
+03-24 21:50:29.584 - wlan0: IFNAME=wlan0 SET model_name Android SDK built for x86 -> true
+03-24 21:50:29.585 - wlan0: IFNAME=wlan0 SET model_number Android SDK built for x86 -> true
+03-24 21:50:29.585 - wlan0: IFNAME=wlan0 SET serial_number EMULATOR28X0X23X0 -> true
+03-24 21:50:29.585 - wlan0: IFNAME=wlan0 SET config_methods physical_display virtual_push_button -> true
+03-24 21:50:29.585 - wlan0: IFNAME=wlan0 SET device_type 10-0050F204-5 -> true
+03-24 21:50:29.585 - wlan0: IFNAME=wlan0 SCAN_INTERVAL 15 -> true
+03-24 21:50:29.585 - wlan0: IFNAME=wlan0 SET external_sim 1 -> true
+03-24 21:50:29.585 - wlan0: IFNAME=wlan0 STA_AUTOCONNECT 0 -> true
+03-24 21:50:29.586 - wlan0: IFNAME=wlan0 DRIVER BTCOEXSCAN-STOP -> true
+03-24 21:50:29.586 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-STOP -> true
+03-24 21:50:29.586 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-ADD 2 -> true
+03-24 21:50:29.586 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-START -> true
+03-24 21:50:29.592 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-STOP -> true
+03-24 21:50:29.592 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-ADD 3 -> true
+03-24 21:50:29.593 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-START -> true
+03-24 21:50:29.593 - wlan0: IFNAME=wlan0 STATUS -> wpa_state=DISCONNECTED
+address=02:00:00:44:55:66
+uuid=f1d5adac-7699-5ea5-a1be-6bd69a33a96b
+03-24 21:50:29.593 - wlan0: IFNAME=wlan0 DRIVER SETSUSPENDMODE 0 -> true
+03-24 21:50:29.593 - wlan0: IFNAME=wlan0 SET ps 1 -> false
+03-24 21:50:29.596 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=-1 state=0 BSSID=00:00:00:00:00:00 SSID=]
+03-24 21:50:31.617 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=-1 state=3 BSSID=00:00:00:00:00:00 SSID=]
+03-24 21:50:31.617 - Event [IFNAME=wlan0 CTRL-EVENT-SCAN-STARTED ]
+03-24 21:50:31.618 - wlan0: IFNAME=wlan0 SCAN TYPE=ONLY -> true
+03-24 21:50:33.417 - Event [IFNAME=wlan0 CTRL-EVENT-SCAN-RESULTS ]
+03-24 21:50:33.417 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=-1 state=0 BSSID=00:00:00:00:00:00 SSID=]
+03-24 21:50:33.509 - wlan0: IFNAME=wlan0 SET_NETWORK 0 ssid 416e64726f696457696669 -> true
+03-24 21:50:33.510 - wlan0: IFNAME=wlan0 SET_NETWORK 0 id_str "%7B%22creatorUid%22%3A%22-1%22%2C%22configKey%22%3A%22%5C%22AndroidWifi%5C%22NONE%22%7D" -> true
+03-24 21:50:33.510 - wlan0: IFNAME=wlan0 SET_NETWORK 0 bssid 02:00:00:00:01:00 -> true
+03-24 21:50:33.525 - wlan0: IFNAME=wlan0 SET_NETWORK 0 key_mgmt NONE -> true
+03-24 21:50:33.532 - wlan0: IFNAME=wlan0 SET_NETWORK 0 proto WPA RSN -> true
+03-24 21:50:33.533 - wlan0: IFNAME=wlan0 SET_NETWORK 0 pairwise TKIP CCMP -> true
+03-24 21:50:33.535 - wlan0: IFNAME=wlan0 SET_NETWORK 0 group TKIP CCMP -> true
+03-24 21:50:33.565 - wlan0: IFNAME=wlan0 SET_NETWORK 0 priority 0 -> true
+03-24 21:50:33.624 - wlan0: IFNAME=wlan0 SAVE_CONFIG -> true
+03-24 21:50:33.639 - wlan0: IFNAME=wlan0 SAVE_CONFIG -> true
+03-24 21:50:33.643 - wlan0: IFNAME=wlan0 SET HS20 0 -> false
+03-24 21:50:33.649 - Event [IFNAME=wlan0 SME: Trying to authenticate with 02:00:00:00:01:00 (SSID='AndroidWifi' freq=2447 MHz)]
+03-24 21:50:33.650 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=0 state=4 BSSID=00:00:00:00:00:00 SSID=AndroidWifi]
+03-24 21:50:33.664 - wlan0: IFNAME=wlan0 SELECT_NETWORK 0 -> true
+03-24 21:50:33.668 - wlan0: IFNAME=wlan0 RECONNECT -> true
+03-24 21:50:33.676 - Event [IFNAME=wlan0 Trying to associate with 02:00:00:00:01:00 (SSID='AndroidWifi' freq=2447 MHz)]
+03-24 21:50:33.678 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00:00:00:00:00:00 SSID=AndroidWifi]
+03-24 21:50:33.729 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=0 state=6 BSSID=00:00:00:00:00:00 SSID=AndroidWifi]
+03-24 21:50:33.730 - Event [IFNAME=wlan0 Associated with 02:00:00:00:01:00]
+03-24 21:50:33.730 - Event [IFNAME=wlan0 CTRL-EVENT-CONNECTED - Connection to 02:00:00:00:01:00 completed [id=0 id_str=%7B%22creatorUid%22%3A%22-1%22%2C%22configKey%22%3A%22%5C%22AndroidWifi%5C%22NONE%22%7D]]
+03-24 21:50:33.732 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=0 state=9 BSSID=02:00:00:00:01:00 SSID=AndroidWifi]
+03-24 21:50:33.735 - Event [IFNAME=wlan0 CTRL-EVENT-SUBNET-STATUS-UPDATE status=0]
+03-24 21:50:33.811 - wlan0: IFNAME=wlan0 SET_NETWORK 0 bssid any -> true
+03-24 21:50:33.816 - wlan0: IFNAME=wlan0 SET_NETWORK 0 bssid any -> true
+03-24 21:50:33.816 - wlan0: IFNAME=wlan0 SET ps 1 -> false
+03-24 21:50:33.817 - wlan0: IFNAME=wlan0 DRIVER BTCOEXMODE 2 -> true
+03-24 21:50:33.899 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-STOP -> true
+03-24 21:50:33.899 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-REMOVE 2 -> true
+03-24 21:50:33.899 - wlan0: IFNAME=wlan0 DRIVER RXFILTER-START -> true
+03-24 21:50:33.918 - wlan0: IFNAME=wlan0 DRIVER BTCOEXMODE 1 -> true
+03-24 21:50:33.919 - wlan0: IFNAME=wlan0 DRIVER SETSUSPENDMODE 0 -> true
+03-24 21:50:33.927 - wlan0: IFNAME=wlan0 SET ps 0 -> true
+03-24 21:50:33.961 - wlan0: IFNAME=wlan0 SET ps 1 -> false
+03-24 21:50:33.962 - wlan0: IFNAME=wlan0 DRIVER BTCOEXMODE 2 -> true
+03-24 21:50:34.001 - wlan0: IFNAME=wlan0 BLACKLIST clear -> true
+03-24 21:50:37.551 - wlan0: IFNAME=wlan0 SET_NETWORK 0 bssid any -> true
+03-24 21:50:37.552 - wlan0: IFNAME=wlan0 SET ps 1 -> false
+03-24 21:50:37.552 - wlan0: IFNAME=wlan0 DRIVER BTCOEXMODE 2 -> true
+03-24 21:50:37.565 - wlan0: IFNAME=wlan0 SET_NETWORK 0 bssid any -> true
+03-24 21:50:37.567 - wlan0: IFNAME=wlan0 SET ps 1 -> false
+03-24 21:50:37.575 - wlan0: IFNAME=wlan0 DRIVER BTCOEXMODE 2 -> true
+03-24 21:50:37.583 - wlan0: IFNAME=wlan0 TERMINATE -> true
+03-24 21:50:37.597 - Event [IFNAME=wlan0 CTRL-EVENT-DISCONNECTED bssid=02:00:00:00:01:00 reason=3 locally_generated=1]
+03-24 21:50:37.632 - Event [IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=0 state=0 BSSID=02:00:00:00:01:00 SSID=AndroidWifi]
+03-24 21:50:37.843 - Event [IFNAME=wlan0 CTRL-EVENT-TERMINATING ]
+03-24 21:50:37.844 - wlan0: IFNAME=wlan0 closeSupplicantConnection
+WifiNative - Log End ----
+Dump of WifiQualifiedNetworkSelector
+WifiQualifiedNetworkSelector - Log Begin ----
+03-24 21:48:18.859 - ==========start qualified Network Selection==========
+03-24 21:48:18.859 - Saved Network List
+    "AndroidWifi":0  User Preferred BSSID:null FQDN:null NETWORK_SELECTION_ENABLED Disable account: 0 0 0 0 0 0 0 0 0 0 Connect Choice:null set time:-1
+
+03-24 21:48:18.877 -  skipped due to low signal
+
+03-24 21:48:18.884 -  skipped due to not saved
+ 
+03-24 21:48:18.884 -  skipped due to not valid SSID
+
+03-24 21:48:18.884 -  RSSI score: 100 Score for scanResult: SSID: AndroidWifi, BSSID: 02:00:00:00:01:00, capabilities: [ESS], level: -50, frequency: 2447, timestamp: 25739251, distance: ?(cm), distanceSd: ?(cm), passpoint: no, ChannelBandwidth: 1, centerFreq0: 2437, centerFreq1: 0, 80211mcResponder: is not supported and Network ID: 0 final score:100
+
+
+03-24 21:48:18.884 - After user choice adjust, the final candidate is:"AndroidWifi":0 : 02:00:00:00:01:00
+03-24 21:48:18.884 - reconnect from Disconnected to "AndroidWifi":0
+03-24 21:48:24.200 - ==========start qualified Network Selection==========
+03-24 21:48:24.200 - Too short to last successful Qualified Network Selection Gap is:5314 ms!
+03-24 21:48:24.200 - Quit qualified Network Selection since it is not forced and current network is qualified already
+03-24 21:48:39.269 - ==========start qualified Network Selection==========
+03-24 21:48:39.269 - Current network is: "AndroidWifi" ,ID is: 0
+03-24 21:48:39.269 - Current network is open network
+03-24 21:48:39.269 - Current network is not qualified
+03-24 21:48:39.269 - Saved Network List
+    "AndroidWifi":0  User Preferred BSSID:null FQDN:null NETWORK_SELECTION_ENABLED Disable account: 0 0 0 0 0 0 0 0 0 0 Connect Choice:null set time:-1
+
+03-24 21:48:39.270 -  skipped due to low signal
+
+03-24 21:48:39.270 -  skipped due to not saved
+ 
+03-24 21:48:39.270 -  skipped due to not valid SSID
+
+03-24 21:48:39.270 -  RSSI score: 100 Same network with current associated. Bonus: 16 Same BSSID with current association. Bonus: 24 Score for scanResult: SSID: AndroidWifi, BSSID: 02:00:00:00:01:00, capabilities: [ESS], level: -50, frequency: 2447, timestamp: 47157332, distance: ?(cm), distanceSd: ?(cm), passpoint: no, ChannelBandwidth: 1, centerFreq0: 2437, centerFreq1: 0, 80211mcResponder: is not supported and Network ID: 0 final score:140
+
+
+03-24 21:48:39.270 - After user choice adjust, the final candidate is:"AndroidWifi":0 : 02:00:00:00:01:00
+03-24 21:48:39.270 - "AndroidWifi":0 is already the best choice!
+03-24 21:48:58.408 - ==========start qualified Network Selection==========
+03-24 21:48:58.408 - Current network is: "AndroidWifi" ,ID is: 0
+03-24 21:48:58.408 - Current network is open network
+03-24 21:48:58.408 - Current network is not qualified
+03-24 21:48:58.408 - Saved Network List
+    "AndroidWifi":0  User Preferred BSSID:null FQDN:null NETWORK_SELECTION_ENABLED Disable account: 0 0 0 0 0 0 0 0 0 0 Connect Choice:null set time:-1
+
+03-24 21:48:58.408 -  skipped due to low signal
+
+03-24 21:48:58.408 -  skipped due to not saved
+ 
+03-24 21:48:58.408 -  skipped due to not valid SSID
+
+03-24 21:48:58.408 -  RSSI score: 100 Same network with current associated. Bonus: 16 Same BSSID with current association. Bonus: 24 Score for scanResult: SSID: AndroidWifi, BSSID: 02:00:00:00:01:00, capabilities: [ESS], level: -50, frequency: 2447, timestamp: 67145271, distance: ?(cm), distanceSd: ?(cm), passpoint: no, ChannelBandwidth: 1, centerFreq0: 2437, centerFreq1: 0, 80211mcResponder: is not supported and Network ID: 0 final score:140
+
+
+03-24 21:48:58.408 - After user choice adjust, the final candidate is:"AndroidWifi":0 : 02:00:00:00:01:00
+03-24 21:48:58.409 - "AndroidWifi":0 is already the best choice!
+03-24 21:49:38.406 - ==========start qualified Network Selection==========
+03-24 21:49:38.406 - Current network is: "AndroidWifi" ,ID is: 0
+03-24 21:49:38.406 - Current network is open network
+03-24 21:49:38.406 - Current network is not qualified
+03-24 21:49:38.407 - Saved Network List
+    "AndroidWifi":0  User Preferred BSSID:null FQDN:null NETWORK_SELECTION_ENABLED Disable account: 0 0 0 0 0 0 0 0 0 0 Connect Choice:null set time:-1
+
+03-24 21:49:38.407 -  skipped due to low signal
+
+03-24 21:49:38.407 -  skipped due to not saved
+ 
+03-24 21:49:38.407 -  skipped due to not valid SSID
+
+03-24 21:49:38.407 -  RSSI score: 100 Same network with current associated. Bonus: 16 Same BSSID with current association. Bonus: 24 Score for scanResult: SSID: AndroidWifi, BSSID: 02:00:00:00:01:00, capabilities: [ESS], level: -50, frequency: 2447, timestamp: 107146571, distance: ?(cm), distanceSd: ?(cm), passpoint: no, ChannelBandwidth: 1, centerFreq0: 2437, centerFreq1: 0, 80211mcResponder: is not supported and Network ID: 0 final score:140
+
+
+03-24 21:49:38.407 - After user choice adjust, the final candidate is:"AndroidWifi":0 : 02:00:00:00:01:00
+03-24 21:49:38.407 - "AndroidWifi":0 is already the best choice!
+03-24 21:50:33.468 - ==========start qualified Network Selection==========
+03-24 21:50:33.484 - Saved Network List
+    "AndroidWifi":0  User Preferred BSSID:null FQDN:null NETWORK_SELECTION_ENABLED Disable account: 0 0 0 0 0 0 0 0 0 0 Connect Choice:null set time:-1
+
+03-24 21:50:33.494 -  skipped due to low signal
+
+03-24 21:50:33.498 -  skipped due to not saved
+ 
+03-24 21:50:33.498 -  skipped due to not valid SSID
+
+03-24 21:50:33.498 -  RSSI score: 100 Score for scanResult: SSID: AndroidWifi, BSSID: 02:00:00:00:01:00, capabilities: [ESS], level: -50, frequency: 2447, timestamp: 160591572, distance: ?(cm), distanceSd: ?(cm), passpoint: no, ChannelBandwidth: 1, centerFreq0: 2437, centerFreq1: 0, 80211mcResponder: is not supported and Network ID: 0 final score:100
+
+
+03-24 21:50:33.499 - After user choice adjust, the final candidate is:"AndroidWifi":0 : 02:00:00:00:01:00
+03-24 21:50:33.499 - reconnect from Disconnected to "AndroidWifi":0
+WifiQualifiedNetworkSelector - Log End ----
+APF dump:
+  No apf support
+
+IpManager.wlan0 StateMachine dump:
+  03-25 04:48:11.679 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+  03-24 21:48:19.099 - CMD_STOP wlan0/-1 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  03-24 21:48:19.100 - CMD_UPDATE_HTTP_PROXY wlan0/-1 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  03-24 21:48:19.100 - CMD_UPDATE_TCP_BUFFER_SIZES wlan0/-1 0 0 524288,1048576,2097152,262144,524288,1048576 [rcvd_in=StoppedState, proc_in=StoppedState]
+  03-24 21:48:19.100 - INVOKE setNeighborDiscoveryOffload(true)
+  03-24 21:48:19.102 - CMD_START wlan0/3 0 0 ProvisioningConfiguration{mEnableIPv4: true, mEnableIPv6: true, mUsingIpReachabilityMonitor: true, mRequestedPreDhcpActionMs: 36000, mStaticIpConfig: null, mApfCapabilities: null, mProvisioningTimeoutMs: 36000} [rcvd_in=StoppedState, proc_in=StoppedState]
+  03-24 21:48:19.103 - INVOKE setFallbackMulticastFilter(true)
+  03-24 21:48:19.120 - INVOKE onLinkPropertiesChange({{InterfaceName: wlan0 LinkAddresses: [fe80::ff:fe44:5566/64,]  Routes: [fe80::/64 -> :: wlan0,] DnsAddresses: [] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  03-24 21:48:19.120 - CMD_CONFIRM wlan0/3 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  03-24 21:48:19.156 - INVOKE onPreDhcpAction()
+  03-24 21:48:19.162 - CMD_PRE_DHCP_ACTION wlan0/3 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  03-24 21:48:19.162 - EVENT_PRE_DHCP_ACTION_COMPLETE wlan0/3 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  03-24 21:48:19.173 - INVOKE onPostDhcpAction()
+  03-24 21:48:19.173 - INVOKE onNewDhcpResults({IP address 192.168.232.2/21 Gateway 192.168.232.1  DNS servers: [ 10.0.2.3 ] Domains  DHCP server /192.168.232.1 Vendor info null lease 1476526080 seconds})
+  03-24 21:48:19.173 - INVOKE onLinkPropertiesChange({{InterfaceName: wlan0 LinkAddresses: [fe80::ff:fe44:5566/64,]  Routes: [fe80::/64 -> :: wlan0,192.168.232.0/21 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.232.1 wlan0,] DnsAddresses: [] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  03-24 21:48:19.173 - CMD_POST_DHCP_ACTION wlan0/3 1 0 IP address 192.168.232.2/21 Gateway 192.168.232.1  DNS servers: [ 10.0.2.3 ] Domains  DHCP server /192.168.232.1 Vendor info null lease 1476526080 seconds [rcvd_in=RunningState, proc_in=RunningState]
+  03-24 21:48:19.174 - CMD_CONFIGURE_LINKADDRESS wlan0/3 0 0 192.168.232.2/21 [rcvd_in=RunningState, proc_in=RunningState]
+  03-24 21:48:19.174 - INVOKE onProvisioningSuccess({{InterfaceName: wlan0 LinkAddresses: [fe80::ff:fe44:5566/64,192.168.232.2/21,]  Routes: [fe80::/64 -> :: wlan0,192.168.232.0/21 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.232.1 wlan0,] DnsAddresses: [10.0.2.3,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  03-24 21:48:20.119 - INVOKE onLinkPropertiesChange({{InterfaceName: wlan0 LinkAddresses: [fe80::ff:fe44:5566/64,192.168.232.2/21,fec0::ff:fe44:5566/64,fec0::d1e2:74cc:cbd6:8bd5/64,]  Routes: [fe80::/64 -> :: wlan0,::/0 -> fe80::ff:fe00:100 wlan0,fec0::/64 -> :: wlan0,192.168.232.0/21 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.232.1 wlan0,] DnsAddresses: [fec0::3,10.0.2.3,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  03-24 21:48:23.599 - INVOKE setFallbackMulticastFilter(false)
+  03-24 21:48:23.599 - CMD_SET_MULTICAST_FILTER wlan0/3 0 0 false [rcvd_in=RunningState, proc_in=RunningState]
+  03-24 21:48:26.983 - INVOKE setFallbackMulticastFilter(true)
+  03-24 21:48:26.983 - CMD_SET_MULTICAST_FILTER wlan0/3 0 0 true [rcvd_in=RunningState, proc_in=RunningState]
+  03-24 21:48:43.062 - INVOKE setFallbackMulticastFilter(false)
+  03-24 21:48:43.062 - CMD_SET_MULTICAST_FILTER wlan0/3 0 0 false [rcvd_in=RunningState, proc_in=RunningState]
+  03-24 21:49:02.520 - INVOKE setFallbackMulticastFilter(true)
+  03-24 21:49:02.521 - CMD_SET_MULTICAST_FILTER wlan0/3 0 0 true [rcvd_in=RunningState, proc_in=RunningState]
+  03-24 21:50:10.963 - CMD_STOP wlan0/3 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  03-24 21:50:10.964 - CMD_STOP wlan0/3 0 0 null [rcvd_in=StoppingState, proc_in=StoppingState]
+  03-24 21:50:10.979 - CMD_CLEAR_LINKADDRESS wlan0/3 0 0 null [rcvd_in=StoppingState, proc_in=StoppingState]
+  03-24 21:50:10.980 - CMD_ON_QUIT wlan0/3 0 0 null [rcvd_in=StoppingState, proc_in=StoppingState]
+  03-24 21:50:11.011 - CMD_STOP wlan0/3 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  03-24 21:50:15.984 - CMD_STOP wlan0/3 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  03-24 21:50:25.525 - CMD_STOP wlan0/3 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  03-24 21:50:33.817 - CMD_STOP wlan0/3 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  03-24 21:50:33.818 - CMD_UPDATE_HTTP_PROXY wlan0/3 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  03-24 21:50:33.818 - CMD_UPDATE_TCP_BUFFER_SIZES wlan0/3 0 0 524288,1048576,2097152,262144,524288,1048576 [rcvd_in=StoppedState, proc_in=StoppedState]
+  03-24 21:50:33.827 - INVOKE setNeighborDiscoveryOffload(true)
+  03-24 21:50:33.830 - CMD_START wlan0/3 0 0 ProvisioningConfiguration{mEnableIPv4: true, mEnableIPv6: true, mUsingIpReachabilityMonitor: true, mRequestedPreDhcpActionMs: 36000, mStaticIpConfig: null, mApfCapabilities: null, mProvisioningTimeoutMs: 36000} [rcvd_in=StoppedState, proc_in=StoppedState]
+  03-24 21:50:33.831 - INVOKE setFallbackMulticastFilter(true)
+  03-24 21:50:33.868 - INVOKE onLinkPropertiesChange({{InterfaceName: wlan0 LinkAddresses: [fe80::ff:fe44:5566/64,]  Routes: [fe80::/64 -> :: wlan0,] DnsAddresses: [] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  03-24 21:50:33.869 - CMD_CONFIRM wlan0/3 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  03-24 21:50:33.917 - INVOKE onPreDhcpAction()
+  03-24 21:50:33.927 - CMD_PRE_DHCP_ACTION wlan0/3 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  03-24 21:50:33.928 - EVENT_PRE_DHCP_ACTION_COMPLETE wlan0/3 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  03-24 21:50:33.959 - INVOKE onPostDhcpAction()
+  03-24 21:50:33.960 - INVOKE onNewDhcpResults({IP address 192.168.232.2/21 Gateway 192.168.232.1  DNS servers: [ 10.0.2.3 ] Domains  DHCP server /192.168.232.1 Vendor info null lease 1476526080 seconds})
+  03-24 21:50:33.960 - INVOKE onLinkPropertiesChange({{InterfaceName: wlan0 LinkAddresses: [fe80::ff:fe44:5566/64,]  Routes: [fe80::/64 -> :: wlan0,192.168.232.0/21 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.232.1 wlan0,] DnsAddresses: [] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  03-24 21:50:33.961 - CMD_POST_DHCP_ACTION wlan0/3 1 0 IP address 192.168.232.2/21 Gateway 192.168.232.1  DNS servers: [ 10.0.2.3 ] Domains  DHCP server /192.168.232.1 Vendor info null lease 1476526080 seconds [rcvd_in=RunningState, proc_in=RunningState]
+  03-24 21:50:33.997 - CMD_CONFIGURE_LINKADDRESS wlan0/3 0 0 192.168.232.2/21 [rcvd_in=RunningState, proc_in=RunningState]
+  03-24 21:50:34.018 - INVOKE onProvisioningSuccess({{InterfaceName: wlan0 LinkAddresses: [fe80::ff:fe44:5566/64,192.168.232.2/21,]  Routes: [fe80::/64 -> :: wlan0,192.168.232.0/21 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.232.1 wlan0,] DnsAddresses: [10.0.2.3,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  03-24 21:50:34.867 - INVOKE onLinkPropertiesChange({{InterfaceName: wlan0 LinkAddresses: [fe80::ff:fe44:5566/64,192.168.232.2/21,fec0::ff:fe44:5566/64,]  Routes: [fe80::/64 -> :: wlan0,::/0 -> fe80::ff:fe00:100 wlan0,fec0::/64 -> :: wlan0,192.168.232.0/21 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.232.1 wlan0,] DnsAddresses: [10.0.2.3,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  03-24 21:50:34.868 - INVOKE onLinkPropertiesChange({{InterfaceName: wlan0 LinkAddresses: [fe80::ff:fe44:5566/64,192.168.232.2/21,fec0::ff:fe44:5566/64,fec0::d1e2:74cc:cbd6:8bd5/64,]  Routes: [fe80::/64 -> :: wlan0,::/0 -> fe80::ff:fe00:100 wlan0,fec0::/64 -> :: wlan0,192.168.232.0/21 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.232.1 wlan0,] DnsAddresses: [fec0::3,10.0.2.3,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  03-24 21:50:37.534 - CMD_STOP wlan0/3 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  03-24 21:50:37.548 - CMD_CLEAR_LINKADDRESS wlan0/3 0 0 null [rcvd_in=StoppingState, proc_in=StoppingState]
+  03-24 21:50:37.549 - CMD_ON_QUIT wlan0/3 0 0 null [rcvd_in=StoppingState, proc_in=StoppingState]
+  03-24 21:50:37.564 - CMD_STOP wlan0/3 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  03-24 21:50:37.576 - CMD_STOP wlan0/3 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+Dump of WifiConnectivityManager
+WifiConnectivityManager - Log Begin ----
+WifiConnectivityManager - Number of connectivity attempts rate limited: 0
+03-24 21:48:14.234 - handleScreenStateChanged: screenOn=true
+03-24 21:48:14.234 - startConnectivityScan: screenOn=true wifiState=0 scanImmediately=false wifiEnabled=false wifiConnectivityManagerEnabled=false
+03-24 21:48:14.236 - handleConnectionStateChanged: state=2
+03-24 21:48:14.236 - startConnectivityScan: screenOn=true wifiState=2 scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=false
+03-24 21:48:14.239 - registerScanListener onSuccess
+03-24 21:48:16.939 - startConnectivityScan: screenOn=true wifiState=2 scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+03-24 21:48:16.941 - SingleScanListener onSuccess
+03-24 21:48:18.857 - AllSingleScanListener onResults: start QNS
+03-24 21:48:18.886 - AllSingleScanListener: QNS candidate-"AndroidWifi"
+03-24 21:48:18.887 - connectToNetwork: Reconnect from Disconnected to "AndroidWifi" : 02:00:00:00:01:00
+03-24 21:48:19.065 - handleConnectionStateChanged: state=3
+03-24 21:48:19.065 - startConnectivityScan: screenOn=true wifiState=3 scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+03-24 21:48:19.177 - handleConnectionStateChanged: state=1
+03-24 21:48:19.177 - startConnectivityScan: screenOn=true wifiState=1 scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+03-24 21:48:19.177 - Last periodic single scan started 2239ms ago, defer this new scan request.
+03-24 21:48:24.199 - AllSingleScanListener onResults: start QNS
+03-24 21:48:38.616 - periodicScanTimerHandler
+03-24 21:48:38.617 - No full band scan due to heavy traffic, txSuccessRate=1155.6875 rxSuccessRate=1814.78125
+03-24 21:48:39.267 - SingleScanListener onSuccess
+03-24 21:48:39.269 - AllSingleScanListener onResults: start QNS
+03-24 21:48:39.270 - AllSingleScanListener: QNS candidate-"AndroidWifi"
+03-24 21:48:39.270 - connectToNetwork: Either already connected or is connecting to "AndroidWifi" : 02:00:00:00:01:00
+03-24 21:48:58.379 - periodicScanTimerHandler
+03-24 21:48:58.379 - No full band scan due to heavy traffic, txSuccessRate=1275.3701171875 rxSuccessRate=2518.16845703125
+03-24 21:48:58.380 - SingleScanListener onSuccess
+03-24 21:48:58.408 - AllSingleScanListener onResults: start QNS
+03-24 21:48:58.409 - AllSingleScanListener: QNS candidate-"AndroidWifi"
+03-24 21:48:58.409 - connectToNetwork: Either already connected or is connecting to "AndroidWifi" : 02:00:00:00:01:00
+03-24 21:49:38.380 - periodicScanTimerHandler
+03-24 21:49:38.380 - No full band scan due to heavy traffic, txSuccessRate=10.29215943813324 rxSuccessRate=9.390889704227448
+03-24 21:49:38.381 - SingleScanListener onSuccess
+03-24 21:49:38.406 - AllSingleScanListener onResults: start QNS
+03-24 21:49:38.407 - AllSingleScanListener: QNS candidate-"AndroidWifi"
+03-24 21:49:38.407 - connectToNetwork: Either already connected or is connecting to "AndroidWifi" : 02:00:00:00:01:00
+03-24 21:50:10.958 - handleConnectionStateChanged: state=3
+03-24 21:50:10.959 - startConnectivityScan: screenOn=true wifiState=3 scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+03-24 21:50:15.784 - startConnectivityScan: screenOn=true wifiState=3 scanImmediately=true wifiEnabled=false wifiConnectivityManagerEnabled=true
+03-24 21:50:15.832 - handleScreenStateChanged: screenOn=true
+03-24 21:50:15.832 - startConnectivityScan: screenOn=true wifiState=3 scanImmediately=false wifiEnabled=false wifiConnectivityManagerEnabled=true
+03-24 21:50:15.833 - startConnectivityScan: screenOn=true wifiState=3 scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+03-24 21:50:15.833 - handleConnectionStateChanged: state=2
+03-24 21:50:15.833 - startConnectivityScan: screenOn=true wifiState=2 scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+03-24 21:50:15.834 - SingleScanListener onSuccess
+03-24 21:50:15.982 - handleConnectionStateChanged: state=3
+03-24 21:50:15.982 - startConnectivityScan: screenOn=true wifiState=3 scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+03-24 21:50:15.999 - scheduleDelayedSingleScan
+03-24 21:50:25.463 - startConnectivityScan: screenOn=true wifiState=3 scanImmediately=true wifiEnabled=false wifiConnectivityManagerEnabled=true
+03-24 21:50:25.478 - handleScreenStateChanged: screenOn=true
+03-24 21:50:25.478 - startConnectivityScan: screenOn=true wifiState=3 scanImmediately=false wifiEnabled=false wifiConnectivityManagerEnabled=true
+03-24 21:50:25.479 - startConnectivityScan: screenOn=true wifiState=3 scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+03-24 21:50:25.479 - handleConnectionStateChanged: state=2
+03-24 21:50:25.479 - startConnectivityScan: screenOn=true wifiState=2 scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+03-24 21:50:25.508 - SingleScanListener onSuccess
+03-24 21:50:25.514 - handleConnectionStateChanged: state=3
+03-24 21:50:25.514 - startConnectivityScan: screenOn=true wifiState=3 scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+03-24 21:50:25.529 - scheduleDelayedSingleScan
+03-24 21:50:29.582 - startConnectivityScan: screenOn=true wifiState=3 scanImmediately=true wifiEnabled=false wifiConnectivityManagerEnabled=true
+03-24 21:50:29.593 - handleScreenStateChanged: screenOn=true
+03-24 21:50:29.593 - startConnectivityScan: screenOn=true wifiState=3 scanImmediately=false wifiEnabled=false wifiConnectivityManagerEnabled=true
+03-24 21:50:29.594 - startConnectivityScan: screenOn=true wifiState=3 scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+03-24 21:50:29.594 - handleConnectionStateChanged: state=2
+03-24 21:50:29.596 - startConnectivityScan: screenOn=true wifiState=2 scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+03-24 21:50:29.597 - scheduleDelayedSingleScan
+03-24 21:50:29.597 - scheduleDelayedSingleScan
+03-24 21:50:31.618 - SingleScanListener onSuccess
+03-24 21:50:31.622 - SingleScanListener onSuccess
+03-24 21:50:33.468 - AllSingleScanListener onResults: start QNS
+03-24 21:50:33.502 - AllSingleScanListener: QNS candidate-"AndroidWifi"
+03-24 21:50:33.506 - connectToNetwork: Reconnect from Disconnected to "AndroidWifi" : 02:00:00:00:01:00
+03-24 21:50:33.795 - handleConnectionStateChanged: state=3
+03-24 21:50:33.796 - startConnectivityScan: screenOn=true wifiState=3 scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+03-24 21:50:34.050 - handleConnectionStateChanged: state=1
+03-24 21:50:34.051 - startConnectivityScan: screenOn=true wifiState=1 scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+03-24 21:50:34.051 - Last periodic single scan started 4456ms ago, defer this new scan request.
+03-24 21:50:37.533 - handleConnectionStateChanged: state=3
+03-24 21:50:37.533 - startConnectivityScan: screenOn=true wifiState=3 scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+WifiConnectivityManager - Log End ----
+
+--------- 0.044s was the duration of dumpsys wifi

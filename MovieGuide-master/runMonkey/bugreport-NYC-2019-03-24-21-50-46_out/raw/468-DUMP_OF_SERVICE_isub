@@ -1,0 +1,122 @@
+SubscriptionController:
+ defaultSubId=1
+ defaultDataSubId=1
+ defaultVoiceSubId=1
+ defaultSmsSubId=1
+ defaultDataPhoneId=0
+ defaultVoicePhoneId=0
+ defaultSmsPhoneId=0
+ sSlotIdxToSubId[0]: subId=1
+++++++++++++++++++++++++++++++++
+ ActiveSubInfoList:
+  {id=1, iccId=89014103211118510720 simSlotIndex=0 displayName=Android carrierName=Android nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@2af5723 mcc 310 mnc 260}
+++++++++++++++++++++++++++++++++
+ AllSubInfoList:
+  {id=1, iccId=89014103211118510720 simSlotIndex=0 displayName=Android carrierName=Android nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@257e1d9 mcc 310 mnc 260}
+++++++++++++++++++++++++++++++++
+0: 03-25 04:48:13 pid=1989 tid=1989 [SubscriptionController] init by Context
+1: 03-25 04:48:13 pid=1989 tid=1989 [getPhoneId] asked for default subId=-1
+2: 03-25 04:48:13 pid=1989 tid=1989 [getPhoneId] asked for default subId=-1
+3: 03-25 04:48:14 pid=1989 tid=1997 [getActiveSubInfoList] Sub Controller not ready
+4: 03-25 04:48:14 pid=1989 tid=1989 [getActiveSubInfoList] Sub Controller not ready
+5: 03-25 04:48:14 pid=1989 tid=1989 [getActiveSubInfoList] Sub Controller not ready
+6: 03-25 04:48:14 pid=1989 tid=1998 [getActiveSubInfoList] Sub Controller not ready
+7: 03-25 04:48:14 pid=1989 tid=1997 [getActiveSubInfoList] Sub Controller not ready
+8: 03-25 04:48:14 pid=1989 tid=1998 [getActiveSubInfoList] Sub Controller not ready
+9: 03-25 04:48:14 pid=1989 tid=1998 [getPhoneId] asked for default subId=-1
+10: 03-25 04:48:14 pid=1989 tid=1998 [getActiveSubInfoList] Sub Controller not ready
+11: 03-25 04:48:14 pid=1989 tid=1989 [getActiveSubInfoList] Sub Controller not ready
+12: 03-25 04:48:14 pid=1989 tid=1989 [getActiveSubInfoList] Sub Controller not ready
+13: 03-25 04:48:14 pid=1989 tid=2182 [getActiveSubInfoList] Sub Controller not ready
+14: 03-25 04:48:14 pid=1989 tid=1989 [getActiveSubInfoList] Sub Controller not ready
+15: 03-25 04:48:14 pid=1989 tid=1989 [getActiveSubInfoList] Sub Controller not ready
+16: 03-25 04:48:14 pid=1989 tid=1989 [clearSubInfo]- no simInfo size=0
+17: 03-25 04:48:14 pid=1989 tid=1989 [addSubInfoRecord]+ iccId:89014103211118510720 slotId:0
+18: 03-25 04:48:14 pid=1989 tid=1989 [getActiveSubInfoList] Sub Controller not ready
+19: 03-25 04:48:14 pid=1989 tid=1989 [addSubInfoRecord] New record created: content://telephony/siminfo/1
+20: 03-25 04:48:14 pid=1989 tid=2186 [getActiveSubInfoList] Sub Controller not ready
+21: 03-25 04:48:14 pid=1989 tid=1989 [addSubInfoRecord] sSlotIdxToSubId.size=1 slotId=0 subId=1 defaultSubId=-1 simCount=1
+22: 03-25 04:48:14 pid=1989 tid=1989 [setDefaultFallbackSubId] subId=1
+23: 03-25 04:48:14 pid=1989 tid=1989 [setDefaultFallbackSubId] set mDefaultFallbackSubId=1
+24: 03-25 04:48:14 pid=1989 tid=1989 [setDefaultFallbackSubId] broadcast default subId changed phoneId=0 subId=1
+25: 03-25 04:48:14 pid=1989 tid=1989 [addSubInfoRecord] one sim set defaults to subId=1
+26: 03-25 04:48:14 pid=1989 tid=1989 [setDefaultDataSubId] num phones=1, subId=1
+27: 03-25 04:48:14 pid=1989 tid=1989 [setDefaultDataSubId] phoneId=0 subId=1 RAF=1
+28: 03-25 04:48:14 pid=1989 tid=1989 [updateAllDataConnectionTrackers] sPhones.length=1
+29: 03-25 04:48:14 pid=1989 tid=1989 [updateAllDataConnectionTrackers] phoneId=0
+30: 03-25 04:48:14 pid=1989 tid=1989 [broadcastDefaultDataSubIdChanged] subId=1
+31: 03-25 04:48:14 pid=1989 tid=1989 [setDefaultSmsSubId] subId=1
+32: 03-25 04:48:14 pid=1989 tid=1989 [broadcastDefaultSmsSubIdChanged] subId=1
+33: 03-25 04:48:14 pid=1989 tid=1989 [setDefaultVoiceSubId] subId=1
+34: 03-25 04:48:14 pid=1989 tid=1989 [broadcastDefaultVoiceSubIdChanged] subId=1
+35: 03-25 04:48:14 pid=1989 tid=1989 [addSubInfoRecord] hashmap(0,1)
+36: 03-25 04:48:14 pid=1989 tid=1989 [addSubInfoRecord] sim name = Android
+37: 03-25 04:48:14 pid=1989 tid=1989 [addSubInfoRecord]- info size=1
+38: 03-25 04:48:14 pid=1989 tid=1989 [setDefaultDataSubId] num phones=1, subId=1
+39: 03-25 04:48:14 pid=1989 tid=1989 [setDefaultDataSubId] phoneId=0 subId=1 RAF=1
+40: 03-25 04:48:14 pid=1989 tid=1989 [updateAllDataConnectionTrackers] sPhones.length=1
+41: 03-25 04:48:14 pid=1989 tid=1989 [updateAllDataConnectionTrackers] phoneId=0
+42: 03-25 04:48:14 pid=1989 tid=1989 [broadcastDefaultDataSubIdChanged] subId=1
+43: 03-25 04:48:18 pid=1989 tid=2200 [getPhoneId] asked for default subId=1
+44: 03-25 04:48:18 pid=1989 tid=1997 [getPhoneId] asked for default subId=1
+45: 03-25 04:48:18 pid=1989 tid=1998 [getPhoneId] asked for default subId=1
+46: 03-25 04:48:19 pid=1989 tid=2200 [getPhoneId] asked for default subId=1
+47: 03-25 04:48:23 pid=1989 tid=2200 [getPhoneId] asked for default subId=1
+48: 03-25 04:48:23 pid=1989 tid=2199 [getPhoneId] asked for default subId=1
+49: 03-25 04:48:25 pid=1989 tid=2200 [getPhoneId] asked for default subId=1
+50: 03-25 04:48:27 pid=1989 tid=2182 [getPhoneId] asked for default subId=1
+51: 03-25 04:48:30 pid=1989 tid=1989 [getPhoneId] asked for default subId=1
+52: 03-25 04:48:31 pid=1989 tid=2195 [getPhoneId] asked for default subId=1
+53: 03-25 04:48:31 pid=1989 tid=2199 [getPhoneId] asked for default subId=1
+54: 03-25 04:48:31 pid=1989 tid=2199 [getPhoneId] asked for default subId=1
+55: 03-25 04:48:33 pid=1989 tid=2199 [getPhoneId] asked for default subId=1
+56: 03-25 04:48:53 pid=1989 tid=2186 [getPhoneId] asked for default subId=1
+57: 03-25 04:49:05 pid=1989 tid=2182 [getPhoneId] asked for default subId=1
+58: 03-25 04:49:17 pid=1989 tid=2186 [getPhoneId] asked for default subId=1
+59: 03-25 04:49:31 pid=1989 tid=2186 [getPhoneId] asked for default subId=1
+60: 03-25 04:49:35 pid=1989 tid=2200 [getPhoneId] asked for default subId=1
+61: 03-25 04:50:00 pid=1989 tid=2186 [getPhoneId] asked for default subId=1
+62: 03-25 04:50:06 pid=1989 tid=4949 [getPhoneId] asked for default subId=1
+63: 03-25 04:50:06 pid=1989 tid=2200 [getPhoneId] asked for default subId=1
+64: 03-25 04:50:09 pid=1989 tid=4949 [getPhoneId] asked for default subId=1
+65: 03-25 04:50:09 pid=1989 tid=2200 [getPhoneId] asked for default subId=1
+66: 03-25 04:50:22 pid=1989 tid=2199 [getPhoneId] asked for default subId=1
+67: 03-25 04:50:22 pid=1989 tid=4961 [getPhoneId] asked for default subId=1
+68: 03-25 04:50:25 pid=1989 tid=4952 [getPhoneId] asked for default subId=1
+69: 03-25 04:50:25 pid=1989 tid=1989 [clearSubInfo]- clear size=1
+70: 03-25 04:50:25 pid=1989 tid=1989 [getPhoneId]- no sims, returning default phoneId=2147483647
+71: 03-25 04:50:25 pid=1989 tid=1989 [getPhoneId]- no sims, returning default phoneId=2147483647
+72: 03-25 04:50:25 pid=1989 tid=1989 [getPhoneId]- no sims, returning default phoneId=2147483647
+73: 03-25 04:50:25 pid=1989 tid=1989 [addSubInfoRecord]+ iccId:89014103211118510720 slotId:0
+74: 03-25 04:50:25 pid=1989 tid=1989 [getActiveSubInfoList] Sub Controller not ready
+75: 03-25 04:50:25 pid=1989 tid=1989 [addSubInfoRecord] Record already exists
+76: 03-25 04:50:25 pid=1989 tid=1989 [addSubInfoRecord] sSlotIdxToSubId.size=1 slotId=0 subId=1 defaultSubId=1 simCount=1
+77: 03-25 04:50:25 pid=1989 tid=1989 [setDefaultFallbackSubId] subId=1
+78: 03-25 04:50:25 pid=1989 tid=1989 [setDefaultFallbackSubId] set mDefaultFallbackSubId=1
+79: 03-25 04:50:25 pid=1989 tid=1989 [setDefaultFallbackSubId] broadcast default subId changed phoneId=0 subId=1
+80: 03-25 04:50:25 pid=1989 tid=1989 [addSubInfoRecord] one sim set defaults to subId=1
+81: 03-25 04:50:25 pid=1989 tid=1989 [setDefaultDataSubId] num phones=1, subId=1
+82: 03-25 04:50:25 pid=1989 tid=1989 [setDefaultDataSubId] phoneId=0 subId=1 RAF=1
+83: 03-25 04:50:25 pid=1989 tid=1989 [updateAllDataConnectionTrackers] sPhones.length=1
+84: 03-25 04:50:25 pid=1989 tid=1989 [updateAllDataConnectionTrackers] phoneId=0
+85: 03-25 04:50:25 pid=1989 tid=1989 [broadcastDefaultDataSubIdChanged] subId=1
+86: 03-25 04:50:25 pid=1989 tid=1989 [setDefaultSmsSubId] subId=1
+87: 03-25 04:50:25 pid=1989 tid=1989 [broadcastDefaultSmsSubIdChanged] subId=1
+88: 03-25 04:50:25 pid=1989 tid=1989 [setDefaultVoiceSubId] subId=1
+89: 03-25 04:50:25 pid=1989 tid=1989 [broadcastDefaultVoiceSubIdChanged] subId=1
+90: 03-25 04:50:25 pid=1989 tid=1989 [addSubInfoRecord] hashmap(0,1)
+91: 03-25 04:50:25 pid=1989 tid=1989 [addSubInfoRecord] sim name = Android
+92: 03-25 04:50:26 pid=1989 tid=1989 [addSubInfoRecord]- info size=1
+93: 03-25 04:50:26 pid=1989 tid=1989 [setDefaultDataSubId] num phones=1, subId=1
+94: 03-25 04:50:26 pid=1989 tid=1989 [setDefaultDataSubId] phoneId=0 subId=1 RAF=1
+95: 03-25 04:50:26 pid=1989 tid=1989 [updateAllDataConnectionTrackers] sPhones.length=1
+96: 03-25 04:50:26 pid=1989 tid=1989 [updateAllDataConnectionTrackers] phoneId=0
+97: 03-25 04:50:26 pid=1989 tid=1989 [broadcastDefaultDataSubIdChanged] subId=1
+98: 03-25 04:50:26 pid=1989 tid=1998 [getPhoneId] asked for default subId=1
+99: 03-25 04:50:30 pid=1989 tid=2182 [getPhoneId] asked for default subId=1
+100: 03-25 04:50:30 pid=1989 tid=4949 [getPhoneId] asked for default subId=1
+101: 03-25 04:50:31 pid=1989 tid=4961 [getPhoneId] asked for default subId=1
+102: 03-25 04:50:31 pid=1989 tid=1997 [getPhoneId] asked for default subId=1
+103: 03-25 04:50:44 pid=1989 tid=2199 [getPhoneId] asked for default subId=1
+++++++++++++++++++++++++++++++++
+--------- 0.009s was the duration of dumpsys isub

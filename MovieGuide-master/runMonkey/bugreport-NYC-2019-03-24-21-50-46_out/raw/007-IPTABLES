@@ -1,0 +1,118 @@
+Chain INPUT (policy ACCEPT 173 packets, 186948 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+   14074 19651963 bw_INPUT   all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+   14074 19651963 fw_INPUT   all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 oem_fwd    all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 fw_FORWARD  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 bw_FORWARD  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 natctrl_FORWARD  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain OUTPUT (policy ACCEPT 110 packets, 9819 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+    8262   534857 oem_out    all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+    8262   534857 fw_OUTPUT  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+    8262   534857 st_OUTPUT  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+    8262   534857 bw_OUTPUT  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain bw_FORWARD (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain bw_INPUT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+   12322 17495336            all  --  *      *       0.0.0.0/0            0.0.0.0/0            ! quota globalAlert: 2097152 bytes 
+   14009 19649339            all  --  *      *       0.0.0.0/0            0.0.0.0/0            owner socket exists
+
+Chain bw_OUTPUT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+    6966   395078            all  --  *      *       0.0.0.0/0            0.0.0.0/0            ! quota globalAlert: 2097152 bytes 
+    8250   534377            all  --  *      *       0.0.0.0/0            0.0.0.0/0            owner socket exists
+
+Chain bw_costly_shared (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 bw_penalty_box  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain bw_data_saver (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       6      264 RETURN     all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain bw_happy_box (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 RETURN     all  --  *      *       0.0.0.0/0            0.0.0.0/0            owner UID match 10010
+      14     1246 RETURN     all  --  *      *       0.0.0.0/0            0.0.0.0/0            owner UID match 10013
+      14     1515 RETURN     all  --  *      *       0.0.0.0/0            0.0.0.0/0            owner UID match 0-9999
+       6      264 bw_data_saver  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain bw_penalty_box (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+      34     3025 bw_happy_box  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain fw_FORWARD (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain fw_INPUT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain fw_OUTPUT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain fw_dozable (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 RETURN     all  --  lo     lo      0.0.0.0/0            0.0.0.0/0           
+       0        0 RETURN     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp flags:0x04/0x04
+       0        0 RETURN     all  --  *      *       0.0.0.0/0            0.0.0.0/0            owner UID match 0-9999
+       0        0 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain fw_powersave (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 RETURN     all  --  lo     lo      0.0.0.0/0            0.0.0.0/0           
+       0        0 RETURN     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp flags:0x04/0x04
+       0        0 RETURN     all  --  *      *       0.0.0.0/0            0.0.0.0/0            owner UID match 0-9999
+       0        0 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain fw_standby (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 RETURN     all  --  lo     lo      0.0.0.0/0            0.0.0.0/0           
+       0        0 RETURN     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp flags:0x04/0x04
+
+Chain natctrl_FORWARD (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain natctrl_tether_counters (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain oem_fwd (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain oem_out (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain st_OUTPUT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain st_clear_caught (2 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain st_clear_detect (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 REJECT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            connmark match  0x2000000/0x2000000 reject-with icmp-port-unreachable
+       0        0 RETURN     all  --  *      *       0.0.0.0/0            0.0.0.0/0            connmark match  0x1000000/0x1000000
+       0        0 CONNMARK   tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            u32 "0x0>>0x16&0x3c@0xc>>0x1a&0x3c@0x0&0xffff0000=0x16030000&&0x0>>0x16&0x3c@0xc>>0x1a&0x3c@0x4&0xff0000=0x10000" CONNMARK or 0x1000000
+       0        0 CONNMARK   udp  --  *      *       0.0.0.0/0            0.0.0.0/0            u32 "0x0>>0x16&0x3c@0x8&0xffff0000=0x16fe0000&&0x0>>0x16&0x3c@0x14&0xff0000=0x10000" CONNMARK or 0x1000000
+       0        0 RETURN     all  --  *      *       0.0.0.0/0            0.0.0.0/0            connmark match  0x1000000/0x1000000
+       0        0 st_clear_caught  tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            state ESTABLISHED u32 "0x0>>0x16&0x3c@0xc>>0x1a&0x3c@0x0&0x0=0x0"
+       0        0 st_clear_caught  udp  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain st_penalty_log (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 CONNMARK   all  --  *      *       0.0.0.0/0            0.0.0.0/0            CONNMARK or 0x1000000
+       0        0 NFLOG      all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain st_penalty_reject (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 CONNMARK   all  --  *      *       0.0.0.0/0            0.0.0.0/0            CONNMARK or 0x2000000
+       0        0 NFLOG      all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 REJECT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            reject-with icmp-port-unreachable

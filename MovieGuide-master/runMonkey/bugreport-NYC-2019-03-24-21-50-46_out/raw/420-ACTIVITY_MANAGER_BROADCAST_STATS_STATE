@@ -1,0 +1,452 @@
+  Current stats (from -2m40s942ms to now, +2m40s942ms uptime):
+    android.intent.action.BOOT_COMPLETED:
+      Number received: 52, skipped: 0
+      Total dispatch time: +12s640ms, max: +12s640ms
+      Package null: 1 times
+    android.intent.action.MEDIA_MOUNTED:
+      Number received: 6, skipped: 0
+      Total dispatch time: +3s638ms, max: +3s543ms
+      Package android: 2 times
+    android.intent.action.TIMEZONE_CHANGED:
+      Number received: 1, skipped: 0
+      Total dispatch time: +1s705ms, max: +1s705ms
+      Package android: 1 times
+    android.intent.action.DROPBOX_ENTRY_ADDED:
+      Number received: 88, skipped: 0
+      Total dispatch time: +1s655ms, max: +427ms
+      Package android: 44 times
+    com.google.gservices.intent.action.GSERVICES_CHANGED:
+      Number received: 34, skipped: 0
+      Total dispatch time: +1s445ms, max: +1s340ms
+      Package com.google.android.gsf: 2 times
+    android.intent.action.PRE_BOOT_COMPLETED:
+      Number received: 7, skipped: 0
+      Total dispatch time: +1s155ms, max: +898ms
+      Package null: 7 times
+    android.intent.action.SIM_STATE_CHANGED:
+      Number received: 28, skipped: 0
+      Total dispatch time: +1s32ms, max: +381ms
+      Package null: 7 times
+    android.intent.action.LOCKED_BOOT_COMPLETED:
+      Number received: 1, skipped: 0
+      Total dispatch time: +961ms, max: +961ms
+      Package null: 1 times
+    android.intent.action.PACKAGE_ADDED:
+      Number received: 11, skipped: 0
+      Total dispatch time: +913ms, max: +913ms
+      Package null: 1 times
+    android.provider.action.DEFAULT_SMS_PACKAGE_CHANGED:
+      Number received: 1, skipped: 0
+      Total dispatch time: +897ms, max: +897ms
+      Package com.android.phone: 1 times
+    android.intent.action.MEDIA_BUTTON:
+      Number received: 8, skipped: 0
+      Total dispatch time: +888ms, max: +573ms
+      Package android: 2 times
+    com.google.android.apps.gmm.ugc.ataplace.AtAPlaceService.ACTION_SETUP_BE_THE_FIRST:
+      Number received: 1, skipped: 0
+      Total dispatch time: +848ms, max: +848ms
+      Package com.google.android.apps.maps: 1 times
+    android.intent.action.PROVIDER_CHANGED:
+      Number received: 3, skipped: 0
+      Total dispatch time: +696ms, max: +696ms
+      Package com.android.providers.calendar: 1 times
+    android.intent.action.MEDIA_SCANNER_STARTED:
+      Number received: 4, skipped: 0
+      Total dispatch time: +632ms, max: +592ms
+      Package com.android.providers.downloads: 4 times
+    android.intent.action.ACTION_DEFAULT_SMS_SUBSCRIPTION_CHANGED:
+      Number received: 3, skipped: 0
+      Total dispatch time: +617ms, max: +610ms
+      Package com.android.phone: 2 times
+    android.intent.action.TIME_SET:
+      Number received: 1, skipped: 0
+      Total dispatch time: +556ms, max: +556ms
+      Package android: 1 times
+    android.intent.action.AIRPLANE_MODE:
+      Number received: 3, skipped: 0
+      Total dispatch time: +251ms, max: +250ms
+      Package android: 3 times
+    register_intent_action:
+      Number received: 2, skipped: 0
+      Total dispatch time: +239ms, max: +237ms
+      Package com.google.android.talk: 2 times
+    android.intent.action.PACKAGE_CHANGED:
+      Number received: 24, skipped: 0
+      Total dispatch time: +187ms, max: +125ms
+      Package null: 5 times
+    android.os.UpdateLock.UPDATE_LOCK_CHANGED:
+      Number received: 8, skipped: 0
+      Total dispatch time: +173ms, max: +67ms
+      Package android: 4 times
+    android.intent.action.SERVICE_STATE:
+      Number received: 1, skipped: 0
+      Total dispatch time: +168ms, max: +168ms
+      Package android: 1 times
+    com.google.android.music.IMPORT_COMPLETE:
+      Number received: 3, skipped: 0
+      Total dispatch time: +161ms, max: +145ms
+      Package com.google.android.music: 3 times
+    android.telephony.action.CARRIER_CONFIG_CHANGED:
+      Number received: 3, skipped: 0
+      Total dispatch time: +115ms, max: +97ms
+      Package null: 3 times
+    android.intent.action.USER_PRESENT:
+      Number received: 6, skipped: 0
+      Total dispatch time: +106ms, max: +64ms
+      Package com.android.systemui: 3 times
+    null:
+      Number received: 2, skipped: 0
+      Total dispatch time: +83ms, max: +81ms
+      Package com.google.android.apps.wallpaper: 1 times
+      Package com.google.android.gms: 1 times
+    android.net.conn.DATA_ACTIVITY_CHANGE:
+      Number received: 0, skipped: 0
+      Total dispatch time: +76ms, max: +69ms
+      Package android: 12 times
+    com.google.android.setupwizard.SETUP_WIZARD_FINISHED:
+      Number received: 1, skipped: 0
+      Total dispatch time: +70ms, max: +70ms
+      Package com.google.android.setupwizard: 1 times
+    com.android.mail.ACTION_NOTIFY_DATASET_CHANGED:
+      Number received: 9, skipped: 0
+      Total dispatch time: +70ms, max: +44ms
+      Package com.google.android.gm: 6 times
+    android.intent.action.MEDIA_SCANNER_FINISHED:
+      Number received: 4, skipped: 0
+      Total dispatch time: +67ms, max: +45ms
+      Package com.android.providers.downloads: 4 times
+    com.google.android.checkin.CHECKIN_COMPLETE:
+      Number received: 9, skipped: 0
+      Total dispatch time: +58ms, max: +29ms
+      Package com.google.android.gms: 3 times
+    com.google.android.apps.gmm.map.indoor.notification.GeofenceReceiver.ACTION_TEARDOWN_GEOFENCE:
+      Number received: 1, skipped: 0
+      Total dispatch time: +57ms, max: +57ms
+      Package com.google.android.apps.maps: 1 times
+    android.telecom.action.PHONE_ACCOUNT_REGISTERED:
+      Number received: 5, skipped: 0
+      Total dispatch time: +49ms, max: +23ms
+      Package android: 17 times
+    com.google.android.libraries.social.mediamonitor.ON_N_PLUS:
+      Number received: 1, skipped: 0
+      Total dispatch time: +46ms, max: +46ms
+      Package com.google.android.apps.photos: 1 times
+    android.app.action.DEVICE_ADMIN_ENABLED:
+      Number received: 1, skipped: 0
+      Total dispatch time: +43ms, max: +43ms
+      Package android: 1 times
+    com.google.android.music.START_DOWNLOAD_SCHEDULING:
+      Number received: 4, skipped: 0
+      Total dispatch time: +35ms, max: +19ms
+      Package com.google.android.music: 2 times
+    com.google.android.gsf.settings.GoogleLocationSettings.UPDATE_LOCATION_SETTINGS:
+      Number received: 2, skipped: 2
+      Total dispatch time: +29ms, max: +24ms
+      Package com.google.android.sdksetup: 1 times
+      Package com.google.android.setupwizard: 1 times
+    android.net.conn.CONNECTIVITY_CHANGE:
+      Number received: 0, skipped: 32
+      Total dispatch time: +27ms, max: +25ms
+      Package android: 8 times
+    com.google.android.gms.gcm.ACTION_CHECK_QUEUE:
+      Number received: 7, skipped: 0
+      Total dispatch time: +20ms, max: +8ms
+      Package com.google.android.gms: 7 times
+    com.google.android.gms.tron.ALARM:
+      Number received: 5, skipped: 0
+      Total dispatch time: +18ms, max: +4ms
+      Package com.google.android.gms: 5 times
+    com.google.android.apps.photos.actionqueue.INTERNAL_ACTION:
+      Number received: 1, skipped: 0
+      Total dispatch time: +17ms, max: +17ms
+      Package com.google.android.apps.photos: 1 times
+    com.android.providers.calendar.intent.CalendarProvider2:
+      Number received: 2, skipped: 0
+      Total dispatch time: +17ms, max: +13ms
+      Package com.android.providers.calendar: 2 times
+    com.google.android.intent.action.GCM_RECONNECT:
+      Number received: 0, skipped: 0
+      Total dispatch time: +16ms, max: +6ms
+      Package com.google.android.gms: 6 times
+    android.provider.Contacts.DATABASE_CREATED:
+      Number received: 2, skipped: 0
+      Total dispatch time: +13ms, max: +13ms
+      Package com.android.providers.contacts: 1 times
+    com.google.android.gcm.CONNECTED:
+      Number received: 2, skipped: 0
+      Total dispatch time: +8ms, max: +7ms
+      Package com.google.android.gms: 2 times
+    com.google.android.onetimeinitializer.ONE_TIME_INITIALIZED:
+      Number received: 1, skipped: 0
+      Total dispatch time: +6ms, max: +6ms
+      Package com.google.android.onetimeinitializer: 1 times
+    com.google.android.chimera.MODULE_CONFIGURATION_CHANGED:
+      Number received: 3, skipped: 0
+      Total dispatch time: +6ms, max: +3ms
+      Package com.google.android.gms: 3 times
+    com.google.android.music.playback.FORCE_WIDGET_PROVIDER_REFRESH:
+      Number received: 3, skipped: 0
+      Total dispatch time: +6ms, max: +2ms
+      Package com.google.android.music: 3 times
+    com.google.android.gms.location.reporting.SETTINGS_CHANGED:
+      Number received: 2, skipped: 0
+      Total dispatch time: +4ms, max: +4ms
+      Package com.google.android.gms: 1 times
+    com.google.android.gm.intent.ACTION_PROVIDER_CREATED:
+      Number received: 2, skipped: 0
+      Total dispatch time: +4ms, max: +3ms
+      Package com.google.android.gm: 2 times
+    com.android.Bugle.intent.action.ACTION_NOTIFY_CONVERSATIONS_CHANGED:
+      Number received: 2, skipped: 0
+      Total dispatch time: +3ms, max: +3ms
+      Package com.google.android.apps.messaging: 1 times
+    com.android.server.action.NETWORK_STATS_POLL:
+      Number received: 0, skipped: 0
+      Total dispatch time: +3ms, max: +3ms
+      Package android: 1 times
+    com.google.android.apps.photos.jobqueue.EXECUTE_JOBS:
+      Number received: 1, skipped: 0
+      Total dispatch time: +2ms, max: +2ms
+      Package com.google.android.apps.photos: 1 times
+    com.google.android.gms.update.STATUS_CHANGED:
+      Number received: 1, skipped: 0
+      Total dispatch time: +1ms, max: +1ms
+      Package com.google.android.gms: 1 times
+    android.appwidget.action.APPWIDGET_ENABLED:
+      Number received: 1, skipped: 0
+      Total dispatch time: +1ms, max: +1ms
+      Package android: 1 times
+    android.appwidget.action.APPWIDGET_UPDATE:
+      Number received: 1, skipped: 0
+      Total dispatch time: +1ms, max: +1ms
+      Package android: 1 times
+    com.google.android.apps.now.gel_prefs_synced_broadcast:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.google.android.googlequicksearchbox: 1 times
+    android.intent.action.CLEAR_DNS_CACHE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 6 times
+    com.android.inputmethod.dictionarypack.aosp.newdict:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.inputmethod.latin: 7 times
+    android.media.VOLUME_CHANGED_ACTION:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 51 times
+    com.android.launcher.action.PRELOAD_WORKSPACE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.google.android.partnersetup: 2 times
+    android.net.wifi.WIFI_STATE_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 16 times
+    android.media.ACTION_SCO_AUDIO_STATE_UPDATED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.intent.action.NETWORK_SET_TIME:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.phone: 2 times
+    com.android.music.queuechanged:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.google.android.music: 3 times
+    android.intent.action.WALLPAPER_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.intent.action.ACTION_DEFAULT_SUBSCRIPTION_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.phone: 2 times
+    android.intent.action.ACTION_DEFAULT_VOICE_SUBSCRIPTION_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.phone: 2 times
+    com.google.android.googlequicksearchbox.ALWAYS_ON_DSP_INTERACTOR_FLAG_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.google.android.googlequicksearchbox: 1 times
+    android.media.STREAM_DEVICES_CHANGED_ACTION:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 10 times
+    android.intent.action.SUBSCRIPTION_PHONE_STATE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 4 times
+    android.location.PROVIDERS_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.intent.action.NETWORK_SET_TIMEZONE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.phone: 2 times
+    android.location.InjectedSettingChanged:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.google.android.gms: 1 times
+    android.intent.action.ANY_DATA_STATE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 134 times
+    android.intent.action.PACKAGE_RESTARTED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package null: 1 times
+    android.provider.Telephony.SPN_STRINGS_UPDATED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.phone: 3 times
+    com.google.android.gcm.DISCONNECTED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.google.android.gms: 10 times
+    android.os.storage.action.DISK_SCANNED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    com.google.android.music.shufflemodechanged:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.google.android.music: 3 times
+    android.location.MODE_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.net.wifi.RSSI_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 4 times
+    android.net.wifi.STATE_CHANGE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 31 times
+    android.intent.action.ACTION_SUBINFO_RECORD_UPDATED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.phone: 10 times
+    android.intent.action.SIG_STR:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 16 times
+    android.intent.action.ACTION_DEFAULT_DATA_SUBSCRIPTION_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.phone: 4 times
+    android.net.wifi.supplicant.CONNECTION_CHANGE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 8 times
+    android.media.INTERNAL_RINGER_MODE_CHANGED_ACTION:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 5 times
+    com.android.internal.telephony.data-stall:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.phone: 1 times
+    android.location.GPS_FIX_CHANGE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 2 times
+    android.net.wifi.supplicant.STATE_CHANGE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 20 times
+    android.intent.action.PRECISE_DATA_CONNECTION_STATE_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 134 times
+    android.net.conn.INET_CONDITION_ACTION:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 2 times
+    android.intent.action.ACTION_SUBINFO_CONTENT_CHANGE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.phone: 10 times
+    android.media.SCO_AUDIO_STATE_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.location.HIGH_POWER_REQUEST_CHANGE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.google.android.gms: 12 times
+    android.media.VIBRATE_SETTING_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 2 times
+    com.google.android.music.IMPORT_PENDING:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.google.android.music: 8 times
+    android.app.action.INTERRUPTION_FILTER_CHANGED_INTERNAL:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 4 times
+    android.intent.action.internal_sim_state_changed:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package null: 2 times
+    android.media.MASTER_MUTE_CHANGED_ACTION:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    wifi_scan_available:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 8 times
+    com.android.systemui.action.SNOOZE_VOLUME:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.systemui: 1 times
+    android.search.action.SEARCHABLES_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 38 times
+    android.intent.action.ACTION_PREFERRED_ACTIVITY_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package null: 4 times
+    com.google.android.play.CONTENT_UPDATE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.google.android.music: 1 times
+    android.net.wifi.LINK_CONFIGURATION_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 3 times
+    android.net.wifi.CONFIGURED_NETWORKS_CHANGE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 6 times
+    android.telecom.action.PHONE_ACCOUNT_UNREGISTERED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.net.wifi.SCAN_RESULTS:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.media.STREAM_MUTE_CHANGED_ACTION:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 20 times
+    com.google.android.gms.checkin.NOOP:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.google.android.gms: 2 times
+    android.media.RINGER_MODE_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 5 times
+

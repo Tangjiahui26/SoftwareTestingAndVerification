@@ -1,0 +1,4 @@
+ac: 1 usb: 0 wireless: 0 current_max: 0 voltage_max: 0
+status: 2 health: 2 present: 1
+level: 100 voltage: 0 temp: 0
+--------- 0.000s was the duration of dumpsys batteryproperties

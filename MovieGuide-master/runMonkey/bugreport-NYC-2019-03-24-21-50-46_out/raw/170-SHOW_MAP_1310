@@ -1,0 +1,19 @@
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/properties_serial
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:default_prop:s0
+    1016        4        4        0        0        4        0        0    1 /dev/binder
+     912      376      376        0        0        0      376        0    3 /sbin/healthd
+       4        4        4        0        0        0        4        0    1 [anon:atexit handlers]
+    1024       92       92        0        0        0       92        0    1 [anon:libc_malloc]
+       4        0        0        0        0        0        0        0    1 [anon:thread signal stack guard page]
+       8        0        0        0        0        0        0        0    1 [anon:thread signal stack]
+      28       24       24        0        0        0       24        0    3 [anon]
+     136       12       12        0        0        0       12        0    1 [stack]
+       4        4        0        4        0        0        0        0    1 [vdso]
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+    3392      524      512        4        8        4      508        0   15 TOTAL

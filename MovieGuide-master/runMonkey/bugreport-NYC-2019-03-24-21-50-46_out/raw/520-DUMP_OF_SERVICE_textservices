@@ -1,0 +1,64 @@
+Current Text Services Manager state:
+  Spell Checkers:
+  Spell Checker #0
+    mId=com.android.inputmethod.latin/.spellcheck.AndroidSpellCheckerService
+    mSettingsActivityName=com.android.inputmethod.latin.spellcheck.SpellCheckerSettingsActivity
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=com.android.inputmethod.latin.spellcheck.AndroidSpellCheckerService
+        packageName=com.android.inputmethod.latin
+        labelRes=0x7f0a0038 nonLocalizedLabel=null icon=0x0 banner=0x0
+        enabled=true exported=true directBootAware=true
+        permission=android.permission.BIND_TEXT_SERVICE
+        flags=0x3
+        ApplicationInfo:
+          packageName=com.android.inputmethod.latin
+          labelRes=0x7f0a0037 nonLocalizedLabel=null icon=0x7f020098 banner=0x0
+          processName=com.android.inputmethod.latin
+          taskAffinity=com.android.inputmethod.latin
+          uid=10053 flags=0x3 privateFlags=0x60 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/app/LatinIME/LatinIME.apk
+          seinfo=default
+          dataDir=/data/user_de/0/com.android.inputmethod.latin
+          deviceProtectedDataDir=/data/user_de/0/com.android.inputmethod.latin
+          credentialProtectedDataDir=/data/user/0/com.android.inputmethod.latin
+          enabled=true minSdkVersion=14 targetSdkVersion=23 versionCode=25
+          supportsRtl=true
+          fullBackupContent=true
+      Subtype #0:
+        locale=en languageTag=
+        extraValue=
+      Subtype #1:
+        locale=en_US languageTag=
+        extraValue=
+      Subtype #2:
+        locale=en_GB languageTag=
+        extraValue=
+      Subtype #3:
+        locale=fr languageTag=
+        extraValue=
+      Subtype #4:
+        locale=de languageTag=
+        extraValue=
+      Subtype #5:
+        locale=it languageTag=
+        extraValue=
+      Subtype #6:
+        locale=es languageTag=
+        extraValue=
+      Subtype #7:
+        locale=ru languageTag=
+        extraValue=
+      Subtype #8:
+        locale=pt_BR languageTag=
+        extraValue=
+
+  Spell Checker Bind Groups:
+
+  mSettings:
+    mCurrentUserId=0
+    mCurrentProfileIds=[0]
+    mCopyOnWrite=false
+--------- 0.002s was the duration of dumpsys textservices

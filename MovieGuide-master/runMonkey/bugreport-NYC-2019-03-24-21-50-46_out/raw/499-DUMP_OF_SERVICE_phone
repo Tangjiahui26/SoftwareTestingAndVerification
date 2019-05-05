@@ -1,0 +1,50 @@
+******* OmtpVvm *******
+======= Configs =======
+  OmtpVvmCarrierConfigHelper [subId: 1, carrierConfig: true, telephonyConfig: true, type: vvm_type_cvvm, destinationNumber: 122, applicationPort: 1808, sslPort: 993, isEnabledByDefault: true, isCellularDataRequired: false, isPrefetchEnabled: true, isLegacyModeEnabled: false]
+======== Logs =========
+  03-24 21:48:17.899 - VvmSimChangeReceiver: Carrier config changed
+  03-24 21:48:17.909 - VvmSimChangeReceiver: Sim state or carrier config changed for 1
+  03-24 21:48:19.257 - VvmPhoneStateListener: Signal returned: reattempting activation for 1
+  03-24 21:48:19.266 - VvmTaskScheduler: create task:com.android.phone.vvm.omtp.ActivationTask
+  03-24 21:48:19.282 - VvmTaskScheduler: executing task com.android.phone.vvm.omtp.ActivationTask@3ee3c5a
+  03-24 21:48:19.285 - VvmTaskScheduler: create task:com.android.phone.vvm.omtp.ActivationTask
+  03-24 21:48:19.297 - VvmActivationTask: VVM content provider configured - vvm_type_cvvm
+  03-24 21:48:19.298 - OmtpVvmCarrierCfgHlpr: OmtpEvent:CONFIG_ACTIVATING
+  03-24 21:48:19.323 - OmtpMessageSender: Sending BINARY sms 'Activate:dt=15' to 122:1808
+  03-24 21:48:19.434 - VvmStatusSmsFetcher: Request SMS successfully sent
+  03-24 21:48:30.595 - VvmBootCompletedRcvr: processing subId list
+  03-24 21:48:30.596 - VvmBootCompletedRcvr: processing subId 1
+  03-24 21:48:30.598 - VvmSimChangeReceiver: Sim state or carrier config changed for 1
+  03-24 21:48:30.603 - VvmTaskScheduler: create task:com.android.phone.vvm.omtp.ActivationTask
+  03-24 21:48:42.755 - VvmSimChangeReceiver: Carrier config changed
+  03-24 21:48:42.757 - VvmSimChangeReceiver: Sim state or carrier config changed for 1
+  03-24 21:48:42.759 - VvmTaskScheduler: create task:com.android.phone.vvm.omtp.ActivationTask
+  03-24 21:49:19.214 - OmtpVvmCarrierCfgHlpr: OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+  03-24 21:49:19.215 - RetryPolicy: discarding deferred status: configuration_state=4
+  03-24 21:49:19.217 - VvmTaskScheduler: No more tasks, stopping service if no task are added in 5000 millis
+  03-24 21:49:19.217 - VvmTaskScheduler: create task:com.android.phone.vvm.omtp.ActivationTask
+  03-24 21:49:19.218 - RetryPolicy: retry #1 for com.android.phone.vvm.omtp.ActivationTask@f2ab72 queued, executing in 5000
+  03-24 21:49:19.219 - VvmTaskScheduler: minimal wait time:5000
+  03-24 21:49:19.219 - VvmTaskScheduler: minimal wait time:4999
+  03-24 21:49:24.224 - VvmTaskScheduler: executing task com.android.phone.vvm.omtp.ActivationTask@f2ab72
+  03-24 21:49:24.247 - VvmActivationTask: VVM content provider configured - vvm_type_cvvm
+  03-24 21:49:24.247 - OmtpVvmCarrierCfgHlpr: OmtpEvent:CONFIG_ACTIVATING
+  03-24 21:49:24.262 - OmtpMessageSender: Sending BINARY sms 'Activate:dt=15' to 122:1808
+  03-24 21:49:24.270 - VvmStatusSmsFetcher: Request SMS successfully sent
+  03-24 21:50:24.280 - OmtpVvmCarrierCfgHlpr: OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+  03-24 21:50:24.280 - RetryPolicy: discarding deferred status: configuration_state=4
+  03-24 21:50:24.282 - VvmTaskScheduler: No more tasks, stopping service if no task are added in 5000 millis
+  03-24 21:50:24.283 - VvmTaskScheduler: create task:com.android.phone.vvm.omtp.ActivationTask
+  03-24 21:50:24.283 - RetryPolicy: retry #2 for com.android.phone.vvm.omtp.ActivationTask@f2836ca queued, executing in 5000
+  03-24 21:50:24.285 - VvmTaskScheduler: minimal wait time:4999
+  03-24 21:50:24.292 - VvmTaskScheduler: minimal wait time:4991
+  03-24 21:50:26.752 - VvmSimChangeReceiver: Carrier config changed
+  03-24 21:50:26.761 - VvmSimChangeReceiver: Sim state or carrier config changed for 1
+  03-24 21:50:26.766 - VvmTaskScheduler: create task:com.android.phone.vvm.omtp.ActivationTask
+  03-24 21:50:26.766 - VvmTaskScheduler: minimal wait time:2517
+  03-24 21:50:29.286 - VvmTaskScheduler: executing task com.android.phone.vvm.omtp.ActivationTask@f2836ca
+  03-24 21:50:29.320 - VvmActivationTask: VVM content provider configured - vvm_type_cvvm
+  03-24 21:50:29.325 - OmtpVvmCarrierCfgHlpr: OmtpEvent:CONFIG_ACTIVATING
+  03-24 21:50:29.354 - OmtpMessageSender: Sending BINARY sms 'Activate:dt=15' to 122:1808
+  03-24 21:50:29.371 - VvmStatusSmsFetcher: Request SMS successfully sent
+--------- 0.008s was the duration of dumpsys phone

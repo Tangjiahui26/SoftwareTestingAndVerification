@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>MovieDetailsFragment.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">app</a> &gt; <a href="index.source.html" class="el_package">com.esoxjem.movieguide.details</a> &gt; <span class="el_source">MovieDetailsFragment.java</span></div><h1>MovieDetailsFragment.java</h1><pre class="source lang-java linenums">package com.esoxjem.movieguide.details;
+
+
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.FloatingActionButton;
+import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.HorizontalScrollView;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
+import com.esoxjem.movieguide.Api;
+import com.esoxjem.movieguide.BaseApplication;
+import com.esoxjem.movieguide.Constants;
+import com.esoxjem.movieguide.Movie;
+import com.esoxjem.movieguide.R;
+import com.esoxjem.movieguide.Review;
+import com.esoxjem.movieguide.Video;
+
+import java.util.List;
+
+import javax.inject.Inject;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+import butterknife.Unbinder;
+
+public class MovieDetailsFragment extends Fragment implements MovieDetailsView, View.OnClickListener
+{
+    @Inject
+    MovieDetailsPresenter movieDetailsPresenter;
+
+    @BindView(R.id.movie_poster)
+    ImageView poster;
+    @BindView(R.id.collapsing_toolbar)
+    CollapsingToolbarLayout collapsingToolbar;
+    @BindView(R.id.movie_name)
+    TextView title;
+    @BindView(R.id.movie_year)
+    TextView releaseDate;
+    @BindView(R.id.movie_rating)
+    TextView rating;
+    @BindView(R.id.movie_description)
+    TextView overview;
+    @BindView(R.id.trailers_label)
+    TextView label;
+    @BindView(R.id.trailers)
+    LinearLayout trailers;
+    @BindView(R.id.trailers_container)
+    HorizontalScrollView horizontalScrollView;
+    @BindView(R.id.reviews_label)
+    TextView reviews;
+    @BindView(R.id.reviews)
+    LinearLayout reviewsContainer;
+    @BindView(R.id.favorite)
+    FloatingActionButton favorite;
+    @BindView(R.id.toolbar)
+    @Nullable Toolbar toolbar;
+
+    private Movie movie;
+    private Unbinder unbinder;
+
+    public MovieDetailsFragment()
+<span class="fc" id="L79">    {</span>
+        // Required empty public constructor
+<span class="fc" id="L81">    }</span>
+
+    public static MovieDetailsFragment getInstance(@NonNull Movie movie)
+    {
+<span class="fc" id="L85">        Bundle args = new Bundle();</span>
+<span class="fc" id="L86">        args.putParcelable(Constants.MOVIE, movie);</span>
+<span class="fc" id="L87">        MovieDetailsFragment movieDetailsFragment = new MovieDetailsFragment();</span>
+<span class="fc" id="L88">        movieDetailsFragment.setArguments(args);</span>
+<span class="fc" id="L89">        return movieDetailsFragment;</span>
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState)
+    {
+<span class="fc" id="L95">        super.onCreate(savedInstanceState);</span>
+<span class="fc" id="L96">        setRetainInstance(true);</span>
+<span class="fc" id="L97">        ((BaseApplication) getActivity().getApplication()).createDetailsComponent().inject(this);</span>
+<span class="fc" id="L98">    }</span>
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState)
+    {
+<span class="fc" id="L104">        View rootView = inflater.inflate(R.layout.fragment_movie_details, container, false);</span>
+<span class="fc" id="L105">        unbinder = ButterKnife.bind(this, rootView);</span>
+<span class="fc" id="L106">        setToolbar();</span>
+<span class="fc" id="L107">        return rootView;</span>
+    }
+
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState)
+    {
+<span class="fc" id="L113">        super.onViewCreated(view, savedInstanceState);</span>
+<span class="pc bpc" id="L114" title="1 of 2 branches missed.">        if (getArguments() != null)</span>
+        {
+<span class="fc" id="L116">            Movie movie = (Movie) getArguments().get(Constants.MOVIE);</span>
+<span class="pc bpc" id="L117" title="1 of 2 branches missed.">            if (movie != null)</span>
+            {
+<span class="fc" id="L119">                this.movie = movie;</span>
+<span class="fc" id="L120">                movieDetailsPresenter.setView(this);</span>
+<span class="fc" id="L121">                movieDetailsPresenter.showDetails((movie));</span>
+<span class="fc" id="L122">                movieDetailsPresenter.showFavoriteButton(movie);</span>
+            }
+        }
+<span class="fc" id="L125">    }</span>
+
+    private void setToolbar()
+    {
+<span class="fc" id="L129">        collapsingToolbar.setContentScrimColor(ContextCompat.getColor(getContext(), R.color.colorPrimary));</span>
+<span class="fc" id="L130">        collapsingToolbar.setTitle(getString(R.string.movie_details));</span>
+<span class="fc" id="L131">        collapsingToolbar.setCollapsedTitleTextAppearance(R.style.CollapsedToolbar);</span>
+<span class="fc" id="L132">        collapsingToolbar.setExpandedTitleTextAppearance(R.style.ExpandedToolbar);</span>
+<span class="fc" id="L133">        collapsingToolbar.setTitleEnabled(true);</span>
+
+<span class="pc bpc" id="L135" title="1 of 2 branches missed.">        if (toolbar != null)</span>
+        {
+<span class="fc" id="L137">            ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);</span>
+
+<span class="fc" id="L139">            ActionBar actionBar = ((AppCompatActivity) getActivity()).getSupportActionBar();</span>
+<span class="pc bpc" id="L140" title="1 of 2 branches missed.">            if (actionBar != null)</span>
+            {
+<span class="fc" id="L142">                actionBar.setDisplayHomeAsUpEnabled(true);</span>
+            }
+        } else
+        {
+            // Don't inflate. Tablet is in landscape mode.
+        }
+<span class="fc" id="L148">    }</span>
+
+    @Override
+    public void showDetails(Movie movie)
+    {
+<span class="fc" id="L153">        Glide.with(getContext()).load(Api.getBackdropPath(movie.getBackdropPath())).into(poster);</span>
+<span class="fc" id="L154">        title.setText(movie.getTitle());</span>
+<span class="fc" id="L155">        releaseDate.setText(String.format(getString(R.string.release_date), movie.getReleaseDate()));</span>
+<span class="fc" id="L156">        rating.setText(String.format(getString(R.string.rating), String.valueOf(movie.getVoteAverage())));</span>
+<span class="fc" id="L157">        overview.setText(movie.getOverview());</span>
+<span class="fc" id="L158">        movieDetailsPresenter.showTrailers(movie);</span>
+<span class="fc" id="L159">        movieDetailsPresenter.showReviews(movie);</span>
+<span class="fc" id="L160">    }</span>
+
+    @Override
+    public void showTrailers(List&lt;Video&gt; trailers)
+    {
+<span class="pc bpc" id="L165" title="1 of 2 branches missed.">        if (trailers.isEmpty())</span>
+        {
+<span class="nc" id="L167">            label.setVisibility(View.GONE);</span>
+<span class="nc" id="L168">            this.trailers.setVisibility(View.GONE);</span>
+<span class="nc" id="L169">            horizontalScrollView.setVisibility(View.GONE);</span>
+
+        } else
+        {
+<span class="fc" id="L173">            label.setVisibility(View.VISIBLE);</span>
+<span class="fc" id="L174">            this.trailers.setVisibility(View.VISIBLE);</span>
+<span class="fc" id="L175">            horizontalScrollView.setVisibility(View.VISIBLE);</span>
+
+<span class="fc" id="L177">            this.trailers.removeAllViews();</span>
+<span class="fc" id="L178">            LayoutInflater inflater = getActivity().getLayoutInflater();</span>
+<span class="fc" id="L179">            RequestOptions options = new RequestOptions()</span>
+<span class="fc" id="L180">                    .placeholder(R.color.colorPrimary)</span>
+<span class="fc" id="L181">                    .centerCrop()</span>
+<span class="fc" id="L182">                    .override(150, 150);</span>
+
+<span class="fc bfc" id="L184" title="All 2 branches covered.">            for (Video trailer : trailers)</span>
+            {
+<span class="fc" id="L186">                View thumbContainer = inflater.inflate(R.layout.video, this.trailers, false);</span>
+<span class="fc" id="L187">                ImageView thumbView = ButterKnife.findById(thumbContainer, R.id.video_thumb);</span>
+<span class="fc" id="L188">                thumbView.setTag(R.id.glide_tag, Video.getUrl(trailer));</span>
+<span class="fc" id="L189">                thumbView.requestLayout();</span>
+<span class="fc" id="L190">                thumbView.setOnClickListener(this);</span>
+<span class="fc" id="L191">                Glide.with(getContext())</span>
+<span class="fc" id="L192">                        .load(Video.getThumbnailUrl(trailer))</span>
+<span class="fc" id="L193">                        .apply(options)</span>
+<span class="fc" id="L194">                        .into(thumbView);</span>
+<span class="fc" id="L195">                this.trailers.addView(thumbContainer);</span>
+<span class="fc" id="L196">            }</span>
+        }
+<span class="fc" id="L198">    }</span>
+
+    @Override
+    public void showReviews(List&lt;Review&gt; reviews)
+    {
+<span class="pc bpc" id="L203" title="1 of 2 branches missed.">        if (reviews.isEmpty())</span>
+        {
+<span class="nc" id="L205">            this.reviews.setVisibility(View.GONE);</span>
+<span class="nc" id="L206">            reviewsContainer.setVisibility(View.GONE);</span>
+        } else
+        {
+<span class="fc" id="L209">            this.reviews.setVisibility(View.VISIBLE);</span>
+<span class="fc" id="L210">            reviewsContainer.setVisibility(View.VISIBLE);</span>
+
+<span class="fc" id="L212">            reviewsContainer.removeAllViews();</span>
+<span class="fc" id="L213">            LayoutInflater inflater = getActivity().getLayoutInflater();</span>
+<span class="fc bfc" id="L214" title="All 2 branches covered.">            for (Review review : reviews)</span>
+            {
+<span class="fc" id="L216">                ViewGroup reviewContainer = (ViewGroup) inflater.inflate(R.layout.review, reviewsContainer, false);</span>
+<span class="fc" id="L217">                TextView reviewAuthor = ButterKnife.findById(reviewContainer, R.id.review_author);</span>
+<span class="fc" id="L218">                TextView reviewContent = ButterKnife.findById(reviewContainer, R.id.review_content);</span>
+<span class="fc" id="L219">                reviewAuthor.setText(review.getAuthor());</span>
+<span class="fc" id="L220">                reviewContent.setText(review.getContent());</span>
+<span class="fc" id="L221">                reviewContent.setOnClickListener(this);</span>
+<span class="fc" id="L222">                reviewsContainer.addView(reviewContainer);</span>
+<span class="fc" id="L223">            }</span>
+        }
+<span class="fc" id="L225">    }</span>
+
+    @Override
+    public void showFavorited()
+    {
+<span class="fc" id="L230">        favorite.setImageDrawable(ContextCompat.getDrawable(getContext(), R.drawable.ic_favorite_white_24dp));</span>
+<span class="fc" id="L231">    }</span>
+
+    @Override
+    public void showUnFavorited()
+    {
+<span class="fc" id="L236">        favorite.setImageDrawable(ContextCompat.getDrawable(getContext(), R.drawable.ic_favorite_border_white_24dp));</span>
+<span class="fc" id="L237">    }</span>
+
+    @OnClick(R.id.favorite)
+    public void onClick(View view)
+    {
+<span class="pc bpc" id="L242" title="2 of 4 branches missed.">        switch (view.getId())</span>
+        {
+            case R.id.video_thumb:
+<span class="fc" id="L245">                onThumbnailClick(view);</span>
+<span class="fc" id="L246">                break;</span>
+
+            case R.id.review_content:
+<span class="nc" id="L249">                onReviewClick((TextView) view);</span>
+<span class="nc" id="L250">                break;</span>
+
+            case R.id.favorite:
+<span class="fc" id="L253">                onFavoriteClick();</span>
+<span class="fc" id="L254">                break;</span>
+
+            default:
+                break;
+        }
+<span class="fc" id="L259">    }</span>
+
+    private void onReviewClick(TextView view)
+    {
+<span class="nc bnc" id="L263" title="All 2 branches missed.">        if (view.getMaxLines() == 5)</span>
+        {
+<span class="nc" id="L265">            view.setMaxLines(500);</span>
+        } else
+        {
+<span class="nc" id="L268">            view.setMaxLines(5);</span>
+        }
+<span class="nc" id="L270">    }</span>
+
+    private void onThumbnailClick(View view)
+    {
+<span class="fc" id="L274">        String videoUrl = (String) view.getTag(R.id.glide_tag);</span>
+<span class="fc" id="L275">        Intent playVideoIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(videoUrl));</span>
+<span class="fc" id="L276">        startActivity(playVideoIntent);</span>
+<span class="fc" id="L277">    }</span>
+
+    private void onFavoriteClick()
+    {
+<span class="fc" id="L281">        movieDetailsPresenter.onFavoriteClick(movie);</span>
+<span class="fc" id="L282">    }</span>
+
+    @Override
+    public void onDestroyView()
+    {
+<span class="fc" id="L287">        super.onDestroyView();</span>
+<span class="fc" id="L288">        movieDetailsPresenter.destroy();</span>
+<span class="fc" id="L289">        unbinder.unbind();</span>
+<span class="fc" id="L290">    }</span>
+
+    @Override
+    public void onDestroy()
+    {
+<span class="fc" id="L295">        super.onDestroy();</span>
+<span class="fc" id="L296">        ((BaseApplication) getActivity().getApplication()).releaseDetailsComponent();</span>
+<span class="fc" id="L297">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.4.201502262128</span></div></body></html>

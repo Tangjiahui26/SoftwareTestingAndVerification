@@ -1,0 +1,8 @@
+Filesystem      1K-blocks    Used Available Use% Mounted on
+tmpfs              775336     476    774860   1% /dev
+tmpfs              775336       0    775336   0% /mnt
+/dev/block/vda    2539312 1971072    551856  79% /system
+/dev/block/vdb      62416      56     61012   1% /cache
+/dev/block/dm-0    793488  141084    636020  19% /data
+/dev/fuse          793488  141084    636020  19% /storage/emulated
+/dev/fuse          522228      52    522176   1% /storage/08E3-1919

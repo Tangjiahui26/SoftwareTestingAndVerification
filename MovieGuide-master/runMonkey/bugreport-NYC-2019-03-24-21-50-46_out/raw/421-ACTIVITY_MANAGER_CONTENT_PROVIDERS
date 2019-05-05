@@ -1,0 +1,779 @@
+  Published single-user content providers (by class):
+  * ContentProviderRecord{2599d46 u0 com.android.providers.settings/.SettingsProvider}
+    package=com.android.providers.settings process=system
+    proc=ProcessRecord{a657cdb 1700:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@a0f732c
+    singleton=true
+    authority=settings
+    isSyncable=false multiprocess=false initOrder=100
+    Connections:
+      -> 1822:com.android.inputmethod.latin/u0a53 s1/1 u0/0 +2m40s727ms
+      -> 1850:com.android.systemui/u0a28 s1/1 u0/0 +2m40s630ms
+      -> 1989:com.android.phone/1001 s1/1 u0/0 +2m40s16ms
+      -> 2338:com.google.process.gapps/u0a13 s1/1 u0/0 +2m38s267ms
+      -> 2522:com.google.android.apps.nexuslauncher/u0a22 s1/1 u0/0 +2m37s488ms
+      -> 2259:com.google.android.gms.persistent/u0a13 s1/1 u0/0 +2m36s321ms
+      -> 2678:android.process.acore/u0a1 s1/1 u0/0 +2m35s699ms
+      -> 2671:android.process.media/u0a10 s1/1 u0/0 +2m34s431ms
+      -> 2428:com.google.android.googlequicksearchbox:search/u0a29 s1/1 u0/0 +2m34s234ms
+      -> 2563:com.google.android.gms/u0a13 s1/1 u0/0 +2m33s889ms
+      -> 4014:com.android.defcontainer/u0a8 s1/1 u0/0 +2m13s854ms
+      -> 5026:com.esoxjem.movieguide/u0a84 s1/1 u0/0 +30s116ms
+      -> 5108:com.google.android.apps.messaging/u0a66 s1/1 u0/0 +26s637ms
+      -> 4798:com.google.android.gms.unstable/u0a13 s1/1 u0/0 +26s210ms
+  * ContentProviderRecord{8377b07 u0 com.android.providers.telephony/.HbpcdLookupProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{e307ad2 1989:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@585b434
+    singleton=true
+    authority=hbpcd_lookup
+  * ContentProviderRecord{b0dc25d u0 com.android.providers.telephony/.TelephonyProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{e307ad2 1989:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@70247d2
+    singleton=true
+    authority=telephony
+  * ContentProviderRecord{c46c0a3 u0 com.android.providers.telephony/.SmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{e307ad2 1989:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@9e3dfa0
+    singleton=true
+    authority=sms
+  * ContentProviderRecord{9e92759 u0 android/com.android.server.am.DumpHeapProvider}
+    package=android process=system
+    proc=ProcessRecord{a657cdb 1700:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@db3a1f5
+    singleton=true
+    authority=com.android.server.heapdump
+  * ContentProviderRecord{a190f1e u0 com.android.providers.telephony/.MmsSmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{e307ad2 1989:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@e7ac3ff
+    singleton=true
+    authority=mms-sms
+  * ContentProviderRecord{83755cc u0 com.android.providers.telephony/.MmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{e307ad2 1989:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@37be015
+    singleton=true
+    authority=mms
+
+  Published user 0 content providers (by class):
+  * ContentProviderRecord{f42ff2a u0 com.android.chrome/org.chromium.chrome.browser.provider.ChromeBrowserProvider}
+    package=com.android.chrome process=com.android.chrome
+    proc=ProcessRecord{dc1a11b 4924:com.android.chrome/u0a37}
+    uid=10037 provider=android.content.ContentProviderProxy@6a02b8
+    authority=com.android.chrome.ChromeBrowserProvider;com.android.chrome.browser;com.android.chrome
+  * ContentProviderRecord{c476891 u0 com.google.android.talk/com.google.android.apps.hangouts.directshare.impl.DirectShareProvider}
+    package=com.google.android.talk process=com.google.android.talk
+    proc=ProcessRecord{1a02a 3912:com.google.android.talk/u0a52}
+    uid=10052 provider=android.content.ContentProviderProxy@d69e3f6
+    authority=com.google.android.apps.hangouts.directshare.impl.DirectShareProvider
+  * ContentProviderRecord{fcf33f7 u0 com.google.android.gsf/.subscribedfeeds.SubscribedFeedsProvider}
+    package=com.google.android.gsf process=com.google.process.gapps
+    proc=ProcessRecord{5189264 2338:com.google.process.gapps/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@568fccd
+    authority=subscribedfeeds
+  * ContentProviderRecord{e484982 u0 com.google.android.gms/.fonts.provider.FontsProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@7b91893
+    authority=com.google.android.gms.fonts
+  * ContentProviderRecord{3fe70d0 u0 com.android.chrome/org.chromium.chrome.browser.superviseduser.SupervisedUserContentProvider}
+    package=com.android.chrome process=com.android.chrome
+    proc=ProcessRecord{dc1a11b 4924:com.android.chrome/u0a37}
+    uid=10037 provider=android.content.ContentProviderProxy@a9598c9
+    authority=com.android.chrome.SupervisedUserProvider
+  * ContentProviderRecord{ab57bce u0 com.google.android.apps.photos/com.google.android.apps.consumerphotoeditor.renderedimageprovider.RenderedImageContentProvider}
+    package=com.google.android.apps.photos process=com.google.android.apps.photos
+    proc=ProcessRecord{3a1ec3a 3402:com.google.android.apps.photos/u0a65}
+    uid=10065 provider=android.content.ContentProviderProxy@a52aaef
+    authority=com.google.android.apps.consumerphotoeditor.renderedimagecontentprovider
+  * ContentProviderRecord{921c9fc u0 com.google.android.gms/.trustagent.framework.model.be.ModelContentProvider}
+    package=com.google.android.gms process=com.google.android.gms.persistent
+    proc=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@3d5f885
+    authority=com.google.android.gms.trustagent.framework.model.be.provider
+  * ContentProviderRecord{fb186da u0 com.google.android.music/.search.IcingContentProvider}
+    package=com.google.android.music process=com.google.android.music:main
+    proc=ProcessRecord{4742daa 4272:com.google.android.music:main/u0a58}
+    uid=10058 provider=android.content.ContentProviderProxy@c49070b
+    authority=com.google.android.music.icing
+  * ContentProviderRecord{8bf89e8 u0 com.google.android.gsf/.settings.GoogleSettingsProvider}
+    package=com.google.android.gsf process=com.google.process.gapps
+    proc=ProcessRecord{5189264 2338:com.google.process.gapps/u0a13}
+    launchingApp=ProcessRecord{5189264 2338:com.google.process.gapps/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@7029801
+    authority=com.google.settings
+    isSyncable=false multiprocess=false initOrder=100
+  * ContentProviderRecord{83136a6 u0 com.google.android.apps.messaging/.shared.datamodel.BugleContentProvider}
+    package=com.google.android.apps.messaging process=com.google.android.apps.messaging
+    proc=ProcessRecord{8c12928 5108:com.google.android.apps.messaging/u0a66}
+    uid=10066 provider=android.content.ContentProviderProxy@5ff08e7
+    authority=com.google.android.apps.messaging.shared.datamodel.BugleContentProvider
+  * ContentProviderRecord{bf75c94 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.projection.CarAudioProvider}
+    package=com.google.android.googlequicksearchbox process=com.google.android.googlequicksearchbox:search
+    proc=ProcessRecord{2d24365 2428:com.google.android.googlequicksearchbox:search/u0a29}
+    uid=10029 provider=android.content.ContentProviderProxy@4ffb33d
+    authority=com.google.android.apps.gsa.projection.CarAudioProvider
+  * ContentProviderRecord{7aa1732 u0 com.google.android.talk/com.google.android.apps.hangouts.mergedcontacts.impl.MergedContactProviderImpl}
+    package=com.google.android.talk process=com.google.android.talk
+    proc=ProcessRecord{1a02a 3912:com.google.android.talk/u0a52}
+    uid=10052 provider=android.content.ContentProviderProxy@9294c83
+    authority=com.google.android.apps.hangouts.mergedcontacts.MergedContactProvider
+  * ContentProviderRecord{c37ae00 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.voiceinteraction.hotword.HotwordAudioProvider}
+    package=com.google.android.googlequicksearchbox process=com.google.android.googlequicksearchbox:interactor
+    proc=ProcessRecord{3174 2281:com.google.android.googlequicksearchbox:interactor/u0a29}
+    uid=10029 provider=android.content.ContentProviderProxy@eb94639
+    authority=com.google.android.apps.gsa.voiceinteraction.hotword.HotwordAudioProvider
+  * ContentProviderRecord{15e747e u0 com.google.android.gm/.provider.MailProvider}
+    package=com.google.android.gm process=com.google.android.gm
+    proc=ProcessRecord{dcc74 3945:com.google.android.gm/u0a68}
+    uid=10068 provider=android.content.ContentProviderProxy@42a2ddf
+    authority=gmail-ls
+  * ContentProviderRecord{969aa2c u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.speech.audio.AudioProvider}
+    package=com.google.android.googlequicksearchbox process=com.google.android.googlequicksearchbox:search
+    proc=ProcessRecord{2d24365 2428:com.google.android.googlequicksearchbox:search/u0a29}
+    uid=10029 provider=android.content.ContentProviderProxy@ddf0cf5
+    authority=com.google.android.googlequicksearchbox.AudioProvider
+  * ContentProviderRecord{8695a8a u0 com.google.android.gms/.people.service.PeopleGalProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@f2dc8fb
+    authority=com.google.android.gms.people.gal.provider
+  * ContentProviderRecord{6dd3d18 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.icingsync.InternalIcingCorporaProvider}
+    package=com.google.android.googlequicksearchbox process=com.google.android.googlequicksearchbox:search
+    proc=ProcessRecord{2d24365 2428:com.google.android.googlequicksearchbox:search/u0a29}
+    uid=10029 provider=android.content.ContentProviderProxy@d608371
+    authority=com.google.android.googlequicksearchbox.icing
+  * ContentProviderRecord{48a9556 u0 com.google.android.gms/.subscribedfeeds.GmsSubscribedFeedsProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@f05f9d7
+    authority=com.google.android.gms.subscribedfeeds
+  * ContentProviderRecord{af512c4 u0 com.google.android.talk/com.google.android.libraries.matchstick.debug.DumpProvider}
+    package=com.google.android.talk process=com.google.android.talk:matchstick
+    proc=ProcessRecord{da8e5ad 4367:com.google.android.talk:matchstick/u0a52}
+    uid=10052 provider=android.content.ContentProviderProxy@7b2b0e2
+    authority=com.google.android.libraries.matchstick.debug.dumpprovider
+  * ContentProviderRecord{9c65c73 u0 com.google.android.gm/.provider.GmailProvider}
+    package=com.google.android.gm process=com.google.android.gm
+    proc=ProcessRecord{dcc74 3945:com.google.android.gm/u0a68}
+    uid=10068 provider=android.content.ContentProviderProxy@d929730
+    authority=com.android.gmail.ui
+  * ContentProviderRecord{9b2fa9 u0 com.google.android.gms/com.google.android.location.reporting.service.utils.ReportingContentProvider}
+    package=com.google.android.gms process=com.google.android.gms.persistent
+    proc=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@4ef92e
+    authority=com.google.android.location.reporting
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{9204ccf u0 com.google.android.talk/android.support.v4.content.FileProvider}
+    package=com.google.android.talk process=com.google.android.talk
+    proc=ProcessRecord{1a02a 3912:com.google.android.talk/u0a52}
+    uid=10052 provider=android.content.ContentProviderProxy@141f65c
+    authority=com.google.android.apps.hangouts.conversation.v2
+  * ContentProviderRecord{94e1d65 u0 com.google.android.gms/.fitness.sync.FitnessContentProvider}
+    package=com.google.android.gms process=com.google.android.gms.persistent
+    proc=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@4557a3a
+    authority=com.google.android.gms.fitness
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{67ee6eb u0 com.android.providers.downloads/.DownloadProvider}
+    package=com.android.providers.downloads process=android.process.media
+    proc=ProcessRecord{141c008 2671:android.process.media/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@3261c48
+    authority=downloads
+  * ContentProviderRecord{b882ae1 u0 com.android.providers.contacts/.CallLogProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{1110006 2678:android.process.acore/u0a1}
+    uid=10001 provider=android.content.ContentProviderProxy@ce306c7
+    authority=call_log
+  * ContentProviderRecord{da4b4f4 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.imageloader.NetworkImageLoaderContentProvider}
+    package=com.google.android.googlequicksearchbox process=com.google.android.googlequicksearchbox:search
+    proc=ProcessRecord{2d24365 2428:com.google.android.googlequicksearchbox:search/u0a29}
+    uid=10029 provider=android.content.ContentProviderProxy@6fb941d
+    authority=com.google.android.googlequicksearchbox.NetworkImageLoaderContentProvider
+  * ContentProviderRecord{bad1692 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.ondevicewebsuggest.OnDeviceWebSuggestHostProvider}
+    package=com.google.android.googlequicksearchbox process=com.google.android.googlequicksearchbox:search
+    proc=ProcessRecord{2d24365 2428:com.google.android.googlequicksearchbox:search/u0a29}
+    uid=10029 provider=android.content.ContentProviderProxy@c7f4863
+    authority=com.google.android.googlequicksearchbox.OnDeviceWebSuggestHostProvider
+  * ContentProviderRecord{9d22c60 u0 com.google.android.gms/.games.chimera.GamesContentProviderProxy}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@a425519
+    authority=com.google.android.gms.games.background
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{e8209de u0 com.google.android.gms/com.google.android.location.internal.server.HistorianFileProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@c1407bf
+    authority=com.google.android.location.internal.server.fileprovider
+  * ContentProviderRecord{b9dae8c u0 com.google.android.apps.photos/.photoeditor.contentprovider.EditMediaContentProvider}
+    package=com.google.android.apps.photos process=com.google.android.apps.photos
+    proc=ProcessRecord{3a1ec3a 3402:com.google.android.apps.photos/u0a65}
+    uid=10065 provider=android.content.ContentProviderProxy@99a29d5
+    authority=com.google.android.apps.photos.photoeditor.contentprovider
+  * ContentProviderRecord{f20e5ea u0 com.android.chrome/com.android.webview.chromium.LicenseContentProvider}
+    package=com.android.chrome process=com.android.chrome
+    proc=ProcessRecord{dc1a11b 4924:com.android.chrome/u0a37}
+    uid=10037 provider=android.content.ContentProviderProxy@40b60db
+    authority=com.android.chrome.LicenseContentProvider
+  * ContentProviderRecord{4bd2778 u0 com.android.providers.contacts/.ContactMetadataProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{1110006 2678:android.process.acore/u0a1}
+    uid=10001 provider=android.content.ContentProviderProxy@5608e51
+    authority=com.android.contacts.metadata
+  * ContentProviderRecord{91f76b6 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.velvet.util.StateDumpProvider}
+    package=com.google.android.googlequicksearchbox process=com.google.android.googlequicksearchbox:search
+    proc=ProcessRecord{2d24365 2428:com.google.android.googlequicksearchbox:search/u0a29}
+    uid=10029 provider=android.content.ContentProviderProxy@f552fb7
+    authority=com.google.android.velvet.util.statedumpprovider
+  * ContentProviderRecord{a594324 u0 com.android.cellbroadcastreceiver/.CellBroadcastSearchIndexableProvider}
+    package=com.android.cellbroadcastreceiver process=com.android.cellbroadcastreceiver
+    proc=ProcessRecord{c4ebe8d 5060:com.android.cellbroadcastreceiver/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@9a44842
+    authority=com.android.cellbroadcastreceiver
+  * ContentProviderRecord{e031053 u0 com.android.phone/.PhoneSearchIndexablesProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{e307ad2 1989:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@9796d90
+    authority=com.android.phone
+  * ContentProviderRecord{575b689 u0 com.google.android.gms/.wallet.setupwizard.PaymentsSetupWizardSuggestionStateProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@7b2a68e
+    authority=com.google.android.gms.wallet
+  * ContentProviderRecord{5a45eaf u0 com.google.android.gms/.wallet.provider.WalletFileProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@62fd2bc
+    authority=com.google.android.gms.wallet.fileprovider
+  * ContentProviderRecord{dfa3245 u0 com.google.android.gms/.phenotype.provider.ConfigurationProvider}
+    package=com.google.android.gms process=com.google.android.gms.persistent
+    proc=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@5369d9a
+    authority=com.google.android.gms.phenotype
+  * ContentProviderRecord{b6236cb u0 com.google.android.talk/com.google.android.libraries.matchstick.provider.AppDataProvider}
+    package=com.google.android.talk process=com.google.android.talk:matchstick
+    proc=ProcessRecord{da8e5ad 4367:com.google.android.talk:matchstick/u0a52}
+    uid=10052 provider=android.content.ContentProviderProxy@1855ea8
+    authority=com.google.android.libraries.matchstick.provider
+  * ContentProviderRecord{690adc1 u0 com.google.android.gms/.security.provider.SecurityProvider}
+    package=com.google.android.gms process=com.google.android.gms.persistent
+    proc=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@4d0f966
+    authority=com.google.android.gms.security.provider
+  * ContentProviderRecord{3db74a7 u0 com.google.android.gms/.people.service.PeopleContentProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@225bd54
+    authority=com.google.android.gms.people
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{cb964fd u0 com.google.android.gms/.plus.provider.PlusProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@6345f2
+    authority=com.google.android.gms.plus;com.google.android.gms.plus.action
+  * ContentProviderRecord{4c0b443 u0 com.google.android.gms/.icing.proxy.AppsContentProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@bcb5ac0
+    authority=com.google.android.gms.icing.proxy.apps
+  * ContentProviderRecord{bbc53f9 u0 com.google.android.gms/.thunderbird.config.EmergencyConfigContentProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@c5bcf3e
+    authority=com.google.android.gms.thunderbird.config
+  * ContentProviderRecord{430519f u0 com.google.android.gms/com.google.android.libraries.social.autobackup.AutoBackupProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@16b62ec
+    authority=com.google.android.gms.photos.iu.EsGoogleIuProvider
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{16536b5 u0 com.google.android.gm/com.android.email.provider.AttachmentProvider}
+    package=com.google.android.gm process=com.google.android.gm
+    proc=ProcessRecord{dcc74 3945:com.google.android.gm/u0a68}
+    uid=10068 provider=android.content.ContentProviderProxy@3c1a14a
+    authority=com.google.android.gmail.attachmentprovider;com.google.android.gm.email.attachmentprovider
+  * ContentProviderRecord{1d268bb u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.velvet.extradex.ExtraDexHostProvider}
+    package=com.google.android.googlequicksearchbox process=com.google.android.googlequicksearchbox:search
+    proc=ProcessRecord{2d24365 2428:com.google.android.googlequicksearchbox:search/u0a29}
+    uid=10029 provider=android.content.ContentProviderProxy@e21c1d8
+    authority=com.google.android.apps.gsa.velvet.extradex.ExtraDexHostProvider
+  * ContentProviderRecord{27f8931 u0 com.google.android.gm/com.android.mail.browse.GmailConversationProvider}
+    package=com.google.android.gm process=com.google.android.gm
+    proc=ProcessRecord{dcc74 3945:com.google.android.gm/u0a68}
+    uid=10068 provider=android.content.ContentProviderProxy@9008816
+    authority=com.google.android.gm2.conversation.provider
+  * ContentProviderRecord{5b4d597 u0 com.google.android.gms/.icing.indexapi.IndexApiContentProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@dd2384
+    authority=com.google.android.gms.icing.indexapi
+  * ContentProviderRecord{b12876d u0 com.android.settings/.search.SettingsSearchIndexablesProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{7750fa2 5087:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@e73433
+    authority=com.android.settings
+  * ContentProviderRecord{6caf3f0 u0 com.google.android.gm/.provider.PublicContentProvider}
+    package=com.google.android.gm process=com.google.android.gm
+    proc=ProcessRecord{dcc74 3945:com.google.android.gm/u0a68}
+    uid=10068 provider=android.content.ContentProviderProxy@65d2d69
+    authority=com.google.android.gm
+  * ContentProviderRecord{1b883ee u0 com.google.android.gm/.provider.SearchQuery$Provider}
+    package=com.google.android.gm process=com.google.android.gm
+    proc=ProcessRecord{dcc74 3945:com.google.android.gm/u0a68}
+    uid=10068 provider=android.content.ContentProviderProxy@bd6e08f
+    authority=gmail-appindexing
+  * ContentProviderRecord{835f1c u0 com.google.android.gm/com.android.exchange.provider.ExchangeDirectoryProvider}
+    package=com.google.android.gm process=com.google.android.gm
+    proc=ProcessRecord{dcc74 3945:com.google.android.gm/u0a68}
+    uid=10068 provider=android.content.ContentProviderProxy@a923725
+    authority=com.google.android.gm.exchange.bundled.directory.provider
+  * ContentProviderRecord{8acf0fa u0 com.google.android.gms/.auth.api.credentials.sync.CredentialContentProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@e6af6ab
+    authority=com.google.android.gms.auth.api.credentials
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{df55108 u0 com.android.providers.userdictionary/.UserDictionaryProvider}
+    package=com.android.providers.userdictionary process=android.process.acore
+    proc=ProcessRecord{1110006 2678:android.process.acore/u0a1}
+    uid=10001 provider=android.content.ContentProviderProxy@45420a1
+    authority=user_dictionary
+  * ContentProviderRecord{74922c6 u0 com.google.android.gms/android.support.v4.content.FileProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@de05287
+    authority=com.google.android.gms.fitness.fileprovider
+  * ContentProviderRecord{d1275b4 u0 com.google.android.gms/.matchstick.data.AppDataProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@df125dd
+    authority=com.google.android.gms.matchstick.appdataprovider
+  * ContentProviderRecord{f24a552 u0 com.google.android.gms/.chromesync.sync.SyncContentProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@c659023
+    authority=com.google.android.gms.chromesync
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{73b3920 u0 com.google.android.partnersetup/.RlzProvider}
+    package=com.google.android.partnersetup process=com.google.android.partnersetup
+    proc=ProcessRecord{e5f42d9 5217:com.google.android.partnersetup/u0a19}
+    uid=10019 provider=android.content.ContentProviderProxy@1c3c49e
+    authority=com.google.android.partnersetup.rlzprovider
+  * ContentProviderRecord{6770b7f u0 com.android.chrome/com.google.android.apps.chrome.icing.IcingProvider}
+    package=com.android.chrome process=com.android.chrome
+    proc=ProcessRecord{dc1a11b 4924:com.android.chrome/u0a37}
+    uid=10037 provider=android.content.ContentProviderProxy@96ac74c
+    authority=com.android.chrome.icing
+  * ContentProviderRecord{bf83395 u0 com.google.android.gms/.auth.account.be.legacy.AccountContentProvider}
+    package=com.google.android.gms process=com.google.android.gms.persistent
+    proc=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@2a38caa
+    authority=com.google.android.gms.auth.accounts
+  * ContentProviderRecord{9fae09b u0 com.android.inputmethod.latin/com.android.inputmethod.dictionarypack.DictionaryProvider}
+    package=com.android.inputmethod.latin process=com.android.inputmethod.latin
+    proc=ProcessRecord{3230c38 1822:com.android.inputmethod.latin/u0a53}
+    uid=10053 provider=android.content.ContentProviderProxy@ef57411
+    authority=com.android.inputmethod.dictionarypack.aosp
+  * ContentProviderRecord{e05c976 u0 com.android.phone/.IccProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{e307ad2 1989:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@31ceb77
+    authority=icc
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{818b3e4 u0 com.google.android.gms/com.google.android.libraries.matchstick.provider.MatchstickFileProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@fac404d
+    authority=com.google.android.libraries.matchstick.provider.fileprovider
+  * ContentProviderRecord{7d0702 u0 com.google.android.music/.store.ConfigContentProvider}
+    package=com.google.android.music process=com.google.android.music:main
+    proc=ProcessRecord{4742daa 4272:com.google.android.music:main/u0a58}
+    uid=10058 provider=android.content.ContentProviderProxy@aeac813
+    authority=com.google.android.music.ConfigContent
+    isSyncable=false multiprocess=false initOrder=3
+  * ContentProviderRecord{9f2a50 u0 com.android.providers.media/.MediaProvider}
+    package=com.android.providers.media process=android.process.media
+    proc=ProcessRecord{141c008 2671:android.process.media/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@c899449
+    authority=media
+  * ContentProviderRecord{b38914e u0 com.google.android.gms/.chimera.container.GmsModuleProvider}
+    package=com.google.android.gms process=com.google.android.gms.persistent
+    proc=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@3afd26f
+    authority=com.google.android.chimera;com.google.android.gms.chimera
+  * ContentProviderRecord{4d49b7c u0 com.google.android.partnersetup/.RlzAppProvider}
+    package=com.google.android.partnersetup process=com.google.android.partnersetup
+    proc=ProcessRecord{e5f42d9 5217:com.google.android.partnersetup/u0a19}
+    launchingApp=ProcessRecord{e5f42d9 5217:com.google.android.partnersetup/u0a19}
+    uid=10019 provider=android.content.ContentProviderProxy@3ce2c05
+    authority=com.google.android.partnersetup.rlzappprovider
+  * ContentProviderRecord{110745a u0 com.google.android.gms/.appstate.provider.AppStateContentProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@f11268b
+    authority=com.google.android.gms.appstate
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{e8df368 u0 com.android.cellbroadcastreceiver/.CellBroadcastContentProvider}
+    package=com.android.cellbroadcastreceiver process=com.android.cellbroadcastreceiver
+    proc=ProcessRecord{c4ebe8d 5060:com.android.cellbroadcastreceiver/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@d0a8381
+    authority=cellbroadcasts
+  * ContentProviderRecord{8517c26 u0 com.google.android.gms/.common.download.provider.DownloadsProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@9e9a067
+    authority=com.google.android.gms.download
+  * ContentProviderRecord{e02de14 u0 com.google.android.gms/.auth.account.be.accountstate.CredentialStateContentProvider}
+    package=com.google.android.gms process=com.google.android.gms.persistent
+    proc=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@e5ad6bd
+    authority=com.google.android.gms.auth.confirm
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{d4934b2 u0 com.android.providers.blockednumber/.BlockedNumberProvider}
+    package=com.android.providers.blockednumber process=android.process.acore
+    proc=ProcessRecord{1110006 2678:android.process.acore/u0a1}
+    uid=10001 provider=android.content.ContentProviderProxy@9e5dc03
+    authority=com.android.blockednumber
+  * ContentProviderRecord{d39c780 u0 com.google.android.gm/com.android.mail.providers.EmlAttachmentProvider}
+    package=com.google.android.gm process=com.google.android.gm
+    proc=ProcessRecord{dcc74 3945:com.google.android.gm/u0a68}
+    uid=10068 provider=android.content.ContentProviderProxy@96321b9
+    authority=com.google.android.gm.provider.eml.attachment
+  * ContentProviderRecord{191e9fe u0 com.google.android.gms/.icing.proxy.InternalIcingCorporaProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@8e0355f
+    authority=com.google.android.gms.icing.proxy
+  * ContentProviderRecord{e33dbac u0 com.google.android.talk/com.google.android.apps.hangouts.sms.MmsFileProvider}
+    package=com.google.android.talk process=com.google.android.talk
+    proc=ProcessRecord{1a02a 3912:com.google.android.talk/u0a52}
+    uid=10052 provider=android.content.ContentProviderProxy@c0b2075
+    authority=com.google.android.apps.hangouts.sms.MmsFileProvider
+  * ContentProviderRecord{41ea80a u0 com.google.android.apps.messaging/.shared.datamodel.MmsFileProvider}
+    package=com.google.android.apps.messaging process=com.google.android.apps.messaging
+    proc=ProcessRecord{8c12928 5108:com.google.android.apps.messaging/u0a66}
+    uid=10066 provider=android.content.ContentProviderProxy@9fcc87b
+    authority=com.google.android.apps.messaging.shared.datamodel.MmsFileProvider
+  * ContentProviderRecord{fd90698 u0 com.google.android.gms/.auth.account.be.accountstate.AccountStateContentProvider}
+    package=com.google.android.gms process=com.google.android.gms.persistent
+    proc=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@fa4ef1
+    authority=com.google.android.gms.auth.accountstate
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{e073ad6 u0 com.google.android.apps.messaging/.shared.datamodel.MediaScratchFileProvider}
+    package=com.google.android.apps.messaging process=com.google.android.apps.messaging
+    proc=ProcessRecord{8c12928 5108:com.google.android.apps.messaging/u0a66}
+    uid=10066 provider=android.content.ContentProviderProxy@4857157
+    authority=com.google.android.apps.messaging.shared.datamodel.MediaScratchFileProvider
+  * ContentProviderRecord{5a3f444 u0 com.google.android.gms/com.google.android.location.internal.LocationContentProvider}
+    package=com.google.android.gms process=com.google.android.gms.persistent
+    proc=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@bd3e92d
+    authority=com.google.android.location.internal
+  * ContentProviderRecord{142e62 u0 com.google.android.gms/.drive.metadata.sync.syncadapter.StubContentProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@85cbf3
+    authority=com.google.android.gms.drive.sync
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{e0e10b0 u0 com.google.android.gms/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@d32eb29
+    authority=com.google.android.gms.lifecycle-trojan
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{d0aceae u0 com.google.android.gm/com.android.mail.providers.GmailAccountCacheProvider}
+    package=com.google.android.gm process=com.google.android.gm
+    proc=ProcessRecord{dcc74 3945:com.google.android.gm/u0a68}
+    uid=10068 provider=android.content.ContentProviderProxy@127344f
+    authority=com.google.android.gm2.accountcache
+  * ContentProviderRecord{3bb87dc u0 com.android.providers.calendar/.CalendarProvider2}
+    package=com.android.providers.calendar process=com.android.providers.calendar
+    proc=ProcessRecord{a6610e5 3298:com.android.providers.calendar/u0a2}
+    uid=10002 provider=android.content.ContentProviderProxy@cb927ba
+    authority=com.android.calendar
+  * ContentProviderRecord{8ccc66b u0 com.google.android.gm/.provider.CombinedAccountsProvider}
+    package=com.google.android.gm process=com.google.android.gm
+    proc=ProcessRecord{dcc74 3945:com.google.android.gm/u0a68}
+    uid=10068 provider=android.content.ContentProviderProxy@56745c8
+    authority=com.google.android.gm.combinedaccounts
+  * ContentProviderRecord{4ebd661 u0 com.android.providers.contacts/.ShadowCallLogProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{1110006 2678:android.process.acore/u0a1}
+    uid=10001 provider=android.content.ContentProviderProxy@3c20586
+    authority=call_log_shadow
+  * ContentProviderRecord{2ef5e47 u0 com.android.providers.contacts/.ContactsProvider2}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{1110006 2678:android.process.acore/u0a1}
+    uid=10001 provider=android.content.ContentProviderProxy@8ef674
+    authority=contacts;com.android.contacts
+  * ContentProviderRecord{dae779d u0 com.android.providers.downloads/.DownloadStorageProvider}
+    package=com.android.providers.downloads process=android.process.media
+    proc=ProcessRecord{141c008 2671:android.process.media/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@c28f412
+    authority=com.android.providers.downloads.documents
+  * ContentProviderRecord{fb997e3 u0 com.google.android.gm/.provider.DisableNotificationsProvider}
+    package=com.google.android.gm process=com.google.android.gm
+    proc=ProcessRecord{dcc74 3945:com.google.android.gm/u0a68}
+    uid=10068 provider=android.content.ContentProviderProxy@adf05e0
+    authority=gmail-disnot
+  * ContentProviderRecord{ffff099 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.velvet.extradex.StaticPluginHostProvider}
+    package=com.google.android.googlequicksearchbox process=com.google.android.googlequicksearchbox:search
+    proc=ProcessRecord{2d24365 2428:com.google.android.googlequicksearchbox:search/u0a29}
+    uid=10029 provider=android.content.ContentProviderProxy@a9e3f5e
+    authority=com.google.android.apps.gsa.velvet.extradex.StaticPluginHostProvider
+  * ContentProviderRecord{d63cf3f u0 com.google.android.gms/.people.profile.AvatarFileProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@65ea00c
+    authority=com.google.android.gms.people.profile.fileprovider
+  * ContentProviderRecord{55fd55 u0 com.android.settings/android.support.v4.content.FileProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{7750fa2 5087:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@c8af36a
+    authority=com.android.settings.files
+  * ContentProviderRecord{b50205b u0 com.google.android.gms/.instantapps.routing.InstantAppsContentProvider}
+    package=com.google.android.gms process=com.google.android.gms.persistent
+    proc=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@c5bb0f8
+    authority=com.google.android.gms.instantapps.provider.api
+    Connections:
+      -> 2563:com.google.android.gms/u0a13 s0/0 u1/1 +2m29s374ms
+      -> 4798:com.google.android.gms.unstable/u0a13 s0/0 u1/1 +1m2s208ms
+  * ContentProviderRecord{ac619d1 u0 com.android.providers.contacts/.VoicemailContentProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{1110006 2678:android.process.acore/u0a1}
+    launchingApp=ProcessRecord{1110006 2678:android.process.acore/u0a1}
+    uid=10001 provider=android.content.ContentProviderProxy@adcdc36
+    authority=com.android.voicemail
+  * ContentProviderRecord{2e66737 u0 com.google.android.gsf/.gservices.GservicesProvider}
+    package=com.google.android.gsf process=com.google.process.gapps
+    proc=ProcessRecord{5189264 2338:com.google.process.gapps/u0a13}
+    launchingApp=ProcessRecord{5189264 2338:com.google.process.gapps/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@b16e4a4
+    authority=com.google.android.gsf.gservices
+  * ContentProviderRecord{d41820d u0 com.google.android.talk/com.google.android.apps.hangouts.content.EsProvider}
+    package=com.google.android.talk process=com.google.android.talk
+    proc=ProcessRecord{1a02a 3912:com.google.android.talk/u0a52}
+    uid=10052 provider=android.content.ContentProviderProxy@d9285c2
+    authority=com.google.android.apps.hangouts.content.EsProvider
+  * ContentProviderRecord{2303fd3 u0 com.android.chrome/com.google.android.apps.chrome.autofill.AutofillDataProvider}
+    package=com.android.chrome process=com.android.chrome
+    proc=ProcessRecord{dc1a11b 4924:com.android.chrome/u0a37}
+    uid=10037 provider=android.content.ContentProviderProxy@22fa710
+    authority=com.android.chrome.AutofillDataProvider
+  * ContentProviderRecord{9913209 u0 com.google.android.googlequicksearchbox/com.google.android.search.core.google.GoogleSuggestionProvider}
+    package=com.google.android.googlequicksearchbox process=com.google.android.googlequicksearchbox:search
+    proc=ProcessRecord{2d24365 2428:com.google.android.googlequicksearchbox:search/u0a29}
+    uid=10029 provider=android.content.ContentProviderProxy@c073c0e
+    authority=com.google.android.googlequicksearchbox.google
+  * ContentProviderRecord{435062f u0 com.google.android.gms/.icing.proxy.SmsContentProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@9d0243c
+    authority=com.google.android.gms.icing.proxy.sms
+  * ContentProviderRecord{b11e5c5 u0 com.android.chrome/org.chromium.chrome.browser.util.ChromeFileProvider}
+    package=com.android.chrome process=com.android.chrome
+    proc=ProcessRecord{dc1a11b 4924:com.android.chrome/u0a37}
+    uid=10037 provider=android.content.ContentProviderProxy@5ff0b1a
+    authority=com.android.chrome.FileProvider
+  * ContentProviderRecord{315d64b u0 com.android.providers.media/.MediaDocumentsProvider}
+    package=com.android.providers.media process=android.process.media
+    proc=ProcessRecord{141c008 2671:android.process.media/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@994828
+    authority=com.android.providers.media.documents
+  * ContentProviderRecord{c301941 u0 com.google.android.gms/.common.stats.net.contentprovider.NetworkUsageContentProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@172bee6
+    authority=com.google.android.gms.common.stats.net.contentprovider
+  * ContentProviderRecord{fe98c27 u0 com.google.android.music/.store.MusicContentProvider}
+    package=com.google.android.music process=com.google.android.music:main
+    proc=ProcessRecord{4742daa 4272:com.google.android.music:main/u0a58}
+    uid=10058 provider=android.content.ContentProviderProxy@c4ebed4
+    authority=com.google.android.music.MusicContent
+    isSyncable=false multiprocess=false initOrder=1
+  * ContentProviderRecord{7a4087d u0 com.google.android.gm/com.android.email.provider.EmailProvider}
+    package=com.google.android.gm process=com.google.android.gm
+    proc=ProcessRecord{dcc74 3945:com.google.android.gm/u0a68}
+    uid=10068 provider=android.content.ContentProviderProxy@91be372
+    authority=com.google.android.gmail.provider;com.android.mail.notifier;com.google.android.gm.email.provider;com.google.android.gm.email.notifier
+  * ContentProviderRecord{c58c3c3 u0 com.google.android.gms/.reminders.provider.RemindersProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@942f440
+    authority=com.google.android.gms.reminders
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{16daf79 u0 com.android.providers.contacts/.debug.DumpFileProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{1110006 2678:android.process.acore/u0a1}
+    uid=10001 provider=android.content.ContentProviderProxy@7c0c4be
+    authority=com.android.contacts.dumpfile
+  * ContentProviderRecord{1f9d91f u0 com.google.android.apps.photos/.contentprovider.MediaContentProvider}
+    package=com.google.android.apps.photos process=com.google.android.apps.photos
+    proc=ProcessRecord{3a1ec3a 3402:com.google.android.apps.photos/u0a65}
+    uid=10065 provider=android.content.ContentProviderProxy@483146c
+    authority=com.google.android.apps.photos.contentprovider
+  * ContentProviderRecord{390ca35 u0 com.google.android.apps.nexuslauncher/com.android.launcher3.LauncherProvider}
+    package=com.google.android.apps.nexuslauncher process=com.google.android.apps.nexuslauncher
+    proc=ProcessRecord{24299f9 2522:com.google.android.apps.nexuslauncher/u0a22}
+    uid=10022 provider=android.content.ContentProviderProxy@c406eca
+    authority=com.google.android.apps.nexuslauncher.settings
+  * ContentProviderRecord{36ce83b u0 com.google.android.music/.api.MusicPublicContentProvider}
+    package=com.google.android.music process=com.google.android.music:main
+    proc=ProcessRecord{4742daa 4272:com.google.android.music:main/u0a58}
+    uid=10058 provider=android.content.ContentProviderProxy@cc30b58
+    authority=com.google.android.music.PublicContent
+    isSyncable=false multiprocess=false initOrder=2
+  * ContentProviderRecord{a90d4b1 u0 com.google.android.apps.photos/com.google.android.apps.consumerphotoeditor.cachedfileprovider.impl.CachedFileProvider}
+    package=com.google.android.apps.photos process=com.google.android.apps.photos
+    proc=ProcessRecord{3a1ec3a 3402:com.google.android.apps.photos/u0a65}
+    uid=10065 provider=android.content.ContentProviderProxy@25ead96
+    authority=com.google.android.apps.consumerphotoeditor.cachedfileprovider
+  * ContentProviderRecord{337cd17 u0 com.google.android.gm/com.android.mail.browse.EmailConversationProvider}
+    package=com.google.android.gm process=com.google.android.gm
+    proc=ProcessRecord{dcc74 3945:com.google.android.gm/u0a68}
+    uid=10068 provider=android.content.ContentProviderProxy@6098504
+    authority=com.google.android.gmail.conversation.provider
+  * ContentProviderRecord{dad0aed u0 com.google.android.gms/.matchstick.data.DatabaseProvider}
+    package=com.google.android.gms process=com.google.android.gms
+    proc=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@c500d22
+    authority=com.google.android.gms.matchstick.dataprovider
+
+  Single-user authority to provider mappings:
+  mms: 83755cc/com.android.providers.telephony/.MmsProvider
+  com.android.server.heapdump: 9e92759/android/com.android.server.am.DumpHeapProvider
+  mms-sms: a190f1e/com.android.providers.telephony/.MmsSmsProvider
+  telephony: b0dc25d/com.android.providers.telephony/.TelephonyProvider
+  sms: c46c0a3/com.android.providers.telephony/.SmsProvider
+  hbpcd_lookup: 8377b07/com.android.providers.telephony/.HbpcdLookupProvider
+  settings: 2599d46/com.android.providers.settings/.SettingsProvider
+
+  User 0 authority to provider mappings:
+  com.google.android.gms.people: 3db74a7/com.google.android.gms/.people.service.PeopleContentProvider
+  com.google.android.gms.fitness.fileprovider: 74922c6/com.google.android.gms/android.support.v4.content.FileProvider
+  com.android.calendar: 3bb87dc/com.android.providers.calendar/.CalendarProvider2
+  com.google.android.partnersetup.rlzprovider: 73b3920/com.google.android.partnersetup/.RlzProvider
+  com.google.android.partnersetup.rlzappprovider: 4d49b7c/com.google.android.partnersetup/.RlzAppProvider
+  com.google.android.music.PublicContent: 36ce83b/com.google.android.music/.api.MusicPublicContentProvider
+  gmail-disnot: fb997e3/com.google.android.gm/.provider.DisableNotificationsProvider
+  com.google.android.libraries.matchstick.debug.dumpprovider: af512c4/com.google.android.talk/com.google.android.libraries.matchstick.debug.DumpProvider
+  com.google.android.gm2.accountcache: d0aceae/com.google.android.gm/com.android.mail.providers.GmailAccountCacheProvider
+  com.google.android.gms.icing.proxy.apps: 4c0b443/com.google.android.gms/.icing.proxy.AppsContentProvider
+  com.google.android.gm.exchange.bundled.directory.provider: 835f1c/com.google.android.gm/com.android.exchange.provider.ExchangeDirectoryProvider
+  com.google.android.gmail.attachmentprovider: 16536b5/com.google.android.gm/com.android.email.provider.AttachmentProvider
+  subscribedfeeds: fcf33f7/com.google.android.gsf/.subscribedfeeds.SubscribedFeedsProvider
+  com.google.android.apps.gsa.projection.CarAudioProvider: bf75c94/com.google.android.googlequicksearchbox/com.google.android.apps.gsa.projection.CarAudioProvider
+  icc: e05c976/com.android.phone/.IccProvider
+  com.google.android.gms.plus: cb964fd/com.google.android.gms/.plus.provider.PlusProvider
+  com.google.android.gms.chimera: b38914e/com.google.android.gms/.chimera.container.GmsModuleProvider
+  com.google.android.gms.wallet: 575b689/com.google.android.gms/.wallet.setupwizard.PaymentsSetupWizardSuggestionStateProvider
+  gmail-appindexing: 1b883ee/com.google.android.gm/.provider.SearchQuery$Provider
+  com.google.android.apps.gsa.voiceinteraction.hotword.HotwordAudioProvider: c37ae00/com.google.android.googlequicksearchbox/com.google.android.apps.gsa.voiceinteraction.hotword.HotwordAudioProvider
+  com.google.android.gm.email.notifier: 7a4087d/com.google.android.gm/com.android.email.provider.EmailProvider
+  com.google.android.googlequicksearchbox.OnDeviceWebSuggestHostProvider: bad1692/com.google.android.googlequicksearchbox/com.google.android.apps.gsa.ondevicewebsuggest.OnDeviceWebSuggestHostProvider
+  com.google.android.gms.people.gal.provider: 8695a8a/com.google.android.gms/.people.service.PeopleGalProvider
+  com.android.settings.files: 55fd55/com.android.settings/android.support.v4.content.FileProvider
+  com.android.chrome: f42ff2a/com.android.chrome/org.chromium.chrome.browser.provider.ChromeBrowserProvider
+  com.google.android.gsf.gservices: 2e66737/com.google.android.gsf/.gservices.GservicesProvider
+  com.google.android.gms.icing.proxy.sms: 435062f/com.google.android.gms/.icing.proxy.SmsContentProvider
+  com.google.android.apps.hangouts.sms.MmsFileProvider: e33dbac/com.google.android.talk/com.google.android.apps.hangouts.sms.MmsFileProvider
+  com.google.android.music.ConfigContent: 7d0702/com.google.android.music/.store.ConfigContentProvider
+  com.google.android.gms.people.profile.fileprovider: d63cf3f/com.google.android.gms/.people.profile.AvatarFileProvider
+  com.google.android.googlequicksearchbox.google: 9913209/com.google.android.googlequicksearchbox/com.google.android.search.core.google.GoogleSuggestionProvider
+  com.google.android.gms.phenotype: dfa3245/com.google.android.gms/.phenotype.provider.ConfigurationProvider
+  com.android.contacts.dumpfile: 16daf79/com.android.providers.contacts/.debug.DumpFileProvider
+  com.android.providers.media.documents: 315d64b/com.android.providers.media/.MediaDocumentsProvider
+  com.google.android.libraries.matchstick.provider: b6236cb/com.google.android.talk/com.google.android.libraries.matchstick.provider.AppDataProvider
+  com.google.android.apps.gsa.velvet.extradex.ExtraDexHostProvider: 1d268bb/com.google.android.googlequicksearchbox/com.google.android.apps.gsa.velvet.extradex.ExtraDexHostProvider
+  com.google.android.gms.matchstick.dataprovider: dad0aed/com.google.android.gms/.matchstick.data.DatabaseProvider
+  com.google.android.apps.hangouts.content.EsProvider: d41820d/com.google.android.talk/com.google.android.apps.hangouts.content.EsProvider
+  com.google.android.gms.wallet.fileprovider: 5a45eaf/com.google.android.gms/.wallet.provider.WalletFileProvider
+  com.google.android.gms.subscribedfeeds: 48a9556/com.google.android.gms/.subscribedfeeds.GmsSubscribedFeedsProvider
+  com.google.android.location.internal: 5a3f444/com.google.android.gms/com.google.android.location.internal.LocationContentProvider
+  com.android.contacts: 2ef5e47/com.android.providers.contacts/.ContactsProvider2
+  com.android.contacts.metadata: 4bd2778/com.android.providers.contacts/.ContactMetadataProvider
+  com.google.android.gms.reminders: c58c3c3/com.google.android.gms/.reminders.provider.RemindersProvider
+  com.google.android.gms.thunderbird.config: bbc53f9/com.google.android.gms/.thunderbird.config.EmergencyConfigContentProvider
+  com.android.chrome.icing: 6770b7f/com.android.chrome/com.google.android.apps.chrome.icing.IcingProvider
+  com.google.android.gm.email.provider: 7a4087d/com.google.android.gm/com.android.email.provider.EmailProvider
+  cellbroadcasts: e8df368/com.android.cellbroadcastreceiver/.CellBroadcastContentProvider
+  com.android.chrome.ChromeBrowserProvider: f42ff2a/com.android.chrome/org.chromium.chrome.browser.provider.ChromeBrowserProvider
+  com.google.android.apps.photos.photoeditor.contentprovider: b9dae8c/com.google.android.apps.photos/.photoeditor.contentprovider.EditMediaContentProvider
+  com.google.android.apps.nexuslauncher.settings: 390ca35/com.google.android.apps.nexuslauncher/com.android.launcher3.LauncherProvider
+  com.google.android.chimera: b38914e/com.google.android.gms/.chimera.container.GmsModuleProvider
+  call_log: b882ae1/com.android.providers.contacts/.CallLogProvider
+  com.google.android.gms.auth.accountstate: fd90698/com.google.android.gms/.auth.account.be.accountstate.AccountStateContentProvider
+  com.google.android.gms.auth.api.credentials: 8acf0fa/com.google.android.gms/.auth.api.credentials.sync.CredentialContentProvider
+  com.google.android.gm.combinedaccounts: 8ccc66b/com.google.android.gm/.provider.CombinedAccountsProvider
+  com.android.voicemail: ac619d1/com.android.providers.contacts/.VoicemailContentProvider
+  com.google.android.gms.instantapps.provider.api: b50205b/com.google.android.gms/.instantapps.routing.InstantAppsContentProvider
+  com.android.chrome.AutofillDataProvider: 2303fd3/com.android.chrome/com.google.android.apps.chrome.autofill.AutofillDataProvider
+  com.google.android.apps.hangouts.directshare.impl.DirectShareProvider: c476891/com.google.android.talk/com.google.android.apps.hangouts.directshare.impl.DirectShareProvider
+  com.google.android.gm: 6caf3f0/com.google.android.gm/.provider.PublicContentProvider
+  com.google.android.gms.trustagent.framework.model.be.provider: 921c9fc/com.google.android.gms/.trustagent.framework.model.be.ModelContentProvider
+  com.google.android.gms.appstate: 110745a/com.google.android.gms/.appstate.provider.AppStateContentProvider
+  com.android.phone: e031053/com.android.phone/.PhoneSearchIndexablesProvider
+  com.google.android.gms.photos.iu.EsGoogleIuProvider: 430519f/com.google.android.gms/com.google.android.libraries.social.autobackup.AutoBackupProvider
+  com.google.android.gms.icing.indexapi: 5b4d597/com.google.android.gms/.icing.indexapi.IndexApiContentProvider
+  com.google.android.gms.chromesync: f24a552/com.google.android.gms/.chromesync.sync.SyncContentProvider
+  com.google.android.music.MusicContent: fe98c27/com.google.android.music/.store.MusicContentProvider
+  com.google.android.apps.messaging.shared.datamodel.MmsFileProvider: 41ea80a/com.google.android.apps.messaging/.shared.datamodel.MmsFileProvider
+  com.android.cellbroadcastreceiver: a594324/com.android.cellbroadcastreceiver/.CellBroadcastSearchIndexableProvider
+  com.android.chrome.SupervisedUserProvider: 3fe70d0/com.android.chrome/org.chromium.chrome.browser.superviseduser.SupervisedUserContentProvider
+  com.android.chrome.LicenseContentProvider: f20e5ea/com.android.chrome/com.android.webview.chromium.LicenseContentProvider
+  com.google.android.location.reporting: 9b2fa9/com.google.android.gms/com.google.android.location.reporting.service.utils.ReportingContentProvider
+  call_log_shadow: 4ebd661/com.android.providers.contacts/.ShadowCallLogProvider
+  gmail-ls: 15e747e/com.google.android.gm/.provider.MailProvider
+  com.google.android.apps.consumerphotoeditor.renderedimagecontentprovider: ab57bce/com.google.android.apps.photos/com.google.android.apps.consumerphotoeditor.renderedimageprovider.RenderedImageContentProvider
+  com.android.blockednumber: d4934b2/com.android.providers.blockednumber/.BlockedNumberProvider
+  com.android.inputmethod.dictionarypack.aosp: 9fae09b/com.android.inputmethod.latin/com.android.inputmethod.dictionarypack.DictionaryProvider
+  com.google.android.apps.hangouts.mergedcontacts.MergedContactProvider: 7aa1732/com.google.android.talk/com.google.android.apps.hangouts.mergedcontacts.impl.MergedContactProviderImpl
+  com.google.android.apps.consumerphotoeditor.cachedfileprovider: a90d4b1/com.google.android.apps.photos/com.google.android.apps.consumerphotoeditor.cachedfileprovider.impl.CachedFileProvider
+  com.google.android.gms.security.provider: 690adc1/com.google.android.gms/.security.provider.SecurityProvider
+  com.android.settings: b12876d/com.android.settings/.search.SettingsSearchIndexablesProvider
+  com.google.android.apps.photos.contentprovider: 1f9d91f/com.google.android.apps.photos/.contentprovider.MediaContentProvider
+  com.google.android.gms.drive.sync: 142e62/com.google.android.gms/.drive.metadata.sync.syncadapter.StubContentProvider
+  com.google.android.gms.common.stats.net.contentprovider: c301941/com.google.android.gms/.common.stats.net.contentprovider.NetworkUsageContentProvider
+  user_dictionary: df55108/com.android.providers.userdictionary/.UserDictionaryProvider
+  downloads: 67ee6eb/com.android.providers.downloads/.DownloadProvider
+  com.google.android.apps.messaging.shared.datamodel.MediaScratchFileProvider: e073ad6/com.google.android.apps.messaging/.shared.datamodel.MediaScratchFileProvider
+  com.android.chrome.FileProvider: b11e5c5/com.android.chrome/org.chromium.chrome.browser.util.ChromeFileProvider
+  com.google.android.gms.plus.action: cb964fd/com.google.android.gms/.plus.provider.PlusProvider
+  com.google.android.gms.games.background: 9d22c60/com.google.android.gms/.games.chimera.GamesContentProviderProxy
+  media: 9f2a50/com.android.providers.media/.MediaProvider
+  com.google.android.gmail.provider: 7a4087d/com.google.android.gm/com.android.email.provider.EmailProvider
+  com.android.mail.notifier: 7a4087d/com.google.android.gm/com.android.email.provider.EmailProvider
+  com.android.gmail.ui: 9c65c73/com.google.android.gm/.provider.GmailProvider
+  com.google.android.music.icing: fb186da/com.google.android.music/.search.IcingContentProvider
+  com.google.android.gms.auth.accounts: bf83395/com.google.android.gms/.auth.account.be.legacy.AccountContentProvider
+  com.google.android.googlequicksearchbox.NetworkImageLoaderContentProvider: da4b4f4/com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.imageloader.NetworkImageLoaderContentProvider
+  com.google.android.gm.email.attachmentprovider: 16536b5/com.google.android.gm/com.android.email.provider.AttachmentProvider
+  com.google.android.gms.fitness: 94e1d65/com.google.android.gms/.fitness.sync.FitnessContentProvider
+  contacts: 2ef5e47/com.android.providers.contacts/.ContactsProvider2
+  com.google.android.gm.provider.eml.attachment: d39c780/com.google.android.gm/com.android.mail.providers.EmlAttachmentProvider
+  com.android.providers.downloads.documents: dae779d/com.android.providers.downloads/.DownloadStorageProvider
+  com.google.android.gms.fonts: e484982/com.google.android.gms/.fonts.provider.FontsProvider
+  com.google.android.location.internal.server.fileprovider: e8209de/com.google.android.gms/com.google.android.location.internal.server.HistorianFileProvider
+  com.google.android.gms.download: 8517c26/com.google.android.gms/.common.download.provider.DownloadsProvider
+  com.google.android.gms.lifecycle-trojan: e0e10b0/com.google.android.gms/android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+  com.google.android.gms.icing.proxy: 191e9fe/com.google.android.gms/.icing.proxy.InternalIcingCorporaProvider
+  com.google.android.velvet.util.statedumpprovider: 91f76b6/com.google.android.googlequicksearchbox/com.google.android.apps.gsa.velvet.util.StateDumpProvider
+  com.android.chrome.browser: f42ff2a/com.android.chrome/org.chromium.chrome.browser.provider.ChromeBrowserProvider
+  com.google.android.googlequicksearchbox.AudioProvider: 969aa2c/com.google.android.googlequicksearchbox/com.google.android.apps.gsa.speech.audio.AudioProvider
+  com.google.android.gms.matchstick.appdataprovider: d1275b4/com.google.android.gms/.matchstick.data.AppDataProvider
+  com.google.android.googlequicksearchbox.icing: 6dd3d18/com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.icingsync.InternalIcingCorporaProvider
+  com.google.settings: 8bf89e8/com.google.android.gsf/.settings.GoogleSettingsProvider
+  com.google.android.apps.hangouts.conversation.v2: 9204ccf/com.google.android.talk/android.support.v4.content.FileProvider
+  com.google.android.gms.auth.confirm: e02de14/com.google.android.gms/.auth.account.be.accountstate.CredentialStateContentProvider
+  com.google.android.gmail.conversation.provider: 337cd17/com.google.android.gm/com.android.mail.browse.EmailConversationProvider
+  com.google.android.apps.gsa.velvet.extradex.StaticPluginHostProvider: ffff099/com.google.android.googlequicksearchbox/com.google.android.apps.gsa.velvet.extradex.StaticPluginHostProvider
+  com.google.android.apps.messaging.shared.datamodel.BugleContentProvider: 83136a6/com.google.android.apps.messaging/.shared.datamodel.BugleContentProvider
+  com.google.android.libraries.matchstick.provider.fileprovider: 818b3e4/com.google.android.gms/com.google.android.libraries.matchstick.provider.MatchstickFileProvider
+  com.google.android.gm2.conversation.provider: 27f8931/com.google.android.gm/com.android.mail.browse.GmailConversationProvider
+

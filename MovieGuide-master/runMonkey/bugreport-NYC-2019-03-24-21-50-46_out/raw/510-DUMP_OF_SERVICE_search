@@ -1,0 +1,16 @@
+
+User: 0
+  Searchable authorities:
+    com.android.contacts
+    com.google.android.music.MusicContent
+    com.google.android.youtube.SuggestionProvider
+    com.example.android.apis.SuggestionProvider
+    com.android.chrome.browser
+    com.google.android.apps.docs.doclist.account_suggest
+    com.google.android.apps.docs.doclist.search_suggest
+    com.google.android.calendar.CalendarRecentSuggestionsProvider
+    null
+    null
+    com.google.android.youtube.SuggestionProvider
+    com.google.android.googlequicksearchbox.google
+--------- 0.001s was the duration of dumpsys search

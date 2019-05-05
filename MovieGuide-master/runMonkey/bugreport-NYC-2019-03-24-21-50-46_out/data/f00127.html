@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>f00127.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00127.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><h1>systemlog_03945.html</h1>
+<div class="log-toolbar">RegExp:<input id="regexp"></input><button onClick="javascript:ltbProcessLines(function(l){l.hide();})">Hide</button><button onClick="javascript:ltbProcessLines(function(l){l.show();})">Show</button><button onClick="javascript:ltbProcessLines(function(l){l.addClass('log-mark');})">Mark</button><button onClick="javascript:ltbProcessLines(function(l){l.removeClass('log-mark');})">Unmark</button>Note: changes are not saved!</div><div class="log"><div class="log-debug">03-24 21:48:39.637  <a href="f00089.html#ch0">3945</a>  4029 D ActivityThread: Loading provider com.google.android.gmail.provider;com.android.mail.notifier;com.google.android.gm.email.provider;com.google.android.gm.email.notifier: com.android.email.provider.EmailProvider</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection blt@1663926 that was originally bound here</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: android.app.ServiceConnectionLeaked: Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection blt@1663926 that was originally bound here</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: 	at android.app.LoadedApk$ServiceDispatcher.&lt;init&gt;(LoadedApk.java:1336)</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:1231)</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1450)</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: 	at android.app.ContextImpl.bindService(ContextImpl.java:1422)</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: 	at android.content.ContextWrapper.bindService(ContextWrapper.java:636)</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: 	at blr.a(SourceFile:243)</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: 	at blr.d(SourceFile:286)</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: 	at bft.c(SourceFile:179)</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: 	at bdk.a(SourceFile:202)</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: 	at bdk.a(SourceFile:146)</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.c(SourceFile:348)</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.onHandleIntent(SourceFile:1333)</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:68)</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)</div>
+<div class="log-error">03-24 21:48:40.158  <a href="f00089.html#ch0">3945</a>  3945 E ActivityThread: 	at android.os.HandlerThread.run(HandlerThread.java:61)</div>
+<div class="log-info">03-24 21:50:49.009  <a href="f00089.html#ch0">3945</a>  3961 I art     : Starting a blocking GC Explicit</div>
+<div class="log-info">03-24 21:50:49.016  <a href="f00089.html#ch0">3945</a>  3961 I art     : Explicit concurrent mark sweep GC freed 1852(128KB) AllocSpace objects, 0(0B) LOS objects, 25% free, 4MB/5MB, paused 90us total 6.941ms</div>
+<div class="log-info">03-24 21:50:49.931  <a href="f00089.html#ch0">3945</a>  3951 I art     : Thread[3,tid=3951,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac0b0d0,"Signal Catcher"]: reacting to signal 3</div>
+<div class="log-info">03-24 21:50:49.931  <a href="f00089.html#ch0">3945</a>  3951 I art     : </div>
+<div class="log-info">03-24 21:50:49.951  <a href="f00089.html#ch0">3945</a>  3951 I art     : Wrote stack traces to '/data/anr/traces.txt'</div>
+</div></body>
+</html>

@@ -1,0 +1,87 @@
+========================================================
+== dumpstate: 2019-03-24 21:50:46
+========================================================
+
+Build: sdk_google_phone_x86-userdebug 7.1.1 NYC 5071160 test-keys
+Build fingerprint: 'google/sdk_google_phone_x86/generic_x86:7.1.1/NYC/5071160:userdebug/test-keys'
+Bootloader: unknown
+Radio: (unknown)
+Network: Android
+Kernel: Linux version 3.10.0+ (bjoernj@bjoernj.mtv.corp.google.com) (gcc version 4.9.x 20150123 (prerelease) (GCC) ) #256 SMP PREEMPT Fri May 19 11:58:12 PDT 2017
+Command line: qemu=1 no_timer_check androidboot.hardware=ranchu androidboot.serialno=EMULATOR28X0X23X0 clocksource=pit no-kvmclock android.qemud=1 console=0 android.checkjni=1 qemu.gles=1 qemu.encrypt=1 qemu.opengles.version=196608 qemu.uirenderer=skiagl cma=288M@0-4G ndns=4 qemu.wifi=1 mac80211_hwsim.channels=2 androidboot.android_dt_dir=/sys/bus/platform/devices/ANDR0001:00/properties/android/ loop.max_part=7 ramoops.mem_address=0xff018000 ramoops.mem_size=0x10000 memmap=0x10000$0xff018000 qemu.dalvik.vm.heapsize=384m ndns=4 mac80211_hwsim.mac_prefix=5554
+Bugreport format version: 1.0
+Dumpstate info: id=1 pid=5347
+
+HW:         generic_x86
+SW:         NYC
+Variant:    null/null
+Build type: userdebug
+IMEI:       null
+
+================================
+Java Crash
+================================
+
+Package: 0
+Pid:     4865
+Reason:  950582854
+
+systemlog_log:
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: FATAL EXCEPTION: main
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: Process: com.esoxjem.movieguide, PID: 4865
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: java.lang.NullPointerException: test code for CPEN522
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at com.esoxjem.movieguide.details.MovieDetailsPresenterImpl.onFavoriteClick(MovieDetailsPresenterImpl.java:109)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at com.esoxjem.movieguide.details.MovieDetailsFragment.onFavoriteClick(MovieDetailsFragment.java:281)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at com.esoxjem.movieguide.details.MovieDetailsFragment.onClick(MovieDetailsFragment.java:253)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at com.esoxjem.movieguide.details.MovieDetailsFragment_ViewBinding$1.doClick(MovieDetailsFragment_ViewBinding.java:48)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at butterknife.internal.DebouncingOnClickListener.onClick(DebouncingOnClickListener.java:22)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.View.performClick(View.java:5637)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.View.onKeyUp(View.java:10661)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.KeyEvent.dispatch(KeyEvent.java:2712)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.View.dispatchKeyEvent(View.java:9960)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1630)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1630)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1630)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1630)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1630)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1630)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1630)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1630)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at com.android.internal.policy.DecorView.superDispatchKeyEvent(DecorView.java:405)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at com.android.internal.policy.PhoneWindow.superDispatchKeyEvent(PhoneWindow.java:1798)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.app.Activity.dispatchKeyEvent(Activity.java:3021)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.support.v7.app.AppCompatActivity.dispatchKeyEvent(AppCompatActivity.java:534)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.support.v7.view.WindowCallbackWrapper.dispatchKeyEvent(WindowCallbackWrapper.java:58)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.support.v7.app.AppCompatDelegateImplBase$AppCompatWindowCallbackBase.dispatchKeyEvent(AppCompatDelegateImplBase.java:316)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.support.v7.view.WindowCallbackWrapper.dispatchKeyEvent(WindowCallbackWrapper.java:58)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at com.android.internal.policy.DecorView.dispatchKeyEvent(DecorView.java:319)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$ViewPostImeInputStage.processKeyEvent(ViewRootImpl.java:4331)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:4302)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3853)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3906)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3872)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3999)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3880)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:4056)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3853)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3906)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3872)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3880)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3853)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3906)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3872)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4032)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:4193)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2400)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:1964)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:1955)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:2377)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.os.MessageQueue.next(MessageQueue.java:323)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6119)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886)
+03-24 21:50:23.320  4865  4865 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776)
+

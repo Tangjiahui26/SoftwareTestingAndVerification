@@ -1,0 +1,406 @@
+Pending Syncs:
+Total: 0
+
+Periodic Syncs:
+Total: 0
+
+data connected: false
+auto sync: u0=true 
+memory low: false
+device idle: false
+reported active: false
+accounts: 0
+now: 182414 (2019-03-24 21:50:53)
+ (HH:MM:SS)
+uptime: 03:02 (HH:MM:SS)
+time spent syncing: 00:00 (HH:MM:SS), sync not in progress
+
+Active Syncs: 0
+
+Sync Status
+
+Sync adapters for UserInfo{0:Owner:13}:
+  ServiceInfo: SyncAdapterType {name=com.google.android.gms.games.background, type=com.google, userVisible=false, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.gms.games.chimera.GamesSyncServiceMainProxy}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.google.android.gms.reminders, type=com.google, userVisible=false, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.gms.reminders.sync.RemindersSyncService}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.android.chrome, type=com.google, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.android.chrome}, ComponentInfo{com.android.chrome/org.chromium.chrome.browser.invalidation.ChromeBrowserSyncAdapterService}, uid 10037
+  ServiceInfo: SyncAdapterType {name=com.android.calendar, type=com.google.android.gm.exchange, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=true, settingsActivity=null, packageName=com.google.android.gm}, ComponentInfo{com.google.android.gm/com.android.exchange.service.CalendarSyncAdapterService}, uid 10068
+  ServiceInfo: SyncAdapterType {name=com.google.android.gms.auth.api.credentials, type=com.google, userVisible=false, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=true, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.gms.auth.api.credentials.sync.CredentialSyncService}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.google.android.gms.people, type=com.google, userVisible=true, supportsUploading=false, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.gms.people.sync.PeopleSyncService}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.google.android.gms.fitness, type=com.google, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=true, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.gms.fitness.sync.FitnessSyncAdapterService}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.google.android.gms.chromesync, type=com.google, userVisible=false, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=true, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.gms.chromesync.sync.SyncService}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.google.android.gms.appstate, type=com.google, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.gms.appstate.service.AppStateSyncService}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.android.calendar, type=com.google, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.calendar}, ComponentInfo{com.google.android.calendar/com.google.android.syncadapters.calendar.CalendarSyncAdapterService}, uid 10034
+  ServiceInfo: SyncAdapterType {name=com.google.android.gms.drive.sync, type=com.google, userVisible=false, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.gms.drive.metadata.sync.syncadapter.SyncAdapterService}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.google.android.apps.docs, type=com.google, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.apps.docs}, ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.sync.syncadapter.DocsSyncAdapterService}, uid 10041
+  ServiceInfo: SyncAdapterType {name=com.google.android.gms.photos.iu.EsGoogleIuProvider, type=com.google, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.libraries.social.autobackup.AutoBackupSyncService}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.google.android.gms.auth.confirm, type=com.google, userVisible=false, supportsUploading=false, isAlwaysSyncable=false, allowParallelSyncs=true, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.gms.auth.account.be.accountstate.CredentialStateSyncService}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.google.android.videos.sync, type=com.google, userVisible=true, supportsUploading=false, isAlwaysSyncable=false, allowParallelSyncs=true, settingsActivity=null, packageName=com.google.android.videos}, ComponentInfo{com.google.android.videos/com.google.android.videos.store.SyncService}, uid 10071
+  ServiceInfo: SyncAdapterType {name=com.google.android.location.reporting, type=com.google, userVisible=false, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.location.reporting.service.ReportingSyncService}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.google.android.gm.email.provider, type=com.google.android.gm.legacyimap, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.gm}, ComponentInfo{com.google.android.gm/com.google.android.gm.provider.GmailImapSyncAdapterService}, uid 10068
+  ServiceInfo: SyncAdapterType {name=com.android.contacts, type=com.google.android.gm.exchange, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=true, settingsActivity=null, packageName=com.google.android.gm}, ComponentInfo{com.google.android.gm/com.android.exchange.service.ContactsSyncAdapterService}, uid 10068
+  ServiceInfo: SyncAdapterType {name=subscribedfeeds, type=com.google, userVisible=false, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.gms.subscribedfeeds.SyncService}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.google.android.music.MusicContent, type=com.google, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.music}, ComponentInfo{com.google.android.music/com.google.android.music.sync.SyncAdapterService}, uid 10058
+  ServiceInfo: SyncAdapterType {name=com.android.contacts, type=com.google.android.gms.matchstick, userVisible=true, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.gms.matchstick.contacts.sync.TachystickSyncService}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.google.android.gms.plus.action, type=com.google, userVisible=false, supportsUploading=true, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.gms.plus.service.OfflineActionSyncAdapterService}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.google.android.gm.email.provider, type=com.google.android.gm.pop3, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=true, settingsActivity=null, packageName=com.google.android.gm}, ComponentInfo{com.google.android.gm/com.google.android.gm.provider.GmailPop3SyncAdapterService}, uid 10068
+  ServiceInfo: SyncAdapterType {name=com.android.contacts, type=com.google, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.syncadapters.contacts}, ComponentInfo{com.google.android.syncadapters.contacts/com.google.android.syncadapters.contacts.ContactsSyncAdapterService}, uid 10047
+  ServiceInfo: SyncAdapterType {name=com.google.android.gms.subscribedfeeds, type=com.google, userVisible=false, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.gms.subscribedfeeds.GmsFeedsSyncService}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.google.android.gms.auth.accountstate, type=com.google, userVisible=false, supportsUploading=false, isAlwaysSyncable=false, allowParallelSyncs=true, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.gms.auth.account.be.accountstate.AccountStateSyncService}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.google.android.gms.games, type=com.google, userVisible=false, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.google.android.gms}, ComponentInfo{com.google.android.gms/com.google.android.gms.games.chimera.GamesSyncServiceNotificationProxy}, uid 10013
+  ServiceInfo: SyncAdapterType {name=com.google.android.gm.email.provider, type=com.google.android.gm.exchange, userVisible=true, supportsUploading=false, isAlwaysSyncable=false, allowParallelSyncs=true, settingsActivity=null, packageName=com.google.android.gm}, ComponentInfo{com.google.android.gm/com.android.exchange.service.EmailSyncAdapterService}, uid 10068
+  ServiceInfo: SyncAdapterType {name=gmail-ls, type=com.google, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=true, settingsActivity=null, packageName=com.google.android.gm}, ComponentInfo{com.google.android.gm/com.google.android.gm.provider.MailSyncAdapterService}, uid 10068
+
+
+Observer tree:
+  settings/secure: pid=2259 uid=10013 user=0 target=46af243
+  settings/secure/long_press_timeout: pid=1700 uid=1000 user=0 target=a2bc0c0
+  settings/secure/accessibility_display_inversion_enabled: pid=1700 uid=1000 user=-1 target=ddbc1f9
+  settings/secure/accessibility_display_inversion_enabled: pid=1700 uid=1000 user=-1 target=b41a53e
+  settings/secure/accessibility_display_inversion_enabled: pid=1850 uid=10028 user=0 target=7406f9f
+  settings/secure/incall_power_button_behavior: pid=1700 uid=1000 user=-1 target=c6c28ec
+  settings/secure/wake_gesture_enabled: pid=1700 uid=1000 user=-1 target=c6c28ec
+  settings/secure/default_input_method: pid=1700 uid=1000 user=-1 target=c6c28ec
+  settings/secure/default_input_method: pid=1700 uid=1000 user=0 target=10d84b5
+  settings/secure/immersive_mode_confirmations: pid=1700 uid=1000 user=-1 target=c6c28ec
+  settings/secure/accessibility_large_pointer_icon: pid=1700 uid=1000 user=-1 target=a2ed74a
+  settings/secure/enabled_input_methods: pid=1700 uid=1000 user=0 target=10d84b5
+  settings/secure/selected_input_method_subtype: pid=1700 uid=1000 user=0 target=10d84b5
+  settings/secure/show_ime_with_hard_keyboard: pid=1700 uid=1000 user=0 target=10d84b5
+  settings/secure/show_ime_with_hard_keyboard: pid=1822 uid=10053 user=0 target=8c666bb
+  settings/secure/accessibility_soft_keyboard_mode: pid=1700 uid=1000 user=0 target=10d84b5
+  settings/secure/accessibility_soft_keyboard_mode: pid=1700 uid=1000 user=-1 target=b41a53e
+  settings/secure/touch_exploration_enabled: pid=1700 uid=1000 user=-1 target=b41a53e
+  settings/secure/accessibility_display_magnification_enabled: pid=1700 uid=1000 user=-1 target=b41a53e
+  settings/secure/accessibility_autoclick_enabled: pid=1700 uid=1000 user=-1 target=b41a53e
+  settings/secure/enabled_accessibility_services: pid=1700 uid=1000 user=-1 target=b41a53e
+  settings/secure/touch_exploration_granted_accessibility_services: pid=1700 uid=1000 user=-1 target=b41a53e
+  settings/secure/accessibility_script_injection: pid=1700 uid=1000 user=-1 target=b41a53e
+  settings/secure/accessibility_display_daltonizer_enabled: pid=1700 uid=1000 user=-1 target=b41a53e
+  settings/secure/accessibility_display_daltonizer: pid=1700 uid=1000 user=-1 target=b41a53e
+  settings/secure/high_text_contrast_enabled: pid=1700 uid=1000 user=-1 target=b41a53e
+  settings/secure/search_global_search_activity: pid=1700 uid=1000 user=0 target=f68e7d8
+  settings/secure/pubkey_blacklist: pid=1700 uid=1000 user=0 target=f5eb731
+  settings/secure/serial_blacklist: pid=1700 uid=1000 user=0 target=80b1e16
+  settings/secure/disabled_print_services: pid=1700 uid=1000 user=-1 target=aeab397
+  settings/secure/enabled_notification_listeners: pid=1700 uid=1000 user=-1 target=670a984
+  settings/secure/enabled_notification_listeners: pid=1700 uid=1000 user=-1 target=1b6956d
+  settings/secure/enabled_notification_listeners: pid=1700 uid=1000 user=-1 target=b9305a2
+  settings/secure/user_setup_complete: pid=1700 uid=1000 user=-1 target=69cf233
+  settings/secure/user_setup_complete: pid=1850 uid=10028 user=0 target=910d9f0
+  settings/secure/user_setup_complete: pid=1850 uid=10028 user=0 target=e341b69
+  settings/secure/user_setup_complete: pid=1850 uid=10028 user=0 target=910d9f0
+  settings/secure/enabled_vr_listeners: pid=1700 uid=1000 user=-1 target=8bfd9ee
+  settings/secure/screensaver_enabled: pid=1700 uid=1000 user=-1 target=a2a7e8f
+  settings/secure/screensaver_activate_on_sleep: pid=1700 uid=1000 user=-1 target=a2a7e8f
+  settings/secure/screensaver_activate_on_dock: pid=1700 uid=1000 user=-1 target=a2a7e8f
+  settings/secure/sleep_timeout: pid=1700 uid=1000 user=-1 target=a2a7e8f
+  settings/secure/double_tap_to_wake: pid=1700 uid=1000 user=-1 target=a2a7e8f
+  settings/secure/brightness_use_twilight: pid=1700 uid=1000 user=-1 target=a2a7e8f
+  settings/secure/sms_default_application: pid=1700 uid=1000 user=-1 target=841a51c
+  settings/secure/dialer_default_application: pid=1700 uid=1000 user=-1 target=841a51c
+  settings/secure/volume_controller_service_component: pid=1700 uid=1000 user=0 target=3ea0525
+  settings/secure/volume_controller_service_component: pid=1850 uid=10028 user=0 target=7d3a6fa
+  settings/secure/volume_controller_service_component: pid=1850 uid=10028 user=-1 target=15a74ab
+  settings/secure/null: pid=1700 uid=1000 user=-1 target=a51f708
+  settings/secure/enabled_notification_policy_access_packages: pid=1700 uid=1000 user=-1 target=b9305a2
+  settings/secure/voice_interaction_service: pid=1700 uid=1000 user=-1 target=65acea1
+  settings/secure/doze_pulse_on_double_tap: pid=1700 uid=1000 user=-1 target=12538c6
+  settings/secure/locationCoarseAccuracy: pid=1700 uid=1000 user=0 target=349b087
+  settings/secure/locationCoarseAccuracy: pid=2259 uid=10013 user=0 target=9937bb4
+  settings/secure/locationPackagePrefixBlacklist: pid=1700 uid=1000 user=-1 target=4b4b3dd
+  settings/secure/location_providers_allowed: pid=1700 uid=1000 user=-1 target=9ac1b52
+  settings/secure/location_providers_allowed: pid=2259 uid=10013 user=0 target=206ce23
+  settings/secure/location_providers_allowed: pid=2259 uid=10013 user=0 target=1c69f20
+  settings/secure/location_providers_allowed: pid=2259 uid=10013 user=0 target=8cdb0d9
+  settings/secure/location_providers_allowed: pid=2259 uid=10013 user=0 target=c4c9a9e
+  settings/secure/location_providers_allowed: pid=2259 uid=10013 user=0 target=7ee297f
+  settings/secure/location_providers_allowed: pid=2259 uid=10013 user=0 target=8468d4c
+  settings/secure/location_providers_allowed: pid=2259 uid=10013 user=0 target=9df8195
+  settings/secure/location_providers_allowed: pid=2259 uid=10013 user=0 target=be3c2aa
+  settings/secure/location_providers_allowed: pid=2259 uid=10013 user=0 target=ec5de9b
+  settings/secure/data_collector_enable: pid=1850 uid=10028 user=-1 target=af53238
+  settings/secure/data_collector_collect_bad_touches: pid=1850 uid=10028 user=-1 target=af53238
+  settings/secure/data_collector_allow_rejected_touch_reports: pid=1850 uid=10028 user=-1 target=af53238
+  settings/secure/falsing_manager_enforce_bouncer: pid=1850 uid=10028 user=-1 target=f03a211
+  settings/secure/camera_gesture_disabled: pid=1700 uid=1000 user=0 target=a135f76
+  settings/secure/camera_double_tap_power_gesture_disabled: pid=1700 uid=1000 user=0 target=a135f76
+  settings/secure/sysui_show_full_zen: pid=1850 uid=10028 user=0 target=c99c977
+  settings/secure/sysui_volume_down_silent: pid=1850 uid=10028 user=0 target=c99c977
+  settings/secure/sysui_volume_up_silent: pid=1850 uid=10028 user=0 target=c99c977
+  settings/secure/sysui_do_not_disturb: pid=1850 uid=10028 user=0 target=c99c977
+  settings/secure/bar_service_component: pid=1850 uid=10028 user=-1 target=1e739e4
+  settings/secure/lock_screen_show_notifications: pid=1850 uid=10028 user=-1 target=d6f4e4d
+  settings/secure/lock_screen_allow_private_notifications: pid=1850 uid=10028 user=-1 target=ecdfd02
+  settings/secure/overview_nav_bar_gesture: pid=1850 uid=10028 user=0 target=c99c977
+  settings/secure/assistant: pid=1850 uid=10028 user=0 target=2578613
+  settings/secure/icon_blacklist: pid=1850 uid=10028 user=0 target=c99c977
+  settings/secure/sysui_qs_tiles: pid=1850 uid=10028 user=0 target=c99c977
+  settings/secure/clock_seconds: pid=1850 uid=10028 user=0 target=c99c977
+  settings/secure/qs_show_brightness: pid=1850 uid=10028 user=0 target=c99c977
+  settings/secure/sysui_qs_fancy_anim: pid=1850 uid=10028 user=0 target=c99c977
+  settings/secure/sysui_qs_move_whole_rows: pid=1850 uid=10028 user=0 target=c99c977
+  settings/secure/sysui_qqs_count: pid=1850 uid=10028 user=0 target=c99c977
+  settings/secure/sysui_nav_bar: pid=1850 uid=10028 user=0 target=c99c977
+  settings/system: pid=1850 uid=10028 user=-1 target=fd01050
+  settings/system: pid=1850 uid=10028 user=-1 target=e6f8249
+  settings/system: pid=1850 uid=10028 user=-1 target=ca2e74e
+  settings/system: pid=1850 uid=10028 user=-1 target=82a706f
+  settings/system: pid=2522 uid=10022 user=0 target=d2de17c
+  settings/system: pid=2522 uid=10022 user=0 target=924fa05
+  settings/system: pid=5026 uid=10084 user=0 target=dca2a5a
+  settings/system: pid=2522 uid=10022 user=0 target=397a48b
+  settings/system: pid=2428 uid=10029 user=0 target=a359968
+  settings/system/time_12_24: pid=1700 uid=1000 user=0 target=a2bc0c0
+  settings/system/font_scale: pid=1700 uid=1000 user=-1 target=c003181
+  settings/system/end_button_behavior: pid=1700 uid=1000 user=-1 target=c6c28ec
+  settings/system/accelerometer_rotation: pid=1700 uid=1000 user=-1 target=c6c28ec
+  settings/system/accelerometer_rotation: pid=1850 uid=10028 user=-1 target=5f09226
+  settings/system/user_rotation: pid=1700 uid=1000 user=-1 target=c6c28ec
+  settings/system/screen_off_timeout: pid=1700 uid=1000 user=-1 target=c6c28ec
+  settings/system/screen_off_timeout: pid=1700 uid=1000 user=-1 target=a2a7e8f
+  settings/system/pointer_location: pid=1700 uid=1000 user=-1 target=c6c28ec
+  settings/system/pointer_speed: pid=1700 uid=1000 user=-1 target=359fe67
+  settings/system/show_touches: pid=1700 uid=1000 user=-1 target=37ee414
+  settings/system/mode_ringer_streams_affected: pid=1700 uid=1000 user=0 target=1fd64bd
+  settings/system/master_mono: pid=1700 uid=1000 user=0 target=1fd64bd
+  settings/system/vibrate_input_devices: pid=1700 uid=1000 user=-1 target=4c3aab2
+  settings/system/screen_brightness: pid=1700 uid=1000 user=-1 target=a2a7e8f
+  settings/system/screen_brightness_mode: pid=1700 uid=1000 user=-1 target=a2a7e8f
+  settings/system/screen_auto_brightness_adj: pid=1700 uid=1000 user=-1 target=a2a7e8f
+  settings/system/notification_light_pulse: pid=1700 uid=1000 user=-1 target=cfe1a03
+  settings/system/notification_sound: pid=1700 uid=1000 user=-1 target=cfe1a03
+  settings/system/hide_rotation_lock_toggle_for_accessibility: pid=1850 uid=10028 user=-1 target=5f09226
+  settings/system/status_bar_show_battery_percent: pid=1850 uid=10028 user=0 target=5702d80
+  settings/system/status_bar_show_battery_percent: pid=1850 uid=10028 user=0 target=fa08fb9
+  settings/global: pid=1700 uid=1000 user=0 target=53dbffe
+  settings/global/debug_view_attributes: pid=1700 uid=1000 user=0 target=a2bc0c0
+  settings/global/window_animation_scale: pid=1700 uid=1000 user=-1 target=ddbc1f9
+  settings/global/transition_animation_scale: pid=1700 uid=1000 user=-1 target=ddbc1f9
+  settings/global/animator_duration_scale: pid=1700 uid=1000 user=-1 target=ddbc1f9
+  settings/global/policy_control: pid=1700 uid=1000 user=-1 target=c6c28ec
+  settings/global/device_idle_constants: pid=1700 uid=1000 user=0 target=83e535f
+  settings/global/network_avoid_bad_wifi: pid=1700 uid=1000 user=0 target=a6aa1ac
+  settings/global/network_avoid_bad_wifi: pid=1700 uid=1000 user=0 target=3b16e75
+  settings/global/wifi_suspend_optimizations_enabled: pid=1700 uid=1000 user=0 target=5b1de0a
+  settings/global/wifi_networks_available_notification_on: pid=1700 uid=1000 user=0 target=41ec67b
+  settings/global/stay_on_while_plugged_in: pid=1700 uid=1000 user=0 target=fb62c98
+  settings/global/stay_on_while_plugged_in: pid=1700 uid=1000 user=-1 target=a2a7e8f
+  settings/global/wifi_idle_ms: pid=1700 uid=1000 user=0 target=7b77cf1
+  settings/global/wifi_sleep_policy: pid=1700 uid=1000 user=0 target=497d0d6
+  settings/global/http_proxy: pid=1700 uid=1000 user=0 target=1c94f57
+  settings/global/mobile_data_always_on: pid=1700 uid=1000 user=0 target=1c94f57
+  settings/global/nsd_on: pid=1700 uid=1000 user=0 target=d2d7a44
+  settings/global/zen_mode: pid=1700 uid=1000 user=0 target=c35f72d
+  settings/global/zen_mode: pid=1850 uid=10028 user=0 target=e182462
+  settings/global/zen_mode: pid=1850 uid=10028 user=0 target=7d3a6fa
+  settings/global/zen_mode: pid=1850 uid=10028 user=0 target=d6f4e4d
+  settings/global/dock_audio_media_enabled: pid=1700 uid=1000 user=0 target=1fd64bd
+  settings/global/encoded_surround_output: pid=1700 uid=1000 user=0 target=1fd64bd
+  settings/global/sampling_profiler_ms: pid=1700 uid=1000 user=0 target=12989f3
+  settings/global/device_provisioned: pid=1700 uid=1000 user=-1 target=69cf233
+  settings/global/device_provisioned: pid=1700 uid=1000 user=0 target=ba9f6b0
+  settings/global/device_provisioned: pid=1850 uid=10028 user=0 target=910d9f0
+  settings/global/device_provisioned: pid=1850 uid=10028 user=0 target=d6f4e4d
+  settings/global/device_provisioned: pid=1850 uid=10028 user=0 target=910d9f0
+  settings/global/device_provisioned: pid=1700 uid=1000 user=0 target=ca7d929
+  settings/global/device_provisioned: pid=1989 uid=1001 user=0 target=65824ae
+  settings/global/app_idle_constants: pid=1700 uid=1000 user=0 target=b48d24f
+  settings/global/alarm_manager_constants: pid=1700 uid=1000 user=0 target=62fcddc
+  settings/global/wifi_scan_always_enabled: pid=1700 uid=1000 user=0 target=73bdee5
+  settings/global/wifi_scan_always_enabled: pid=2259 uid=10013 user=0 target=c85ddba
+  settings/global/job_scheduler_constants: pid=1700 uid=1000 user=0 target=66a446b
+  settings/global/low_power: pid=1700 uid=1000 user=-1 target=a2a7e8f
+  settings/global/low_power_trigger_level: pid=1700 uid=1000 user=-1 target=a2a7e8f
+  settings/global/low_power_trigger_level: pid=1700 uid=1000 user=-1 target=1d9ebc8
+  settings/global/low_power_trigger_level: pid=1850 uid=10028 user=-1 target=4508461
+  settings/global/theater_mode_on: pid=1700 uid=1000 user=-1 target=a2a7e8f
+  settings/global/overlay_display_devices: pid=1700 uid=1000 user=0 target=2a41b86
+  settings/global/max_notification_enqueue_rate: pid=1700 uid=1000 user=-1 target=cfe1a03
+  settings/global/device_demo_mode: pid=1700 uid=1000 user=0 target=ba9f6b0
+  settings/global/retail_demo_mode_constants: pid=1700 uid=1000 user=0 target=ba9f6b0
+  settings/global/auto_time: pid=1700 uid=1000 user=0 target=fe6bc47
+  settings/global/auto_time: pid=1989 uid=1001 user=0 target=885fc74
+  settings/global/HIC_enable: pid=1850 uid=10028 user=-1 target=9b0059d
+  settings/global/zen_mode_config_etag: pid=1850 uid=10028 user=0 target=6166a12
+  settings/global/zen_mode_config_etag: pid=1850 uid=10028 user=0 target=7d3a6fa
+  settings/global/sms_short_code_confirmation: pid=1989 uid=1001 user=0 target=7c8d5e3
+  settings/global/sms_short_code_rule: pid=1989 uid=1001 user=0 target=2406be0
+  settings/global/sms_short_code_rule: pid=1989 uid=1001 user=0 target=58c5e99
+  settings/global/sms_short_code_rule: pid=1989 uid=1001 user=0 target=4ed155e
+  settings/global/auto_time_zone: pid=1989 uid=1001 user=0 target=a28ed3f
+  settings/global/heads_up_snooze_length_ms: pid=1850 uid=10028 user=0 target=970660c
+  settings/global/lockscreenSimpleUserSwitcher: pid=1850 uid=10028 user=0 target=d3b4b55
+  settings/global/add_users_when_locked: pid=1850 uid=10028 user=0 target=d3b4b55
+  settings/global/allow_user_switching_when_system_user_locked: pid=1850 uid=10028 user=0 target=d3b4b55
+  settings/global/heads_up_notifications_enabled: pid=1850 uid=10028 user=0 target=bf1296a
+  settings/global/ticker_gets_heads_up: pid=1850 uid=10028 user=0 target=bf1296a
+  settings/global/data_roaming: pid=1989 uid=1001 user=0 target=65824ae
+  settings/global/device_provisioning_mobile_data: pid=1989 uid=1001 user=0 target=65824ae
+  com.android.contacts: pid=2259 uid=10013 user=0 target=2491e5b
+  com.android.contacts/contacts: pid=1700 uid=1000 user=-1 target=5c3d6f8
+  com.android.contacts/contacts: pid=2563 uid=10013 user=0 target=bb247d1
+  user_dictionary/words: pid=1822 uid=10053 user=0 target=9707236
+  com.android.calendar/instances/when: pid=1700 uid=1000 user=0 target=3714537
+  com.android.calendar/events: pid=1700 uid=1000 user=0 target=3714537
+  com.android.calendar/calendars: pid=1700 uid=1000 user=0 target=3714537
+  telephony/carriers: pid=1989 uid=1001 user=0 target=9db6aa4
+  com.google.android.gsf.gservices: pid=2259 uid=10013 user=0 target=bc2900d
+  com.google.android.gsf.gservices: pid=2338 uid=10013 user=0 target=c97bc2
+  com.google.android.gsf.gservices: pid=2428 uid=10029 user=0 target=38afdd3
+  com.google.android.gsf.gservices: pid=2563 uid=10013 user=0 target=fb68d10
+  com.google.android.gsf.gservices: pid=2259 uid=10013 user=0 target=a152009
+  com.google.android.gsf.gservices: pid=3402 uid=10065 user=0 target=ab7920e
+  com.google.android.gsf.gservices: pid=3945 uid=10068 user=0 target=37da42f
+  com.google.android.gsf.gservices: pid=3912 uid=10052 user=0 target=fdf6a3c
+  com.google.android.gsf.gservices: pid=4272 uid=10058 user=0 target=ae6b3c5
+  com.google.android.gsf.gservices: pid=4367 uid=10052 user=0 target=e5ec11a
+  com.google.android.gsf.gservices: pid=4620 uid=10065 user=0 target=14a544b
+  com.google.android.gsf.gservices: pid=4798 uid=10013 user=0 target=f56ee28
+  com.google.android.gsf.gservices: pid=5108 uid=10066 user=0 target=f83c741
+  com.google.android.gsf.gservices: pid=5217 uid=10019 user=0 target=f17d4e6
+  com.google.android.gms.phenotype/com.google.android.gms.backup: pid=2259 uid=10013 user=0 target=fe7ea27
+  com.google.android.gms.phenotype/com.google.android.gms.backup: pid=2563 uid=10013 user=0 target=40c4d4
+  com.google.android.gms.phenotype/com.google.android.location: pid=2259 uid=10013 user=0 target=784967d
+  com.google.android.gms.phenotype/com.google.android.location: pid=2259 uid=10013 user=0 target=afc5972
+  com.google.android.gms.phenotype/com.google.android.location: pid=2563 uid=10013 user=0 target=df01c3
+  com.google.android.gms.phenotype/com.google.android.gms: pid=2259 uid=10013 user=0 target=14f5a40
+  com.google.android.gms.phenotype/com.google.android.gms: pid=2563 uid=10013 user=0 target=9c91d79
+  com.google.android.gms.phenotype/com.google.android.gms: pid=4798 uid=10013 user=0 target=6329abe
+  com.google.android.gms.phenotype/com.google.android.gms.icing: pid=2259 uid=10013 user=0 target=ba5f71f
+  com.google.android.gms.phenotype/com.google.android.gms.icing: pid=2563 uid=10013 user=0 target=7efda6c
+  com.google.android.gms.phenotype/com.google.android.gms.gcm: pid=2259 uid=10013 user=0 target=1351835
+  com.google.android.gms.phenotype/com.google.android.gms.gcm: pid=2563 uid=10013 user=0 target=ef9a4ca
+  com.google.android.gms.phenotype/com.google.android.gms.clearcut.public: pid=2259 uid=10013 user=0 target=ebce63b
+  com.google.android.gms.phenotype/com.google.android.gms.clearcut.public: pid=2563 uid=10013 user=0 target=1363158
+  com.google.android.gms.phenotype/com.google.android.gms.usagereporting: pid=2259 uid=10013 user=0 target=92c02b1
+  com.google.android.gms.phenotype/com.google.android.gms.accountsettings: pid=2563 uid=10013 user=0 target=6754396
+  com.google.android.gms.phenotype/com.google.android.gms.cast: pid=2563 uid=10013 user=0 target=689ab17
+  com.google.android.gms.phenotype/com.google.android.gms.ads: pid=2563 uid=10013 user=0 target=5890b04
+  com.google.android.gms.phenotype/com.google.android.gms.chromesync: pid=2563 uid=10013 user=0 target=5cd18ed
+  com.google.android.gms.phenotype/com.google.android.gms.ulr: pid=2259 uid=10013 user=0 target=a3a0322
+  com.google.android.gms.phenotype/com.google.android.gms.auth_account: pid=2563 uid=10013 user=0 target=5f3e1b3
+  com.google.android.gms.phenotype/com.google.android.gms.auth_account: pid=2259 uid=10013 user=0 target=b0dd370
+  com.google.android.gms.phenotype/com.google.android.gms.auth_api_phone: pid=2563 uid=10013 user=0 target=3ef56e9
+  com.google.android.gms.phenotype/com.google.android.gms.auth.api.credentials: pid=2563 uid=10013 user=0 target=a992f6e
+  com.google.android.gms.phenotype/com.google.android.gms.auth_cryptauth: pid=2563 uid=10013 user=0 target=cc0e60f
+  com.google.android.gms.phenotype/com.google.android.gms.auth_authzen: pid=2563 uid=10013 user=0 target=2d4b69c
+  com.google.android.gms.phenotype/com.google.android.gms.auth_authzen: pid=2259 uid=10013 user=0 target=cdd78a5
+  com.google.android.gms.phenotype/com.google.android.gms.auth.easyunlock: pid=2563 uid=10013 user=0 target=9acd47a
+  com.google.android.gms.phenotype/com.google.android.gms.auth.easyunlock: pid=2259 uid=10013 user=0 target=7afd42b
+  com.google.android.gms.phenotype/com.google.android.gms.magictether: pid=2563 uid=10013 user=0 target=cc4a088
+  com.google.android.gms.phenotype/com.google.android.gms.magictether: pid=2259 uid=10013 user=0 target=9d1fa21
+  com.google.android.gms.phenotype/com.google.android.gms.auth_managed: pid=2563 uid=10013 user=0 target=f23be46
+  com.google.android.gms.phenotype/com.google.android.gms.auth_managed: pid=2259 uid=10013 user=0 target=6558807
+  com.google.android.gms.phenotype/com.google.android.gms.auth.proximity: pid=2259 uid=10013 user=0 target=e473d34
+  com.google.android.gms.phenotype/com.google.android.gms.car#car_setup: pid=2563 uid=10013 user=0 target=333175d
+  com.google.android.gms.phenotype/com.google.android.gms.trustlet_onbody: pid=2563 uid=10013 user=0 target=ccd78d2
+  com.google.android.gms.phenotype/com.google.android.gms.trustlet_onbody: pid=2259 uid=10013 user=0 target=2b89da3
+  com.google.android.gms.phenotype/com.google.android.gms.constellation: pid=2563 uid=10013 user=0 target=7b4f8a0
+  com.google.android.gms.phenotype/com.google.android.gms.droidguard: pid=4798 uid=10013 user=0 target=78ecc59
+  com.google.android.gms.phenotype/com.google.android.gms.mobile_data_plan: pid=2259 uid=10013 user=0 target=fe6501e
+  com.google.android.gms.phenotype/com.google.android.gms.mobile_data_plan: pid=2563 uid=10013 user=0 target=6ad70ff
+  com.google.android.gms.phenotype/com.google.android.gms.update: pid=2563 uid=10013 user=0 target=480fecc
+  com.google.android.gms.phenotype/com.google.android.gms.security: pid=2563 uid=10013 user=0 target=656d515
+  com.google.android.gms.phenotype/com.google.android.gms.trustagent.common: pid=2259 uid=10013 user=0 target=b23502a
+  com.google.android.gms.phenotype/com.google.android.gms.trustagent.common: pid=2563 uid=10013 user=0 target=af21e1b
+  com.google.android.gms.phenotype/com.google.android.gms.cast_mirroring: pid=2563 uid=10013 user=0 target=2253bb8
+  com.google.android.gms.phenotype/com.google.android.gms.contextmanager: pid=2259 uid=10013 user=0 target=a5cad91
+  com.google.android.gms.phenotype/com.google.android.gms.fido: pid=2563 uid=10013 user=0 target=57e44f6
+  com.google.android.gms.phenotype/com.google.android.gms.fonts: pid=2563 uid=10013 user=0 target=c0a80f7
+  com.google.android.gms.phenotype/com.google.android.gms.growth: pid=2563 uid=10013 user=0 target=9ce5b64
+  com.google.android.gms.phenotype/com.google.android.gms.fitness: pid=2259 uid=10013 user=0 target=d91cd
+  com.google.android.gms.phenotype/com.google.android.gms.icing.mdd: pid=2563 uid=10013 user=0 target=9c1ba82
+  com.google.android.gms.phenotype/com.google.android.gms.instantapps: pid=2563 uid=10013 user=0 target=dc3593
+  com.google.android.gms.phenotype/com.google.android.gms.instantapps: pid=2259 uid=10013 user=0 target=8c7c9d0
+  com.google.android.gms.phenotype/com.google.android.gms.ipa: pid=2563 uid=10013 user=0 target=36e7dc9
+  com.google.android.gms.phenotype/com.google.android.gms.ipa: pid=2259 uid=10013 user=0 target=2d4fcce
+  com.google.android.gms.phenotype/com.google.android.gms.matchstick: pid=2563 uid=10013 user=0 target=f0a97ef
+  com.google.android.gms.phenotype/com.google.android.gms.measurement: pid=2563 uid=10013 user=0 target=3a7b2fc
+  com.google.android.gms.phenotype/com.google.android.gms.measurement: pid=2259 uid=10013 user=0 target=1d82d85
+  com.google.android.gms.phenotype/com.google.android.gms.nearby: pid=2563 uid=10013 user=0 target=c817da
+  com.google.android.gms.phenotype/com.google.android.gms.netrec: pid=2563 uid=10013 user=0 target=912c40b
+  com.google.android.gms.phenotype/com.google.android.gms.netrec: pid=2259 uid=10013 user=0 target=3b02e8
+  com.google.android.gms.phenotype/com.google.android.gms.notifications: pid=2259 uid=10013 user=0 target=b731d01
+  com.google.android.gms.phenotype/com.google.android.gms.ocr: pid=2563 uid=10013 user=0 target=29fd7a6
+  com.google.android.gms.phenotype/com.google.android.gms.people: pid=2563 uid=10013 user=0 target=22795e7
+  com.google.android.gms.phenotype/com.google.android.gms.reminders: pid=2563 uid=10013 user=0 target=2316594
+  com.google.android.gms.phenotype/com.google.android.gms.mdm: pid=2563 uid=10013 user=0 target=73883d
+  com.google.android.gms.phenotype/com.google.android.gms.herrevad: pid=2563 uid=10013 user=0 target=e1c832
+  com.google.android.gms.phenotype/com.google.android.gms.herrevad: pid=2259 uid=10013 user=0 target=3cda983
+  com.google.android.gms.phenotype/com.google.android.gms.locationsharing: pid=2563 uid=10013 user=0 target=6894700
+  com.google.android.gms.phenotype/com.google.android.gms.wearable: pid=2259 uid=10013 user=0 target=6156b39
+  com.google.android.gms.phenotype/com.google.android.gms.wearable: pid=2563 uid=10013 user=0 target=4e0357e
+  com.google.android.gms.phenotype/com.google.android.gms.semanticlocation: pid=2563 uid=10013 user=0 target=1375adf
+  com.google.android.gms.phenotype/com.google.android.gms.udc: pid=2563 uid=10013 user=0 target=9bbd32c
+  com.google.android.gms.phenotype/com.google.android.gms.wallet: pid=2563 uid=10013 user=0 target=f5881f5
+  com.google.android.gms.phenotype/com.google.android.gms.setupservices: pid=2563 uid=10013 user=0 target=8c62b8a
+  com.google.android.gms.phenotype/com.google.android.gms.places: pid=2259 uid=10013 user=0 target=460c5fb
+  com.google.android.gms.phenotype/com.google.android.gms.subscribedfeeds: pid=2563 uid=10013 user=0 target=4a8f618
+  com.google.android.gms.phenotype/com.google.android.metrics: pid=2259 uid=10013 user=0 target=57c4871
+  com.google.android.gms.phenotype/com.google.android.gms.tapandpay: pid=2259 uid=10013 user=0 target=c637656
+  com.google.android.gms.phenotype/com.google.android.gms.telephonyspam: pid=2563 uid=10013 user=0 target=ebc6d7
+  com.google.android.gms.phenotype/com.google.android.gms.tron.metrics: pid=2259 uid=10013 user=0 target=c435bc4
+  com.google.android.gms.phenotype/com.google.android.gms.trustlet_place: pid=2563 uid=10013 user=0 target=c3bfaad
+  com.google.android.gms.phenotype/com.google.android.gms.trustlet_voiceunlock: pid=2563 uid=10013 user=0 target=ab8a1e2
+  com.google.android.gms.phenotype/com.google.android.gms.walletp2p#config: pid=2563 uid=10013 user=0 target=8bbf973
+  com.google.android.gms.phenotype/com.google.android.gms.vision.sdk: pid=2563 uid=10013 user=0 target=ffc7030
+  com.google.android.gms.phenotype/com.google.android.gms.drive: pid=2563 uid=10013 user=0 target=dca94a9
+  com.google.android.gms.phenotype/com.google.android.gms.vision: pid=2563 uid=10013 user=0 target=c42fa2e
+  com.google.android.gms.phenotype/com.google.android.gms.trustagent: pid=2259 uid=10013 user=0 target=e52b9cf
+  com.google.android.gms.phenotype/com.google.android.gms.googlehelp: pid=2563 uid=10013 user=0 target=2f05f5c
+  com.google.android.gms.phenotype/com.google.android.gms.appinvite: pid=2563 uid=10013 user=0 target=a8ed265
+  com.google.android.gms.phenotype/com.google.android.gms.common_auth: pid=2259 uid=10013 user=0 target=2088b3a
+  com.google.settings/partner: pid=2259 uid=10013 user=0 target=206ce23
+  com.google.settings/partner: pid=2259 uid=10013 user=0 target=eb23eb
+  com.google.settings/partner: pid=2259 uid=10013 user=0 target=ec5de9b
+  com.google.settings/partner: pid=2563 uid=10013 user=0 target=bd21548
+  com.google.settings/partner/use_location_for_services: pid=2428 uid=10029 user=0 target=89f2fe1
+  mms-sms: pid=2563 uid=10013 user=0 target=5642106
+  mms-sms: pid=2259 uid=10013 user=0 target=e5613c7
+  media/external/images/media: pid=2563 uid=10013 user=0 target=7973df4
+  media/external/images/media: pid=1700 uid=1000 user=0 target=efde91d
+  media/external/video/media: pid=2563 uid=10013 user=0 target=7973df4
+  media/external/video/media: pid=1700 uid=1000 user=0 target=8914792
+  media/phoneStorage/images/media: pid=2563 uid=10013 user=0 target=7973df4
+  media/phoneStorage/video/media: pid=2563 uid=10013 user=0 target=7973df4
+  sms: pid=2259 uid=10013 user=0 target=6962563
+  com.android.gmail.ui/accounts: pid=3945 uid=10068 user=0 target=ae44560
+  com.google.android.gm.email.uinotifications/uiaccts: pid=3945 uid=10068 user=0 target=894fa19
+  com.google.android.gm.email.notifier/account: pid=3945 uid=10068 user=0 target=3f84ade
+  com.google.android.music.MusicContent/playlists: pid=4272 uid=10058 user=0 target=d3bb4bf
+  com.google.android.music.MusicContent/auto_playlists: pid=4272 uid=10058 user=0 target=d3bb4bf
+  com.google.android.music.MusicContent/album: pid=4272 uid=10058 user=0 target=d3bb4bf
+  com.google.android.music.MusicContent/queue: pid=4272 uid=10058 user=0 target=e38578c
+  com.google.android.music.MusicContent/queue: pid=4272 uid=10058 user=0 target=af21ed5
+  com.google.android.music.MusicContent/refreshcloudqueue: pid=4272 uid=10058 user=0 target=c3a36ea
+  com.google.android.music.MusicContent/account: pid=4272 uid=10058 user=0 target=480dddb
+  com.google.android.music.MusicContent/KeepOn: pid=4272 uid=10058 user=0 target=d96078
+  com.google.android.apps.messaging.shared.datamodel.BugleContentProvider/messages: pid=5108 uid=10066 user=0 target=cc2d351
+  com.google.android.apps.messaging.shared.datamodel.BugleContentProvider/parts: pid=5108 uid=10066 user=0 target=cc2d351
+  com.google.android.apps.messaging.shared.datamodel.BugleContentProvider/conversations: pid=5108 uid=10066 user=0 target=cc2d351
+
+  pid 1700: 112 observers
+  pid 2563: 65 observers
+  pid 2259: 53 observers
+  pid 1850: 51 observers
+  pid 1989: 10 observers
+  pid 4272: 9 observers
+  pid 3945: 4 observers
+  pid 5108: 4 observers
+  pid 2428: 3 observers
+  pid 2522: 3 observers
+  pid 4798: 3 observers
+  pid 1822: 2 observers
+  pid 2338: 1 observers
+  pid 3402: 1 observers
+  pid 3912: 1 observers
+  pid 4367: 1 observers
+  pid 4620: 1 observers
+  pid 5026: 1 observers
+  pid 5217: 1 observers
+
+ Total number of nodes: 251
+ Total number of observers: 326
+
+Cached content:
+--------- 0.017s was the duration of dumpsys content

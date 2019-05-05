@@ -1,0 +1,52 @@
+VOICE INTERACTION MANAGER (dumpsys voiceinteraction)
+  mEnableService: true
+  mUser=0
+  mComponent=com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService
+  Session service=com.google.android.apps.gsa.assist.GsaVoiceInteractionSessionService
+  Service info:
+    name=com.google.android.voiceinteraction.GsaVoiceInteractionService
+    packageName=com.google.android.googlequicksearchbox
+    labelRes=0x7f1203b7 nonLocalizedLabel=null icon=0x0 banner=0x0
+    processName=com.google.android.googlequicksearchbox:interactor
+    enabled=true exported=true directBootAware=false
+    permission=android.permission.BIND_VOICE_INTERACTION
+    flags=0x3
+    ApplicationInfo:
+      name=com.google.android.apps.gsa.velvet.VelvetApplication
+      packageName=com.google.android.googlequicksearchbox
+      labelRes=0x7f1200fb nonLocalizedLabel=null icon=0x7f030007 banner=0x0
+      className=com.google.android.apps.gsa.velvet.VelvetApplication
+      processName=com.google.android.googlequicksearchbox
+      taskAffinity=com.google.android.googlequicksearchbox
+      uid=10029 flags=0x3 privateFlags=0x808 theme=0x7f130238
+      requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+      sourceDir=/system/priv-app/Velvet/Velvet.apk
+      seinfo=default:privapp
+      dataDir=/data/user/0/com.google.android.googlequicksearchbox
+      deviceProtectedDataDir=/data/user_de/0/com.google.android.googlequicksearchbox
+      credentialProtectedDataDir=/data/user/0/com.google.android.googlequicksearchbox
+      enabled=true minSdkVersion=21 targetSdkVersion=24 versionCode=300720776
+      manageSpaceActivityName=com.google.android.apps.gsa.managespace.VelvetManageSpaceActivity
+      supportsRtl=true
+      fullBackupContent=true
+  Recognition service=com.google.android.voicesearch.serviceapi.GoogleRecognitionService
+  Settings activity=com.google.android.apps.gsa.velvet.ui.settings.VoiceSearchPreferences
+  Supports assist=true
+  Supports launch from keyguard=true
+  mDisabledShowContext=3
+  mBound=true mService=android.service.voice.IVoiceInteractionService$Stub$Proxy@415c24f
+  Active session:
+    mToken=android.os.Binder@a6e8436
+    mShown=false
+    mShowArgs=null
+    mShowFlags=0x0
+    mBound=true
+    mService=android.service.voice.IVoiceInteractionSessionService$Stub$Proxy@691fddc
+    mSession=android.service.voice.IVoiceInteractionSession$Stub$Proxy@baa4ee5
+    mInteractor=com.android.internal.app.IVoiceInteractor$Stub$Proxy@5ab8dba
+    mHaveAssistData=false
+  module properties=null
+  call active=false
+  power save mode active=false
+  service disabled=false
+--------- 0.001s was the duration of dumpsys voiceinteraction

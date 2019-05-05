@@ -1,0 +1,3 @@
+SamplingProfilerService:
+Watching directory: /data/snapshots
+--------- 0.001s was the duration of dumpsys samplingprofiler

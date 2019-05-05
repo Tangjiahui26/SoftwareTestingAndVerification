@@ -1,0 +1,6 @@
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+8: radio0: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
+    inet 192.168.200.2/24 brd 192.168.200.255 scope global radio0
+       valid_lft forever preferred_lft forever

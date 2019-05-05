@@ -1,0 +1,44 @@
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+     256        8        0        0        8        0        0        0    2 /dev/__properties__/properties_serial
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:dalvik_prop:s0
+     128       12        0        0       12        0        0        0    1 /dev/__properties__/u:object_r:default_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:log_tag_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:logd_prop:s0
+      80       80       13        0       80        0        0        0    1 /file_contexts.bin
+       4        0        0        0        0        0        0        0    1 /sys/fs/selinux/status
+     168       96       96        0        0       88        8        0    3 /system/bin/installd
+     832      272       20      256        0        0       16        0    3 /system/bin/linker
+      52       48       19       36        0        4        8        0    3 /system/lib/libbase.so
+     964      272       26      252        0        0       20        0    4 /system/lib/libc++.so
+     876      496       32      476        0        0       20        0    4 /system/lib/libc.so
+    1104      224       59      176        0        0       48        0    3 /system/lib/libcrypto.so
+     128       72        9       64        0        0        8        0    4 /system/lib/libcutils.so
+      68       20        8       12        0        0        8        0    3 /system/lib/liblog.so
+      20       12        9        4        0        0        8        0    3 /system/lib/liblogwrap.so
+     220       24        8       16        0        0        8        0    3 /system/lib/libm.so
+      16       16        8        8        0        0        8        0    3 /system/lib/libnetd_client.so
+      16       12        8        4        0        0        8        0    3 /system/lib/libpackagelistparser.so
+     128       60       24       52        0        0        8        0    3 /system/lib/libpcre.so
+      96       68       12       60        0        0        8        0    4 /system/lib/libselinux.so
+      20       12        8        4        0        0        8        0    3 /system/lib/libstdc++.so
+      36       32       32        0        0        0       32        0    4 [anon:.bss]
+       8        8        8        0        0        0        8        0    2 [anon:arc4random _rs structure]
+       8        8        8        0        0        0        8        0    2 [anon:arc4random _rsx structure]
+       8        8        8        0        0        0        8        0    2 [anon:atexit handlers]
+    1024      140      140        0        0        0      140        0    1 [anon:libc_malloc]
+      20       20       20        0        0        0       20        0    4 [anon:linker_alloc]
+       4        4        4        0        0        0        4        0    1 [anon:linker_alloc_lob]
+      16       16       16        0        0        0       16        0    4 [anon:linker_alloc_small_objects]
+      20       20       20        0        0        0       20        0    5 [anon:linker_alloc_vector]
+       4        0        0        0        0        0        0        0    1 [anon:thread signal stack guard page]
+       8        0        0        0        0        0        0        0    1 [anon:thread signal stack]
+      20       16       16        0        0        0       16        0    3 [anon]
+     136       44       44        0        0        0       44        0    1 [stack]
+       4        4        0        4        0        0        0        0    1 [vdso]
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+    6876     2136      675     1424      112       92      508        0   89 TOTAL

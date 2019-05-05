@@ -1,0 +1,139 @@
+binder transactions:
+proc 5295
+context binder
+  buffer 522034: fc10002c size 0:0 delivered
+  buffer 521195: fc100078 size 0:0 delivered
+  buffer 525464: fc1000a4 size 4:0 delivered
+proc 5108
+context binder
+  buffer 485594: fbe8002c size 1664:0 delivered
+  buffer 486670: fbe806d8 size 4:0 delivered
+  buffer 486759: fbe80708 size 4:0 delivered
+  buffer 486643: fbe80738 size 2564:0 delivered
+  buffer 485396: fbe817b0 size 4:0 delivered
+proc 5026
+context binder
+  buffer 534676: fbb8009c size 40:4 delivered
+proc 4798
+context binder
+  buffer 396033: fb58002c size 4:0 delivered
+  buffer 395929: fb5801c8 size 8:0 delivered
+  buffer 483935: fb5801fc size 4:0 delivered
+proc 4272
+context binder
+  buffer 292594: faa8002c size 4:0 delivered
+  buffer 535777: faa804ac size 4:0 delivered
+  buffer 292582: faa80aec size 2564:0 delivered
+proc 3945
+context binder
+  buffer 192188: fa58002c size 8:0 delivered
+proc 3912
+context binder
+  buffer 151632: fa48002c size 8:0 delivered
+  buffer 151640: fa480060 size 4:0 delivered
+  buffer 504214: fa480090 size 4:0 delivered
+  buffer 153069: fa4800c0 size 140:4 delivered
+  buffer 153079: fa48017c size 4:0 delivered
+  buffer 153084: fa4801ac size 4:0 delivered
+proc 3402
+context binder
+  buffer 189623: f998002c size 4:0 delivered
+  buffer 234097: f998012c size 8:0 delivered
+  buffer 234500: f9980160 size 4:0 delivered
+  buffer 234102: f9980194 size 8:0 delivered
+  buffer 234349: f9980228 size 1476:0 delivered
+  buffer 234459: f9980818 size 140:4 delivered
+  buffer 234467: f99808d4 size 4:0 delivered
+proc 2563
+context binder
+  buffer 88709: f878002c size 4:0 delivered
+  buffer 530161: f8780060 size 4:0 delivered
+  buffer 530184: f8780090 size 8:0 delivered
+  buffer 534461: f87801f0 size 8:0 delivered
+  buffer 534531: f8780224 size 4:0 delivered
+  buffer 61828: f878026c size 4:0 delivered
+  buffer 358973: f87802a0 size 8:0 delivered
+  buffer 534450: f8780304 size 8:0 delivered
+  buffer 529055: f8780338 size 8:0 delivered
+  buffer 142998: f878036c size 1748:0 delivered
+  buffer 200707: f8781040 size 4:0 delivered
+  buffer 529353: f8781070 size 8:0 delivered
+  buffer 61695: f8781100 size 4:0 delivered
+  buffer 158793: f8781908 size 1748:0 delivered
+proc 2522
+context binder
+  buffer 530604: f858002c size 4:0 delivered
+  buffer 204425: f8580084 size 8:0 delivered
+  buffer 21312: f85800b8 size 4:0 delivered
+  buffer 204447: f85800e8 size 4:0 delivered
+  buffer 20506: f858018c size 4:0 delivered
+  buffer 21084: f85801bc size 200:0 delivered
+proc 2428
+context binder
+  buffer 524950: f818002c size 4:0 delivered
+  buffer 529846: f818005c size 4:0 delivered
+  buffer 507571: f818008c size 8:0 delivered
+  buffer 528943: f81800c0 size 8:0 delivered
+  buffer 42641: f81800f4 size 8:0 delivered
+  buffer 337217: f818012c size 8:0 delivered
+  buffer 511467: f8180160 size 8:0 delivered
+  buffer 499908: f81801b8 size 8:0 delivered
+  buffer 528363: f818021c size 8:0 delivered
+  buffer 535731: f818027c size 4:0 delivered
+  buffer 30226: f81802c0 size 4:0 delivered
+  buffer 35270: f81802f0 size 20:4 delivered
+  buffer 37965: f8180334 size 6084:0 delivered
+  buffer 529841: f8181b24 size 8:0 delivered
+  buffer 44554: f8181b58 size 8:0 delivered
+  buffer 529196: f8181b8c size 4:0 delivered
+  buffer 506891: f8181bbc size 8:0 delivered
+  buffer 42659: f8181c20 size 8:0 delivered
+  buffer 44552: f8181c54 size 8:0 delivered
+  buffer 42861: f8181c88 size 8:0 delivered
+  buffer 42877: f8181cbc size 8:0 delivered
+  buffer 44594: f8181cf0 size 4:0 delivered
+  buffer 42919: f8181d24 size 8:0 delivered
+  buffer 528846: f8181d58 size 8:0 delivered
+  buffer 42941: f8181dc0 size 8:0 delivered
+  buffer 535834: f8181df4 size 8:0 delivered
+  buffer 505588: f8181e28 size 8:0 delivered
+  buffer 529854: f8181e5c size 8:0 delivered
+  buffer 508423: f8181e90 size 8:0 delivered
+  buffer 509391: f81821dc size 448:0 delivered
+  buffer 530489: f81823c8 size 4:0 delivered
+  buffer 43164: f818257c size 248:0 delivered
+proc 2259
+context binder
+  buffer 26358: f790002c size 8:0 delivered
+  buffer 405038: f7900060 size 164:0 delivered
+  buffer 535733: f7900130 size 8:0 delivered
+  buffer 32291: f7900170 size 8:0 delivered
+  buffer 116129: f79001c0 size 8:0 delivered
+  buffer 535727: f7900224 size 36:0 delivered
+  buffer 508162: f790028c size 8:0 delivered
+  buffer 508189: f79002c0 size 1748:0 delivered
+proc 1989
+context binder
+  buffer 532075: f718002c size 4:0 delivered
+  buffer 489925: f718005c size 16:4 delivered
+proc 1850
+context binder
+  buffer 6907: f6f0002c size 0:0 delivered
+  buffer 535981: f6f00058 size 4:0 delivered
+  buffer 16521: f6f00088 size 4:0 delivered
+proc 1822
+context binder
+  buffer 533238: f6d0002c size 4:0 delivered
+  buffer 10095: f6d00060 size 8:0 delivered
+proc 1700
+context binder
+  buffer 9040: f6c0002c size 0:0 delivered
+  buffer 534155: f6c0005c size 0:0 delivered
+  buffer 484105: f6c001a4 size 4:0 delivered
+proc 1405
+context binder
+  buffer 16946: f6b0002c size 16:4 delivered
+proc 1396
+context binder
+  buffer 535815: f610002c size 4:0 delivered
+

@@ -1,0 +1,19 @@
+sock=00000000 tag=0xffffff0100002715 (uid=10005) pid=2671 f_count=1
+sock=00000000 tag=0x300004010000271d (uid=10013) pid=2259 f_count=2
+sock=00000000 tag=0x300004070000271d (uid=10013) pid=2259 f_count=1
+sock=00000000 tag=0x300004070000271d (uid=10013) pid=2259 f_count=1
+sock=00000000 tag=0x300004070000271d (uid=10013) pid=2259 f_count=1
+sock=00000000 tag=0x300004070000271d (uid=10013) pid=2259 f_count=1
+sock=00000000 tag=0xffffff010000271d (uid=10013) pid=2671 f_count=1
+sock=00000000 tag=0x300009000000271d (uid=10013) pid=2563 f_count=1
+sock=00000000 tag=0x300009000000271d (uid=10013) pid=2563 f_count=1
+sock=00000000 tag=0xffffff010000272d (uid=10029) pid=2671 f_count=1
+sock=00000000 tag=0xffffff010000271d (uid=10013) pid=2671 f_count=1
+sock=00000000 tag=0xffffff010000271d (uid=10013) pid=2671 f_count=1
+sock=00000000 tag=0xffffff010000271d (uid=10013) pid=2671 f_count=1
+sock=00000000 tag=0xffffff010000271d (uid=10013) pid=2671 f_count=1
+sock=00000000 tag=0xffffff0100002715 (uid=10005) pid=2671 f_count=1
+sock=00000000 tag=0xffffff010000272d (uid=10029) pid=2671 f_count=1
+sock=00000000 tag=0xffffff010000271d (uid=10013) pid=2671 f_count=1
+events: sockets_tagged=99 sockets_untagged=78 counter_set_changes=149 delete_cmds=0 iface_events=54 match_calls=45095 match_calls_prepost=22532 match_found_sk=8361 match_found_sk_in_ct=14121 match_found_no_sk_in_ct=81 match_no_sk=117 match_no_sk_file=64
+

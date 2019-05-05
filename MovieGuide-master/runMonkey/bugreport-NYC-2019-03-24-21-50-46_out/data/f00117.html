@@ -1,0 +1,232 @@
+<html>
+<head>
+  <title>f00117.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00117.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><h1>systemlog_01271.html</h1>
+<div class="log-toolbar">RegExp:<input id="regexp"></input><button onClick="javascript:ltbProcessLines(function(l){l.hide();})">Hide</button><button onClick="javascript:ltbProcessLines(function(l){l.show();})">Show</button><button onClick="javascript:ltbProcessLines(function(l){l.addClass('log-mark');})">Mark</button><button onClick="javascript:ltbProcessLines(function(l){l.removeClass('log-mark');})">Unmark</button>Note: changes are not saved!</div><div class="log"><div class="log-info">03-24 21:47:52.887  <a href="f00048.html#ch0">1271</a>  1271 I vold    : Vold 3.0 (the awakening) firing up</div>
+<div class="log-verbose">03-24 21:47:52.887  <a href="f00048.html#ch0">1271</a>  1271 V vold    : Detected support for: ext4 vfat</div>
+<div class="log-debug">03-24 21:47:53.147  <a href="f00048.html#ch0">1271</a>  1274 D vold    : Recognized experimental block major ID 253 as virtio-blk (emulator's virtual SD card device)</div>
+<div class="log-verbose">03-24 21:47:53.147  <a href="f00048.html#ch0">1271</a>  1274 V vold    : /system/bin/sgdisk</div>
+<div class="log-verbose">03-24 21:47:53.147  <a href="f00048.html#ch0">1271</a>  1274 V vold    :     --android-dump</div>
+<div class="log-verbose">03-24 21:47:53.147  <a href="f00048.html#ch0">1271</a>  1274 V vold    :     /dev/block/vold/disk:253,64</div>
+<div class="log-verbose">03-24 21:47:53.169  <a href="f00048.html#ch0">1271</a>  1274 V vold    : DISK mbr</div>
+<div class="log-verbose">03-24 21:47:53.169  <a href="f00048.html#ch0">1271</a>  1274 V vold    : </div>
+<div class="log-warning">03-24 21:47:53.169  <a href="f00048.html#ch0">1271</a>  1274 W vold    : disk:253,64 has unknown partition table; trying entire device</div>
+<div class="log-verbose">03-24 21:47:53.169  <a href="f00048.html#ch0">1271</a>  1274 V vold    : /system/bin/blkid</div>
+<div class="log-verbose">03-24 21:47:53.169  <a href="f00048.html#ch0">1271</a>  1274 V vold    :     -c</div>
+<div class="log-verbose">03-24 21:47:53.169  <a href="f00048.html#ch0">1271</a>  1274 V vold    :     /dev/null</div>
+<div class="log-verbose">03-24 21:47:53.169  <a href="f00048.html#ch0">1271</a>  1274 V vold    :     -s</div>
+<div class="log-verbose">03-24 21:47:53.169  <a href="f00048.html#ch0">1271</a>  1274 V vold    :     TYPE</div>
+<div class="log-verbose">03-24 21:47:53.169  <a href="f00048.html#ch0">1271</a>  1274 V vold    :     -s</div>
+<div class="log-verbose">03-24 21:47:53.169  <a href="f00048.html#ch0">1271</a>  1274 V vold    :     UUID</div>
+<div class="log-verbose">03-24 21:47:53.169  <a href="f00048.html#ch0">1271</a>  1274 V vold    :     -s</div>
+<div class="log-verbose">03-24 21:47:53.169  <a href="f00048.html#ch0">1271</a>  1274 V vold    :     LABEL</div>
+<div class="log-verbose">03-24 21:47:53.169  <a href="f00048.html#ch0">1271</a>  1274 V vold    :     /dev/block/vold/disk:253,64</div>
+<div class="log-debug">03-24 21:47:53.176  <a href="f00048.html#ch0">1271</a>  1307 D vold    : e4crypt_init_user0</div>
+<div class="log-debug">03-24 21:47:53.176  <a href="f00048.html#ch0">1271</a>  1307 D vold    : e4crypt_prepare_user_storage for volume null, user 0, serial 0, flags 1</div>
+<div class="log-debug">03-24 21:47:53.176  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/system/users/0</div>
+<div class="log-error">03-24 21:47:53.176  <a href="f00048.html#ch0">1271</a>  1307 E vold    : Failed to prepare /data/system/users/0: No such file or directory</div>
+<div class="log-error">03-24 21:47:53.176  <a href="f00048.html#ch0">1271</a>  1307 E vold    : Failed to prepare user 0 storage</div>
+<div class="log-verbose">03-24 21:47:53.181  <a href="f00048.html#ch0">1271</a>  1274 V vold    : /dev/block/vold/disk:253,64: LABEL="SDCARD" UUID="08E3-1919" TYPE="vfat" </div>
+<div class="log-verbose">03-24 21:47:53.181  <a href="f00048.html#ch0">1271</a>  1274 V vold    : </div>
+<div class="log-error">03-24 21:47:53.235  <a href="f00048.html#ch0">1271</a>  1322 E Cryptfs : Bad magic for real block device /dev/block/vdd</div>
+<div class="log-debug">03-24 21:47:53.238  <a href="f00048.html#ch0">1271</a>  1322 D Cryptfs : Just asked init to shut down class main</div>
+<div class="log-warning">03-24 21:47:53.238  <a href="f00048.html#ch0">1271</a>  1322 W vold    : emulated unmount requires state mounted</div>
+<div class="log-warning">03-24 21:47:53.238  <a href="f00048.html#ch0">1271</a>  1322 W vold    : public:253,64 unmount requires state mounted</div>
+<div class="log-debug">03-24 21:47:53.242  <a href="f00048.html#ch0">1271</a>  1322 D Cryptfs : Just triggered post_fs_data</div>
+<div class="log-debug">03-24 21:47:53.267  <a href="f00048.html#ch0">1271</a>  1307 D vold    : e4crypt_init_user0</div>
+<div class="log-debug">03-24 21:47:53.267  <a href="f00048.html#ch0">1271</a>  1307 D vold    : e4crypt_prepare_user_storage for volume null, user 0, serial 0, flags 1</div>
+<div class="log-debug">03-24 21:47:53.267  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/system/users/0</div>
+<div class="log-debug">03-24 21:47:53.267  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/misc/profiles/cur/0</div>
+<div class="log-debug">03-24 21:47:53.268  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/misc/profiles/cur/0/foreign-dex</div>
+<div class="log-debug">03-24 21:47:53.268  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/system_de/0</div>
+<div class="log-debug">03-24 21:47:53.268  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/misc_de/0</div>
+<div class="log-debug">03-24 21:47:53.268  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/user_de/0</div>
+<div class="log-debug">03-24 21:47:53.268  <a href="f00048.html#ch0">1271</a>  1307 D vold    : e4crypt_unlock_user_key 0 serial=0 token_present=0</div>
+<div class="log-error">03-24 21:47:53.268  <a href="f00048.html#ch0">1271</a>  1307 E vold    : Failed to chmod /data/system_ce/0: No such file or directory</div>
+<div class="log-error">03-24 21:47:53.268  <a href="f00048.html#ch0">1271</a>  1307 E vold    : Failed to chmod /data/misc_ce/0: No such file or directory</div>
+<div class="log-error">03-24 21:47:53.268  <a href="f00048.html#ch0">1271</a>  1307 E vold    : Failed to chmod /data/media/0: No such file or directory</div>
+<div class="log-debug">03-24 21:47:53.292  <a href="f00048.html#ch0">1271</a>  1322 D Cryptfs : post_fs_data done</div>
+<div class="log-info">03-24 21:47:55.294  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : keymaster module name is Keymaster OpenSSL HAL</div>
+<div class="log-info">03-24 21:47:55.294  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : keymaster version is 2</div>
+<div class="log-info">03-24 21:47:55.294  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Found keymaster0 module, using keymaster0 API.</div>
+<div class="log-info">03-24 21:47:55.294  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Using scrypt for cryptfs KDF</div>
+<div class="log-info">03-24 21:47:55.643  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Using scrypt for cryptfs KDF</div>
+<div class="log-info">03-24 21:47:55.765  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Enabling support for allow_discards in dmcrypt.</div>
+<div class="log-debug">03-24 21:47:55.768  <a href="f00048.html#ch0">1271</a>  1274 D vold    : Disk at 252:0 changed</div>
+<div class="log-info">03-24 21:47:55.768  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypting ext4 filesystem in place...</div>
+<div class="log-info">03-24 21:47:55.768  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypting group 0</div>
+<div class="log-info">03-24 21:47:55.769  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypting from sector 0</div>
+<div class="log-info">03-24 21:47:55.830  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypting group 1</div>
+<div class="log-info">03-24 21:47:55.831  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypted to sector 1019392</div>
+<div class="log-info">03-24 21:47:55.831  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypting from sector 16777216</div>
+<div class="log-info">03-24 21:47:55.855  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypting group 2</div>
+<div class="log-info">03-24 21:47:55.856  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypted to sector 17041920</div>
+<div class="log-info">03-24 21:47:55.856  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypting from sector 33554432</div>
+<div class="log-info">03-24 21:47:55.876  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypting group 3</div>
+<div class="log-info">03-24 21:47:55.877  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypted to sector 33789952</div>
+<div class="log-info">03-24 21:47:55.877  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypting from sector 50331648</div>
+<div class="log-info">03-24 21:47:55.896  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypting group 4</div>
+<div class="log-info">03-24 21:47:55.897  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypted to sector 50596352</div>
+<div class="log-info">03-24 21:47:55.897  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypting from sector 67108864</div>
+<div class="log-info">03-24 21:47:55.917  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypting group 5</div>
+<div class="log-info">03-24 21:47:55.919  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypted to sector 67344384</div>
+<div class="log-info">03-24 21:47:55.919  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypting from sector 83886080</div>
+<div class="log-info">03-24 21:47:55.940  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypting group 6</div>
+<div class="log-info">03-24 21:47:55.941  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypted to sector 84150784</div>
+<div class="log-info">03-24 21:47:55.941  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypting from sector 100663296</div>
+<div class="log-info">03-24 21:47:56.236  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Encrypted to sector 104700416</div>
+<div class="log-info">03-24 21:47:56.461  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : cryptfs_check_passwd</div>
+<div class="log-debug">03-24 21:47:56.461  <a href="f00048.html#ch0">1271</a>  1322 D Cryptfs : crypt_ftr-&gt;fs_size = 1638400</div>
+<div class="log-info">03-24 21:47:56.461  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Using scrypt for cryptfs KDF</div>
+<div class="log-info">03-24 21:47:56.629  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Enabling support for allow_discards in dmcrypt.</div>
+<div class="log-debug">03-24 21:47:56.630  <a href="f00048.html#ch0">1271</a>  1274 D vold    : Disk at 252:0 changed</div>
+<div class="log-info">03-24 21:47:56.751  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Password matches</div>
+<div class="log-debug">03-24 21:47:56.751  <a href="f00048.html#ch0">1271</a>  1322 D Cryptfs : test_mount_encrypted_fs(): Master key saved</div>
+<div class="log-info">03-24 21:47:56.752  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : keymaster module name is Keymaster OpenSSL HAL</div>
+<div class="log-info">03-24 21:47:56.752  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : keymaster version is 2</div>
+<div class="log-info">03-24 21:47:56.752  <a href="f00048.html#ch0">1271</a>  1322 I Cryptfs : Found keymaster0 module, using keymaster0 API.</div>
+<div class="log-debug">03-24 21:47:56.752  <a href="f00048.html#ch0">1271</a>  1322 D Cryptfs : Just asked init to shut down class main</div>
+<div class="log-debug">03-24 21:47:58.753  <a href="f00048.html#ch0">1271</a>  1322 D Cryptfs : unmounting /data succeeded</div>
+<div class="log-debug">03-24 21:47:58.843  <a href="f00048.html#ch0">1271</a>  1322 D Cryptfs : Just triggered post_fs_data</div>
+<div class="log-debug">03-24 21:47:58.856  <a href="f00048.html#ch0">1271</a>  1307 D vold    : e4crypt_init_user0</div>
+<div class="log-debug">03-24 21:47:58.856  <a href="f00048.html#ch0">1271</a>  1307 D vold    : e4crypt_prepare_user_storage for volume null, user 0, serial 0, flags 1</div>
+<div class="log-debug">03-24 21:47:58.856  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/system/users/0</div>
+<div class="log-debug">03-24 21:47:58.856  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/misc/profiles/cur/0</div>
+<div class="log-debug">03-24 21:47:58.856  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/misc/profiles/cur/0/foreign-dex</div>
+<div class="log-debug">03-24 21:47:58.856  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/system_de/0</div>
+<div class="log-debug">03-24 21:47:58.856  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/misc_de/0</div>
+<div class="log-debug">03-24 21:47:58.856  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/user_de/0</div>
+<div class="log-debug">03-24 21:47:58.856  <a href="f00048.html#ch0">1271</a>  1307 D vold    : e4crypt_unlock_user_key 0 serial=0 token_present=0</div>
+<div class="log-error">03-24 21:47:58.856  <a href="f00048.html#ch0">1271</a>  1307 E vold    : Failed to chmod /data/system_ce/0: No such file or directory</div>
+<div class="log-error">03-24 21:47:58.856  <a href="f00048.html#ch0">1271</a>  1307 E vold    : Failed to chmod /data/misc_ce/0: No such file or directory</div>
+<div class="log-error">03-24 21:47:58.856  <a href="f00048.html#ch0">1271</a>  1307 E vold    : Failed to chmod /data/media/0: No such file or directory</div>
+<div class="log-debug">03-24 21:47:58.894  <a href="f00048.html#ch0">1271</a>  1322 D Cryptfs : post_fs_data done</div>
+<div class="log-debug">03-24 21:47:58.894  <a href="f00048.html#ch0">1271</a>  1322 D Cryptfs : Just triggered restart_framework</div>
+<div class="log-debug">03-24 21:48:11.578  <a href="f00048.html#ch0">1271</a>  1788 D vold    : Starting trim of /cache</div>
+<div class="log-warning">03-24 21:48:11.578  <a href="f00048.html#ch0">1271</a>  1788 W vold    : Trim failed on /cache: Operation not supported on transport endpoint</div>
+<div class="log-debug">03-24 21:48:11.578  <a href="f00048.html#ch0">1271</a>  1788 D vold    : Starting trim of /data</div>
+<div class="log-warning">03-24 21:48:11.578  <a href="f00048.html#ch0">1271</a>  1788 W vold    : Trim failed on /data: Operation not supported on transport endpoint</div>
+<div class="log-debug">03-24 21:48:12.168  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 1001 as mode none</div>
+<div class="log-debug">03-24 21:48:12.170  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Found matching PID 1406</div>
+<div class="log-warning">03-24 21:48:12.170  <a href="f00048.html#ch0">1271</a>  1306 W vold    : Skipping due to root namespace</div>
+<div class="log-debug">03-24 21:48:12.170  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 1001 as mode none</div>
+<div class="log-debug">03-24 21:48:12.171  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Found matching PID 1406</div>
+<div class="log-warning">03-24 21:48:12.171  <a href="f00048.html#ch0">1271</a>  1306 W vold    : Skipping due to root namespace</div>
+<div class="log-debug">03-24 21:48:12.177  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 1000 as mode none</div>
+<div class="log-debug">03-24 21:48:12.177  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Found matching PID 1315</div>
+<div class="log-warning">03-24 21:48:12.177  <a href="f00048.html#ch0">1271</a>  1306 W vold    : Skipping due to root namespace</div>
+<div class="log-debug">03-24 21:48:12.177  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Found matching PID 1316</div>
+<div class="log-warning">03-24 21:48:12.177  <a href="f00048.html#ch0">1271</a>  1306 W vold    : Skipping due to root namespace</div>
+<div class="log-debug">03-24 21:48:12.177  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Found matching PID 1408</div>
+<div class="log-warning">03-24 21:48:12.177  <a href="f00048.html#ch0">1271</a>  1306 W vold    : Skipping due to root namespace</div>
+<div class="log-debug">03-24 21:48:12.177  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Found matching PID 1409</div>
+<div class="log-warning">03-24 21:48:12.177  <a href="f00048.html#ch0">1271</a>  1306 W vold    : Skipping due to root namespace</div>
+<div class="log-debug">03-24 21:48:12.177  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Found matching PID 1700</div>
+<div class="log-debug">03-24 21:48:12.212  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 1000 as mode none</div>
+<div class="log-debug">03-24 21:48:12.212  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Found matching PID 1315</div>
+<div class="log-warning">03-24 21:48:12.212  <a href="f00048.html#ch0">1271</a>  1306 W vold    : Skipping due to root namespace</div>
+<div class="log-debug">03-24 21:48:12.212  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Found matching PID 1316</div>
+<div class="log-warning">03-24 21:48:12.212  <a href="f00048.html#ch0">1271</a>  1306 W vold    : Skipping due to root namespace</div>
+<div class="log-debug">03-24 21:48:12.212  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Found matching PID 1408</div>
+<div class="log-warning">03-24 21:48:12.212  <a href="f00048.html#ch0">1271</a>  1306 W vold    : Skipping due to root namespace</div>
+<div class="log-debug">03-24 21:48:12.212  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Found matching PID 1409</div>
+<div class="log-warning">03-24 21:48:12.212  <a href="f00048.html#ch0">1271</a>  1306 W vold    : Skipping due to root namespace</div>
+<div class="log-debug">03-24 21:48:12.212  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Found matching PID 1700</div>
+<div class="log-debug">03-24 21:48:12.243  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 2000 as mode none</div>
+<div class="log-debug">03-24 21:48:12.244  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Found matching PID 1317</div>
+<div class="log-warning">03-24 21:48:12.244  <a href="f00048.html#ch0">1271</a>  1306 W vold    : Skipping due to root namespace</div>
+<div class="log-debug">03-24 21:48:12.244  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Found matching PID 1318</div>
+<div class="log-warning">03-24 21:48:12.244  <a href="f00048.html#ch0">1271</a>  1306 W vold    : Skipping due to root namespace</div>
+<div class="log-debug">03-24 21:48:12.246  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 2000 as mode none</div>
+<div class="log-debug">03-24 21:48:12.246  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Found matching PID 1317</div>
+<div class="log-warning">03-24 21:48:12.246  <a href="f00048.html#ch0">1271</a>  1306 W vold    : Skipping due to root namespace</div>
+<div class="log-debug">03-24 21:48:12.246  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Found matching PID 1318</div>
+<div class="log-warning">03-24 21:48:12.246  <a href="f00048.html#ch0">1271</a>  1306 W vold    : Skipping due to root namespace</div>
+<div class="log-debug">03-24 21:48:12.249  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10028 as mode none</div>
+<div class="log-debug">03-24 21:48:12.252  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10028 as mode none</div>
+<div class="log-debug">03-24 21:48:12.311  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10018 as mode none</div>
+<div class="log-debug">03-24 21:48:12.312  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10054 as mode none</div>
+<div class="log-debug">03-24 21:48:12.313  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10054 as mode none</div>
+<div class="log-debug">03-24 21:48:12.314  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10010 as mode none</div>
+<div class="log-debug">03-24 21:48:12.315  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10010 as mode none</div>
+<div class="log-debug">03-24 21:48:12.317  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10012 as mode none</div>
+<div class="log-debug">03-24 21:48:12.319  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10012 as mode none</div>
+<div class="log-debug">03-24 21:48:12.323  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10002 as mode none</div>
+<div class="log-debug">03-24 21:48:12.325  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10002 as mode none</div>
+<div class="log-debug">03-24 21:48:12.335  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10013 as mode none</div>
+<div class="log-debug">03-24 21:48:12.336  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10013 as mode none</div>
+<div class="log-debug">03-24 21:48:12.338  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10058 as mode none</div>
+<div class="log-debug">03-24 21:48:12.339  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10058 as mode none</div>
+<div class="log-debug">03-24 21:48:12.341  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10027 as mode none</div>
+<div class="log-debug">03-24 21:48:12.342  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Remounting 10027 as mode none</div>
+<div class="log-debug">03-24 21:48:12.386  <a href="f00048.html#ch0">1271</a>  1307 D vold    : e4crypt_unlock_user_key 0 serial=0 token_present=0</div>
+<div class="log-error">03-24 21:48:12.386  <a href="f00048.html#ch0">1271</a>  1307 E vold    : Failed to chmod /data/system_ce/0: No such file or directory</div>
+<div class="log-error">03-24 21:48:12.386  <a href="f00048.html#ch0">1271</a>  1307 E vold    : Failed to chmod /data/misc_ce/0: No such file or directory</div>
+<div class="log-error">03-24 21:48:12.386  <a href="f00048.html#ch0">1271</a>  1307 E vold    : Failed to chmod /data/media/0: No such file or directory</div>
+<div class="log-debug">03-24 21:48:12.387  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Recognized experimental block major ID 253 as virtio-blk (emulator's virtual SD card device)</div>
+<div class="log-verbose">03-24 21:48:12.387  <a href="f00048.html#ch0">1271</a>  1306 V vold    : /system/bin/sgdisk</div>
+<div class="log-verbose">03-24 21:48:12.387  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     --android-dump</div>
+<div class="log-verbose">03-24 21:48:12.387  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     /dev/block/vold/disk:253,64</div>
+<div class="log-verbose">03-24 21:48:12.399  <a href="f00048.html#ch0">1271</a>  1306 V vold    : DISK mbr</div>
+<div class="log-verbose">03-24 21:48:12.399  <a href="f00048.html#ch0">1271</a>  1306 V vold    : </div>
+<div class="log-warning">03-24 21:48:12.400  <a href="f00048.html#ch0">1271</a>  1306 W vold    : disk:253,64 has unknown partition table; trying entire device</div>
+<div class="log-verbose">03-24 21:48:12.400  <a href="f00048.html#ch0">1271</a>  1306 V vold    : /system/bin/blkid</div>
+<div class="log-verbose">03-24 21:48:12.400  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     -c</div>
+<div class="log-verbose">03-24 21:48:12.400  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     /dev/null</div>
+<div class="log-verbose">03-24 21:48:12.400  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     -s</div>
+<div class="log-verbose">03-24 21:48:12.400  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     TYPE</div>
+<div class="log-verbose">03-24 21:48:12.400  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     -s</div>
+<div class="log-verbose">03-24 21:48:12.400  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     UUID</div>
+<div class="log-verbose">03-24 21:48:12.400  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     -s</div>
+<div class="log-verbose">03-24 21:48:12.400  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     LABEL</div>
+<div class="log-verbose">03-24 21:48:12.400  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     /dev/block/vold/disk:253,64</div>
+<div class="log-verbose">03-24 21:48:12.420  <a href="f00048.html#ch0">1271</a>  1306 V vold    : /dev/block/vold/disk:253,64: LABEL="SDCARD" UUID="08E3-1919" TYPE="vfat" </div>
+<div class="log-verbose">03-24 21:48:12.420  <a href="f00048.html#ch0">1271</a>  1306 V vold    : </div>
+<div class="log-verbose">03-24 21:48:12.422  <a href="f00048.html#ch0">1271</a>  1306 V vold    : Waiting for FUSE to spin up...</div>
+<div class="log-verbose">03-24 21:48:12.473  <a href="f00048.html#ch0">1271</a>  1306 V vold    : Waiting for FUSE to spin up...</div>
+<div class="log-verbose">03-24 21:48:12.525  <a href="f00048.html#ch0">1271</a>  1306 V vold    : /system/bin/blkid</div>
+<div class="log-verbose">03-24 21:48:12.525  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     -c</div>
+<div class="log-verbose">03-24 21:48:12.525  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     /dev/null</div>
+<div class="log-verbose">03-24 21:48:12.525  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     -s</div>
+<div class="log-verbose">03-24 21:48:12.525  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     TYPE</div>
+<div class="log-verbose">03-24 21:48:12.525  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     -s</div>
+<div class="log-verbose">03-24 21:48:12.525  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     UUID</div>
+<div class="log-verbose">03-24 21:48:12.525  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     -s</div>
+<div class="log-verbose">03-24 21:48:12.525  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     LABEL</div>
+<div class="log-verbose">03-24 21:48:12.525  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     /dev/block/vold/public:253,64</div>
+<div class="log-verbose">03-24 21:48:12.561  <a href="f00048.html#ch0">1271</a>  1306 V vold    : /dev/block/vold/public:253,64: LABEL="SDCARD" UUID="08E3-1919" TYPE="vfat" </div>
+<div class="log-verbose">03-24 21:48:12.561  <a href="f00048.html#ch0">1271</a>  1306 V vold    : </div>
+<div class="log-verbose">03-24 21:48:12.561  <a href="f00048.html#ch0">1271</a>  1306 V vold    : /system/bin/fsck_msdos</div>
+<div class="log-verbose">03-24 21:48:12.561  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     -p</div>
+<div class="log-verbose">03-24 21:48:12.561  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     -f</div>
+<div class="log-verbose">03-24 21:48:12.561  <a href="f00048.html#ch0">1271</a>  1306 V vold    :     /dev/block/vold/public:253,64</div>
+<div class="log-info">03-24 21:48:12.733  <a href="f00048.html#ch0">1271</a>  1306 I Vold    : Filesystem check completed OK</div>
+<div class="log-verbose">03-24 21:48:12.736  <a href="f00048.html#ch0">1271</a>  1306 V vold    : Waiting for FUSE to spin up...</div>
+<div class="log-debug">03-24 21:48:14.669  <a href="f00048.html#ch0">1271</a>  1307 D vold    : e4crypt_prepare_user_storage for volume null, user 0, serial 0, flags 2</div>
+<div class="log-debug">03-24 21:48:14.669  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/system_ce/0</div>
+<div class="log-debug">03-24 21:48:14.669  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/misc_ce/0</div>
+<div class="log-debug">03-24 21:48:14.669  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/media/0</div>
+<div class="log-debug">03-24 21:48:14.669  <a href="f00048.html#ch0">1271</a>  1307 D vold    : Preparing: /data/data</div>
+<div class="log-debug">03-24 21:48:14.734  <a href="f00048.html#ch0">1271</a>  1306 D vold    : Linking /storage/emulated/0 to /mnt/user/0/primary</div>
+<div class="log-debug">03-24 21:48:31.551  <a href="f00048.html#ch0">1271</a>  1307 D VoldCryptCmdListener: cryptfs getpwtype</div>
+<div class="log-debug">03-24 21:48:42.289  <a href="f00048.html#ch0">1271</a>  1307 D VoldCryptCmdListener: cryptfs getpwtype</div>
+<div class="log-debug">03-24 21:49:04.742  <a href="f00048.html#ch0">1271</a>  1307 D VoldCryptCmdListener: cryptfs getpwtype</div>
+</div></body>
+</html>

@@ -1,0 +1,47 @@
+  Recent tasks:
+  * Recent #0: TaskRecord{cb0e684 #12 A=com.esoxjem.movieguide U=0 StackId=1 sz=2}
+    userId=0 effectiveUid=u0a84 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.esoxjem.movieguide
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.esoxjem.movieguide/.listing.MoviesListingActivity}
+    realActivity=com.esoxjem.movieguide/.listing.MoviesListingActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=2 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{40cb8d4 u0 com.esoxjem.movieguide/.listing.MoviesListingActivity t12}, ActivityRecord{3a172cc u0 com.esoxjem.movieguide/.details.MovieDetailsActivity t12}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/12_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE isResizeable=true firstActiveTime=1553489445878 lastActiveTime=1553489445878 (inactive for 7s)
+  * Recent #1: TaskRecord{ba68e6d #5 I=com.google.android.apps.nexuslauncher/.NexusLauncherActivity U=0 StackId=0 sz=1}
+    userId=0 effectiveUid=u0a22 mCallingUid=0 mUserSetupComplete=true mCallingPackage=null
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity}
+    realActivity=com.google.android.apps.nexuslauncher/.NexusLauncherActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=1 mTaskToReturnTo=0
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{39bdd1e u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t5}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/5_task_thumbnail.png
+    stackId=0
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE isResizeable=false firstActiveTime=1553489444783 lastActiveTime=1553489444783 (inactive for 8s)
+  * Recent #2: TaskRecord{a9e0aa2 #7 A=com.android.systemui U=0 StackId=0 sz=1}
+    userId=0 effectiveUid=u0a28 mCallingUid=u0a28 mUserSetupComplete=true mCallingPackage=com.android.systemui
+    affinity=com.android.systemui
+    intent={flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[42,294][1038,1605]}
+    realActivity=com.android.systemui/.recents.RecentsActivity
+    autoRemoveRecents=false isPersistable=false numFullscreen=1 taskType=2 mTaskToReturnTo=1
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{3bd75f0 u0 com.android.systemui/.recents.RecentsActivity t7}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/7_task_thumbnail.png
+    stackId=0
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE isResizeable=true firstActiveTime=1553489357346 lastActiveTime=1553489357346 (inactive for 96s)
+  * Recent #3: TaskRecord{7d41333 #2 I=com.android.settings/.FallbackHome U=0 StackId=-1 sz=0}
+    userId=0 effectiveUid=1000 mCallingUid=0 mUserSetupComplete=false mCallingPackage=null
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800100 cmp=com.android.settings/.FallbackHome}
+    realActivity=com.android.settings/.FallbackHome
+    autoRemoveRecents=false isPersistable=false numFullscreen=0 taskType=1 mTaskToReturnTo=1
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/2_task_thumbnail.png
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE isResizeable=false firstActiveTime=1553489294848 lastActiveTime=1553489294848 (inactive for 158s)
+

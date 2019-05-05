@@ -1,0 +1,40 @@
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+     256        8        0        0        8        0        0        0    2 /dev/__properties__/properties_serial
+     128       16        0        0       16        0        0        0    1 /dev/__properties__/u:object_r:default_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:log_tag_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:logd_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:system_prop:s0
+     832      272       20      256        0        0       16        0    3 /system/bin/linker
+      32       32       18       28        0        0        4        0    2 /system/bin/sdcard
+     964      264       26      244        0        0       20        0    4 /system/lib/libc++.so
+     876      508       30      488        0        0       20        0    4 /system/lib/libc.so
+     128       76        9       68        0        0        8        0    4 /system/lib/libcutils.so
+      68       20        8       12        0        0        8        0    3 /system/lib/liblog.so
+     220       24        8       16        0        0        8        0    3 /system/lib/libm.so
+      16       16        8        8        0        0        8        0    3 /system/lib/libnetd_client.so
+      16       12        8        4        0        0        8        0    3 /system/lib/libpackagelistparser.so
+      36       32       32        0        0        0       32        0    4 [anon:.bss]
+       4        4        4        0        0        0        4        0    1 [anon:arc4random _rs structure]
+       4        4        4        0        0        0        4        0    1 [anon:arc4random _rsx structure]
+       8        8        8        0        0        0        8        0    2 [anon:atexit handlers]
+    1536      148      148        0        0        0      148        0    2 [anon:libc_malloc]
+      16       16       16        0        0        0       16        0    3 [anon:linker_alloc]
+       4        4        4        0        0        0        4        0    1 [anon:linker_alloc_lob]
+      12       12       12        0        0        0       12        0    3 [anon:linker_alloc_small_objects]
+      20       20       20        0        0        0       20        0    5 [anon:linker_alloc_vector]
+      16        0        0        0        0        0        0        0    4 [anon:thread signal stack guard page]
+      32        0        0        0        0        0        0        0    4 [anon:thread signal stack]
+      12        0        0        0        0        0        0        0    3 [anon:thread stack guard page]
+      24       16       16        0        0        0       16        0    4 [anon]
+    1016       24       24        0        0        0       24        0    1 [stack:1958]
+    1016       16       16        0        0        0       16        0    1 [stack:1959]
+    1016       36       36        0        0        0       36        0    1 [stack:1960]
+     808      800      800        0        0        0      800        0    1 [stack]
+       4        4        0        4        0        0        0        0    1 [vdso]
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+    9504     2404     1275     1128       36        0     1240        0   77 TOTAL

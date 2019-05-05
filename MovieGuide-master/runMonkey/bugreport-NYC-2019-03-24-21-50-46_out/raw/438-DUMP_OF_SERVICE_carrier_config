@@ -1,0 +1,5 @@
+CarrierConfigLoader: com.android.phone.CarrierConfigLoader@a4880b4
+  Phone Id=0
+  mConfigFromDefaultApp=PersistableBundle[{vvm_port_number_int=1808, vvm_destination_number_string=122, carrier_vt_available_bool=true, carrier_wfc_ims_available_bool=true, maxImageHeight=1944, carrier_vvm_package_name_string=com.tmobile.vvm.application, carrier_volte_available_bool=true, wfc_operator_error_codes_string_array=[Ljava.lang.String;@74dd4dd, vvm_type_string=vvm_type_cvvm, carrier_volte_tty_supported_bool=false, carrier_ims_gba_required_bool=true, wfc_spn_format_idx_int=1, maxMessageSize=1048576, maxImageWidth=2592, volte_replacement_rat_int=3, enabledMMS=false}]
+  mConfigFromCarrierApp=null
+--------- 0.002s was the duration of dumpsys carrier_config

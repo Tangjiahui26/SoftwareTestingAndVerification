@@ -1,0 +1,78 @@
+Disks:
+  DiskInfo{disk:253,64}:
+    flags=ADOPTABLE|SD size=536870912 label=Virtual 
+    sysPath=/sys//devices/pci0000:00/0000:00:07.0/virtio4/block/vde 
+
+Volumes:
+  VolumeInfo{public:253,64}:
+    type=PUBLIC diskId=disk:253,64 partGuid=null mountFlags=VISIBLE mountUserId=0 state=MOUNTED 
+    fsType=vfat fsUuid=08E3-1919 fsLabel=SDCARD 
+    path=/storage/08E3-1919 internalPath=/mnt/media_rw/08E3-1919 
+  VolumeInfo{emulated}:
+    type=EMULATED diskId=null partGuid=null mountFlags=PRIMARY|VISIBLE mountUserId=-1 state=MOUNTED 
+    fsType=null fsUuid=null fsLabel=null 
+    path=/storage/emulated internalPath=/data/media 
+
+Records:
+  VolumeRecord:
+    type=PUBLIC fsUuid=08E3-1919 partGuid=null 
+    nickname=null userFlags=SNOOZED 
+    createdMillis=2019-03-25 04:48:12 lastTrimMillis=unknown lastBenchMillis=unknown 
+
+Primary storage UUID: null
+Force adoptable: false
+
+Local unlocked users: [0]
+System unlocked users: [0]
+
+mObbMounts:
+
+mObbPathToStateMap:
+
+mConnector:
+  03-24 21:48:21.170 - RCV <- {200 33 Command succeeded}
+  03-24 21:48:22.567 - SND -> {34 volume mkdirs /storage/emulated/0/Android/data/com.google.android.youtube/cache/}
+  03-24 21:48:22.568 - RCV <- {200 34 Command succeeded}
+  03-24 21:48:22.571 - SND -> {35 volume mkdirs /storage/08E3-1919/Android/data/com.google.android.youtube/cache/}
+  03-24 21:48:22.581 - RCV <- {200 35 Command succeeded}
+  03-24 21:48:31.481 - SND -> {36 volume mkdirs /storage/emulated/0/Android/data/com.google.android.apps.maps/files/}
+  03-24 21:48:31.482 - RCV <- {200 36 Command succeeded}
+  03-24 21:48:31.484 - SND -> {37 volume mkdirs /storage/08E3-1919/Android/data/com.google.android.apps.maps/files/}
+  03-24 21:48:31.492 - RCV <- {200 37 Command succeeded}
+  03-24 21:48:41.726 - SND -> {38 volume mkdirs /storage/emulated/0/Android/data/com.google.android.videos/files/Movies/}
+  03-24 21:48:41.730 - RCV <- {200 38 Command succeeded}
+  03-24 21:48:41.732 - SND -> {39 volume mkdirs /storage/08E3-1919/Android/data/com.google.android.videos/files/Movies/}
+  03-24 21:48:41.738 - RCV <- {200 39 Command succeeded}
+  03-24 21:48:53.383 - SND -> {40 volume mkdirs /storage/emulated/0/Android/data/com.google.android.googlequicksearchbox/files/pending_blobs/}
+  03-24 21:48:53.388 - RCV <- {200 40 Command succeeded}
+  03-24 21:48:53.402 - SND -> {41 volume mkdirs /storage/08E3-1919/Android/data/com.google.android.googlequicksearchbox/files/pending_blobs/}
+  03-24 21:48:53.430 - RCV <- {200 41 Command succeeded}
+  03-24 21:48:55.980 - SND -> {42 volume mkdirs /storage/emulated/0/Android/media/com.google.android.talk/}
+  03-24 21:48:55.981 - RCV <- {200 42 Command succeeded}
+  03-24 21:48:55.989 - SND -> {43 volume mkdirs /storage/08E3-1919/Android/media/com.google.android.talk/}
+  03-24 21:48:55.998 - RCV <- {200 43 Command succeeded}
+  03-24 21:48:57.928 - SND -> {44 volume mkdirs /storage/emulated/0/Android/data/com.google.android.apps.docs/cache/}
+  03-24 21:48:57.931 - RCV <- {200 44 Command succeeded}
+  03-24 21:48:57.932 - SND -> {45 volume mkdirs /storage/08E3-1919/Android/data/com.google.android.apps.docs/cache/}
+  03-24 21:48:57.939 - RCV <- {200 45 Command succeeded}
+  
+  Pending requests:
+
+mCryptConnector:
+  03-25 04:48:12.386 - SND -> {1 cryptfs unlock_user_key 0 0 ! !}
+  03-25 04:48:12.386 - RCV <- {200 1 Command succeeded}
+  03-24 21:48:14.669 - SND -> {2 cryptfs prepare_user_storage ! 0 0 2}
+  03-24 21:48:14.669 - RCV <- {200 2 Command succeeded}
+  03-24 21:48:31.550 - SND -> {3 cryptfs getpwtype}
+  03-24 21:48:31.554 - RCV <- {213 3 default}
+  03-24 21:48:42.289 - SND -> {4 cryptfs getpwtype}
+  03-24 21:48:42.291 - RCV <- {213 4 default}
+  03-24 21:49:04.740 - SND -> {5 cryptfs getpwtype}
+  03-24 21:49:04.745 - RCV <- {213 5 default}
+  03-24 21:50:53.935 - SND -> {6 cryptfs getpwtype}
+  03-24 21:50:53.943 - RCV <- {213 6 default}
+  
+  Pending requests:
+
+Last maintenance: 2019-03-25 04:48:11
+--------- 0.013s was the duration of dumpsys mount

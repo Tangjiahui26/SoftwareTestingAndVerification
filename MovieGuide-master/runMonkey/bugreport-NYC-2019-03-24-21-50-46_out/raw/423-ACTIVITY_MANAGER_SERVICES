@@ -1,0 +1,1033 @@
+  User 0 active services:
+  * ServiceRecord{905d96e u0 com.google.android.music/.dial.DialMediaRouteProviderService}
+    intent={act=android.media.MediaRouteProviderService cmp=com.google.android.music/.dial.DialMediaRouteProviderService}
+    packageName=com.google.android.music
+    processName=com.google.android.music:main
+    baseDir=/system/app/Music2/Music2.apk
+    dataDir=/data/user/0/com.google.android.music
+    app=null
+    createTime=-2m31s23ms startingBgTimeout=--
+    lastActivity=-2m31s23ms restartTime=-- createdFromFg=true
+
+  * ServiceRecord{b10ec82 u0 com.google.android.music/.playback.MusicPlaybackService}
+    intent={act=com.android.music.musicservicecommand cmp=com.google.android.music/.playback.MusicPlaybackService}
+    packageName=com.google.android.music
+    processName=com.google.android.music:main
+    baseDir=/system/app/Music2/Music2.apk
+    dataDir=/data/user/0/com.google.android.music
+    app=ProcessRecord{4742daa 4272:com.google.android.music:main/u0a58}
+    createTime=-53s155ms startingBgTimeout=--
+    lastActivity=-10s941ms restartTime=-53s155ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=8
+
+  * ServiceRecord{9f2f32e u0 com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService}
+    intent={cmp=com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m30s44ms startingBgTimeout=--
+    lastActivity=-2m21s71ms restartTime=-2m30s44ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{c7561d1 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.assist.GsaVoiceInteractionSessionService}
+    intent={act=android.service.voice.VoiceInteractionService cmp=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.assist.GsaVoiceInteractionSessionService}
+    packageName=com.google.android.googlequicksearchbox
+    processName=com.google.android.googlequicksearchbox:search
+    permission=android.permission.BIND_VOICE_INTERACTION
+    baseDir=/system/priv-app/Velvet/Velvet.apk
+    dataDir=/data/user/0/com.google.android.googlequicksearchbox
+    app=ProcessRecord{2d24365 2428:com.google.android.googlequicksearchbox:search/u0a29}
+    createTime=-53s622ms startingBgTimeout=--
+    lastActivity=-8s821ms restartTime=-53s622ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{8d1480f CREATE}:
+      intent={act=android.service.voice.VoiceInteractionService cmp=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.assist.GsaVoiceInteractionSessionService}
+      binder=android.os.BinderProxy@faa709c
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{e89aaa5 ProcessRecord{a657cdb 1700:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{59b18f8 u0 CR OOM WPRI com.google.android.googlequicksearchbox/com.google.android.apps.gsa.assist.GsaVoiceInteractionSessionService:@dcc285b}
+    All Connections:
+      ConnectionRecord{59b18f8 u0 CR OOM WPRI com.google.android.googlequicksearchbox/com.google.android.apps.gsa.assist.GsaVoiceInteractionSessionService:@dcc285b}
+
+  * ServiceRecord{aba1309 u0 com.android.systemui/.keyguard.KeyguardService}
+    intent={cmp=com.android.systemui/.keyguard.KeyguardService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    app=ProcessRecord{33a1e7a 1850:com.android.systemui/u0a28}
+    createTime=-2m40s60ms startingBgTimeout=--
+    lastActivity=-2m40s60ms restartTime=-2m40s60ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{164562b CREATE}:
+      intent={flg=0x100 cmp=com.android.systemui/.keyguard.KeyguardService}
+      binder=android.os.BinderProxy@a3bfa88
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{f0f4c21 ProcessRecord{a657cdb 1700:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{6db6c10 u0 CR com.android.systemui/.keyguard.KeyguardService:@4cbf8d3}
+    All Connections:
+      ConnectionRecord{6db6c10 u0 CR com.android.systemui/.keyguard.KeyguardService:@4cbf8d3}
+
+  * ServiceRecord{1eb8e43 u0 com.android.systemui/.ImageWallpaper}
+    intent={act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    permission=android.permission.BIND_WALLPAPER
+    baseDir=/system/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    app=ProcessRecord{33a1e7a 1850:com.android.systemui/u0a28}
+    createTime=-2m40s622ms startingBgTimeout=--
+    lastActivity=-2m40s622ms restartTime=-2m40s622ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{53ba846 CREATE}:
+      intent={act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper}
+      binder=android.os.BinderProxy@3d02a07
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{4da3734 ProcessRecord{a657cdb 1700:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{26947f2 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@eee2efd}
+    All Connections:
+      ConnectionRecord{26947f2 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@eee2efd}
+
+  * ServiceRecord{4495b7e u0 com.google.android.gms/com.google.android.location.geocode.GeocodeService}
+    intent={act=com.android.location.service.GeocodeProvider cmp=com.google.android.gms/com.google.android.location.geocode.GeocodeService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m4s34ms startingBgTimeout=--
+    lastActivity=-2m4s34ms restartTime=-2m4s34ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{3f3895d CREATE}:
+      intent={act=com.android.location.service.GeocodeProvider cmp=com.google.android.gms/com.google.android.location.geocode.GeocodeService}
+      binder=android.os.BinderProxy@d7a02d2
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{a3b5fa3 ProcessRecord{a657cdb 1700:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{6736939 u0 CR !FG !VIS com.google.android.gms/com.google.android.location.geocode.GeocodeService:@1c87d00}
+    All Connections:
+      ConnectionRecord{6736939 u0 CR !FG !VIS com.google.android.gms/com.google.android.location.geocode.GeocodeService:@1c87d00}
+
+  * ServiceRecord{b9c176b u0 com.google.android.gms/.thunderbird.OutgoingSmsListenerService}
+    intent={cmp=com.google.android.gms/.thunderbird.OutgoingSmsListenerService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m25s978ms startingBgTimeout=--
+    lastActivity=-2m20s589ms restartTime=-2m25s978ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{4693a97 u0 com.google.android.gms/.auth.setup.devicesignals.LockScreenService}
+    intent={cmp=com.google.android.gms/.auth.setup.devicesignals.LockScreenService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m34s599ms startingBgTimeout=--
+    lastActivity=-2m21s442ms restartTime=-2m34s599ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{7d39ea5 u0 com.google.android.gms/.gcm.GcmService}
+    intent={cmp=com.google.android.gms/.gcm.GcmService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    permission=com.google.android.gtalkservice.permission.GTALK_SERVICE
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m30s379ms startingBgTimeout=--
+    lastActivity=-25s809ms restartTime=-2m30s379ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=8
+
+  * ServiceRecord{d3576c8 u0 com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService}
+    intent={cmp=com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m33s761ms startingBgTimeout=--
+    lastActivity=-2m33s761ms restartTime=-2m33s761ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+
+  * ServiceRecord{7c2e0ec u0 com.google.android.gms/.chimera.PersistentApiService}
+    intent={act=com.google.android.gms.phenotype.service.START pkg=com.google.android.gms}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m37s260ms startingBgTimeout=--
+    lastActivity=-6s856ms restartTime=-2m37s260ms createdFromFg=true
+    startRequested=false delayedStop=false stopIfKilled=true callStart=false lastStartId=101
+    Bindings:
+    * IntentBindRecord{d7d92a0}:
+      intent={act=com.google.android.gms.phenotype.service.START pkg=com.google.android.gms}
+      binder=android.os.BinderProxy@8e45e59
+      requested=true received=true hasBound=false doRebind=false
+    * IntentBindRecord{fd17a1e CREATE}:
+      intent={act=com.google.android.gms.phenotype.service.START cmp=com.google.android.gms/.chimera.PersistentApiService}
+      binder=android.os.BinderProxy@9a52ff
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{73938cc ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}}
+        Per-process Connections:
+          ConnectionRecord{4a65267 u0 CR WACT com.google.android.gms/.chimera.PersistentApiService:@e29b626}
+    All Connections:
+      ConnectionRecord{4a65267 u0 CR WACT com.google.android.gms/.chimera.PersistentApiService:@e29b626}
+
+  * ServiceRecord{c7ccf6f u0 com.google.android.music/.download.artwork.ArtDownloadService}
+    intent={cmp=com.google.android.music/.download.artwork.ArtDownloadService}
+    packageName=com.google.android.music
+    processName=com.google.android.music:main
+    baseDir=/system/app/Music2/Music2.apk
+    dataDir=/data/user/0/com.google.android.music
+    app=ProcessRecord{4742daa 4272:com.google.android.music:main/u0a58}
+    createTime=-2m10s193ms startingBgTimeout=--
+    lastActivity=-2m10s193ms restartTime=-2m10s193ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{c738715 CREATE}:
+      intent={cmp=com.google.android.music/.download.artwork.ArtDownloadService}
+      binder=android.os.BinderProxy@f971a2a
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{3cb201b ProcessRecord{4742daa 4272:com.google.android.music:main/u0a58}}
+        Per-process Connections:
+          ConnectionRecord{557624e u0 CR !FG com.google.android.music/.download.artwork.ArtDownloadService:@d8d0949}
+    All Connections:
+      ConnectionRecord{557624e u0 CR !FG com.google.android.music/.download.artwork.ArtDownloadService:@d8d0949}
+
+  * ServiceRecord{5dcfe3b u0 com.android.phone/.vvm.omtp.scheduling.TaskSchedulerService}
+    intent={cmp=com.android.phone/.vvm.omtp.scheduling.TaskSchedulerService}
+    packageName=com.android.phone
+    processName=com.android.phone
+    baseDir=/system/priv-app/TeleService/TeleService.apk
+    dataDir=/data/user_de/0/com.android.phone
+    app=ProcessRecord{e307ad2 1989:com.android.phone/1001}
+    createTime=-2m35s826ms startingBgTimeout=--
+    lastActivity=-26s809ms restartTime=-2m35s825ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=7
+
+  * ServiceRecord{3ead58d u0 com.google.android.gms/.analytics.service.AnalyticsService}
+    intent={act=com.google.android.gms.analytics.service.START cmp=com.google.android.gms/.analytics.service.AnalyticsService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms
+    permission=android.permission.INTERNET
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    createTime=-2m20s736ms startingBgTimeout=--
+    lastActivity=-2m8s802ms restartTime=-2m20s736ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{12715b8 CREATE}:
+      intent={act=com.google.android.gms.analytics.service.START cmp=com.google.android.gms/.analytics.service.AnalyticsService}
+      binder=android.os.BinderProxy@a927f91
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{e64aef6 ProcessRecord{dcc74 3945:com.google.android.gm/u0a68}}
+        Per-process Connections:
+          ConnectionRecord{b25f2eb u0 CR WACT com.google.android.gms/.analytics.service.AnalyticsService:@e41363a}
+    All Connections:
+      ConnectionRecord{b25f2eb u0 CR WACT com.google.android.gms/.analytics.service.AnalyticsService:@e41363a}
+
+  * ServiceRecord{5731fd8 u0 com.google.android.gms/.chimera.PersistentBoundBrokerService}
+    intent={act=com.google.android.gms.icing.LIGHTWEIGHT_INDEX_SERVICE pkg=com.google.android.gms}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m37s249ms startingBgTimeout=--
+    lastActivity=-8s875ms restartTime=-2m37s249ms createdFromFg=false
+    startRequested=false delayedStop=false stopIfKilled=true callStart=false lastStartId=56
+    Bindings:
+    * IntentBindRecord{671a2f7}:
+      intent={act=com.google.android.gms.userlocation.service.START cmp=com.google.android.gms/.chimera.PersistentBoundBrokerService}
+      binder=android.os.BinderProxy@13d564
+      requested=true received=true hasBound=false doRebind=false
+    * IntentBindRecord{2ce83cd}:
+      intent={act=com.google.android.gms.icing.LIGHTWEIGHT_INDEX_SERVICE cmp=com.google.android.gms/.chimera.PersistentBoundBrokerService}
+      binder=android.os.BinderProxy@ba4c482
+      requested=true received=true hasBound=false doRebind=false
+    * IntentBindRecord{7937793 CREATE}:
+      intent={act=com.google.android.gms.ipa.mediastoreindexer.PERSISTENT_START cmp=com.google.android.gms/.chimera.PersistentBoundBrokerService}
+      binder=android.os.BinderProxy@6eae3d0
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{64c8fc9 ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}}
+        Per-process Connections:
+          ConnectionRecord{fe3f48 u0 CR com.google.android.gms/.chimera.PersistentBoundBrokerService:@fe5b5eb}
+          ConnectionRecord{16b0eb2 u0 CR com.google.android.gms/.chimera.PersistentBoundBrokerService:@cd3d8bd}
+    * IntentBindRecord{dea6ce}:
+      intent={act=com.google.android.gms.icing.LIGHTWEIGHT_INDEX_SERVICE pkg=com.google.android.gms}
+      binder=android.os.BinderProxy@6f3f9ef
+      requested=true received=true hasBound=false doRebind=false
+    * IntentBindRecord{9e26cfc CREATE}:
+      intent={act=com.google.android.gms.ipa.smsindexer.PERSISTENT_START cmp=com.google.android.gms/.chimera.PersistentBoundBrokerService}
+      binder=android.os.BinderProxy@9855f85
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{6c261da ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}}
+        Per-process Connections:
+          ConnectionRecord{403180 u0 CR com.google.android.gms/.chimera.PersistentBoundBrokerService:@8bbae03}
+          ConnectionRecord{9c55b06 u0 CR com.google.android.gms/.chimera.PersistentBoundBrokerService:@d3911e1}
+    All Connections:
+      ConnectionRecord{403180 u0 CR com.google.android.gms/.chimera.PersistentBoundBrokerService:@8bbae03}
+      ConnectionRecord{16b0eb2 u0 CR com.google.android.gms/.chimera.PersistentBoundBrokerService:@cd3d8bd}
+      ConnectionRecord{9c55b06 u0 CR com.google.android.gms/.chimera.PersistentBoundBrokerService:@d3911e1}
+      ConnectionRecord{fe3f48 u0 CR com.google.android.gms/.chimera.PersistentBoundBrokerService:@fe5b5eb}
+
+  * ServiceRecord{bd87f46 u0 com.android.inputmethod.latin/.LatinIME}
+    intent={act=android.view.InputMethod cmp=com.android.inputmethod.latin/.LatinIME}
+    packageName=com.android.inputmethod.latin
+    processName=com.android.inputmethod.latin
+    permission=android.permission.BIND_INPUT_METHOD
+    baseDir=/system/app/LatinIME/LatinIME.apk
+    dataDir=/data/user_de/0/com.android.inputmethod.latin
+    app=ProcessRecord{3230c38 1822:com.android.inputmethod.latin/u0a53}
+    createTime=-2m40s975ms startingBgTimeout=--
+    lastActivity=-8s111ms restartTime=-2m40s919ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{330460b CREATE}:
+      intent={act=android.view.InputMethod cmp=com.android.inputmethod.latin/.LatinIME}
+      binder=android.os.BinderProxy@8675ce8
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{5c16f01 ProcessRecord{a657cdb 1700:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{339f404 u0 CR !FG UI !VIS com.android.inputmethod.latin/.LatinIME:@4389817}
+    All Connections:
+      ConnectionRecord{339f404 u0 CR !FG UI !VIS com.android.inputmethod.latin/.LatinIME:@4389817}
+
+  * ServiceRecord{ab34911 u0 com.google.android.music/.preferences.MusicPreferenceService$MusicPreferenceServiceBinder}
+    intent={cmp=com.google.android.music/.preferences.MusicPreferenceService$MusicPreferenceServiceBinder}
+    packageName=com.google.android.music
+    processName=com.google.android.music:main
+    baseDir=/system/app/Music2/Music2.apk
+    dataDir=/data/user/0/com.google.android.music
+    app=ProcessRecord{4742daa 4272:com.google.android.music:main/u0a58}
+    createTime=-2m10s448ms startingBgTimeout=--
+    lastActivity=-2m10s448ms restartTime=-2m10s448ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{ef4c1a6 CREATE}:
+      intent={cmp=com.google.android.music/.preferences.MusicPreferenceService$MusicPreferenceServiceBinder}
+      binder=android.os.BinderProxy@d9b37e7
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{9c95f94 ProcessRecord{4742daa 4272:com.google.android.music:main/u0a58}}
+        Per-process Connections:
+          ConnectionRecord{48f1538 u0 CR com.google.android.music/.preferences.MusicPreferenceService$MusicPreferenceServiceBinder:@6dd6d9b}
+    All Connections:
+      ConnectionRecord{48f1538 u0 CR com.google.android.music/.preferences.MusicPreferenceService$MusicPreferenceServiceBinder:@6dd6d9b}
+
+  * ServiceRecord{8c9ebd1 u0 com.google.android.gms/.chimera.GmsBoundBrokerService}
+    intent={act=com.google.android.gms.people.service.START pkg=com.google.android.gms}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    createTime=-9s149ms startingBgTimeout=--
+    lastActivity=-9s58ms restartTime=-9s149ms createdFromFg=true
+    startRequested=false delayedStop=false stopIfKilled=true callStart=false lastStartId=1
+    Bindings:
+    * IntentBindRecord{654fa3d CREATE}:
+      intent={act=com.google.android.mdh.service.START cmp=com.google.android.gms/.chimera.GmsBoundBrokerService}
+      binder=android.os.BinderProxy@e9b5232
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{fd96b83 ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}}
+        Per-process Connections:
+          ConnectionRecord{cb0740d u0 CR WACT com.google.android.gms/.chimera.GmsBoundBrokerService:@c025ea4}
+    * IntentBindRecord{8a6e100}:
+      intent={act=com.google.android.gms.people.service.START pkg=com.google.android.gms}
+      binder=android.os.BinderProxy@d9bfd39
+      requested=true received=true hasBound=false doRebind=false
+    * IntentBindRecord{5a85f7e CREATE}:
+      intent={act=com.google.android.mdh.service.listener.START cmp=com.google.android.gms/.chimera.GmsBoundBrokerService}
+      binder=android.os.BinderProxy@f3d3cdf
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{9190d2c ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}}
+        Per-process Connections:
+          ConnectionRecord{84581d3 u0 CR WACT com.google.android.gms/.chimera.GmsBoundBrokerService:@98b8fc2}
+    All Connections:
+      ConnectionRecord{84581d3 u0 CR WACT com.google.android.gms/.chimera.GmsBoundBrokerService:@98b8fc2}
+      ConnectionRecord{cb0740d u0 CR WACT com.google.android.gms/.chimera.GmsBoundBrokerService:@c025ea4}
+
+  * ServiceRecord{7ac5d25 u0 com.google.android.gms/.usagereporting.service.UsageReportingService}
+    intent={act=com.google.android.gms.usagereporting.service.START pkg=com.google.android.gms}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m37s220ms startingBgTimeout=--
+    lastActivity=-1m2s124ms restartTime=-2m37s220ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{db633f5 CREATE}:
+      intent={act=com.google.android.gms.usagereporting.service.START pkg=com.google.android.gms}
+      binder=android.os.BinderProxy@ee6f58a
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{9e2c7fb ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}}
+        Per-process Connections:
+          ConnectionRecord{a420ef8 u0 CR WACT com.google.android.gms/.usagereporting.service.UsageReportingService:@d7d365b}
+      * Client AppBindRecord{59fd018 ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}}
+        Per-process Connections:
+          ConnectionRecord{2b65d1c u0 CR WACT com.google.android.gms/.usagereporting.service.UsageReportingService:@71f168f}
+      * Client AppBindRecord{1031a71 ProcessRecord{d12f481 4798:com.google.android.gms.unstable/u0a13}}
+        Per-process Connections:
+          ConnectionRecord{359f967 u0 CR WACT com.google.android.gms/.usagereporting.service.UsageReportingService:@4579926}
+    All Connections:
+      ConnectionRecord{359f967 u0 CR WACT com.google.android.gms/.usagereporting.service.UsageReportingService:@4579926}
+      ConnectionRecord{2b65d1c u0 CR WACT com.google.android.gms/.usagereporting.service.UsageReportingService:@71f168f}
+      ConnectionRecord{a420ef8 u0 CR WACT com.google.android.gms/.usagereporting.service.UsageReportingService:@d7d365b}
+
+  * ServiceRecord{f91ef1a u0 com.google.android.gms/.pseudonymous.service.PseudonymousIdService}
+    intent={act=com.google.android.gms.pseudonymous.service.START pkg=com.google.android.gms}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m30s872ms startingBgTimeout=--
+    lastActivity=-2m30s872ms restartTime=-2m30s872ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{4c6e056 CREATE}:
+      intent={act=com.google.android.gms.pseudonymous.service.START pkg=com.google.android.gms}
+      binder=android.os.BinderProxy@98be8d7
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{ecdd5c4 ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}}
+        Per-process Connections:
+          ConnectionRecord{d51d9c5 u0 CR WACT com.google.android.gms/.pseudonymous.service.PseudonymousIdService:@607683c}
+    All Connections:
+      ConnectionRecord{d51d9c5 u0 CR WACT com.google.android.gms/.pseudonymous.service.PseudonymousIdService:@607683c}
+
+  * ServiceRecord{600f369 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService}
+    intent={act=com.android.launcher3.WINDOW_OVERLAY dat=app://com.google.android.apps.nexuslauncher:10022?v=0 pkg=com.google.android.googlequicksearchbox}
+    packageName=com.google.android.googlequicksearchbox
+    processName=com.google.android.googlequicksearchbox:search
+    baseDir=/system/priv-app/Velvet/Velvet.apk
+    dataDir=/data/user/0/com.google.android.googlequicksearchbox
+    app=ProcessRecord{2d24365 2428:com.google.android.googlequicksearchbox:search/u0a29}
+    createTime=-2m37s221ms startingBgTimeout=--
+    lastActivity=-2m37s219ms restartTime=-2m37s221ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{e5decad CREATE}:
+      intent={act=com.android.launcher3.WINDOW_OVERLAY dat=app://com.google.android.apps.nexuslauncher:10022?v=0 pkg=com.google.android.googlequicksearchbox}
+      binder=android.os.BinderProxy@6e8abe2
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{83c3b73 ProcessRecord{24299f9 2522:com.google.android.apps.nexuslauncher/u0a22}}
+        Per-process Connections:
+          ConnectionRecord{5008cab u0 CR IMP WACT com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService:@8631efa}
+          ConnectionRecord{f2a11f0 u0 CR WPRI com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService:@cf80a33}
+    All Connections:
+      ConnectionRecord{5008cab u0 CR IMP WACT com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService:@8631efa}
+      ConnectionRecord{f2a11f0 u0 CR WPRI com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService:@cf80a33}
+
+  * ServiceRecord{bedca32 u0 com.google.android.ext.services/android.ext.services.notification.Ranker}
+    intent={act=android.service.notification.NotificationRankerService cmp=com.google.android.ext.services/android.ext.services.notification.Ranker}
+    packageName=com.google.android.ext.services
+    processName=com.google.android.ext.services
+    permission=android.permission.BIND_NOTIFICATION_RANKER_SERVICE
+    baseDir=/system/priv-app/GoogleExtServices/GoogleExtServices.apk
+    dataDir=/data/user_de/0/com.google.android.ext.services
+    app=ProcessRecord{9b48a30 2231:com.google.android.ext.services/u0a15}
+    whitelistManager=true
+    createTime=-2m41s406ms startingBgTimeout=--
+    lastActivity=-2m39s81ms restartTime=-2m39s81ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{519a6a9 CREATE}:
+      intent={act=android.service.notification.NotificationRankerService cmp=com.google.android.ext.services/android.ext.services.notification.Ranker}
+      binder=android.os.BinderProxy@c69a42e
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{2951bcf ProcessRecord{a657cdb 1700:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{d2e0a51 u0 CR FGS com.google.android.ext.services/android.ext.services.notification.Ranker:@5a31378}
+    All Connections:
+      ConnectionRecord{d2e0a51 u0 CR FGS com.google.android.ext.services/android.ext.services.notification.Ranker:@5a31378}
+
+  * ServiceRecord{4ff783 u0 com.google.android.gms/com.google.android.location.fused.FusedLocationService}
+    intent={act=com.android.location.service.FusedLocationProvider cmp=com.google.android.gms/com.google.android.location.fused.FusedLocationService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m4s36ms startingBgTimeout=--
+    lastActivity=-2m4s36ms restartTime=-2m4s36ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{910195c CREATE}:
+      intent={act=com.android.location.service.FusedLocationProvider cmp=com.google.android.gms/com.google.android.location.fused.FusedLocationService}
+      binder=android.os.BinderProxy@cbd0465
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{eefd53a ProcessRecord{a657cdb 1700:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{be48e32 u0 CR !FG !VIS com.google.android.gms/com.google.android.location.fused.FusedLocationService:@a4da63d}
+    All Connections:
+      ConnectionRecord{be48e32 u0 CR !FG !VIS com.google.android.gms/com.google.android.location.fused.FusedLocationService:@a4da63d}
+
+  * ServiceRecord{a985ff5 u0 com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService}
+    intent={act=com.android.location.service.GeofenceProvider cmp=com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m4s34ms startingBgTimeout=--
+    lastActivity=-2m4s34ms restartTime=-2m4s34ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{3f1a5eb CREATE}:
+      intent={act=com.android.location.service.GeofenceProvider cmp=com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService}
+      binder=android.os.BinderProxy@d336f48
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{47e81e1 ProcessRecord{a657cdb 1700:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{8b8692c u0 CR !FG !VIS com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService:@e9088df}
+    All Connections:
+      ConnectionRecord{8b8692c u0 CR !FG !VIS com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService:@e9088df}
+
+  * ServiceRecord{68d49d2 u0 com.android.systemui/.SystemUIService}
+    intent={cmp=com.android.systemui/.SystemUIService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    app=ProcessRecord{33a1e7a 1850:com.android.systemui/u0a28}
+    createTime=-2m40s932ms startingBgTimeout=--
+    lastActivity=-2m40s882ms restartTime=-2m40s882ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{e4b3d91 u0 com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService}
+    intent={cmp=com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService}
+    packageName=com.google.android.talk
+    processName=com.google.android.talk
+    baseDir=/system/app/Hangouts/Hangouts.apk
+    dataDir=/data/user/0/com.google.android.talk
+    app=ProcessRecord{1a02a 3912:com.google.android.talk/u0a52}
+    createTime=-2m12s709ms startingBgTimeout=--
+    lastActivity=-2m12s615ms restartTime=-2m12s709ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{a760b06 CREATE}:
+      intent={cmp=com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService}
+      binder=android.os.BinderProxy@842b5c7
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{6b437f4 ProcessRecord{1a02a 3912:com.google.android.talk/u0a52}}
+        Per-process Connections:
+          ConnectionRecord{1da67da u0 CR com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService:@9fa2e1b}
+          ConnectionRecord{1f194f6 u0 CR com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService:@9fa2e1b}
+          ConnectionRecord{d740bb8 u0 CR com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService:@9fa2e1b}
+          ConnectionRecord{d81bd85 u0 CR com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService:@9fa2e1b}
+    All Connections:
+      ConnectionRecord{d740bb8 u0 CR com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService:@9fa2e1b}
+      ConnectionRecord{1f194f6 u0 CR com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService:@9fa2e1b}
+      ConnectionRecord{d81bd85 u0 CR com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService:@9fa2e1b}
+      ConnectionRecord{1da67da u0 CR com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService:@9fa2e1b}
+
+  * ServiceRecord{ca1c2f8 u0 android/.hardware.location.GeofenceHardwareService}
+    intent={cmp=android/.hardware.location.GeofenceHardwareService}
+    packageName=android
+    processName=system
+    permission=android.permission.LOCATION_HARDWARE
+    baseDir=/system/framework/framework-res.apk
+    dataDir=null
+    app=ProcessRecord{a657cdb 1700:system/1000}
+    createTime=-2m40s521ms startingBgTimeout=--
+    lastActivity=-2m40s521ms restartTime=-2m40s521ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{e805b1d CREATE}:
+      intent={cmp=android/.hardware.location.GeofenceHardwareService}
+      binder=android.hardware.location.GeofenceHardwareService$1@dd7d192
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{faae763 ProcessRecord{a657cdb 1700:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{b7b3a5b u0 CR android/.hardware.location.GeofenceHardwareService:@86a356a}
+    All Connections:
+      ConnectionRecord{b7b3a5b u0 CR android/.hardware.location.GeofenceHardwareService:@86a356a}
+
+  * ServiceRecord{3f3428f u0 com.google.android.gms/.chimera.GmsIntentOperationService}
+    intent={act=android.intent.action.DROPBOX_ENTRY_ADDED cmp=com.google.android.gms/.chimera.GmsIntentOperationService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    createTime=-12s10ms startingBgTimeout=--
+    lastActivity=-6s860ms restartTime=-12s10ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=4
+
+  * ServiceRecord{b4eb5f u0 com.google.android.gms/.chimera.PersistentDirectBootAwareApiService}
+    intent={act=com.google.android.gms.clearcut.service.START cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m36s774ms startingBgTimeout=--
+    lastActivity=-5s417ms restartTime=-2m36s774ms createdFromFg=true
+    startRequested=false delayedStop=false stopIfKilled=true callStart=false lastStartId=195
+    Bindings:
+    * IntentBindRecord{7d6df60 CREATE}:
+      intent={act=com.google.android.gms.clearcut.service.START cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService}
+      binder=android.os.BinderProxy@2cc8c19
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{81d74de ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}}
+        Per-process Connections:
+          ConnectionRecord{8992a65 u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@3cd175c}
+      * Client AppBindRecord{fda96bf ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}}
+        Per-process Connections:
+          ConnectionRecord{18fb7fe u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@29f67b9}
+      * Client AppBindRecord{ba918c ProcessRecord{d12f481 4798:com.google.android.gms.unstable/u0a13}}
+        Per-process Connections:
+          ConnectionRecord{4f957bd u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@3f6c314}
+    * IntentBindRecord{610d0d5 CREATE}:
+      intent={act=com.google.android.gms.clearcut.service.START pkg=com.google.android.gms}
+      binder=android.os.BinderProxy@e8800ea
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{f2bdfdb ProcessRecord{1a02a 3912:com.google.android.talk/u0a52}}
+        Per-process Connections:
+          ConnectionRecord{4bec656 u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@3f2d871}
+      * Client AppBindRecord{2453a78 ProcessRecord{24299f9 2522:com.google.android.apps.nexuslauncher/u0a22}}
+        Per-process Connections:
+          ConnectionRecord{cd18706 u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@96a6de1}
+      * Client AppBindRecord{1aa551 ProcessRecord{8c12928 5108:com.google.android.apps.messaging/u0a66}}
+        Per-process Connections:
+          ConnectionRecord{92807e6 u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@1b8e641}
+    All Connections:
+      ConnectionRecord{92807e6 u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@1b8e641}
+      ConnectionRecord{18fb7fe u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@29f67b9}
+      ConnectionRecord{8992a65 u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@3cd175c}
+      ConnectionRecord{4bec656 u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@3f2d871}
+      ConnectionRecord{4f957bd u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@3f6c314}
+      ConnectionRecord{cd18706 u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@96a6de1}
+
+  * ServiceRecord{3c5dab1 u0 com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService}
+    intent={act=com.google.android.location.internal.GMS_NLP pkg=com.google.android.gms}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    permission=android.permission.ACCESS_COARSE_LOCATION
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m35s761ms startingBgTimeout=--
+    lastActivity=-5s419ms restartTime=-2m35s761ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=70
+
+  * ServiceRecord{2138130 u0 com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService}
+    intent={cmp=com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m30s71ms startingBgTimeout=--
+    lastActivity=-2m23s855ms restartTime=-2m30s71ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+    Bindings:
+    * IntentBindRecord{75d41b6 CREATE}:
+      intent={act=com.google.android.contextmanager.service.ContextManagerService.START pkg=com.google.android.gms}
+      binder=android.os.BinderProxy@57e9eb7
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{3cf8624 ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}}
+        Per-process Connections:
+          ConnectionRecord{4f66732 u0 CR WACT com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService:@18b433d}
+    All Connections:
+      ConnectionRecord{4f66732 u0 CR WACT com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService:@18b433d}
+
+  * ServiceRecord{cc93b94 u0 com.google.android.gms/com.google.android.location.network.NetworkLocationService}
+    intent={act=com.android.location.service.v3.NetworkLocationProvider cmp=com.google.android.gms/com.google.android.location.network.NetworkLocationService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m4s39ms startingBgTimeout=--
+    lastActivity=-2m4s39ms restartTime=-2m4s39ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{e13458d CREATE}:
+      intent={act=com.android.location.service.v3.NetworkLocationProvider cmp=com.google.android.gms/com.google.android.location.network.NetworkLocationService}
+      binder=android.os.BinderProxy@573c342
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{ed46f53 ProcessRecord{a657cdb 1700:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{78103e7 u0 CR !FG !VIS com.google.android.gms/com.google.android.location.network.NetworkLocationService:@4e23da6}
+    All Connections:
+      ConnectionRecord{78103e7 u0 CR !FG !VIS com.google.android.gms/com.google.android.location.network.NetworkLocationService:@4e23da6}
+
+  * ServiceRecord{db29352 u0 com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService}
+    intent={act=com.google.android.location.internal.GoogleLocationManagerService.START pkg=com.google.android.gms}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m37s145ms startingBgTimeout=--
+    lastActivity=-22s373ms restartTime=-2m37s145ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=5
+    Bindings:
+    * IntentBindRecord{790e090 CREATE}:
+      intent={act=com.google.android.location.internal.GoogleLocationManagerService.START pkg=com.google.android.gms}
+      binder=android.os.BinderProxy@c7bad89
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{7ed18e ProcessRecord{24299f9 2522:com.google.android.apps.nexuslauncher/u0a22}}
+        Per-process Connections:
+          ConnectionRecord{36a0bdd u0 CR WACT com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService:@6e733b4}
+      * Client AppBindRecord{bacadaf ProcessRecord{2d24365 2428:com.google.android.googlequicksearchbox:search/u0a29}}
+        Per-process Connections:
+          ConnectionRecord{44782ee u0 CR WACT com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService:@3dcc869}
+      * Client AppBindRecord{9cb75bc ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}}
+        Per-process Connections:
+          ConnectionRecord{4f63c2f u0 CR WACT com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService:@ad38a0e}
+    All Connections:
+      ConnectionRecord{44782ee u0 CR WACT com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService:@3dcc869}
+      ConnectionRecord{36a0bdd u0 CR WACT com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService:@6e733b4}
+      ConnectionRecord{4f63c2f u0 CR WACT com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService:@ad38a0e}
+
+  * ServiceRecord{c7a8a58 u0 com.android.server.telecom/.components.TelecomService}
+    intent={act=com.android.ITelecomService cmp=com.android.server.telecom/.components.TelecomService}
+    packageName=com.android.server.telecom
+    processName=system
+    baseDir=/system/priv-app/Telecom/Telecom.apk
+    dataDir=/data/user_de/0/com.android.server.telecom
+    app=ProcessRecord{a657cdb 1700:system/1000}
+    createTime=-2m40s990ms startingBgTimeout=--
+    lastActivity=-2m40s990ms restartTime=-2m40s990ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{4e89945 CREATE}:
+      intent={act=com.android.ITelecomService cmp=com.android.server.telecom/.components.TelecomService}
+      binder=com.android.server.telecom.TelecomServiceImpl$1@61a789a
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{b2075cb ProcessRecord{a657cdb 1700:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{f67033b u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@fb615ca}
+    All Connections:
+      ConnectionRecord{f67033b u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@fb615ca}
+
+  * ServiceRecord{732de7 u0 com.google.android.gms/.trustagent.speech.service.VoiceUnlockService}
+    intent={act=com.google.android.gms.speech.service.START pkg=com.google.android.gms}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m35s260ms startingBgTimeout=--
+    lastActivity=-22s349ms restartTime=-2m35s260ms createdFromFg=true
+    startRequested=false delayedStop=false stopIfKilled=true callStart=false lastStartId=15
+    Bindings:
+    * IntentBindRecord{6b831a8 CREATE}:
+      intent={act=com.google.android.gms.speech.service.START pkg=com.google.android.gms}
+      binder=android.os.BinderProxy@b7e84c1
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{f978466 ProcessRecord{2d24365 2428:com.google.android.googlequicksearchbox:search/u0a29}}
+        Per-process Connections:
+          ConnectionRecord{2facfa6 u0 CR WACT com.google.android.gms/.trustagent.speech.service.VoiceUnlockService:@8fef501}
+    All Connections:
+      ConnectionRecord{2facfa6 u0 CR WACT com.google.android.gms/.trustagent.speech.service.VoiceUnlockService:@8fef501}
+
+  * ServiceRecord{6227625 u0 com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService}
+    intent={act=android.service.voice.VoiceInteractionService cmp=com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService}
+    packageName=com.google.android.googlequicksearchbox
+    processName=com.google.android.googlequicksearchbox:interactor
+    permission=android.permission.BIND_VOICE_INTERACTION
+    baseDir=/system/priv-app/Velvet/Velvet.apk
+    dataDir=/data/user/0/com.google.android.googlequicksearchbox
+    app=ProcessRecord{3174 2281:com.google.android.googlequicksearchbox:interactor/u0a29}
+    createTime=-2m38s994ms startingBgTimeout=--
+    lastActivity=-2m38s933ms restartTime=-2m38s933ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{abea3a7 CREATE}:
+      intent={act=android.service.voice.VoiceInteractionService cmp=com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService}
+      binder=android.os.BinderProxy@332c054
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{82dabfd ProcessRecord{a657cdb 1700:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{5d11ef0 u0 CR FGS com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService:@acf2b33}
+    All Connections:
+      ConnectionRecord{5d11ef0 u0 CR FGS com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService:@acf2b33}
+
+  * ServiceRecord{275498c u0 android/com.android.internal.backup.LocalTransportService}
+    intent={act=android.backup.TRANSPORT_HOST cmp=android/com.android.internal.backup.LocalTransportService}
+    packageName=android
+    processName=system
+    permission=android.permission.CONFIRM_FULL_BACKUP
+    baseDir=/system/framework/framework-res.apk
+    dataDir=null
+    app=ProcessRecord{a657cdb 1700:system/1000}
+    createTime=-2m39s53ms startingBgTimeout=--
+    lastActivity=-2m39s53ms restartTime=-2m39s53ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{88780f2 CREATE}:
+      intent={act=android.backup.TRANSPORT_HOST cmp=android/com.android.internal.backup.LocalTransportService}
+      binder=android.app.backup.BackupTransport$TransportImpl@249c3fa
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{827d343 ProcessRecord{a657cdb 1700:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{d6d2ebf u0 CR android/com.android.internal.backup.LocalTransportService:@c7b6cde}
+    All Connections:
+      ConnectionRecord{d6d2ebf u0 CR android/com.android.internal.backup.LocalTransportService:@c7b6cde}
+
+  * ServiceRecord{63c8b5c u0 android/com.android.server.content.SyncJobService}
+    intent={cmp=android/com.android.server.content.SyncJobService}
+    packageName=android
+    processName=system
+    permission=android.permission.BIND_JOB_SERVICE
+    baseDir=/system/framework/framework-res.apk
+    dataDir=null
+    app=ProcessRecord{a657cdb 1700:system/1000}
+    createTime=-2m40s356ms startingBgTimeout=--
+    lastActivity=-2m40s356ms restartTime=-2m40s356ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+
+  * ServiceRecord{ecad1a9 u0 com.google.android.gms/.common.stats.GmsCoreStatsService}
+    intent={act=com.google.android.gms.common.stats.START cmp=com.google.android.gms/.common.stats.GmsCoreStatsService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m30s67ms startingBgTimeout=--
+    lastActivity=-2m21s189ms restartTime=-2m30s67ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{5d8ec18 u0 com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService}
+    intent={act=com.android.location.service.ActivityRecognitionProvider cmp=com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m4s33ms startingBgTimeout=--
+    lastActivity=-2m4s33ms restartTime=-2m4s33ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{4258dc0 CREATE}:
+      intent={act=com.android.location.service.ActivityRecognitionProvider cmp=com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService}
+      binder=android.os.BinderProxy@7ae0af9
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{208ba3e ProcessRecord{a657cdb 1700:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{91ed3fb u0 CR !FG !VIS com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService:@c9bb18a}
+    All Connections:
+      ConnectionRecord{91ed3fb u0 CR !FG !VIS com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService:@c9bb18a}
+
+  * ServiceRecord{61108b1 u0 com.android.mms.service/.MmsService}
+    intent={cmp=com.android.mms.service/.MmsService}
+    packageName=com.android.mms.service
+    processName=com.android.phone
+    baseDir=/system/priv-app/MmsService/MmsService.apk
+    dataDir=/data/user/0/com.android.mms.service
+    app=ProcessRecord{e307ad2 1989:com.android.phone/1001}
+    createTime=-2m30s659ms startingBgTimeout=--
+    lastActivity=-2m30s659ms restartTime=-2m30s659ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{6a609f CREATE}:
+      intent={cmp=com.android.mms.service/.MmsService}
+      binder=android.os.BinderProxy@b5c5ec
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{3b5db5 ProcessRecord{a657cdb 1700:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{a138f58 u0 CR com.android.mms.service/.MmsService:@15cfc3b}
+    All Connections:
+      ConnectionRecord{a138f58 u0 CR com.android.mms.service/.MmsService:@15cfc3b}
+
+  * ServiceRecord{49485c1 u0 com.android.phone/.TelephonyDebugService}
+    intent={cmp=com.android.phone/.TelephonyDebugService}
+    packageName=com.android.phone
+    processName=com.android.phone
+    permission=android.permission.DUMP
+    baseDir=/system/priv-app/TeleService/TeleService.apk
+    dataDir=/data/user_de/0/com.android.phone
+    app=ProcessRecord{e307ad2 1989:com.android.phone/1001}
+    createTime=-2m39s886ms startingBgTimeout=--
+    lastActivity=-2m39s886ms restartTime=-2m39s886ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{be90b3c u0 com.google.android.gms/.backup.BackupTransportService}
+    intent={act=android.backup.TRANSPORT_HOST cmp=com.google.android.gms/.backup.BackupTransportService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    permission=android.permission.CONFIRM_FULL_BACKUP
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}
+    createTime=-2m30s115ms startingBgTimeout=--
+    lastActivity=-2m30s115ms restartTime=-2m30s115ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{ed23c4a CREATE}:
+      intent={act=android.backup.TRANSPORT_HOST cmp=com.google.android.gms/.backup.BackupTransportService}
+      binder=android.os.BinderProxy@91e67bb
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{b2f54d8 ProcessRecord{a657cdb 1700:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{315292f u0 CR com.google.android.gms/.backup.BackupTransportService:@5960b0e}
+    All Connections:
+      ConnectionRecord{315292f u0 CR com.google.android.gms/.backup.BackupTransportService:@5960b0e}
+
+  * ServiceRecord{4aa8208 u0 com.google.android.gms/.checkin.CheckinApiService}
+    intent={act=com.google.android.gms.checkin.START pkg=com.google.android.gms}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{186a16a 2563:com.google.android.gms/u0a13}
+    createTime=-2m34s502ms startingBgTimeout=--
+    lastActivity=-2m34s502ms restartTime=-2m34s502ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{6112031 CREATE}:
+      intent={act=com.google.android.gms.checkin.START pkg=com.google.android.gms}
+      binder=android.os.BinderProxy@3ffd316
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{f41c497 ProcessRecord{4c7d1ee 2259:com.google.android.gms.persistent/u0a13}}
+        Per-process Connections:
+          ConnectionRecord{e24bab u0 CR WACT com.google.android.gms/.checkin.CheckinApiService:@9c879fa}
+    All Connections:
+      ConnectionRecord{e24bab u0 CR WACT com.google.android.gms/.checkin.CheckinApiService:@9c879fa}
+
+  Connection bindings to services:
+  * ConnectionRecord{a138f58 u0 CR com.android.mms.service/.MmsService:@15cfc3b}
+    binding=AppBindRecord{3b5db5 com.android.mms.service/.MmsService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@15cfc3b flags=0x1
+  * ConnectionRecord{4f66732 u0 CR WACT com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService:@18b433d}
+    binding=AppBindRecord{3cf8624 com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService:com.google.android.gms.persistent}
+    conn=android.os.BinderProxy@18b433d flags=0x81
+  * ConnectionRecord{92807e6 u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@1b8e641}
+    binding=AppBindRecord{1aa551 com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:com.google.android.apps.messaging}
+    conn=android.os.BinderProxy@1b8e641 flags=0x81
+  * ConnectionRecord{6736939 u0 CR !FG !VIS com.google.android.gms/com.google.android.location.geocode.GeocodeService:@1c87d00}
+    binding=AppBindRecord{a3b5fa3 com.google.android.gms/com.google.android.location.geocode.GeocodeService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@1c87d00 flags=0x40000005
+  * ConnectionRecord{18fb7fe u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@29f67b9}
+    binding=AppBindRecord{fda96bf com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:com.google.android.gms.persistent}
+    conn=android.os.BinderProxy@29f67b9 flags=0x81
+  * ConnectionRecord{8992a65 u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@3cd175c}
+    binding=AppBindRecord{81d74de com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:com.google.android.gms}
+    conn=android.os.BinderProxy@3cd175c flags=0x81
+  * ConnectionRecord{44782ee u0 CR WACT com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService:@3dcc869}
+    binding=AppBindRecord{bacadaf com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService:com.google.android.googlequicksearchbox:search}
+    conn=android.os.BinderProxy@3dcc869 flags=0x81
+  * ConnectionRecord{4bec656 u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@3f2d871}
+    binding=AppBindRecord{f2bdfdb com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:com.google.android.talk}
+    conn=android.os.BinderProxy@3f2d871 flags=0x81
+  * ConnectionRecord{4f957bd u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@3f6c314}
+    binding=AppBindRecord{ba918c com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:com.google.android.gms.unstable}
+    conn=android.os.BinderProxy@3f6c314 flags=0x81
+  * ConnectionRecord{339f404 u0 CR !FG UI !VIS com.android.inputmethod.latin/.LatinIME:@4389817}
+    binding=AppBindRecord{5c16f01 com.android.inputmethod.latin/.LatinIME:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@4389817 flags=0x60000005
+  * ConnectionRecord{359f967 u0 CR WACT com.google.android.gms/.usagereporting.service.UsageReportingService:@4579926}
+    binding=AppBindRecord{1031a71 com.google.android.gms/.usagereporting.service.UsageReportingService:com.google.android.gms.unstable}
+    conn=android.os.BinderProxy@4579926 flags=0x81
+  * ConnectionRecord{6db6c10 u0 CR com.android.systemui/.keyguard.KeyguardService:@4cbf8d3}
+    binding=AppBindRecord{f0f4c21 com.android.systemui/.keyguard.KeyguardService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@4cbf8d3 flags=0x1
+  * ConnectionRecord{78103e7 u0 CR !FG !VIS com.google.android.gms/com.google.android.location.network.NetworkLocationService:@4e23da6}
+    binding=AppBindRecord{ed46f53 com.google.android.gms/com.google.android.location.network.NetworkLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@4e23da6 flags=0x40000005
+  * ConnectionRecord{315292f u0 CR com.google.android.gms/.backup.BackupTransportService:@5960b0e}
+    binding=AppBindRecord{b2f54d8 com.google.android.gms/.backup.BackupTransportService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@5960b0e flags=0x1
+  * ConnectionRecord{d2e0a51 u0 CR FGS com.google.android.ext.services/android.ext.services.notification.Ranker:@5a31378}
+    binding=AppBindRecord{2951bcf com.google.android.ext.services/android.ext.services.notification.Ranker:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@5a31378 flags=0x5000001
+  * ConnectionRecord{d51d9c5 u0 CR WACT com.google.android.gms/.pseudonymous.service.PseudonymousIdService:@607683c}
+    binding=AppBindRecord{ecdd5c4 com.google.android.gms/.pseudonymous.service.PseudonymousIdService:com.google.android.gms}
+    conn=android.os.BinderProxy@607683c flags=0x81
+  * ConnectionRecord{48f1538 u0 CR com.google.android.music/.preferences.MusicPreferenceService$MusicPreferenceServiceBinder:@6dd6d9b}
+    binding=AppBindRecord{9c95f94 com.google.android.music/.preferences.MusicPreferenceService$MusicPreferenceServiceBinder:com.google.android.music:main}
+    conn=android.os.BinderProxy@6dd6d9b flags=0x1
+  * ConnectionRecord{36a0bdd u0 CR WACT com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService:@6e733b4}
+    binding=AppBindRecord{7ed18e com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService:com.google.android.apps.nexuslauncher}
+    conn=android.os.BinderProxy@6e733b4 flags=0x81
+  * ConnectionRecord{2b65d1c u0 CR WACT com.google.android.gms/.usagereporting.service.UsageReportingService:@71f168f}
+    binding=AppBindRecord{59fd018 com.google.android.gms/.usagereporting.service.UsageReportingService:com.google.android.gms.persistent}
+    conn=android.os.BinderProxy@71f168f flags=0x81
+  * ConnectionRecord{5008cab u0 CR IMP WACT com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService:@8631efa}
+    binding=AppBindRecord{83c3b73 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService:com.google.android.apps.nexuslauncher}
+    activity=ActivityRecord{39bdd1e u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t5}
+    conn=android.os.BinderProxy@8631efa flags=0xc1
+  * ConnectionRecord{b7b3a5b u0 CR android/.hardware.location.GeofenceHardwareService:@86a356a}
+    binding=AppBindRecord{faae763 android/.hardware.location.GeofenceHardwareService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@86a356a flags=0x1
+  * ConnectionRecord{403180 u0 CR com.google.android.gms/.chimera.PersistentBoundBrokerService:@8bbae03}
+    binding=AppBindRecord{6c261da com.google.android.gms/.chimera.PersistentBoundBrokerService:com.google.android.gms}
+    conn=android.os.BinderProxy@8bbae03 flags=0x1
+  * ConnectionRecord{2facfa6 u0 CR WACT com.google.android.gms/.trustagent.speech.service.VoiceUnlockService:@8fef501}
+    binding=AppBindRecord{f978466 com.google.android.gms/.trustagent.speech.service.VoiceUnlockService:com.google.android.googlequicksearchbox:search}
+    conn=android.os.BinderProxy@8fef501 flags=0x81
+  * ConnectionRecord{cd18706 u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@96a6de1}
+    binding=AppBindRecord{2453a78 com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:com.google.android.apps.nexuslauncher}
+    conn=android.os.BinderProxy@96a6de1 flags=0x81
+  * ConnectionRecord{84581d3 u0 CR WACT com.google.android.gms/.chimera.GmsBoundBrokerService:@98b8fc2}
+    binding=AppBindRecord{9190d2c com.google.android.gms/.chimera.GmsBoundBrokerService:com.google.android.gms}
+    conn=android.os.BinderProxy@98b8fc2 flags=0x81
+  * ConnectionRecord{e24bab u0 CR WACT com.google.android.gms/.checkin.CheckinApiService:@9c879fa}
+    binding=AppBindRecord{f41c497 com.google.android.gms/.checkin.CheckinApiService:com.google.android.gms.persistent}
+    conn=android.os.BinderProxy@9c879fa flags=0x81
+  * ConnectionRecord{d740bb8 u0 CR com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService:@9fa2e1b}
+    binding=AppBindRecord{6b437f4 com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService:com.google.android.talk}
+    conn=android.os.BinderProxy@9fa2e1b flags=0x1
+  * ConnectionRecord{1f194f6 u0 CR com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService:@9fa2e1b}
+    binding=AppBindRecord{6b437f4 com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService:com.google.android.talk}
+    conn=android.os.BinderProxy@9fa2e1b flags=0x1
+  * ConnectionRecord{d81bd85 u0 CR com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService:@9fa2e1b}
+    binding=AppBindRecord{6b437f4 com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService:com.google.android.talk}
+    conn=android.os.BinderProxy@9fa2e1b flags=0x1
+  * ConnectionRecord{1da67da u0 CR com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService:@9fa2e1b}
+    binding=AppBindRecord{6b437f4 com.google.android.talk/com.google.android.apps.hangouts.concurrent.impl.ConcurrentService:com.google.android.talk}
+    conn=android.os.BinderProxy@9fa2e1b flags=0x1
+  * ConnectionRecord{be48e32 u0 CR !FG !VIS com.google.android.gms/com.google.android.location.fused.FusedLocationService:@a4da63d}
+    binding=AppBindRecord{eefd53a com.google.android.gms/com.google.android.location.fused.FusedLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@a4da63d flags=0x40000005
+  * ConnectionRecord{5d11ef0 u0 CR FGS com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService:@acf2b33}
+    binding=AppBindRecord{82dabfd com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@acf2b33 flags=0x4000001
+  * ConnectionRecord{4f63c2f u0 CR WACT com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService:@ad38a0e}
+    binding=AppBindRecord{9cb75bc com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService:com.google.android.gms.persistent}
+    conn=android.os.BinderProxy@ad38a0e flags=0x81
+  * ConnectionRecord{cb0740d u0 CR WACT com.google.android.gms/.chimera.GmsBoundBrokerService:@c025ea4}
+    binding=AppBindRecord{fd96b83 com.google.android.gms/.chimera.GmsBoundBrokerService:com.google.android.gms}
+    conn=android.os.BinderProxy@c025ea4 flags=0x81
+  * ConnectionRecord{d6d2ebf u0 CR android/com.android.internal.backup.LocalTransportService:@c7b6cde}
+    binding=AppBindRecord{827d343 android/com.android.internal.backup.LocalTransportService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@c7b6cde flags=0x1
+  * ConnectionRecord{91ed3fb u0 CR !FG !VIS com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService:@c9bb18a}
+    binding=AppBindRecord{208ba3e com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@c9bb18a flags=0x40000005
+  * ConnectionRecord{16b0eb2 u0 CR com.google.android.gms/.chimera.PersistentBoundBrokerService:@cd3d8bd}
+    binding=AppBindRecord{64c8fc9 com.google.android.gms/.chimera.PersistentBoundBrokerService:com.google.android.gms}
+    conn=android.os.BinderProxy@cd3d8bd flags=0x1
+  * ConnectionRecord{f2a11f0 u0 CR WPRI com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService:@cf80a33}
+    binding=AppBindRecord{83c3b73 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService:com.google.android.apps.nexuslauncher}
+    conn=android.os.BinderProxy@cf80a33 flags=0x21
+  * ConnectionRecord{9c55b06 u0 CR com.google.android.gms/.chimera.PersistentBoundBrokerService:@d3911e1}
+    binding=AppBindRecord{6c261da com.google.android.gms/.chimera.PersistentBoundBrokerService:com.google.android.gms}
+    conn=android.os.BinderProxy@d3911e1 flags=0x1
+  * ConnectionRecord{a420ef8 u0 CR WACT com.google.android.gms/.usagereporting.service.UsageReportingService:@d7d365b}
+    binding=AppBindRecord{9e2c7fb com.google.android.gms/.usagereporting.service.UsageReportingService:com.google.android.gms}
+    conn=android.os.BinderProxy@d7d365b flags=0x81
+  * ConnectionRecord{557624e u0 CR !FG com.google.android.music/.download.artwork.ArtDownloadService:@d8d0949}
+    binding=AppBindRecord{3cb201b com.google.android.music/.download.artwork.ArtDownloadService:com.google.android.music:main}
+    conn=android.os.BinderProxy@d8d0949 flags=0x5
+  * ConnectionRecord{59b18f8 u0 CR OOM WPRI com.google.android.googlequicksearchbox/com.google.android.apps.gsa.assist.GsaVoiceInteractionSessionService:@dcc285b}
+    binding=AppBindRecord{e89aaa5 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.assist.GsaVoiceInteractionSessionService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@dcc285b flags=0x31
+  * ConnectionRecord{4a65267 u0 CR WACT com.google.android.gms/.chimera.PersistentApiService:@e29b626}
+    binding=AppBindRecord{73938cc com.google.android.gms/.chimera.PersistentApiService:com.google.android.gms.persistent}
+    conn=android.os.BinderProxy@e29b626 flags=0x81
+  * ConnectionRecord{b25f2eb u0 CR WACT com.google.android.gms/.analytics.service.AnalyticsService:@e41363a}
+    binding=AppBindRecord{e64aef6 com.google.android.gms/.analytics.service.AnalyticsService:com.google.android.gm}
+    conn=android.os.BinderProxy@e41363a flags=0x81
+  * ConnectionRecord{8b8692c u0 CR !FG !VIS com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService:@e9088df}
+    binding=AppBindRecord{47e81e1 com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@e9088df flags=0x40000005
+  * ConnectionRecord{26947f2 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@eee2efd}
+    binding=AppBindRecord{4da3734 com.android.systemui/.ImageWallpaper:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@eee2efd flags=0x22000001
+  * ConnectionRecord{f67033b u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@fb615ca}
+    binding=AppBindRecord{b2075cb com.android.server.telecom/.components.TelecomService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@fb615ca flags=0x4000041
+  * ConnectionRecord{fe3f48 u0 CR com.google.android.gms/.chimera.PersistentBoundBrokerService:@fe5b5eb}
+    binding=AppBindRecord{64c8fc9 com.google.android.gms/.chimera.PersistentBoundBrokerService:com.google.android.gms}
+    conn=android.os.BinderProxy@fe5b5eb flags=0x1
+

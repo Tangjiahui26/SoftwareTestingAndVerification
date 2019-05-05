@@ -1,0 +1,458 @@
+user=0 
+  In-memory daily stats
+  timeRange="3/24/2019, 9:48 â 9:50 PM" 
+    packages
+      package=com.google.android.youtube totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.ext.services totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.telephony totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.googlequicksearchbox totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.calendar totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.media totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.downloads totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.apps.messaging totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.defcontainer totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.carrierconfig totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.setupwizard totalTime="00:00" lastTime="3/24/2019, 9:48 PM" 
+      package=com.google.android.music totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.printspooler totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.esoxjem.movieguide totalTime="01:11" lastTime="3/24/2019, 9:50 PM" 
+      package=com.android.keychain totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.gms totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.gsf totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.partnersetup totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.apps.nexuslauncher totalTime="01:10" lastTime="3/24/2019, 9:50 PM" 
+      package=com.android.inputmethod.latin totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.sdksetup totalTime="00:00" lastTime="3/24/2019, 9:48 PM" 
+      package=com.android.settings totalTime="00:01" lastTime="3/24/2019, 9:48 PM" 
+      package=com.android.phone totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.blockednumber totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.userdictionary totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.systemui totalTime="00:01" lastTime="3/24/2019, 9:50 PM" 
+      package=com.android.providers.contacts totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+    configurations
+      config=en-rUS-ldltr-sw411dp-w411dp-h659dp-normal-notlong-notround-port-420dpi-finger-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:00" lastTime="3/24/2019, 9:48 PM" count=1 
+      config=en-rUS-ldltr-sw411dp-w411dp-h659dp-normal-notlong-notround-port-notnight-420dpi-finger-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:03" lastTime="3/24/2019, 9:48 PM" count=1 
+      config=en-rUS-ldltr-sw411dp-w411dp-h659dp-normal-notlong-notround-port-420dpi-notouch-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:00" lastTime="3/24/2019, 9:48 PM" count=1 
+      config=en-rUS-ldltr-sw411dp-w411dp-h731dp-normal-long-notround-port-420dpi-notouch-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:00" lastTime="3/24/2019, 9:48 PM" count=1 
+      config=mcc310-mnc260-en-rUS-ldltr-sw411dp-w411dp-h659dp-normal-notlong-notround-port-notnight-420dpi-finger-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:00" lastTime="3/24/2019, 9:48 PM" count=1 
+    events
+      time="3/24/2019, 9:48 PM" type=CONFIGURATION_CHANGE package=android config=en-rUS-ldltr-sw411dp-w411dp-h731dp-normal-long-notround-port-420dpi-notouch-keysexposed-qwerty-navhidden-nonav-v25 
+      time="3/24/2019, 9:48 PM" type=CONFIGURATION_CHANGE package=android config=h659dp-notlong-v25 
+      time="3/24/2019, 9:48 PM" type=CONFIGURATION_CHANGE package=android config=finger-v25 
+      time="3/24/2019, 9:48 PM" type=CONFIGURATION_CHANGE package=android config=notnight-v25 
+      time="3/24/2019, 9:48 PM" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.CryptKeeper 
+      time="3/24/2019, 9:48 PM" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.CryptKeeper 
+      time="3/24/2019, 9:48 PM" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.FallbackHome 
+      time="3/24/2019, 9:48 PM" type=CONFIGURATION_CHANGE package=android config=mcc310-mnc260-v25 
+      time="3/24/2019, 9:48 PM" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.FallbackHome 
+      time="3/24/2019, 9:48 PM" type=MOVE_TO_FOREGROUND package=com.google.android.setupwizard class=com.google.android.setupwizard.SetupWizardActivity 
+      time="3/24/2019, 9:48 PM" type=MOVE_TO_BACKGROUND package=com.google.android.setupwizard class=com.google.android.setupwizard.SetupWizardActivity 
+      time="3/24/2019, 9:48 PM" type=MOVE_TO_FOREGROUND package=com.google.android.sdksetup class=com.google.android.sdksetup.DefaultActivity 
+      time="3/24/2019, 9:48 PM" type=MOVE_TO_BACKGROUND package=com.google.android.sdksetup class=com.google.android.sdksetup.DefaultActivity 
+      time="3/24/2019, 9:48 PM" type=MOVE_TO_FOREGROUND package=com.google.android.apps.nexuslauncher class=com.google.android.apps.nexuslauncher.NexusLauncherActivity 
+      time="3/24/2019, 9:48 PM" type=MOVE_TO_BACKGROUND package=com.google.android.apps.nexuslauncher class=com.google.android.apps.nexuslauncher.NexusLauncherActivity 
+      time="3/24/2019, 9:48 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:48 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:48 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:48 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:48 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.google.android.apps.nexuslauncher class=com.google.android.apps.nexuslauncher.NexusLauncherActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.google.android.apps.nexuslauncher class=com.google.android.apps.nexuslauncher.NexusLauncherActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.android.systemui class=com.android.systemui.recents.RecentsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.android.systemui class=com.android.systemui.recents.RecentsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.google.android.apps.nexuslauncher class=com.google.android.apps.nexuslauncher.NexusLauncherActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.google.android.apps.nexuslauncher class=com.google.android.apps.nexuslauncher.NexusLauncherActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.google.android.apps.nexuslauncher class=com.google.android.apps.nexuslauncher.NexusLauncherActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.google.android.apps.nexuslauncher class=com.google.android.apps.nexuslauncher.NexusLauncherActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.google.android.apps.nexuslauncher class=com.google.android.apps.nexuslauncher.NexusLauncherActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.google.android.apps.nexuslauncher class=com.google.android.apps.nexuslauncher.NexusLauncherActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:49 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=USER_INTERACTION package=com.android.systemui 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.google.android.apps.nexuslauncher class=com.google.android.apps.nexuslauncher.NexusLauncherActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.google.android.apps.nexuslauncher class=com.google.android.apps.nexuslauncher.NexusLauncherActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.google.android.apps.nexuslauncher class=com.google.android.apps.nexuslauncher.NexusLauncherActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.google.android.apps.nexuslauncher class=com.google.android.apps.nexuslauncher.NexusLauncherActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_BACKGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.listing.MoviesListingActivity 
+      time="3/24/2019, 9:50 PM" type=MOVE_TO_FOREGROUND package=com.esoxjem.movieguide class=com.esoxjem.movieguide.details.MovieDetailsActivity 
+  In-memory weekly stats
+  timeRange="3/24/2019, 9:48 â 9:50 PM" 
+    packages
+      package=com.google.android.youtube totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.ext.services totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.telephony totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.googlequicksearchbox totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.calendar totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.media totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.downloads totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.apps.messaging totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.defcontainer totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.carrierconfig totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.setupwizard totalTime="00:00" lastTime="3/24/2019, 9:48 PM" 
+      package=com.google.android.music totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.printspooler totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.esoxjem.movieguide totalTime="01:11" lastTime="3/24/2019, 9:50 PM" 
+      package=com.android.keychain totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.gms totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.gsf totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.partnersetup totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.apps.nexuslauncher totalTime="01:10" lastTime="3/24/2019, 9:50 PM" 
+      package=com.android.inputmethod.latin totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.sdksetup totalTime="00:00" lastTime="3/24/2019, 9:48 PM" 
+      package=com.android.settings totalTime="00:01" lastTime="3/24/2019, 9:48 PM" 
+      package=com.android.phone totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.blockednumber totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.userdictionary totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.systemui totalTime="00:01" lastTime="3/24/2019, 9:50 PM" 
+      package=com.android.providers.contacts totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+    configurations
+      config=en-rUS-ldltr-sw411dp-w411dp-h659dp-normal-notlong-notround-port-420dpi-finger-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:00" lastTime="3/24/2019, 9:48 PM" count=1 
+      config=en-rUS-ldltr-sw411dp-w411dp-h659dp-normal-notlong-notround-port-notnight-420dpi-finger-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:03" lastTime="3/24/2019, 9:48 PM" count=1 
+      config=en-rUS-ldltr-sw411dp-w411dp-h659dp-normal-notlong-notround-port-420dpi-notouch-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:00" lastTime="3/24/2019, 9:48 PM" count=1 
+      config=en-rUS-ldltr-sw411dp-w411dp-h731dp-normal-long-notround-port-420dpi-notouch-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:00" lastTime="3/24/2019, 9:48 PM" count=1 
+      config=mcc310-mnc260-en-rUS-ldltr-sw411dp-w411dp-h659dp-normal-notlong-notround-port-notnight-420dpi-finger-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:00" lastTime="3/24/2019, 9:48 PM" count=1 
+    events
+  In-memory monthly stats
+  timeRange="3/24/2019, 9:48 â 9:50 PM" 
+    packages
+      package=com.google.android.youtube totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.ext.services totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.telephony totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.googlequicksearchbox totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.calendar totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.media totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.downloads totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.apps.messaging totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.defcontainer totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.carrierconfig totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.setupwizard totalTime="00:00" lastTime="3/24/2019, 9:48 PM" 
+      package=com.google.android.music totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.printspooler totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.esoxjem.movieguide totalTime="01:11" lastTime="3/24/2019, 9:50 PM" 
+      package=com.android.keychain totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.gms totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.gsf totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.partnersetup totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.apps.nexuslauncher totalTime="01:10" lastTime="3/24/2019, 9:50 PM" 
+      package=com.android.inputmethod.latin totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.sdksetup totalTime="00:00" lastTime="3/24/2019, 9:48 PM" 
+      package=com.android.settings totalTime="00:01" lastTime="3/24/2019, 9:48 PM" 
+      package=com.android.phone totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.blockednumber totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.userdictionary totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.systemui totalTime="00:01" lastTime="3/24/2019, 9:50 PM" 
+      package=com.android.providers.contacts totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+    configurations
+      config=en-rUS-ldltr-sw411dp-w411dp-h659dp-normal-notlong-notround-port-420dpi-finger-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:00" lastTime="3/24/2019, 9:48 PM" count=1 
+      config=en-rUS-ldltr-sw411dp-w411dp-h659dp-normal-notlong-notround-port-notnight-420dpi-finger-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:03" lastTime="3/24/2019, 9:48 PM" count=1 
+      config=en-rUS-ldltr-sw411dp-w411dp-h659dp-normal-notlong-notround-port-420dpi-notouch-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:00" lastTime="3/24/2019, 9:48 PM" count=1 
+      config=en-rUS-ldltr-sw411dp-w411dp-h731dp-normal-long-notround-port-420dpi-notouch-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:00" lastTime="3/24/2019, 9:48 PM" count=1 
+      config=mcc310-mnc260-en-rUS-ldltr-sw411dp-w411dp-h659dp-normal-notlong-notround-port-notnight-420dpi-finger-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:00" lastTime="3/24/2019, 9:48 PM" count=1 
+    events
+  In-memory yearly stats
+  timeRange="3/24/2019, 9:48 â 9:50 PM" 
+    packages
+      package=com.google.android.youtube totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.ext.services totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.telephony totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.googlequicksearchbox totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.calendar totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.media totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.downloads totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.apps.messaging totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.defcontainer totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.carrierconfig totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.setupwizard totalTime="00:00" lastTime="3/24/2019, 9:48 PM" 
+      package=com.google.android.music totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.printspooler totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.esoxjem.movieguide totalTime="01:11" lastTime="3/24/2019, 9:50 PM" 
+      package=com.android.keychain totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.gms totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.gsf totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.partnersetup totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.apps.nexuslauncher totalTime="01:10" lastTime="3/24/2019, 9:50 PM" 
+      package=com.android.inputmethod.latin totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.google.android.sdksetup totalTime="00:00" lastTime="3/24/2019, 9:48 PM" 
+      package=com.android.settings totalTime="00:01" lastTime="3/24/2019, 9:48 PM" 
+      package=com.android.phone totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.blockednumber totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.providers.userdictionary totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+      package=com.android.systemui totalTime="00:01" lastTime="3/24/2019, 9:50 PM" 
+      package=com.android.providers.contacts totalTime="00:00" lastTime="12/31/1969, 4:00 PM" 
+    configurations
+      config=en-rUS-ldltr-sw411dp-w411dp-h659dp-normal-notlong-notround-port-420dpi-finger-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:00" lastTime="3/24/2019, 9:48 PM" count=1 
+      config=en-rUS-ldltr-sw411dp-w411dp-h659dp-normal-notlong-notround-port-notnight-420dpi-finger-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:03" lastTime="3/24/2019, 9:48 PM" count=1 
+      config=en-rUS-ldltr-sw411dp-w411dp-h659dp-normal-notlong-notround-port-420dpi-notouch-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:00" lastTime="3/24/2019, 9:48 PM" count=1 
+      config=en-rUS-ldltr-sw411dp-w411dp-h731dp-normal-long-notround-port-420dpi-notouch-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:00" lastTime="3/24/2019, 9:48 PM" count=1 
+      config=mcc310-mnc260-en-rUS-ldltr-sw411dp-w411dp-h659dp-normal-notlong-notround-port-notnight-420dpi-finger-keysexposed-qwerty-navhidden-nonav-v25 totalTime="00:00" lastTime="3/24/2019, 9:48 PM" count=1 
+    events
+  
+  Package idle stats:
+    package=com.android.cts.priv.ctsshim lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.youtube lastUsedElapsed=+2m31s931ms lastUsedScreenOn=+2m31s931ms idle=n
+    package=com.google.android.ext.services lastUsedElapsed=+2m39s889ms lastUsedScreenOn=+2m39s889ms idle=n
+    package=com.android.providers.telephony lastUsedElapsed=+2m41s97ms lastUsedScreenOn=+2m41s97ms idle=n
+    package=com.google.android.googlequicksearchbox lastUsedElapsed=+10s251ms lastUsedScreenOn=+10s251ms idle=n
+    package=com.android.providers.calendar lastUsedElapsed=+2m12s211ms lastUsedScreenOn=+2m12s211ms idle=n
+    package=com.android.providers.media lastUsedElapsed=+720ms lastUsedScreenOn=+720ms idle=n
+    package=com.google.android.onetimeinitializer lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.ext.shared lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.protips lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.documentsui lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.externalstorage lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.htmlviewer lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.mms.service lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.providers.downloads lastUsedElapsed=+720ms lastUsedScreenOn=+720ms idle=n
+    package=com.google.android.apps.messaging lastUsedElapsed=+2m13s46ms lastUsedScreenOn=+2m13s46ms idle=n
+    package=com.google.android.configupdater lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.defcontainer lastUsedElapsed=+2m13s746ms lastUsedScreenOn=+2m13s746ms idle=n
+    package=com.android.providers.downloads.ui lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.vending lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.pacprocessor lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.certinstaller lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.carrierconfig lastUsedElapsed=+2m40s84ms lastUsedScreenOn=+2m40s84ms idle=n
+    package=android lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.contacts lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.egg lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.mtp lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.backupconfirm lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.deskclock lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.statementservice lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.gm lastUsedElapsed=+2d0h0m22s832ms lastUsedScreenOn=+23s832ms idle=n
+    package=com.google.android.setupwizard lastUsedElapsed=+2m37s705ms lastUsedScreenOn=+2m37s705ms idle=n
+    package=com.android.providers.settings lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.sharedstoragebackup lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.music lastUsedElapsed=+1m28s292ms lastUsedScreenOn=+1m28s292ms idle=n
+    package=com.android.printspooler lastUsedElapsed=+147ms lastUsedScreenOn=+147ms idle=n
+    package=com.android.dreams.basic lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.inputdevices lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.dialer lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.esoxjem.movieguide lastUsedElapsed=+8s558ms lastUsedScreenOn=+8s558ms idle=n
+    package=com.google.android.apps.docs lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.apps.maps lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.cellbroadcastreceiver lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.webview lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.server.telecom lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.syncadapters.contacts lastUsedElapsed=+2d0h0m22s832ms lastUsedScreenOn=+23s832ms idle=n
+    package=com.android.keychain lastUsedElapsed=+2m37s705ms lastUsedScreenOn=+2m37s705ms idle=n
+    package=com.android.camera lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.chrome lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.gallery3d lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.packageinstaller lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.emulator.smoketests lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.gms lastUsedElapsed=+2d0h0m22s832ms lastUsedScreenOn=+23s832ms idle=n
+    package=com.google.android.gsf lastUsedElapsed=+9s895ms lastUsedScreenOn=+9s895ms idle=n
+    package=com.google.android.tts lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.ustwo.lwp lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.calllogbackup lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.partnersetup lastUsedElapsed=+18s385ms lastUsedScreenOn=+18s385ms idle=n
+    package=com.google.android.apps.wallpaper.nexus lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.videos lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.apps.nexuslauncher lastUsedElapsed=+9s653ms lastUsedScreenOn=+9s653ms idle=n
+    package=com.android.proxyhandler lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.fallback lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.breel.geswallpapers lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.inputmethod.latin lastUsedElapsed=+8s971ms lastUsedScreenOn=+8s971ms idle=n
+    package=org.chromium.webview_shell lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.feedback lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.printservice.recommendation lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.apps.photos lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.calendar lastUsedElapsed=+2d0h2m12s211ms lastUsedScreenOn=+2m13s211ms idle=n
+    package=com.android.managedprovisioning lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.providers.partnerbookmarks lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.gsf.login lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.wallpaper.livepicker lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.netspeed lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.sdksetup lastUsedElapsed=+2m37s705ms lastUsedScreenOn=+2m37s705ms idle=n
+    package=com.google.android.backuptransport lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.storagemanager lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=jp.co.omronsoft.openwnn lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.bookmarkprovider lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.settings lastUsedElapsed=+2m37s926ms lastUsedScreenOn=+2m37s926ms idle=n
+    package=com.android.calculator2 lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.cts.ctsshim lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.vpndialogs lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.apps.wallpaper lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.talk lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.phone lastUsedElapsed=+2m41s97ms lastUsedScreenOn=+2m41s97ms idle=n
+    package=com.android.shell lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.wallpaperbackup lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.providers.blockednumber lastUsedElapsed=+22s846ms lastUsedScreenOn=+22s846ms idle=n
+    package=com.android.providers.userdictionary lastUsedElapsed=+22s846ms lastUsedScreenOn=+22s846ms idle=n
+    package=com.android.emergency lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.location.fused lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.systemui lastUsedElapsed=+12s951ms lastUsedScreenOn=+12s951ms idle=n
+    package=com.android.customlocale2 lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.google.android.nexusicons lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.development lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    package=com.android.providers.contacts lastUsedElapsed=+22s846ms lastUsedScreenOn=+22s846ms idle=n
+    package=com.android.captiveportallogin lastUsedElapsed=+2m43s747ms lastUsedScreenOn=+2m42s59ms idle=n
+    
+    totalElapsedTime=+2m43s992ms
+    totalScreenOnTime=+2m42s59ms
+
+Carrier privileged apps (have=false): null
+
+Settings:
+  mAppIdleDurationMillis=+12h0m0s0ms
+  mAppIdleWallclockThresholdMillis=+2d0h0m0s0ms
+  mCheckIdleIntervalMillis=+3h0m0s0ms
+  mAppIdleParoleIntervalMillis=+1d0h0m0s0ms
+  mAppIdleParoleDurationMillis=+10m0s0ms
+
+mAppIdleEnabled=false mAppIdleTempParoled=false mCharging=true mLastAppIdleParoledTime=0
+--------- 0.017s was the duration of dumpsys usagestats

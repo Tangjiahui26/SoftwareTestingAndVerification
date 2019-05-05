@@ -1,0 +1,20 @@
+********* Dump of VrManagerService *********
+Previous state transitions:
+
+  None
+
+
+Remote Callbacks:
+  com.android.server.power.PowerManagerService$2@e580b38,
+  com.android.server.policy.ImmersiveModeConfirmation$2@7fbd1ab,
+  android.service.vr.IVrStateCallbacks$Stub$Proxy@716346b,
+  com.android.server.lights.LightsService$1@167f939
+
+Installed VrListenerService components:
+None
+Enabled VrListenerService components:
+None
+
+
+********* End of VrManagerService Dump *********
+--------- 0.001s was the duration of dumpsys vrmanager

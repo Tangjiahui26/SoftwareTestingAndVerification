@@ -1,0 +1,15 @@
+
+  NetworkController
+    Default network: 0
+
+    Networks:
+      51 DUMMY dummy0
+        No DNS servers defined
+        No search domains defined
+
+      99 LOCAL
+        No DNS servers defined
+        No search domains defined
+
+
+--------- 0.001s was the duration of dumpsys netd

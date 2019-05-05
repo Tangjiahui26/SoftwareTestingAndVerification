@@ -1,0 +1,10 @@
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+3: wlan0: <BROADCAST,MULTICAST> mtu 1500 qdisc mq state DOWN mode DEFAULT group default qlen 1000
+    link/ether 02:00:00:44:55:66 brd ff:ff:ff:ff:ff:ff
+5: hwsim0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default 
+    link/ieee802.11/radiotap 12:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff
+6: sit0: <NOARP> mtu 1480 qdisc noop state DOWN mode DEFAULT group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+8: radio0: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fast state DOWN mode DEFAULT group default qlen 1000
+    link/ether 12:c7:3b:16:66:b1 brd ff:ff:ff:ff:ff:ff

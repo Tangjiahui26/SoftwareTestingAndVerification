@@ -1,0 +1,185 @@
+NetworkManagementService NativeDaemonConnector Log:
+03-24 21:50:10.984 - RCV <- {616 Route removed ::/0 via fe80::ff:fe00:100 dev wlan0}
+03-24 21:50:10.984 - RCV <- {614 Address removed fec0::d1e2:74cc:cbd6:8bd5/64 wlan0 1 200}
+03-24 21:50:10.984 - RCV <- {614 Address removed fec0::ff:fe44:5566/64 wlan0 0 200}
+03-24 21:50:11.000 - RCV <- {614 Address removed fe80::ff:fe44:5566/64 wlan0 128 253}
+03-24 21:50:11.001 - SND -> {68 interface clearaddrs wlan0}
+03-24 21:50:11.010 - RCV <- {600 Iface linkstate wlan0 down}
+03-24 21:50:11.010 - RCV <- {200 68 Interface IP addresses cleared}
+03-24 21:50:11.029 - SND -> {69 idletimer remove wlan0 15 1}
+03-24 21:50:11.052 - RCV <- {613 IfaceClass active 0 139816956200 0}
+03-24 21:50:11.114 - RCV <- {200 69 Remove success}
+03-24 21:50:11.114 - SND -> {70 network destroy 101}
+03-24 21:50:11.142 - SND -> {71 bandwidth setglobalalert 2097152}
+03-24 21:50:11.187 - RCV <- {600 Iface linkstate wlan0 down}
+03-24 21:50:11.247 - RCV <- {200 70 success}
+03-24 21:50:11.247 - RCV <- {200 71 Bandwidth command succeeeded}
+03-24 21:50:11.248 - SND -> {72 bandwidth removeiquota radio0}
+03-24 21:50:11.349 - RCV <- {200 72 Bandwidth command succeeeded}
+03-24 21:50:15.621 - SND -> {73 softap fwreload wlan0 STA}
+03-24 21:50:15.621 - RCV <- {214 73 Ok}
+03-24 21:50:15.621 - SND -> {74 interface getcfg wlan0}
+03-24 21:50:15.622 - RCV <- {213 74 02:00:00:44:55:66 0.0.0.0 0 down broadcast multicast}
+03-24 21:50:15.622 - SND -> {75 interface setcfg wlan0 0.0.0.0 0 multicast broadcast down}
+03-24 21:50:15.622 - RCV <- {200 75 Interface configuration set}
+03-24 21:50:15.622 - SND -> {76 interface clearaddrs wlan0}
+03-24 21:50:15.623 - RCV <- {200 76 Interface IP addresses cleared}
+03-24 21:50:15.623 - SND -> {77 interface ipv6privacyextensions wlan0 enable}
+03-24 21:50:15.623 - RCV <- {200 77 IPv6 privacy extensions changed}
+03-24 21:50:15.623 - SND -> {78 interface ipv6 wlan0 disable}
+03-24 21:50:15.623 - RCV <- {200 78 IPv6 state changed}
+03-24 21:50:15.666 - RCV <- {600 Iface linkstate wlan0 down}
+03-24 21:50:16.197 - RCV <- {600 Iface linkstate wlan0 down}
+03-24 21:50:16.427 - RCV <- {600 Iface linkstate radio0 up}
+03-24 21:50:16.427 - RCV <- {616 Route updated fe80::/64 dev radio0}
+03-24 21:50:16.427 - RCV <- {614 Address updated fe80::10c7:3bff:fe16:66b1/64 radio0 196 253}
+03-24 21:50:16.427 - RCV <- {600 Iface linkstate radio0 up}
+03-24 21:50:16.438 - SND -> {79 network create 102}
+03-24 21:50:16.440 - RCV <- {200 79 success}
+03-24 21:50:16.440 - SND -> {80 network interface add 102 radio0}
+03-24 21:50:16.461 - RCV <- {600 Iface linkstate radio0 down}
+03-24 21:50:16.461 - RCV <- {616 Route removed fe80::/64 dev radio0}
+03-24 21:50:16.461 - RCV <- {614 Address removed fe80::10c7:3bff:fe16:66b1/64 radio0 196 253}
+03-24 21:50:16.473 - RCV <- {200 80 success}
+03-24 21:50:16.473 - SND -> {81 interface setmtu radio0 1500}
+03-24 21:50:16.476 - RCV <- {200 81 MTU changed}
+03-24 21:50:16.478 - SND -> {82 network route add 102 radio0 0.0.0.0/0 192.168.200.1}
+03-24 21:50:16.479 - RCV <- {400 82 addRoute() failed (Network is unreachable)}
+03-24 21:50:16.501 - SND -> {83 bandwidth gettetherstats}
+03-24 21:50:16.501 - RCV <- {200 83 Tethering stats list completed}
+03-24 21:50:16.512 - SND -> {84 bandwidth gettetherstats}
+03-24 21:50:16.512 - RCV <- {200 84 Tethering stats list completed}
+03-24 21:50:16.513 - SND -> {85 network default set 102}
+03-24 21:50:16.514 - RCV <- {200 85 success}
+03-24 21:50:16.521 - SND -> {86 bandwidth gettetherstats}
+03-24 21:50:16.521 - RCV <- {200 86 Tethering stats list completed}
+03-24 21:50:16.528 - SND -> {87 bandwidth setglobalalert 2097152}
+03-24 21:50:16.528 - RCV <- {200 87 Bandwidth command succeeeded}
+03-24 21:50:16.535 - SND -> {88 network destroy 102}
+03-24 21:50:16.538 - SND -> {89 bandwidth setglobalalert 2097152}
+03-24 21:50:16.631 - RCV <- {200 88 success}
+03-24 21:50:16.632 - RCV <- {200 89 Bandwidth command succeeeded}
+03-24 21:50:25.311 - SND -> {90 softap fwreload wlan0 STA}
+03-24 21:50:25.312 - RCV <- {214 90 Ok}
+03-24 21:50:25.313 - SND -> {91 interface getcfg wlan0}
+03-24 21:50:25.315 - RCV <- {213 91 02:00:00:44:55:66 0.0.0.0 0 down broadcast multicast}
+03-24 21:50:25.315 - SND -> {92 interface setcfg wlan0 0.0.0.0 0 multicast broadcast down}
+03-24 21:50:25.316 - RCV <- {200 92 Interface configuration set}
+03-24 21:50:25.316 - SND -> {93 interface clearaddrs wlan0}
+03-24 21:50:25.316 - RCV <- {200 93 Interface IP addresses cleared}
+03-24 21:50:25.316 - SND -> {94 interface ipv6privacyextensions wlan0 enable}
+03-24 21:50:25.317 - RCV <- {200 94 IPv6 privacy extensions changed}
+03-24 21:50:25.317 - SND -> {95 interface ipv6 wlan0 disable}
+03-24 21:50:25.317 - RCV <- {200 95 IPv6 state changed}
+03-24 21:50:25.348 - RCV <- {600 Iface linkstate wlan0 down}
+03-24 21:50:25.780 - RCV <- {600 Iface linkstate wlan0 down}
+03-24 21:50:26.596 - RCV <- {613 IfaceClass idle 0 155360828112}
+03-24 21:50:28.534 - SND -> {96 softap fwreload wlan0 STA}
+03-24 21:50:28.540 - RCV <- {214 96 Ok}
+03-24 21:50:28.545 - SND -> {97 interface getcfg wlan0}
+03-24 21:50:28.545 - RCV <- {213 97 02:00:00:44:55:66 0.0.0.0 0 down broadcast multicast}
+03-24 21:50:28.545 - SND -> {98 interface setcfg wlan0 0.0.0.0 0 multicast broadcast down}
+03-24 21:50:28.546 - RCV <- {200 98 Interface configuration set}
+03-24 21:50:28.546 - SND -> {99 interface clearaddrs wlan0}
+03-24 21:50:28.547 - RCV <- {200 99 Interface IP addresses cleared}
+03-24 21:50:28.547 - SND -> {100 interface ipv6privacyextensions wlan0 enable}
+03-24 21:50:28.548 - RCV <- {200 100 IPv6 privacy extensions changed}
+03-24 21:50:28.549 - SND -> {101 interface ipv6 wlan0 disable}
+03-24 21:50:28.549 - RCV <- {200 101 IPv6 state changed}
+03-24 21:50:28.616 - RCV <- {600 Iface linkstate wlan0 down}
+03-24 21:50:33.723 - RCV <- {600 Iface linkstate wlan0 up}
+03-24 21:50:33.738 - RCV <- {600 Iface linkstate wlan0 up}
+03-24 21:50:33.831 - SND -> {102 interface ipv6privacyextensions wlan0 enable}
+03-24 21:50:33.832 - RCV <- {200 102 IPv6 privacy extensions changed}
+03-24 21:50:33.833 - SND -> {103 interface ipv6 wlan0 enable}
+03-24 21:50:33.833 - RCV <- {200 103 IPv6 state changed}
+03-24 21:50:33.834 - RCV <- {616 Route updated fe80::/64 dev wlan0}
+03-24 21:50:33.834 - RCV <- {614 Address updated fe80::ff:fe44:5566/64 wlan0 196 253}
+03-24 21:50:33.981 - SND -> {104 interface setcfg wlan0 192.168.232.2 21}
+03-24 21:50:33.984 - RCV <- {200 104 Interface configuration set}
+03-24 21:50:33.985 - RCV <- {614 Address updated 192.168.232.2/21 wlan0 128 0}
+03-24 21:50:34.004 - SND -> {105 network create 103}
+03-24 21:50:34.006 - RCV <- {200 105 success}
+03-24 21:50:34.007 - SND -> {106 network interface add 103 wlan0}
+03-24 21:50:34.098 - RCV <- {613 IfaceClass active 0 162862081972 0}
+03-24 21:50:34.206 - RCV <- {200 106 success}
+03-24 21:50:34.207 - SND -> {107 network route add 103 wlan0 fe80::/64}
+03-24 21:50:34.208 - RCV <- {200 107 success}
+03-24 21:50:34.208 - SND -> {108 network route add 103 wlan0 192.168.232.0/21}
+03-24 21:50:34.209 - RCV <- {200 108 success}
+03-24 21:50:34.209 - SND -> {109 network route add 103 wlan0 0.0.0.0/0 192.168.232.1}
+03-24 21:50:34.211 - RCV <- {200 109 success}
+03-24 21:50:34.262 - SND -> {110 bandwidth gettetherstats}
+03-24 21:50:34.263 - RCV <- {200 110 Tethering stats list completed}
+03-24 21:50:34.285 - SND -> {111 bandwidth gettetherstats}
+03-24 21:50:34.285 - RCV <- {200 111 Tethering stats list completed}
+03-24 21:50:34.401 - SND -> {112 idletimer add wlan0 15 1}
+03-24 21:50:34.826 - RCV <- {200 112 Add success}
+03-24 21:50:34.827 - SND -> {113 network default set 103}
+03-24 21:50:34.848 - RCV <- {614 Address updated fe80::ff:fe44:5566/64 wlan0 128 253}
+03-24 21:50:34.864 - RCV <- {616 Route updated ::/0 via fe80::ff:fe00:100 dev wlan0}
+03-24 21:50:34.866 - RCV <- {616 Route updated fec0::/64 dev wlan0}
+03-24 21:50:34.866 - RCV <- {614 Address updated fec0::ff:fe44:5566/64 wlan0 68 200}
+03-24 21:50:34.866 - RCV <- {614 Address updated fec0::d1e2:74cc:cbd6:8bd5/64 wlan0 69 200}
+03-24 21:50:34.866 - RCV <- {615 DnsInfo servers wlan0 1200000 fec0::3}
+03-24 21:50:34.867 - RCV <- {200 113 success}
+03-24 21:50:34.929 - SND -> {114 network route add 103 wlan0 fec0::/64}
+03-24 21:50:34.930 - RCV <- {200 114 success}
+03-24 21:50:34.930 - SND -> {115 network route add 103 wlan0 ::/0 fe80::ff:fe00:100}
+03-24 21:50:34.931 - RCV <- {200 115 success}
+03-24 21:50:34.968 - SND -> {116 bandwidth setglobalalert 2097152}
+03-24 21:50:34.970 - RCV <- {200 116 Bandwidth command succeeeded}
+03-24 21:50:34.981 - SND -> {117 bandwidth gettetherstats}
+03-24 21:50:34.982 - RCV <- {200 117 Tethering stats list completed}
+03-24 21:50:35.004 - SND -> {118 bandwidth gettetherstats}
+03-24 21:50:35.005 - RCV <- {200 118 Tethering stats list completed}
+03-24 21:50:35.856 - RCV <- {614 Address updated fec0::ff:fe44:5566/64 wlan0 0 200}
+03-24 21:50:35.857 - RCV <- {614 Address updated fec0::d1e2:74cc:cbd6:8bd5/64 wlan0 1 200}
+03-24 21:50:37.543 - SND -> {119 interface setcfg wlan0 0.0.0.0 0}
+03-24 21:50:37.543 - RCV <- {200 119 Interface configuration set}
+03-24 21:50:37.547 - RCV <- {614 Address removed 192.168.232.2/21 wlan0 128 0}
+03-24 21:50:37.549 - SND -> {120 interface ipv6 wlan0 disable}
+03-24 21:50:37.549 - RCV <- {200 120 IPv6 state changed}
+03-24 21:50:37.550 - RCV <- {616 Route removed fe80::/64 dev wlan0}
+03-24 21:50:37.550 - RCV <- {616 Route removed fec0::/64 dev wlan0}
+03-24 21:50:37.550 - RCV <- {616 Route removed ::/0 via fe80::ff:fe00:100 dev wlan0}
+03-24 21:50:37.550 - RCV <- {614 Address removed fec0::d1e2:74cc:cbd6:8bd5/64 wlan0 1 200}
+03-24 21:50:37.550 - RCV <- {614 Address removed fec0::ff:fe44:5566/64 wlan0 0 200}
+03-24 21:50:37.550 - RCV <- {614 Address removed fe80::ff:fe44:5566/64 wlan0 128 253}
+03-24 21:50:37.553 - SND -> {121 bandwidth gettetherstats}
+03-24 21:50:37.554 - RCV <- {200 121 Tethering stats list completed}
+03-24 21:50:37.554 - SND -> {122 interface clearaddrs wlan0}
+03-24 21:50:37.558 - RCV <- {200 122 Interface IP addresses cleared}
+03-24 21:50:37.596 - RCV <- {600 Iface linkstate wlan0 down}
+03-24 21:50:37.601 - SND -> {123 idletimer remove wlan0 15 1}
+03-24 21:50:37.835 - RCV <- {600 Iface linkstate wlan0 down}
+03-24 21:50:37.884 - RCV <- {200 123 Remove success}
+03-24 21:50:37.891 - SND -> {124 network destroy 103}
+03-24 21:50:37.900 - SND -> {125 bandwidth setglobalalert 2097152}
+03-24 21:50:38.059 - RCV <- {200 124 success}
+03-24 21:50:38.059 - RCV <- {200 125 Bandwidth command succeeeded}
+03-24 21:50:47.997 - RCV <- {613 IfaceClass idle 0 176761589584}
+
+Pending requests:
+
+Bandwidth control enabled: true
+mMobileActivityFromRadio=false mLastPowerStateFromRadio=1
+mNetworkActive=false
+Active quota ifaces: {}
+Active alert ifaces: {}
+Data saver mode: false
+UID bandwith control blacklist rule: []
+UID bandwith control whitelist rule: [10010,10013]
+UID firewall  rule: []
+UID firewall standby chain enabled: false
+UID firewall standby rule: []
+UID firewall dozable chain enabled: false
+UID firewall dozable rule: []
+UID firewall powersave chain enabled: false
+UID firewall powersave rule: []
+Idle timers:
+  radio0:
+    timeout=10 type=0 networkCount=1
+Firewall enabled: false
+Netd service status: alive
+--------- 0.002s was the duration of dumpsys network_management

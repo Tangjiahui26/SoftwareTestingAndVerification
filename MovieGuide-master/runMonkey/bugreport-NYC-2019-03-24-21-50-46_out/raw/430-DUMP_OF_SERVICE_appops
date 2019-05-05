@@ -1,0 +1,326 @@
+Current AppOps Service state:
+  Op mode watchers:
+    Op COARSE_LOCATION:
+      #0: com.android.server.AppOpsService$Callback@531c924
+      #1: com.android.server.AppOpsService$Callback@753cc8d
+      #2: com.android.server.AppOpsService$Callback@90f3e42
+      #3: com.android.server.AppOpsService$Callback@981ce53
+      #4: com.android.server.AppOpsService$Callback@545390
+      #5: com.android.server.AppOpsService$Callback@6bda489
+      #6: com.android.server.AppOpsService$Callback@1d6fc8e
+      #7: com.android.server.AppOpsService$Callback@d50fcaf
+      #8: com.android.server.AppOpsService$Callback@6d318bc
+    Op SYSTEM_ALERT_WINDOW:
+      #0: com.android.server.AppOpsService$Callback@6d30045
+    Op PLAY_AUDIO:
+      #0: com.android.server.AppOpsService$Callback@c4a539a
+      #1: com.android.server.AppOpsService$Callback@43ab4cb
+      #2: com.android.server.AppOpsService$Callback@1704a8
+    Op TOAST_WINDOW:
+      #0: com.android.server.AppOpsService$Callback@6d30045
+    Op MOCK_LOCATION:
+      #0: com.android.server.AppOpsService$Callback@f285bc1
+    Op GET_ACCOUNTS:
+      #0: com.android.server.AppOpsService$Callback@86a0f66
+    Op RUN_IN_BACKGROUND:
+      #0: com.android.server.AppOpsService$Callback@4bdd2a7
+  Package mode watchers:
+    Pkg com.android.systemui:
+      #0: com.android.server.AppOpsService$Callback@43ab4cb
+      #1: com.android.server.AppOpsService$Callback@1704a8
+  All mode watchers:
+    android.media.SoundPool$1@34d1f21 -> com.android.server.AppOpsService$Callback@c4a539a
+    android.os.BinderProxy@3763f69 -> com.android.server.AppOpsService$Callback@1704a8
+    com.android.server.am.ActivityManagerService$4@5f136d8 -> com.android.server.AppOpsService$Callback@4bdd2a7
+    android.app.AppOpsManager$1@6725a82 -> com.android.server.AppOpsService$Callback@86a0f66
+    android.os.BinderProxy@9da9ae5 -> com.android.server.AppOpsService$Callback@43ab4cb
+    android.app.AppOpsManager$1@b04da67 -> com.android.server.AppOpsService$Callback@531c924
+    android.os.BinderProxy@c2c70ed -> com.android.server.AppOpsService$Callback@f285bc1
+    android.os.BinderProxy@c3875ad -> com.android.server.AppOpsService$Callback@90f3e42
+    android.app.AppOpsManager$1@f96d6ea -> com.android.server.AppOpsService$Callback@6d30045
+  Clients:
+    android.os.Binder@22ecb9f:
+      ClientState{mAppToken=android.os.Binder@22ecb9f, local}
+    android.os.BinderProxy@4438696:
+      ClientState{mAppToken=android.os.BinderProxy@4438696, pid=2259}
+    android.os.BinderProxy@fe2334e:
+      ClientState{mAppToken=android.os.BinderProxy@fe2334e, pid=1397}
+
+  Uid 1000:
+    Package android:
+      COARSE_LOCATION: mode=0; time=+27s981ms ago
+      FINE_LOCATION: mode=0; time=+19s446ms ago
+      POST_NOTIFICATION: mode=0; time=+2m23s923ms ago
+      SYSTEM_ALERT_WINDOW: mode=3; rejectTime=+1m24s536ms ago
+      AUDIO_RING_VOLUME: mode=0; time=+7s296ms ago
+      WAKE_LOCK: mode=0; time=+15s713ms ago (running)
+      GET_ACCOUNTS: mode=0; time=+2m9s299ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+2m23s409ms ago
+    Package com.android.keychain:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m38s274ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m38s274ms ago
+    Package com.android.settings:
+      READ_EXTERNAL_STORAGE: mode=0; time=+27s729ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+27s729ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+26s901ms ago
+  Uid 1001:
+      WRITE_SMS: mode=0
+    Package com.android.providers.telephony:
+      WRITE_SMS: mode=0
+    Package com.android.mms.service:
+      WRITE_SMS: mode=0
+    Package com.android.phone:
+      READ_SMS: mode=0; time=+2m11s271ms ago
+      WRITE_SMS: mode=0; time=+24s235ms ago
+      SEND_SMS: mode=0; time=+24s233ms ago
+      WAKE_LOCK: mode=0; time=+2m34s331ms ago (running)
+      ADD_VOICEMAIL: mode=0; time=+24s266ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m40s751ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m40s751ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+26s846ms ago
+  Uid 1041:
+    Package audioserver:
+      WAKE_LOCK: mode=0; time=+4s45ms ago; duration=+3s41ms
+  Uid 1047:
+    Package cameraserver:
+      CAMERA: mode=0; time=+2m40s800ms ago; duration=+1ms
+  Uid 2000:
+    Package com.android.shell:
+      RUN_IN_BACKGROUND: mode=0; time=+15s700ms ago
+  Uid u0a1:
+    Package com.android.providers.contacts:
+      READ_CONTACTS: mode=0; time=+22s47ms ago
+      READ_CALL_LOG: mode=0; time=+2m23s48ms ago
+      WRITE_CALL_LOG: mode=0; time=+2m34s250ms ago
+      ADD_VOICEMAIL: mode=0; time=+24s266ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m35s587ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m35s587ms ago
+      GET_ACCOUNTS: mode=0; time=+2m32s416ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+26s852ms ago
+  Uid u0a2:
+    Package com.android.providers.calendar:
+      READ_CALENDAR: mode=0; time=+1m39s39ms ago
+      WRITE_CALENDAR: mode=0; time=+1m44s57ms ago
+      WAKE_LOCK: mode=0; time=+1m39s33ms ago; duration=+9ms
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m30s104ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m30s104ms ago
+      GET_ACCOUNTS: mode=0; time=+2m29s245ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+1m39s42ms ago
+  Uid u0a3:
+    Package com.android.carrierconfig:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m39s84ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m39s84ms ago
+  Uid u0a4:
+    Package com.android.cellbroadcastreceiver:
+      READ_EXTERNAL_STORAGE: mode=0; time=+28s116ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+28s116ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+26s924ms ago
+  Uid u0a5:
+    Package com.google.android.configupdater:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m27s786ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m27s786ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+1m36s184ms ago
+  Uid u0a8:
+    Package com.android.defcontainer:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m14s56ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m14s56ms ago
+  Uid u0a10:
+    Package com.android.providers.media:
+      WRITE_SETTINGS: mode=3; rejectTime=+2m11s595ms ago
+      WAKE_LOCK: mode=0; time=+2m8s22ms ago; duration=+277ms
+      RUN_IN_BACKGROUND: mode=0; time=+1m59s265ms ago
+    Package com.android.providers.downloads:
+      READ_EXTERNAL_STORAGE: mode=0; time=+9s639ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+9s900ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+55s198ms ago
+  Uid u0a13:
+    Package com.google.android.gms:
+      COARSE_LOCATION: mode=0; time=+5s441ms ago
+      FINE_LOCATION: mode=0; time=+19s296ms ago
+      READ_CONTACTS: mode=0; time=+2m1s162ms ago
+      WRITE_CONTACTS: mode=0; time=+2m20s495ms ago
+      READ_CALENDAR: mode=0; time=+2m11s353ms ago
+      WIFI_SCAN: mode=0; time=+2m29s391ms ago
+      READ_SMS: mode=0; time=+2m11s271ms ago
+      WAKE_LOCK: mode=0; time=+9s612ms ago; duration=+276ms
+      OP_READ_PHONE_STATE: mode=0; time=+2m34s619ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+9s639ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1m2s312ms ago
+      GET_ACCOUNTS: mode=0; time=+6s864ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+6s889ms ago
+    Package com.google.android.gsf:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m38s566ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m38s566ms ago
+      GET_ACCOUNTS: mode=0; time=+2m38s113ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+25s820ms ago
+  Uid u0a14:
+    Package com.google.android.dialer:
+      READ_CALL_LOG: mode=0; time=+2m23s48ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m8s584ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m8s584ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+1m9s300ms ago
+  Uid u0a15:
+    Package com.google.android.ext.services:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m38s940ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m38s940ms ago
+  Uid u0a17:
+    Package com.google.android.onetimeinitializer:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m21s129ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m21s129ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+2m20s801ms ago
+  Uid u0a19:
+    Package com.google.android.partnersetup:
+      READ_EXTERNAL_STORAGE: mode=0; time=+17s648ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+17s647ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+1m35s325ms ago
+  Uid u0a20:
+    Package com.google.android.sdksetup:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m37s970ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m37s970ms ago
+  Uid u0a21:
+    Package com.android.managedprovisioning:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m31s963ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m31s963ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+2m23s20ms ago
+  Uid u0a22:
+    Package com.google.android.apps.nexuslauncher:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m37s181ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m37s181ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+52s535ms ago
+  Uid u0a24:
+    Package com.google.android.setupwizard:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m38s745ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m38s745ms ago
+  Uid u0a28:
+    Package com.android.systemui:
+      POST_NOTIFICATION: mode=0; time=+9s869ms ago
+      AUDIO_RING_VOLUME: mode=0; time=+7s465ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+10s409ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+9s914ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+2m41s190ms ago
+  Uid u0a29:
+    Package com.google.android.googlequicksearchbox:
+      COARSE_LOCATION: mode=0; time=+9s182ms ago
+      FINE_LOCATION: mode=0; time=+9s183ms ago
+      GPS: mode=0; time=+18s936ms ago; duration=+3s214ms
+      READ_CONTACTS: mode=0; time=+8s850ms ago
+      WIFI_SCAN: mode=0; time=+9s183ms ago
+      POST_NOTIFICATION: mode=0; time=+22s163ms ago
+      RECORD_AUDIO: mode=0; time=+9s230ms ago
+      MONITOR_LOCATION: mode=0; time=+5s447ms ago; duration=+3s793ms
+      MONITOR_HIGH_POWER_LOCATION: mode=0; time=+5s446ms ago; duration=+3s767ms
+      TOAST_WINDOW: mode=0; time=+18s99ms ago; duration=+3s966ms
+      ASSIST_STRUCTURE: mode=0; time=+8s843ms ago
+      ASSIST_SCREENSHOT: mode=0; time=+8s843ms ago
+      OP_READ_PHONE_STATE: mode=0; time=+22s431ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m0s49ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m0s49ms ago
+      GET_ACCOUNTS: mode=0; time=+2m35s214ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+1m50s184ms ago
+  Uid u0a34:
+    Package com.google.android.calendar:
+      READ_CALENDAR: mode=0; time=+2m14s97ms ago
+      WRITE_CALENDAR: mode=0; time=+1m44s57ms ago
+      WAKE_LOCK: mode=0; time=+2m14s94ms ago; duration=+11s362ms
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m26s129ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m26s129ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+2m14s101ms ago
+  Uid u0a37:
+    Package com.android.chrome:
+      READ_EXTERNAL_STORAGE: mode=0; time=+53s299ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+53s299ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+53s132ms ago
+  Uid u0a41:
+    Package com.google.android.apps.docs:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1m55s653ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1m55s653ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+37s64ms ago
+  Uid u0a46:
+    Package com.android.gallery3d:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m8s377ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m8s377ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+2m8s332ms ago
+  Uid u0a47:
+    Package com.google.android.syncadapters.contacts:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m31s458ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m31s458ms ago
+      GET_ACCOUNTS: mode=0; time=+2m31s111ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+2m20s675ms ago
+  Uid u0a52:
+    Package com.google.android.talk:
+      WAKE_LOCK: mode=0; time=+18s562ms ago; duration=+5ms
+      READ_EXTERNAL_STORAGE: mode=0; time=+1m57s577ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1m57s577ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+15s701ms ago
+  Uid u0a53:
+    Package com.android.inputmethod.latin:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m41s232ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m41s232ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+15s268ms ago
+  Uid u0a57:
+    Package com.google.android.apps.maps:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m9s446ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m9s446ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+1m45s30ms ago
+  Uid u0a58:
+    Package com.google.android.music:
+      WAKE_LOCK: mode=0; time=+10s960ms ago; duration=+6ms
+      READ_EXTERNAL_STORAGE: mode=0; time=+52s913ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+52s913ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+7s456ms ago
+  Uid u0a65:
+    Package com.google.android.apps.photos:
+      WAKE_LOCK: mode=0; time=+1m48s883ms ago; duration=+129ms
+      READ_EXTERNAL_STORAGE: mode=0; time=+1m49s54ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1m49s54ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+49s15ms ago
+  Uid u0a66:
+    Package com.google.android.apps.messaging:
+      READ_CONTACTS: mode=0; time=+25s808ms ago
+      READ_SMS: mode=0; time=+2m21s794ms ago
+      WRITE_SMS: mode=0
+      WAKE_LOCK: mode=0; time=+26s491ms ago; duration=+463ms
+      OP_READ_PHONE_STATE: mode=0; time=+25s750ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+27s528ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+27s528ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+26s937ms ago
+  Uid u0a67:
+    Package com.google.android.deskclock:
+      WAKE_LOCK: mode=0; time=+2m21s423ms ago; duration=+48ms
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m21s606ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m21s606ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+2m21s613ms ago
+  Uid u0a68:
+    Package com.google.android.gm:
+      READ_CONTACTS: mode=0; time=+2m13s595ms ago
+      WRITE_CONTACTS: mode=0; time=+2m13s595ms ago
+      READ_CALENDAR: mode=0; time=+2m13s546ms ago
+      WRITE_CALENDAR: mode=0; time=+2m13s594ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m20s303ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m20s303ms ago
+      GET_ACCOUNTS: mode=0; time=+2m13s440ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+2m7s410ms ago
+  Uid u0a69:
+    Package com.android.printspooler:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m37s828ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m37s828ms ago
+  Uid u0a71:
+    Package com.google.android.videos:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m11s851ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m11s851ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+2m4s121ms ago
+  Uid u0a72:
+    Package com.google.android.apps.wallpaper:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1m15s214ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1m15s214ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+15s202ms ago
+  Uid u0a76:
+    Package com.google.android.youtube:
+      READ_EXTERNAL_STORAGE: mode=0; time=+2m11s109ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+2m11s109ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+2m4s121ms ago
+  Uid u0a84:
+    Package com.esoxjem.movieguide:
+      READ_EXTERNAL_STORAGE: mode=0; time=+30s200ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+30s200ms ago
+--------- 0.002s was the duration of dumpsys appops

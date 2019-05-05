@@ -1,0 +1,398 @@
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+     100      100        3       96        4        0        0        0    2 /data/dalvik-cache/x86/system@framework@boot-apache-xml.art
+     228      228       10      220        4        0        4        0    2 /data/dalvik-cache/x86/system@framework@boot-bouncycastle.art
+     172      172       33      128       16        0       28        0    2 /data/dalvik-cache/x86/system@framework@boot-conscrypt.art
+      12       12        0        8        4        0        0        0    2 /data/dalvik-cache/x86/system@framework@boot-core-junit.art
+    1140     1140      137      888      148        0      104        0    2 /data/dalvik-cache/x86/system@framework@boot-core-libart.art
+     224      224        6      208       16        0        0        0    2 /data/dalvik-cache/x86/system@framework@boot-ext.art
+    5896     5816      777     4508      704        0      604        0    2 /data/dalvik-cache/x86/system@framework@boot-framework.art
+      48       48        1       44        4        0        0        0    2 /data/dalvik-cache/x86/system@framework@boot-ims-common.art
+     172      168        5      148       20        0        0        0    2 /data/dalvik-cache/x86/system@framework@boot-okhttp.art
+     132      132        4      124        8        0        0        0    2 /data/dalvik-cache/x86/system@framework@boot-org.apache.http.legacy.boot.art
+     512      512       16      508        4        0        0        0    2 /data/dalvik-cache/x86/system@framework@boot-telephony-common.art
+      28       28        0       24        4        0        0        0    2 /data/dalvik-cache/x86/system@framework@boot-voip-common.art
+    2076     2072      429     1488      208        0      376        0    2 /data/dalvik-cache/x86/system@framework@boot.art
+      96       96       96        0        0       92        4        0    4 /data/data/com.google.android.gms/app_dg_cache/536493AA46A024FF684C24C3108C9EAC5EE6FD8E/opt/the.dex
+     212      208      208        0        0      200        8        0    3 /data/data/com.google.android.gms/app_dg_cache/536493AA46A024FF684C24C3108C9EAC5EE6FD8E/the.apk
+     240       72       22       72        0        0        0        0    1 /data/user_de/0/com.google.android.gms/app_chimera/current_config.fb
+     256        4        0        0        4        0        0        0    2 /dev/__properties__/properties_serial
+     128        0        0        0        0        0        0        0    1 /dev/__properties__/u:object_r:config_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:dalvik_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:debug_prop:s0
+     128       24        1        0       24        0        0        0    1 /dev/__properties__/u:object_r:default_prop:s0
+     128        0        0        0        0        0        0        0    1 /dev/__properties__/u:object_r:fingerprint_prop:s0
+     128        0        0        0        0        0        0        0    1 /dev/__properties__/u:object_r:log_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:log_tag_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:logd_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:qemu_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:radio_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:system_prop:s0
+     128        0        0        0        0        0        0        0    1 /dev/__properties__/u:object_r:vold_prop:s0
+       4        0        0        0        0        0        0        0    1 /dev/ashmem/cfc29049-272a-4d70-af67-6a6fbf4c2829 (deleted)
+     128        0        0        0        0        0        0        0    1 /dev/ashmem/dalvik-CompilerMetadata (deleted)
+    1028        8        8        0        0        0        8        0    3 /dev/ashmem/dalvik-Jit thread pool worker thread 0 (deleted)
+     768      452      401        0       52        0      400        0    6 /dev/ashmem/dalvik-LinearAlloc (deleted)
+    8196        0        0        0        0        0        0        0    1 /dev/ashmem/dalvik-allocation stack (deleted)
+    6144        0        0        0        0        0        0        0    1 /dev/ashmem/dalvik-allocspace main rosalloc space 1 live-bitmap 2 (deleted)
+    6144        0        0        0        0        0        0        0    1 /dev/ashmem/dalvik-allocspace main rosalloc space 1 mark-bitmap 2 (deleted)
+    6144       16       16        0        0        0       16        0    1 /dev/ashmem/dalvik-allocspace main rosalloc space live-bitmap 3 (deleted)
+    6144        0        0        0        0        0        0        0    1 /dev/ashmem/dalvik-allocspace main rosalloc space mark-bitmap 3 (deleted)
+    1008        0        0        0        0        0        0        0    1 /dev/ashmem/dalvik-allocspace non moving space live-bitmap 4 (deleted)
+    1008        4        4        0        0        0        4        0    1 /dev/ashmem/dalvik-allocspace non moving space mark-bitmap 4 (deleted)
+    1024       20       20        0        0        0       20        0    1 /dev/ashmem/dalvik-allocspace zygote / non moving space live-bitmap 0 (deleted)
+    1024        0        0        0        0        0        0        0    1 /dev/ashmem/dalvik-allocspace zygote / non moving space mark-bitmap 0 (deleted)
+   32772       36       36        0        0        0       36        0    1 /dev/ashmem/dalvik-card table (deleted)
+   32768       12       12        0        0        0       12        0    1 /dev/ashmem/dalvik-data-code-cache (deleted)
+    1744       76       72        0        4        0       72        0   20 /dev/ashmem/dalvik-indirect ref table (deleted)
+   32768        8        8        0        0        0        8        0    1 /dev/ashmem/dalvik-jit-code-cache (deleted)
+     128        0        0        0        0        0        0        0    1 /dev/ashmem/dalvik-large live objects (deleted)
+     128        4        4        0        0        0        4        0    1 /dev/ashmem/dalvik-large marked objects (deleted)
+    4012     3996      101        0     3964        0       32        0   95 /dev/ashmem/dalvik-large object space allocation (deleted)
+    8196       24       24        0        0        0       24        0    1 /dev/ashmem/dalvik-live stack (deleted)
+  393216      980      980        0        0        0      980        0    2 /dev/ashmem/dalvik-main space (deleted)
+  393216        0        0        0        0        0        0        0    1 /dev/ashmem/dalvik-main space 1 (deleted)
+     256        0        0        0        0        0        0        0    1 /dev/ashmem/dalvik-mark stack (deleted)
+      12        0        0        0        0        0        0        0    3 /dev/ashmem/dalvik-mark sweep sweep array free buffer (deleted)
+       4        4        4        0        0        0        4        0    1 /dev/ashmem/dalvik-mod union bitmap (deleted)
+   64480       16       16        0        0        0       16        0    4 /dev/ashmem/dalvik-non moving space (deleted)
+     192        4        4        0        0        0        4        0    2 /dev/ashmem/dalvik-rosalloc page map (deleted)
+    1056     1056      282        0      800        0      256        0    1 /dev/ashmem/dalvik-zygote space (deleted)
+    1016        4        4        0        0        4        0        0    1 /dev/binder
+      20       20        2       16        4        0        0        0    2 /system/bin/app_process32
+     832      232        8      216       12        0        4        0    3 /system/bin/linker
+      20       20        0        0       20        0        0        0    1 /system/etc/event-log-tags
+      40        0        0        0        0        0        0        0    1 /system/fonts/CarroisGothicSC-Regular.ttf
+      60        0        0        0        0        0        0        0    1 /system/fonts/ComingSoon.ttf
+      68        0        0        0        0        0        0        0    1 /system/fonts/CutiveMono.ttf
+     116        0        0        0        0        0        0        0    1 /system/fonts/DancingScript-Bold.ttf
+     116        0        0        0        0        0        0        0    1 /system/fonts/DancingScript-Regular.ttf
+     108        0        0        0        0        0        0        0    1 /system/fonts/DroidSansMono.ttf
+    5780        0        0        0        0        0        0        0    1 /system/fonts/NotoColorEmoji.ttf
+     116        0        0        0        0        0        0        0    1 /system/fonts/NotoNaskhArabic-Bold.ttf
+     116        0        0        0        0        0        0        0    1 /system/fonts/NotoNaskhArabic-Regular.ttf
+     116        0        0        0        0        0        0        0    1 /system/fonts/NotoNaskhArabicUI-Bold.ttf
+     116        0        0        0        0        0        0        0    1 /system/fonts/NotoNaskhArabicUI-Regular.ttf
+      16        0        0        0        0        0        0        0    1 /system/fonts/NotoSansArmenian-Bold.ttf
+      16        0        0        0        0        0        0        0    1 /system/fonts/NotoSansArmenian-Regular.ttf
+      32        0        0        0        0        0        0        0    1 /system/fonts/NotoSansBalinese-Regular.ttf
+     132        0        0        0        0        0        0        0    1 /system/fonts/NotoSansBamum-Regular.ttf
+      16        0        0        0        0        0        0        0    1 /system/fonts/NotoSansBatak-Regular.ttf
+     100        0        0        0        0        0        0        0    1 /system/fonts/NotoSansBengali-Bold.ttf
+     100        0        0        0        0        0        0        0    1 /system/fonts/NotoSansBengali-Regular.ttf
+     104        0        0        0        0        0        0        0    1 /system/fonts/NotoSansBengaliUI-Bold.ttf
+     108        0        0        0        0        0        0        0    1 /system/fonts/NotoSansBengaliUI-Regular.ttf
+       8        0        0        0        0        0        0        0    1 /system/fonts/NotoSansBuginese-Regular.ttf
+       8        0        0        0        0        0        0        0    1 /system/fonts/NotoSansBuhid-Regular.ttf
+   18240        0        0        0        0        0        0        0    1 /system/fonts/NotoSansCJK-Regular.ttc
+      48        0        0        0        0        0        0        0    1 /system/fonts/NotoSansCanadianAboriginal-Regular.ttf
+      24        0        0        0        0        0        0        0    1 /system/fonts/NotoSansCham-Bold.ttf
+      24        0        0        0        0        0        0        0    1 /system/fonts/NotoSansCham-Regular.ttf
+      36        0        0        0        0        0        0        0    1 /system/fonts/NotoSansCherokee-Regular.ttf
+      24        0        0        0        0        0        0        0    1 /system/fonts/NotoSansCoptic-Regular.ttf
+     132        0        0        0        0        0        0        0    1 /system/fonts/NotoSansDevanagari-Bold.ttf
+     136        0        0        0        0        0        0        0    1 /system/fonts/NotoSansDevanagari-Regular.ttf
+     120        0        0        0        0        0        0        0    1 /system/fonts/NotoSansDevanagariUI-Bold.ttf
+     124        0        0        0        0        0        0        0    1 /system/fonts/NotoSansDevanagariUI-Regular.ttf
+     144        0        0        0        0        0        0        0    1 /system/fonts/NotoSansEthiopic-Bold.ttf
+     140        0        0        0        0        0        0        0    1 /system/fonts/NotoSansEthiopic-Regular.ttf
+      20        0        0        0        0        0        0        0    1 /system/fonts/NotoSansGeorgian-Bold.ttf
+      20        0        0        0        0        0        0        0    1 /system/fonts/NotoSansGeorgian-Regular.ttf
+      16        0        0        0        0        0        0        0    1 /system/fonts/NotoSansGlagolitic-Regular.ttf
+     116        0        0        0        0        0        0        0    1 /system/fonts/NotoSansGujarati-Bold.ttf
+     120        0        0        0        0        0        0        0    1 /system/fonts/NotoSansGujarati-Regular.ttf
+     112        0        0        0        0        0        0        0    1 /system/fonts/NotoSansGujaratiUI-Bold.ttf
+     116        0        0        0        0        0        0        0    1 /system/fonts/NotoSansGujaratiUI-Regular.ttf
+      32        0        0        0        0        0        0        0    1 /system/fonts/NotoSansGurmukhi-Bold.ttf
+      32        0        0        0        0        0        0        0    1 /system/fonts/NotoSansGurmukhi-Regular.ttf
+      32        0        0        0        0        0        0        0    1 /system/fonts/NotoSansGurmukhiUI-Bold.ttf
+      32        0        0        0        0        0        0        0    1 /system/fonts/NotoSansGurmukhiUI-Regular.ttf
+       8        0        0        0        0        0        0        0    1 /system/fonts/NotoSansHanunoo-Regular.ttf
+      20        0        0        0        0        0        0        0    1 /system/fonts/NotoSansHebrew-Bold.ttf
+      20        0        0        0        0        0        0        0    1 /system/fonts/NotoSansHebrew-Regular.ttf
+      40        0        0        0        0        0        0        0    1 /system/fonts/NotoSansJavanese-Regular.ttf
+      80        0        0        0        0        0        0        0    1 /system/fonts/NotoSansKannada-Bold.ttf
+      84        0        0        0        0        0        0        0    1 /system/fonts/NotoSansKannada-Regular.ttf
+      80        0        0        0        0        0        0        0    1 /system/fonts/NotoSansKannadaUI-Bold.ttf
+      80        0        0        0        0        0        0        0    1 /system/fonts/NotoSansKannadaUI-Regular.ttf
+       8        0        0        0        0        0        0        0    1 /system/fonts/NotoSansKayahLi-Regular.ttf
+      36        0        0        0        0        0        0        0    1 /system/fonts/NotoSansKhmer-Bold.ttf
+      36        0        0        0        0        0        0        0    1 /system/fonts/NotoSansKhmer-Regular.ttf
+      36        0        0        0        0        0        0        0    1 /system/fonts/NotoSansKhmerUI-Bold.ttf
+      40        0        0        0        0        0        0        0    1 /system/fonts/NotoSansKhmerUI-Regular.ttf
+      32        0        0        0        0        0        0        0    1 /system/fonts/NotoSansLao-Bold.ttf
+      32        0        0        0        0        0        0        0    1 /system/fonts/NotoSansLao-Regular.ttf
+      32        0        0        0        0        0        0        0    1 /system/fonts/NotoSansLaoUI-Bold.ttf
+      32        0        0        0        0        0        0        0    1 /system/fonts/NotoSansLaoUI-Regular.ttf
+     100        0        0        0        0        0        0        0    1 /system/fonts/NotoSansLepcha-Regular.ttf
+      12        0        0        0        0        0        0        0    1 /system/fonts/NotoSansLimbu-Regular.ttf
+       8        0        0        0        0        0        0        0    1 /system/fonts/NotoSansLisu-Regular.ttf
+      56        0        0        0        0        0        0        0    1 /system/fonts/NotoSansMalayalam-Bold.ttf
+      56        0        0        0        0        0        0        0    1 /system/fonts/NotoSansMalayalam-Regular.ttf
+      56        0        0        0        0        0        0        0    1 /system/fonts/NotoSansMalayalamUI-Bold.ttf
+      56        0        0        0        0        0        0        0    1 /system/fonts/NotoSansMalayalamUI-Regular.ttf
+      16        0        0        0        0        0        0        0    1 /system/fonts/NotoSansMandaic-Regular.ttf
+      16        0        0        0        0        0        0        0    1 /system/fonts/NotoSansMeeteiMayek-Regular.ttf
+     112        0        0        0        0        0        0        0    1 /system/fonts/NotoSansMongolian-Regular.ttf
+     108        0        0        0        0        0        0        0    1 /system/fonts/NotoSansMyanmar-Bold.ttf
+     108        0        0        0        0        0        0        0    1 /system/fonts/NotoSansMyanmar-Regular.ttf
+     104        0        0        0        0        0        0        0    1 /system/fonts/NotoSansMyanmarUI-Bold.ttf
+     104        0        0        0        0        0        0        0    1 /system/fonts/NotoSansMyanmarUI-Regular.ttf
+      20        0        0        0        0        0        0        0    1 /system/fonts/NotoSansNKo-Regular.ttf
+      16        0        0        0        0        0        0        0    1 /system/fonts/NotoSansNewTaiLue-Regular.ttf
+       8        0        0        0        0        0        0        0    1 /system/fonts/NotoSansOlChiki-Regular.ttf
+      84        0        0        0        0        0        0        0    1 /system/fonts/NotoSansOriya-Bold.ttf
+      84        0        0        0        0        0        0        0    1 /system/fonts/NotoSansOriya-Regular.ttf
+      80        0        0        0        0        0        0        0    1 /system/fonts/NotoSansOriyaUI-Bold.ttf
+      80        0        0        0        0        0        0        0    1 /system/fonts/NotoSansOriyaUI-Regular.ttf
+       8        0        0        0        0        0        0        0    1 /system/fonts/NotoSansRejang-Regular.ttf
+      20        0        0        0        0        0        0        0    1 /system/fonts/NotoSansSaurashtra-Regular.ttf
+     152        0        0        0        0        0        0        0    1 /system/fonts/NotoSansSinhala-Bold.ttf
+     160        0        0        0        0        0        0        0    1 /system/fonts/NotoSansSinhala-Regular.ttf
+      12        0        0        0        0        0        0        0    1 /system/fonts/NotoSansSundanese-Regular.ttf
+      16        0        0        0        0        0        0        0    1 /system/fonts/NotoSansSylotiNagri-Regular.ttf
+     284        0        0        0        0        0        0        0    1 /system/fonts/NotoSansSymbols-Regular-Subsetted.ttf
+      16        0        0        0        0        0        0        0    1 /system/fonts/NotoSansSymbols-Regular-Subsetted2.ttf
+      48        0        0        0        0        0        0        0    1 /system/fonts/NotoSansSyriacEstrangela-Regular.ttf
+       8        0        0        0        0        0        0        0    1 /system/fonts/NotoSansTagbanwa-Regular.ttf
+      12        0        0        0        0        0        0        0    1 /system/fonts/NotoSansTaiLe-Regular.ttf
+      48        0        0        0        0        0        0        0    1 /system/fonts/NotoSansTaiTham-Regular.ttf
+      16        0        0        0        0        0        0        0    1 /system/fonts/NotoSansTaiViet-Regular.ttf
+      36        0        0        0        0        0        0        0    1 /system/fonts/NotoSansTamil-Bold.ttf
+      36        0        0        0        0        0        0        0    1 /system/fonts/NotoSansTamil-Regular.ttf
+      36        0        0        0        0        0        0        0    1 /system/fonts/NotoSansTamilUI-Bold.ttf
+      36        0        0        0        0        0        0        0    1 /system/fonts/NotoSansTamilUI-Regular.ttf
+     108        0        0        0        0        0        0        0    1 /system/fonts/NotoSansTelugu-Bold.ttf
+     112        0        0        0        0        0        0        0    1 /system/fonts/NotoSansTelugu-Regular.ttf
+     112        0        0        0        0        0        0        0    1 /system/fonts/NotoSansTeluguUI-Bold.ttf
+     112        0        0        0        0        0        0        0    1 /system/fonts/NotoSansTeluguUI-Regular.ttf
+      16        0        0        0        0        0        0        0    1 /system/fonts/NotoSansThaana-Bold.ttf
+      16        0        0        0        0        0        0        0    1 /system/fonts/NotoSansThaana-Regular.ttf
+      20        0        0        0        0        0        0        0    1 /system/fonts/NotoSansThai-Bold.ttf
+      24        0        0        0        0        0        0        0    1 /system/fonts/NotoSansThai-Regular.ttf
+      20        0        0        0        0        0        0        0    1 /system/fonts/NotoSansThaiUI-Bold.ttf
+      24        0        0        0        0        0        0        0    1 /system/fonts/NotoSansThaiUI-Regular.ttf
+     368        0        0        0        0        0        0        0    1 /system/fonts/NotoSansTibetan-Bold.ttf
+     396        0        0        0        0        0        0        0    1 /system/fonts/NotoSansTibetan-Regular.ttf
+      16        0        0        0        0        0        0        0    1 /system/fonts/NotoSansTifinagh-Regular.ttf
+      64        0        0        0        0        0        0        0    1 /system/fonts/NotoSansVai-Regular.ttf
+     124        0        0        0        0        0        0        0    1 /system/fonts/NotoSansYi-Regular.ttf
+     244        0        0        0        0        0        0        0    1 /system/fonts/NotoSerif-Bold.ttf
+     260        0        0        0        0        0        0        0    1 /system/fonts/NotoSerif-BoldItalic.ttf
+     244        0        0        0        0        0        0        0    1 /system/fonts/NotoSerif-Italic.ttf
+     244        0        0        0        0        0        0        0    1 /system/fonts/NotoSerif-Regular.ttf
+     300        0        0        0        0        0        0        0    1 /system/fonts/Roboto-Black.ttf
+     324        0        0        0        0        0        0        0    1 /system/fonts/Roboto-BlackItalic.ttf
+     300        0        0        0        0        0        0        0    1 /system/fonts/Roboto-Bold.ttf
+     324        0        0        0        0        0        0        0    1 /system/fonts/Roboto-BoldItalic.ttf
+     324        0        0        0        0        0        0        0    1 /system/fonts/Roboto-Italic.ttf
+     304        0        0        0        0        0        0        0    1 /system/fonts/Roboto-Light.ttf
+     328        0        0        0        0        0        0        0    1 /system/fonts/Roboto-LightItalic.ttf
+     300        0        0        0        0        0        0        0    1 /system/fonts/Roboto-Medium.ttf
+     324        0        0        0        0        0        0        0    1 /system/fonts/Roboto-MediumItalic.ttf
+     300        0        0        0        0        0        0        0    1 /system/fonts/Roboto-Regular.ttf
+     300        0        0        0        0        0        0        0    1 /system/fonts/Roboto-Thin.ttf
+     320        0        0        0        0        0        0        0    1 /system/fonts/Roboto-ThinItalic.ttf
+     296        0        0        0        0        0        0        0    1 /system/fonts/RobotoCondensed-Bold.ttf
+     324        0        0        0        0        0        0        0    1 /system/fonts/RobotoCondensed-BoldItalic.ttf
+     324        0        0        0        0        0        0        0    1 /system/fonts/RobotoCondensed-Italic.ttf
+     300        0        0        0        0        0        0        0    1 /system/fonts/RobotoCondensed-Light.ttf
+     328        0        0        0        0        0        0        0    1 /system/fonts/RobotoCondensed-LightItalic.ttf
+     300        0        0        0        0        0        0        0    1 /system/fonts/RobotoCondensed-Regular.ttf
+       4        0        0        0        0        0        0        0    1 /system/framework/apache-xml.jar
+       4        0        0        0        0        0        0        0    1 /system/framework/bouncycastle.jar
+       4        4        4        0        0        4        0        0    1 /system/framework/com.android.location.provider.jar
+       4        4        4        0        0        4        0        0    1 /system/framework/com.android.media.remotedisplay.jar
+       4        0        0        0        0        0        0        0    1 /system/framework/conscrypt.jar
+       4        0        0        0        0        0        0        0    1 /system/framework/core-junit.jar
+       8        0        0        0        0        0        0        0    1 /system/framework/core-libart.jar
+       4        0        0        0        0        0        0        0    1 /system/framework/core-oj.jar
+     108        0        0        0        0        0        0        0    1 /system/framework/ext.jar
+    9968     3520      110     3520        0        0        0        0    2 /system/framework/framework-res.apk
+       4        0        0        0        0        0        0        0    1 /system/framework/framework.jar
+       4        0        0        0        0        0        0        0    1 /system/framework/ims-common.jar
+      76       36        6       32        0        0        4        0    4 /system/framework/oat/x86/com.android.location.provider.odex
+      36       28        6       24        0        0        4        0    4 /system/framework/oat/x86/com.android.media.remotedisplay.odex
+       4        0        0        0        0        0        0        0    1 /system/framework/okhttp.jar
+       4        0        0        0        0        0        0        0    1 /system/framework/org.apache.http.legacy.boot.jar
+       4        0        0        0        0        0        0        0    1 /system/framework/telephony-common.jar
+       4        0        0        0        0        0        0        0    1 /system/framework/voip-common.jar
+    1500       56        2       52        4        0        0        0    4 /system/framework/x86/boot-apache-xml.oat
+    1724      148        7      144        4        0        0        0    4 /system/framework/x86/boot-bouncycastle.oat
+     752      284       37      280        4        0        0        0    4 /system/framework/x86/boot-conscrypt.oat
+      56       20        0       16        4        0        0        0    4 /system/framework/x86/boot-core-junit.oat
+    7616     1648       90     1640        4        4        0        0    4 /system/framework/x86/boot-core-libart.oat
+    1392       72        2       68        4        0        0        0    4 /system/framework/x86/boot-ext.oat
+   37548     6696      453     6648        4       44        0        0    4 /system/framework/x86/boot-framework.oat
+     280       24        0       20        4        0        0        0    4 /system/framework/x86/boot-ims-common.oat
+     920       56        1       52        4        0        0        0    4 /system/framework/x86/boot-okhttp.oat
+    1112       64        2       60        4        0        0        0    4 /system/framework/x86/boot-org.apache.http.legacy.boot.oat
+    4796       48        1       44        4        0        0        0    4 /system/framework/x86/boot-telephony-common.oat
+     260       20        0       16        4        0        0        0    4 /system/framework/x86/boot-voip-common.oat
+    9076     3640      353     3612        4       24        0        0    4 /system/framework/x86/boot.oat
+     180      128       15      120        4        0        4        0    4 /system/lib/egl/libEGL_emulation.so
+      84       32        5       24        4        0        4        0    4 /system/lib/egl/libGLESv1_CM_emulation.so
+     112       64        8       52        8        0        4        0    3 /system/lib/egl/libGLESv2_emulation.so
+     140       60        7       48        8        0        4        0    4 /system/lib/libEGL.so
+      20       12        0        4        8        0        0        0    3 /system/lib/libETC1.so
+      40       28        1       20        8        0        0        0    3 /system/lib/libGLESv1_CM.so
+     288       16        0        8        8        0        0        0    3 /system/lib/libGLESv1_enc.so
+      80       24        0       16        8        0        0        0    3 /system/lib/libGLESv2.so
+     488      124       19      112        4        4        4        0    4 /system/lib/libGLESv2_enc.so
+      80       16        0        8        8        0        0        0    3 /system/lib/libGLESv3.so
+   23212      864       26        8      856        0        0        0    3 /system/lib/libLLVM.so
+      16       12        0        4        8        0        0        0    3 /system/lib/libOpenMAXAL.so
+      16       12        0        4        8        0        0        0    3 /system/lib/libOpenSLES.so
+      36       32        6       24        4        0        4        0    3 /system/lib/libOpenglSystemCommon.so
+      52       16        0        8        8        0        0        0    3 /system/lib/libRS.so
+     348       20        0        8       12        0        0        0    4 /system/lib/libRS_internal.so
+     300       16        0        8        8        0        0        0    3 /system/lib/libRScpp.so
+      48       32        2       24        8        0        0        0    3 /system/lib/lib_renderControl_enc.so
+     116       20        0        8       12        0        0        0    4 /system/lib/libandroid.so
+    1704      372       47      284       64       20        4        0    4 /system/lib/libandroid_runtime.so
+     292      168        9      156        8        0        4        0    3 /system/lib/libandroidfw.so
+    4804      296       14      244       52        0        0        0    3 /system/lib/libart-compiler.so
+    7372     3216      152     3176       32        0        8        0    3 /system/lib/libart.so
+      40       12        0        4        8        0        0        0    3 /system/lib/libaudioutils.so
+      76       60        5       52        4        0        4        0    3 /system/lib/libbacktrace.so
+      52       12        0        4        8        0        0        0    3 /system/lib/libbase.so
+     372       16        0        8        8        0        0        0    4 /system/lib/libbcinfo.so
+      24       12        0        4        8        0        0        0    3 /system/lib/libbinary_parse.so
+     528      188        8      148       36        0        4        0    4 /system/lib/libbinder.so
+     964      128        9      108       16        0        4        0    4 /system/lib/libc++.so
+     876      548       15      528       16        0        4        0    4 /system/lib/libc.so
+     128       16        0        4       12        0        0        0    3 /system/lib/libcamera2ndk.so
+     360       48        1        8       40        0        0        0    3 /system/lib/libcamera_client.so
+      36       12        0        4        8        0        0        0    3 /system/lib/libcamera_metadata.so
+     136       16        0        8        8        0        0        0    3 /system/lib/libcompiler_rt.so
+    1104      384       61      336       44        0        4        0    3 /system/lib/libcrypto.so
+     128       88        5       80        4        0        4        0    4 /system/lib/libcutils.so
+     876       28        0        8       20        0        0        0    3 /system/lib/libdng_sdk.so
+     160       28        0        8       20        0        0        0    3 /system/lib/libdrmframework.so
+     204       56        1        4       52        0        0        0    4 /system/lib/libexif.so
+     156       16        0        4       12        0        0        0    3 /system/lib/libexpat.so
+     496       20        0        8       12        0        0        0    4 /system/lib/libft2.so
+     600       64        1        8       56        0        0        0    3 /system/lib/libgui.so
+      16       12        0        4        8        0        0        0    4 /system/lib/libhardware.so
+      32       12        0        4        8        0        0        0    3 /system/lib/libhardware_legacy.so
+     384       16        0        8        8        0        0        0    4 /system/lib/libharfbuzz_ng.so
+     852       28        0        8       20        0        0        0    3 /system/lib/libhwui.so
+    2392      296       16      248       44        0        4        0    3 /system/lib/libicui18n.so
+    1572      464       19      416       48        0        0        0    3 /system/lib/libicuuc.so
+      40       12        0        4        8        0        0        0    3 /system/lib/libimage_type_recognition.so
+      84       16        0        4       12        0        0        0    3 /system/lib/libimg_utils.so
+     188       28        0        8       20        0        0        0    3 /system/lib/libinput.so
+     404       24        0        8       16        0        0        0    3 /system/lib/libinputflinger.so
+     236      116        4      108        8        0        0        0    3 /system/lib/libjavacore.so
+     156       64        7       56        8        0        0        0    4 /system/lib/libjavacrypto.so
+      12       12        0        4        8        0        0        0    3 /system/lib/libjnigraphics.so
+     388       16        0        8        8        0        0        0    3 /system/lib/libjpeg.so
+     204       20        0        8       12        0        0        0    3 /system/lib/libkeymaster1.so
+      72       16        0        8        8        0        0        0    4 /system/lib/libkeymaster_messages.so
+      16       12        0        4        8        0        0        0    3 /system/lib/libkeystore-engine.so
+     128       20        0        8       12        0        0        0    4 /system/lib/libkeystore_binder.so
+      68       24        0       16        8        0        0        0    3 /system/lib/liblog.so
+      68       12        0        4        8        0        0        0    3 /system/lib/liblz4.so
+     168       16        0        8        8        0        0        0    3 /system/lib/liblzma.so
+     220       24        0       16        8        0        0        0    3 /system/lib/libm.so
+    1308      180       17       36      136        8        0        0    4 /system/lib/libmedia.so
+     512       72       26       36       20       16        0        0    4 /system/lib/libmedia_jni.so
+      88       20        0        8       12        0        0        0    4 /system/lib/libmediadrm.so
+      96       16        0        8        8        0        0        0    4 /system/lib/libmediandk.so
+      48       12        0        4        8        0        0        0    4 /system/lib/libmediautils.so
+      16       12        0        4        8        0        0        0    3 /system/lib/libmemtrack.so
+     148       16        0        8        8        0        0        0    3 /system/lib/libmemunreachable.so
+     132       20        0        8       12        0        0        0    4 /system/lib/libminikin.so
+     136       20        0        8       12        0        0        0    3 /system/lib/libmtp.so
+      20       16        0        8        8        0        0        0    3 /system/lib/libnativebridge.so
+      36       32        4       24        4        0        4        0    3 /system/lib/libnativehelper.so
+      44       40        5       32        4        0        4        0    3 /system/lib/libnativeloader.so
+      48       12        0        4        8        0        0        0    3 /system/lib/libnbaio.so
+      16       16        0        8        8        0        0        0    3 /system/lib/libnetd_client.so
+      32       12        0        4        8        0        0        0    3 /system/lib/libnetutils.so
+     248      120       10      112        4        0        4        0    4 /system/lib/libopenjdk.so
+      40       20        0       12        8        0        0        0    3 /system/lib/libopenjdkjvm.so
+     316       16        0        8        8        0        0        0    4 /system/lib/libopus.so
+      16       12        0        4        8        0        0        0    3 /system/lib/libpackagelistparser.so
+     128       12        0        4        8        0        0        0    3 /system/lib/libpcre.so
+    5316       72        1        8       64        0        0        0    4 /system/lib/libpdfium.so
+      52       12        0        4        8        0        0        0    3 /system/lib/libpiex.so
+     228       16        0        8        8        0        0        0    4 /system/lib/libpng.so
+      28       12        0        4        8        0        0        0    4 /system/lib/libpowermanager.so
+      16       16        0        8        8        0        0        0    3 /system/lib/libprocessgroup.so
+     148       16        0        8        8        0        0        0    3 /system/lib/libprotobuf-cpp-lite.so
+      88       24        0        8       16        0        0        0    3 /system/lib/libradio.so
+      16       12        0        4        8        0        0        0    3 /system/lib/libradio_metadata.so
+      96       56        5       48        4        0        4        0    4 /system/lib/libselinux.so
+      12       12        0        4        8        0        0        0    3 /system/lib/libsigchain.so
+    6720      140        3        8      132        0        0        0    4 /system/lib/libskia.so
+     160       16        0        8        8        0        0        0    4 /system/lib/libsoftkeymasterdevice.so
+     360       16        0        8        8        0        0        0    3 /system/lib/libsonivox.so
+      92       24        0        8       16        0        0        0    4 /system/lib/libsoundtrigger.so
+      24       12        0        4        8        0        0        0    3 /system/lib/libspeexresampler.so
+    1120      696       46      688        4        0        4        0    4 /system/lib/libsqlite.so
+     252       20        0        8       12        0        0        0    3 /system/lib/libssl.so
+    2168      108        3        8      100        0        0        0    3 /system/lib/libstagefright.so
+      76       12        0        4        8        0        0        0    3 /system/lib/libstagefright_amrnb_common.so
+      44       12        0        4        8        0        0        0    3 /system/lib/libstagefright_avc_common.so
+      12       12        0        4        8        0        0        0    3 /system/lib/libstagefright_enc_common.so
+     192       16        0        8        8        0        0        0    4 /system/lib/libstagefright_foundation.so
+      16       12        0        4        8        0        0        0    4 /system/lib/libstagefright_http_support.so
+     268       24        0        8       16        0        0        0    3 /system/lib/libstagefright_omx.so
+      24       12        0        4        8        0        0        0    4 /system/lib/libstagefright_yuv.so
+      20       16        4        4        8        4        0        0    3 /system/lib/libstdc++.so
+      12       12        0        4        8        0        0        0    3 /system/lib/libsync.so
+      32       12        0        4        8        0        0        0    3 /system/lib/libtiff_directory.so
+     120       16        0        8        8        0        0        0    3 /system/lib/libui.so
+     116       76        2       68        8        0        0        0    3 /system/lib/libunwind.so
+      24       12        0        4        8        0        0        0    3 /system/lib/libusbhost.so
+     148      104        6       96        4        0        4        0    4 /system/lib/libutils.so
+    1208       24        0        8       16        0        0        0    3 /system/lib/libvixl.so
+     128       12        0        4        8        0        0        0    3 /system/lib/libvorbisidec.so
+     144       24        4       16        4        0        4        0    4 /system/lib/libvulkan.so
+      16       12        0        4        8        0        0        0    3 /system/lib/libwebviewchromium_loader.so
+      20       12        0        4        8        0        0        0    3 /system/lib/libwebviewchromium_plat_support.so
+     280       32        2       12       20        0        0        0    4 /system/lib/libwilhelm.so
+      24       12        0        4        8        0        0        0    3 /system/lib/libwpa_client.so
+      96       48        1       40        8        0        0        0    3 /system/lib/libz.so
+    5924     2716      326     2668        0        0       48        0    6 /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+  177920    12336     3508    12212        0      120        4        0    4 /system/priv-app/PrebuiltGmsCore/oat/x86/PrebuiltGmsCore.odex
+   43360      100        6      100        0        0        0        0    2 /system/usr/icu/icudt56l.dat
+     488        0        0        0        0        0        0        0    1 /system/usr/share/zoneinfo/tzdata
+    3320     2112     1989        0      124        0     1988        0   24 [anon:.bss]
+       8        8        8        0        0        0        8        0    2 [anon:arc4random _rs structure]
+       8        8        8        0        0        0        8        0    2 [anon:arc4random _rsx structure]
+      16       16        4        0       12        0        4        0    2 [anon:atexit handlers]
+   10240     4192     2581        0     1664        0     2528        0   10 [anon:libc_malloc]
+     160      160      108        0       52        0      108        0   36 [anon:linker_alloc]
+       4        4        0        0        4        0        0        0    1 [anon:linker_alloc_lob]
+      28       28       28        0        0        0       28        0    7 [anon:linker_alloc_small_objects]
+      28       28       24        0        4        0       24        0    7 [anon:linker_alloc_vector]
+      72        0        0        0        0        0        0        0   18 [anon:thread signal stack guard page]
+     144       40       40        0        0        0       40        0   18 [anon:thread signal stack]
+      64        0        0        0        0        0        0        0   16 [anon:thread stack guard page]
+  102576      100       92        0        8        0       92        0   28 [anon]
+    1012       28       28        0        0        0       28        0    1 [stack:4804]
+    1012        8        8        0        0        0        8        0    1 [stack:4805]
+    1036        8        8        0        0        0        8        0    1 [stack:4806]
+    1036        8        8        0        0        0        8        0    1 [stack:4807]
+    1036        8        8        0        0        0        8        0    1 [stack:4808]
+    1036        8        8        0        0        0        8        0    1 [stack:4809]
+    1012       12       12        0        0        0       12        0    1 [stack:4810]
+    1012       28       28        0        0        0       28        0    1 [stack:4811]
+    1036        8        8        0        0        0        8        0    1 [stack:4815]
+    1036       12       12        0        0        0       12        0    1 [stack:4818]
+    1036        8        8        0        0        0        8        0    1 [stack:4819]
+    1036        8        8        0        0        0        8        0    1 [stack:4822]
+    1036        8        8        0        0        0        8        0    1 [stack:4823]
+    1036        8        8        0        0        0        8        0    1 [stack:5142]
+    1036        8        8        0        0        0        8        0    1 [stack:5143]
+    1012        8        8        0        0        0        8        0    1 [stack:5146]
+    8188       40       32        0        8        0       32        0    1 [stack]
+       4        4        0        4        0        0        0        0    1 [vdso]
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+ 1581456    67584    14364    48072    10744      548     8220        0 1043 TOTAL

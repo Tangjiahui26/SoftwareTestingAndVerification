@@ -1,0 +1,38 @@
+Current Location Manager state:
+  Location Listeners:
+    Reciever[335ccf0 listener UpdateRecord[passive com.google.android.gms(10013) Request[POWER_NONE passive fastest=0]]]
+    Reciever[3f99269 listener UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]]
+    Reciever[21584ee listener UpdateRecord[passive com.google.android.gms(10013) Request[POWER_NONE passive fastest=0]]]
+  Active Records by Provider:
+    gps:
+    passive:
+      UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]
+      UpdateRecord[passive com.google.android.gms(10013) Request[POWER_NONE passive fastest=0]]
+      UpdateRecord[passive com.google.android.gms(10013) Request[POWER_NONE passive fastest=0]]
+  Historical Records by Provider:
+    com.google.android.gms: gps: Interval 0 seconds: Duration requested 0 out of the last 0 minutes
+    com.google.android.gms: passive: Interval 0 seconds: Duration requested 2 out of the last 2 minutes: Currently active
+    android: passive: Interval 0 seconds: Duration requested 2 out of the last 2 minutes: Currently active
+  Last Known Locations:
+    passive: Location[gps 37.421998,-122.084000 acc=20 et=+2m42s799ms vel=0.0 bear=0.0 {Bundle[{satellites=0}]}]
+    gps: Location[gps 37.421998,-122.084000 acc=20 et=+2m42s799ms vel=0.0 bear=0.0 {Bundle[{satellites=0}]}]
+  Last Known Locations Coarse Intervals:
+    passive: Location[gps 37.421998,-122.084000 acc=20 et=+2m40s212ms alt=5.0 vel=0.0 bear=0.0 {Bundle[{}]}]
+    gps: Location[gps 37.421998,-122.084000 acc=20 et=+2m40s212ms alt=5.0 vel=0.0 bear=0.0 {Bundle[{}]}]
+  Geofences:
+  Enabled Providers:
+    fused
+    passive
+  mWhitelist=[] mBlacklist=[]
+  fudger: offset: 237, -338 (meters)
+passive Internal State:
+mReportLocation=true
+gps Internal State:
+  mFixInterval=0
+  mDisableGps (battery saver mode)=false
+  mEngineCapabilities=0x0 ( )
+nullnetwork Internal State (com.google.android.gms):
+REMOTE SERVICE name=network pkg=com.google.android.gms version=2
+fused Internal State (com.google.android.gms):
+REMOTE SERVICE name=fused pkg=com.google.android.gms version=1
+--------- 0.004s was the duration of dumpsys location

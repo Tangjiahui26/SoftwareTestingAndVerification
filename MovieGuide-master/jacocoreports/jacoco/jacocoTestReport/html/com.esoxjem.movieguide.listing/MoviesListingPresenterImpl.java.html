@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>MoviesListingPresenterImpl.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">app</a> &gt; <a href="index.source.html" class="el_package">com.esoxjem.movieguide.listing</a> &gt; <span class="el_source">MoviesListingPresenterImpl.java</span></div><h1>MoviesListingPresenterImpl.java</h1><pre class="source lang-java linenums">package com.esoxjem.movieguide.listing;
+
+import android.support.annotation.NonNull;
+
+import com.esoxjem.movieguide.Movie;
+import com.esoxjem.movieguide.util.EspressoIdlingResource;
+import com.esoxjem.movieguide.util.RxUtils;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.disposables.Disposable;
+import io.reactivex.schedulers.Schedulers;
+
+/**
+ * @author arun
+ */
+class MoviesListingPresenterImpl implements MoviesListingPresenter {
+    private MoviesListingView view;
+    private MoviesListingInteractor moviesInteractor;
+    private Disposable fetchSubscription;
+    private Disposable movieSearchSubscription;
+<span class="fc" id="L24">    private int currentPage = 1;</span>
+<span class="fc" id="L25">    private List&lt;Movie&gt; loadedMovies = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L26">    private boolean showingSearchResult = false;</span>
+
+<span class="fc" id="L28">    MoviesListingPresenterImpl(MoviesListingInteractor interactor) {</span>
+<span class="fc" id="L29">        moviesInteractor = interactor;</span>
+<span class="fc" id="L30">    }</span>
+
+    @Override
+    public void setView(MoviesListingView view) {
+<span class="fc" id="L34">        this.view = view;</span>
+<span class="pc bpc" id="L35" title="1 of 2 branches missed.">        if(!showingSearchResult){</span>
+<span class="fc" id="L36">            displayMovies();</span>
+        }
+
+<span class="fc" id="L39">    }</span>
+
+    @Override
+    public void destroy() {
+<span class="nc" id="L43">        view = null;</span>
+<span class="nc" id="L44">        RxUtils.unsubscribe(fetchSubscription, movieSearchSubscription);</span>
+<span class="nc" id="L45">    }</span>
+
+    private void displayMovies() {
+<span class="fc" id="L48">        EspressoIdlingResource.increment();</span>
+<span class="fc" id="L49">        showLoading();</span>
+<span class="fc" id="L50">        fetchSubscription = moviesInteractor.fetchMovies(currentPage)</span>
+<span class="fc" id="L51">                .subscribeOn(Schedulers.io())</span>
+<span class="fc" id="L52">                .observeOn(AndroidSchedulers.mainThread())</span>
+<span class="fc" id="L53">                .doFinally(() -&gt; {</span>
+<span class="pc bpc" id="L54" title="1 of 2 branches missed.">                    if (!EspressoIdlingResource.getIdlingResource().isIdleNow()) {</span>
+<span class="fc" id="L55">                        EspressoIdlingResource.decrement(); // Set app as idle.</span>
+                    }
+<span class="fc" id="L57">                })</span>
+<span class="fc" id="L58">                .subscribe(this::onMovieFetchSuccess, this::onMovieFetchFailed);</span>
+<span class="fc" id="L59">    }</span>
+
+    private void displayMovieSearchResult(@NonNull final String searchText) {
+<span class="nc" id="L62">        showingSearchResult = true;</span>
+<span class="nc" id="L63">        showLoading();</span>
+<span class="nc" id="L64">        movieSearchSubscription = moviesInteractor.searchMovie(searchText)</span>
+<span class="nc" id="L65">                .subscribeOn(Schedulers.io())</span>
+<span class="nc" id="L66">                .observeOn(AndroidSchedulers.mainThread())</span>
+<span class="nc" id="L67">                .subscribe(this::onMovieSearchSuccess, this::onMovieSearchFailed);</span>
+<span class="nc" id="L68">    }</span>
+
+    @Override
+    public void firstPage() {
+<span class="fc" id="L72">        currentPage = 1;</span>
+<span class="fc" id="L73">        loadedMovies.clear();</span>
+<span class="fc" id="L74">        displayMovies();</span>
+<span class="fc" id="L75">    }</span>
+
+    @Override
+    public void nextPage() {
+<span class="nc bnc" id="L79" title="All 2 branches missed.">        if(showingSearchResult)</span>
+<span class="nc" id="L80">            return;</span>
+<span class="nc bnc" id="L81" title="All 2 branches missed.">        if (moviesInteractor.isPaginationSupported()) {</span>
+<span class="nc" id="L82">            currentPage++;</span>
+<span class="nc" id="L83">            displayMovies();</span>
+        }
+<span class="nc" id="L85">    }</span>
+
+    @Override
+    public void searchMovie(final String searchText) {
+<span class="nc bnc" id="L89" title="All 4 branches missed.">        if(searchText == null || searchText.length() &lt; 1) {</span>
+<span class="nc" id="L90">            displayMovies();</span>
+        } else {
+<span class="nc" id="L92">            displayMovieSearchResult(searchText);</span>
+        }
+
+<span class="nc" id="L95">    }</span>
+
+    @Override
+    public void searchMovieBackPressed() {
+<span class="nc bnc" id="L99" title="All 2 branches missed.">        if(showingSearchResult) {</span>
+<span class="nc" id="L100">            showingSearchResult = false;</span>
+<span class="nc" id="L101">            loadedMovies.clear();</span>
+<span class="nc" id="L102">            displayMovies();</span>
+        }
+<span class="nc" id="L104">    }</span>
+
+    private void showLoading() {
+<span class="pc bpc" id="L107" title="1 of 2 branches missed.">        if (isViewAttached()) {</span>
+<span class="fc" id="L108">            view.loadingStarted();</span>
+        }
+<span class="fc" id="L110">    }</span>
+
+    private void onMovieFetchSuccess(List&lt;Movie&gt; movies) {
+<span class="fc bfc" id="L113" title="All 2 branches covered.">        if (moviesInteractor.isPaginationSupported()) {</span>
+<span class="fc" id="L114">            loadedMovies.addAll(movies);</span>
+        } else {
+<span class="fc" id="L116">            loadedMovies = new ArrayList&lt;&gt;(movies);</span>
+        }
+<span class="pc bpc" id="L118" title="1 of 2 branches missed.">        if (isViewAttached()) {</span>
+<span class="fc" id="L119">            view.showMovies(loadedMovies);</span>
+        }
+<span class="fc" id="L121">    }</span>
+
+    private void onMovieFetchFailed(Throwable e) {
+<span class="fc" id="L124">        view.loadingFailed(e.getMessage());</span>
+<span class="fc" id="L125">    }</span>
+
+    private void onMovieSearchSuccess(List&lt;Movie&gt; movies) {
+<span class="nc" id="L128">        loadedMovies.clear();</span>
+<span class="nc" id="L129">        loadedMovies = new ArrayList&lt;&gt;(movies);</span>
+<span class="nc bnc" id="L130" title="All 2 branches missed.">        if (isViewAttached()) {</span>
+<span class="nc" id="L131">            view.showMovies(loadedMovies);</span>
+        }
+<span class="nc" id="L133">    }</span>
+
+    private void onMovieSearchFailed(Throwable e) {
+<span class="nc" id="L136">        view.loadingFailed(e.getMessage());</span>
+<span class="nc" id="L137">    }</span>
+
+    private boolean isViewAttached() {
+<span class="pc bpc" id="L140" title="1 of 2 branches missed.">        return view != null;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.4.201502262128</span></div></body></html>

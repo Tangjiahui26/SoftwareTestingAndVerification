@@ -1,0 +1,62 @@
+  All tokens:
+  WindowToken{a20edd3 null}:
+    windows=[Window{ebdf15 u0 AssistPreviewPanel}, Window{5d4eaff u0 DockedStackDivider}, Window{cd3f1d1 u0 NavigationBar}, Window{9aae74 u0 StatusBar}, Window{f950950 u0 KeyguardScrim}]
+    windowType=-1 hidden=false hasVisible=true
+  WindowToken{cadbd10 android.os.Binder@71e4ded}:
+    windows=[]
+    windowType=2011 hidden=false hasVisible=true
+  WindowToken{ff49009 android.os.Binder@a6e8436}:
+    windows=[Window{4eb6d04 u0 VoiceInteractionSession}]
+    windowType=2031 hidden=false hasVisible=true
+  AppWindowToken{23f8615 token=Token{9f079ff ActivityRecord{39bdd1e u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t5}}}:
+    windows=[Window{ee7d995 u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}, Window{59b2e18 u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}]
+    windowType=2 hidden=true hasVisible=true
+    app=true voiceInteraction=false
+    allAppWindows=[Window{ee7d995 u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}, Window{59b2e18 u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}]
+    task={taskId=5 appTokens=[AppWindowToken{23f8615 token=Token{9f079ff ActivityRecord{39bdd1e u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t5}}}] mdr=false}
+     appFullscreen=true requestedOrientation=5
+    hiddenRequested=true clientHidden=true reportedDrawn=false reportedVisible=false
+    mAppStopped=true
+    numInterestingWindows=2 numDrawnWindows=2 inPendingTransaction=false allDrawn=true (animator=true)
+    startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+  WindowToken{efa420e android.os.Binder@1762cc0}:
+    windows=[Window{383dc5 u0 com.android.systemui.ImageWallpaper}]
+    windowType=2013 hidden=true hasVisible=true
+  AppWindowToken{ab738ca token=Token{1b37a7d ActivityRecord{40cb8d4 u0 com.esoxjem.movieguide/.listing.MoviesListingActivity t12}}}:
+    windows=[Window{4ffe558 u0 com.esoxjem.movieguide/com.esoxjem.movieguide.listing.MoviesListingActivity}]
+    windowType=2 hidden=true hasVisible=true
+    app=true voiceInteraction=false
+    allAppWindows=[Window{4ffe558 u0 com.esoxjem.movieguide/com.esoxjem.movieguide.listing.MoviesListingActivity}]
+    task={taskId=12 appTokens=[AppWindowToken{ab738ca token=Token{1b37a7d ActivityRecord{40cb8d4 u0 com.esoxjem.movieguide/.listing.MoviesListingActivity t12}}}, AppWindowToken{d3ae42a token=Token{2803915 ActivityRecord{3a172cc u0 com.esoxjem.movieguide/.details.MovieDetailsActivity t12}}}] mdr=false}
+     appFullscreen=true requestedOrientation=-1
+    hiddenRequested=true clientHidden=true reportedDrawn=false reportedVisible=false
+    mAppStopped=true
+    numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+    startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+  AppWindowToken{d3ae42a token=Token{2803915 ActivityRecord{3a172cc u0 com.esoxjem.movieguide/.details.MovieDetailsActivity t12}}}:
+    windows=[Window{4d8efb8 u0 com.esoxjem.movieguide/com.esoxjem.movieguide.details.MovieDetailsActivity}]
+    windowType=2 hidden=false hasVisible=true
+    app=true voiceInteraction=false
+    allAppWindows=[Window{4d8efb8 u0 com.esoxjem.movieguide/com.esoxjem.movieguide.details.MovieDetailsActivity}]
+    task={taskId=12 appTokens=[AppWindowToken{ab738ca token=Token{1b37a7d ActivityRecord{40cb8d4 u0 com.esoxjem.movieguide/.listing.MoviesListingActivity t12}}}, AppWindowToken{d3ae42a token=Token{2803915 ActivityRecord{3a172cc u0 com.esoxjem.movieguide/.details.MovieDetailsActivity t12}}}] mdr=false}
+     appFullscreen=true requestedOrientation=-1
+    hiddenRequested=false clientHidden=false reportedDrawn=true reportedVisible=true
+    numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+    startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+  AppWindowToken{4c4ca8f token=Token{93a8769 ActivityRecord{3bd75f0 u0 com.android.systemui/.recents.RecentsActivity t7}}}:
+    windows=[Window{92f5fdd u0 com.android.systemui/com.android.systemui.recents.RecentsActivity}]
+    windowType=2 hidden=true hasVisible=true
+    app=true voiceInteraction=false
+    allAppWindows=[Window{92f5fdd u0 com.android.systemui/com.android.systemui.recents.RecentsActivity}]
+    task={taskId=7 appTokens=[AppWindowToken{4c4ca8f token=Token{93a8769 ActivityRecord{3bd75f0 u0 com.android.systemui/.recents.RecentsActivity t7}}}] mdr=false}
+     appFullscreen=true requestedOrientation=3
+    hiddenRequested=true clientHidden=true reportedDrawn=false reportedVisible=false
+    mAppStopped=true
+    numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+    startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+
+  Wallpaper tokens:
+  Wallpaper #0 WindowToken{efa420e android.os.Binder@1762cc0}:
+    windows=[Window{383dc5 u0 com.android.systemui.ImageWallpaper}]
+    windowType=2013 hidden=true hasVisible=true
+

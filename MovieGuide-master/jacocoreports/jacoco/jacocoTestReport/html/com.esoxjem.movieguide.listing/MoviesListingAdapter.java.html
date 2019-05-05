@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>MoviesListingAdapter.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">app</a> &gt; <a href="index.source.html" class="el_package">com.esoxjem.movieguide.listing</a> &gt; <span class="el_source">MoviesListingAdapter.java</span></div><h1>MoviesListingAdapter.java</h1><pre class="source lang-java linenums">package com.esoxjem.movieguide.listing;
+
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.support.annotation.Nullable;
+import android.support.v7.graphics.Palette;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.Priority;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.bumptech.glide.request.RequestOptions;
+import com.bumptech.glide.request.target.BitmapImageViewTarget;
+import com.bumptech.glide.request.transition.Transition;
+import com.esoxjem.movieguide.Api;
+import com.esoxjem.movieguide.Movie;
+import com.esoxjem.movieguide.R;
+
+import java.util.List;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
+/**
+ * @author arun
+ */
+public class MoviesListingAdapter extends RecyclerView.Adapter&lt;MoviesListingAdapter.ViewHolder&gt; {
+    private List&lt;Movie&gt; movies;
+    private Context context;
+    private MoviesListingView view;
+
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+        @BindView(R.id.movie_poster)
+        ImageView poster;
+        @BindView(R.id.title_background)
+        View titleBackground;
+        @BindView(R.id.movie_name)
+        TextView name;
+
+        public Movie movie;
+
+<span class="fc" id="L47">        public ViewHolder(View root) {</span>
+<span class="fc" id="L48">            super(root);</span>
+<span class="fc" id="L49">            ButterKnife.bind(this, root);</span>
+<span class="fc" id="L50">        }</span>
+
+        @Override
+        public void onClick(View view) {
+<span class="fc" id="L54">            MoviesListingAdapter.this.view.onMovieClicked(movie);</span>
+<span class="fc" id="L55">        }</span>
+    }
+
+<span class="fc" id="L58">    public MoviesListingAdapter(List&lt;Movie&gt; movies, MoviesListingView moviesView) {</span>
+<span class="fc" id="L59">        this.movies = movies;</span>
+<span class="fc" id="L60">        view = moviesView;</span>
+<span class="fc" id="L61">    }</span>
+
+    @Override
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+<span class="fc" id="L65">        context = parent.getContext();</span>
+<span class="fc" id="L66">        View rootView = LayoutInflater.from(context).inflate(R.layout.movie_grid_item, parent, false);</span>
+
+<span class="fc" id="L68">        return new ViewHolder(rootView);</span>
+    }
+
+    @Override
+    public void onBindViewHolder(final ViewHolder holder, int position) {
+<span class="fc" id="L73">        holder.itemView.setOnClickListener(holder);</span>
+<span class="fc" id="L74">        holder.movie = movies.get(position);</span>
+<span class="fc" id="L75">        holder.name.setText(holder.movie.getTitle());</span>
+
+<span class="fc" id="L77">        RequestOptions options = new RequestOptions()</span>
+<span class="fc" id="L78">                .centerCrop()</span>
+<span class="fc" id="L79">                .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)</span>
+<span class="fc" id="L80">                .priority(Priority.HIGH);</span>
+
+<span class="fc" id="L82">        Glide.with(context)</span>
+<span class="fc" id="L83">                .asBitmap()</span>
+<span class="fc" id="L84">                .load(Api.getPosterPath(holder.movie.getPosterPath()))</span>
+<span class="fc" id="L85">                .apply(options)</span>
+<span class="fc" id="L86">                .into(new BitmapImageViewTarget(holder.poster) {</span>
+                    @Override
+                    public void onResourceReady(Bitmap bitmap, @Nullable Transition&lt;? super Bitmap&gt; transition) {
+<span class="fc" id="L89">                        super.onResourceReady(bitmap, transition);</span>
+<span class="fc" id="L90">                        Palette.from(bitmap).generate(palette -&gt; setBackgroundColor(palette, holder));</span>
+<span class="fc" id="L91">                    }</span>
+                });
+<span class="fc" id="L93">    }</span>
+
+    private void setBackgroundColor(Palette palette, ViewHolder holder) {
+<span class="fc" id="L96">        holder.titleBackground.setBackgroundColor(palette.getVibrantColor(context</span>
+<span class="fc" id="L97">                .getResources().getColor(R.color.black_translucent_60)));</span>
+<span class="fc" id="L98">    }</span>
+
+    @Override
+    public int getItemCount() {
+<span class="fc" id="L102">        return movies.size();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.4.201502262128</span></div></body></html>

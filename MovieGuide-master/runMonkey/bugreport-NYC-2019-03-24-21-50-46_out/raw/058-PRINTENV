@@ -1,0 +1,12 @@
+PATH=/sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin
+DOWNLOAD_CACHE=/data/cache
+ANDROID_BOOTLOGO=1
+ANDROID_ROOT=/system
+ANDROID_ASSETS=/system/app
+ANDROID_DATA=/data
+ANDROID_STORAGE=/storage
+EXTERNAL_STORAGE=/sdcard
+ASEC_MOUNTPOINT=/mnt/asec
+BOOTCLASSPATH=/system/framework/core-oj.jar:/system/framework/core-libart.jar:/system/framework/conscrypt.jar:/system/framework/okhttp.jar:/system/framework/core-junit.jar:/system/framework/bouncycastle.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/apache-xml.jar:/system/framework/org.apache.http.legacy.boot.jar
+SYSTEMSERVERCLASSPATH=/system/framework/services.jar:/system/framework/ethernet-service.jar:/system/framework/wifi-service.jar
+ANDROID_SOCKET_dumpstate=8

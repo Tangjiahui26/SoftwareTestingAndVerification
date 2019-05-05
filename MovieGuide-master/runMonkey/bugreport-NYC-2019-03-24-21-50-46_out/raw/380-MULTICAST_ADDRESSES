@@ -1,0 +1,16 @@
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+3:	wlan0
+	inet6 ff02::1
+	inet6 ff01::1
+5:	hwsim0
+	inet6 ff02::1
+	inet6 ff01::1
+6:	sit0
+	inet6 ff02::1
+	inet6 ff01::1
+8:	radio0
+	inet6 ff02::1
+	inet6 ff01::1

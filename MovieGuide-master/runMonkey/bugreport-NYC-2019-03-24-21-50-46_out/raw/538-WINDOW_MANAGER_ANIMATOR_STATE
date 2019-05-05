@@ -1,0 +1,21 @@
+    DisplayContentsAnimator #0:
+      Window #0: WindowStateAnimator{761ac47 com.android.systemui.ImageWallpaper}
+      Window #1: WindowStateAnimator{cfe2c74 com.android.systemui/com.android.systemui.recents.RecentsActivity}
+      Window #2: WindowStateAnimator{f7c759d com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}
+      Window #3: WindowStateAnimator{8421a12 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}
+      Window #4: WindowStateAnimator{402c5e3 com.esoxjem.movieguide/com.esoxjem.movieguide.listing.MoviesListingActivity}
+      Window #5: WindowStateAnimator{e0b9be0 com.esoxjem.movieguide/com.esoxjem.movieguide.details.MovieDetailsActivity}
+      Window #6: WindowStateAnimator{3afce99 InputMethod}
+      Window #7: WindowStateAnimator{623c55e DockedStackDivider}
+      Window #8: WindowStateAnimator{811dd3f AssistPreviewPanel}
+      Window #9: WindowStateAnimator{ebe960c VoiceInteractionSession}
+      Window #10: WindowStateAnimator{225bb55 KeyguardScrim}
+      Window #11: WindowStateAnimator{1e2d96a StatusBar}
+      Window #12: WindowStateAnimator{dd10e5b NavigationBar}
+      no ScreenRotationAnimation 
+
+
+    mAnimTransactionSequence=2983 mForceHiding=KEYGUARD_NOT_SHOWN
+    mCurrentTime=180533 (2731 ms ago)
+    mBulkUpdateParams=0x8 ORIENTATION_CHANGE_COMPLETE
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>MoviesListingInteractorImpl.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">app</a> &gt; <a href="index.source.html" class="el_package">com.esoxjem.movieguide.listing</a> &gt; <span class="el_source">MoviesListingInteractorImpl.java</span></div><h1>MoviesListingInteractorImpl.java</h1><pre class="source lang-java linenums">package com.esoxjem.movieguide.listing;
+
+import android.support.annotation.NonNull;
+import com.esoxjem.movieguide.Movie;
+import com.esoxjem.movieguide.MoviesWraper;
+import com.esoxjem.movieguide.favorites.FavoritesInteractor;
+import com.esoxjem.movieguide.listing.sorting.SortType;
+import com.esoxjem.movieguide.listing.sorting.SortingOptionStore;
+import com.esoxjem.movieguide.network.TmdbWebService;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.List;
+
+import io.reactivex.Observable;
+
+/**
+ * @author arun
+ */
+class MoviesListingInteractorImpl implements MoviesListingInteractor {
+    private FavoritesInteractor favoritesInteractor;
+    private TmdbWebService tmdbWebService;
+    private SortingOptionStore sortingOptionStore;
+<span class="fc" id="L25">    private DateFormat dateFormat = new SimpleDateFormat(&quot;yyyy-MM-dd&quot;);</span>
+    private static final int NEWEST_MIN_VOTE_COUNT = 50;
+
+    MoviesListingInteractorImpl(FavoritesInteractor favoritesInteractor,
+<span class="fc" id="L29">                                TmdbWebService tmdbWebService, SortingOptionStore store) {</span>
+<span class="fc" id="L30">        this.favoritesInteractor = favoritesInteractor;</span>
+<span class="fc" id="L31">        this.tmdbWebService = tmdbWebService;</span>
+<span class="fc" id="L32">        sortingOptionStore = store;</span>
+<span class="fc" id="L33">    }</span>
+
+
+    @Override
+    public boolean isPaginationSupported() {
+<span class="fc" id="L38">        int selectedOption = sortingOptionStore.getSelectedOption();</span>
+<span class="fc bfc" id="L39" title="All 2 branches covered.">        return selectedOption != SortType.FAVORITES.getValue();</span>
+    }
+
+    @Override
+    public Observable&lt;List&lt;Movie&gt;&gt; fetchMovies(int page) {
+<span class="fc" id="L44">        int selectedOption = sortingOptionStore.getSelectedOption();</span>
+<span class="fc bfc" id="L45" title="All 2 branches covered.">        if (selectedOption == SortType.MOST_POPULAR.getValue()) {</span>
+<span class="fc" id="L46">            return tmdbWebService.popularMovies(page).map(MoviesWraper::getMovieList);</span>
+<span class="fc bfc" id="L47" title="All 2 branches covered.">        } else if (selectedOption == SortType.HIGHEST_RATED.getValue()) {</span>
+<span class="fc" id="L48">            return tmdbWebService.highestRatedMovies(page).map(MoviesWraper::getMovieList);</span>
+<span class="fc bfc" id="L49" title="All 2 branches covered.">        } else if (selectedOption == SortType.NEWEST.getValue()) {</span>
+<span class="fc" id="L50">            Calendar cal = Calendar.getInstance();</span>
+<span class="fc" id="L51">            String maxReleaseDate = dateFormat.format(cal.getTime());</span>
+<span class="fc" id="L52">            return tmdbWebService.newestMovies(maxReleaseDate, NEWEST_MIN_VOTE_COUNT).map(MoviesWraper::getMovieList);</span>
+        } else {
+<span class="fc" id="L54">            return Observable.just(favoritesInteractor.getFavorites());</span>
+        }
+    }
+
+    @Override
+    public Observable&lt;List&lt;Movie&gt;&gt; searchMovie(@NonNull String searchQuery) {
+<span class="nc" id="L60">        return tmdbWebService.searchMovies(searchQuery).map(MoviesWraper::getMovieList);</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.4.201502262128</span></div></body></html>

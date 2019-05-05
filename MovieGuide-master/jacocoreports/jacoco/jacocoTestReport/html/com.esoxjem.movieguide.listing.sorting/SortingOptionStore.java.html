@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>SortingOptionStore.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">app</a> &gt; <a href="index.source.html" class="el_package">com.esoxjem.movieguide.listing.sorting</a> &gt; <span class="el_source">SortingOptionStore.java</span></div><h1>SortingOptionStore.java</h1><pre class="source lang-java linenums">package com.esoxjem.movieguide.listing.sorting;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+
+import javax.inject.Inject;
+
+/**
+ * @author arun
+ */
+public class SortingOptionStore
+{
+    private SharedPreferences pref;
+    private static final String SELECTED_OPTION = &quot;selectedOption&quot;;
+    private static final String PREF_NAME = &quot;SortingOptionStore&quot;;
+
+    @Inject
+    public SortingOptionStore(Context context)
+<span class="fc" id="L19">    {</span>
+<span class="fc" id="L20">        pref = context.getApplicationContext().getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);</span>
+<span class="fc" id="L21">    }</span>
+
+    public void setSelectedOption(SortType sortType)
+    {
+<span class="fc" id="L25">        SharedPreferences.Editor editor = pref.edit();</span>
+<span class="fc" id="L26">        editor.putInt(SELECTED_OPTION, sortType.getValue());</span>
+<span class="fc" id="L27">        editor.apply();</span>
+<span class="fc" id="L28">    }</span>
+
+    public int getSelectedOption()
+    {
+<span class="fc" id="L32">        return pref.getInt(SELECTED_OPTION, 0);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.4.201502262128</span></div></body></html>

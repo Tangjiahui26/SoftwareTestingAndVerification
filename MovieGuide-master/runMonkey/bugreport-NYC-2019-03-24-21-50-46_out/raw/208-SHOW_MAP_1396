@@ -1,0 +1,138 @@
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+     256        8        0        0        8        0        0        0    2 /dev/__properties__/properties_serial
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:debug_prop:s0
+     128       20        0        0       20        0        0        0    1 /dev/__properties__/u:object_r:default_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:log_tag_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:logd_prop:s0
+   12288     2188     2150        0       76        0     2112        0    3 /dev/ashmem/AudioFlinger::Client (deleted)
+    2048       36       18        0       36        0        0        0    2 /dev/ashmem/MemoryHeapBase (deleted)
+     136        0        0        0        0        0        0        0   17 /dev/ashmem/RecordThreadRO (deleted)
+    1024        0        0        0        0        0        0        0    1 /dev/ashmem/SoundTriggerHwService (deleted)
+    1016        4        4        0        0        4        0        0    1 /dev/binder
+      16       16       16        0        0       12        4        0    2 /system/bin/audioserver
+     832      272       20      256        0        0       16        0    3 /system/bin/linker
+      32       32       32        0        0       24        8        0    3 /system/lib/hw/audio.primary.goldfish.so
+      40       32       32        0        0       24        8        0    3 /system/lib/hw/audio.r_submix.default.so
+     140       44       13       32        0        0       12        0    4 /system/lib/libEGL.so
+      80       40       10       32        0        0        8        0    3 /system/lib/libGLESv2.so
+     488      352      352        0        0      324       28        0    3 /system/lib/libaudioflinger.so
+     132       76       76        0        0       64       12        0    3 /system/lib/libaudiopolicyenginedefault.so
+      12       12       12        0        0        4        8        0    3 /system/lib/libaudiopolicymanager.so
+     416      348      348        0        0      332       16        0    4 /system/lib/libaudiopolicymanagerdefault.so
+     100       92       92        0        0       80       12        0    3 /system/lib/libaudiopolicyservice.so
+     156       56       56        0        0       48        8        0    3 /system/lib/libaudioresampler.so
+      28       16       16        0        0        8        8        0    4 /system/lib/libaudiospdif.so
+      40       36       20       20        0        8        8        0    3 /system/lib/libaudioutils.so
+      76       24        8       16        0        0        8        0    3 /system/lib/libbacktrace.so
+      52       24        8       16        0        0        8        0    3 /system/lib/libbase.so
+     528      408       65      368        0        0       40        0    4 /system/lib/libbinder.so
+     964      312       47      284        0        8       20        0    4 /system/lib/libc++.so
+     876      512       33      488        0        4       20        0    4 /system/lib/libc.so
+     360      208       59      168        0        0       40        0    3 /system/lib/libcamera_client.so
+      36       16        8        8        0        0        8        0    3 /system/lib/libcamera_metadata.so
+     128       96       10       88        0        0        8        0    4 /system/lib/libcutils.so
+      24       20       20        0        0       12        8        0    3 /system/lib/libeffects.so
+     156       20       12        8        0        0       12        0    3 /system/lib/libexpat.so
+     600      268       76      212        0        0       56        0    3 /system/lib/libgui.so
+      16       12        8        4        0        0        8        0    4 /system/lib/libhardware.so
+      32       20        9       12        0        0        8        0    3 /system/lib/libhardware_legacy.so
+    2392      472       98      424        0        0       48        0    3 /system/lib/libicui18n.so
+    1572      244       70      196        0        0       48        0    3 /system/lib/libicuuc.so
+      68       24        8       16        0        0        8        0    3 /system/lib/liblog.so
+     168       20        8       12        0        0        8        0    3 /system/lib/liblzma.so
+     220       56       12       48        0        0        8        0    3 /system/lib/libm.so
+    1308      700      228      544        0       20      136        0    4 /system/lib/libmedia.so
+      36       24       24        0        0       16        8        0    4 /system/lib/libmedialogservice.so
+      48       44       17       32        0        4        8        0    4 /system/lib/libmediautils.so
+     148       48       14       40        0        0        8        0    3 /system/lib/libmemunreachable.so
+      48       48       33       16        0       24        8        0    3 /system/lib/libnbaio.so
+      16       16        8        8        0        0        8        0    3 /system/lib/libnetd_client.so
+      32       16        8        8        0        0        8        0    3 /system/lib/libnetutils.so
+      28       24        9       16        0        0        8        0    4 /system/lib/libpowermanager.so
+      88       68       41       44        0        8       16        0    3 /system/lib/libradio.so
+      16       12        8        4        0        0        8        0    3 /system/lib/libradio_metadata.so
+      80       60       60        0        0       48       12        0    4 /system/lib/libradioservice.so
+      20       16       16        0        0        8        8        0    3 /system/lib/libserviceutility.so
+      24       12       12        0        0        4        8        0    3 /system/lib/libsonic.so
+     360       24        9       16        0        0        8        0    3 /system/lib/libsonivox.so
+      92       64       32       48        0        0       16        0    4 /system/lib/libsoundtrigger.so
+      88       68       68        0        0       56       12        0    4 /system/lib/libsoundtriggerservice.so
+      24       12        8        4        0        0        8        0    3 /system/lib/libspeexresampler.so
+     192       80       15       72        0        0        8        0    4 /system/lib/libstagefright_foundation.so
+      20       12        8        4        0        0        8        0    3 /system/lib/libstdc++.so
+      12       12        8        4        0        0        8        0    3 /system/lib/libsync.so
+      32       32       32        0        0       24        8        0    3 /system/lib/libtinyalsa.so
+     120       60       11       52        0        0        8        0    3 /system/lib/libui.so
+     116       16        8        8        0        0        8        0    3 /system/lib/libunwind.so
+     148      112       11      104        0        0        8        0    4 /system/lib/libutils.so
+      24       16        8        8        0        0        8        0    3 /system/lib/libwpa_client.so
+      80       24       24        0        0       16        8        0    3 /system/lib/soundfx/libbundlewrapper.so
+      20       16       16        0        0        8        8        0    3 /system/lib/soundfx/libdownmix.so
+      16       16       16        0        0        8        8        0    3 /system/lib/soundfx/libldnhncr.so
+      44       16       16        0        0        8        8        0    3 /system/lib/soundfx/libreverbwrapper.so
+      16       16       16        0        0        8        8        0    3 /system/lib/soundfx/libvisualizer.so
+     164       40       40        0        0        0       40        0   10 [anon:.bss]
+       4        4        4        0        0        0        4        0    1 [anon:arc4random _rs structure]
+       4        4        4        0        0        0        4        0    1 [anon:arc4random _rsx structure]
+       8        8        8        0        0        0        8        0    2 [anon:atexit handlers]
+   14336     2724     2724        0        0        0     2724        0   21 [anon:libc_malloc]
+      68       68       68        0        0        0       68        0   15 [anon:linker_alloc]
+       4        4        4        0        0        0        4        0    1 [anon:linker_alloc_lob]
+      20       20       20        0        0        0       20        0    5 [anon:linker_alloc_small_objects]
+      28       28       28        0        0        0       28        0    7 [anon:linker_alloc_vector]
+     176        0        0        0        0        0        0        0   44 [anon:thread signal stack guard page]
+     352        0        0        0        0        0        0        0   44 [anon:thread signal stack]
+     172        0        0        0        0        0        0        0   43 [anon:thread stack guard page]
+      24       16       16        0        0        0       16        0    4 [anon]
+    1016        4        4        0        0        0        4        0    1 [stack:1417]
+    1016       20       20        0        0        0       20        0    1 [stack:1418]
+    1016       12       12        0        0        0       12        0    1 [stack:1419]
+    1016        8        8        0        0        0        8        0    1 [stack:1420]
+    1016        8        8        0        0        0        8        0    1 [stack:1421]
+    1016       20       20        0        0        0       20        0    1 [stack:1422]
+    1016       28       28        0        0        0       28        0    1 [stack:1426]
+    1016       28       28        0        0        0       28        0    1 [stack:1808]
+    1016        4        4        0        0        0        4        0    1 [stack:2886]
+    1016        8        8        0        0        0        8        0    1 [stack:2887]
+    1016        4        4        0        0        0        4        0    1 [stack:3382]
+    1016        8        8        0        0        0        8        0    1 [stack:3383]
+    1016        4        4        0        0        0        4        0    1 [stack:3674]
+    1016        8        8        0        0        0        8        0    1 [stack:3675]
+    1016        4        4        0        0        0        4        0    1 [stack:4004]
+    1016        8        8        0        0        0        8        0    1 [stack:4005]
+    1016        4        4        0        0        0        4        0    1 [stack:4335]
+    1016        8        8        0        0        0        8        0    1 [stack:4336]
+    1016        4        4        0        0        0        4        0    1 [stack:4507]
+    1016        8        8        0        0        0        8        0    1 [stack:4508]
+    1016        4        4        0        0        0        4        0    1 [stack:4650]
+    1016        8        8        0        0        0        8        0    1 [stack:4651]
+    1016        4        4        0        0        0        4        0    1 [stack:4666]
+    1016        8        8        0        0        0        8        0    1 [stack:4667]
+    1016       20       20        0        0        0       20        0    1 [stack:4668]
+    1016        4        4        0        0        0        4        0    1 [stack:4714]
+    1016        8        8        0        0        0        8        0    1 [stack:4715]
+    1016        4        4        0        0        0        4        0    1 [stack:4751]
+    1016        8        8        0        0        0        8        0    1 [stack:4752]
+    1016        4        4        0        0        0        4        0    1 [stack:4777]
+    1016        8        8        0        0        0        8        0    1 [stack:4778]
+    1016        4        4        0        0        0        4        0    1 [stack:4784]
+    1016        8        8        0        0        0        8        0    1 [stack:4785]
+    1016        4        4        0        0        0        4        0    1 [stack:4792]
+    1016        8        8        0        0        0        8        0    1 [stack:4793]
+    1016        4        4        0        0        0        4        0    1 [stack:5171]
+    1016        8        8        0        0        0        8        0    1 [stack:5172]
+    1016        4        4        0        0        0        4        0    1 [stack:5188]
+    1016        8        8        0        0        0        8        0    1 [stack:5189]
+    1016        4        4        0        0        0        4        0    1 [stack:5252]
+    1016        8        8        0        0        0        8        0    1 [stack:5253]
+    1016        4        4        0        0        0        4        0    1 [stack:5331]
+    1016        8        8        0        0        0        8        0    1 [stack:5332]
+     136       32       32        0        0        0       32        0    1 [stack]
+       4        4        0        4        0        0        0        0    1 [vdso]
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+   90544    11436     7910     3744      152     1216     6324        0  475 TOTAL

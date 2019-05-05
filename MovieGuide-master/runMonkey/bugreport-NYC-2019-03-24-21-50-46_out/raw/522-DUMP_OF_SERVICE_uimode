@@ -1,0 +1,7 @@
+Current UI Mode Service state:
+  mDockState=0 mLastBroadcastState=0
+  mNightMode=1 mNightModeLocked=false mCarModeEnabled=false mComputedNightMode=false mCarModeEnableFlags=0 mEnableCarDockLaunch=true
+  mCurUiMode=0x11 mUiModeLocked=false mSetUiMode=0x11
+  mHoldingConfiguration=false mSystemReady=true
+  mTwilightService.getLastTwilightState()=null
+--------- 0.007s was the duration of dumpsys uimode

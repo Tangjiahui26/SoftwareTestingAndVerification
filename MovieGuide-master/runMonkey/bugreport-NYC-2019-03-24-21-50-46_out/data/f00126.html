@@ -1,0 +1,41 @@
+<html>
+<head>
+  <title>f00126.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00126.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><h1>systemlog_02671.html</h1>
+<div class="log-toolbar">RegExp:<input id="regexp"></input><button onClick="javascript:ltbProcessLines(function(l){l.hide();})">Hide</button><button onClick="javascript:ltbProcessLines(function(l){l.show();})">Show</button><button onClick="javascript:ltbProcessLines(function(l){l.addClass('log-mark');})">Mark</button><button onClick="javascript:ltbProcessLines(function(l){l.removeClass('log-mark');})">Unmark</button>Note: changes are not saved!</div><div class="log"><div class="log-info">03-24 21:48:28.284  <a href="f00081.html#ch0">2671</a>  2671 I MediaUpgradeReceiver: ---&gt; Start upgrade of media database external.db</div>
+<div class="log-info">03-24 21:48:28.329  <a href="f00081.html#ch0">2671</a>  2671 I MediaUpgradeReceiver: &lt;--- Finished upgrade of media database external.db in 45ms</div>
+<div class="log-error">03-24 21:48:54.512  <a href="f00081.html#ch0">2671</a>  2671 E ActivityThread: Service com.android.providers.downloads.DownloadJobService has leaked ServiceConnection android.media.MediaScannerConnection@7ef0288 that was originally bound here</div>
+<div class="log-error">03-24 21:48:54.512  <a href="f00081.html#ch0">2671</a>  2671 E ActivityThread: android.app.ServiceConnectionLeaked: Service com.android.providers.downloads.DownloadJobService has leaked ServiceConnection android.media.MediaScannerConnection@7ef0288 that was originally bound here</div>
+<div class="log-error">03-24 21:48:54.512  <a href="f00081.html#ch0">2671</a>  2671 E ActivityThread: 	at android.app.LoadedApk$ServiceDispatcher.&lt;init&gt;(LoadedApk.java:1336)</div>
+<div class="log-error">03-24 21:48:54.512  <a href="f00081.html#ch0">2671</a>  2671 E ActivityThread: 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:1231)</div>
+<div class="log-error">03-24 21:48:54.512  <a href="f00081.html#ch0">2671</a>  2671 E ActivityThread: 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1450)</div>
+<div class="log-error">03-24 21:48:54.512  <a href="f00081.html#ch0">2671</a>  2671 E ActivityThread: 	at android.app.ContextImpl.bindService(ContextImpl.java:1422)</div>
+<div class="log-error">03-24 21:48:54.512  <a href="f00081.html#ch0">2671</a>  2671 E ActivityThread: 	at android.content.ContextWrapper.bindService(ContextWrapper.java:636)</div>
+<div class="log-error">03-24 21:48:54.512  <a href="f00081.html#ch0">2671</a>  2671 E ActivityThread: 	at android.media.MediaScannerConnection.connect(MediaScannerConnection.java:119)</div>
+<div class="log-error">03-24 21:48:54.512  <a href="f00081.html#ch0">2671</a>  2671 E ActivityThread: 	at com.android.providers.downloads.DownloadScanner.requestScan(DownloadScanner.java:130)</div>
+<div class="log-error">03-24 21:48:54.512  <a href="f00081.html#ch0">2671</a>  2671 E ActivityThread: 	at com.android.providers.downloads.DownloadScanner.requestScanBlocking(DownloadScanner.java:85)</div>
+<div class="log-error">03-24 21:48:54.512  <a href="f00081.html#ch0">2671</a>  2671 E ActivityThread: 	at com.android.providers.downloads.DownloadThread.run(DownloadThread.java:386)</div>
+<div class="log-info">03-24 21:50:48.400  <a href="f00081.html#ch0">2671</a>  3478 I art     : Starting a blocking GC Explicit</div>
+<div class="log-info">03-24 21:50:48.405  <a href="f00081.html#ch0">2671</a>  3478 I art     : Explicit concurrent mark sweep GC freed 2462(202KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 4MB/5MB, paused 110us total 5.465ms</div>
+<div class="log-info">03-24 21:50:49.840  <a href="f00081.html#ch0">2671</a>  2677 I art     : Thread[3,tid=2677,WaitingInMainSignalCatcherLoop,Thread*=0xa438de00,peer=0x2ac050d0,"Signal Catcher"]: reacting to signal 3</div>
+<div class="log-info">03-24 21:50:49.841  <a href="f00081.html#ch0">2671</a>  2677 I art     : </div>
+<div class="log-info">03-24 21:50:49.856  <a href="f00081.html#ch0">2671</a>  2677 I art     : Wrote stack traces to '/data/anr/traces.txt'</div>
+</div></body>
+</html>

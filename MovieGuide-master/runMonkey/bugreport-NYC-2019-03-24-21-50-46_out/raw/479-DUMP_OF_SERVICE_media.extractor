@@ -1,0 +1,14 @@
+Recent extractors, most recent first:
+  OggExtractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/media/audio/ui/camera_click.ogg), 0, 4851)))), pid 5295: active
+    track {vinf: (unknown type 0, size 30), vboo: (unknown type 0, size 3077), srte: (int32_t) 44100, mime: (char*) audio/vorbis, dura: (int64_t) 139546, #chn: (int32_t) 1} : active
+  OggExtractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/media/audio/ui/Dock.ogg), 0, 6327)))), pid 1404: deleted
+  OggExtractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/media/audio/ringtones/PERSEUS.ogg), 0, 112981)))), pid 1404: deleted
+  OggExtractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/media/audio/ui/camera_focus.ogg), 0, 9376)))), pid 1404: deleted
+  OggExtractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/media/audio/ui/camera_click.ogg), 0, 4851)))), pid 1404: deleted
+  OggExtractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/media/audio/ui/WirelessChargingStarted.ogg), 0, 12025)))), pid 1404: deleted
+  OggExtractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/media/audio/ui/VideoStop.ogg), 0, 5582)))), pid 1404: deleted
+  OggExtractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/media/audio/ui/VideoRecord.ogg), 0, 5582)))), pid 1404: deleted
+  OggExtractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/media/audio/ui/Unlock.ogg), 0, 7853)))), pid 1404: deleted
+  OggExtractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/media/audio/ui/Undock.ogg), 0, 8240)))), pid 1404: deleted
+  OggExtractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/media/audio/ui/Trusted.ogg), 0, 5713)))), pid 1404: deleted
+--------- 0.001s was the duration of dumpsys media.extractor

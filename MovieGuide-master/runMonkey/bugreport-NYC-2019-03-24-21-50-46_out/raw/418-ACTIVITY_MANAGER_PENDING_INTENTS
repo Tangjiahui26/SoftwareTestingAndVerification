@@ -1,0 +1,378 @@
+  * PendingIntentRecord{a9c0ad7 com.google.android.googlequicksearchbox startService}
+    uid=10029 packageName=com.google.android.googlequicksearchbox type=startService flags=0x0
+    requestIntent=act=com.google.android.apps.sidekick.notifications.NOTIFICATION_GEOFENCE_ACTION cmp=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.sidekick.main.notifications.NotificationRefreshService
+  * PendingIntentRecord{9084fc4 com.google.android.partnersetup startService}
+    uid=10019 packageName=com.google.android.partnersetup type=startService flags=0x0
+    requestIntent=cmp=com.google.android.partnersetup/.RlzPingService
+  * PendingIntentRecord{66fdead com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestCode=13 requestResolvedType=null
+    requestIntent=act=com.google.android.gms.common.operation.LOG_CORE_ANALYTICS cat=[targeted_intent_op_prefix:.common.analytics.CoreAnalyticsIntentOperation] pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{a48b5e2 com.google.android.apps.nexuslauncher broadcastIntent}
+    uid=10022 packageName=com.google.android.apps.nexuslauncher type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.google.android.apps.nexuslauncher.reflection.ACTION_BOOT_CYCLE (has extras)
+  * PendingIntentRecord{72c7d73 com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestIntent=act=com.google.android.location.internal.action.FLP_LOW_POWER_LOCATION_RESULT pkg=com.google.android.gms cmp=com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService
+  * PendingIntentRecord{61ca430 com.google.android.apps.wallpaper broadcastIntent}
+    uid=10072 packageName=com.google.android.apps.wallpaper type=broadcastIntent flags=0x0
+    requestIntent=cmp=com.google.android.apps.wallpaper/.module.DailyLoggingAlarmReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{158b8a9 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.intent.action.GCM_RECONNECT
+    sent=true canceled=false
+  * PendingIntentRecord{6c04e2e com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=cmp=com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{d477dcf com.google.android.music startService}
+    uid=10058 packageName=com.google.android.music type=startService flags=0x0
+    requestCode=5 requestResolvedType=null
+    requestIntent=act=com.google.android.music.musicservicecommand.ratingbutton cmp=com.google.android.music/.playback.MusicPlaybackService (has extras)
+  * PendingIntentRecord{cdfd35c com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestCode=8 requestResolvedType=null
+    requestIntent=act=com.google.android.gms.common.operation.LOG_CORE_ANALYTICS cat=[targeted_intent_op_prefix:.common.analytics.CoreAnalyticsIntentOperation] pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras)
+  * PendingIntentRecord{2db3665 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.location.ALARM_WAKEUP_ACTIVITY_DETECTION
+  * PendingIntentRecord{9071f3a com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestIntent=act=com.google.android.gms.reminders.notification.ACTION_REFRESH_ALIAS_LOCATION_REMINDERS cat=[targeted_intent_op_prefix:.reminders.notification.RefreshNotificationsIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService
+  * PendingIntentRecord{46827eb com.google.android.apps.messaging broadcastIntent}
+    uid=10066 packageName=com.google.android.apps.messaging type=broadcastIntent flags=0x0
+    requestIntent=cmp=com.google.android.apps.messaging/.shared.analytics.AnalyticsAlarmReceiver
+  * PendingIntentRecord{744c948 com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestCode=4 requestResolvedType=null
+    requestIntent=act=com.google.android.gms.matchstick.register_intent_action cat=[targeted_intent_op_prefix:com.google.android.libraries.matchstick.net.SilentRegisterIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService
+  * PendingIntentRecord{34dd3e1 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=pkg=com.google.example.invalidpackage
+  * PendingIntentRecord{fb7f506 com.google.android.talk broadcastIntent}
+    uid=10052 packageName=com.google.android.talk type=broadcastIntent flags=0x0
+    requestIntent=pkg=com.google.example.invalidpackage
+  * PendingIntentRecord{69f57c7 com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=cmp=com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{98131f4 com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestIntent=cmp=com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{ff2cd1d com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestCode=3 requestResolvedType=null
+    requestIntent=cmp=com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{64e5b92 com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestCode=3 requestResolvedType=null
+    requestIntent=cmp=com.google.android.gms/com.google.android.location.places.service.PlaceDetectionAsyncService (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{42fa963 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.gms.auth.authzen.CHECK_REGISTRATION
+  * PendingIntentRecord{3797960 android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.settings.INPUT_METHOD_SETTINGS
+  * PendingIntentRecord{df41e19 com.google.android.music startService}
+    uid=10058 packageName=com.google.android.music type=startService flags=0x0
+    requestIntent=act=com.android.music.musicservicecommand.previous cmp=com.google.android.music/.playback.MusicPlaybackService
+  * PendingIntentRecord{2729ede com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestCode=6 requestResolvedType=null
+    requestIntent=cmp=com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{4e978bf com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestIntent=act=com.google.android.gms.reminders.notification.ACTION_REFRESH_TIME_REMINDERS cat=[targeted_intent_op_prefix:.reminders.notification.RefreshNotificationsIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService
+  * PendingIntentRecord{ceccb8c com.google.android.googlequicksearchbox startService}
+    uid=10029 packageName=com.google.android.googlequicksearchbox type=startService flags=0x0
+    requestIntent=act=com.google.android.search.core.action.ACTION_REOPEN_URL cmp=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.service.SearchService
+  * PendingIntentRecord{11f82d5 com.google.android.music startService}
+    uid=10058 packageName=com.google.android.music type=startService flags=0x0
+    requestIntent=act=com.android.music.musicservicecommand.relativeseek dat=-10000 cmp=com.google.android.music/.playback.MusicPlaybackService (has extras)
+  * PendingIntentRecord{a05caea com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.location.ALARM_WAKEUP_CALIBRATION_COLLECTOR
+  * PendingIntentRecord{346e1db android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.internal.location.ALARM_WAKEUP
+  * PendingIntentRecord{8611478 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=ScheduleConditionProvider.EVALUATE flg=0x10000000 (has extras)
+  * PendingIntentRecord{2627751 com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestIntent=act=com.google.android.gms.common.download.START cat=[targeted_intent_op_prefix:.common.download.DownloadIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService
+  * PendingIntentRecord{dedabb6 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.location.ALARM_WAKEUP_BURST_COLLECTION_TRIGGER
+  * PendingIntentRecord{d47c0b7 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=act=CONTEXT_MANAGER_ALARM_WAKEUP_32401 pkg=com.google.android.gms (has extras)
+  * PendingIntentRecord{8cf0024 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.location.ALARM_WAKEUP_ACTIVE_COLLECTOR
+  * PendingIntentRecord{206378d com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=cmp=com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{5a0cd42 com.google.android.googlequicksearchbox startService}
+    uid=10029 packageName=com.google.android.googlequicksearchbox type=startService flags=0x0
+    requestIntent=act=com.google.android.search.core.action.ACTION_CUSTOMTABS_HELP cmp=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.service.SearchService
+  * PendingIntentRecord{6e6266e com.android.systemui broadcastIntent (whitelist: +30s0ms)}
+    uid=10028 packageName=com.android.systemui type=broadcastIntent flags=0x0
+    requestCode=1018161611 requestResolvedType=null
+    requestIntent=cmp=com.android.settings/.deviceinfo.StorageUnmountReceiver (has extras)
+    whitelistDuration=+30s0ms
+  * PendingIntentRecord{70db153 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.location.ALARM_WAKEUP_CACHE_UPDATER
+  * PendingIntentRecord{60dfa90 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=5 requestResolvedType=null
+    requestIntent=act=android.app.backup.intent.INIT
+  * PendingIntentRecord{1abbf89 android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.settings.MANAGE_DEFAULT_APPS_SETTINGS
+  * PendingIntentRecord{7727b8e com.google.android.googlequicksearchbox startService}
+    uid=10029 packageName=com.google.android.googlequicksearchbox type=startService flags=0x0
+    requestIntent=act=com.google.android.search.core.action.ACTION_SHARE_URL cmp=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.service.SearchService
+  * PendingIntentRecord{b380faf android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=android.app.backup.intent.RUN flg=0x40000000
+  * PendingIntentRecord{c002fbc com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.google.android.awareness.geofence.receiver pkg=com.google.android.gms
+  * PendingIntentRecord{207cb45 com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestIntent=cmp=com.google.android.gms/.analytics.internal.PlayLogReportingService
+  * PendingIntentRecord{99ec29a com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestIntent=act=com.google.android.gms.icing.proxy.ACTION_MAYBE_UPDATE_CONTACTS cat=[targeted_intent_op_prefix:.icing.proxy.UpdateIcingCorporaIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras)
+  * PendingIntentRecord{4fff7cb android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.NetworkTimeUpdateService.action.POLL
+  * PendingIntentRecord{7e8ba8 com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestIntent=cmp=com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{5ed6c1 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.location.ALARM_WAKEUP_IN_OUT_DOOR_COLLECTOR
+  * PendingIntentRecord{8fc059c com.android.systemui broadcastIntent (whitelist: +30s0ms)}
+    uid=10028 packageName=com.android.systemui type=broadcastIntent flags=0x0
+    requestCode=566035751 requestResolvedType=null
+    requestIntent=act=com.android.systemui.action.SNOOZE_VOLUME (has extras)
+    sent=true canceled=false
+    whitelistDuration=+30s0ms
+  * PendingIntentRecord{8166e66 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=100 requestResolvedType=null
+    requestIntent=act=com.android.server.notification.CountdownConditionProvider flg=0x40000000 (has extras)
+  * PendingIntentRecord{1445a7 com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestIntent=act=com.google.android.location.internal.action.FLP_AR_RESULT pkg=com.google.android.gms cmp=com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService
+  * PendingIntentRecord{c04ba54 com.google.android.music startService}
+    uid=10058 packageName=com.google.android.music type=startService flags=0x0
+    requestIntent=act=com.android.music.musicservicecommand.relativeseek dat=30000 cmp=com.google.android.music/.playback.MusicPlaybackService (has extras)
+  * PendingIntentRecord{fc11dfd com.google.android.googlequicksearchbox startService}
+    uid=10029 packageName=com.google.android.googlequicksearchbox type=startService flags=0x0
+    requestIntent=cmp=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.VelvetBackgroundTasksIntentService
+    sent=true canceled=false
+  * PendingIntentRecord{b0b0af2 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=CONTEXT_MANAGER_ALARM_WAKEUP_32401 pkg=com.google.android.gms (has extras)
+  * PendingIntentRecord{a359543 com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestCode=3 requestResolvedType=null
+    requestIntent=act=com.google.android.gms.matchstick.register_intent_action cat=[targeted_intent_op_prefix:com.google.android.libraries.matchstick.net.SilentRegisterIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService
+  * PendingIntentRecord{11d27c0 com.google.android.music startService}
+    uid=10058 packageName=com.google.android.music type=startService flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.google.android.music.musicservicecommand.ratingbutton cmp=com.google.android.music/.playback.MusicPlaybackService (has extras)
+  * PendingIntentRecord{a069cf9 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.location.ALARM_WAKEUP_VEHICLE_EXIT_DETECTOR
+  * PendingIntentRecord{a3ae43e com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.google.android.gms.matchstick.register_intent_action cat=[targeted_intent_op_prefix:com.google.android.libraries.matchstick.net.SilentRegisterIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService
+  * PendingIntentRecord{292429f com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestIntent=cmp=com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{e8cffec com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestIntent=act=com.google.android.location.internal.action.GEOFENCER_LOCATION_RESULT pkg=com.google.android.gms cmp=com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService
+  * PendingIntentRecord{48b0fb5 com.google.android.googlequicksearchbox startService}
+    uid=10029 packageName=com.google.android.googlequicksearchbox type=startService flags=0x0
+    requestIntent=cmp=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.speech.grammar.GrammarCompilationService
+  * PendingIntentRecord{8fd064a com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.gms.gcm.ACTION_CHECK_QUEUE cmp=com.google.android.gms/.gcm.nts.SchedulerInternalReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{2e269bb com.google.android.googlequicksearchbox startService}
+    uid=10029 packageName=com.google.android.googlequicksearchbox type=startService flags=0x0
+    requestIntent=act=send_events cmp=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.eventlogger.EventLoggerService
+  * PendingIntentRecord{8402ed8 com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestCode=4 requestResolvedType=null
+    requestIntent=cmp=com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{4a9f231 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.location.ALARM_WAKEUP_SENSOR_COLLECTOR
+  * PendingIntentRecord{70d3d16 com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestIntent=act=com.google.android.location.internal.action.GEOFENCER_AR_RESULT pkg=com.google.android.gms cmp=com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService
+  * PendingIntentRecord{e43e697 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.location.ALARM_WAKEUP_LOCATOR
+  * PendingIntentRecord{2f56084 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.action.NETWORK_STATS_POLL
+    sent=true canceled=false
+  * PendingIntentRecord{ffa806d android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.net.proxy.PAC_REFRESH
+  * PendingIntentRecord{21814a2 com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestCode=11 requestResolvedType=null
+    requestIntent=act=com.google.android.gms.common.operation.LOG_CORE_ANALYTICS cat=[targeted_intent_op_prefix:.common.analytics.CoreAnalyticsIntentOperation] pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras)
+  * PendingIntentRecord{1d65533 com.google.android.googlequicksearchbox startService}
+    uid=10029 packageName=com.google.android.googlequicksearchbox type=startService flags=0x40000000
+    requestIntent=act=ACTION_MAYBE_UPDATE_CONTACTS cmp=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.icingsync.UpdateIcingCorporaService (has extras)
+  * PendingIntentRecord{eaa00f0 com.google.android.music startService}
+    uid=10058 packageName=com.google.android.music type=startService flags=0x0
+    requestIntent=act=com.android.music.musicservicecommand.next cmp=com.google.android.music/.playback.MusicPlaybackService
+  * PendingIntentRecord{bb36180 com.android.systemui broadcastIntent (whitelist: +30s0ms)}
+    uid=10028 packageName=com.android.systemui type=broadcastIntent flags=0x40000000
+    requestIntent=cmp=com.android.systemui/.screenshot.GlobalScreenshot$DeleteScreenshotReceiver (has extras)
+    whitelistDuration=+30s0ms
+  * PendingIntentRecord{44bb669 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.location.ALARM_WAKEUP_PASSIVE_COLLECTOR
+  * PendingIntentRecord{406d8ee com.android.systemui broadcastIntent}
+    uid=10028 packageName=com.android.systemui type=broadcastIntent flags=0x40000000
+    requestIntent=cmp=com.android.systemui/.screenshot.GlobalScreenshot$TargetChosenReceiver
+  * PendingIntentRecord{317118f com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestIntent=act=com.google.android.location.internal.action.FLP_FULL_POWER_LOCATION_RESULT pkg=com.google.android.gms cmp=com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService
+  * PendingIntentRecord{bc63c1c android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=EventConditionProvider.EVALUATE flg=0x10000000 (has extras)
+  * PendingIntentRecord{3605025 com.google.android.youtube broadcastIntent}
+    uid=10076 packageName=com.google.android.youtube type=broadcastIntent flags=0x0
+    requestIntent=
+  * PendingIntentRecord{a0b95fa com.google.android.music startService}
+    uid=10058 packageName=com.google.android.music type=startService flags=0x0
+    requestIntent=act=com.android.music.musicservicecommand.togglepause cmp=com.google.android.music/.playback.MusicPlaybackService
+  * PendingIntentRecord{7fd37ab com.google.android.configupdater broadcastIntent}
+    uid=10005 packageName=com.google.android.configupdater type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.configupdater.SmsShortCodes.UPDATE_SMS_SHORT_CODES cmp=com.google.android.configupdater/.SmsShortCodes.SmsShortCodesUpdateRequestReceiver
+  * PendingIntentRecord{708fe08 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.gms.gcm.HEARTBEAT_ALARM
+  * PendingIntentRecord{e6ac9a1 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x4000000
+    requestIntent=act=android.intent.action.DATE_CHANGED flg=0x20000000
+  * PendingIntentRecord{6d17c6 com.google.android.talk broadcastIntent}
+    uid=10052 packageName=com.google.android.talk type=broadcastIntent flags=0x0
+    requestIntent=
+  * PendingIntentRecord{4d5a387 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.intent.action.TIME_TICK flg=0x50000000
+    sent=true canceled=false
+  * PendingIntentRecord{833f2b4 com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestIntent=act=com.google.android.gms.stats.eastworld.action.EASTWORLD_ALARM cat=[targeted_intent_op_prefix:.stats.eastworld.EastworldAlarmOperation] cmp=com.google.android.gms/.chimera.PersistentIntentOperationService
+  * PendingIntentRecord{d495edd android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.DEVICE_IDLE
+  * PendingIntentRecord{f12ea52 com.google.android.googlequicksearchbox broadcastIntent}
+    uid=10029 packageName=com.google.android.googlequicksearchbox type=broadcastIntent flags=0x0
+    requestIntent=
+  * PendingIntentRecord{bdef123 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestCode=3 requestResolvedType=null
+    requestIntent=act=CONTEXT_MANAGER_ALARM_WAKEUP_32401 pkg=com.google.android.gms (has extras)
+  * PendingIntentRecord{f778620 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.ACTION_TRIGGER_IDLE flg=0x40000000 pkg=android
+  * PendingIntentRecord{d820bd9 com.google.android.configupdater broadcastIntent}
+    uid=10005 packageName=com.google.android.configupdater type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.configupdater.CertPin.UPDATE_CERT_PINS cmp=com.google.android.configupdater/.CertPin.CertPinUpdateRequestReceiver
+  * PendingIntentRecord{2d1599e com.google.android.googlequicksearchbox startService}
+    uid=10029 packageName=com.google.android.googlequicksearchbox type=startService flags=0x0
+    requestIntent=act=com.google.android.search.core.action.ACTION_COPY_URL cmp=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.service.SearchService
+  * PendingIntentRecord{a3d9e03 com.android.systemui startActivity (whitelist: +30s0ms)}
+    uid=10028 packageName=com.android.systemui type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.CHOOSER flg=0x10008000 (has extras)
+    whitelistDuration=+30s0ms
+  * PendingIntentRecord{aa57c7f com.google.android.music startService}
+    uid=10058 packageName=com.google.android.music type=startService flags=0x0
+    requestIntent=act=com.android.music.musicservicecommand.veto cmp=com.google.android.music/.playback.MusicPlaybackService
+  * PendingIntentRecord{d9ee44c com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=cmp=com.google.android.gms/.lockbox.LockboxAlarmReceiver
+  * PendingIntentRecord{4fe8c95 com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestCode=9 requestResolvedType=null
+    requestIntent=act=com.google.android.gms.common.operation.LOG_CORE_ANALYTICS cat=[targeted_intent_op_prefix:.common.analytics.CoreAnalyticsIntentOperation] pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras)
+  * PendingIntentRecord{f7571aa android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.CHOOSER (has extras)
+  * PendingIntentRecord{11f619b com.google.android.gms startService}
+    uid=10013 packageName=com.google.android.gms type=startService flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=cmp=com.google.android.gms/com.google.android.libraries.social.mediamonitor.MediaMonitorIntentService
+  * PendingIntentRecord{2fbf938 com.google.android.music broadcastIntent}
+    uid=10058 packageName=com.google.android.music type=broadcastIntent flags=0x0
+    requestIntent=act=android.intent.action.MEDIA_BUTTON cmp=com.google.android.music/.playback.MediaButtonIntentReceiver
+  * PendingIntentRecord{4885d11 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.location.ALARM_WAKEUP_BURST_COLLECTOR
+  * PendingIntentRecord{690fe76 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.internal.location.ALARM_TIMEOUT
+  * PendingIntentRecord{e887c77 com.google.android.googlequicksearchbox startService}
+    uid=10029 packageName=com.google.android.googlequicksearchbox type=startService flags=0x0
+    requestIntent=cmp=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.service.SearchService
+  * PendingIntentRecord{11370e4 com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=cmp=com.google.android.gms/com.google.android.location.internal.AnalyticsSamplerReceiver
+  * PendingIntentRecord{604b94d com.google.android.gms broadcastIntent}
+    uid=10013 packageName=com.google.android.gms type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.location.ALARM_WAKEUP_SENSOR_UPLOADER
+  * PendingIntentRecord{f068c02 com.android.phone broadcastIntent}
+    uid=1001 packageName=com.android.phone type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.phone.vvm.omtp.sms.REQUEST_SENT pkg=com.android.phone
+    sent=true canceled=false
+  * PendingIntentRecord{febeb2 com.android.systemui startActivity (whitelist: +30s0ms)}
+    uid=10028 packageName=com.android.systemui type=startActivity flags=0x0
+    requestCode=0 requestResolvedType=image/png
+    requestIntent=act=android.intent.action.VIEW dat=content://media/external/images/media/55 typ=image/png flg=0x10000000
+    whitelistDuration=+30s0ms
+  * PendingIntentRecord{6c8110f com.android.systemui startActivity (whitelist: +30s0ms)}
+    uid=10028 packageName=com.android.systemui type=startActivity flags=0x0
+    requestCode=1018161611 requestResolvedType=null
+    requestIntent=cmp=com.android.settings/.deviceinfo.StorageWizardInit (has extras)
+    whitelistDuration=+30s0ms
+  * PendingIntentRecord{ffe6913 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.settings.SHOW_INPUT_METHOD_PICKER
+

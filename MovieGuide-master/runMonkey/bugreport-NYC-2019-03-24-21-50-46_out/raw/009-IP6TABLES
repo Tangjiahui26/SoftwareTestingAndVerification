@@ -1,0 +1,129 @@
+Chain INPUT (policy ACCEPT 7 packets, 734 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+      75    10090 bw_INPUT   all      *      *       ::/0                 ::/0                
+      75    10090 fw_INPUT   all      *      *       ::/0                 ::/0                
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 oem_fwd    all      *      *       ::/0                 ::/0                
+       0        0 fw_FORWARD  all      *      *       ::/0                 ::/0                
+       0        0 bw_FORWARD  all      *      *       ::/0                 ::/0                
+       0        0 natctrl_FORWARD  all      *      *       ::/0                 ::/0                
+
+Chain OUTPUT (policy ACCEPT 14 packets, 1012 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+      89     6971 oem_out    all      *      *       ::/0                 ::/0                
+      89     6971 fw_OUTPUT  all      *      *       ::/0                 ::/0                
+      89     6971 st_OUTPUT  all      *      *       ::/0                 ::/0                
+      89     6971 bw_OUTPUT  all      *      *       ::/0                 ::/0                
+
+Chain bw_FORWARD (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain bw_INPUT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+      34     4947            all      *      *       ::/0                 ::/0                 ! quota globalAlert: 2097152 bytes 
+      51     7970            all      *      *       ::/0                 ::/0                 owner socket exists
+
+Chain bw_OUTPUT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+      30     2409            all      *      *       ::/0                 ::/0                 ! quota globalAlert: 2097152 bytes 
+      80     6363            all      *      *       ::/0                 ::/0                 owner socket exists
+
+Chain bw_costly_shared (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 bw_penalty_box  all      *      *       ::/0                 ::/0                
+
+Chain bw_data_saver (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 RETURN     all      *      *       ::/0                 ::/0                
+
+Chain bw_happy_box (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 RETURN     all      *      *       ::/0                 ::/0                 owner UID match 10010
+       0        0 RETURN     all      *      *       ::/0                 ::/0                 owner UID match 10013
+       0        0 RETURN     all      *      *       ::/0                 ::/0                 owner UID match 0-9999
+       0        0 bw_data_saver  all      *      *       ::/0                 ::/0                
+
+Chain bw_penalty_box (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 bw_happy_box  all      *      *       ::/0                 ::/0                
+
+Chain fw_FORWARD (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain fw_INPUT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain fw_OUTPUT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain fw_dozable (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 RETURN     all      lo     lo      ::/0                 ::/0                
+       0        0 RETURN     tcp      *      *       ::/0                 ::/0                 tcp flags:0x04/0x04
+       0        0 RETURN     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 2
+       0        0 RETURN     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 133
+       0        0 RETURN     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 134
+       0        0 RETURN     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 135
+       0        0 RETURN     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 136
+       0        0 RETURN     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 137
+       0        0 RETURN     all      *      *       ::/0                 ::/0                 owner UID match 0-9999
+       0        0 DROP       all      *      *       ::/0                 ::/0                
+
+Chain fw_powersave (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 RETURN     all      lo     lo      ::/0                 ::/0                
+       0        0 RETURN     tcp      *      *       ::/0                 ::/0                 tcp flags:0x04/0x04
+       0        0 RETURN     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 2
+       0        0 RETURN     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 133
+       0        0 RETURN     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 134
+       0        0 RETURN     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 135
+       0        0 RETURN     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 136
+       0        0 RETURN     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 137
+       0        0 RETURN     all      *      *       ::/0                 ::/0                 owner UID match 0-9999
+       0        0 DROP       all      *      *       ::/0                 ::/0                
+
+Chain fw_standby (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 RETURN     all      lo     lo      ::/0                 ::/0                
+       0        0 RETURN     tcp      *      *       ::/0                 ::/0                 tcp flags:0x04/0x04
+
+Chain natctrl_FORWARD (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain natctrl_tether_counters (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain oem_fwd (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain oem_out (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain st_OUTPUT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain st_clear_caught (2 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain st_clear_detect (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 REJECT     all      *      *       ::/0                 ::/0                 connmark match  0x2000000/0x2000000 reject-with icmp6-port-unreachable
+       0        0 RETURN     all      *      *       ::/0                 ::/0                 connmark match  0x1000000/0x1000000
+       0        0 CONNMARK   tcp      *      *       ::/0                 ::/0                 u32 "0x34>>0x1a&0x3c@0x28&0xffff0000=0x16030000&&0x34>>0x1a&0x3c@0x2c&0xff0000=0x10000" CONNMARK or 0x1000000
+       0        0 CONNMARK   udp      *      *       ::/0                 ::/0                 u32 "0x30&0xffff0000=0x16fe0000&&0x3c&0xff0000=0x10000" CONNMARK or 0x1000000
+       0        0 RETURN     all      *      *       ::/0                 ::/0                 connmark match  0x1000000/0x1000000
+       0        0 st_clear_caught  tcp      *      *       ::/0                 ::/0                 state ESTABLISHED u32 "0x34>>0x1a&0x3c@0x28&0x0=0x0"
+       0        0 st_clear_caught  udp      *      *       ::/0                 ::/0                
+
+Chain st_penalty_log (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 CONNMARK   all      *      *       ::/0                 ::/0                 CONNMARK or 0x1000000
+       0        0 NFLOG      all      *      *       ::/0                 ::/0                
+
+Chain st_penalty_reject (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 CONNMARK   all      *      *       ::/0                 ::/0                 CONNMARK or 0x2000000
+       0        0 NFLOG      all      *      *       ::/0                 ::/0                
+       0        0 REJECT     all      *      *       ::/0                 ::/0                 reject-with icmp6-port-unreachable

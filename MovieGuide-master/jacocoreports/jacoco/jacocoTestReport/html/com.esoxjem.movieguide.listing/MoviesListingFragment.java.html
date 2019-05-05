@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>MoviesListingFragment.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">app</a> &gt; <a href="index.source.html" class="el_package">com.esoxjem.movieguide.listing</a> &gt; <span class="el_source">MoviesListingFragment.java</span></div><h1>MoviesListingFragment.java</h1><pre class="source lang-java linenums">package com.esoxjem.movieguide.listing;
+
+
+import android.content.Context;
+import android.content.res.Configuration;
+import android.os.Bundle;
+import android.os.Parcelable;
+import android.support.design.widget.Snackbar;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.Fragment;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+
+import com.esoxjem.movieguide.BaseApplication;
+import com.esoxjem.movieguide.Constants;
+import com.esoxjem.movieguide.Movie;
+import com.esoxjem.movieguide.R;
+import com.esoxjem.movieguide.listing.sorting.SortingDialogFragment;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.inject.Inject;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.Unbinder;
+
+public class MoviesListingFragment extends Fragment implements MoviesListingView {
+    @Inject
+    MoviesListingPresenter moviesPresenter;
+
+    @BindView(R.id.movies_listing)
+    RecyclerView moviesListing;
+
+    private RecyclerView.Adapter adapter;
+<span class="fc" id="L41">    private List&lt;Movie&gt; movies = new ArrayList&lt;&gt;(20);</span>
+    private Callback callback;
+    private Unbinder unbinder;
+
+<span class="fc" id="L45">    public MoviesListingFragment() {</span>
+        // Required empty public constructor
+<span class="fc" id="L47">    }</span>
+
+    @Override
+    public void onAttach(Context context) {
+<span class="fc" id="L51">        super.onAttach(context);</span>
+<span class="fc" id="L52">        callback = (Callback) context;</span>
+<span class="fc" id="L53">    }</span>
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+<span class="fc" id="L57">        super.onCreate(savedInstanceState);</span>
+<span class="fc" id="L58">        setHasOptionsMenu(true);</span>
+<span class="fc" id="L59">        setRetainInstance(true);</span>
+<span class="fc" id="L60">        ((BaseApplication) getActivity().getApplication()).createListingComponent().inject(this);</span>
+<span class="fc" id="L61">    }</span>
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+<span class="fc" id="L65">        View rootView = inflater.inflate(R.layout.fragment_movies, container, false);</span>
+<span class="fc" id="L66">        unbinder = ButterKnife.bind(this, rootView);</span>
+<span class="fc" id="L67">        initLayoutReferences();</span>
+<span class="fc" id="L68">        moviesListing.addOnScrollListener(new RecyclerView.OnScrollListener() {</span>
+            @Override
+            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+<span class="fc" id="L71">                super.onScrollStateChanged(recyclerView, newState);</span>
+
+<span class="pc bpc" id="L73" title="1 of 2 branches missed.">                if (!recyclerView.canScrollVertically(1)) {</span>
+<span class="nc" id="L74">                    moviesPresenter.nextPage();</span>
+                }
+<span class="fc" id="L76">            }</span>
+        });
+<span class="fc" id="L78">        return rootView;</span>
+    }
+
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+<span class="fc" id="L83">        super.onViewCreated(view, savedInstanceState);</span>
+<span class="fc" id="L84">        moviesPresenter.setView(this);</span>
+<span class="pc bpc" id="L85" title="1 of 2 branches missed.">        if (savedInstanceState != null) {</span>
+<span class="nc" id="L86">            movies = savedInstanceState.getParcelableArrayList(Constants.MOVIE);</span>
+<span class="nc" id="L87">            adapter.notifyDataSetChanged();</span>
+<span class="nc" id="L88">            moviesListing.setVisibility(View.VISIBLE);</span>
+        } else {
+<span class="fc" id="L90">            moviesPresenter.firstPage();</span>
+        }
+<span class="fc" id="L92">    }</span>
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+<span class="fc bfc" id="L96" title="All 2 branches covered.">        switch (item.getItemId()) {</span>
+            case R.id.action_sort:
+<span class="fc" id="L98">                moviesPresenter.firstPage();</span>
+<span class="fc" id="L99">                displaySortingOptions();</span>
+        }
+
+<span class="fc" id="L102">        return super.onOptionsItemSelected(item);</span>
+    }
+
+    private void displaySortingOptions() {
+<span class="fc" id="L106">        DialogFragment sortingDialogFragment = SortingDialogFragment.newInstance(moviesPresenter);</span>
+<span class="fc" id="L107">        sortingDialogFragment.show(getFragmentManager(), &quot;Select Quantity&quot;);</span>
+<span class="fc" id="L108">    }</span>
+
+    private void initLayoutReferences() {
+<span class="fc" id="L111">        moviesListing.setHasFixedSize(true);</span>
+
+        int columns;
+<span class="pc bpc" id="L114" title="1 of 2 branches missed.">        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {</span>
+<span class="nc" id="L115">            columns = 2;</span>
+        } else {
+<span class="fc" id="L117">            columns = getResources().getInteger(R.integer.no_of_columns);</span>
+        }
+<span class="fc" id="L119">        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getActivity(), columns);</span>
+
+<span class="fc" id="L121">        moviesListing.setLayoutManager(layoutManager);</span>
+<span class="fc" id="L122">        adapter = new MoviesListingAdapter(movies, this);</span>
+<span class="fc" id="L123">        moviesListing.setAdapter(adapter);</span>
+<span class="fc" id="L124">    }</span>
+
+    @Override
+    public void showMovies(List&lt;Movie&gt; movies) {
+<span class="fc" id="L128">        this.movies.clear();</span>
+<span class="fc" id="L129">        this.movies.addAll(movies);</span>
+<span class="fc" id="L130">        moviesListing.setVisibility(View.VISIBLE);</span>
+<span class="fc" id="L131">        adapter.notifyDataSetChanged();</span>
+<span class="fc" id="L132">        callback.onMoviesLoaded(movies.get(0));</span>
+<span class="fc" id="L133">    }</span>
+
+    @Override
+    public void loadingStarted() {
+<span class="fc" id="L137">        Snackbar.make(moviesListing, R.string.loading_movies, Snackbar.LENGTH_SHORT).show();</span>
+<span class="fc" id="L138">    }</span>
+
+    @Override
+    public void loadingFailed(String errorMessage) {
+<span class="fc" id="L142">        Snackbar.make(moviesListing, errorMessage, Snackbar.LENGTH_INDEFINITE).show();</span>
+<span class="fc" id="L143">    }</span>
+
+    @Override
+    public void onMovieClicked(Movie movie) {
+<span class="fc" id="L147">        callback.onMovieClicked(movie);</span>
+<span class="fc" id="L148">    }</span>
+
+    @Override
+    public void onDestroyView() {
+<span class="nc" id="L152">        super.onDestroyView();</span>
+<span class="nc" id="L153">        moviesPresenter.destroy();</span>
+<span class="nc" id="L154">        unbinder.unbind();</span>
+<span class="nc" id="L155">    }</span>
+
+    @Override
+    public void onDetach() {
+<span class="nc" id="L159">        callback = null;</span>
+<span class="nc" id="L160">        super.onDetach();</span>
+<span class="nc" id="L161">    }</span>
+
+    @Override
+    public void onDestroy() {
+<span class="nc" id="L165">        super.onDestroy();</span>
+<span class="nc" id="L166">        ((BaseApplication) getActivity().getApplication()).releaseListingComponent();</span>
+<span class="nc" id="L167">    }</span>
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+<span class="fc" id="L171">        super.onSaveInstanceState(outState);</span>
+<span class="fc" id="L172">        outState.putParcelableArrayList(Constants.MOVIE, (ArrayList&lt;? extends Parcelable&gt;) movies);</span>
+<span class="fc" id="L173">    }</span>
+
+    public void searchViewClicked(String searchText){
+<span class="nc" id="L176">        moviesPresenter.searchMovie(searchText);</span>
+<span class="nc" id="L177">    }</span>
+
+    public void searchViewBackButtonClicked() {
+<span class="nc" id="L180">        moviesPresenter.searchMovieBackPressed();</span>
+<span class="nc" id="L181">    }</span>
+
+    public interface Callback {
+        void onMoviesLoaded(Movie movie);
+
+        void onMovieClicked(Movie movie);
+    }
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.4.201502262128</span></div></body></html>

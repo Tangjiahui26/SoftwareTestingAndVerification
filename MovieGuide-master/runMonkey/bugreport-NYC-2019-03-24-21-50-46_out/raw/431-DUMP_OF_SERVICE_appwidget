@@ -1,0 +1,49 @@
+Providers:
+  [0] provider ProviderId{user:0, app:10037, cmp:ComponentInfo{com.android.chrome/com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider}}
+    min=(46081x38401)   minResize=(16385x12289) updatePeriodMillis=86400000 resizeMode=3 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f04003e initialKeyguardLayout=#0 zombie=false
+  [1] provider ProviderId{user:0, app:10046, cmp:ComponentInfo{com.android.gallery3d/com.android.gallery3d.gadget.PhotoAppWidgetProvider}}
+    min=(46081x46081)   minResize=(46081x46081) updatePeriodMillis=86400000 resizeMode=0 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f040007 initialKeyguardLayout=#0 zombie=false
+  [2] provider ProviderId{user:0, app:10070, cmp:ComponentInfo{com.android.protips/com.android.protips.ProtipWidget}}
+    min=(75265x18433)   minResize=(75265x18433) updatePeriodMillis=0 resizeMode=0 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f030002 initialKeyguardLayout=#0 zombie=false
+  [3] provider ProviderId{user:0, app:10041, cmp:ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.widget.CakemixAppWidgetProvider}}
+    min=(75265x15361)   minResize=(75265x15361) updatePeriodMillis=0 resizeMode=1 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f040038 initialKeyguardLayout=#0 zombie=false
+  [4] provider ProviderId{user:0, app:10066, cmp:ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.widget.BugleWidgetProvider}}
+    min=(64001x46081)   minResize=(28161x28161) updatePeriodMillis=0 resizeMode=3 widgetCategory=3 autoAdvanceViewId=-1 initialLayout=#7f0400ad initialKeyguardLayout=#0 zombie=false
+  [5] provider ProviderId{user:0, app:10066, cmp:ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.widget.WidgetConversationProvider}}
+    min=(46081x46081)   minResize=(28161x28161) updatePeriodMillis=0 resizeMode=3 widgetCategory=3 autoAdvanceViewId=-1 initialLayout=#7f0400ac initialKeyguardLayout=#0 zombie=false
+  [6] provider ProviderId{user:0, app:10022, cmp:ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.util.DummyWidget}}
+    min=(12289x12289)   minResize=(12289x12289) updatePeriodMillis=0 resizeMode=0 widgetCategory=4 autoAdvanceViewId=-1 initialLayout=#0 initialKeyguardLayout=#0 zombie=false
+  [7] provider ProviderId{user:0, app:10034, cmp:ComponentInfo{com.google.android.calendar/com.android.calendar.widget.CalendarAppWidgetProvider}}
+    min=(28161x46081)   minResize=(28161x28161) updatePeriodMillis=0 resizeMode=3 widgetCategory=3 autoAdvanceViewId=-1 initialLayout=#7f040164 initialKeyguardLayout=#0 zombie=false
+  [8] provider ProviderId{user:0, app:10067, cmp:ComponentInfo{com.google.android.deskclock/com.android.alarmclock.AnalogAppWidgetProvider}}
+    min=(28161x28161)   minResize=(14081x14081) updatePeriodMillis=0 resizeMode=3 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f040021 initialKeyguardLayout=#0 zombie=false
+  [9] provider ProviderId{user:0, app:10067, cmp:ComponentInfo{com.google.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider}}
+    min=(52737x33025)   minResize=(34817x15105) updatePeriodMillis=0 resizeMode=3 widgetCategory=3 autoAdvanceViewId=-1 initialLayout=#7f040044 initialKeyguardLayout=#0 zombie=false
+  [10] provider ProviderId{user:0, app:10068, cmp:ComponentInfo{com.google.android.gm/com.google.android.gm.widget.GmailWidgetProvider}}
+    min=(46081x46081)   minResize=(46081x28161) updatePeriodMillis=0 resizeMode=3 widgetCategory=3 autoAdvanceViewId=-1 initialLayout=#7f040165 initialKeyguardLayout=#0 zombie=false
+  [11] provider ProviderId{user:0, app:10029, cmp:ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.sidekick.widget.PredictiveCardsWidgetProvider}}
+    min=(76801x64001)   minResize=(64001x14849) updatePeriodMillis=86400000 resizeMode=3 widgetCategory=3 autoAdvanceViewId=-1 initialLayout=#7f0401e0 initialKeyguardLayout=#0 zombie=false
+  [12] provider ProviderId{user:0, app:10029, cmp:ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchWidgetProvider}}
+    min=(71681x10241)   minResize=(20481x10241) updatePeriodMillis=86400000 resizeMode=1 widgetCategory=5 autoAdvanceViewId=-1 initialLayout=#7f040295 initialKeyguardLayout=#0 zombie=false
+  [13] provider ProviderId{user:0, app:10058, cmp:ComponentInfo{com.google.android.music/com.android.music.MediaAppWidgetProvider}}
+    min=(61441x10241)   minResize=(61441x10241) updatePeriodMillis=0 resizeMode=3 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f04008d initialKeyguardLayout=#0 zombie=false
+  [14] provider ProviderId{user:0, app:10058, cmp:ComponentInfo{com.google.android.music/com.google.android.music.homewidgets.IFLWidgetProvider}}
+    min=(10241x10241)   minResize=(10241x10241) updatePeriodMillis=0 resizeMode=0 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f040142 initialKeyguardLayout=#7f020238 zombie=false
+  [15] provider ProviderId{user:0, app:10077, cmp:ComponentInfo{com.example.android.apis/com.example.android.apis.appwidget.ExampleAppWidgetProvider}}
+    min=(15361x7681)   minResize=(15361x7681) updatePeriodMillis=86400000 resizeMode=1 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f03001c initialKeyguardLayout=#0 zombie=false
+  [16] provider ProviderId{user:0, app:10029, cmp:ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.gsa.soundsearchwidget.IntentWidgetProvider}}
+    min=(15361x15361)   minResize=(15361x15361) updatePeriodMillis=0 resizeMode=0 widgetCategory=3 autoAdvanceViewId=-1 initialLayout=#7f0402be initialKeyguardLayout=#7f0402be zombie=false
+ 
+Widgets:
+  [0] id=2
+    host=HostId{user:0, app:10022, hostId:2048, pkg:com.google.android.apps.nexuslauncher}
+    provider=ProviderId{user:0, app:10022, cmp:ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.util.DummyWidget}}
+    host.callbacks=null
+ 
+Hosts:
+  [0] hostId=HostId{user:0, app:10022, hostId:2048, pkg:com.google.android.apps.nexuslauncher}
+    callbacks=null
+    widgets.size=1 zombie=false
+ 
+Grants:
+--------- 0.001s was the duration of dumpsys appwidget

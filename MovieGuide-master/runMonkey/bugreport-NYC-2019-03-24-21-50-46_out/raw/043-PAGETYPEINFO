@@ -1,0 +1,28 @@
+Page block order: 10
+Pages per block:  1024
+
+Free pages count per migrate type at order       0      1      2      3      4      5      6      7      8      9     10 
+Node    0, zone      DMA, type    Unmovable      3      3      7     11      0      0      0      0      0      0      0 
+Node    0, zone      DMA, type  Reclaimable      0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone      DMA, type      Movable      1      2      0      1      0      0      0      0      0      0      0 
+Node    0, zone      DMA, type      Reserve      0      0      0      0      0      0      0      0      0      0      1 
+Node    0, zone      DMA, type          CMA      0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone      DMA, type      Isolate      0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone   Normal, type    Unmovable     15     11      5      1      1      1      0      0      0      0      0 
+Node    0, zone   Normal, type  Reclaimable     19      6      2      7      2      2      0      0      0      0      0 
+Node    0, zone   Normal, type      Movable   1104    883    132     91     44     17      6      0      0      0      0 
+Node    0, zone   Normal, type      Reserve      0      0      0      0      0      0      0      0      0      0      1 
+Node    0, zone   Normal, type          CMA  11471  11469   4831      7      0      1      1      1      1      1      1 
+Node    0, zone   Normal, type      Isolate      0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone  HighMem, type    Unmovable     70     28     30     18      7      1      2      1      0      0      0 
+Node    0, zone  HighMem, type  Reclaimable      0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone  HighMem, type      Movable   1081    248     32     13      5      3      1     14      0      0      0 
+Node    0, zone  HighMem, type      Reserve      7      4      5      4      1      1      1      0      1      0      0 
+Node    0, zone  HighMem, type          CMA      0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone  HighMem, type      Isolate      0      0      0      0      0      0      0      0      0      0      0 
+
+Number of blocks type     Unmovable  Reclaimable      Movable      Reserve          CMA      Isolate 
+Node 0, zone      DMA            1            0            2            1            0            0 
+Node 0, zone   Normal           13            3          119            1           72            0 
+Node 0, zone  HighMem            3            0          168            1            0            0 
+

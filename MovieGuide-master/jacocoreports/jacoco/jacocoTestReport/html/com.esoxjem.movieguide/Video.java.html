@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Video.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">app</a> &gt; <a href="index.source.html" class="el_package">com.esoxjem.movieguide</a> &gt; <span class="el_source">Video.java</span></div><h1>Video.java</h1><pre class="source lang-java linenums">package com.esoxjem.movieguide;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+import com.squareup.moshi.Json;
+
+/**
+ * @author arun
+ */
+public class Video implements Parcelable {
+    public static final String SITE_YOUTUBE = &quot;YouTube&quot;;
+
+    private String id;
+    private String name;
+    private String site;
+    @Json(name = &quot;key&quot;)
+    private String videoId;
+    private int size;
+    private String type;
+
+<span class="fc" id="L22">    public Video() {</span>
+
+<span class="fc" id="L24">    }</span>
+
+<span class="nc" id="L26">    protected Video(Parcel in) {</span>
+<span class="nc" id="L27">        id = in.readString();</span>
+<span class="nc" id="L28">        name = in.readString();</span>
+<span class="nc" id="L29">        site = in.readString();</span>
+<span class="nc" id="L30">        videoId = in.readString();</span>
+<span class="nc" id="L31">        size = in.readInt();</span>
+<span class="nc" id="L32">        type = in.readString();</span>
+<span class="nc" id="L33">    }</span>
+
+<span class="fc" id="L35">    public static final Creator&lt;Video&gt; CREATOR = new Creator&lt;Video&gt;() {</span>
+        @Override
+        public Video createFromParcel(Parcel in) {
+<span class="nc" id="L38">            return new Video(in);</span>
+        }
+
+        @Override
+        public Video[] newArray(int size) {
+<span class="nc" id="L43">            return new Video[size];</span>
+        }
+    };
+
+    public static String getUrl(Video video) {
+<span class="pc bpc" id="L48" title="1 of 2 branches missed.">        if (SITE_YOUTUBE.equalsIgnoreCase(video.getSite())) {</span>
+<span class="fc" id="L49">            return String.format(Api.YOUTUBE_VIDEO_URL, video.getVideoId());</span>
+        } else {
+<span class="nc" id="L51">            return Constants.EMPTY;</span>
+        }
+    }
+
+    public static String getThumbnailUrl(Video video) {
+<span class="pc bpc" id="L56" title="1 of 2 branches missed.">        if (SITE_YOUTUBE.equalsIgnoreCase(video.getSite())) {</span>
+<span class="fc" id="L57">            return String.format(Api.YOUTUBE_THUMBNAIL_URL, video.getVideoId());</span>
+        } else {
+<span class="nc" id="L59">            return Constants.EMPTY;</span>
+        }
+    }
+
+    public String getId() {
+<span class="nc" id="L64">        return id;</span>
+    }
+
+    public void setId(String id) {
+<span class="nc" id="L68">        this.id = id;</span>
+<span class="nc" id="L69">    }</span>
+
+    public String getName() {
+<span class="nc" id="L72">        return name;</span>
+    }
+
+    public void setName(String name) {
+<span class="nc" id="L76">        this.name = name;</span>
+<span class="nc" id="L77">    }</span>
+
+    public String getSite() {
+<span class="fc" id="L80">        return site;</span>
+    }
+
+    public void setSite(String site) {
+<span class="nc" id="L84">        this.site = site;</span>
+<span class="nc" id="L85">    }</span>
+
+    public String getVideoId() {
+<span class="fc" id="L88">        return videoId;</span>
+    }
+
+    public void setVideoId(String videoId) {
+<span class="nc" id="L92">        this.videoId = videoId;</span>
+<span class="nc" id="L93">    }</span>
+
+    public int getSize() {
+<span class="nc" id="L96">        return size;</span>
+    }
+
+    public void setSize(int size) {
+<span class="nc" id="L100">        this.size = size;</span>
+<span class="nc" id="L101">    }</span>
+
+    public String getType() {
+<span class="nc" id="L104">        return type;</span>
+    }
+
+    public void setType(String type) {
+<span class="nc" id="L108">        this.type = type;</span>
+<span class="nc" id="L109">    }</span>
+
+    @Override
+    public int describeContents() {
+<span class="nc" id="L113">        return 0;</span>
+    }
+
+    @Override
+    public void writeToParcel(Parcel parcel, int i) {
+<span class="nc" id="L118">        parcel.writeString(id);</span>
+<span class="nc" id="L119">        parcel.writeString(name);</span>
+<span class="nc" id="L120">        parcel.writeString(site);</span>
+<span class="nc" id="L121">        parcel.writeString(videoId);</span>
+<span class="nc" id="L122">        parcel.writeInt(size);</span>
+<span class="nc" id="L123">        parcel.writeString(type);</span>
+<span class="nc" id="L124">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.4.201502262128</span></div></body></html>

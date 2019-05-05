@@ -1,0 +1,78 @@
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+     256        8        0        0        8        0        0        0    2 /dev/__properties__/properties_serial
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:debug_prop:s0
+     128       20        0        0       20        0        0        0    1 /dev/__properties__/u:object_r:default_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:log_tag_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:logd_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:qemu_prop:s0
+   17432        8        8        0        0        0        8        0    4 /dev/ashmem/gralloc-buffer (deleted)
+    1016        4        4        0        0        4        0        0    1 /dev/binder
+    8100        0        0        0        0        0        0        0    1 /dev/goldfish_pipe
+     832      272       20      256        0        0       16        0    3 /system/bin/linker
+      12       12       12        0        0        8        4        0    2 /system/bin/surfaceflinger
+      20       20       20        0        0        0       20        0    1 /system/etc/event-log-tags
+     180      160       34      152        0        0        8        0    4 /system/lib/egl/libEGL_emulation.so
+      84       36       11       28        0        0        8        0    4 /system/lib/egl/libGLESv1_CM_emulation.so
+     112       72       20       60        0        0       12        0    3 /system/lib/egl/libGLESv2_emulation.so
+      52       40       13       32        0        0        8        0    3 /system/lib/hw/gralloc.ranchu.so
+     140      104       29       88        0        4       12        0    4 /system/lib/libEGL.so
+      40       32        9       24        0        0        8        0    3 /system/lib/libGLESv1_CM.so
+     288       56       24       48        0        0        8        0    3 /system/lib/libGLESv1_enc.so
+      80       40       10       32        0        0        8        0    3 /system/lib/libGLESv2.so
+     488      212       50      204        0        0        8        0    4 /system/lib/libGLESv2_enc.so
+      36       32       10       24        0        0        8        0    3 /system/lib/libOpenglSystemCommon.so
+      48       32       10       24        0        0        8        0    3 /system/lib/lib_renderControl_enc.so
+      76       24        8       16        0        0        8        0    3 /system/lib/libbacktrace.so
+      52       24        8       16        0        0        8        0    3 /system/lib/libbase.so
+     528      396       60      356        0        0       40        0    4 /system/lib/libbinder.so
+     964      280       27      260        0        0       20        0    4 /system/lib/libc++.so
+     876      544       30      524        0        0       20        0    4 /system/lib/libc.so
+     128       92       10       84        0        0        8        0    4 /system/lib/libcutils.so
+     600      488      138      416        0       16       56        0    3 /system/lib/libgui.so
+      16       12        8        4        0        0        8        0    4 /system/lib/libhardware.so
+      68       20        8       12        0        0        8        0    3 /system/lib/liblog.so
+     168       20        8       12        0        0        8        0    3 /system/lib/liblzma.so
+     220       52       11       44        0        0        8        0    3 /system/lib/libm.so
+      16       16        8        8        0        0        8        0    3 /system/lib/libnetd_client.so
+      28       24        9       16        0        0        8        0    4 /system/lib/libpowermanager.so
+     488      376      376        0        0      348       28        0    4 /system/lib/libsurfaceflinger.so
+      12       12        8        4        0        0        8        0    3 /system/lib/libsync.so
+     120      108       21       96        0        4        8        0    3 /system/lib/libui.so
+     116       16        8        8        0        0        8        0    3 /system/lib/libunwind.so
+     148      128       11      120        0        0        8        0    4 /system/lib/libutils.so
+     144       28       11       20        0        0        8        0    4 /system/lib/libvulkan.so
+      96       16        8        8        0        0        8        0    3 /system/lib/libz.so
+     132       44       44        0        0        0       44        0    7 [anon:.bss]
+       4        4        4        0        0        0        4        0    1 [anon:arc4random _rs structure]
+       4        4        4        0        0        0        4        0    1 [anon:arc4random _rsx structure]
+       8        8        8        0        0        0        8        0    2 [anon:atexit handlers]
+   26624      728      728        0        0        0      728        0    7 [anon:libc_malloc]
+      36       36       36        0        0        0       36        0    8 [anon:linker_alloc]
+       4        4        4        0        0        0        4        0    1 [anon:linker_alloc_lob]
+      20       20       20        0        0        0       20        0    5 [anon:linker_alloc_small_objects]
+      28       28       28        0        0        0       28        0    7 [anon:linker_alloc_vector]
+      52        0        0        0        0        0        0        0   13 [anon:thread signal stack guard page]
+     104        0        0        0        0        0        0        0   13 [anon:thread signal stack]
+      48        0        0        0        0        0        0        0   12 [anon:thread stack guard page]
+      24       20       20        0        0        0       20        0    4 [anon]
+    1016        8        8        0        0        0        8        0    1 [stack:1328]
+    1016       12       12        0        0        0       12        0    1 [stack:1329]
+    1016        4        4        0        0        0        4        0    1 [stack:1331]
+    1016        4        4        0        0        0        4        0    1 [stack:1334]
+    1016        4        4        0        0        0        4        0    1 [stack:1335]
+    1016        4        4        0        0        0        4        0    1 [stack:1336]
+    1016        8        8        0        0        0        8        0    1 [stack:1337]
+    1016        4        4        0        0        0        4        0    1 [stack:1338]
+    1016        4        4        0        0        0        4        0    1 [stack:1339]
+    1016       12       12        0        0        0       12        0    1 [stack:1380]
+    1016       12       12        0        0        0       12        0    1 [stack:2088]
+    1016       12       12        0        0        0       12        0    1 [stack:2423]
+     136       24       24        0        0        0       24        0    1 [stack]
+       4        4        0        4        0        0        0        0    1 [vdso]
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+   74140     4864     2068     3000       44      384     1436        0  220 TOTAL

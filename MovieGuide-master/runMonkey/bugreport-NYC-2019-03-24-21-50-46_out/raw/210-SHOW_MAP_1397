@@ -1,0 +1,73 @@
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+     256        8        0        0        8        0        0        0    2 /dev/__properties__/properties_serial
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:debug_prop:s0
+     128       12        0        0       12        0        0        0    1 /dev/__properties__/u:object_r:default_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:log_tag_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:logd_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:qemu_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:system_prop:s0
+    1016        4        4        0        0        4        0        0    1 /dev/binder
+       8        8        8        0        0        4        4        0    2 /system/bin/cameraserver
+     832      272       20      256        0        0       16        0    3 /system/bin/linker
+     552      232      232        0        0      216       16        0    3 /system/lib/hw/camera.ranchu.so
+     140       44       13       32        0        0       12        0    4 /system/lib/libEGL.so
+      80       40       10       32        0        0        8        0    3 /system/lib/libGLESv2.so
+      40       16        8        8        0        0        8        0    3 /system/lib/libaudioutils.so
+      76       24        8       16        0        0        8        0    3 /system/lib/libbacktrace.so
+      52       24        8       16        0        0        8        0    3 /system/lib/libbase.so
+     528      388       63      344        0        4       40        0    4 /system/lib/libbinder.so
+     964      268       30      244        0        4       20        0    4 /system/lib/libc++.so
+     876      540       33      520        0        0       20        0    4 /system/lib/libc.so
+     360      272       96      208        0       24       40        0    3 /system/lib/libcamera_client.so
+      36       28       12       20        0        0        8        0    3 /system/lib/libcamera_metadata.so
+     988      504      350      308        0      140       56        0    3 /system/lib/libcameraservice.so
+     128       84        9       76        0        0        8        0    4 /system/lib/libcutils.so
+     204       68       58       16        0        0       52        0    4 /system/lib/libexif.so
+     156       20       12        8        0        0       12        0    3 /system/lib/libexpat.so
+     600      404      108      344        0        4       56        0    3 /system/lib/libgui.so
+      16       12        8        4        0        0        8        0    4 /system/lib/libhardware.so
+    2392      472       98      424        0        0       48        0    3 /system/lib/libicui18n.so
+    1572      244       70      196        0        0       48        0    3 /system/lib/libicuuc.so
+     388       28       11       20        0        0        8        0    3 /system/lib/libjpeg.so
+      68       24        8       16        0        0        8        0    3 /system/lib/liblog.so
+     168       20        8       12        0        0        8        0    3 /system/lib/liblzma.so
+     220       24        8       16        0        0        8        0    3 /system/lib/libm.so
+    1308      704      227      548        0       20      136        0    4 /system/lib/libmedia.so
+      48       40       13       32        0        0        8        0    4 /system/lib/libmediautils.so
+     148       48       14       40        0        0        8        0    3 /system/lib/libmemunreachable.so
+      48       24        9       16        0        0        8        0    3 /system/lib/libnbaio.so
+      16       16        8        8        0        0        8        0    3 /system/lib/libnetd_client.so
+      28       24        9       16        0        0        8        0    4 /system/lib/libpowermanager.so
+     360       24        9       16        0        0        8        0    3 /system/lib/libsonivox.so
+      24       12        8        4        0        0        8        0    3 /system/lib/libspeexresampler.so
+     192       80       15       72        0        0        8        0    4 /system/lib/libstagefright_foundation.so
+      20       12        8        4        0        0        8        0    3 /system/lib/libstdc++.so
+      12       12        8        4        0        0        8        0    3 /system/lib/libsync.so
+     120       64       12       56        0        0        8        0    3 /system/lib/libui.so
+     116       16        8        8        0        0        8        0    3 /system/lib/libunwind.so
+     148      112       11      104        0        0        8        0    4 /system/lib/libutils.so
+     160       40       40        0        0        0       40        0    9 [anon:.bss]
+       4        4        4        0        0        0        4        0    1 [anon:arc4random _rs structure]
+       4        4        4        0        0        0        4        0    1 [anon:arc4random _rsx structure]
+       8        8        8        0        0        0        8        0    2 [anon:atexit handlers]
+    2560      520      520        0        0        0      520        0    3 [anon:libc_malloc]
+      48       48       48        0        0        0       48        0   11 [anon:linker_alloc]
+       4        4        4        0        0        0        4        0    1 [anon:linker_alloc_lob]
+      20       20       20        0        0        0       20        0    5 [anon:linker_alloc_small_objects]
+      28       28       28        0        0        0       28        0    7 [anon:linker_alloc_vector]
+      16        0        0        0        0        0        0        0    4 [anon:thread signal stack guard page]
+      32        0        0        0        0        0        0        0    4 [anon:thread signal stack]
+      12        0        0        0        0        0        0        0    3 [anon:thread stack guard page]
+      24       16       16        0        0        0       16        0    4 [anon]
+    1016        8        8        0        0        0        8        0    1 [stack:1410]
+    1016       12       12        0        0        0       12        0    1 [stack:1732]
+    1016        8        8        0        0        0        8        0    1 [stack:1949]
+     136       28       28        0        0        0       28        0    1 [stack]
+       4        4        0        4        0        0        0        0    1 [vdso]
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+   22180     6044     2400     4068       40      420     1516        0  197 TOTAL

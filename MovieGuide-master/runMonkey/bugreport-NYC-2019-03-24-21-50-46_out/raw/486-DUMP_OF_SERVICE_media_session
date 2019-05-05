@@ -1,0 +1,74 @@
+MEDIA SESSION SERVICE (dumpsys media_session)
+
+1 sessions listeners.
+2 Sessions:
+HeadsetMediaButton com.android.server.telecom/HeadsetMediaButton (uid=0)
+  ownerPid=1700, ownerUid=1000, userId=0
+  package=com.android.server.telecom
+  launchIntent=null
+  mediaButtonReceiver=null
+  active=false
+  flags=65537
+  rating type=0
+  controllers: 0
+  state=null
+  audioAttrs=AudioAttributes: usage=2 content=1 flags=0x0 tags= bundle=null
+  volumeType=1, controlType=2, max=0, current=0
+  metadata:size=0, description=null
+  queueTitle=null, size=0
+
+Google Play Music com.google.android.music/Google Play Music (uid=0)
+  ownerPid=4272, ownerUid=10058, userId=0
+  package=com.google.android.music
+  launchIntent=null
+  mediaButtonReceiver=PendingIntent{fbe4d8f: PendingIntentRecord{2fbf938 com.google.android.music broadcastIntent}}
+  active=true
+  flags=3
+  rating type=2
+  controllers: 1
+  state=PlaybackState {state=2, position=0, buffered position=0, speed=1.0, updated=145479, actions=7607, custom actions=[], active item id=-1, error=null}
+  audioAttrs=AudioAttributes: usage=1 content=0 flags=0x0 tags= bundle=null
+  volumeType=1, controlType=2, max=0, current=0
+  metadata:size=0, description=null
+  queueTitle=Queue, size=0
+
+Global priority session is null
+Sessions Stack - have 2 sessions:
+  Google Play Music com.google.android.music/Google Play Music (uid=0)
+    ownerPid=4272, ownerUid=10058, userId=0
+    package=com.google.android.music
+    launchIntent=null
+    mediaButtonReceiver=PendingIntent{fbe4d8f: PendingIntentRecord{2fbf938 com.google.android.music broadcastIntent}}
+    active=true
+    flags=3
+    rating type=2
+    controllers: 1
+    state=PlaybackState {state=2, position=0, buffered position=0, speed=1.0, updated=145479, actions=7607, custom actions=[], active item id=-1, error=null}
+    audioAttrs=AudioAttributes: usage=1 content=0 flags=0x0 tags= bundle=null
+    volumeType=1, controlType=2, max=0, current=0
+    metadata:size=0, description=null
+    queueTitle=Queue, size=0
+
+  HeadsetMediaButton com.android.server.telecom/HeadsetMediaButton (uid=0)
+    ownerPid=1700, ownerUid=1000, userId=0
+    package=com.android.server.telecom
+    launchIntent=null
+    mediaButtonReceiver=null
+    active=false
+    flags=65537
+    rating type=0
+    controllers: 0
+    state=null
+    audioAttrs=AudioAttributes: usage=2 content=1 flags=0x0 tags= bundle=null
+    volumeType=1, controlType=2, max=0, current=0
+    metadata:size=0, description=null
+    queueTitle=null, size=0
+
+User Records:
+Record for user 0
+  MediaButtonReceiver:null
+  Restored ButtonReceiver:null
+  2 Sessions:
+  com.android.server.telecom/HeadsetMediaButton (uid=0)
+  com.google.android.music/Google Play Music (uid=0)
+--------- 0.001s was the duration of dumpsys media_session

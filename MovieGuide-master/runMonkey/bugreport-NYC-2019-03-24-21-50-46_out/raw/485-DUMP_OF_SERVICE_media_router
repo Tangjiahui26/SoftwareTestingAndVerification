@@ -1,0 +1,52 @@
+MEDIA ROUTER SERVICE (dumpsys media_router)
+
+Global state
+  mCurrentUserId=0
+
+User 0
+  Client android (pid 1700)
+    mTrusted=true
+    mRouteTypes=0x0
+    mActiveScan=false
+    mSelectedRouteId=null
+  Client com.android.systemui (pid 1850)
+    mTrusted=true
+    mRouteTypes=0x0
+    mActiveScan=false
+    mSelectedRouteId=null
+  Client com.google.android.gms (pid 2563)
+    mTrusted=false
+    mRouteTypes=0x0
+    mActiveScan=false
+    mSelectedRouteId=null
+  Client com.google.android.music (pid 4272)
+    mTrusted=false
+    mRouteTypes=0x0
+    mActiveScan=false
+    mSelectedRouteId=null
+  State
+  mTrustedState=MediaRouterClientState{ globallySelectedRouteId=null, routes=[] }
+  mUntrustedState=MediaRouterClientState{ globallySelectedRouteId=null, routes=[] }
+  Handler
+    mRunning=true
+    mDiscoveryMode=0
+    mGloballySelectedRouteRecord=null
+    mConnectionPhase=-1
+    mConnectionTimeoutReason=0
+    mConnectionTimeoutStartTime=<n/a>
+  Watcher
+    mUserId=0
+    mRunning=true
+    mProviders.size()=1
+  Provider com.google.android.gms/.cast.media.CastRemoteDisplayProviderService
+    Proxy
+      mUserId=0
+      mRunning=true
+      mBound=false
+      mActiveConnection=null
+      mConnectionReady=false
+      mDiscoveryMode=0
+      mSelectedDisplayId=null
+      mDisplayState=null
+    <no routes>
+--------- 0.001s was the duration of dumpsys media_router

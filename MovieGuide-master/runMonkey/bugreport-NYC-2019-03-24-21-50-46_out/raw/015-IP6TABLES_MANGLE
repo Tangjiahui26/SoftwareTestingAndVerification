@@ -1,0 +1,28 @@
+Chain PREROUTING (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 natctrl_mangle_FORWARD  all      *      *       ::/0                 ::/0                
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain POSTROUTING (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+      87     6831 bw_mangle_POSTROUTING  all      *      *       ::/0                 ::/0                
+      87     6831 idletimer_mangle_POSTROUTING  all      *      *       ::/0                 ::/0                
+
+Chain bw_mangle_POSTROUTING (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+      80     6363            all      *      *       ::/0                 ::/0                 owner socket exists
+
+Chain idletimer_mangle_POSTROUTING (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       2      140 IDLETIMER  all      *      radio0  ::/0                 ::/0                 timeout:10 label:0 send_nl_msg:1
+
+Chain natctrl_mangle_FORWARD (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         

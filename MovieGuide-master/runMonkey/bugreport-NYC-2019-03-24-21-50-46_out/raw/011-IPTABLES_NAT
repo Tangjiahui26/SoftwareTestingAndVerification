@@ -1,0 +1,19 @@
+Chain PREROUTING (policy ACCEPT 2 packets, 604 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+       2      604 oem_nat_pre  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain INPUT (policy ACCEPT 2 packets, 604 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 87 packets, 7970 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain POSTROUTING (policy ACCEPT 87 packets, 7970 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+      87     7970 natctrl_nat_POSTROUTING  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain natctrl_nat_POSTROUTING (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain oem_nat_pre (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         

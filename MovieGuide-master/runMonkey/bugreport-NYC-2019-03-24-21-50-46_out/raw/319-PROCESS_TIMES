@@ -1,0 +1,81 @@
+1     /init                                          0.12    1.10    0.00
+3     [ksoftirqd/0]                                          0.23
+4     [kworker/0:0]                                          0.15
+6     [kworker/u4:0]                                         0.15
+7     [migration/0]                                          0.02    0.01 50.0%
+8     [rcu_preempt]                                          0.43
+11    [migration/1]                                          0.01    0.01 100.0%
+12    [ksoftirqd/1]                                          0.12
+17    [kworker/u4:1]                                         0.30
+454   [kworker/1:1]                                          0.03
+548   [kworker/0:1]                                          0.14
+565   [kswapd0]                                              0.91
+680   [kworker/u4:2]                                         0.07
+933   /sbin/ueventd                                  0.04    0.04    0.00
+1250  [kworker/0:1H]                                         1.79
+1262  /system/bin/logd                               0.30    0.31    0.03  4.9%
+1270  /system/bin/debuggerd                          0.00    0.01    0.00
+1271  /system/bin/vold                               0.54    0.73    0.00
+1310  /sbin/healthd                                  0.00    0.01    0.00
+1314  /system/bin/lmkd                               0.05    0.39    0.01  2.3%
+1315  /system/bin/servicemanager                     0.18    0.31    0.00
+1316  /system/bin/surfaceflinger                     4.52   21.57    0.01  0.0%
+1317  /system/bin/sh                                 0.00    0.01    0.00
+1318  /sbin/adbd                                     0.87    5.26    0.00
+1373  [kworker/u5:0]                                         2.04
+1375  [dmcrypt_write]                                        1.02
+1383  [kworker/u5:1]                                         0.77
+1384  [kworker/u5:2]                                         1.28
+1389  [jbd2/dm-0-8]                                          0.53
+1395  zygote                                         0.51    0.44    0.00
+1396  /system/bin/audioserver                        0.71    1.43    0.00
+1397  /system/bin/cameraserver                       0.03    0.03    0.00
+1398  /system/bin/drmserver                          0.02    0.00    0.00
+1399  /system/bin/installd                           0.05    0.23    0.00
+1400  /system/bin/keystore                           0.00    0.01    0.00
+1401  media.codec                                    0.30    0.10    0.00
+1402  /system/bin/mediadrmserver                     0.19    0.03    0.00
+1403  media.extractor                                0.35    0.21    0.00
+1404  /system/bin/mediaserver                        0.22    0.39    0.00
+1405  /system/bin/netd                               0.16    1.59    0.00
+1406  /system/bin/rild                               0.02    0.04    0.00
+1408  /system/bin/fingerprintd                       0.01    0.00    0.00
+1513  /system/bin/dhcpclient                         0.05    0.24    0.00
+1590  /system/bin/ipv6proxy                          0.00    0.01    0.00
+1602  /system/bin/hostapd                            0.00    0.02    0.00
+1700  system_server                                 35.18   15.55    0.00
+1822  com.android.inputmethod.latin                  1.65    1.03    0.00
+1850  com.android.systemui                           6.53    3.88    0.00
+1861  /system/bin/sdcard                             0.02    0.14    0.00
+1951  /system/bin/sdcard                             0.02    0.01    0.00
+1989  com.android.phone                              1.08    0.62    0.00
+2231  com.google.android.ext.services                0.06    0.01    0.00
+2259  com.google.android.gms.persistent              8.46    2.75    0.00
+2281  com.google.android.googlequicksearchbox:interactor 0.06 0.05   0.00
+2338  com.google.process.gapps                       1.24    0.73    0.00
+2428  com.google.android.googlequicksearchbox:search 14.33   7.52    0.00
+2493  com.android.printspooler                       0.06    0.08    0.00
+2522  com.google.android.apps.nexuslauncher          2.74    1.79    0.00
+2563  com.google.android.gms                        31.43   11.53    0.00
+2671  android.process.media                          1.19    0.95    0.00
+2678  android.process.acore                          0.33    0.16    0.00
+3298  com.android.providers.calendar                 0.07    0.05    0.00
+3402  com.google.android.apps.photos                 0.24    0.09    0.00
+3912  com.google.android.talk                        0.46    0.19    0.00
+3945  com.google.android.gm                          0.11    0.09    0.00
+4007  [kworker/0:2]                                          0.19
+4014  com.android.defcontainer                       0.04    0.02    0.00
+4272  com.google.android.music:main                  0.41    0.22    0.00
+4367  com.google.android.talk:matchstick             0.09    0.05    0.00
+4620  com.google.android.apps.photos:CameraShortcut  0.07    0.10    0.00
+4754  com.google.android.apps.wallpaper              0.04    0.03    0.00
+4798  com.google.android.gms.unstable                0.40    0.18    0.00
+4924  com.android.chrome                             0.11    0.05    0.00
+5026  com.esoxjem.movieguide                         2.40    1.56    0.00
+5060  com.android.cellbroadcastreceiver              0.06    0.02    0.00
+5087  com.android.settings                           0.04    0.03    0.00
+5108  com.google.android.apps.messaging              0.36    0.12    0.00
+5217  com.google.android.partnersetup                0.04    0.04    0.00
+5295  com.android.systemui:screenshot                0.21    0.25    0.00
+5345  bugreportz                                     0.00    0.01    0.00
+5347  /system/bin/dumpstate                          0.02    0.11    0.00

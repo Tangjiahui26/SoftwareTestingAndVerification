@@ -1,0 +1,383 @@
+  Settings:
+    min_idle_count=1
+    min_charging_count=1
+    min_connectivity_count=1
+    min_content_count=1
+    min_ready_jobs_count=1
+    heavy_use_factor=0.9
+    moderate_use_factor=0.5
+    fg_job_count=4
+    bg_normal_job_count=6
+    bg_moderate_job_count=4
+    bg_low_job_count=1
+    bg_critical_job_count=1
+
+Started users: [0]
+Registered 12 jobs:
+  JOB #1000/800: e025a59 android/com.android.server.pm.BackgroundDexOptService
+    1000 tag=*job*/android/com.android.server.pm.BackgroundDexOptService
+    Source: uid=1000 user=0 pkg=android
+    JobInfo:
+      Service: android/com.android.server.pm.BackgroundDexOptService
+      PERIODIC: interval=+1d0h0m0s0ms flex=+1d0h0m0s0ms
+      Requires: charging=true deviceIdle=true
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+      Has late constraint
+    Required constraints: CHARGING TIMING_DELAY DEADLINE IDLE
+    Satisfied constraints: CHARGING TIMING_DELAY APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: DEADLINE IDLE
+    Earliest run time: -02:41
+    Latest run time: 23:57:18
+    Ready: false (job=false pending=false active=false user=true)
+  JOB #1000/808: 819b507 android/com.android.server.MountServiceIdler
+    1000 tag=*job*/android/com.android.server.MountServiceIdler
+    Source: uid=1000 user=0 pkg=android
+    JobInfo:
+      Service: android/com.android.server.MountServiceIdler
+      Requires: charging=true deviceIdle=true
+      Minimum latency: +22h11m47s579ms
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+    Required constraints: CHARGING TIMING_DELAY IDLE
+    Satisfied constraints: CHARGING APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: TIMING_DELAY IDLE
+    Earliest run time: 22:09:06
+    Latest run time: none
+    Ready: false (job=false pending=false active=false user=true)
+  JOB #1000/20536: d60049 android/com.android.server.backup.FullBackupJob
+    1000 tag=*job*/android/com.android.server.backup.FullBackupJob
+    Source: uid=1000 user=0 pkg=android
+    JobInfo:
+      Service: android/com.android.server.backup.FullBackupJob
+      Requires: charging=true deviceIdle=true
+      Network type: 2
+      Backoff: policy=1 initial=+30s0ms
+    Required constraints: CHARGING IDLE UNMETERED
+    Satisfied constraints: CHARGING APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: IDLE UNMETERED
+    Earliest run time: none
+    Latest run time: none
+    Ready: false (job=false pending=false active=false user=true)
+  JOB #1000/20537: 8d22d2b android/com.android.server.backup.KeyValueBackupJob
+    1000 tag=*job*/android/com.android.server.backup.KeyValueBackupJob
+    Source: uid=1000 user=0 pkg=android
+    JobInfo:
+      Service: android/com.android.server.backup.KeyValueBackupJob
+      Requires: charging=true deviceIdle=false
+      Network type: 1
+      Minimum latency: +4h8m25s408ms
+      Max execution delay: +1d0h0m0s0ms
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+      Has late constraint
+    Required constraints: CHARGING TIMING_DELAY DEADLINE CONNECTIVITY
+    Satisfied constraints: CHARGING APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: TIMING_DELAY DEADLINE CONNECTIVITY
+    Earliest run time: 4:05:46
+    Latest run time: 23:57:21
+    Ready: false (job=false pending=false active=false user=true)
+  JOB #u0a10/-100: d0c50f9 com.android.providers.downloads/.DownloadIdleService
+    u0a10 tag=*job*/com.android.providers.downloads/.DownloadIdleService
+    Source: uid=u0a10 user=0 pkg=com.android.providers.downloads
+    JobInfo:
+      Service: com.android.providers.downloads/.DownloadIdleService
+      PERIODIC: interval=+12h0m0s0ms flex=+12h0m0s0ms
+      Requires: charging=true deviceIdle=true
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+      Has late constraint
+    Required constraints: CHARGING TIMING_DELAY DEADLINE IDLE
+    Satisfied constraints: CHARGING TIMING_DELAY APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: DEADLINE IDLE
+    Earliest run time: -02:35
+    Latest run time: 11:57:24
+    Ready: false (job=false pending=false active=false user=true)
+  JOB #u0a13/1: bf77b83 com.google.android.gms/.backup.component.GmsBackupSchedulerService
+    u0a13 tag=*job*/com.google.android.gms/.backup.component.GmsBackupSchedulerService
+    Source: uid=u0a13 user=0 pkg=com.google.android.gms
+    JobInfo:
+      Service: com.google.android.gms/.backup.component.GmsBackupSchedulerService
+      Requires: charging=true deviceIdle=true
+      Network type: 2
+      Minimum latency: +1d0h0m0s0ms
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+    Required constraints: CHARGING TIMING_DELAY IDLE UNMETERED
+    Satisfied constraints: CHARGING APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: TIMING_DELAY IDLE UNMETERED
+    Earliest run time: 23:57:38
+    Latest run time: none
+    Ready: false (job=false pending=false active=false user=true)
+  JOB #u0a14/50: df278bb com.google.android.dialer/com.google.android.apps.dialer.spam.impl.SpamJobService
+    u0a14 tag=*job*/com.google.android.dialer/com.google.android.apps.dialer.spam.impl.SpamJobService
+    Source: uid=u0a14 user=0 pkg=com.google.android.dialer
+    JobInfo:
+      Service: com.google.android.dialer/com.google.android.apps.dialer.spam.impl.SpamJobService
+      PERIODIC: interval=+1d0h0m0s0ms flex=+1d0h0m0s0ms
+      PERSISTED
+      Requires: charging=false deviceIdle=false
+      Network type: 2
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+      Has late constraint
+    Required constraints: TIMING_DELAY DEADLINE UNMETERED
+    Satisfied constraints: APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: TIMING_DELAY DEADLINE UNMETERED
+    Earliest run time: 23:57:36
+    Latest run time: 47:57:36
+    Ready: false (job=false pending=false active=false user=true)
+  JOB #u0a14/51: fff6eaf com.google.android.dialer/com.google.android.apps.dialer.spam.impl.SpamJobService
+    u0a14 tag=*job*/com.google.android.dialer/com.google.android.apps.dialer.spam.impl.SpamJobService
+    Source: uid=u0a14 user=0 pkg=com.google.android.dialer
+    JobInfo:
+      Service: com.google.android.dialer/com.google.android.apps.dialer.spam.impl.SpamJobService
+      PERIODIC: interval=+2d0h0m0s0ms flex=+2d0h0m0s0ms
+      PERSISTED
+      Requires: charging=false deviceIdle=false
+      Network type: 1
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+      Has late constraint
+    Required constraints: TIMING_DELAY DEADLINE CONNECTIVITY
+    Satisfied constraints: APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: TIMING_DELAY DEADLINE CONNECTIVITY
+    Earliest run time: 47:57:36
+    Latest run time: 95:57:36
+    Ready: false (job=false pending=false active=false user=true)
+  JOB #u0a14/100: 2bae1 com.google.android.dialer/com.android.dialer.shortcuts.PeriodicJobService
+    u0a14 tag=*job*/com.google.android.dialer/com.android.dialer.shortcuts.PeriodicJobService
+    Source: uid=u0a14 user=0 pkg=com.google.android.dialer
+    JobInfo:
+      Service: com.google.android.dialer/com.android.dialer.shortcuts.PeriodicJobService
+      PERIODIC: interval=+1d0h0m0s0ms flex=+1d0h0m0s0ms
+      PERSISTED
+      Requires: charging=true deviceIdle=true
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+      Has late constraint
+    Required constraints: CHARGING TIMING_DELAY DEADLINE IDLE
+    Satisfied constraints: CHARGING TIMING_DELAY APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: DEADLINE IDLE
+    Earliest run time: -02:23
+    Latest run time: 23:57:36
+    Ready: false (job=false pending=false active=false user=true)
+  JOB #u0a57/2131624032: c3d149e com.google.android.apps.maps/com.google.android.apps.gmm.offline.OfflineAutoUpdateJobService
+    u0a57 tag=*job*/com.google.android.apps.maps/com.google.android.apps.gmm.offline.OfflineAutoUpdateJobService
+    Source: uid=u0a57 user=0 pkg=com.google.android.apps.maps
+    JobInfo:
+      Service: com.google.android.apps.maps/com.google.android.apps.gmm.offline.OfflineAutoUpdateJobService
+      PERSISTED
+      Requires: charging=true deviceIdle=true
+      Network type: 1
+      Minimum latency: +5h59m59s0ms
+      Max execution delay: +6h29m59s0ms
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+      Has late constraint
+    Required constraints: CHARGING TIMING_DELAY DEADLINE IDLE CONNECTIVITY
+    Satisfied constraints: CHARGING APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: TIMING_DELAY DEADLINE IDLE CONNECTIVITY
+    Earliest run time: 5:57:36
+    Latest run time: 6:27:36
+    Ready: false (job=false pending=false active=false user=true)
+  JOB #u0a65/2131558624: bbb278e com.google.android.apps.photos/.jobscheduler.CameraShortcutJobSchedulerService
+    u0a65 tag=*job*/com.google.android.apps.photos/.jobscheduler.CameraShortcutJobSchedulerService
+    Source: uid=u0a65 user=0 pkg=com.google.android.apps.photos
+    JobInfo:
+      Service: com.google.android.apps.photos/.jobscheduler.CameraShortcutJobSchedulerService
+      Requires: charging=false deviceIdle=false
+      Trigger content URIs:
+        1 content://media/external/images/media
+        1 content://media/external/video/media
+      Backoff: policy=1 initial=+30s0ms
+    Required constraints: CONTENT_TRIGGER
+    Satisfied constraints: APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: CONTENT_TRIGGER
+    Earliest run time: none
+    Latest run time: none
+    Ready: false (job=false pending=false active=false user=true)
+  JOB #u0a65/2131558657: d46bbbc com.google.android.apps.photos/.mediamonitor.MediaMonitorJobSchedulerService
+    u0a65 tag=*job*/com.google.android.apps.photos/.mediamonitor.MediaMonitorJobSchedulerService
+    Source: uid=u0a65 user=0 pkg=com.google.android.apps.photos
+    JobInfo:
+      Service: com.google.android.apps.photos/.mediamonitor.MediaMonitorJobSchedulerService
+      Requires: charging=false deviceIdle=false
+      Trigger content URIs:
+        1 content://media/external/images/media
+        1 content://media/external/video/media
+      Backoff: policy=1 initial=+30s0ms
+    Required constraints: CONTENT_TRIGGER
+    Satisfied constraints: APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: CONTENT_TRIGGER
+    Earliest run time: none
+    Latest run time: none
+    Ready: false (job=false pending=false active=false user=true)
+
+Connectivity.
+Tracking 6:
+  #1000/20537 from 1000: C=true: UM=false: NR=false
+  #u0a14/51 from u0a14: C=true: UM=false: NR=false
+  #u0a14/50 from u0a14: C=false: UM=true: NR=false
+  #u0a57/2131624032 from u0a57: C=true: UM=false: NR=false
+  #u0a13/1 from u0a13: C=false: UM=true: NR=false
+  #1000/20536 from 1000: C=false: UM=true: NR=false
+
+Alarms: now=182823
+Next delay alarm in +4h5m46s900ms
+Next deadline alarm in +6h27m36s543ms
+Tracking 9:
+  #u0a57/2131624032 from u0a57: Delay=+5h57m36s543ms, Deadline=+6h27m36s543ms
+  #u0a10/-100 from u0a10: Delay=-2m35s152ms, Deadline=+11h57m24s848ms
+  #1000/800 from 1000: Delay=-2m41s810ms, Deadline=+23h57m18s190ms
+  #1000/20537 from 1000: Delay=+4h5m46s900ms, Deadline=+23h57m21s492ms
+  #u0a14/100 from u0a14: Delay=-2m23s837ms, Deadline=+23h57m36s163ms
+  #u0a14/50 from u0a14: Delay=+23h57m36s139ms, Deadline=+1d23h57m36s139ms
+  #u0a14/51 from u0a14: Delay=+1d23h57m36s155ms, Deadline=+3d23h57m36s155ms
+  #u0a13/1 from u0a13: Delay=+23h57m38s431ms, Deadline=N/A
+  #1000/808 from 1000: Delay=+22h9m6s177ms, Deadline=N/A
+
+Idle: false
+Tracking 7:
+  #1000/800 from 1000
+  #1000/808 from 1000
+  #u0a10/-100 from u0a10
+  #u0a14/100 from u0a14
+  #u0a57/2131624032 from u0a57
+  #u0a13/1 from u0a13
+  #1000/20536 from 1000
+
+Battery: stable power = true
+Tracking 8:
+  #1000/800 from 1000
+  #1000/808 from 1000
+  #1000/20537 from 1000
+  #u0a10/-100 from u0a10
+  #u0a14/100 from u0a14
+  #u0a57/2131624032 from u0a57
+  #u0a13/1 from u0a13
+  #1000/20536 from 1000
+
+AppIdle: parole on = true
+  #u0a65/2131558657 from u0a65: com.google.android.apps.photos RUNNABLE
+  #u0a65/2131558624 from u0a65: com.google.android.apps.photos RUNNABLE
+  #u0a57/2131624032 from u0a57: com.google.android.apps.maps RUNNABLE
+  #u0a14/51 from u0a14: com.google.android.dialer RUNNABLE
+  #u0a14/50 from u0a14: com.google.android.dialer RUNNABLE
+  #u0a14/100 from u0a14: com.google.android.dialer RUNNABLE
+  #u0a13/1 from u0a13: com.google.android.gms RUNNABLE
+  #u0a10/-100 from u0a10: com.android.providers.downloads RUNNABLE
+  #1000/800 from 1000: android RUNNABLE
+  #1000/20537 from 1000: android RUNNABLE
+  #1000/808 from 1000: android RUNNABLE
+  #1000/20536 from 1000: android RUNNABLE
+
+Content:
+  #u0a65/2131558624 from u0a65
+  #u0a65/2131558657 from u0a65
+  Observers:
+    content://media/external/images/media 0x1 (173277346):
+      Jobs:
+        #u0a65/2131558657 from u0a65
+        #u0a65/2131558624 from u0a65
+    content://media/external/video/media 0x1 (222417203):
+      Jobs:
+        #u0a65/2131558657 from u0a65
+        #u0a65/2131558624 from u0a65
+
+DeviceIdleJobsController
+  #u0a65/2131558657 from u0a65: com.google.android.apps.photos RUNNABLE
+  #u0a65/2131558624 from u0a65: com.google.android.apps.photos RUNNABLE
+  #u0a57/2131624032 from u0a57: com.google.android.apps.maps RUNNABLE
+  #u0a14/51 from u0a14: com.google.android.dialer RUNNABLE
+  #u0a14/50 from u0a14: com.google.android.dialer RUNNABLE
+  #u0a14/100 from u0a14: com.google.android.dialer RUNNABLE
+  #u0a13/1 from u0a13: com.google.android.gms RUNNABLE
+  #u0a10/-100 from u0a10: com.android.providers.downloads RUNNABLE
+  #1000/800 from 1000: android RUNNABLE
+  #1000/20537 from 1000: android RUNNABLE
+  #1000/808 from 1000: android RUNNABLE
+  #1000/20536 from 1000: android RUNNABLE
+
+Uid priority overrides:
+  1001: 30
+  u0a13: 30
+  u0a15: 30
+  u0a28: 30
+  u0a29: 30
+  u0a84: 40
+
+Current stats at 2019-03-24-21-48-11 (-2m41s853ms) over +2m41s853ms:
+  1000 / android: 2x pending 1x active
+  u0a5 / com.google.android.configupdater: 2x pending 1% 1x active
+  u0a13 / com.google.android.gms: 4x pending 2% 4x active-top
+  u0a14 / com.google.android.dialer: 1x pending 1x active
+  u0a29 / com.google.android.googlequicksearchbox: 3x pending 1% 1x active
+  u0a65 / com.google.android.apps.photos: 5x pending 3x active
+  Max concurrency: 3 total, 1 foreground
+
+  Job history:
+        -2m28s245ms START: u0a5 DownloadManager:com.android.providers.downloads
+        -2m27s979ms START: u0a5 DownloadManager:com.android.providers.downloads
+        -2m27s905ms START: u0a13 DownloadManager:com.android.providers.downloads
+        -2m27s293ms  STOP: u0a5 DownloadManager:com.android.providers.downloads
+        -2m27s242ms  STOP: u0a5 DownloadManager:com.android.providers.downloads
+        -2m26s534ms  STOP: u0a13 DownloadManager:com.android.providers.downloads
+        -2m25s730ms START: u0a13 DownloadManager:com.android.providers.downloads
+        -2m23s589ms  STOP: u0a13 DownloadManager:com.android.providers.downloads
+        -2m23s588ms START: u0a13 DownloadManager:com.android.providers.downloads
+        -2m23s460ms START: u0a14 com.google.android.dialer/com.google.android.apps.dialer.spam.impl.SpamJobService
+        -2m23s460ms START: u0a14 com.google.android.dialer/com.google.android.apps.dialer.spam.impl.SpamJobService
+        -2m23s457ms  STOP: u0a14 com.google.android.dialer/com.google.android.apps.dialer.spam.impl.SpamJobService
+        -2m23s320ms  STOP: u0a13 DownloadManager:com.android.providers.downloads
+        -2m23s320ms START: u0a13 DownloadManager:com.android.providers.downloads
+        -2m23s296ms  STOP: u0a13 DownloadManager:com.android.providers.downloads
+        -2m22s898ms  STOP: u0a14 com.google.android.dialer/com.google.android.apps.dialer.spam.impl.SpamJobService
+        -2m22s526ms START: u0a65 com.google.android.apps.photos/.jobscheduler.PhotosJobSchedulerService
+        -2m22s523ms START: u0a65 com.google.android.apps.photos/.jobscheduler.PhotosJobSchedulerService
+        -2m22s500ms START: u0a65 com.google.android.apps.photos/.signinprep.SignInPrepJobService
+        -2m22s494ms  STOP: u0a65 com.google.android.apps.photos/.jobscheduler.PhotosJobSchedulerService
+        -2m22s493ms  STOP: u0a65 com.google.android.apps.photos/.jobscheduler.PhotosJobSchedulerService
+        -2m22s436ms  STOP: u0a65 com.google.android.apps.photos/.signinprep.SignInPrepJobService
+        -2m00s577ms START: u0a29 DownloadManager:com.android.providers.downloads
+        -2m00s529ms START: u0a29 DownloadManager:com.android.providers.downloads
+        -2m00s474ms START: u0a29 DownloadManager:com.android.providers.downloads
+        -2m00s124ms  STOP: u0a29 DownloadManager:com.android.providers.downloads
+        -1m59s587ms  STOP: u0a29 DownloadManager:com.android.providers.downloads
+        -1m59s547ms  STOP: u0a29 DownloadManager:com.android.providers.downloads
+        -1m49s530ms START: u0a65 com.google.android.apps.photos/.mediamonitor.MediaMonitorJobSchedulerService
+        -1m49s528ms START: u0a65 com.google.android.apps.photos/.jobscheduler.CameraShortcutJobSchedulerService
+        -1m49s519ms  STOP: u0a65 com.google.android.apps.photos/.mediamonitor.MediaMonitorJobSchedulerService
+        -1m49s486ms  STOP: u0a65 com.google.android.apps.photos/.jobscheduler.CameraShortcutJobSchedulerService
+        -1m30s161ms START: 1000 android/com.android.server.pm.BackgroundDexOptService
+        -1m29s921ms  STOP: 1000 android/com.android.server.pm.BackgroundDexOptService
+             -353ms START: u0a65 com.google.android.apps.photos/.jobscheduler.CameraShortcutJobSchedulerService
+             -352ms START: u0a65 com.google.android.apps.photos/.mediamonitor.MediaMonitorJobSchedulerService
+             -349ms  STOP: u0a65 com.google.android.apps.photos/.jobscheduler.CameraShortcutJobSchedulerService
+             -348ms  STOP: u0a65 com.google.android.apps.photos/.mediamonitor.MediaMonitorJobSchedulerService
+
+Pending queue:
+
+Active jobs:
+  Slot #0: inactive
+  Slot #1: inactive
+  Slot #2: inactive
+  Slot #3: inactive
+  Slot #4: inactive
+  Slot #5: inactive
+  Slot #6: inactive
+  Slot #7: inactive
+  Slot #8: inactive
+  Slot #9: inactive
+  Slot #10: inactive
+  Slot #11: inactive
+  Slot #12: inactive
+  Slot #13: inactive
+  Slot #14: inactive
+  Slot #15: inactive
+
+mReadyToRock=true
+mReportedActive=false
+mMaxActiveJobs=6
+
+--------- 0.007s was the duration of dumpsys jobscheduler

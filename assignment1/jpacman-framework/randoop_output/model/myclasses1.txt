@@ -1,0 +1,15 @@
+org.jpacman.framework.model.Player
+org.jpacman.framework.model.Game
+org.jpacman.framework.model.Board
+org.jpacman.framework.model.Ghost
+org.jpacman.framework.model.Wall
+org.jpacman.framework.model.Food
+org.jpacman.framework.model.Direction
+org.jpacman.framework.model.IBoardInspector
+org.jpacman.framework.model.IGameInteractor
+org.jpacman.framework.model.IPointInspector
+org.jpacman.framework.model.Level
+org.jpacman.framework.model.PointManager
+org.jpacman.framework.model.Sprite
+org.jpacman.framework.model.Tile
+org.jpacman.framework.model.IBoardInspector$SpriteType

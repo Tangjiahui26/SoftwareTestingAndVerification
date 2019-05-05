@@ -1,0 +1,20 @@
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/properties_serial
+     128        8        0        0        8        0        0        0    1 /dev/__properties__/u:object_r:default_prop:s0
+     160      160       26        0      160        0        0        0    2 /file_contexts.bin
+    1452      496      252        0      488        0        8        0    3 /init
+       4        0        0        0        0        0        0        0    1 /sys/fs/selinux/status
+       4        4        4        0        0        0        4        0    1 [anon:atexit handlers]
+    1536      312      312        0        0        0      312        0    2 [anon:libc_malloc]
+       4        0        0        0        0        0        0        0    1 [anon:thread signal stack guard page]
+       8        0        0        0        0        0        0        0    1 [anon:thread signal stack]
+      24       24       24        0        0        0       24        0    3 [anon]
+     136       24       24        0        0        0       24        0    1 [stack]
+       4        4        0        4        0        0        0        0    1 [vdso]
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+    3588     1036      642        4      660        0      372        0   18 TOTAL

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>MovieDetailsActivity.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">app</a> &gt; <a href="index.source.html" class="el_package">com.esoxjem.movieguide.details</a> &gt; <span class="el_source">MovieDetailsActivity.java</span></div><h1>MovieDetailsActivity.java</h1><pre class="source lang-java linenums">package com.esoxjem.movieguide.details;
+
+import android.os.Bundle;
+import android.support.v4.app.NavUtils;
+import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
+
+import com.esoxjem.movieguide.R;
+import com.esoxjem.movieguide.Constants;
+import com.esoxjem.movieguide.Movie;
+
+<span class="fc" id="L12">public class MovieDetailsActivity extends AppCompatActivity</span>
+{
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+    {
+<span class="fc" id="L17">        super.onCreate(savedInstanceState);</span>
+<span class="fc" id="L18">        setContentView(R.layout.activity_movie_details);</span>
+
+<span class="pc bpc" id="L20" title="1 of 2 branches missed.">        if (savedInstanceState == null)</span>
+        {
+<span class="fc" id="L22">            Bundle extras = getIntent().getExtras();</span>
+<span class="pc bpc" id="L23" title="2 of 4 branches missed.">            if (extras != null &amp;&amp; extras.containsKey(Constants.MOVIE))</span>
+            {
+<span class="fc" id="L25">                Movie movie = extras.getParcelable(Constants.MOVIE);</span>
+<span class="pc bpc" id="L26" title="1 of 2 branches missed.">                if (movie != null)</span>
+                {
+<span class="fc" id="L28">                    MovieDetailsFragment movieDetailsFragment = MovieDetailsFragment.getInstance(movie);</span>
+<span class="fc" id="L29">                    getSupportFragmentManager().beginTransaction().add(R.id.movie_details_container, movieDetailsFragment).commit();</span>
+                }
+            }
+        }
+<span class="fc" id="L33">    }</span>
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+<span class="pc bpc" id="L38" title="1 of 2 branches missed.">        switch (item.getItemId())</span>
+        {
+            case android.R.id.home:
+<span class="fc" id="L41">                NavUtils.navigateUpFromSameTask(this);</span>
+        }
+<span class="fc" id="L43">        return super.onOptionsItemSelected(item);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.4.201502262128</span></div></body></html>

@@ -1,0 +1,117 @@
+Backup Manager is disabled / provisioned / not pending init
+Auto-restore is enabled
+Last backup pass started: 0 (now = 1553489453604)
+  next scheduled: 1553504201281
+Transport whitelist:
+    android/com.android.internal.backup.LocalTransportService
+    com.google.android.gms/.backup.component.D2dTransportService
+    com.google.android.gms/.backup.BackupTransportService
+Available transports:
+    android/com.android.internal.backup.LocalTransport
+       destination: Backing up to debug-only private cache
+       intent: null
+  * com.google.android.gms/.backup.BackupTransportService
+       destination: Add a backup account now
+       intent: Intent { cmp=com.google.android.gms/.backup.SetBackupAccountActivity }
+Pending init: 0
+Ancestral: 0
+Current:   0
+Participants:
+  uid: 1000
+    com.android.providers.settings
+    android
+  uid: 10001
+    com.android.providers.userdictionary
+    com.android.providers.blockednumber
+    com.android.calllogbackup
+  uid: 10004
+    com.android.cellbroadcastreceiver
+  uid: 10014
+    com.google.android.dialer
+  uid: 10025
+    com.android.sharedstoragebackup
+  uid: 10029
+    com.google.android.googlequicksearchbox
+  uid: 10034
+    com.google.android.calendar
+  uid: 10041
+    com.google.android.apps.docs
+  uid: 10052
+    com.google.android.talk
+  uid: 10068
+    com.google.android.gm
+  uid: 10071
+    com.google.android.videos
+Ancestral packages: none
+Ever backed up: 0
+Pending key/value backup: 15
+    BackupRequest{pkg=com.google.android.talk}
+    BackupRequest{pkg=com.google.android.apps.docs}
+    BackupRequest{pkg=com.google.android.dialer}
+    BackupRequest{pkg=com.google.android.videos}
+    BackupRequest{pkg=com.android.providers.settings}
+    BackupRequest{pkg=com.android.cellbroadcastreceiver}
+    BackupRequest{pkg=com.android.sharedstoragebackup}
+    BackupRequest{pkg=com.google.android.gm}
+    BackupRequest{pkg=com.android.providers.userdictionary}
+    BackupRequest{pkg=com.android.calllogbackup}
+    BackupRequest{pkg=com.google.android.calendar}
+    BackupRequest{pkg=android}
+    BackupRequest{pkg=com.android.providers.blockednumber}
+    BackupRequest{pkg=@pm@}
+    BackupRequest{pkg=com.google.android.googlequicksearchbox}
+Full backup queue:53
+    0 : com.android.smoketest
+    0 : com.android.cts.priv.ctsshim
+    0 : com.google.android.youtube
+    0 : com.google.android.ext.services
+    0 : com.example.android.livecubes
+    0 : com.android.providers.telephony
+    0 : com.google.android.onetimeinitializer
+    0 : com.android.protips
+    0 : com.android.documentsui
+    0 : com.android.externalstorage
+    0 : com.android.htmlviewer
+    0 : com.android.providers.downloads.ui
+    0 : com.android.vending
+    0 : com.android.pacprocessor
+    0 : com.android.contacts
+    0 : com.android.egg
+    0 : com.android.mtp
+    0 : com.android.dreams.basic
+    0 : com.google.android.webview
+    0 : com.android.camera
+    0 : com.android.gallery3d
+    0 : com.android.emulator.smoketests
+    0 : com.google.android.apps.wallpaper.nexus
+    0 : com.google.android.apps.nexuslauncher
+    0 : com.example.android.apis
+    0 : com.android.proxyhandler
+    0 : com.android.fallback
+    0 : com.breel.geswallpapers
+    0 : com.android.inputmethod.latin
+    0 : org.chromium.webview_shell
+    0 : com.google.android.feedback
+    0 : com.google.android.apps.photos
+    0 : com.android.managedprovisioning
+    0 : com.android.providers.partnerbookmarks
+    0 : com.google.android.gsf.login
+    0 : com.android.wallpaper.livepicker
+    0 : com.android.netspeed
+    0 : com.google.android.sdksetup
+    0 : com.google.android.backuptransport
+    0 : jp.co.omronsoft.openwnn
+    0 : com.android.bookmarkprovider
+    0 : com.android.gesture.builder
+    0 : com.android.cts.ctsshim
+    0 : com.google.android.apps.wallpaper
+    0 : com.android.wallpaperbackup
+    0 : com.android.emergency
+    0 : com.android.smoketest.tests
+    0 : com.android.customlocale2
+    0 : com.example.android.softkeyboard
+    0 : com.android.development
+    0 : com.android.captiveportallogin
+    0 : com.android.widgetpreview
+    1553489324325 : com.esoxjem.movieguide
+--------- 0.007s was the duration of dumpsys backup

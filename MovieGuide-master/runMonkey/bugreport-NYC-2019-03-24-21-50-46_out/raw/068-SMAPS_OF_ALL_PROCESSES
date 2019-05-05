@@ -1,0 +1,57 @@
+------ SHOW MAP 1 (/init) (/system/xbin/su root showmap -q 1) ------
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/properties_serial
+     128        4        4        0        0        0        4        0    1 /dev/__properties__/u:object_r:audio_prop:s0
+     128        4        4        0        0        0        4        0    1 /dev/__properties__/u:object_r:bluetooth_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:config_prop:s0
+     128        4        4        0        0        0        4        0    1 /dev/__properties__/u:object_r:cppreopt_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:dalvik_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:debug_prop:s0
+     128        4        4        0        0        0        4        0    1 /dev/__properties__/u:object_r:debuggerd_prop:s0
+     128       24        1        0       24        0        0        0    1 /dev/__properties__/u:object_r:default_prop:s0
+     128        4        1        0        4        0        0        0    1 /dev/__properties__/u:object_r:device_logging_prop:s0
+     128        4        4        0        0        0        4        0    1 /dev/__properties__/u:object_r:dhcp_prop:s0
+     128        4        2        0        4        0        0        0    1 /dev/__properties__/u:object_r:dumpstate_prop:s0
+     128        4        4        0        0        0        4        0    1 /dev/__properties__/u:object_r:ffs_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:fingerprint_prop:s0
+     128        4        2        0        4        0        0        0    1 /dev/__properties__/u:object_r:log_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:log_tag_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:logd_prop:s0
+     128        4        4        0        0        0        4        0    1 /dev/__properties__/u:object_r:logpersistd_logging_prop:s0
+     128        4        4        0        0        0        4        0    1 /dev/__properties__/u:object_r:mmc_prop:s0
+     128        4        2        0        4        0        0        0    1 /dev/__properties__/u:object_r:net_radio_prop:s0
+     128        4        4        0        0        0        4        0    1 /dev/__properties__/u:object_r:nfc_prop:s0
+     128        4        2        0        4        0        0        0    1 /dev/__properties__/u:object_r:opengles_prop:s0
+     128        4        4        0        0        0        4        0    1 /dev/__properties__/u:object_r:pan_result_prop:s0
+     128        4        1        0        4        0        0        0    1 /dev/__properties__/u:object_r:persist_debug_prop:s0
+     128        4        4        0        0        0        4        0    1 /dev/__properties__/u:object_r:powerctl_prop:s0
+     128        4        4        0        0        0        4        0    1 /dev/__properties__/u:object_r:qemu_cmdline:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:qemu_prop:s0
+     128        4        2        0        4        0        0        0    1 /dev/__properties__/u:object_r:radio_noril_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:radio_prop:s0
+     128        4        4        0        0        0        4        0    1 /dev/__properties__/u:object_r:restorecon_prop:s0
+     128        4        2        0        4        0        0        0    1 /dev/__properties__/u:object_r:safemode_prop:s0
+     128        4        4        0        0        0        4        0    1 /dev/__properties__/u:object_r:security_prop:s0
+     128        4        2        0        4        0        0        0    1 /dev/__properties__/u:object_r:shell_prop:s0
+     128        8        4        0        4        0        4        0    1 /dev/__properties__/u:object_r:system_prop:s0
+     128        4        4        0        0        0        4        0    1 /dev/__properties__/u:object_r:system_radio_prop:s0
+     128        4        0        0        4        0        0        0    1 /dev/__properties__/u:object_r:vold_prop:s0
+     128        4        4        0        0        0        4        0    1 /dev/__properties__/u:object_r:wifi_log_prop:s0
+      80       80       13        0       80        0        0        0    1 /file_contexts.bin
+    1452      740      496        0      488        0      252        0    3 /init
+       4        4        4        0        0        0        4        0    1 [anon:arc4random _rs structure]
+       4        4        4        0        0        0        4        0    1 [anon:arc4random _rsx structure]
+       4        4        4        0        0        0        4        0    1 [anon:atexit handlers]
+    2048      460      460        0        0        0      460        0    2 [anon:libc_malloc]
+       4        0        0        0        0        0        0        0    1 [anon:thread signal stack guard page]
+       8        0        0        0        0        0        0        0    1 [anon:thread signal stack]
+      24       24       24        0        0        0       24        0    3 [anon]
+     136       24       24        0        0        0       24        0    1 [stack]
+       4        4        0        4        0        0        0        0    1 [vdso]
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+ virtual                     shared   shared  private  private
+    size      RSS      PSS    clean    dirty    clean    dirty     swap    # object
+-------- -------- -------- -------- -------- -------- -------- -------- ---- ------------------------------
+    8504     1516     1114        4      672        0      840        0   53 TOTAL

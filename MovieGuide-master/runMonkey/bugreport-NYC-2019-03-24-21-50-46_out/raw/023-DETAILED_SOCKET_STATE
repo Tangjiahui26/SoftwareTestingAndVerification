@@ -1,0 +1,5 @@
+Netid  State      Recv-Q Send-Q Local Address:Port               Peer Address:Port              
+tcp    ESTAB      0      0      ::ffff:192.168.200.2:55851                 ::ffff:172.217.14.196:443                 users:(("system_server",pid=1700,fd=219)) uid:1000 ino:12016 sk:db738580 fwmark:0xf0064 <->
+	 cubic rto:210 rtt:18.75/7.5 ato:40 mss:1460 cwnd:10 send 6.2Mbps lastsnd:154870 lastrcv:154860 lastack:154870 rcv_space:87600
+tcp    ESTAB      0      0      ::ffff:192.168.200.2:58761                 ::ffff:172.217.14.195:80                  users:(("system_server",pid=1700,fd=217)) uid:1000 ino:11972 sk:db738000 fwmark:0xf0064 <->
+	 cubic rto:210 rtt:18.75/10 ato:40 mss:1460 cwnd:10 send 6.2Mbps lastsnd:155040 lastrcv:155000 lastack:155000 rcv_space:87600

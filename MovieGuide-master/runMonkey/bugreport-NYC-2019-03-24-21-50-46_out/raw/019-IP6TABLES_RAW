@@ -1,0 +1,19 @@
+Chain PREROUTING (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+      97    11778 bw_raw_PREROUTING  all      *      *       ::/0                 ::/0                
+      97    11778 idletimer_raw_PREROUTING  all      *      *       ::/0                 ::/0                
+      97    11778 natctrl_raw_PREROUTING  all      *      *       ::/0                 ::/0                
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain bw_raw_PREROUTING (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+      92    11266            all      *      *       ::/0                 ::/0                 owner socket exists
+
+Chain idletimer_raw_PREROUTING (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+      10      768 IDLETIMER  all      radio0 *       ::/0                 ::/0                 timeout:10 label:0 send_nl_msg:1
+
+Chain natctrl_raw_PREROUTING (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         

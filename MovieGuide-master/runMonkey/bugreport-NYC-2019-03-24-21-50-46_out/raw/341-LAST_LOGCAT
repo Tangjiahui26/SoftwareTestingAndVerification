@@ -1,0 +1,1 @@
+*** command 'logcat -L -b all -v threadtime -v printable -d *:v' failed: No such file or directory

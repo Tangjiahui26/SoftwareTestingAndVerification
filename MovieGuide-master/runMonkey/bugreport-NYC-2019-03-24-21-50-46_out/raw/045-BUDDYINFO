@@ -1,0 +1,4 @@
+Node 0, zone      DMA      4      5      7     12      0      0      0      0      0      0      1 
+Node 0, zone   Normal  12609  12369   4970    106     47     21      7      1      1      1      2 
+Node 0, zone  HighMem   1158    280     67     35     13      5      4     15      1      0      0 
+

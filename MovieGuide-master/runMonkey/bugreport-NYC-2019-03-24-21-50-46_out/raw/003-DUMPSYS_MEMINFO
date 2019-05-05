@@ -1,0 +1,2021 @@
+Applications Memory Usage (in Kilobytes):
+Uptime: 176784 Realtime: 176784
+
+** MEMINFO in pid 5026 [com.esoxjem.movieguide] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     8624        0     1536     8576        0        0        0    23040    17214     5825
+  Dalvik Heap    15360        0     4804    15264        0        0        0    22014    17918     4096
+ Dalvik Other     1381        0       72     1380        0        0        0                           
+        Stack      480        0        4      480        0        0        0                           
+       Ashmem        2        0        4        0       12        0        0                           
+    Other dev        4        0       44        0        0        4        0                           
+     .so mmap     2463     1276     2752      152    10536     1276        0                           
+    .apk mmap      259       32        0        0     4004       32        0                           
+    .ttf mmap      145      112        0        0      216      112        0                           
+    .dex mmap     5192     5188        0        4        0     5188        0                           
+    .oat mmap     2356      656       52        0    16328      656        0                           
+    .art mmap     1644        4     1032     1348     8008        4        0                           
+   Other mmap       68        0       52        4      340       44        0                           
+      Unknown      739        0      232      728        0        0        0                           
+        TOTAL    38717     7268    10584    27936    39444     7316        0    45054    35132     9921
+ 
+ Dalvik Details
+        .Heap     2704        0        0     2704        0        0        0                           
+         .LOS    12361        0     3964    12292        0        0        0                           
+ .LinearAlloc      821        0       48      820        0        0        0                           
+          .GC      320        0       20      320        0        0        0                           
+    .JITCache      144        0        0      144        0        0        0                           
+      .Zygote      243        0      840      216        0        0        0                           
+   .NonMoving       52        0        0       52        0        0        0                           
+ .IndirectRef       96        0        4       96        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    16616
+         Native Heap:     8576
+                Code:     7420
+               Stack:      480
+            Graphics:        0
+       Private Other:     2160
+              System:     3465
+ 
+               TOTAL:    38717       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:      167         ViewRootImpl:        3
+         AppContexts:        5           Activities:        4
+              Assets:        2        AssetManagers:        2
+       Local Binders:       24        Proxy Binders:       22
+       Parcel memory:        6         Parcel count:       20
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+** MEMINFO in pid 2259 [com.google.android.gms.persistent] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    10426        0     1568    10376        0        0        0    18944    12437     6506
+  Dalvik Heap    10622        0     4856    10524        0        0        0    12972     8876     4096
+ Dalvik Other     2481        0       72     2480        0        0        0                           
+        Stack      540        0        8      540        0        0        0                           
+       Ashmem        0        0        0        0       12        0        0                           
+    Other dev        4        0       56        0        0        4        0                           
+     .so mmap      665       32     2772       84     8244       32        0                           
+    .apk mmap      884      320        0       64     6520      320        0                           
+    .dex mmap    20646    10872        0       12    25240    10872        0                           
+    .oat mmap     2152      260       52        0    17584      260        0                           
+    .art mmap     1909        0     1004     1632     7744        0        0                           
+   Other mmap      131        0       36       24      472       44        0                           
+      Unknown     2705        0      216     2704        0        0        0                           
+        TOTAL    53165    11484    10640    28440    65816    11532        0    31916    21313    10602
+ 
+ Dalvik Details
+        .Heap    10272        0        0    10272        0        0        0                           
+         .LOS      109        0     3964       40        0        0        0                           
+ .LinearAlloc     1909        0       48     1908        0        0        0                           
+          .GC      368        0       20      368        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      193        0      892      164        0        0        0                           
+   .NonMoving       48        0        0       48        0        0        0                           
+ .IndirectRef      196        0        4      196        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    12156
+         Native Heap:    10376
+                Code:    11644
+               Stack:      540
+            Graphics:        0
+       Private Other:     5256
+              System:    13193
+ 
+               TOTAL:    53165       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:       34           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:      199        Proxy Binders:       93
+       Parcel memory:       17         Parcel count:       75
+    Death Recipients:        9      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:     3376
+  PAGECACHE_OVERFLOW:     2223          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       60            104      302/51/19  /data/user/0/com.google.android.gms/databases/ns.db
+         4       24             18         0/29/3  /data/user/0/com.google.android.gms/databases/device_connections.db
+         4      108             81      34/101/13  /data/user/0/com.google.android.gms/databases/android_pay
+         4       20             31         3/28/4  /data/user/0/com.google.android.gms/databases/gms.notifications.db
+         4       76            141   4984/1132/25  /data/user/0/com.google.android.gms/databases/playlog.db
+         4       76             50       851/24/8  /data/user/0/com.google.android.gms/databases/playlog.db (1)
+         4       32             94       22/49/17  /data/user/0/com.google.android.gms/databases/context_feature_default.db
+         4       28             23        13/30/4  /data/user/0/com.google.android.gms/databases/gcm_registrar.db
+         4     1280            218  19959/1945/25  /data/user/0/com.google.android.gms/databases/phenotype.db
+         4     1280             37        28/17/5  /data/user/0/com.google.android.gms/databases/phenotype.db (2)
+         4       24             37        20/35/7  /data/user/0/com.google.android.gms/databases/rmq.db
+         4       28             20         1/34/4  /data/user/0/com.google.android.gms/databases/netrec
+
+** MEMINFO in pid 1822 [com.android.inputmethod.latin] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     7315        0     1516     7268        0        0        0    17920    15791     2128
+  Dalvik Heap     4583        0     4872     4484        0        0        0     8668     6620     2048
+ Dalvik Other      629        0       72      628        0        0        0                           
+        Stack      204        0        4      204        0        0        0                           
+       Ashmem        4        0        0        4        8        0        0                           
+    Other dev        4        0       44        0        0        4        0                           
+     .so mmap     1310      488     2744      144     9592      488        0                           
+    .apk mmap      643      192        0        0     4352      192        0                           
+    .ttf mmap       71        8        0        0      248        8        0                           
+    .dex mmap     2220     2216        0        4        0     2216        0                           
+    .oat mmap     1209      200       52        0    13304      200        0                           
+    .art mmap     1351        0     1192     1048     8120        0        0                           
+   Other mmap       26        0       36        4      344        0        0                           
+      Unknown      305        0      212      304        0        0        0                           
+        TOTAL    19874     3104    10744    14092    35968     3108        0    26588    22411     4176
+ 
+ Dalvik Details
+        .Heap     3220        0        0     3220        0        0        0                           
+         .LOS     1133        0     3964     1064        0        0        0                           
+ .LinearAlloc      205        0       48      204        0        0        0                           
+          .GC      352        0       20      352        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      178        0      908      148        0        0        0                           
+   .NonMoving       52        0        0       52        0        0        0                           
+ .IndirectRef       64        0        4       64        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     5532
+         Native Heap:     7268
+                Code:     3252
+               Stack:      204
+            Graphics:        0
+       Private Other:      944
+              System:     2674
+ 
+               TOTAL:    19874       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:      108         ViewRootImpl:        1
+         AppContexts:        4           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:       22        Proxy Binders:       20
+       Parcel memory:        8         Parcel count:       23
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      246
+  PAGECACHE_OVERFLOW:       76          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             86        41/34/6  /data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin
+         4       28             40        65/34/8  /data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates
+
+** MEMINFO in pid 2522 [com.google.android.apps.nexuslauncher] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     9154        0     1500     9108        0        0        0    20992    17424     3567
+  Dalvik Heap     6116        0     4800     6020        0        0        0    11386     9338     2048
+ Dalvik Other      681        0       72      680        0        0        0                           
+        Stack      292        0        4      292        0        0        0                           
+       Ashmem        4        0        0        4        4        0        0                           
+    Other dev        4        0       44        0        0        4        0                           
+     .so mmap     1403       32     2732      160    11972       32        0                           
+    .apk mmap      192       32        0        0     3780       32        0                           
+    .ttf mmap       70        4        0        0      316        4        0                           
+    .dex mmap     4496     4492        0        4        0     4492        0                           
+    .oat mmap     1737      136       52        0    15944      136        0                           
+    .art mmap     1581        0     1100     1288     7984        0        0                           
+   Other mmap       60        0       36        4      660        0        0                           
+      Unknown      417        0      200      416        0        0        0                           
+        TOTAL    26207     4696    10540    17976    40660     4700        0    32378    26762     5615
+ 
+ Dalvik Details
+        .Heap     1676        0        0     1676        0        0        0                           
+         .LOS     4061        0     3964     3992        0        0        0                           
+ .LinearAlloc      469        0       48      468        0        0        0                           
+          .GC      120        0       20      120        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      247        0      836      220        0        0        0                           
+   .NonMoving      132        0        0      132        0        0        0                           
+ .IndirectRef       84        0        4       84        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7308
+         Native Heap:     9108
+                Code:     4860
+               Stack:      292
+            Graphics:        0
+       Private Other:     1108
+              System:     3531
+ 
+               TOTAL:    26207       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:       87         ViewRootImpl:        1
+         AppContexts:        3           Activities:        1
+              Assets:        2        AssetManagers:        2
+       Local Binders:       34        Proxy Binders:       27
+       Parcel memory:       24         Parcel count:       59
+    Death Recipients:        4      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:     1322
+  PAGECACHE_OVERFLOW:      992          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       56            129       48/42/12  /data/user/0/com.google.android.apps.nexuslauncher/databases/launcher.db
+         4       16             18        62/22/2  /data/user/0/com.google.android.apps.nexuslauncher/databases/widgetpreviews.db
+         4      676             37       275/25/5  /data/user/0/com.google.android.apps.nexuslauncher/databases/app_icons.db
+         4       20             41        11/30/6  /data/user/0/com.google.android.apps.nexuslauncher/databases/reflection.events
+
+** MEMINFO in pid 2428 [com.google.android.googlequicksearchbox:search] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    21368        0     1536    21312        0        0        0    45696    37403     8292
+  Dalvik Heap    11907        0     4780    11812        0        0        0    14631    12583     2048
+ Dalvik Other     3849        0       72     3848        0        0        0                           
+        Stack     1296        0        8     1296        0        0        0                           
+       Ashmem      178        0      344        4       16        0        0                           
+    Other dev       14        0       64        0        0       12        0                           
+     .so mmap     8463     6816     2716      516    11652     6816        0                           
+    .apk mmap    28995    26800        0      156    10260    26800        0                           
+    .ttf mmap      226       44        0        0      908       44        0                           
+    .dex mmap    30327    27416        0       20     8048    27416        0                           
+    .oat mmap     2765      544       52        0    19776      544        0                           
+    .art mmap     2095        0      880     1820     7712        0        0                           
+   Other mmap     1206        0       36        4      448     1180        0                           
+      Unknown     9725        0      180     9724        0        0        0                           
+        TOTAL   122414    61620    10668    50512    58820    62812        0    60327    49986    10340
+ 
+ Dalvik Details
+        .Heap     8256        0        0     8256        0        0        0                           
+         .LOS     3321        0     3964     3252        0        0        0                           
+ .LinearAlloc     3257        0       48     3256        0        0        0                           
+          .GC      332        0       20      332        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      266        0      816      240        0        0        0                           
+   .NonMoving       64        0        0       64        0        0        0                           
+ .IndirectRef      252        0        4      252        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    13632
+         Native Heap:    21312
+                Code:    62312
+               Stack:     1296
+            Graphics:        0
+       Private Other:    14772
+              System:     9090
+ 
+               TOTAL:   122414       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:      222         ViewRootImpl:        2
+         AppContexts:       17           Activities:        1
+              Assets:        4        AssetManagers:        4
+       Local Binders:      121        Proxy Binders:       66
+       Parcel memory:       25         Parcel count:      101
+    Death Recipients:        4      OpenSSL Sockets:        0
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:      539
+  PAGECACHE_OVERFLOW:      220          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       40             25         1/38/2  /data/user/0/com.google.android.googlequicksearchbox/app_si/now_content_store/content_store.db
+         4       40             48        14/18/5  /data/user/0/com.google.android.googlequicksearchbox/app_si/now_content_store/content_store.db (2)
+         4      112            213     248/257/25  /data/user/0/com.google.android.googlequicksearchbox/databases/icingcorpora.db
+
+** MEMINFO in pid 2563 [com.google.android.gms] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    12203        0     1532    12156        0        0        0    26112    18092     8019
+  Dalvik Heap    11889        0     4832    11792        0        0        0    14657    10561     4096
+ Dalvik Other     2605        0       76     2604        0        0        0                           
+        Stack      552        0        8      552        0        0        0                           
+       Ashmem        0        0        0        0        8        0        0                           
+    Other dev       12        0       60        0        0       12        0                           
+     .so mmap      735       40     2744      112     8144       40        0                           
+    .apk mmap     2719     2024        0      136     6732     2024        0                           
+    .dex mmap    23807    14032        0       12    25248    14032        0                           
+    .oat mmap     2144      168       52        0    18176      168        0                           
+    .art mmap     2019        0      916     1748     7712        0        0                           
+   Other mmap     7767        0       60       80      724     7580        0                           
+      Unknown     2721        0      208     2720        0        0        0                           
+        TOTAL    69173    16264    10488    31912    66744    23856        0    40769    28653    12115
+ 
+ Dalvik Details
+        .Heap    11448        0        0    11448        0        0        0                           
+         .LOS      185        0     3964      116        0        0        0                           
+ .LinearAlloc     1901        0       52     1900        0        0        0                           
+          .GC      504        0       20      504        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      216        0      868      188        0        0        0                           
+   .NonMoving       40        0        0       40        0        0        0                           
+ .IndirectRef      192        0        4      192        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    13540
+         Native Heap:    12156
+                Code:    16524
+               Stack:      552
+            Graphics:        0
+       Private Other:    12996
+              System:    13405
+ 
+               TOTAL:    69173       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:       18           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:      149        Proxy Binders:       57
+       Parcel memory:       18         Parcel count:       79
+    Death Recipients:       11      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:     3111
+  PAGECACHE_OVERFLOW:     1597          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4      204             46      875/64/10  /data/user/0/com.google.android.gms/databases/chromesync.data_store
+         4       36             51         3/36/4  /data/user/0/com.google.android.gms/databases/auth.proximity.permit_store
+         4      108            159      25/130/18  /data/user/0/com.google.android.gms/databases/google_app_measurement.db
+         4      180             23        1/100/4  /data/user/0/com.google.android.gms/databases/matchstickv9.db
+         4       84            343     109/175/25  /data/user/0/com.google.android.gms/databases/icing_contacts.db
+         4       16             31        33/34/6  /data/user/0/com.google.android.gms/databases/peoplelog.db
+         4       28             27         4/31/5  /data/user/0/com.google.android.gms/databases/google_analytics_v4.db
+         4       24            240      285/88/24  /data/user/0/com.google.android.gms/databases/downloads.db
+         4      184            159     239/170/16  /data/user/0/com.google.android.gms/databases/pluscontacts.db
+         4       52            128       29/94/18  /data/user/0/com.google.android.gms/databases/icing_mmssms.db
+         4       76            134       22/57/13  /data/user/0/com.google.android.gms/databases/iu.upload.db
+         4       28             20         2/37/5  /data/user/0/com.google.android.gms/databases/ipa_mmssms.db
+         4      100            467       15/104/8  /data/user/0/com.google.android.gms/databases/reminders.db
+         4       68            217      143/64/20  /data/user/0/com.google.android.gms/databases/icing-indexapi.db
+
+** MEMINFO in pid 4924 [com.android.chrome] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     1359        0     1736     1300        0        0        0     3584     2680      903
+  Dalvik Heap      780        0     4900      680        0        0        0     5727     4296     1431
+ Dalvik Other      277        0       76      276        0        0        0                           
+        Stack      120        0        8      120        0        0        0                           
+    Other dev        4        0       40        0        0        4        0                           
+     .so mmap      252        0     2796       60     4852        0        0                           
+    .apk mmap      659       24        0        0     5800       24        0                           
+    .dex mmap     3207     1860        0       20     4248     1860        0                           
+    .oat mmap      305        0       52        0     7944        0        0                           
+    .art mmap      861        0     1456      540     8300        0        0                           
+   Other mmap       11        0       36        4      232        0        0                           
+      Unknown     1669        0      236     1668        0        0        0                           
+        TOTAL     9504     1884    11336     4668    31376     1888        0     9311     6976     2334
+ 
+ Dalvik Details
+        .Heap      520        0        0      520        0        0        0                           
+         .LOS       93        0     3964       24        0        0        0                           
+ .LinearAlloc      137        0       52      136        0        0        0                           
+          .GC       80        0       20       80        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      151        0      936      120        0        0        0                           
+   .NonMoving       16        0        0       16        0        0        0                           
+ .IndirectRef       52        0        4       52        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     1220
+         Native Heap:     1300
+                Code:     1964
+               Stack:      120
+            Graphics:        0
+       Private Other:     1952
+              System:     2948
+ 
+               TOTAL:     9504       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        4           Activities:        0
+              Assets:        4        AssetManagers:        4
+       Local Binders:       11        Proxy Binders:       10
+       Parcel memory:        3         Parcel count:       12
+    Death Recipients:        1      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+** MEMINFO in pid 2338 [com.google.process.gapps] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     2067        0     1692     2008        0        0        0     5632     3209     2422
+  Dalvik Heap      988        0     4896      888        0        0        0     6092     4569     1523
+ Dalvik Other      213        0       76      212        0        0        0                           
+        Stack      188        0       12      188        0        0        0                           
+       Ashmem        0        0        0        0        4        0        0                           
+    Other dev        4        0       40        0        0        4        0                           
+     .so mmap      469        0     2792       64     6928        0        0                           
+    .apk mmap      134       24        0        0     3520       24        0                           
+    .dex mmap      160      156        0        4        0      156        0                           
+    .oat mmap      789      244       52        0     9420      244        0                           
+    .art mmap      959        0     1396      640     8272        0        0                           
+   Other mmap       10        0       36        4      284        0        0                           
+      Unknown      273        0      236      272        0        0        0                           
+        TOTAL     6254      424    11228     4280    28428      428        0    11724     7778     3945
+ 
+ Dalvik Details
+        .Heap      736        0        0      736        0        0        0                           
+         .LOS       85        0     3964       16        0        0        0                           
+ .LinearAlloc       53        0       52       52        0        0        0                           
+          .GC       84        0       20       84        0        0        0                           
+    .JITCache       12        0        0       12        0        0        0                           
+      .Zygote      155        0      932      124        0        0        0                           
+   .NonMoving       12        0        0       12        0        0        0                           
+ .IndirectRef       64        0        4       64        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     1528
+         Native Heap:     2008
+                Code:      492
+               Stack:      188
+            Graphics:        0
+       Private Other:      492
+              System:     1546
+ 
+               TOTAL:     6254       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        2           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:        9        Proxy Binders:       12
+       Parcel memory:        4         Parcel count:       18
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      692
+  PAGECACHE_OVERFLOW:      439          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       28             36       265/33/7  /data/user/0/com.google.android.gsf/databases/googlesettings.db
+         4      268             58     3237/55/13  /data/user/0/com.google.android.gsf/databases/gservices.db
+         4       36             30         3/44/6  /data/user/0/com.google.android.gsf/databases/subscribedfeeds.db
+
+** MEMINFO in pid 2671 [android.process.media] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     4222        0     1568     4172        0        0        0     8192     5569     2622
+  Dalvik Heap     1268        0     4800     1172        0        0        0     6086     4565     1521
+ Dalvik Other      273        0       76      272        0        0        0                           
+        Stack      228        0        8      228        0        0        0                           
+       Ashmem        0        0        0        0        8        0        0                           
+    Other dev        4        0       40        0        0        4        0                           
+     .so mmap      763       20     2768       88     8016       20        0                           
+    .apk mmap      207       92        0        0     3556       92        0                           
+    .dex mmap     1016     1008        0        8        0     1008        0                           
+    .oat mmap     1580      132       52        0    14768      132        0                           
+    .art mmap     1336        0     1208     1036     8108        0        0                           
+   Other mmap      101        0       36       24      528       44        0                           
+      Unknown      253        0      232      252        0        0        0                           
+        TOTAL    11251     1252    10788     7252    34984     1300        0    14278    10134     4143
+ 
+ Dalvik Details
+        .Heap      940        0        0      940        0        0        0                           
+         .LOS       69        0     3964        0        0        0        0                           
+ .LinearAlloc       85        0       52       84        0        0        0                           
+          .GC      104        0       20      104        0        0        0                           
+    .JITCache       20        0        0       20        0        0        0                           
+      .Zygote      247        0      836      220        0        0        0                           
+   .NonMoving       12        0        0       12        0        0        0                           
+ .IndirectRef       64        0        4       64        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     2208
+         Native Heap:     4172
+                Code:     1348
+               Stack:      228
+            Graphics:        0
+       Private Other:      596
+              System:     2699
+ 
+               TOTAL:    11251       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        6           Activities:        0
+              Assets:        3        AssetManagers:        3
+       Local Binders:        7        Proxy Binders:       14
+       Parcel memory:        4         Parcel count:       16
+    Death Recipients:        0      OpenSSL Sockets:        1
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:     1542
+  PAGECACHE_OVERFLOW:      611          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       24            270     533/104/25  /data/user/0/com.android.providers.downloads/databases/downloads.db
+         4      224            129     789/436/25  /data/user/0/com.android.providers.media/databases/internal.db
+         4      224             62       453/21/8  /data/user/0/com.android.providers.media/databases/internal.db (1)
+         4      160            133     229/506/25  /data/user/0/com.android.providers.media/databases/external.db
+         4      160             26        94/88/2  /data/user/0/com.android.providers.media/databases/external.db (2)
+         4      160            233      355/49/23  /data/user/0/com.android.providers.media/databases/external.db (1)
+
+** MEMINFO in pid 5295 [com.android.systemui:screenshot] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     2050        0     1716     1984        0        0        0    17408    16318     1089
+  Dalvik Heap     4062        0     4848     3964        0        0        0     5607     4206     1401
+ Dalvik Other      189        0       76      188        0        0        0                           
+        Stack      164        0        8      164        0        0        0                           
+       Ashmem     3276        0       24     3264        0        0        0                           
+    Other dev        4        0       40        0        0        4        0                           
+     .so mmap      819        4     2748      124     8032        4        0                           
+    .apk mmap      572       12        0        0     4876       12        0                           
+    .dex mmap      850       96        0        4     1500       96        0                           
+    .oat mmap      697       64       52        0     9800       64        0                           
+    .art mmap      913        0     1416      584     8344        0        0                           
+   Other mmap        9        0       36        4      268        0        0                           
+      Unknown      461        0      220      460        0        0        0                           
+        TOTAL    14066      176    11184    10740    32820      180        0    23015    20524     2490
+ 
+ Dalvik Details
+        .Heap      496        0        0      496        0        0        0                           
+         .LOS     3357        0     3964     3288        0        0        0                           
+ .LinearAlloc       41        0       52       40        0        0        0                           
+          .GC      104        0       20      104        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      201        0      884      172        0        0        0                           
+   .NonMoving        8        0        0        8        0        0        0                           
+ .IndirectRef       36        0        4       36        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     4548
+         Native Heap:     1984
+                Code:      304
+               Stack:      164
+            Graphics:        0
+       Private Other:     3920
+              System:     3146
+ 
+               TOTAL:    14066       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        5         ViewRootImpl:        1
+         AppContexts:        3           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:        9        Proxy Binders:       17
+       Parcel memory:        4         Parcel count:       16
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+** MEMINFO in pid 5217 [com.google.android.partnersetup] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap      975        0     1836      904        0        0        0     3584     2291     1292
+  Dalvik Heap      365        0     4900      264        0        0        0     5501     4126     1375
+ Dalvik Other      127        0       80      124        0        0        0                           
+        Stack      104        0       12      104        0        0        0                           
+    Other dev        4        0       40        0        0        4        0                           
+     .so mmap      217        0     2800       56     4484        0        0                           
+    .apk mmap      185       76        0        0     3488       76        0                           
+    .dex mmap      364      360        0        4        0      360        0                           
+    .oat mmap      186        0       52        0     5680        0        0                           
+    .art mmap      674        0     1596      336     8348        0        0                           
+   Other mmap        7        0       36        4      216        0        0                           
+      Unknown      249        0      240      248        0        0        0                           
+        TOTAL     3457      436    11592     2044    22216      440        0     9085     6417     2667
+ 
+ Dalvik Details
+        .Heap      140        0        0      140        0        0        0                           
+         .LOS       69        0     3964        0        0        0        0                           
+ .LinearAlloc       11        0       56        8        0        0        0                           
+          .GC       60        0       20       60        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      152        0      936      120        0        0        0                           
+   .NonMoving        4        0        0        4        0        0        0                           
+ .IndirectRef       48        0        4       48        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:      600
+         Native Heap:      904
+                Code:      496
+               Stack:      104
+            Graphics:        0
+       Private Other:      380
+              System:      973
+ 
+               TOTAL:     3457       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        2           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:        5        Proxy Binders:        8
+       Parcel memory:        2         Parcel count:       10
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+** MEMINFO in pid 3912 [com.google.android.talk] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    10318        0     1532    10272        0        0        0    13440    11653     1786
+  Dalvik Heap     3208        0     4880     3108        0        0        0     7207     5406     1801
+ Dalvik Other      957        0       76      956        0        0        0                           
+        Stack      212        0        8      212        0        0        0                           
+    Other dev        4        0       44        0        0        4        0                           
+     .so mmap      424       12     2776       80     6800       12        0                           
+    .apk mmap     1449        0        0       48     8304        0        0                           
+    .dex mmap     8780     5140        0       20     9704     5140        0                           
+    .oat mmap      974      128       52        0    12744      128        0                           
+    .art mmap     1351        0     1156     1052     8156        0        0                           
+   Other mmap       13        0       36        4      332        0        0                           
+      Unknown     2053        0      220     2052        0        0        0                           
+        TOTAL    29743     5280    10780    17804    46040     5284        0    20647    17059     3587
+ 
+ Dalvik Details
+        .Heap     2836        0        0     2836        0        0        0                           
+         .LOS      181        0     3964      112        0        0        0                           
+ .LinearAlloc      657        0       52      656        0        0        0                           
+          .GC      204        0       20      204        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      171        0      916      140        0        0        0                           
+   .NonMoving       20        0        0       20        0        0        0                           
+ .IndirectRef       88        0        4       88        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     4160
+         Native Heap:    10272
+                Code:     5428
+               Stack:      212
+            Graphics:        0
+       Private Other:     3016
+              System:     6655
+ 
+               TOTAL:    29743       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        5           Activities:        0
+              Assets:        3        AssetManagers:        3
+       Local Binders:       17        Proxy Binders:       18
+       Parcel memory:        7         Parcel count:       29
+    Death Recipients:        1      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:     1413
+  PAGECACHE_OVERFLOW:      822          MALLOC_SIZE:       72
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4      320             91        9/150/6  /data/user/0/com.google.android.talk/databases/babel0.db
+         4       24             34         1/30/4  /data/user/0/com.google.android.talk/databases/message_store.db
+         4       20             35         8/31/7  /data/user/0/com.google.android.talk/databases/concurrent_service_task_store.db
+         4      268             81    4289/169/25  /data/user/0/com.google.android.talk/databases/apn.db
+ 
+ Asset Allocations
+    zip:/system/app/Hangouts/Hangouts.apk:/resources.arsc: 5970K
+
+** MEMINFO in pid 4798 [com.google.android.gms.unstable] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     2338        0     1672     2284        0        0        0     9728     7804     1923
+  Dalvik Heap     1072        0     4860      972        0        0        0     6321     4741     1580
+ Dalvik Other      546        0       76      544        0        0        0                           
+        Stack      188        0        8      188        0        0        0                           
+    Other dev        5        0       56        0        0        4        0                           
+     .so mmap      596       52     2764       92     7460       52        0                           
+    .jar mmap        8        8        0        0        0        8        0                           
+    .apk mmap      644      200        0       56     6188      200        0                           
+    .dex mmap     3616      212        0       16    12260      212        0                           
+    .oat mmap      942       72       52        0    12244       72        0                           
+    .art mmap     1379        0     1160     1080     8088        0        0                           
+   Other mmap       37        0       36        4      404        0        0                           
+      Unknown     2133        0      204     2132        0        0        0                           
+        TOTAL    13504      544    10888     7368    46644      548        0    16049    12545     3503
+ 
+ Dalvik Details
+        .Heap      772        0        0      772        0        0        0                           
+         .LOS       93        0     3964       24        0        0        0                           
+ .LinearAlloc      389        0       52      388        0        0        0                           
+          .GC       77        0       20       76        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      191        0      896      160        0        0        0                           
+   .NonMoving       16        0        0       16        0        0        0                           
+ .IndirectRef       72        0        4       72        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     2052
+         Native Heap:     2284
+                Code:      708
+               Stack:      188
+            Graphics:        0
+       Private Other:     2684
+              System:     5588
+ 
+               TOTAL:    13504       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        3           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:       14        Proxy Binders:       21
+       Parcel memory:        5         Parcel count:       23
+    Death Recipients:        2      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:       62
+ 
+
+** MEMINFO in pid 2678 [android.process.acore] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     3706        0     1568     3656        0        0        0     7168     5204     1963
+  Dalvik Heap     1055        0     4844      956        0        0        0     6223     4668     1555
+ Dalvik Other      294        0       76      292        0        0        0                           
+        Stack      168        0       12      168        0        0        0                           
+       Ashmem        0        0        0        0        4        0        0                           
+    Other dev        4        0       40        0        0        4        0                           
+     .so mmap      366        0     2788       68     6336        0        0                           
+    .jar mmap       14        0        0        0       28        0        0                           
+    .apk mmap      182       72        0        0     3520       72        0                           
+    .dex mmap     1584     1572        0       12        0     1572        0                           
+    .oat mmap     1016       32       52        0    11604       32        0                           
+    .art mmap     1164        0     1328      856     8140        0        0                           
+   Other mmap       30        0       36        4      412        0        0                           
+      Unknown      301        0      232      300        0        0        0                           
+        TOTAL     9884     1676    10976     6312    30044     1680        0    13391     9872     3518
+ 
+ Dalvik Details
+        .Heap      764        0        0      764        0        0        0                           
+         .LOS       69        0     3964        0        0        0        0                           
+ .LinearAlloc      145        0       52      144        0        0        0                           
+          .GC       89        0       20       88        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      206        0      880      176        0        0        0                           
+   .NonMoving       16        0        0       16        0        0        0                           
+ .IndirectRef       52        0        4       52        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     1812
+         Native Heap:     3656
+                Code:     1756
+               Stack:      168
+            Graphics:        0
+       Private Other:      600
+              System:     1892
+ 
+               TOTAL:     9884       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        5           Activities:        0
+              Assets:        4        AssetManagers:        4
+       Local Binders:       12        Proxy Binders:       17
+       Parcel memory:        4         Parcel count:       16
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:     1773
+  PAGECACHE_OVERFLOW:      988          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4      340            204    1506/334/25  /data/user/0/com.android.providers.contacts/databases/profile.db
+         1        9                         0/0/0    (attached) presence_db
+         4      340            275    1729/376/25  /data/user/0/com.android.providers.contacts/databases/contacts2.db
+         1        9                         0/0/0    (attached) presence_db
+         4       32            140       58/46/16  /data/user/0/com.android.providers.contacts/databases/calllog.db
+         4       32             77         4/36/8  /data/user_de/0/com.android.providers.contacts/databases/calllog_shadow.db
+
+** MEMINFO in pid 5087 [com.android.settings] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap      983        0     1844      912        0        0        0     3584     2310     1273
+  Dalvik Heap      342        0     4900      240        0        0        0     5493     4120     1373
+ Dalvik Other      122        0       76      120        0        0        0                           
+        Stack      100        0        8      100        0        0        0                           
+    Other dev        4        0       36        0        0        4        0                           
+     .so mmap      215        0     2800       56     4444        0        0                           
+    .apk mmap     1085      976        0        0     3488      976        0                           
+    .dex mmap      520      516        0        4        0      516        0                           
+    .oat mmap      170        0       52        0     5344        0        0                           
+    .art mmap      685        0     1600      348     8320        0        0                           
+   Other mmap        7        0       36        4      216        0        0                           
+      Unknown      337        0      240      336        0        0        0                           
+        TOTAL     4570     1492    11592     2120    21812     1496        0     9077     6430     2646
+ 
+ Dalvik Details
+        .Heap      116        0        0      116        0        0        0                           
+         .LOS       69        0     3964        0        0        0        0                           
+ .LinearAlloc        9        0       52        8        0        0        0                           
+          .GC       61        0       20       60        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      153        0      936      120        0        0        0                           
+   .NonMoving        4        0        0        4        0        0        0                           
+ .IndirectRef       44        0        4       44        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:      588
+         Native Heap:      912
+                Code:     1552
+               Stack:      100
+            Graphics:        0
+       Private Other:      464
+              System:      954
+ 
+               TOTAL:     4570       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        2           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:        4        Proxy Binders:        8
+       Parcel memory:        2         Parcel count:        8
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+** MEMINFO in pid 5060 [com.android.cellbroadcastreceiver] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap      842        0     1804      776        0        0        0     3584     2239     1344
+  Dalvik Heap      390        0     4900      288        0        0        0     5524     4143     1381
+ Dalvik Other      142        0       76      140        0        0        0                           
+        Stack       96        0       12       96        0        0        0                           
+    Other dev        4        0       40        0        0        4        0                           
+     .so mmap      209        0     2800       56     4284        0        0                           
+    .apk mmap      225      116        0        0     3488      116        0                           
+    .dex mmap      164      160        0        4        0      160        0                           
+    .oat mmap      331        8       52        0     6896        8        0                           
+    .art mmap      797        0     1532      468     8296        0        0                           
+   Other mmap        7        0       36        4      216        0        0                           
+      Unknown      201        0      240      200        0        0        0                           
+        TOTAL     3408      284    11492     2032    23180      288        0     9108     6382     2725
+ 
+ Dalvik Details
+        .Heap      156        0        0      156        0        0        0                           
+         .LOS       69        0     3964        0        0        0        0                           
+ .LinearAlloc       29        0       52       28        0        0        0                           
+          .GC       61        0       20       60        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      153        0      936      120        0        0        0                           
+   .NonMoving       12        0        0       12        0        0        0                           
+ .IndirectRef       44        0        4       44        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:      756
+         Native Heap:      776
+                Code:      344
+               Stack:       96
+            Graphics:        0
+       Private Other:      348
+              System:     1088
+ 
+               TOTAL:     3408       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        2           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:        4        Proxy Binders:        9
+       Parcel memory:        2         Parcel count:        8
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+** MEMINFO in pid 5108 [com.google.android.apps.messaging] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     2689        0     1600     2640        0        0        0     6656     4991     1664
+  Dalvik Heap     1805        0     4864     1704        0        0        0     7220     5415     1805
+ Dalvik Other      506        0       76      504        0        0        0                           
+        Stack      196        0       12      196        0        0        0                           
+       Ashmem        0        0        0        0        4        0        0                           
+    Other dev        8        0       36        0        0        8        0                           
+     .so mmap      411        0     2780       76     6628        0        0                           
+    .apk mmap     1234      748        0        0     4272      748        0                           
+    .dex mmap     5552     5548        0        4        0     5548        0                           
+    .oat mmap      912       44       52        0    11920       44        0                           
+    .art mmap     1270        0     1288      960     8120        0        0                           
+   Other mmap       62        0       36        4      360       48        0                           
+      Unknown      637        0      232      636        0        0        0                           
+        TOTAL    15282     6340    10976     6724    31304     6396        0    13876    10406     3469
+ 
+ Dalvik Details
+        .Heap     1392        0        0     1392        0        0        0                           
+         .LOS      201        0     3964      132        0        0        0                           
+ .LinearAlloc      325        0       52      324        0        0        0                           
+          .GC      101        0       20      100        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      188        0      900      156        0        0        0                           
+   .NonMoving       24        0        0       24        0        0        0                           
+ .IndirectRef       72        0        4       72        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     2664
+         Native Heap:     2640
+                Code:     6420
+               Stack:      196
+            Graphics:        0
+       Private Other:     1200
+              System:     2162
+ 
+               TOTAL:    15282       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        2           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:       12        Proxy Binders:       18
+       Parcel memory:        6         Parcel count:       24
+    Death Recipients:        1      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      282
+  PAGECACHE_OVERFLOW:      103          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4      152            395       78/73/25  /data/user/0/com.google.android.apps.messaging/databases/bugle_db
+
+** MEMINFO in pid 4272 [com.google.android.music:main] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     2919        0     1608     2868        0        0        0     6656     5300     1356
+  Dalvik Heap     3261        0     4864     3160        0        0        0     7783     5838     1945
+ Dalvik Other      894        0       76      892        0        0        0                           
+        Stack      332        0        8      332        0        0        0                           
+    Other dev        8        0       44        0        0        8        0                           
+     .so mmap      481       12     2776       80     7364       12        0                           
+    .apk mmap     2711     2328        0       48     5956     2328        0                           
+    .dex mmap    12818    12436        0       16     2724    12436        0                           
+    .oat mmap      921      148       52        0    11684      148        0                           
+    .art mmap     1287        0     1124      988     8240        0        0                           
+   Other mmap       13        0       36        4      344        0        0                           
+      Unknown     2013        0      216     2012        0        0        0                           
+        TOTAL    27658    14924    10804    10400    36312    14932        0    14439    11138     3301
+ 
+ Dalvik Details
+        .Heap     2288        0        0     2288        0        0        0                           
+         .LOS      753        0     3964      684        0        0        0                           
+ .LinearAlloc      569        0       52      568        0        0        0                           
+          .GC      197        0       20      196        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      188        0      900      156        0        0        0                           
+   .NonMoving       32        0        0       32        0        0        0                           
+ .IndirectRef      120        0        4      120        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     4148
+         Native Heap:     2868
+                Code:    15068
+               Stack:      332
+            Graphics:        0
+       Private Other:     2916
+              System:     2326
+ 
+               TOTAL:    27658       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        6           Activities:        0
+              Assets:        3        AssetManagers:        3
+       Local Binders:       37        Proxy Binders:       32
+       Parcel memory:        9         Parcel count:       38
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      560
+  PAGECACHE_OVERFLOW:      264          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4      460            291     179/252/25  /data/user/0/com.google.android.music/databases/music.db
+         1        1                         0/0/0    (attached) temp
+         4       28             23        42/19/3  /data/user/0/com.google.android.music/databases/config.db
+
+** MEMINFO in pid 4754 [com.google.android.apps.wallpaper] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap      932        0     1856      856        0        0        0     3584     2276     1307
+  Dalvik Heap      387        0     4892      284        0        0        0     5499     4125     1374
+ Dalvik Other      146        0       76      144        0        0        0                           
+        Stack      104        0       12      104        0        0        0                           
+    Other dev        4        0       36        0        0        4        0                           
+     .so mmap      209        0     2800       56     4264        0        0                           
+    .apk mmap      457      348        0        0     3488      348        0                           
+    .dex mmap      720      716        0        4        0      716        0                           
+    .oat mmap      186        0       52        0     5608        0        0                           
+    .art mmap      680        0     1600      340     8320        0        0                           
+   Other mmap        7        0       36        4      220        0        0                           
+      Unknown      293        0      240      292        0        0        0                           
+        TOTAL     4125     1064    11600     2084    21900     1068        0     9083     6401     2681
+ 
+ Dalvik Details
+        .Heap      152        0        0      152        0        0        0                           
+         .LOS       69        0     3964        0        0        0        0                           
+ .LinearAlloc       33        0       52       32        0        0        0                           
+          .GC       57        0       20       56        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      162        0      928      128        0        0        0                           
+   .NonMoving        4        0        0        4        0        0        0                           
+ .IndirectRef       48        0        4       48        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:      624
+         Native Heap:      856
+                Code:     1124
+               Stack:      104
+            Graphics:        0
+       Private Other:      444
+              System:      973
+ 
+               TOTAL:     4125       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        2           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:        2        Proxy Binders:        6
+       Parcel memory:        2         Parcel count:       10
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+** MEMINFO in pid 3298 [com.android.providers.calendar] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     1446        0     1700     1384        0        0        0     4096     2789     1306
+  Dalvik Heap      731        0     4892      628        0        0        0     5631     4224     1407
+ Dalvik Other      154        0       76      152        0        0        0                           
+        Stack      112        0       12      112        0        0        0                           
+    Other dev        4        0       36        0        0        4        0                           
+     .so mmap      290        0     2792       64     5564        0        0                           
+    .apk mmap      138       28        0        0     3520       28        0                           
+    .dex mmap      476      468        0        8        0      468        0                           
+    .oat mmap      355        8       52        0     8092        8        0                           
+    .art mmap      830        0     1508      504     8288        0        0                           
+   Other mmap       14        0       36        4      288        4        0                           
+      Unknown      229        0      236      228        0        0        0                           
+        TOTAL     4779      504    11340     3084    25752      512        0     9727     7013     2713
+ 
+ Dalvik Details
+        .Heap      492        0        0      492        0        0        0                           
+         .LOS       69        0     3964        0        0        0        0                           
+ .LinearAlloc       29        0       52       28        0        0        0                           
+          .GC       69        0       20       68        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      162        0      928      128        0        0        0                           
+   .NonMoving        8        0        0        8        0        0        0                           
+ .IndirectRef       48        0        4       48        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     1132
+         Native Heap:     1384
+                Code:      576
+               Stack:      112
+            Graphics:        0
+       Private Other:      392
+              System:     1183
+ 
+               TOTAL:     4779       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        2           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:        5        Proxy Binders:       10
+       Parcel memory:        2         Parcel count:       10
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      329
+  PAGECACHE_OVERFLOW:      158          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4      120            246      81/129/25  /data/user/0/com.android.providers.calendar/databases/calendar.db
+
+** MEMINFO in pid 2493 [com.android.printspooler] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap      867        0     1816      792        0        0        0     3584     2306     1277
+  Dalvik Heap      376        0     4900      272        0        0        0     5498     4124     1374
+ Dalvik Other      134        0       76      132        0        0        0                           
+        Stack       96        0       12       96        0        0        0                           
+    Other dev        4        0       36        0        0        4        0                           
+     .so mmap      227        0     2796       60     4556        0        0                           
+    .apk mmap      217      108        0        0     3488      108        0                           
+    .dex mmap      236      232        0        4        0      232        0                           
+    .oat mmap      235        4       52        0     6120        4        0                           
+    .art mmap      705        0     1600      368     8296        0        0                           
+   Other mmap        7        0       36        4      216        0        0                           
+      Unknown      233        0      240      232        0        0        0                           
+        TOTAL     3337      344    11564     1960    22676      348        0     9082     6430     2651
+ 
+ Dalvik Details
+        .Heap      144        0        0      144        0        0        0                           
+         .LOS       69        0     3964        0        0        0        0                           
+ .LinearAlloc       25        0       52       24        0        0        0                           
+          .GC       57        0       20       56        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      155        0      936      120        0        0        0                           
+   .NonMoving        8        0        0        8        0        0        0                           
+ .IndirectRef       44        0        4       44        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:      640
+         Native Heap:      792
+                Code:      408
+               Stack:       96
+            Graphics:        0
+       Private Other:      372
+              System:     1029
+ 
+               TOTAL:     3337       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        3           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:        2        Proxy Binders:        7
+       Parcel memory:        2         Parcel count:        8
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+** MEMINFO in pid 4620 [com.google.android.apps.photos:CameraShortcut] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     1006        0     1840      936        0        0        0     3584     2373     1210
+  Dalvik Heap      721        0     4900      616        0        0        0     5956     4467     1489
+ Dalvik Other      426        0       76      424        0        0        0                           
+        Stack      104        0       12      104        0        0        0                           
+    Other dev        4        0       36        0        0        4        0                           
+     .so mmap      235        0     2800       56     4800        0        0                           
+    .apk mmap      533        0        0        0     4336        0        0                           
+    .dex mmap     4272       28        0        4     8480       28        0                           
+    .oat mmap      214        0       52        0     6344        0        0                           
+    .art mmap      726        0     1560      392     8340        0        0                           
+   Other mmap        7        0       36        4      216        0        0                           
+      Unknown      889        0      240      888        0        0        0                           
+        TOTAL     9137       28    11552     3424    32516       32        0     9540     6840     2699
+ 
+ Dalvik Details
+        .Heap      492        0        0      492        0        0        0                           
+         .LOS       69        0     3964        0        0        0        0                           
+ .LinearAlloc      281        0       52      280        0        0        0                           
+          .GC       89        0       20       88        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      156        0      936      120        0        0        0                           
+   .NonMoving        4        0        0        4        0        0        0                           
+ .IndirectRef       48        0        4       48        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     1008
+         Native Heap:      936
+                Code:       88
+               Stack:      104
+            Graphics:        0
+       Private Other:     1320
+              System:     5681
+ 
+               TOTAL:     9137       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        2           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:        3        Proxy Binders:        7
+       Parcel memory:        2         Parcel count:       10
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+** MEMINFO in pid 3402 [com.google.android.apps.photos] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     1405        0     1772     1340        0        0        0     4608     3091     1516
+  Dalvik Heap     1765        0     4892     1660        0        0        0     6332     4749     1583
+ Dalvik Other      823        0       76      820        0        0        0                           
+        Stack      176        0       12      176        0        0        0                           
+    Other dev        4        0       36        0        0        4        0                           
+     .so mmap      249        0     2796       60     5056        0        0                           
+    .apk mmap      561       28        0        0     4336       28        0                           
+    .dex mmap     7084     2840        0        4     8480     2840        0                           
+    .oat mmap      381        4       52        0     8952        4        0                           
+    .art mmap     1004        0     1336      688     8304        0        0                           
+   Other mmap        7        0       36        4      220        0        0                           
+      Unknown     1001        0      240     1000        0        0        0                           
+        TOTAL    14460     2872    11248     5752    35348     2876        0    10940     7840     3099
+ 
+ Dalvik Details
+        .Heap     1508        0        0     1508        0        0        0                           
+         .LOS       69        0     3964        0        0        0        0                           
+ .LinearAlloc      485        0       52      484        0        0        0                           
+          .GC      262        0       20      260        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      164        0      928      128        0        0        0                           
+   .NonMoving       24        0        0       24        0        0        0                           
+ .IndirectRef       68        0        4       68        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     2348
+         Native Heap:     1340
+                Code:     2936
+               Stack:      176
+            Graphics:        0
+       Private Other:     1828
+              System:     5832
+ 
+               TOTAL:    14460       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        2           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:       10        Proxy Binders:       13
+       Parcel memory:        5         Parcel count:       22
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+** MEMINFO in pid 4367 [com.google.android.talk:matchstick] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     7741        0     1748     7680        0        0        0    10240     9016     1223
+  Dalvik Heap     1146        0     4888     1040        0        0        0     6162     4622     1540
+ Dalvik Other      439        0       76      436        0        0        0                           
+        Stack      112        0       12      112        0        0        0                           
+    Other dev        4        0       36        0        0        4        0                           
+     .so mmap      264        0     2796       60     5156        0        0                           
+    .apk mmap     1329        0        0       48     7788        0        0                           
+    .dex mmap     3943      544        0       20     8800      544        0                           
+    .oat mmap      310        0       52        0     8160        0        0                           
+    .art mmap      891        0     1436      564     8320        0        0                           
+   Other mmap        7        0       36        4      228        0        0                           
+      Unknown     1729        0      224     1728        0        0        0                           
+        TOTAL    17915      544    11304    11692    38452      548        0    16402    13638     2763
+ 
+ Dalvik Details
+        .Heap      888        0        0      888        0        0        0                           
+         .LOS       73        0     3964        4        0        0        0                           
+ .LinearAlloc      293        0       52      292        0        0        0                           
+          .GC       86        0       20       84        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      169        0      924      132        0        0        0                           
+   .NonMoving       16        0        0       16        0        0        0                           
+ .IndirectRef       52        0        4       52        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     1604
+         Native Heap:     7680
+                Code:      672
+               Stack:      112
+            Graphics:        0
+       Private Other:     2172
+              System:     5675
+ 
+               TOTAL:    17915       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        2           Activities:        0
+              Assets:        3        AssetManagers:        3
+       Local Binders:        5        Proxy Binders:       11
+       Parcel memory:        2         Parcel count:       10
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+ 
+ Asset Allocations
+    zip:/system/app/Hangouts/Hangouts.apk:/resources.arsc: 5970K
+
+** MEMINFO in pid 4014 [com.android.defcontainer] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap      984        0     1864      908        0        0        0     4096     2515     1580
+  Dalvik Heap      376        0     4896      268        0        0        0     5496     4122     1374
+ Dalvik Other      131        0       76      128        0        0        0                           
+        Stack      100        0       12      100        0        0        0                           
+    Other dev        4        0       36        0        0        4        0                           
+     .so mmap      221        0     2800       56     4552        0        0                           
+    .apk mmap      121       12        0        0     3488       12        0                           
+    .dex mmap       44       40        0        4        0       40        0                           
+    .oat mmap      300        4       52        0     6268        4        0                           
+    .art mmap      728        0     1576      392     8300        0        0                           
+   Other mmap        7        0       36        4      216        0        0                           
+      Unknown      193        0      240      192        0        0        0                           
+        TOTAL     3209       56    11588     2052    22824       60        0     9592     6637     2954
+ 
+ Dalvik Details
+        .Heap      140        0        0      140        0        0        0                           
+         .LOS       69        0     3964        0        0        0        0                           
+ .LinearAlloc       21        0       52       20        0        0        0                           
+          .GC       58        0       20       56        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      163        0      932      124        0        0        0                           
+   .NonMoving        4        0        0        4        0        0        0                           
+ .IndirectRef       44        0        4       44        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:      660
+         Native Heap:      908
+                Code:      116
+               Stack:      100
+            Graphics:        0
+       Private Other:      328
+              System:     1097
+ 
+               TOTAL:     3209       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        2           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:        2        Proxy Binders:        8
+       Parcel memory:        2         Parcel count:        8
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+** MEMINFO in pid 3945 [com.google.android.gm] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     2099        0     1608     2048        0        0        0     5120     3546     1573
+  Dalvik Heap     1499        0     4864     1392        0        0        0     6037     4528     1509
+ Dalvik Other      424        0       76      420        0        0        0                           
+        Stack      168        0       12      168        0        0        0                           
+    Other dev        4        0       40        0        0        4        0                           
+     .so mmap      408        0     2788       68     6432        0        0                           
+    .apk mmap     1870     1760        0        0     3520     1760        0                           
+    .dex mmap     5848     5844        0        4        0     5844        0                           
+    .oat mmap      656      104       52        0    10264      104        0                           
+    .art mmap     1181        0     1260      872     8212        0        0                           
+   Other mmap       42        0       36        4      544        0        0                           
+      Unknown      613        0      236      612        0        0        0                           
+        TOTAL    14812     7708    10972     5588    28972     7712        0    11157     8074     3082
+ 
+ Dalvik Details
+        .Heap     1204        0        0     1204        0        0        0                           
+         .LOS       69        0     3964        0        0        0        0                           
+ .LinearAlloc      233        0       52      232        0        0        0                           
+          .GC      115        0       20      112        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      194        0      900      156        0        0        0                           
+   .NonMoving       32        0        0       32        0        0        0                           
+ .IndirectRef       68        0        4       68        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     2264
+         Native Heap:     2048
+                Code:     7780
+               Stack:      168
+            Graphics:        0
+       Private Other:     1040
+              System:     1512
+ 
+               TOTAL:    14812       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        3           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:       21        Proxy Binders:       13
+       Parcel memory:        5         Parcel count:       20
+    Death Recipients:        1      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      392
+  PAGECACHE_OVERFLOW:      106          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4      216            413       23/34/18  /data/user/0/com.google.android.gm/databases/EmailProvider.db
+         4       24                         0/0/0    (attached) BodyDatabase: /data/user/0/com.google.android.gm/databases/EmailProviderBody.db
+         4       24             14         0/15/1  /data/user/0/com.google.android.gm/databases/EmailProviderBody.db
+
+** MEMINFO in pid 2281 [com.google.android.googlequicksearchbox:interactor] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap      889        0     1984      756        0        0        0     3584     2349     1234
+  Dalvik Heap     1006        0     4992      848        0        0        0     6936     4162     2774
+ Dalvik Other      220        0      108      200        0        0        0                           
+        Stack       92        0       12       92        0        0        0                           
+    Other dev        4        0       40        0        0        4        0                           
+     .so mmap      218        0     2796       60     4316        0        0                           
+    .apk mmap     1044        0        0        0     5536        0        0                           
+    .dex mmap     1714      116        0        4     3188      116        0                           
+    .oat mmap      289       24       52        0     7008       24        0                           
+    .art mmap      803        0     1516      468     8288        0        0                           
+   Other mmap        7        0       36        4      216        0        0                           
+      Unknown      889        0      240      888        0        0        0                           
+        TOTAL     7175      140    11776     3320    28552      144        0    10520     6511     4008
+ 
+ Dalvik Details
+        .Heap      782        0       60      752        0        0        0                           
+         .LOS       69        0     3964        0        0        0        0                           
+ .LinearAlloc       69        0       52       68        0        0        0                           
+          .GC       99        0       52       80        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      147        0      968       88        0        0        0                           
+   .NonMoving        8        0        0        8        0        0        0                           
+ .IndirectRef       44        0        4       44        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     1316
+         Native Heap:      756
+                Code:      204
+               Stack:       92
+            Graphics:        0
+       Private Other:     1096
+              System:     3711
+ 
+               TOTAL:     7175       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        3           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:        5        Proxy Binders:        9
+       Parcel memory:        2         Parcel count:        8
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+** MEMINFO in pid 2231 [com.google.android.ext.services] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap      932        0     1956      812        0        0        0     3584     2547     1036
+  Dalvik Heap      724        0     4900      608        0        0        0     6878     4127     2751
+ Dalvik Other      154        0       76      148        0        0        0                           
+        Stack      100        0       12      100        0        0        0                           
+    Other dev        4        0       36        0        0        4        0                           
+     .so mmap      218        0     2800       56     4368        0        0                           
+    .apk mmap      109        0        0        0     3488        0        0                           
+    .dex mmap       20       16        0        4        0       16        0                           
+    .oat mmap      246        0       52        0     5880        0        0                           
+    .art mmap      713        0     1596      368     8308        0        0                           
+   Other mmap        7        0       36        4      216        0        0                           
+      Unknown      197        0      236      196        0        0        0                           
+        TOTAL     3424       16    11700     2296    22260       20        0    10462     6674     3787
+ 
+ Dalvik Details
+        .Heap      368        0        0      368        0        0        0                           
+         .LOS      181        0     3964      112        0        0        0                           
+ .LinearAlloc       21        0       52       20        0        0        0                           
+          .GC       97        0       20       92        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      167        0      936      120        0        0        0                           
+   .NonMoving        8        0        0        8        0        0        0                           
+ .IndirectRef       28        0        4       28        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:      976
+         Native Heap:      812
+                Code:       76
+               Stack:      100
+            Graphics:        0
+       Private Other:      352
+              System:     1108
+ 
+               TOTAL:     3424       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        3           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:        3        Proxy Binders:        8
+       Parcel memory:        2         Parcel count:       10
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+** MEMINFO in pid 1989 [com.android.phone] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     5518        0     1604     5464        0        0        0    11264     9534     1729
+  Dalvik Heap     4840        0     4856     4720        0        0        0     8646     5188     3458
+ Dalvik Other     1079        0       76     1072        0        0        0                           
+        Stack      448        0       12      448        0        0        0                           
+       Ashmem        0        0        0        0       12        0        0                           
+    Other dev        4        0       56        0        0        4        0                           
+     .so mmap      549        0     2780       76     7832        0        0                           
+    .jar mmap        2        0        0        0        4        0        0                           
+    .apk mmap      158       24        0        0     3684       24        0                           
+    .dex mmap     1880     1868        0       12        0     1868        0                           
+    .oat mmap     4356     2708       52        0    15208     2708        0                           
+    .art mmap     1587        0     1224     1284     7868        0        0                           
+   Other mmap       10        0       36        4      288        0        0                           
+      Unknown      345        0      228      344        0        0        0                           
+        TOTAL    20776     4600    10924    13424    34896     4604        0    19910    14722     5187
+ 
+ Dalvik Details
+        .Heap     3600        0        0     3600        0        0        0                           
+         .LOS      989        0     3964      920        0        0        0                           
+ .LinearAlloc      501        0       52      500        0        0        0                           
+          .GC      430        0       20      424        0        0        0                           
+    .JITCache        8        0        0        8        0        0        0                           
+      .Zygote      215        0      892      164        0        0        0                           
+   .NonMoving       36        0        0       36        0        0        0                           
+ .IndirectRef      140        0        4      140        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     6004
+         Native Heap:     5464
+                Code:     4688
+               Stack:      448
+            Graphics:        0
+       Private Other:     1424
+              System:     2748
+ 
+               TOTAL:    20776       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:       12           Activities:        0
+              Assets:        4        AssetManagers:        4
+       Local Binders:       71        Proxy Binders:       27
+       Parcel memory:       14         Parcel count:       56
+    Death Recipients:        2      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      723
+  PAGECACHE_OVERFLOW:      259          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4      104            252      27/170/24  /data/user_de/0/com.android.providers.telephony/databases/mmssms.db
+         4       28            461      666/58/25  /data/user_de/0/com.android.providers.telephony/databases/telephony.db
+         4       56             37      2804/43/9  /data/user_de/0/com.android.providers.telephony/databases/HbpcdLookup.db
+
+** MEMINFO in pid 1850 [com.android.systemui] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    11218        0     1492    11168        0        0        0    22016    19822     2193
+  Dalvik Heap     8403        0     4704     8292        0        0        0    13549     9453     4096
+ Dalvik Other     1599        0       64     1588        0        0        0                           
+        Stack      356        0        4      356        0        0        0                           
+       Ashmem    18846        0        4    18844       12        0        0                           
+    Other dev        4        0       48        0        0        4        0                           
+     .so mmap     1649       48     2716      184    12000       48        0                           
+    .apk mmap      658      116        0        0     4944      116        0                           
+    .ttf mmap      119        4        0        0      464        4        0                           
+    .dex mmap     6650     5896        0        4     1500     5896        0                           
+    .oat mmap     3824      876       52        0    20184      876        0                           
+    .art mmap     2004        0      988     1716     7684        0        0                           
+   Other mmap       71        0       36        4      716        4        0                           
+      Unknown      777        0      204      776        0        0        0                           
+        TOTAL    56178     6940    10312    42932    47504     6948        0    35565    29275     6289
+ 
+ Dalvik Details
+        .Heap     6152        0        0     6152        0        0        0                           
+         .LOS     1761        0     3964     1692        0        0        0                           
+ .LinearAlloc     1177        0       40     1176        0        0        0                           
+          .GC      314        0       20      304        0        0        0                           
+    .JITCache       12        0        0       12        0        0        0                           
+      .Zygote      358        0      740      316        0        0        0                           
+   .NonMoving      132        0        0      132        0        0        0                           
+ .IndirectRef       96        0        4       96        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    10008
+         Native Heap:    11168
+                Code:     7128
+               Stack:      356
+            Graphics:        0
+       Private Other:    21220
+              System:     6298
+ 
+               TOTAL:    56178       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:      736         ViewRootImpl:        7
+         AppContexts:       11           Activities:        1
+              Assets:        2        AssetManagers:        3
+       Local Binders:      131        Proxy Binders:       57
+       Parcel memory:       11         Parcel count:       48
+    Death Recipients:        2      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+** MEMINFO in pid 1700 [system] **
+                   Pss      Pss   Shared  Private   Shared  Private  SwapPss     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    21141        0     1424    21096        0        0        0    76288    54335    21952
+  Dalvik Heap    14652        0     4584    14564        0        0        0    16796    12700     4096
+ Dalvik Other     3105        0       44     3104        0        0        0                           
+        Stack     1616        0        8     1616        0        0        0                           
+       Ashmem     1400        0       36     1384        0        0        0                           
+    Other dev       13        0       88        0        0        4        0                           
+     .so mmap     2583      736     2692      252    13000      736        0                           
+    .apk mmap     1075       56        0        0     5904       56        0                           
+    .ttf mmap       37        0        0        0      224        0        0                           
+    .dex mmap    18647    18604        0       28       56    18604        0                           
+    .oat mmap     6568     2124       52        0    26068     2124        0                           
+    .art mmap     2615       12      724     2336     7344       12        0                           
+   Other mmap      190        0      116        4      720      100        0                           
+      Unknown      913        0      176      912        0        0        0                           
+        TOTAL    74555    21532     9944    45296    53316    21636        0    93084    67035    26048
+ 
+ Dalvik Details
+        .Heap    13680        0        0    13680        0        0        0                           
+         .LOS      413        0     3964      344        0        0        0                           
+ .LinearAlloc     2117        0       40     2116        0        0        0                           
+          .GC      684        0        0      684        0        0        0                           
+      .Zygote      455        0      620      436        0        0        0                           
+   .NonMoving      104        0        0      104        0        0        0                           
+ .IndirectRef      304        0        4      304        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    16912
+         Native Heap:    21096
+                Code:    21800
+               Stack:     1616
+            Graphics:        0
+       Private Other:     5508
+              System:     7623
+ 
+               TOTAL:    74555       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:       48         ViewRootImpl:        2
+         AppContexts:       17           Activities:        0
+              Assets:        7        AssetManagers:        8
+       Local Binders:      264        Proxy Binders:      811
+       Parcel memory:      286         Parcel count:      308
+    Death Recipients:      389      OpenSSL Sockets:        3
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      511
+  PAGECACHE_OVERFLOW:      172          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             24        26/42/5  /data/system/locksettings.db
+         4       20             25        22/15/3  /data/system/locksettings.db (1)
+         4       56             56       30/48/10  /data/system_de/0/accounts_de.db
+         4       40                         0/0/0    (attached) ceDb: /data/system_ce/0/accounts_ce.db
+         4       20             32        21/32/8  /data/system/notification_log.db
+
+Total PSS by process:
+    122,414K: com.google.android.googlequicksearchbox:search (pid 2428)
+     74,555K: system (pid 1700)
+     69,173K: com.google.android.gms (pid 2563)
+     56,178K: com.android.systemui (pid 1850 / activities)
+     53,165K: com.google.android.gms.persistent (pid 2259)
+     38,717K: com.esoxjem.movieguide (pid 5026 / activities)
+     29,743K: com.google.android.talk (pid 3912)
+     27,658K: com.google.android.music:main (pid 4272)
+     26,207K: com.google.android.apps.nexuslauncher (pid 2522 / activities)
+     20,776K: com.android.phone (pid 1989)
+     19,874K: com.android.inputmethod.latin (pid 1822)
+     17,915K: com.google.android.talk:matchstick (pid 4367)
+     17,572K: zygote (pid 1395)
+     15,282K: com.google.android.apps.messaging (pid 5108)
+     14,812K: com.google.android.gm (pid 3945)
+     14,460K: com.google.android.apps.photos (pid 3402)
+     14,066K: com.android.systemui:screenshot (pid 5295)
+     13,504K: com.google.android.gms.unstable (pid 4798)
+     11,251K: android.process.media (pid 2671)
+      9,884K: android.process.acore (pid 2678)
+      9,504K: com.android.chrome (pid 4924)
+      9,137K: com.google.android.apps.photos:CameraShortcut (pid 4620)
+      7,868K: audioserver (pid 1396)
+      7,175K: com.google.android.googlequicksearchbox:interactor (pid 2281)
+      6,254K: com.google.process.gapps (pid 2338)
+      4,779K: com.android.providers.calendar (pid 3298)
+      4,570K: com.android.settings (pid 5087)
+      4,125K: com.google.android.apps.wallpaper (pid 4754)
+      3,853K: mediaserver (pid 1404)
+      3,457K: com.google.android.partnersetup (pid 5217)
+      3,424K: com.google.android.ext.services (pid 2231)
+      3,408K: com.android.cellbroadcastreceiver (pid 5060)
+      3,337K: com.android.printspooler (pid 2493)
+      3,209K: com.android.defcontainer (pid 4014)
+      3,205K: media.extractor (pid 1403)
+      2,838K: logd (pid 1262)
+      2,766K: media.codec (pid 1401)
+      2,570K: mediadrmserver (pid 1402)
+      2,382K: cameraserver (pid 1397)
+      2,043K: surfaceflinger (pid 1316)
+      1,646K: vold (pid 1271)
+      1,450K: netd (pid 1405)
+      1,447K: drmserver (pid 1398)
+      1,295K: sdcard (pid 1861)
+      1,271K: sdcard (pid 1951)
+      1,114K: /init (pid 1)
+      1,089K: hostapd (pid 1602)
+        907K: keystore (pid 1400)
+        875K: adbd (pid 1318)
+        841K: dumpstate (pid 5347)
+        740K: rild (pid 1406)
+        709K: fingerprintd (pid 1408)
+        678K: gatekeeperd (pid 1409)
+        675K: installd (pid 1399)
+        646K: lmkd (pid 1314)
+        642K: ueventd (pid 933)
+        527K: servicemanager (pid 1315)
+        512K: healthd (pid 1310)
+        501K: dumpsys (pid 5351)
+        476K: sh (pid 1317)
+        452K: sh (pid 1525)
+        448K: perfprofd (pid 1414)
+        334K: ipv6proxy (pid 1590)
+        329K: dhcpclient (pid 1513)
+        325K: dhcpserver (pid 1605)
+        318K: bugreportz (pid 5345)
+        276K: debuggerd (pid 1270)
+        241K: debuggerd:signaller (pid 1273)
+
+Total PSS by OOM adjustment:
+     65,861K: Native
+         17,572K: zygote (pid 1395)
+          7,868K: audioserver (pid 1396)
+          3,853K: mediaserver (pid 1404)
+          3,205K: media.extractor (pid 1403)
+          2,838K: logd (pid 1262)
+          2,766K: media.codec (pid 1401)
+          2,570K: mediadrmserver (pid 1402)
+          2,382K: cameraserver (pid 1397)
+          2,043K: surfaceflinger (pid 1316)
+          1,646K: vold (pid 1271)
+          1,450K: netd (pid 1405)
+          1,447K: drmserver (pid 1398)
+          1,295K: sdcard (pid 1861)
+          1,271K: sdcard (pid 1951)
+          1,114K: /init (pid 1)
+          1,089K: hostapd (pid 1602)
+            907K: keystore (pid 1400)
+            875K: adbd (pid 1318)
+            841K: dumpstate (pid 5347)
+            740K: rild (pid 1406)
+            709K: fingerprintd (pid 1408)
+            678K: gatekeeperd (pid 1409)
+            675K: installd (pid 1399)
+            646K: lmkd (pid 1314)
+            642K: ueventd (pid 933)
+            527K: servicemanager (pid 1315)
+            512K: healthd (pid 1310)
+            501K: dumpsys (pid 5351)
+            476K: sh (pid 1317)
+            452K: sh (pid 1525)
+            448K: perfprofd (pid 1414)
+            334K: ipv6proxy (pid 1590)
+            329K: dhcpclient (pid 1513)
+            325K: dhcpserver (pid 1605)
+            318K: bugreportz (pid 5345)
+            276K: debuggerd (pid 1270)
+            241K: debuggerd:signaller (pid 1273)
+     74,555K: System
+         74,555K: system (pid 1700)
+     76,954K: Persistent
+         56,178K: com.android.systemui (pid 1850 / activities)
+         20,776K: com.android.phone (pid 1989)
+     38,717K: Foreground
+         38,717K: com.esoxjem.movieguide (pid 5026 / activities)
+    132,937K: Visible
+         69,173K: com.google.android.gms (pid 2563)
+         53,165K: com.google.android.gms.persistent (pid 2259)
+          7,175K: com.google.android.googlequicksearchbox:interactor (pid 2281)
+          3,424K: com.google.android.ext.services (pid 2231)
+     19,874K: Perceptible
+         19,874K: com.android.inputmethod.latin (pid 1822)
+     27,658K: A Services
+         27,658K: com.google.android.music:main (pid 4272)
+    148,621K: Home
+        122,414K: com.google.android.googlequicksearchbox:search (pid 2428)
+         26,207K: com.google.android.apps.nexuslauncher (pid 2522 / activities)
+     30,846K: Previous
+         11,251K: android.process.media (pid 2671)
+          9,884K: android.process.acore (pid 2678)
+          6,254K: com.google.process.gapps (pid 2338)
+          3,457K: com.google.android.partnersetup (pid 5217)
+    161,851K: Cached
+         29,743K: com.google.android.talk (pid 3912)
+         17,915K: com.google.android.talk:matchstick (pid 4367)
+         15,282K: com.google.android.apps.messaging (pid 5108)
+         14,812K: com.google.android.gm (pid 3945)
+         14,460K: com.google.android.apps.photos (pid 3402)
+         14,066K: com.android.systemui:screenshot (pid 5295)
+         13,504K: com.google.android.gms.unstable (pid 4798)
+          9,504K: com.android.chrome (pid 4924)
+          9,137K: com.google.android.apps.photos:CameraShortcut (pid 4620)
+          4,779K: com.android.providers.calendar (pid 3298)
+          4,570K: com.android.settings (pid 5087)
+          4,125K: com.google.android.apps.wallpaper (pid 4754)
+          3,408K: com.android.cellbroadcastreceiver (pid 5060)
+          3,337K: com.android.printspooler (pid 2493)
+          3,209K: com.android.defcontainer (pid 4014)
+
+Total PSS by category:
+    176,853K: .dex mmap
+    175,582K: Native
+    116,364K: Dalvik
+         78,718K: .Heap
+         30,316K: .LOS
+         16,302K: .LinearAlloc
+          6,374K: .Zygote
+          5,827K: .GC
+          2,700K: .IndirectRef
+            956K: .NonMoving
+            396K: .JITCache
+     54,834K: .so mmap
+     51,385K: .apk mmap
+     41,852K: .oat mmap
+     40,272K: Unknown
+     38,383K: .art mmap
+     25,892K: Ashmem
+     25,225K: Dalvik Other
+     15,937K: Other mmap
+     12,560K: Stack
+      2,006K: .ttf mmap
+        565K: Other dev
+        164K: .jar mmap
+          0K: Cursor
+          0K: Gfx dev
+          0K: EGL mtrack
+          0K: GL mtrack
+          0K: Other mtrack
+
+Total RAM: 1,550,676K (status normal)
+ Free RAM:   840,275K (  161,851K cached pss +   395,344K cached kernel +   283,080K free)
+ Used RAM:   697,147K (  616,023K used pss +    81,124K kernel)
+ Lost RAM:    13,254K
+   Tuning: 384 (large 384), oom   184,320K, restore limit    61,440K (high-end-gfx)

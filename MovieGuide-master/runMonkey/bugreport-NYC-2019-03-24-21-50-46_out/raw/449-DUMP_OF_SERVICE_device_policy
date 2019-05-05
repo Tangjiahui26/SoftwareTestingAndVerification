@@ -1,0 +1,45 @@
+Current Device Policy Manager state:
+
+  Enabled Device Admins (User 0, provisioningState: 0):
+    com.google.android.gms/.mdm.receivers.MdmDeviceAdminReceiver:
+      uid=10013
+      testOnlyAdmin=false
+      policies:
+        wipe-data
+        reset-password
+        force-lock
+        disable-keyguard-features
+      passwordQuality=0x0
+      minimumPasswordLength=0
+      passwordHistoryLength=0
+      minimumPasswordUpperCase=0
+      minimumPasswordLowerCase=0
+      minimumPasswordLetters=1
+      minimumPasswordNumeric=1
+      minimumPasswordSymbols=1
+      minimumPasswordNonLetter=0
+      maximumTimeToUnlock=0
+      strongAuthUnlockTimeout=0
+      maximumFailedPasswordsForWipe=0
+      specifiesGlobalProxy=false
+      passwordExpirationTimeout=0
+      passwordExpirationDate=0
+      encryptionRequested=false
+      disableCamera=false
+      disableCallerId=false
+      disableContactsSearch=false
+      disableBluetoothContactSharing=true
+      disableScreenCapture=false
+      requireAutoTime=false
+      forceEphemeralUsers=false
+      disabledKeyguardFeatures=0
+      crossProfileWidgetProviders=null
+      organizationColor=-16746133
+      userRestrictions:
+        null
+      isParent=false
+ 
+    mPasswordOwner=-1
+
+Encryption Status: block default key
+--------- 0.010s was the duration of dumpsys device_policy

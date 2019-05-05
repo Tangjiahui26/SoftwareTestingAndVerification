@@ -1,0 +1,119 @@
+Camera module HAL API version: 0x100
+Camera module API version: 0x203
+Camera module name: Emulated Camera Module
+Camera module author: The Android Open Source Project
+Number of camera devices: 2
+Number of normal camera devices: 2
+Active Camera Clients:
+[]
+Allowed users:
+0
+Vendor tags left unimplemented.
+
+Prior client events (most recent at top):
+  03-25 04:48:12 : USER_SWITCH previous allowed users:  , current allowed users: 0
+  03-25 04:48:12 : DISCONNECT device 1 client for package cameraserver (PID 1397)
+  03-25 04:48:12 : DISCONNECT device 0 client for package cameraserver (PID 1397)
+
+Camera 0 information:
+  Facing: BACK
+  Orientation: 90
+  Resource Cost: 100
+  Conflicting Devices: NONE
+  Device version: 0x100
+  Camera1 API shim is using parameters:
+        CameraParameters::dump: mMap.size = 39
+	antibanding: auto
+	antibanding-values: auto
+	effect: none
+	effect-values: none
+	exposure-compensation: 0
+	exposure-compensation-step: 0.5
+	focal-length: 4.90
+	focus-distances: Infinity,Infinity,Infinity
+	focus-mode: fixed
+	focus-mode-values: fixed
+	horizontal-view-angle: 61.0
+	jpeg-quality: 90
+	jpeg-thumbnail-height: 240
+	jpeg-thumbnail-quality: 90
+	jpeg-thumbnail-size-values: 320x240,0x0
+	jpeg-thumbnail-width: 320
+	max-exposure-compensation: 6
+	min-exposure-compensation: -6
+	picture-format: jpeg
+	picture-format-values: jpeg
+	picture-size: 640x480
+	picture-size-values: 640x480,352x288,320x240
+	preferred-preview-size-for-video: 640x480
+	preview-format: yuv420sp
+	preview-format-values: yuv420sp,yuv420p,rgba8888
+	preview-fps-range: 24000,24000
+	preview-fps-range-values: (24000,24000)
+	preview-frame-rate: 24
+	preview-frame-rate-values: 30,24,20,15,10,5
+	preview-size: 640x480
+	preview-size-values: 640x480,352x288,320x240,176x144
+	prop-facing: back
+	prop-orientation: 90
+	recording-hint: false
+	vertical-view-angle: 45.8
+	video-frame-format: yuv420p
+	video-size-values: 640x480,352x288,320x240,176x144
+	whitebalance: auto
+	whitebalance-values: auto,incandescent,daylight,twilight
+  Device 0 is closed, no client instance
+Camera 1 information:
+  Facing: FRONT
+  Orientation: 90
+  Resource Cost: 100
+  Conflicting Devices: NONE
+  Device version: 0x100
+  Camera1 API shim is using parameters:
+        CameraParameters::dump: mMap.size = 39
+	antibanding: auto
+	antibanding-values: auto
+	effect: none
+	effect-values: none
+	exposure-compensation: 0
+	exposure-compensation-step: 0.5
+	focal-length: 4.90
+	focus-distances: Infinity,Infinity,Infinity
+	focus-mode: fixed
+	focus-mode-values: fixed
+	horizontal-view-angle: 61.0
+	jpeg-quality: 90
+	jpeg-thumbnail-height: 240
+	jpeg-thumbnail-quality: 90
+	jpeg-thumbnail-size-values: 320x240,0x0
+	jpeg-thumbnail-width: 320
+	max-exposure-compensation: 6
+	min-exposure-compensation: -6
+	picture-format: jpeg
+	picture-format-values: jpeg
+	picture-size: 640x480
+	picture-size-values: 640x480,352x288,320x240
+	preferred-preview-size-for-video: 640x480
+	preview-format: yuv420sp
+	preview-format-values: yuv420sp,yuv420p,rgba8888
+	preview-fps-range: 24000,24000
+	preview-fps-range-values: (24000,24000)
+	preview-frame-rate: 24
+	preview-frame-rate-values: 30,24,20,15,10,5
+	preview-size: 640x480
+	preview-size-values: 640x480,352x288,320x240,176x144
+	prop-facing: front
+	prop-orientation: 90
+	recording-hint: false
+	vertical-view-angle: 45.8
+	video-frame-format: yuv420p
+	video-size-values: 640x480,352x288,320x240,176x144
+	whitebalance: auto
+	whitebalance-values: auto,incandescent,daylight,twilight
+  Device 1 is closed, no client instance
+
+No active camera clients yet.
+
+Camera traces (0):
+  No camera traces collected.
+--------- 0.004s was the duration of dumpsys media.camera
